@@ -1,0 +1,279 @@
+<?xml version='1.0'?>
+
+<SailingXRR Date="20090201" Time="215755" Type="SailingXRR" Version="1.0" 
+		xsi:noNamespaceSchemaLocation="sailingXRR_v1.1.xsd" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<PersonList>
+		<Person FamilyName='Saari' GivenName='Hanna' IFPersonID='finhs3' NOC='FIN' PersonID='finhs3'></Person>
+		<Person FamilyName='Wulff' GivenName='Mikaela' IFPersonID='finmw1' NOC='FIN' PersonID='finmw1'></Person>
+		<Person FamilyName='Koch' GivenName='Henriette' IFPersonID='denhk2' NOC='DEN' PersonID='denhk2'></Person>
+		<Person FamilyName='Sommer' GivenName='Lene' IFPersonID='denls2' NOC='DEN' PersonID='denls2'></Person>
+		<Person FamilyName='Vogl' GivenName='Sylvia' IFPersonID='autsv1' NOC='AUT' PersonID='autsv1'></Person>
+		<Person FamilyName='Wollner' GivenName='Alexandra' IFPersonID='autaw3' NOC='AUT' PersonID='autaw3'></Person>
+		<Person FamilyName='Williams' GivenName='Kristine' IFPersonID='cankw3' NOC='CAN' PersonID='cankw3'></Person>
+		<Person FamilyName='Braem' GivenName='Jennifer' IFPersonID='canjb24' NOC='CAN' PersonID='canjb24'></Person>
+		<Person FamilyName='Jolly' GivenName='Allison' IFPersonID='usaaj10' NOC='USA' PersonID='usaaj10'></Person>
+		<Person FamilyName='Smith' GivenName='Darby' IFPersonID='usads96' NOC='USA' PersonID='usads96'></Person>
+		<Person FamilyName='Hudson' GivenName='Stephanie' IFPersonID='usash40' NOC='USA' PersonID='usash40'></Person>
+		<Person FamilyName='King' GivenName='Rebecca' IFPersonID='usark47' NOC='USA' PersonID='usark47'></Person>
+		<Person FamilyName='Maxwell' GivenName='Erin' IFPersonID='usaem1' NOC='USA' PersonID='usaem1'></Person>
+		<Person FamilyName='Kinsolving' GivenName='Isabelle' IFPersonID='usaik1' NOC='USA' PersonID='usaik1'></Person>
+		<Person FamilyName='Fox' GivenName='Sara' IFPersonID='usasf7' NOC='USA' PersonID='usasf7'></Person>
+		<Person FamilyName='Sinclair' GivenName='Lauren' IFPersonID='usals35' NOC='USA' PersonID='usals35'></Person>
+		<Person FamilyName='Carapiet' GivenName='Molly' IFPersonID='usamc25' NOC='USA' PersonID='usamc25'></Person>
+		<Person FamilyName='O&#39;Bryan Vandemoer' GivenName='Molly' IFPersonID='usamo13' NOC='USA' PersonID='usamo13'></Person>
+	</PersonList>
+	<BoatList>
+		<Boat BoatID='1' BoatName='' SailNumber='FIN 4'></Boat>
+		<Boat BoatID='2' BoatName='' SailNumber='DEN 143'></Boat>
+		<Boat BoatID='3' BoatName='' SailNumber='AUT 431'></Boat>
+		<Boat BoatID='4' BoatName='' SailNumber='CAN 610'></Boat>
+		<Boat BoatID='5' BoatName='' SailNumber='USA 1705'></Boat>
+		<Boat BoatID='6' BoatName='' SailNumber='USA 1747'></Boat>
+		<Boat BoatID='7' BoatName='' SailNumber='USA 1757'></Boat>
+		<Boat BoatID='8' BoatName='' SailNumber='USA 1764'></Boat>
+		<Boat BoatID='9' BoatName='' SailNumber='USA 1768'></Boat>
+	</BoatList>
+	<TeamList>
+		<Team NOC='FIN' TeamID='finhs3'>
+			<CrewList>
+				<Crew PersonID='finhs3' Position='S'></Crew>
+				<Crew PersonID='finmw1' Position='C'></Crew>
+			</CrewList>
+		</Team>
+		<Team NOC='DEN' TeamID='denhk2'>
+			<CrewList>
+				<Crew PersonID='denhk2' Position='S'></Crew>
+				<Crew PersonID='denls2' Position='C'></Crew>
+			</CrewList>
+		</Team>
+		<Team NOC='AUT' TeamID='autsv1'>
+			<CrewList>
+				<Crew PersonID='autsv1' Position='S'></Crew>
+				<Crew PersonID='autaw3' Position='C'></Crew>
+			</CrewList>
+		</Team>
+		<Team NOC='CAN' TeamID='cankw3'>
+			<CrewList>
+				<Crew PersonID='cankw3' Position='S'></Crew>
+				<Crew PersonID='canjb24' Position='C'></Crew>
+			</CrewList>
+		</Team>
+		<Team NOC='USA' TeamID='usaaj10'>
+			<CrewList>
+				<Crew PersonID='usaaj10' Position='S'></Crew>
+				<Crew PersonID='usads96' Position='C'></Crew>
+			</CrewList>
+		</Team>
+		<Team NOC='USA' TeamID='usash40'>
+			<CrewList>
+				<Crew PersonID='usash40' Position='S'></Crew>
+				<Crew PersonID='usark47' Position='C'></Crew>
+			</CrewList>
+		</Team>
+		<Team NOC='USA' TeamID='usaem1'>
+			<CrewList>
+				<Crew PersonID='usaem1' Position='S'></Crew>
+				<Crew PersonID='usaik1' Position='C'></Crew>
+			</CrewList>
+		</Team>
+		<Team NOC='USA' TeamID='usasf7'>
+			<CrewList>
+				<Crew PersonID='usasf7' Position='S'></Crew>
+				<Crew PersonID='usals35' Position='C'></Crew>
+			</CrewList>
+		</Team>
+		<Team NOC='USA' TeamID='usamc25'>
+			<CrewList>
+				<Crew PersonID='usamc25' Position='S'></Crew>
+				<Crew PersonID='usamo13' Position='C'></Crew>
+			</CrewList>
+		</Team>
+	</TeamList>
+	<RaceList>
+		<Race RaceID="1" RaceNumber="1" />
+		<Race RaceID="38" RaceNumber="2" />
+		<Race RaceID="70" RaceNumber="3" />
+		<Race RaceID="114" RaceNumber="4" />
+		<Race RaceID="116" RaceNumber="5" />
+		<Race RaceID="118" RaceNumber="6" />
+		<Race RaceID="222" RaceNumber="7" />
+		<Race RaceID="304" RaceNumber="8" />
+		<Race RaceID="385" RaceNumber="9" />
+		<Race RaceID="429" RaceNumber="10" />
+		<Race RaceID="430" RaceNumber="11" />
+		<Race RaceID="447" RaceNumber="12" RaceName="Medal"/>
+	</RaceList>
+	<EventList>
+		<Event EventID='0' IFEventID='9733' Title='US SAILING&#39;s Rolex Miami OCR - 470 Women'>
+			<DivisionList>
+				<Division DivisionID='1' Gender='F' IFClassID='470' Title='470-Women'>
+					<EntryList>
+						<Entry TeamID='finhs3' BoatID='1'>
+							<Result NetPoints='40' Rank='4' Tied='false' TotalPoints='45'>
+								<RacePointsList>
+									<RacePoints Discard='true' RaceID='1' RacePoints='5' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='38' RacePoints='5' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='70' RacePoints='1' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='114' RacePoints='2' ScoreCode='MAN/2.001'></RacePoints>
+									<RacePoints Discard='false' RaceID='116' RacePoints='3' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='118' RacePoints='5' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='222' RacePoints='2' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='304' RacePoints='5' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='385' RacePoints='3' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='429' RacePoints='2' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='430' RacePoints='2' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='447' RacePoints='10' ScoreCode='' ></RacePoints>
+								</RacePointsList>
+							</Result>
+						</Entry>
+						<Entry TeamID='denhk2' BoatID='2'>
+							<Result NetPoints='22' Rank='1' Tied='false' TotalPoints='27'>
+								<RacePointsList>
+									<RacePoints Discard='false' RaceID='1' RacePoints='4' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='38' RacePoints='1' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='70' RacePoints='2' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='114' RacePoints='1' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='116' RacePoints='1' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='118' RacePoints='2' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='222' RacePoints='3' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='304' RacePoints='2' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='385' RacePoints='1' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='true' RaceID='429' RacePoints='5' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='430' RacePoints='1' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='447' RacePoints='4' ScoreCode='' ></RacePoints>
+								</RacePointsList>
+							</Result>
+						</Entry>
+						<Entry  TeamID='autsv1' BoatID='3'>
+							<Result NetPoints='55' Rank='5' Tied='false' TotalPoints='65'>
+								<RacePointsList>
+									<RacePoints Discard='false' RaceID='1' RacePoints='2' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='38' RacePoints='3' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='true' RaceID='70' RacePoints='10' ScoreCode='DNS'></RacePoints>
+									<RacePoints Discard='false' RaceID='114' RacePoints='10' ScoreCode='DNS' ></RacePoints>
+									<RacePoints Discard='false' RaceID='116' RacePoints='10' ScoreCode='DNS' ></RacePoints>
+									<RacePoints Discard='false' RaceID='118' RacePoints='4' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='222' RacePoints='5' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='304' RacePoints='4' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='385' RacePoints='5' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='429' RacePoints='3' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='430' RacePoints='3' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='447' RacePoints='6' ScoreCode='' ></RacePoints>
+								</RacePointsList>
+							</Result>
+						</Entry>
+						<Entry TeamID='cankw3' BoatID='4'>
+							<Result NetPoints='85' Rank='8' Tied='false' TotalPoints='94'>
+								<RacePointsList>
+									<RacePoints Discard='true' RaceID='1' RacePoints='9' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='38' RacePoints='8' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='70' RacePoints='4' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='114' RacePoints='7' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='116' RacePoints='7' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='118' RacePoints='8' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='222' RacePoints='8' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='304' RacePoints='8' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='385' RacePoints='8' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='429' RacePoints='8' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='430' RacePoints='7' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='447' RacePoints='12' ScoreCode='' ></RacePoints>
+								</RacePointsList>
+							</Result>
+						</Entry>
+						<Entry TeamID='usaaj10' BoatID='5'>
+							<Result NetPoints='74' Rank='6' Tied='false' TotalPoints='84'>
+								<RacePointsList>
+									<RacePoints Discard='false' RaceID='1' RacePoints='6' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='true' RaceID='38' RacePoints='10' ScoreCode='OCS' ></RacePoints>
+									<RacePoints Discard='false' RaceID='70' RacePoints='3' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='114' RacePoints='5' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='116' RacePoints='5' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='118' RacePoints='6' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='222' RacePoints='6' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='304' RacePoints='6' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='385' RacePoints='6' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='429' RacePoints='7' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='430' RacePoints='10' ScoreCode='DNF' ></RacePoints>
+									<RacePoints Discard='false' RaceID='447' RacePoints='14' ScoreCode='' ></RacePoints>
+								</RacePointsList>
+							</Result>
+						</Entry>
+						<Entry TeamID='usash40' BoatID='6'>
+							<Result NetPoints='81' Rank='7' Tied='false' TotalPoints='91'>
+								<RacePointsList>
+									<RacePoints Discard='false' RaceID='1' RacePoints='7' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='38' RacePoints='6' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='true' RaceID='70' RacePoints='10' ScoreCode='OCS' ></RacePoints>
+									<RacePoints Discard='false' RaceID='114' RacePoints='6' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='116' RacePoints='6' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='118' RacePoints='7' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='222' RacePoints='7' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='304' RacePoints='7' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='385' RacePoints='7' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='429' RacePoints='6' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='430' RacePoints='6' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='447' RacePoints='16' ScoreCode='' ></RacePoints>
+								</RacePointsList>
+							</Result>
+						</Entry>
+						<Entry TeamID='usaem1' BoatID='7'>
+							<Result NetPoints='26' Rank='2' Tied='false' TotalPoints='36'>
+								<RacePointsList>
+									<RacePoints Discard='false' RaceID='1' RacePoints='1' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='38' RacePoints='2' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='true' RaceID='70' RacePoints='10' ScoreCode='OCS' ></RacePoints>
+									<RacePoints Discard='false' RaceID='114' RacePoints='3' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='116' RacePoints='2' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='118' RacePoints='1' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='222' RacePoints='1' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='304' RacePoints='1' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='385' RacePoints='4' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='429' RacePoints='4' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='430' RacePoints='5' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='447' RacePoints='2' ScoreCode='' ></RacePoints>
+								</RacePointsList>
+							</Result>
+						</Entry>
+						<Entry TeamID='usasf7' BoatID='8'>
+							<Result NetPoints='105' Rank='9' Tied='false' TotalPoints='115'>
+								<RacePointsList>
+									<RacePoints Discard='false' RaceID='1' RacePoints='8' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='38' RacePoints='7' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='70' RacePoints='5' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='114' RacePoints='8' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='true' RaceID='116' RacePoints='10' ScoreCode='DNS'></RacePoints>
+									<RacePoints Discard='false' RaceID='118' RacePoints='9' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='222' RacePoints='9' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='304' RacePoints='9' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='385' RacePoints='10' ScoreCode='DNS' ></RacePoints>
+									<RacePoints Discard='false' RaceID='429' RacePoints='10' ScoreCode='DNS' ></RacePoints>
+									<RacePoints Discard='false' RaceID='430' RacePoints='10' ScoreCode='DNS' ></RacePoints>
+									<RacePoints Discard='false' RaceID='447' RacePoints='20' ScoreCode='DNS' ></RacePoints>
+								</RacePointsList>
+							</Result>
+						</Entry>
+						<Entry TeamID='usamc25' BoatID='9'>
+							<Result NetPoints='40' Rank='3' Tied='false' TotalPoints='50'>
+								<RacePointsList>
+									<RacePoints Discard='false' RaceID='1' RacePoints='3' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='38' RacePoints='4' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='true' RaceID='70' RacePoints='10' ScoreCode='OCS'></RacePoints>
+									<RacePoints Discard='false' RaceID='114' RacePoints='4' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='116' RacePoints='4' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='118' RacePoints='3' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='222' RacePoints='4' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='304' RacePoints='3' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='385' RacePoints='2' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='429' RacePoints='1' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='430' RacePoints='4' ScoreCode='' ></RacePoints>
+									<RacePoints Discard='false' RaceID='447' RacePoints='8' ScoreCode='' ></RacePoints>
+								</RacePointsList>
+							</Result>
+						</Entry>
+					</EntryList>
+				</Division>
+			</DivisionList>
+		</Event>
+	</EventList>
+</SailingXRR>

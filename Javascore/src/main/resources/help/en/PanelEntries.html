@@ -1,0 +1,82 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>JavaScore</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+
+<h3><b>JavaScore - Entries Screen</b></h3>
+<p>This panel edits information about entries.&nbsp;&nbsp; The window has two
+main components.&nbsp; On the left is a &quot;tree&quot; of all entries by
+class.&nbsp; On the right is the details about the selected entry (if
+any).&nbsp;&nbsp;&nbsp;</p>
+<p>To open a class in the tree and show its entries, click on the toggle (<img border="0" src="PanelE1.gif" width="17" height="10">)
+so that it looks like this (<img border="0" src="PanelE2.gif" align="bottom" width="15" height="20">).&nbsp;
+When you click on an entry in the tree, its details will be show on the right.</p>
+<p>Press Add to add a new entry (select a class first, and that class will be
+the new entry's initial division).</p>
+<p>Select one or more entries, and press Delete to delete entries.</p>
+<p>In the Entry Panel itself, the following data is
+currently maintained about each entry.&nbsp; All of this information is
+optional, but I strongly suggest that you give each boat at least a&nbsp; sail
+number, and either a boat name or a skipper's name.&nbsp; The rest is up to
+you.&nbsp;&nbsp;</p>
+<p><a name="division"></a><b>Class</b>:&nbsp; this choice box tells the class in
+which the boat is entered.&nbsp; You set the classes in the event on the <a href="PanelRegatta.html">main
+regatta screen</a>.&nbsp; By default, the selected class for a new entry is the
+same class as the previous entry.&nbsp; If you have only one class, leaving
+class of &quot;&lt;none&gt;&quot; is OK (but ugly, I wouldn't do it if I were
+you, but I recognize that often single class imports may not have a class
+assigned).&nbsp; If you have more than one class in the event, boats without a
+class assignment will not be scored.</p>
+<p><a name="rating"></a><b>Rating</b>: This only shows when the class is a handicap class, enter the
+boat's rating</p>
+<p><a name="sail"></a><b>Sail#</b>: the sail number of the boat.&nbsp; This can
+be anything you'd like.&nbsp; I will parse into into 3 pieces: an initial
+alphabetic portion, a center number, and a trailing alphabetic portion.&nbsp;
+None of the three are required, but they correspond to the typical sailing
+number:&nbsp; Country Number {trailer}.&nbsp; The 'trailer' is not often used,
+but countries like England sometimes have numbers like:&nbsp; &quot;GBR 2345
+Y&quot;.<br>
+&nbsp;&nbsp;&nbsp; Duplicates are accepted, although I will warn you if you
+enter a duplicate.</p>
+<p><a name="bow"></a><b>Bow#:</b> the bow number of the boat.&nbsp; This field
+only appears if the &quot;Bow numbers&quot; parameter is selected on the main
+regatta page.&nbsp; Like the Sail#, this does not have to be a number, I accept
+any string.&nbsp; I also will accept duplicates, but will warn you first. </p>
+<p>A warning will be generated for Bow numbers that match Sail numbers and vica
+versa.</p>
+<p><a name="name"></a><b>Name:</b>&nbsp; The boat's name (If there is one, blank
+is fine).</p>
+<p><a name="team"></a><b>Team Table</b>: In each row, enter the last name, first name
+and the isaf id (if any) of the skipper and crew. If it is a syndicate name, I recommend putting the entire name as
+the last name rather than part of it as the first name.  You can enter as many crew as you want, just
+keep putting new crew names in the "*" row and a new row for the next crew member will be appear.</p>
+<p>If you enter a sailor's
+ISAF sailor id, then I'll automatically create a link around the sailor's name in all the reports to point to
+their biographical information on the ISAF web site (www.sailing.org).&nbsp; For
+more information about this free service from ISAF, see: <a href="http://www.sailing.org/isafsailor/">http://www.sailing.org/isafsailor/</a>. </p>
+<p><a name="rsa"></a><b>&quot;CBYRA#&quot; or &quot;Rsa&quot;</b> or something
+else:&nbsp; This is the field for the &quot;Regional Sailing Association
+membership number.&nbsp; I'm vague about the specific text you might see, but
+the end-user can set the label for this field.&nbsp; See below.&nbsp; By
+default, I ship with it set to &quot;CBYRA&quot; (for Chesapeake Bay Yacht
+Racing Association), that's only because that's where the author is from.&nbsp;&nbsp;
+You can change this label in the Preferences panel. </p>
+<p><a name="mna"></a> <b>&quot;US Sailing#&quot; or &quot;Mna&quot;</b> or
+something else.&nbsp; This is where the entry's membership number for their
+Member National Authority should be entered.&nbsp; Likewise, the user can set
+the label for this, I ship with it set to &quot;US Sailing&quot;. You can change
+this label in the Preferences panel.</p>
+<p><a name="club"></a><b>Club:</b> This should be the home club for the entry</p>
+<p><b><a name="subdivision"></a>SubDivisions:</b> This panel only appears when
+you have defined one or more sub-divisions within the regatta.&nbsp; If it
+appears, then check each sub-division in which the entry ought to be a part.</p>
+</body>
+
+</html>

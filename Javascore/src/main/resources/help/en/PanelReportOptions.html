@@ -1,0 +1,91 @@
+<html>
+
+<head>
+<title>Java Score - Low Point options</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+
+<h3>Java Score - Report Options Panel</h3>
+<p>Contains report options for formatting of reports. These options are saved
+with each regatta, so you can save different options for different events.</p>
+<p>The top most choice box lets you select the report for which the options are
+being set.</p>
+<p><a name="columns"><b>Included Columns</b></a>: This list of items allows you
+to specify in which of three columns the specific data item will be included.</p>
+<p>The drop down list with decimal numbers indicates the column number on the
+left of the decimal, and the order within the column on the right.</p>
+<p>The left-most column (0-th column so to speak)&nbsp; will always contain the
+Sail id (and bow number if applicable).</p>
+<p>Selecting for example, &quot;1.1&quot; for the &quot;Boat&quot; item will
+make an entry's Boat name the first part of the first optional column</p>
+<p>Selecting &quot;2.1&quot; for Skipper and &quot;2.2&quot; for Crew will cause
+the second column to contain &quot;Skipper/Crew&quot;</p>
+<p>Select &quot;none&quot; to have the specified data item not included in the
+reports at all.</p>
+<p>Note that the different between Rating and Full Rtg is for say a PHRF boat
+rating 78: its rating will be &quot;78&quot;, its full rating will be
+&quot;PHRF/78&quot;.&nbsp;&nbsp;</p>
+<p><b><a name="names"></a>Name Format: </b>Specifies the formatting for Skipper
+and Crew Names.</p>
+<p>The small table at the bottom of the screen shows an example of how the
+column formats will work in the reports.</p>
+<p><b><a name="font"></a>Report Body Font: </b>Allows you to set the font style
+and font size for the main body of the reports.&nbsp; For some undocumented reason
+deep in HTML that I cannot fathom, the template.html formatting described below,
+is ignored in the &quot;tables&quot; that make up the main body of almost all of
+the reports.&nbsp; So this is your way around it.&nbsp; Default is &quot;<font face="Verdana" size="2">Verdana
+10</font>&quot;<br>
+&nbsp;&nbsp;&nbsp; When you change this font, the sample table cell will update
+to give you a feeling for what the font looks like.<br>
+&nbsp;&nbsp;&nbsp; I suggest restraint in setting this font.&nbsp; The list of
+fonts are those that are available on your current computer.&nbsp; These may not
+translate to a different font set when someone else access the report on a
+different computer through the internet.</p>
+<p><b>Include times for one-design classes? </b>(applicable to Single Race
+report only) Determines whether or not a column for finish time will be included
+in the Single Race report.&nbsp; If you have an all one-design regatta and are
+not tracking finish times, you may want to uncheck this and save some space in
+the report.</p>
+<p><b>Include only latest &lt;x&gt; races.</b>&nbsp; By clicking this box and
+specifying a number of races, only part of a series will be included in the
+series report.&nbsp; (Note that the series total points will still reflect the
+entire regatta)</p>
+<p><b>Do not include points for penalties.</b>&nbsp; When this box is NOT
+checked, a penalty will be shown as both the penalty name and the points scored
+(say 55/DNC for a DNC that is worth 55 points).&nbsp; If the box IS checked,
+then just the penalty abbreviation will be included (just DNC).&nbsp; This can
+save space in longer regattas.</p>
+<p><b>&quot;Template&quot; file for controlling overall report formatting:</b></p>
+<p>You can select and set a template file. If not, JavaScore will look for the &quot;master&quot; 
+  html file called 'template.html'.&nbsp; It looks for the file in the main javascore directory. If 
+  this file is found, JavaScore will parse the file and use it as a &quot;wrapper&quot; for all the 
+  report files.&nbsp; It will look for 3 keywords and will replace them as follows:</p>
+<p>'##REGATTA##' will be substituted with the Regatta's name<br>
+'##REPORT##' will be substituted with the descriptive name of the relevant
+report<br>
+'##BODY##' will be substituted with the body of each report</p>
+<p>The body of the report will contain the standard header/footer information.
+And the core of the report. It will NOT contain any 'font' or otherwise try to
+amend typical customized report traits.</p>
+<p>The regatta name and report title key can be embedded as many times as the author of the template 
+  file wishes. Only one occurrence of the report body key is expected, subsequent occurrences will 
+  be ignored.&nbsp;&nbsp; If no occurrence of the ##BODY## key is found. The report body will be placed 
+  immediately before the &quot;&lt;/body&gt;&quot; tag.</p>
+<p>The template file contains CSS-textformatting templates in the 'head' section. Those who know what 
+  they have to do, can use these style templates. They have to replace the 'body' tag parameter 'class=normal' 
+  with 'class=modern' or one of the other.</p>
+<p><b>Insert a club-logo graphic: </b></p>
+<p>Some clubs want to have a club or class logo on top of the reports; the template file is prepared 
+  for that. How to:</p>
+<p>Make a graphic and save the file with the name <em><strong>'club-logo.jpg'</strong></em> in the 
+  JavaScore main directory. You must overwrite the still existing 'club-logo.jpg' sample. The file 
+  should have a width and height not greater than 175x80 pixels. Greater graphics were also shown, 
+  but they move the '##REPORT##' and '##BODY##' part down. Don't forget to have a very small file 
+  size for a quick report display (max. 20Kb recommended).</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+
+</html>

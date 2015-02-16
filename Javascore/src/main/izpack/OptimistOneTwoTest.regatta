@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta Dates="" Final="false" HostClub="" IFEventID="" JSVersion="7.2.2" JuryChair="" Multistage="true" Name="Opti one/two rbg test" Pro="" UseBowNumbers="false" Version="600" comment="">
+<DivisionList>
+<Division DivName="Opti" Gender="Open">
+<MinRating ClassName="Optimist" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Division="Opti" EntryId="2">
+<Boat BoatName="new1lll" SailId="10">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Optimist" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Bobby" LastName="Bower" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Opti" EntryId="22">
+<Boat BoatName="new15" SailId="15">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Optimist" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Betsy" LastName="Brown" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Opti" EntryId="4">
+<Boat SailId="20">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Optimist" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ross" LastName="Redmond" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Opti" EntryId="5">
+<Boat SailId="30">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Optimist" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Bruce" LastName="Blanchard" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Opti" EntryId="21">
+<Boat SailId="31">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Optimist" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Rita" LastName="Rancher" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Opti" EntryId="6">
+<Boat SailId="40">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Optimist" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ricky" LastName="Rosemont" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Opti" EntryId="18">
+<Boat BoatName="White 1" SailId="60">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Optimist" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Walter" LastName="Weiss" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Opti" EntryId="19">
+<Boat BoatName="White 2" SailId="70">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Optimist" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Wendy" LastName="Wallaby" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Opti" EntryId="20">
+<Boat BoatName="White 3" SailId="80">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Optimist" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="George" LastName="Washington" SailorId=""/>
+<CrewList/>
+</Entry>
+</EntryList>
+<FleetList>
+<Fleet DifferentLengths="AsIs" DivName="Opti Fleet" SameStartSameClass="false">
+<FleetDivList>
+<Div Name="Red"/>
+<Div Name="Opti"/>
+<Div Name="White"/>
+</FleetDivList>
+</Fleet>
+</FleetList>
+<SubDivisionList>
+<SubDivision DivName="Blue" Gender="Open" Group="Scoring" GroupRank="" LastSplit="true" Monopoly="false" Parent="Opti" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="2"/>
+<Entry Id="22"/>
+<Entry Id="5"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="One Friday" Gender="Open" Group="Qual" GroupRank="" LastSplit="true" Monopoly="false" Parent="Opti" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="2"/>
+<Entry Id="4"/>
+<Entry Id="21"/>
+<Entry Id="18"/>
+<Entry Id="20"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="One Saturday" Gender="Open" Group="Qual" GroupRank="" LastSplit="true" Monopoly="false" Parent="Opti" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="2"/>
+<Entry Id="4"/>
+<Entry Id="21"/>
+<Entry Id="20"/>
+<Entry Id="19"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Red" Gender="Open" Group="Scoring" GroupRank="" LastSplit="true" Monopoly="false" Parent="Opti" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="4"/>
+<Entry Id="21"/>
+<Entry Id="6"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Two Friday" Gender="Open" Group="Qual" GroupRank="" LastSplit="true" Monopoly="false" Parent="Opti" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="22"/>
+<Entry Id="5"/>
+<Entry Id="6"/>
+<Entry Id="19"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Two Saturday" Gender="Open" Group="Qual" GroupRank="" LastSplit="true" Monopoly="false" Parent="Opti" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="22"/>
+<Entry Id="5"/>
+<Entry Id="6"/>
+<Entry Id="18"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="White" Gender="Open" Group="Scoring" GroupRank="" LastSplit="true" Monopoly="false" Parent="Opti" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="18"/>
+<Entry Id="19"/>
+<Entry Id="20"/>
+</EntryList>
+</SubDivision>
+</SubDivisionList>
+<RaceList>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="11" StartDate="03-Dec-2010" Weight="1.0">
+<DivInfo>
+<DivStart Div="One Friday" Length="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Two Friday" Length="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="One Saturday" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Opti" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Red" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Two Saturday" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="White" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="22" Pos="1" Race="11"/>
+<Fin Ent="5" Pos="2" Race="11"/>
+<Fin Ent="4" Pos="3" Race="11"/>
+<Fin Ent="21" Pos="4" Race="11"/>
+<Fin Ent="18" Pos="5" Race="11"/>
+<Fin Ent="20" Pos="6" Race="11"/>
+<Fin Ent="6" Pos="7" Race="11"/>
+<Fin Ent="2" Pos="8" Race="11"/>
+<Fin Ent="19" Pos="9" Race="11"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="12" StartDate="03-Dec-2010" Weight="1.0">
+<DivInfo>
+<DivStart Div="One Friday" Length="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Blue" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="White" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Red" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Two Saturday" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Opti" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Two Friday" Length="0.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="One Saturday" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="2" Pos="1" Race="12"/>
+<Fin Ent="4" Pos="2" Race="12"/>
+<Fin Ent="21" Pos="3" Race="12"/>
+<Fin Ent="18" Pos="4" Race="12"/>
+<Fin Ent="20" Pos="5" Race="12"/>
+<Fin Ent="19" Pos="6" Race="12"/>
+<Fin Ent="6" Pos="7" Race="12"/>
+<Fin Ent="5" Pos="8" Race="12"/>
+<Fin Ent="22" Pos="9" Race="12"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="13" StartDate="04-Dec-2010" Weight="1.0">
+<DivInfo>
+<DivStart Div="One Friday" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Blue" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="White" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Red" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Two Saturday" Length="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Opti" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="One Saturday" Length="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Two Friday" Length="0.0" StartTime="12:00:00.0" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="2" Pos="1" Race="13"/>
+<Fin Ent="4" Pos="2" Race="13"/>
+<Fin Ent="21" Pos="3" Race="13"/>
+<Fin Ent="19" Pos="4" Race="13"/>
+<Fin Ent="20" Pos="5" Race="13"/>
+<Fin Ent="18" Pos="6" Race="13"/>
+<Fin Ent="6" Pos="7" Race="13"/>
+<Fin Ent="5" Pos="8" Race="13"/>
+<Fin Ent="22" Pos="9" Race="13"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" RaceId="14" StartDate="04-Dec-2010" Weight="1.0">
+<DivInfo>
+<DivStart Div="One Friday" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Blue" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="White" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Red" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Two Saturday" Length="0.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Opti" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="One Saturday" Length="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Two Friday" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="19" Pos="1" Race="14"/>
+<Fin Ent="20" Pos="2" Race="14"/>
+<Fin Ent="21" Pos="3" Race="14"/>
+<Fin Ent="4" Pos="4" Race="14"/>
+<Fin Ent="2" Pos="5" Race="14"/>
+<Fin Ent="5" Pos="6" Race="14"/>
+<Fin Ent="18" Pos="7" Race="14"/>
+<Fin Ent="6" Pos="8" Race="14"/>
+<Fin Ent="22" Pos="9" Race="14"/>
+</FinishList>
+</Race>
+</RaceList>
+<Scores>
+<Stage CombinedQualifying="true" Name="Qualifying" ScoreCarryOver="ALL" StageId="2" StageRank="10" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
+<Divisions/>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="One Friday" Ent="4" Pos="1" Pts="1.0" Race="11"/>
+<rp Div="One Friday" Ent="21" Pos="2" Pts="2.0" Race="11"/>
+<rp Div="One Friday" Ent="18" Pos="3" Pts="3.0" Race="11"/>
+<rp Div="One Friday" Ent="20" Pos="4" Pts="4.0" Race="11"/>
+<rp Div="One Friday" Ent="2" Pos="5" Pts="5.0" Race="11"/>
+<rp Div="Two Friday" Ent="22" Pos="1" Pts="1.0" Race="11"/>
+<rp Div="Two Friday" Ent="5" Pos="2" Pts="2.0" Race="11"/>
+<rp Div="Two Friday" Ent="6" Pos="3" Pts="3.0" Race="11"/>
+<rp Div="Two Friday" Ent="19" Pos="4" Pts="4.0" Race="11"/>
+<rp Div="One Friday" Ent="2" Pos="1" Pts="1.0" Race="12"/>
+<rp Div="One Friday" Ent="4" Pos="2" Pts="2.0" Race="12"/>
+<rp Div="One Friday" Ent="21" Pos="3" Pts="3.0" Race="12"/>
+<rp Div="One Friday" Ent="18" Pos="4" Pts="4.0" Race="12"/>
+<rp Div="One Friday" Ent="20" Pos="5" Pts="5.0" Race="12"/>
+<rp Div="Two Friday" Ent="19" Pos="1" Pts="1.0" Race="12"/>
+<rp Div="Two Friday" Ent="6" Pos="2" Pts="2.0" Race="12"/>
+<rp Div="Two Friday" Ent="5" Pos="3" Pts="3.0" Race="12"/>
+<rp Div="Two Friday" Ent="22" Pos="4" Pts="4.0" Race="12"/>
+<rp Div="Two Saturday" Ent="18" Pos="1" Pts="1.0" Race="13"/>
+<rp Div="Two Saturday" Ent="6" Pos="2" Pts="2.0" Race="13"/>
+<rp Div="Two Saturday" Ent="5" Pos="3" Pts="3.0" Race="13"/>
+<rp Div="Two Saturday" Ent="22" Pos="4" Pts="4.0" Race="13"/>
+<rp Div="One Saturday" Ent="2" Pos="1" Pts="1.0" Race="13"/>
+<rp Div="One Saturday" Ent="4" Pos="2" Pts="2.0" Race="13"/>
+<rp Div="One Saturday" Ent="21" Pos="3" Pts="3.0" Race="13"/>
+<rp Div="One Saturday" Ent="19" Pos="4" Pts="4.0" Race="13"/>
+<rp Div="One Saturday" Ent="20" Pos="5" Pts="5.0" Race="13"/>
+<rp Div="Two Saturday" Ent="5" Pos="1" Pts="1.0" Race="14"/>
+<rp Div="Two Saturday" Ent="18" Pos="2" Pts="2.0" Race="14"/>
+<rp Div="Two Saturday" Ent="6" Pos="3" Pts="3.0" Race="14"/>
+<rp Div="Two Saturday" Ent="22" Pos="4" Pts="4.0" Race="14"/>
+<rp Div="One Saturday" Ent="19" Pos="1" Pts="1.0" Race="14"/>
+<rp Div="One Saturday" Ent="20" Pos="2" Pts="2.0" Race="14"/>
+<rp Div="One Saturday" Ent="21" Pos="3" Pts="3.0" Race="14"/>
+<rp Div="One Saturday" Ent="4" Pos="4" Pts="4.0" Race="14"/>
+<rp Div="One Saturday" Ent="2" Pos="5" Pts="5.0" Race="14"/>
+</RacePointsList>
+</Stage>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="false" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="2.1"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="false" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="2.1"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="false" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="3.1"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="false" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="2.1"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="false" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="1.2"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="2.1"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
+</Regatta>

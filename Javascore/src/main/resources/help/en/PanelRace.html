@@ -1,0 +1,88 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0" />
+<meta name="ProgId" content="FrontPage.Editor.Document" />
+<title>Java Score</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+
+<body>
+
+<h3>Java Score - Race Screen</h3>
+<p>This panel edits information about races and finishes in them.&nbsp;&nbsp;
+The window has two main components.&nbsp; On the left is a &quot;tree&quot; of
+all races in the regatta.&nbsp; On the right is the details about the selected
+race (if any).&nbsp;&nbsp;&nbsp;</p>
+<p>Click on any race to the left to see its details, or to edit its finishes.</p>
+<p>Press Add to add a new race.</p>
+<p>Select one or more races, and press Delete.</p>
+<p>Current Information about each Race</p>
+<p><a name="name"></a><b>Name</b>: name of the race.&nbsp; This will default to a number (e.g., if
+fifth race created, then 5).&nbsp; It does not have to be a number, but I
+strongly suggest you either use the default number, or at least start the name
+with a number unless you have a good reason not to do so.&nbsp; The RRS A1.5
+requires races to be number sequentially in order of completion.&nbsp; JavaScore
+will sort the races by name, but will look to the first word to see if it is
+numeric and sort the first word numerically (so if you have say 12 races, named
+'1' through '12', they will sort 1 through 12, not the undesirable order of : 1,
+10, 11, 12, 2, 3, ...)</p>
+<p><b><a name="startdate"></a>Start Date:</b> The date of the start of the race.&nbsp;
+For new races, the date will default to the today.</p>
+<p><b>For each starting class</b> in the regatta, you should enter the following
+information.&nbsp; You have the option of entering this information for every
+starting class registered in the regatta.&nbsp;&nbsp;</p>
+<blockquote>
+<p><b>Include?</b>&nbsp; This box should be checked if the class is participating
+in this races (By default, when you create a new race, all classes are presumed
+to be racing).&nbsp;</p>
+<p><a name="starttime"></a><b>Start Time</b>&nbsp; Starting time for a class in this
+race.&nbsp; This field is optional, but if not included, then no handicap
+corrected times will be calculated.</p>
+<p><a name="length"></a><b>Length</b> the length of the race.&nbsp; This field
+is also optional, but may be needed to properly handicap boats in the race.</p>
+<p><b><a name="nextday"></a>Next Day?</b> Sometimes, you get some classes off for a race, then have to wait until the next day to get the rest of the classes started. Click this box when that happens.</p>
+<p><a name="clearalldivs"></a><b>Clear All &quot;Is Racing&quot;</b> button:&nbsp; Clears the &quot;Is racing&quot; check box for all divisions. Right after clicking this, there will be no divisions are participating in this race. Any actual finishes that were previously entered are unaffected until you leave the race dialog and the regatta is rescored.</p>
+<p><a name="setalldivs"></a><b>Set All &quot;Is Racing&quot;</b> button:&nbsp; Sets the &quot;Is racing&quot; check box for all divisions. Right after checking this button, all divisions will participate in this race.</p>
+<p>&nbsp;</p>
+</blockquote>
+<p><a name="finishes"></a><b>Edit Finishes</b> button:&nbsp; Click here to bring up a dialog to enter and edit
+the finishes and penalties for boats in the race.</p>
+<p><a name="roundings"></a><b>Edit Roundings</b> button.&nbsp; This is optional
+and will allow you to enter the order in which boats rounded a mark of the
+course.&nbsp; It is a quick and dirty implementation so far.&nbsp; The mark are
+numerically number and you are given a choice list of the mark number for which
+you want to enter roundings.&nbsp; Then you will see the same Finishes dialog
+but you are entering roundings instead (so don't bother entering penalties
+there, they will be ignored).</p>
+<p><a name="comments"></a><b>Edit Comments </b>button.&nbsp; This is optional
+and will allow you to entry free form comments about the race.&nbsp; These
+comments will be inserted at the top of the individual race reports.&nbsp; They
+will be formatted in HTML so feel free to include any html tags you wish.</p>
+<p><b><a name="advanced"></a>Advanced</b> button.&nbsp; Click here to open a 
+window for advanced options for scoring this race, including:</p>
+<ul>
+	<li><b>Overnight/distance race</b>.&nbsp; Check if the race is likely to 
+	have finishers after midnight of the first day of racing.&nbsp; It enables 
+	entry of extended finishing times in the format&nbsp; D/hh:mm:ss&nbsp;&nbsp; 
+	where &quot;D&quot; is the number of days after the start.</li>
+	<li><b><a name="medalrace" id="medalrace"></a>ISAF Medal Race.</b>&nbsp; Check this box is this race is to be scored as an ISAF Medal Race. If selected, the non-discardable option and a race weight of 2 will automatically be assigned. (Note: this is 
+	non-standard and sailing instructions must change RRS Appendix A).</li>
+	<li><b><a name="nondiscardable"></a>Race is non-discardable.</b>&nbsp; Click 
+	if this race may not be discarded in series scoring.&nbsp; If selected, the 
+	race will be counted for all boats in all divisions.&nbsp; (Note: this is 
+	non-standard and sailing instructions must change RRS Appendix A).</li>
+	<li><b><a name="weight"></a>Race weight:</b> Normally all races count the 
+	same for series scoring.&nbsp; Change this value to have this race weighted 
+	differently.&nbsp;&nbsp; Each boats score for the race will be multiplied by 
+	this value.&nbsp; So to have a race count double, enter &quot;2.0&quot; here.&nbsp; 
+	Applies to all scores, all boats, all divisions.</li>
+	<li><a name="bfactor"></a><b>Conditions:</b> This set of radio buttons is used
+for PHRF Time-on-Time scoring.&nbsp; Select the appropriate set of wind
+conditions.&nbsp; These fields are generally hidden from view unless the regatta
+has at least one division being scored in PHRF Time-on-Time. The Custom conditions will appear and be the default setting if a custom AFactor and/or BFactor has been set in Javascore | Preferences.</li>
+</ul>
+</body>
+
+</html>

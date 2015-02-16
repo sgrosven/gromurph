@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<title>Java Score - Low Point options</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+</head>
+
+<body>
+
+<h3>Java Score - Low Point Scoring Panel</h3>
+
+<p>Contains optional scoring parameters - primary focused on low point scoring.&nbsp;&nbsp; 
+This panel has been re-organized into 4 tabs:&nbsp; General, Penalties, 
+Throwouts, and Ties</p>
+<h3>General</h3>
+<p><b>Scoring System</b>: selects which scoring system to use for this event.&nbsp; 
+Any system other than Low Point must be backed up by sailing instructions that 
+properly modify RRS Appendix A.</p>
+
+<p><b><a name="longseries"></a>Score as a &quot;Series longer than a regatta? </b>Select
+Yes here to have penalties handled in accordance with RRS A9. </p>
+<h3>Points &amp; Penalties</h3>
+<p>&nbsp;&nbsp;&nbsp; <a name="firstplacepoints" id="firstplacepoints"></a><b>Points for 1st</b>: Sets the number of points for the score of the boat that finishes first (default is 1.0).&nbsp; NOTE: If you use anything other than 1.0, <strong>it MUST be described in the sailing instructions</strong>!</p>
+<p>&nbsp;&nbsp;&nbsp; <a name="timelimits"></a><b>Finish Time Limit Penalty</b>: Click on the check box that represent how 
+  to score boats that finish within a prescribed time limit of the first boat (and subsequently scored with
+  a TLM penalty.&nbsp; NOTE: This must be described in the sailing instructions,
+  if they do not say otherwise, leave it at the default of Did Not Finish.</p>
+<p>&nbsp;&nbsp;&nbsp; <a name="largestDivision" id="largestDivision"></a><b>Base Penalties on largest qualifying division</b>: In a qualifying regatta, select this if you want the number of entries for all penalties to be based on the size of the largest subdivision among the qualification groups (as opposed to the number of entries being the number actually assigned to each individual subdivision). Note that this is non-standard and must be stated in the sailing instructions.</p>
+<p>&nbsp;&nbsp;&nbsp; <a name="checkin"></a><b>Check-in Failure</b> penalty: Sometimes sailing instructions require boats to check-in and
+prescribe a percentage penalty for those that don't do so.  Enter the percentage amount, 0-100 here. Give a 
+boat the "Check-in Failure" penalty in a race to have this percentage tacked onto their score for that race.</p>
+
+<h3>Throwouts</h3>
+<p><a name="throwouts"></a>There are now three
+&quot;patterns&quot; for setting the number of throwouts.</p>
+<ul>
+  <li><b>By minimum number of total races:</b> This is the most common way to
+    specify throwouts.  The first row represents how many races
+must be completed before boats get their first throwout.  The second row is number of races
+to be completed before
+a second throwout is included.  Ditto the third row.&nbsp;<br />
+&nbsp;&nbsp;&nbsp; The default is grant one throwout after 2 races have been
+completed.&nbsp;&nbsp;
+</li>
+  <li><b>One throwout for every &lt;x&gt; races completed:&nbsp;</b> In some
+    longer series, the sailing instruction might say that there will be one
+    throwout for every, say, 5 races completed.&nbsp; In cases like this, select
+    this radio box, and enter the number of races per throwout in the text
+    field.
+</li>
+  <li><b>Count only the best &lt;x&gt; races:</b> Another common pattern is that
+    only the best say, 10, races will count.&nbsp; If there are 13 races, then
+    there should be 13 throwouts, if there are 20 races, then there would be 10
+  throwouts.</li>
+  <li><b>No Throwouts:</b> All races will be included in the series scores. </li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp; <a name="max1inFinals"></a><b>Max of 1 Throwout in Finals Series</b>: Click this box if you have a regatta that may have more than one throwout, and is split between a qualifying series and a finals series, AND you want to limit the number of throwouts in the finals series to a maximum of one. This is a bit of a specialty item. The Laser class uses this for many of its major continental and world championships.</p>
+<h3>Ties</h3>
+<p><a name="tieRrsDefault"></a>Default scoring system tiebreakers.&nbsp; This 
+appropriate for the vast majority of racing.&nbsp; It uses the standard 
+tiebreakers specified by the base scoring system (for Low Point RRS A8, for 
+Snipe Scoring - the snipe class tiebreakers, etc).&nbsp; </p>
+<p><a name="tieA82only"></a><strong>RRS A8.2 tiebreaker only</strong>. Check this If you want to replace the standards RRS tiebreaker with a simpler test (described in RRS A8.2) that is essentially &quot;who beat who in the last race&quot;. Note that this is non-standard and must be stated in the sailing instructions.</p>
+<p><a name="tieA82medal" id="tieA82medal"></a><strong>RRS A8.2 tiebreaker for Medal races only</strong>. Check this If you want divisions that participant in an &quot;<a href="PanelRace.html#medalrace">ISAF Medal Race</a>&quot; to replace the standards RRS tiebreaker with a simpler test (described in RRS A8.2) that is essentially &quot;who beat who in the last race&quot;. Note that this is non-standard and must be stated in the sailing instructions.</p>
+</body>
+
+</html>

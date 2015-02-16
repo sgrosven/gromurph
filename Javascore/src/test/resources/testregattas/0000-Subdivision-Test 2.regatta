@@ -1,0 +1,838 @@
+<?xml version="1.0"?>
+
+<Regatta Version="0" Name="2000 Solomon&apos;s Island Race" Pro="Sharon Hadsell" JuryChair="Mark Murphy" HostClub="Eastport Yacht Club" Dates="July 21-22, 2000" Final="false" UseBowNumbers="false">
+  <DivisionList>
+    <Division DivName="CAT27">
+      <MinRating System="OneDesign" ClassName="CAT27" />
+      <MaxRating System="OneDesign" ClassName="CAT27" />
+    </Division>
+    <Division DivName="J105">
+      <MinRating System="OneDesign" ClassName="J105" />
+      <MaxRating System="OneDesign" ClassName="J105" />
+    </Division>
+    <Division DivName="J30">
+      <MinRating System="OneDesign" ClassName="J30" />
+      <MaxRating System="OneDesign" ClassName="&lt;none&gt;" />
+    </Division>
+    <Division DivName="J35">
+      <MinRating System="OneDesign" ClassName="J35" />
+      <MaxRating System="OneDesign" ClassName="J35" />
+    </Division>
+  </DivisionList>
+  <EntryList>
+    <Entry EntryId="106" Bow="" Division="J105" Club="AYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="BAM" SailId="62">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="GN" LastName="Smernoff" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="100" Bow="" Division="J105" Club="NASS">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="CURLEW" SailId="98">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="J&amp;M" LastName="Detweiler" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="57" Bow="" Division="J105" Club="AYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="OSPREY" SailId="106">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Preben" LastName="Ostberg" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="62" Bow="" Division="J105" Club="CYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="LE RENARD" SailId="113 .1">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Jamie" LastName="Brohawn" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="85" Bow="" Division="J105" Club="eyc">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="THOOSA" SailId="163">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="J&amp;D" LastName="Driver" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="95" Bow="" Division="J105" Club="WSRC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="SASSY" SailId="205">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Robt" LastName="Percival" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="82" Bow="" Division="J105" Club="RRBC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="JAY BOAT" SailId="208">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="John" LastName="Kircher" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="117" Bow="" Division="J105" Club="AYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="BEEP BEEP" SailId="216">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Dan" LastName="Mitchell" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="94" Bow="" Division="J105" Club="BCYA">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="UNDERDOG" SailId="220">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Tom" LastName="Behrle" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="22" Bow="" Division="J30" Club="WRSC">
+      <Rating System="OneDesign" ClassName="J30" />
+      <Boat BoatName="MARY LOU" SailId="221">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="M&amp;K" LastName="McGill" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="116" Bow="" Division="J105" Club="EYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="EL TORO" SailId="250">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Tom" LastName="Bond" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="112" Bow="" Division="J105" Club="AMCY">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="BREAKAWAY" SailId="251">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Richard" LastName="Hinds" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="86" Bow="" Division="J105" Club="">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="ZEPHYR" SailId="252">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Walter" LastName="Nuschke" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="79" Bow="" Division="J105" Club="RRBC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="STAMPEDE" SailId="253">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Gepff" LastName="Burdge" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="21" Bow="" Division="J30" Club="GSA">
+      <Rating System="OneDesign" ClassName="J30" />
+      <Boat BoatName="SHAKEN NOT STIR" SailId="258">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="" LastName="Lotrobe/Pittmon" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="99" Bow="" Division="J105" Club="AYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="SUDDENLY SIXTY" SailId="308">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="John" LastName="Kushner" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="88" Bow="" Division="J105" Club="AYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="A TRAIN" SailId="313">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Robert" LastName="Reeves" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="115" Bow="" Division="J105" Club="AYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="RUM PUPPY" SailId="321">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Jack" LastName="Biddle" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="92" Bow="" Division="J105" Club="SSA">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="WHITE KNIGHT" SailId="322">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Art" LastName="Schraggey" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="89" Bow="" Division="J105" Club="AYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="MODELIA" SailId="326">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Denis" LastName="Seynhaeve" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="58" Bow="" Division="J105" Club="EYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="MOJO" SailId="327">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Julian" LastName="Bigden" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="75" Bow="" Division="J105" Club="AYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="MIRAGE" SailId="328">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="" LastName="Lewis/Salvesen" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="15" Bow="" Division="J30" Club="AYC">
+      <Rating System="OneDesign" ClassName="J30" />
+      <Boat BoatName="TIGER" SailId="341">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Tom" LastName="Donlan" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="72" Bow="" Division="J105" Club="AYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="" SailId="351">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Jim" LastName="Konigsberg" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="5" Bow="" Division="J30" Club="AYC">
+      <Rating System="OneDesign" ClassName="J30" />
+      <Boat BoatName="CANNONBALL" SailId="387">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Bill" LastName="Wallop" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="12" Bow="" Division="J30" Club="AYC">
+      <Rating System="OneDesign" ClassName="J30" />
+      <Boat BoatName="BOTTOM UP" SailId="507">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="David" LastName="Moss" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="6" Bow="" Division="J30" Club="AYC">
+      <Rating System="OneDesign" ClassName="J30" />
+      <Boat BoatName="VALHALLA" SailId="33242">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Steve" LastName="Bardelman" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="19" Bow="" Division="J30" Club="WRSC">
+      <Rating System="OneDesign" ClassName="J30" />
+      <Boat BoatName="BUMP IN NIGHT" SailId="33450">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Maury" LastName="Niebur" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="48" Bow="" Division="J35" Club="RRBC">
+      <Rating System="OneDesign" ClassName="J35" />
+      <Boat BoatName="TIAMAT" SailId="33785">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Ted" LastName="Lepich" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="52" Bow="" Division="J35" Club="AYC">
+      <Rating System="OneDesign" ClassName="J35" />
+      <Boat BoatName="FATAL ATTRACTIO" SailId="41791">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="" LastName="Lange/Horwitz" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="37" Bow="" Division="J30" Club="WRSC">
+      <Rating System="OneDesign" ClassName="J30" />
+      <Boat BoatName="DELIRIOUS" SailId="51885">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="David" LastName="Kim" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="20" Bow="" Division="J30" Club="MRSA">
+      <Rating System="OneDesign" ClassName="J30" />
+      <Boat BoatName="ENCOUNTER" SailId="53011">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Drew" LastName="Dowling" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="14" Bow="" Division="J30" Club="AYC">
+      <Rating System="OneDesign" ClassName="J30" />
+      <Boat BoatName="VIVACIOUS" SailId="53175">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="William" LastName="Munz" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="25" Bow="" Division="J35" Club="AYC">
+      <Rating System="OneDesign" ClassName="J35" />
+      <Boat BoatName="GRAYLING" SailId="53427">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="" LastName="Johns/Born" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="31" Bow="" Division="J30" Club="SRYC">
+      <Rating System="OneDesign" ClassName="J30" />
+      <Boat BoatName="LAZY DUCK" SailId="63317">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Wick" LastName="Keating" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="84" Bow="" Division="J105" Club="WRSC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="SINGULARITY" SailId="83082">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Stanley" LastName="Shortz" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="73" Bow="" Division="J105" Club="AYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="JAVA" SailId="83161">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="C&amp;C" LastName="Groobey" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="108" Bow="" Division="J105" Club="AYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="LEVITATION" SailId="83168">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Carleton" LastName="Mott" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="71" Bow="" Division="J105" Club="EYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="J&apos;MAKIN&apos; WAVES" SailId="83466">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="S&amp;D" LastName="Olinger" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+    <Entry EntryId="56" Bow="" Division="J105" Club="AYC">
+      <Rating System="OneDesign" ClassName="J105" />
+      <Boat BoatName="FREEDOM" SailId="93105">
+	<Owner FirstName="" LastName="" />
+	<RatingList />
+      </Boat>
+      <Skipper FirstName="Pete" LastName="Schelliw" />
+      <Crew FirstName="" LastName="" />
+    </Entry>
+  </EntryList>
+  <FleetList>
+    <Fleet DivName="Famdamily" DifferentLengths="AsIs" SameStartSameClass="false">
+      <DivisionList>
+	<Div Name="CAT27" />
+	<Div Name="J105" />
+	<Div Name="J30" />
+	<Div Name="J35" />
+      </DivisionList>
+    </Fleet>
+  </FleetList>
+  <SubDivisionList>
+    <SubDivision DivName="Masters" ParentType="Division" Monopoly="false" ScoreSeparately="true" Parent="Famdamily">
+      <EntryList>
+	<Entry Id="106" />
+	<Entry Id="117" />
+	<Entry Id="22" />
+	<Entry Id="58" />
+	<Entry Id="75" />
+      </EntryList>
+    </SubDivision>
+  </SubDivisionList>
+  <RaceList>
+    <Race RaceId="1" Name="1" StartDate="21-Jul-2000" LongDistance="true">
+      <DivInfo>
+	<DivStart Div="J35" StartTime="0/19:05:00" Length="55.0" isRacing="true" />
+	<DivStart Div="J105" StartTime="0/19:15:00" Length="55.0" isRacing="true" />
+	<DivStart Div="J30" StartTime="0/19:25:00" Length="45.0" isRacing="true" />
+	<DivStart Div="CAT27" StartTime="0/19:45:00" Length="45.0" isRacing="true" />
+      </DivInfo>
+      <FinishList>
+	<Fin Ent="117" Race="1" Pos="1" Time="1/04:00:00" />
+	<Fin Ent="5" Race="1" Pos="2" Time="1/04:13:56" />
+	<Fin Ent="6" Race="1" Pos="3" Time="1/04:17:21" />
+	<Fin Ent="12" Race="1" Pos="4" Time="1/04:36:01" />
+	<Fin Ent="14" Race="1" Pos="5" Time="1/04:38:58" />
+	<Fin Ent="15" Race="1" Pos="6" Time="1/04:41:18" />
+	<Fin Ent="19" Race="1" Pos="7" Time="1/04:59:27" />
+	<Fin Ent="20" Race="1" Pos="8" Time="1/05:00:52" />
+	<Fin Ent="21" Race="1" Pos="9" Time="1/05:00:53" />
+	<Fin Ent="22" Race="1" Pos="10" Time="1/05:00:57" />
+	<Fin Ent="25" Race="1" Pos="11" Time="1/05:03:13" />
+	<Fin Ent="31" Race="1" Pos="12" Time="1/05:07:20" />
+	<Fin Ent="37" Race="1" Pos="13" Time="1/05:16:19" />
+	<Fin Ent="48" Race="1" Pos="14" Time="1/05:31:39" />
+	<Fin Ent="52" Race="1" Pos="15" Time="1/05:38:58" />
+	<Fin Ent="56" Race="1" Pos="16" Time="1/05:41:54" />
+	<Fin Ent="57" Race="1" Pos="17" Time="1/05:42:10" />
+	<Fin Ent="58" Race="1" Pos="18" Time="1/05:42:41" />
+	<Fin Ent="62" Race="1" Pos="19" Time="1/05:44:52" />
+	<Fin Ent="71" Race="1" Pos="20" Time="1/05:50:40" />
+	<Fin Ent="72" Race="1" Pos="21" Time="1/05:51:07" />
+	<Fin Ent="73" Race="1" Pos="22" Time="1/05:51:38" />
+	<Fin Ent="75" Race="1" Pos="23" Time="1/05:53:22" />
+	<Fin Ent="79" Race="1" Pos="24" Time="1/05:56:12" />
+	<Fin Ent="82" Race="1" Pos="25" Time="1/06:00:14" />
+	<Fin Ent="84" Race="1" Pos="26" Time="1/06:01:32" />
+	<Fin Ent="85" Race="1" Pos="27" Time="1/06:02:12" />
+	<Fin Ent="86" Race="1" Pos="28" Time="1/06:04:50" />
+	<Fin Ent="88" Race="1" Pos="29" Time="1/06:05:30" />
+	<Fin Ent="89" Race="1" Pos="30" Time="1/06:05:47" />
+	<Fin Ent="92" Race="1" Pos="31" Time="1/06:09:37" />
+	<Fin Ent="94" Race="1" Pos="32" Time="1/06:10:00" />
+	<Fin Ent="95" Race="1" Pos="33" Time="1/06:11:12" />
+	<Fin Ent="99" Race="1" Pos="34" Time="1/06:16:45" />
+	<Fin Ent="100" Race="1" Pos="35" Time="1/06:17:26" />
+	<Fin Ent="106" Race="1" Pos="36" Time="1/06:27:24" />
+	<Fin Ent="108" Race="1" Pos="37" Time="1/06:32:26" />
+	<Fin Ent="112" Race="1" Pos="38" Time="1/06:38:07" />
+	<Fin Ent="115" Race="1" Pos="39" Time="1/06:41:48" />
+	<Fin Ent="116" Race="1" Pos="40" Time="1/06:45:48" />
+      </FinishList>
+    </Race>
+    <Race RaceId="2" Name="2" StartDate="22-Jul-2000" LongDistance="true">
+      <DivInfo>
+	<DivStart Div="J35" StartTime="0/19:05:00" Length="70.0" isRacing="true" />
+	<DivStart Div="J105" StartTime="0/19:15:00" Length="70.0" isRacing="true" />
+	<DivStart Div="J30" StartTime="0/19:25:00" Length="70.0" isRacing="true" />
+	<DivStart Div="CAT27" StartTime="0/19:45:00" Length="70.0" isRacing="true" />
+      </DivInfo>
+      <FinishList>
+	<Fin Ent="117" Race="2" Pos="1" Time="1/03:00:00" />
+	<Fin Ent="75" Race="2" Pos="2" Time="1/03:00:05" />
+	<Fin Ent="58" Race="2" Pos="3" Time="1/03:00:10" />
+	<Fin Ent="22" Race="2" Pos="4" Time="1/03:00:20" />
+	<Fin Ent="106" Race="2" Pos="5" Time="1/03:00:30" />
+	<Fin Ent="5" Race="2" Pos="6" Time="1/04:13:56" />
+	<Fin Ent="6" Race="2" Pos="7" Time="1/04:17:21" />
+	<Fin Ent="12" Race="2" Pos="8" Time="1/04:36:01" />
+	<Fin Ent="14" Race="2" Pos="9" Time="1/04:38:58" />
+	<Fin Ent="15" Race="2" Pos="10" Time="1/04:41:18" />
+	<Fin Ent="19" Race="2" Pos="11" Time="1/04:59:27" />
+	<Fin Ent="20" Race="2" Pos="12" Time="1/05:00:52" />
+	<Fin Ent="21" Race="2" Pos="13" Time="1/05:00:53" />
+	<Fin Ent="25" Race="2" Pos="14" Time="1/05:03:13" />
+	<Fin Ent="31" Race="2" Pos="15" Time="1/05:07:20" />
+	<Fin Ent="37" Race="2" Pos="16" Time="1/05:16:19" />
+	<Fin Ent="48" Race="2" Pos="17" Time="1/05:31:39" />
+	<Fin Ent="52" Race="2" Pos="18" Time="1/05:38:58" />
+	<Fin Ent="56" Race="2" Pos="19" Time="1/05:41:54" />
+	<Fin Ent="57" Race="2" Pos="20" Time="1/05:42:10" />
+	<Fin Ent="62" Race="2" Pos="21" Time="1/05:44:52" />
+	<Fin Ent="71" Race="2" Pos="22" Time="1/05:50:40" />
+	<Fin Ent="72" Race="2" Pos="23" Time="1/05:51:07" />
+	<Fin Ent="73" Race="2" Pos="24" Time="1/05:51:38" />
+	<Fin Ent="79" Race="2" Pos="25" Time="1/05:56:12" />
+	<Fin Ent="82" Race="2" Pos="26" Time="1/06:00:14" />
+	<Fin Ent="84" Race="2" Pos="27" Time="1/06:01:32" />
+	<Fin Ent="85" Race="2" Pos="28" Time="1/06:02:12" />
+	<Fin Ent="86" Race="2" Pos="29" Time="1/06:04:50" />
+	<Fin Ent="88" Race="2" Pos="30" Time="1/06:05:30" />
+	<Fin Ent="89" Race="2" Pos="31" Time="1/06:05:47" />
+	<Fin Ent="92" Race="2" Pos="32" Time="1/06:09:37" />
+	<Fin Ent="94" Race="2" Pos="33" Time="1/06:10:00" />
+	<Fin Ent="95" Race="2" Pos="34" Time="1/06:11:12" />
+	<Fin Ent="99" Race="2" Pos="35" Time="1/06:16:45" />
+	<Fin Ent="100" Race="2" Pos="36" Time="1/06:17:26" />
+	<Fin Ent="108" Race="2" Pos="37" Time="1/06:32:26" />
+	<Fin Ent="112" Race="2" Pos="38" Time="1/06:38:07" />
+	<Fin Ent="115" Race="2" Pos="39" Time="1/06:41:48" />
+	<Fin Ent="116" Race="2" Pos="40" Time="1/06:45:48" />
+      </FinishList>
+    </Race>
+  </RaceList>
+  <Scores SystemName="ISAF Low Point 2001-2004">
+    <System TimeLimitPenalty="0" LongSeries="false" CheckinPercent="20" Throwout1="2" Throwout2="0" Throwout3="0" />
+    <RacePointsList>
+      <rp Ent="117" Div="J105" Pts="1.0" Pos="1" Race="1" Toss="true" />
+      <rp Ent="56" Div="J105" Pts="2.0" Pos="2" Race="1" />
+      <rp Ent="57" Div="J105" Pts="3.0" Pos="3" Race="1" />
+      <rp Ent="58" Div="J105" Pts="4.0" Pos="4" Race="1" Toss="true" />
+      <rp Ent="62" Div="J105" Pts="5.0" Pos="5" Race="1" />
+      <rp Ent="71" Div="J105" Pts="6.0" Pos="6" Race="1" />
+      <rp Ent="72" Div="J105" Pts="7.0" Pos="7" Race="1" />
+      <rp Ent="73" Div="J105" Pts="8.0" Pos="8" Race="1" />
+      <rp Ent="75" Div="J105" Pts="9.0" Pos="9" Race="1" Toss="true" />
+      <rp Ent="79" Div="J105" Pts="10.0" Pos="10" Race="1" />
+      <rp Ent="82" Div="J105" Pts="11.0" Pos="11" Race="1" />
+      <rp Ent="84" Div="J105" Pts="12.0" Pos="12" Race="1" />
+      <rp Ent="85" Div="J105" Pts="13.0" Pos="13" Race="1" />
+      <rp Ent="86" Div="J105" Pts="14.0" Pos="14" Race="1" />
+      <rp Ent="88" Div="J105" Pts="15.0" Pos="15" Race="1" />
+      <rp Ent="89" Div="J105" Pts="16.0" Pos="16" Race="1" />
+      <rp Ent="92" Div="J105" Pts="17.0" Pos="17" Race="1" />
+      <rp Ent="94" Div="J105" Pts="18.0" Pos="18" Race="1" />
+      <rp Ent="95" Div="J105" Pts="19.0" Pos="19" Race="1" />
+      <rp Ent="99" Div="J105" Pts="20.0" Pos="20" Race="1" />
+      <rp Ent="100" Div="J105" Pts="21.0" Pos="21" Race="1" />
+      <rp Ent="106" Div="J105" Pts="22.0" Pos="22" Race="1" Toss="true" />
+      <rp Ent="108" Div="J105" Pts="23.0" Pos="23" Race="1" Toss="true" />
+      <rp Ent="112" Div="J105" Pts="24.0" Pos="24" Race="1" Toss="true" />
+      <rp Ent="115" Div="J105" Pts="25.0" Pos="25" Race="1" Toss="true" />
+      <rp Ent="116" Div="J105" Pts="26.0" Pos="26" Race="1" Toss="true" />
+      <rp Ent="117" Div="J105" Pts="1.0" Pos="1" Race="2" />
+      <rp Ent="75" Div="J105" Pts="2.0" Pos="2" Race="2" />
+      <rp Ent="58" Div="J105" Pts="3.0" Pos="3" Race="2" />
+      <rp Ent="106" Div="J105" Pts="4.0" Pos="4" Race="2" />
+      <rp Ent="56" Div="J105" Pts="5.0" Pos="5" Race="2" Toss="true" />
+      <rp Ent="57" Div="J105" Pts="6.0" Pos="6" Race="2" Toss="true" />
+      <rp Ent="62" Div="J105" Pts="7.0" Pos="7" Race="2" Toss="true" />
+      <rp Ent="71" Div="J105" Pts="8.0" Pos="8" Race="2" Toss="true" />
+      <rp Ent="72" Div="J105" Pts="9.0" Pos="9" Race="2" Toss="true" />
+      <rp Ent="73" Div="J105" Pts="10.0" Pos="10" Race="2" Toss="true" />
+      <rp Ent="79" Div="J105" Pts="11.0" Pos="11" Race="2" Toss="true" />
+      <rp Ent="82" Div="J105" Pts="12.0" Pos="12" Race="2" Toss="true" />
+      <rp Ent="84" Div="J105" Pts="13.0" Pos="13" Race="2" Toss="true" />
+      <rp Ent="85" Div="J105" Pts="14.0" Pos="14" Race="2" Toss="true" />
+      <rp Ent="86" Div="J105" Pts="15.0" Pos="15" Race="2" Toss="true" />
+      <rp Ent="88" Div="J105" Pts="16.0" Pos="16" Race="2" Toss="true" />
+      <rp Ent="89" Div="J105" Pts="17.0" Pos="17" Race="2" Toss="true" />
+      <rp Ent="92" Div="J105" Pts="18.0" Pos="18" Race="2" Toss="true" />
+      <rp Ent="94" Div="J105" Pts="19.0" Pos="19" Race="2" Toss="true" />
+      <rp Ent="95" Div="J105" Pts="20.0" Pos="20" Race="2" Toss="true" />
+      <rp Ent="99" Div="J105" Pts="21.0" Pos="21" Race="2" Toss="true" />
+      <rp Ent="100" Div="J105" Pts="22.0" Pos="22" Race="2" Toss="true" />
+      <rp Ent="108" Div="J105" Pts="23.0" Pos="23" Race="2" />
+      <rp Ent="112" Div="J105" Pts="24.0" Pos="24" Race="2" />
+      <rp Ent="115" Div="J105" Pts="25.0" Pos="25" Race="2" />
+      <rp Ent="116" Div="J105" Pts="26.0" Pos="26" Race="2" />
+      <rp Ent="5" Div="J30" Pts="1.0" Pos="1" Race="1" />
+      <rp Ent="6" Div="J30" Pts="2.0" Pos="2" Race="1" />
+      <rp Ent="12" Div="J30" Pts="3.0" Pos="3" Race="1" />
+      <rp Ent="14" Div="J30" Pts="4.0" Pos="4" Race="1" />
+      <rp Ent="15" Div="J30" Pts="5.0" Pos="5" Race="1" />
+      <rp Ent="19" Div="J30" Pts="6.0" Pos="6" Race="1" />
+      <rp Ent="20" Div="J30" Pts="7.0" Pos="7" Race="1" />
+      <rp Ent="21" Div="J30" Pts="8.0" Pos="8" Race="1" />
+      <rp Ent="22" Div="J30" Pts="9.0" Pos="9" Race="1" Toss="true" />
+      <rp Ent="31" Div="J30" Pts="10.0" Pos="10" Race="1" Toss="true" />
+      <rp Ent="37" Div="J30" Pts="11.0" Pos="11" Race="1" Toss="true" />
+      <rp Ent="22" Div="J30" Pts="1.0" Pos="1" Race="2" />
+      <rp Ent="5" Div="J30" Pts="2.0" Pos="2" Race="2" Toss="true" />
+      <rp Ent="6" Div="J30" Pts="3.0" Pos="3" Race="2" Toss="true" />
+      <rp Ent="12" Div="J30" Pts="4.0" Pos="4" Race="2" Toss="true" />
+      <rp Ent="14" Div="J30" Pts="5.0" Pos="5" Race="2" Toss="true" />
+      <rp Ent="15" Div="J30" Pts="6.0" Pos="6" Race="2" Toss="true" />
+      <rp Ent="19" Div="J30" Pts="7.0" Pos="7" Race="2" Toss="true" />
+      <rp Ent="20" Div="J30" Pts="8.0" Pos="8" Race="2" Toss="true" />
+      <rp Ent="21" Div="J30" Pts="9.0" Pos="9" Race="2" Toss="true" />
+      <rp Ent="31" Div="J30" Pts="10.0" Pos="10" Race="2" />
+      <rp Ent="37" Div="J30" Pts="11.0" Pos="11" Race="2" />
+      <rp Ent="25" Div="J35" Pts="1.0" Pos="1" Race="1" Toss="true" />
+      <rp Ent="48" Div="J35" Pts="2.0" Pos="2" Race="1" Toss="true" />
+      <rp Ent="52" Div="J35" Pts="3.0" Pos="3" Race="1" Toss="true" />
+      <rp Ent="25" Div="J35" Pts="1.0" Pos="1" Race="2" />
+      <rp Ent="48" Div="J35" Pts="2.0" Pos="2" Race="2" />
+      <rp Ent="52" Div="J35" Pts="3.0" Pos="3" Race="2" />
+      <rp Ent="117" Div="Famdamily" Pts="1.0" Pos="1" Race="1" />
+      <rp Ent="5" Div="Famdamily" Pts="2.0" Pos="2" Race="1" />
+      <rp Ent="6" Div="Famdamily" Pts="3.0" Pos="3" Race="1" />
+      <rp Ent="12" Div="Famdamily" Pts="4.0" Pos="4" Race="1" />
+      <rp Ent="14" Div="Famdamily" Pts="5.0" Pos="5" Race="1" />
+      <rp Ent="15" Div="Famdamily" Pts="6.0" Pos="6" Race="1" />
+      <rp Ent="19" Div="Famdamily" Pts="7.0" Pos="7" Race="1" />
+      <rp Ent="20" Div="Famdamily" Pts="8.0" Pos="8" Race="1" />
+      <rp Ent="21" Div="Famdamily" Pts="9.0" Pos="9" Race="1" />
+      <rp Ent="22" Div="Famdamily" Pts="10.0" Pos="10" Race="1" Toss="true" />
+      <rp Ent="31" Div="Famdamily" Pts="11.0" Pos="11" Race="1" />
+      <rp Ent="37" Div="Famdamily" Pts="12.0" Pos="12" Race="1" />
+      <rp Ent="25" Div="Famdamily" Pts="13.0" Pos="13" Race="1" />
+      <rp Ent="48" Div="Famdamily" Pts="14.0" Pos="14" Race="1" />
+      <rp Ent="56" Div="Famdamily" Pts="15.0" Pos="15" Race="1" />
+      <rp Ent="57" Div="Famdamily" Pts="16.0" Pos="16" Race="1" />
+      <rp Ent="58" Div="Famdamily" Pts="17.0" Pos="17" Race="1" Toss="true" />
+      <rp Ent="62" Div="Famdamily" Pts="18.0" Pos="18" Race="1" />
+      <rp Ent="52" Div="Famdamily" Pts="19.0" Pos="19" Race="1" />
+      <rp Ent="71" Div="Famdamily" Pts="20.0" Pos="20" Race="1" />
+      <rp Ent="72" Div="Famdamily" Pts="21.0" Pos="21" Race="1" />
+      <rp Ent="73" Div="Famdamily" Pts="22.0" Pos="22" Race="1" />
+      <rp Ent="75" Div="Famdamily" Pts="23.0" Pos="23" Race="1" Toss="true" />
+      <rp Ent="79" Div="Famdamily" Pts="24.0" Pos="24" Race="1" />
+      <rp Ent="82" Div="Famdamily" Pts="25.0" Pos="25" Race="1" />
+      <rp Ent="84" Div="Famdamily" Pts="26.0" Pos="26" Race="1" />
+      <rp Ent="85" Div="Famdamily" Pts="27.0" Pos="27" Race="1" />
+      <rp Ent="86" Div="Famdamily" Pts="28.0" Pos="28" Race="1" />
+      <rp Ent="88" Div="Famdamily" Pts="29.0" Pos="29" Race="1" />
+      <rp Ent="89" Div="Famdamily" Pts="30.0" Pos="30" Race="1" />
+      <rp Ent="92" Div="Famdamily" Pts="31.0" Pos="31" Race="1" />
+      <rp Ent="94" Div="Famdamily" Pts="32.0" Pos="32" Race="1" />
+      <rp Ent="95" Div="Famdamily" Pts="33.0" Pos="33" Race="1" />
+      <rp Ent="99" Div="Famdamily" Pts="34.0" Pos="34" Race="1" />
+      <rp Ent="100" Div="Famdamily" Pts="35.0" Pos="35" Race="1" />
+      <rp Ent="106" Div="Famdamily" Pts="36.0" Pos="36" Race="1" Toss="true" />
+      <rp Ent="108" Div="Famdamily" Pts="37.0" Pos="37" Race="1" Toss="true" />
+      <rp Ent="112" Div="Famdamily" Pts="38.0" Pos="38" Race="1" Toss="true" />
+      <rp Ent="115" Div="Famdamily" Pts="39.0" Pos="39" Race="1" Toss="true" />
+      <rp Ent="116" Div="Famdamily" Pts="40.0" Pos="40" Race="1" Toss="true" />
+      <rp Ent="22" Div="Famdamily" Pts="1.0" Pos="1" Race="2" />
+      <rp Ent="117" Div="Famdamily" Pts="2.0" Pos="2" Race="2" Toss="true" />
+      <rp Ent="75" Div="Famdamily" Pts="3.0" Pos="3" Race="2" />
+      <rp Ent="58" Div="Famdamily" Pts="4.0" Pos="4" Race="2" />
+      <rp Ent="106" Div="Famdamily" Pts="5.0" Pos="5" Race="2" />
+      <rp Ent="5" Div="Famdamily" Pts="6.0" Pos="6" Race="2" Toss="true" />
+      <rp Ent="6" Div="Famdamily" Pts="7.0" Pos="7" Race="2" Toss="true" />
+      <rp Ent="12" Div="Famdamily" Pts="8.0" Pos="8" Race="2" Toss="true" />
+      <rp Ent="14" Div="Famdamily" Pts="9.0" Pos="9" Race="2" Toss="true" />
+      <rp Ent="15" Div="Famdamily" Pts="10.0" Pos="10" Race="2" Toss="true" />
+      <rp Ent="19" Div="Famdamily" Pts="11.0" Pos="11" Race="2" Toss="true" />
+      <rp Ent="20" Div="Famdamily" Pts="12.0" Pos="12" Race="2" Toss="true" />
+      <rp Ent="21" Div="Famdamily" Pts="13.0" Pos="13" Race="2" Toss="true" />
+      <rp Ent="31" Div="Famdamily" Pts="14.0" Pos="14" Race="2" Toss="true" />
+      <rp Ent="37" Div="Famdamily" Pts="15.0" Pos="15" Race="2" Toss="true" />
+      <rp Ent="25" Div="Famdamily" Pts="16.0" Pos="16" Race="2" Toss="true" />
+      <rp Ent="48" Div="Famdamily" Pts="17.0" Pos="17" Race="2" Toss="true" />
+      <rp Ent="56" Div="Famdamily" Pts="18.0" Pos="18" Race="2" Toss="true" />
+      <rp Ent="57" Div="Famdamily" Pts="19.0" Pos="19" Race="2" Toss="true" />
+      <rp Ent="62" Div="Famdamily" Pts="20.0" Pos="20" Race="2" Toss="true" />
+      <rp Ent="52" Div="Famdamily" Pts="21.0" Pos="21" Race="2" Toss="true" />
+      <rp Ent="71" Div="Famdamily" Pts="22.0" Pos="22" Race="2" Toss="true" />
+      <rp Ent="72" Div="Famdamily" Pts="23.0" Pos="23" Race="2" Toss="true" />
+      <rp Ent="73" Div="Famdamily" Pts="24.0" Pos="24" Race="2" Toss="true" />
+      <rp Ent="79" Div="Famdamily" Pts="25.0" Pos="25" Race="2" Toss="true" />
+      <rp Ent="82" Div="Famdamily" Pts="26.0" Pos="26" Race="2" Toss="true" />
+      <rp Ent="84" Div="Famdamily" Pts="27.0" Pos="27" Race="2" Toss="true" />
+      <rp Ent="85" Div="Famdamily" Pts="28.0" Pos="28" Race="2" Toss="true" />
+      <rp Ent="86" Div="Famdamily" Pts="29.0" Pos="29" Race="2" Toss="true" />
+      <rp Ent="88" Div="Famdamily" Pts="30.0" Pos="30" Race="2" Toss="true" />
+      <rp Ent="89" Div="Famdamily" Pts="31.0" Pos="31" Race="2" Toss="true" />
+      <rp Ent="92" Div="Famdamily" Pts="32.0" Pos="32" Race="2" Toss="true" />
+      <rp Ent="94" Div="Famdamily" Pts="33.0" Pos="33" Race="2" Toss="true" />
+      <rp Ent="95" Div="Famdamily" Pts="34.0" Pos="34" Race="2" Toss="true" />
+      <rp Ent="99" Div="Famdamily" Pts="35.0" Pos="35" Race="2" Toss="true" />
+      <rp Ent="100" Div="Famdamily" Pts="36.0" Pos="36" Race="2" Toss="true" />
+      <rp Ent="108" Div="Famdamily" Pts="37.0" Pos="37" Race="2" />
+      <rp Ent="112" Div="Famdamily" Pts="38.0" Pos="38" Race="2" />
+      <rp Ent="115" Div="Famdamily" Pts="39.0" Pos="39" Race="2" />
+      <rp Ent="116" Div="Famdamily" Pts="40.0" Pos="40" Race="2" />
+      <rp Ent="117" Div="Masters" Pts="1.0" Pos="1" Race="1" />
+      <rp Ent="22" Div="Masters" Pts="2.0" Pos="2" Race="1" Toss="true" />
+      <rp Ent="58" Div="Masters" Pts="3.0" Pos="3" Race="1" />
+      <rp Ent="75" Div="Masters" Pts="4.0" Pos="4" Race="1" Toss="true" />
+      <rp Ent="106" Div="Masters" Pts="5.0" Pos="5" Race="1" Toss="true" />
+      <rp Ent="22" Div="Masters" Pts="1.0" Pos="1" Race="2" />
+      <rp Ent="117" Div="Masters" Pts="2.0" Pos="2" Race="2" Toss="true" />
+      <rp Ent="75" Div="Masters" Pts="3.0" Pos="3" Race="2" />
+      <rp Ent="58" Div="Masters" Pts="4.0" Pos="4" Race="2" Toss="true" />
+      <rp Ent="106" Div="Masters" Pts="5.0" Pos="5" Race="2" />
+    </RacePointsList>
+    <SeriesPointsList>
+      <sp Ent="117" Div="J105" Pts="1.0" Pos="1" />
+      <sp Ent="75" Div="J105" Pts="2.0" Pos="2" />
+      <sp Ent="56" Div="J105" Pts="2.0001" Pos="3" />
+      <sp Ent="58" Div="J105" Pts="3.0" Pos="4" />
+      <sp Ent="57" Div="J105" Pts="3.0001" Pos="5" />
+      <sp Ent="106" Div="J105" Pts="4.0" Pos="6" />
+      <sp Ent="62" Div="J105" Pts="5.0" Pos="7" />
+      <sp Ent="71" Div="J105" Pts="6.0" Pos="8" />
+      <sp Ent="72" Div="J105" Pts="7.0" Pos="9" />
+      <sp Ent="73" Div="J105" Pts="8.0" Pos="10" />
+      <sp Ent="79" Div="J105" Pts="10.0" Pos="11" />
+      <sp Ent="82" Div="J105" Pts="11.0" Pos="12" />
+      <sp Ent="84" Div="J105" Pts="12.0" Pos="13" />
+      <sp Ent="85" Div="J105" Pts="13.0" Pos="14" />
+      <sp Ent="86" Div="J105" Pts="14.0" Pos="15" />
+      <sp Ent="88" Div="J105" Pts="15.0" Pos="16" />
+      <sp Ent="89" Div="J105" Pts="16.0" Pos="17" />
+      <sp Ent="92" Div="J105" Pts="17.0" Pos="18" />
+      <sp Ent="94" Div="J105" Pts="18.0" Pos="19" />
+      <sp Ent="95" Div="J105" Pts="19.0" Pos="20" />
+      <sp Ent="99" Div="J105" Pts="20.0" Pos="21" />
+      <sp Ent="100" Div="J105" Pts="21.0" Pos="22" />
+      <sp Ent="108" Div="J105" Pts="23.0" Pos="23" />
+      <sp Ent="112" Div="J105" Pts="24.0" Pos="24" />
+      <sp Ent="115" Div="J105" Pts="25.0" Pos="25" />
+      <sp Ent="116" Div="J105" Pts="26.0" Pos="26" />
+      <sp Ent="22" Div="J30" Pts="1.0" Pos="1" />
+      <sp Ent="5" Div="J30" Pts="1.0001" Pos="2" />
+      <sp Ent="6" Div="J30" Pts="2.0" Pos="3" />
+      <sp Ent="12" Div="J30" Pts="3.0" Pos="4" />
+      <sp Ent="14" Div="J30" Pts="4.0" Pos="5" />
+      <sp Ent="15" Div="J30" Pts="5.0" Pos="6" />
+      <sp Ent="19" Div="J30" Pts="6.0" Pos="7" />
+      <sp Ent="20" Div="J30" Pts="7.0" Pos="8" />
+      <sp Ent="21" Div="J30" Pts="8.0" Pos="9" />
+      <sp Ent="31" Div="J30" Pts="10.0" Pos="10" />
+      <sp Ent="37" Div="J30" Pts="11.0" Pos="11" />
+      <sp Ent="25" Div="J35" Pts="1.0" Pos="1" />
+      <sp Ent="48" Div="J35" Pts="2.0" Pos="2" />
+      <sp Ent="52" Div="J35" Pts="3.0" Pos="3" />
+      <sp Ent="22" Div="Famdamily" Pts="1.0" Pos="1" />
+      <sp Ent="117" Div="Famdamily" Pts="1.0001" Pos="2" />
+      <sp Ent="5" Div="Famdamily" Pts="2.0" Pos="3" />
+      <sp Ent="75" Div="Famdamily" Pts="3.0" Pos="4" />
+      <sp Ent="6" Div="Famdamily" Pts="3.0001" Pos="5" />
+      <sp Ent="58" Div="Famdamily" Pts="4.0" Pos="6" />
+      <sp Ent="12" Div="Famdamily" Pts="4.0001" Pos="7" />
+      <sp Ent="106" Div="Famdamily" Pts="5.0" Pos="8" />
+      <sp Ent="14" Div="Famdamily" Pts="5.0001" Pos="9" />
+      <sp Ent="15" Div="Famdamily" Pts="6.0" Pos="10" />
+      <sp Ent="19" Div="Famdamily" Pts="7.0" Pos="11" />
+      <sp Ent="20" Div="Famdamily" Pts="8.0" Pos="12" />
+      <sp Ent="21" Div="Famdamily" Pts="9.0" Pos="13" />
+      <sp Ent="31" Div="Famdamily" Pts="11.0" Pos="14" />
+      <sp Ent="37" Div="Famdamily" Pts="12.0" Pos="15" />
+      <sp Ent="25" Div="Famdamily" Pts="13.0" Pos="16" />
+      <sp Ent="48" Div="Famdamily" Pts="14.0" Pos="17" />
+      <sp Ent="56" Div="Famdamily" Pts="15.0" Pos="18" />
+      <sp Ent="57" Div="Famdamily" Pts="16.0" Pos="19" />
+      <sp Ent="62" Div="Famdamily" Pts="18.0" Pos="20" />
+      <sp Ent="52" Div="Famdamily" Pts="19.0" Pos="21" />
+      <sp Ent="71" Div="Famdamily" Pts="20.0" Pos="22" />
+      <sp Ent="72" Div="Famdamily" Pts="21.0" Pos="23" />
+      <sp Ent="73" Div="Famdamily" Pts="22.0" Pos="24" />
+      <sp Ent="79" Div="Famdamily" Pts="24.0" Pos="25" />
+      <sp Ent="82" Div="Famdamily" Pts="25.0" Pos="26" />
+      <sp Ent="84" Div="Famdamily" Pts="26.0" Pos="27" />
+      <sp Ent="85" Div="Famdamily" Pts="27.0" Pos="28" />
+      <sp Ent="86" Div="Famdamily" Pts="28.0" Pos="29" />
+      <sp Ent="88" Div="Famdamily" Pts="29.0" Pos="30" />
+      <sp Ent="89" Div="Famdamily" Pts="30.0" Pos="31" />
+      <sp Ent="92" Div="Famdamily" Pts="31.0" Pos="32" />
+      <sp Ent="94" Div="Famdamily" Pts="32.0" Pos="33" />
+      <sp Ent="95" Div="Famdamily" Pts="33.0" Pos="34" />
+      <sp Ent="99" Div="Famdamily" Pts="34.0" Pos="35" />
+      <sp Ent="100" Div="Famdamily" Pts="35.0" Pos="36" />
+      <sp Ent="108" Div="Famdamily" Pts="37.0" Pos="37" />
+      <sp Ent="112" Div="Famdamily" Pts="38.0" Pos="38" />
+      <sp Ent="115" Div="Famdamily" Pts="39.0" Pos="39" />
+      <sp Ent="116" Div="Famdamily" Pts="40.0" Pos="40" />
+      <sp Ent="22" Div="Masters" Pts="1.0" Pos="1" />
+      <sp Ent="117" Div="Masters" Pts="1.0001" Pos="2" />
+      <sp Ent="75" Div="Masters" Pts="3.0" Pos="3" />
+      <sp Ent="58" Div="Masters" Pts="3.0001" Pos="4" />
+      <sp Ent="106" Div="Masters" Pts="5.0" Pos="5" />
+    </SeriesPointsList>
+  </Scores>
+  <ReportOptionList>
+    <Options NameOption="0" FontName="Verdana" FontSize="2" TabName="Series" Template="" Show1DTimes="true">
+      <OptionLocations>
+	<item value="2.1" />
+	<item value="none" />
+	<item value="1.1" />
+	<item value="none" />
+	<item value="none" />
+	<item value="none" />
+	<item value="none" />
+      </OptionLocations>
+    </Options>
+    <Options NameOption="0" FontName="Verdana" FontSize="2" TabName="Race" Template="" Show1DTimes="false">
+      <OptionLocations>
+	<item value="2.1" />
+	<item value="none" />
+	<item value="1.1" />
+	<item value="none" />
+	<item value="none" />
+	<item value="none" />
+	<item value="3.1" />
+      </OptionLocations>
+    </Options>
+    <Options NameOption="1" FontName="Verdana" FontSize="2" TabName="Entries" Template="" Show1DTimes="true">
+      <OptionLocations>
+	<item value="1.2" />
+	<item value="none" />
+	<item value="1.1" />
+	<item value="3.1" />
+	<item value="none" />
+	<item value="4.1" />
+	<item value="3.1" />
+      </OptionLocations>
+    </Options>
+    <Options NameOption="2" FontName="Verdana" FontSize="2" TabName="CheckIn" Template="" Show1DTimes="true">
+      <OptionLocations>
+	<item value="none" />
+	<item value="none" />
+	<item value="1.1" />
+	<item value="none" />
+	<item value="none" />
+	<item value="none" />
+	<item value="none" />
+      </OptionLocations>
+    </Options>
+    <Options NameOption="0" FontName="Verdana" FontSize="2" TabName="FinishSheet" Template="" Show1DTimes="true">
+      <OptionLocations>
+	<item value="none" />
+	<item value="none" />
+	<item value="1.1" />
+	<item value="none" />
+	<item value="none" />
+	<item value="none" />
+	<item value="none" />
+      </OptionLocations>
+    </Options>
+    <Options NameOption="0" FontName="Verdana" FontSize="2" TabName="Proofing" Template="" Show1DTimes="true">
+      <OptionLocations>
+	<item value="2.1" />
+	<item value="none" />
+	<item value="1.1" />
+	<item value="3.2" />
+	<item value="none" />
+	<item value="3.1" />
+	<item value="none" />
+      </OptionLocations>
+    </Options>
+  </ReportOptionList>
+</Regatta>
+

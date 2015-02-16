@@ -1,0 +1,587 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<SailingXRR Date='20101202' Time='185135' Type='SailingXRR' Version='1.3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.sailing.org/uploads/xml/sailingXRR_v1.3.xsd'>
+	<Team BoatID='0' Gender='Men' NOC='SVK' TeamID='svkmv3' TeamName=''>
+		<Crew PersonID='svkmv3' Position='S'></Crew>
+		<Crew PersonID='cantf1' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='0' BoatName='' SailNumber='7679'></Boat>
+	<Person FamilyName='Valasek' GivenName='Marek' IFPersonID='svkmv3' NOC='SVK' PersonID='svkmv3'></Person>
+	<Person FamilyName='Fedyszyn' GivenName='Todd' IFPersonID='cantf1' NOC='CAN' PersonID='cantf1'></Person>
+	<Team BoatID='1' Gender='Men' NOC='GER' TeamID='GERJB13' TeamName=''>
+		<Crew PersonID='GERJB13' Position='S'></Crew>
+		<Crew PersonID='GERMM7' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='1' BoatName='' SailNumber='7750'></Boat>
+	<Person FamilyName='Burmester' GivenName='Jens' IFPersonID='GERJB13' NOC='GER' PersonID='GERJB13'></Person>
+	<Person FamilyName='Mehlen' GivenName='Markus' IFPersonID='GERMM7' NOC='GER' PersonID='GERMM7'></Person>
+	<Team BoatID='2' Gender='Men' NOC='BRA' TeamID='BRASH3' TeamName=''>
+		<Crew PersonID='BRASH3' Position='S'></Crew>
+		<Crew PersonID='USABH55' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='2' BoatName='' SailNumber='7970'></Boat>
+	<Person FamilyName='Hopkins' GivenName='Samuel' IFPersonID='BRASH3' NOC='BRA' PersonID='BRASH3'></Person>
+	<Person FamilyName='Kaplan' GivenName='Bart' IFPersonID='USABH55' NOC='USA' PersonID='USABH55'></Person>
+	<Team BoatID='3' Gender='Men' NOC='GBR' TeamID='gbrjg12' TeamName=''>
+		<Crew PersonID='gbrjg12' Position='S'></Crew>
+		<Crew PersonID='gbreg1' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='3' BoatName='' SailNumber='8025'></Boat>
+	<Person FamilyName='Gimson' GivenName='John' IFPersonID='gbrjg12' NOC='GBR' PersonID='gbrjg12'></Person>
+	<Person FamilyName='Greig' GivenName='Ed' IFPersonID='gbreg1' NOC='GBR' PersonID='gbreg1'></Person>
+	<Team BoatID='4' Gender='Men' NOC='USA' TeamID='usajj42' TeamName=''>
+		<Crew PersonID='usajj42' Position='S'></Crew>
+		<Crew PersonID='argfe1' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='4' BoatName='' SailNumber='8077'></Boat>
+	<Person FamilyName='Jennings' GivenName='Jack' IFPersonID='usajj42' NOC='USA' PersonID='usajj42'></Person>
+	<Person FamilyName='engelhard' GivenName='federico' IFPersonID='argfe1' NOC='ARG' PersonID='argfe1'></Person>
+	<Team BoatID='5' Gender='Men' NOC='USA' TeamID='usaas64' TeamName=''>
+		<Crew PersonID='usaas64' Position='S'></Crew>
+		<Crew PersonID='USSAAS64' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='5' BoatName='' SailNumber='8095'></Boat>
+	<Person FamilyName='Serinis' GivenName='Aaron' IFPersonID='usaas64' NOC='USA' PersonID='usaas64'></Person>
+	<Person FamilyName='Ostbye ' GivenName='Brent  ' IFPersonID='USSAAS64' NOC='USS' PersonID='USSAAS64'></Person>
+	<Team BoatID='6' Gender='Men' NOC='UKR' TeamID='UKRVG1' TeamName=''>
+		<Crew PersonID='UKRVG1' Position='S'></Crew>
+		<Crew PersonID='UKRVK1' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='6' BoatName='' SailNumber='8096'></Boat>
+	<Person FamilyName='Gureyev' GivenName='Vasyl' IFPersonID='UKRVG1' NOC='UKR' PersonID='UKRVG1'></Person>
+	<Person FamilyName='Korotkov' GivenName='Voldymyr' IFPersonID='UKRVK1' NOC='UKR' PersonID='UKRVK1'></Person>
+	<Team BoatID='7' Gender='Men' NOC='CAN' TeamID='CANBC' TeamName=''>
+		<Crew PersonID='CANBC' Position='S'></Crew>
+		<Crew PersonID='CANTTY5' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='7' BoatName='' SailNumber='8143'></Boat>
+	<Person FamilyName='Cramer' GivenName='Brian' IFPersonID='CANBC' NOC='CAN' PersonID='CANBC'></Person>
+	<Person FamilyName='Bjorn' GivenName='Tyler' IFPersonID='CANTTY5' NOC='CAN' PersonID='CANTTY5'></Person>
+	<Team BoatID='8' Gender='Men' NOC='USA' TeamID='USAAA33' TeamName=''>
+		<Crew PersonID='USAAA33' Position='S'></Crew>
+		<Crew PersonID='USAMD5' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='8' BoatName='' SailNumber='8157'></Boat>
+	<Person FamilyName='Anosov' GivenName='Arthur' IFPersonID='USAAA33' NOC='USA' PersonID='USAAA33'></Person>
+	<Person FamilyName='Dolan' GivenName='Mark' IFPersonID='USAMD5' NOC='USA' PersonID='USAMD5'></Person>
+	<Team BoatID='9' Gender='Men' NOC='USA' TeamID='USAJS197' TeamName=''>
+		<Crew PersonID='USAJS197' Position='S'></Crew>
+		<Crew PersonID='USABB95' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='9' BoatName='' SailNumber='8177'></Boat>
+	<Person FamilyName='Smith' GivenName='Jud' IFPersonID='USAJS197' NOC='USA' PersonID='USAJS197'></Person>
+	<Person FamilyName='Balmert' GivenName='Brad' IFPersonID='USABB95' NOC='USA' PersonID='USABB95'></Person>
+	<Team BoatID='10' Gender='Men' NOC='NZL' TeamID='nzlcs5' TeamName=''>
+		<Crew PersonID='nzlcs5' Position='S'></Crew>
+		<Crew PersonID='nedwz' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='10' BoatName='' SailNumber='8188'></Boat>
+	<Person FamilyName='Slippens' GivenName='Cornelis' IFPersonID='nzlcs5' NOC='NZL' PersonID='nzlcs5'></Person>
+	<Person FamilyName='Zetzema' GivenName='Wietze' IFPersonID='nedwz' NOC='NED' PersonID='nedwz'></Person>
+	<Team BoatID='11' Gender='Men' NOC='JAM' TeamID='JAMUSA31' TeamName=''>
+		<Crew PersonID='JAMUSA31' Position='S'></Crew>
+		<Crew PersonID='KMUSA35' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='11' BoatName='' SailNumber='8195'></Boat>
+	<Person FamilyName='MacCausland' GivenName='John' IFPersonID='JAMUSA31' NOC='JAM' PersonID='JAMUSA31'></Person>
+	<Person FamilyName='Murphy' GivenName='Kevin' IFPersonID='KMUSA35' NOC='KMU' PersonID='KMUSA35'></Person>
+	<Team BoatID='12' Gender='Men' NOC='USA' TeamID='usalw12' TeamName=''>
+		<Crew PersonID='usalw12' Position='S'></Crew>
+		<Crew PersonID='USAMS25' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='12' BoatName='' SailNumber='8235'></Boat>
+	<Person FamilyName='Whipple' GivenName='Larry' IFPersonID='usalw12' NOC='USA' PersonID='usalw12'></Person>
+	<Person FamilyName='Strube' GivenName='Mark' IFPersonID='USAMS25' NOC='USA' PersonID='USAMS25'></Person>
+	<Team BoatID='13' Gender='Men' NOC='USA' TeamID='usaac8' TeamName=''>
+		<Crew PersonID='usaac8' Position='S'></Crew>
+		<Crew PersonID='USABN' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='13' BoatName='' SailNumber='8241'></Boat>
+	<Person FamilyName='Campbell' GivenName='Andrew' IFPersonID='usaac8' NOC='USA' PersonID='usaac8'></Person>
+	<Person FamilyName='Nichol' GivenName='Brad' IFPersonID='USABN' NOC='USA' PersonID='USABN'></Person>
+	<Team BoatID='14' Gender='Men' NOC='USA' TeamID='USAAM20' TeamName=''>
+		<Crew PersonID='USAAM20' Position='S'></Crew>
+		<Crew PersonID='USABF6' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='14' BoatName='' SailNumber='8250'></Boat>
+	<Person FamilyName='Macdonald' GivenName='Andrew' IFPersonID='USAAM20' NOC='USA' PersonID='USAAM20'></Person>
+	<Person FamilyName='Fatih' GivenName='Brian' IFPersonID='USABF6' NOC='USA' PersonID='USABF6'></Person>
+	<Team BoatID='15' Gender='Men' NOC='IRL' TeamID='IRLPO12' TeamName=''>
+		<Crew PersonID='IRLPO12' Position='S'></Crew>
+		<Crew PersonID='IRLTG7' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='15' BoatName='' SailNumber='8261'></Boat>
+	<Person FamilyName='O&#39;Leary' GivenName='Peter' IFPersonID='IRLPO12' NOC='IRL' PersonID='IRLPO12'></Person>
+	<Person FamilyName='Goodbody' GivenName='Tim' IFPersonID='IRLTG7' NOC='IRL' PersonID='IRLTG7'></Person>
+	<Team BoatID='16' Gender='Men' NOC='NED' TeamID='NEDSJ1' TeamName=''>
+		<Crew PersonID='NEDSJ1' Position='S'></Crew>
+		<Crew PersonID='NEDEV17' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='16' BoatName='' SailNumber='8263'></Boat>
+	<Person FamilyName='Jorissen' GivenName='Sander' IFPersonID='NEDSJ1' NOC='NED' PersonID='NEDSJ1'></Person>
+	<Person FamilyName='Veldhuizen' GivenName='Erik' IFPersonID='NEDEV17' NOC='NED' PersonID='NEDEV17'></Person>
+	<Team BoatID='17' Gender='Men' NOC='USA' TeamID='USARH19' TeamName=''>
+		<Crew PersonID='USARH19' Position='S'></Crew>
+		<Crew PersonID='AUSWF' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='17' BoatName='' SailNumber='8268'></Boat>
+	<Person FamilyName='Hagebols' GivenName='Rodney' IFPersonID='USARH19' NOC='USA' PersonID='USARH19'></Person>
+	<Person FamilyName='Finlay' GivenName='William' IFPersonID='AUSWF' NOC='AUS' PersonID='AUSWF'></Person>
+	<Team BoatID='18' Gender='Men' NOC='USA' TeamID='usags9' TeamName=''>
+		<Crew PersonID='usags9' Position='S'></Crew>
+		<Crew PersonID='USARP39' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='18' BoatName='' SailNumber='8273'></Boat>
+	<Person FamilyName='Szabo' GivenName='George' IFPersonID='usags9' NOC='USA' PersonID='usags9'></Person>
+	<Person FamilyName='Peters' GivenName='Rick' IFPersonID='USARP39' NOC='USA' PersonID='USARP39'></Person>
+	<Team BoatID='19' Gender='Men' NOC='CAN' TeamID='CANOJ1' TeamName=''>
+		<Crew PersonID='CANOJ1' Position='S'></Crew>
+		<Crew PersonID='CANIB6' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='19' BoatName='' SailNumber='8278'></Boat>
+	<Person FamilyName='Johansson' GivenName='Oskar' IFPersonID='CANOJ1' NOC='CAN' PersonID='CANOJ1'></Person>
+	<Person FamilyName='Bunner' GivenName='Ivan' IFPersonID='CANIB6' NOC='CAN' PersonID='CANIB6'></Person>
+	<Team BoatID='20' Gender='Men' NOC='USA' TeamID='USAAD1' TeamName=''>
+		<Crew PersonID='USAAD1' Position='S'></Crew>
+		<Crew PersonID='BRABP1' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='20' BoatName='' SailNumber='8285'></Boat>
+	<Person FamilyName='Diaz' GivenName='Augie' IFPersonID='USAAD1' NOC='USA' PersonID='USAAD1'></Person>
+	<Person FamilyName='Prada' GivenName='Bruno' IFPersonID='BRABP1' NOC='BRA' PersonID='BRABP1'></Person>
+	<Team BoatID='21' Gender='Men' NOC='SUI' TeamID='SUIHD1' TeamName=''>
+		<Crew PersonID='SUIHD1' Position='S'></Crew>
+		<Crew PersonID='USAEM35' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='21' BoatName='' SailNumber='8286'></Boat>
+	<Person FamilyName='Dannesboe' GivenName='Henrik' IFPersonID='SUIHD1' NOC='SUI' PersonID='SUIHD1'></Person>
+	<Person FamilyName='Morey' GivenName='Edward' IFPersonID='USAEM35' NOC='USA' PersonID='USAEM35'></Person>
+	<Team BoatID='22' Gender='Men' NOC='FIN' TeamID='FINMD5' TeamName=''>
+		<Crew PersonID='FINMD5' Position='S'></Crew>
+		<Crew PersonID='FINEH1' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='22' BoatName='' SailNumber='8292'></Boat>
+	<Person FamilyName='Dahlman' GivenName='Mathias' IFPersonID='FINMD5' NOC='FIN' PersonID='FINMD5'></Person>
+	<Person FamilyName='Heinonen' GivenName='Erkki-Tapani' IFPersonID='FINEH1' NOC='FIN' PersonID='FINEH1'></Person>
+	<Team BoatID='23' Gender='Men' NOC='USA' TeamID='USAJB107' TeamName=''>
+		<Crew PersonID='USAJB107' Position='S'></Crew>
+		<Crew PersonID='USAEL107' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='23' BoatName='' SailNumber='8306'></Boat>
+	<Person FamilyName='Buckingham' GivenName='Jim' IFPersonID='USAJB107' NOC='USA' PersonID='USAJB107'></Person>
+	<Person FamilyName='Lidecis' GivenName='Erik' IFPersonID='USAEL107' NOC='USA' PersonID='USAEL107'></Person>
+	<Team BoatID='24' Gender='Men' NOC='GER' TeamID='GERAH19' TeamName=''>
+		<Crew PersonID='GERAH19' Position='S'></Crew>
+		<Crew PersonID='GERSW18' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='24' BoatName='' SailNumber='8311'></Boat>
+	<Person FamilyName='Hampe' GivenName='Axel' IFPersonID='GERAH19' NOC='GER' PersonID='GERAH19'></Person>
+	<Person FamilyName='Wagner' GivenName='Stephan' IFPersonID='GERSW18' NOC='GER' PersonID='GERSW18'></Person>
+	<Team BoatID='25' Gender='Men' NOC='USA' TeamID='USADC19' TeamName=''>
+		<Crew PersonID='USADC19' Position='S'></Crew>
+		<Crew PersonID='USADC8' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='25' BoatName='' SailNumber='8318'></Boat>
+	<Person FamilyName='Coughlin' GivenName='Daniel' IFPersonID='USADC19' NOC='USA' PersonID='USADC19'></Person>
+	<Person FamilyName='Chard' GivenName='David' IFPersonID='USADC8' NOC='USA' PersonID='USADC8'></Person>
+	<Team BoatID='26' Gender='Men' NOC='USA' TeamID='usaed4' TeamName=''>
+		<Crew PersonID='usaed4' Position='S'></Crew>
+		<Crew PersonID='usasc75' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='26' BoatName='' SailNumber='8323'></Boat>
+	<Person FamilyName='Doyle' GivenName='Eric' IFPersonID='usaed4' NOC='USA' PersonID='usaed4'></Person>
+	<Person FamilyName='Calder' GivenName='Steve' IFPersonID='usasc75' NOC='USA' PersonID='usasc75'></Person>
+	<Team BoatID='27' Gender='Men' NOC='ITA' TeamID='ITADN1' TeamName=''>
+		<Crew PersonID='ITADN1' Position='S'></Crew>
+		<Crew PersonID='ITALB14' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='27' BoatName='' SailNumber='8341'></Boat>
+	<Person FamilyName='Negri' GivenName='Diego' IFPersonID='ITADN1' NOC='ITA' PersonID='ITADN1'></Person>
+	<Person FamilyName='BOGGI' GivenName='LUCIO' IFPersonID='ITALB14' NOC='ITA' PersonID='ITALB14'></Person>
+	<Team BoatID='28' Gender='Men' NOC='USA' TeamID='usarm14' TeamName=''>
+		<Crew PersonID='usarm14' Position='S'></Crew>
+		<Crew PersonID='usapt05' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='28' BoatName='' SailNumber='8362'></Boat>
+	<Person FamilyName='Merriman' GivenName='Rick' IFPersonID='usarm14' NOC='USA' PersonID='usarm14'></Person>
+	<Person FamilyName='Trinter' GivenName='Phil' IFPersonID='usapt05' NOC='USA' PersonID='usapt05'></Person>
+	<Team BoatID='29' Gender='Men' NOC='SUI' TeamID='SUIFM1' TeamName=''>
+		<Crew PersonID='SUIFM1' Position='S'></Crew>
+		<Crew PersonID='NORPP3' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='29' BoatName='' SailNumber='8364'></Boat>
+	<Person FamilyName='Marazzi' GivenName='Flavio' IFPersonID='SUIFM1' NOC='SUI' PersonID='SUIFM1'></Person>
+	<Person FamilyName='Morland Pedersen' GivenName='Petter' IFPersonID='NORPP3' NOC='NOR' PersonID='NORPP3'></Person>
+	<Team BoatID='30' Gender='Men' NOC='USA' TeamID='usage2' TeamName=''>
+		<Crew PersonID='usage2' Position='S'></Crew>
+		<Crew PersonID='usasd39' Position='C'></Crew>
+	</Team>
+	<Boat BoatID='30' BoatName='' SailNumber='8376'></Boat>
+	<Person FamilyName='Ewenson' GivenName='Geoffrey' IFPersonID='usage2' NOC='USA' PersonID='usage2'></Person>
+	<Person FamilyName='Dieball' GivenName='Skip' IFPersonID='usasd39' NOC='USA' PersonID='usasd39'></Person>
+	<Event EventID='31' IFEventID='9733' Title='US SAILING&#39;s Rolex Miami OCR - Star'>
+		<Race RaceID='7' RaceName='1' RaceNumber='1' RaceStartDate='20090126' RaceStartTime='021255' RaceStatus='Provisional'></Race>
+		<Race RaceID='64' RaceName='2' RaceNumber='2' RaceStartDate='20090126' RaceStartTime='021255' RaceStatus='Provisional'></Race>
+		<Race RaceID='66' RaceName='3' RaceNumber='3' RaceStartDate='20090127' RaceStartTime='021255' RaceStatus='Provisional'></Race>
+		<Race RaceID='82' RaceName='4' RaceNumber='4' RaceStartDate='20090127' RaceStartTime='021255' RaceStatus='Provisional'></Race>
+		<Race RaceID='84' RaceName='5' RaceNumber='5' RaceStartDate='20090128' RaceStartTime='021255' RaceStatus='Provisional'></Race>
+		<Race RaceID='187' RaceName='6' RaceNumber='6' RaceStartDate='20090129' RaceStartTime='021255' RaceStatus='Provisional'></Race>
+		<Race RaceID='189' RaceName='7' RaceNumber='7' RaceStartDate='20090129' RaceStartTime='021255' RaceStatus='Provisional'></Race>
+		<Race RaceID='278' RaceName='8' RaceNumber='8' RaceStartDate='20090129' RaceStartTime='021255' RaceStatus='Provisional'></Race>
+		<Race RaceID='289' RaceName='9' RaceNumber='9' RaceStartDate='20090130' RaceStartTime='021255' RaceStatus='Provisional'></Race>
+		<Race RaceID='301' RaceName='10' RaceNumber='10' RaceStartDate='20090130' RaceStartTime='021255' RaceStatus='Provisional'></Race>
+		<Race RaceID='542' RaceName='Medal' RaceNumber='11' RaceStartDate='20090131' RaceStartTime='021255' RaceStatus='Provisional'></Race>
+		<Division DivisionID='12' Gender='Men' IFClassID='STR' Title='Star'>
+			<RaceResult Discard='true' RaceID='7' RacePoints='31' RaceRank='31' ScoreCode='' TeamID='svkmv3'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='28' RaceRank='29' ScoreCode='' TeamID='svkmv3'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='27' RaceRank='27' ScoreCode='' TeamID='svkmv3'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='24' RaceRank='24' ScoreCode='' TeamID='svkmv3'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='24' RaceRank='24' ScoreCode='' TeamID='svkmv3'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='16' RaceRank='16' ScoreCode='' TeamID='svkmv3'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='19' RaceRank='19' ScoreCode='' TeamID='svkmv3'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='28' RaceRank='28' ScoreCode='' TeamID='svkmv3'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='28' RaceRank='28' ScoreCode='' TeamID='svkmv3'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='26' RaceRank='26' ScoreCode='' TeamID='svkmv3'></RaceResult>
+			<SeriesResult NetPoints='220' Rank='28' TeamID='svkmv3' Tied='false' TotalPoints='251'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='30' RaceRank='30' ScoreCode='' TeamID='GERJB13'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='22' RaceRank='23' ScoreCode='' TeamID='GERJB13'></RaceResult>
+			<RaceResult Discard='true' RaceID='66' RacePoints='32' ScoreCode='DNF' TeamID='GERJB13'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='32' ScoreCode='DNS' TeamID='GERJB13'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='27' RaceRank='27' ScoreCode='' TeamID='GERJB13'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='14' RaceRank='14' ScoreCode='' TeamID='GERJB13'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='20' RaceRank='20' ScoreCode='' TeamID='GERJB13'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='27' RaceRank='27' ScoreCode='' TeamID='GERJB13'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='20' RaceRank='20' ScoreCode='' TeamID='GERJB13'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='25' RaceRank='25' ScoreCode='' TeamID='GERJB13'></RaceResult>
+			<SeriesResult NetPoints='217' Rank='27' TeamID='GERJB13' Tied='false' TotalPoints='249'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='29' RaceRank='29' ScoreCode='' TeamID='BRASH3'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='30' RaceRank='31' ScoreCode='' TeamID='BRASH3'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='28' RaceRank='28' ScoreCode='' TeamID='BRASH3'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='25' RaceRank='25' ScoreCode='' TeamID='BRASH3'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='31' RaceRank='31' ScoreCode='' TeamID='BRASH3'></RaceResult>
+			<RaceResult Discard='true' RaceID='187' RacePoints='32' ScoreCode='DNS' TeamID='BRASH3'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='21' RaceRank='21' ScoreCode='' TeamID='BRASH3'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='32' ScoreCode='DNF' TeamID='BRASH3'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='32' ScoreCode='DNS' TeamID='BRASH3'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='32' ScoreCode='DNS' TeamID='BRASH3'></RaceResult>
+			<SeriesResult NetPoints='260' Rank='31' TeamID='BRASH3' Tied='false' TotalPoints='292'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='13' RaceRank='13' ScoreCode='' TeamID='gbrjg12'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='8' RaceRank='8' ScoreCode='' TeamID='gbrjg12'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='15' RaceRank='15' ScoreCode='' TeamID='gbrjg12'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='9' RaceRank='9' ScoreCode='' TeamID='gbrjg12'></RaceResult>
+			<RaceResult Discard='true' RaceID='84' RacePoints='20' RaceRank='20' ScoreCode='' TeamID='gbrjg12'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='17' RaceRank='17' ScoreCode='' TeamID='gbrjg12'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='8' RaceRank='8' ScoreCode='' TeamID='gbrjg12'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='8' RaceRank='8' ScoreCode='' TeamID='gbrjg12'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='18' RaceRank='18' ScoreCode='' TeamID='gbrjg12'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='16' RaceRank='16' ScoreCode='' TeamID='gbrjg12'></RaceResult>
+			<SeriesResult NetPoints='112' Rank='13' TeamID='gbrjg12' Tied='false' TotalPoints='132'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='15' RaceRank='15' ScoreCode='' TeamID='usajj42'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='9' RaceRank='9' ScoreCode='' TeamID='usajj42'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='17' RaceRank='17' ScoreCode='' TeamID='usajj42'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='13' RaceRank='13' ScoreCode='' TeamID='usajj42'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='21' RaceRank='21' ScoreCode='' TeamID='usajj42'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='9' RaceRank='9' ScoreCode='' TeamID='usajj42'></RaceResult>
+			<RaceResult Discard='true' RaceID='189' RacePoints='32' RaceRank='29' ScoreCode='OCS' TeamID='usajj42'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='14' RaceRank='14' ScoreCode='' TeamID='usajj42'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='16' RaceRank='16' ScoreCode='' TeamID='usajj42'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='12' RaceRank='12' ScoreCode='' TeamID='usajj42'></RaceResult>
+			<SeriesResult NetPoints='126' Rank='18' TeamID='usajj42' Tied='false' TotalPoints='158'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='12' RaceRank='12' ScoreCode='' TeamID='usaas64'></RaceResult>
+			<RaceResult Discard='true' RaceID='64' RacePoints='27' RaceRank='28' ScoreCode='' TeamID='usaas64'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='23' RaceRank='23' ScoreCode='' TeamID='usaas64'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='16' RaceRank='16' ScoreCode='' TeamID='usaas64'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='15' RaceRank='15' ScoreCode='' TeamID='usaas64'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='13' RaceRank='13' ScoreCode='' TeamID='usaas64'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='16' RaceRank='16' ScoreCode='' TeamID='usaas64'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='23' RaceRank='23' ScoreCode='' TeamID='usaas64'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='14' RaceRank='14' ScoreCode='' TeamID='usaas64'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='17' RaceRank='17' ScoreCode='' TeamID='usaas64'></RaceResult>
+			<SeriesResult NetPoints='149' Rank='20' TeamID='usaas64' Tied='false' TotalPoints='176'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='18' RaceRank='18' ScoreCode='' TeamID='UKRVG1'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='19' RaceRank='20' ScoreCode='' TeamID='UKRVG1'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='24' RaceRank='24' ScoreCode='' TeamID='UKRVG1'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='17' RaceRank='17' ScoreCode='' TeamID='UKRVG1'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='18' RaceRank='18' ScoreCode='' TeamID='UKRVG1'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='27' RaceRank='27' ScoreCode='' TeamID='UKRVG1'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='14' RaceRank='14' ScoreCode='' TeamID='UKRVG1'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='18' RaceRank='18' ScoreCode='' TeamID='UKRVG1'></RaceResult>
+			<RaceResult Discard='true' RaceID='289' RacePoints='32' ScoreCode='DNS' TeamID='UKRVG1'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='32' ScoreCode='DNS' TeamID='UKRVG1'></RaceResult>
+			<SeriesResult NetPoints='187' Rank='24' TeamID='UKRVG1' Tied='false' TotalPoints='219'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='16' RaceRank='16' ScoreCode='' TeamID='CANBC'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='14' RaceRank='14' ScoreCode='' TeamID='CANBC'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='21' RaceRank='21' ScoreCode='' TeamID='CANBC'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='20' RaceRank='20' ScoreCode='' TeamID='CANBC'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='11' RaceRank='11' ScoreCode='' TeamID='CANBC'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='12' RaceRank='12' ScoreCode='' TeamID='CANBC'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='7' RaceRank='7' ScoreCode='' TeamID='CANBC'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='21' RaceRank='21' ScoreCode='' TeamID='CANBC'></RaceResult>
+			<RaceResult Discard='true' RaceID='289' RacePoints='27' RaceRank='27' ScoreCode='' TeamID='CANBC'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='22' RaceRank='22' ScoreCode='' TeamID='CANBC'></RaceResult>
+			<SeriesResult NetPoints='144' Rank='19' TeamID='CANBC' Tied='false' TotalPoints='171'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='22' RaceRank='22' ScoreCode='' TeamID='USAAA33'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='23' RaceRank='24' ScoreCode='' TeamID='USAAA33'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='8' RaceRank='8' ScoreCode='' TeamID='USAAA33'></RaceResult>
+			<RaceResult Discard='true' RaceID='82' RacePoints='32' RaceRank='27' ScoreCode='OCS' TeamID='USAAA33'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='26' RaceRank='26' ScoreCode='' TeamID='USAAA33'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='20' RaceRank='20' ScoreCode='' TeamID='USAAA33'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='11' RaceRank='11' ScoreCode='' TeamID='USAAA33'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='19' RaceRank='19' ScoreCode='' TeamID='USAAA33'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='8' RaceRank='8' ScoreCode='' TeamID='USAAA33'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='14' RaceRank='14' ScoreCode='' TeamID='USAAA33'></RaceResult>
+			<SeriesResult NetPoints='151' Rank='21' TeamID='USAAA33' Tied='false' TotalPoints='183'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='11' RaceRank='11' ScoreCode='' TeamID='USAJS197'></RaceResult>
+			<RaceResult Discard='true' RaceID='64' RacePoints='13' RaceRank='13' ScoreCode='' TeamID='USAJS197'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='10' RaceRank='10' ScoreCode='' TeamID='USAJS197'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='3' RaceRank='3' ScoreCode='' TeamID='USAJS197'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='10' RaceRank='10' ScoreCode='' TeamID='USAJS197'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='10' RaceRank='10' ScoreCode='' TeamID='USAJS197'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='10' RaceRank='10' ScoreCode='' TeamID='USAJS197'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='1' RaceRank='1' ScoreCode='' TeamID='USAJS197'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='5' RaceRank='5' ScoreCode='' TeamID='USAJS197'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='5' RaceRank='5' ScoreCode='' TeamID='USAJS197'></RaceResult>
+			<RaceResult Discard='false' RaceID='542' RacePoints='20' RaceRank='10' ScoreCode='' TeamID='USAJS197'></RaceResult>
+			<SeriesResult NetPoints='85' Rank='6' TeamID='USAJS197' Tied='false' TotalPoints='98'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='28' RaceRank='28' ScoreCode='' TeamID='nzlcs5'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='18' RaceRank='19' ScoreCode='' TeamID='nzlcs5'></RaceResult>
+			<RaceResult Discard='true' RaceID='66' RacePoints='32' ScoreCode='DNS' TeamID='nzlcs5'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='32' ScoreCode='DNS' TeamID='nzlcs5'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='25' RaceRank='25' ScoreCode='' TeamID='nzlcs5'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='15' RaceRank='15' ScoreCode='' TeamID='nzlcs5'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='32' RaceRank='28' ScoreCode='OCS' TeamID='nzlcs5'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='30' RaceRank='30' ScoreCode='' TeamID='nzlcs5'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='24' RaceRank='24' ScoreCode='' TeamID='nzlcs5'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='27' RaceRank='27' ScoreCode='' TeamID='nzlcs5'></RaceResult>
+			<SeriesResult NetPoints='231' Rank='30' TeamID='nzlcs5' Tied='false' TotalPoints='263'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='5' RaceRank='5' ScoreCode='' TeamID='JAMUSA31'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='2' RaceRank='2' ScoreCode='' TeamID='JAMUSA31'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='16' RaceRank='16' ScoreCode='' TeamID='JAMUSA31'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='8' RaceRank='8' ScoreCode='' TeamID='JAMUSA31'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='23' RaceRank='23' ScoreCode='' TeamID='JAMUSA31'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='4' RaceRank='4' ScoreCode='' TeamID='JAMUSA31'></RaceResult>
+			<RaceResult Discard='true' RaceID='189' RacePoints='32' RaceRank='25' ScoreCode='OCS' TeamID='JAMUSA31'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='4' RaceRank='4' ScoreCode='' TeamID='JAMUSA31'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='26' RaceRank='26' ScoreCode='' TeamID='JAMUSA31'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='3' RaceRank='3' ScoreCode='' TeamID='JAMUSA31'></RaceResult>
+			<RaceResult Discard='false' RaceID='542' RacePoints='12' RaceRank='6' ScoreCode='' TeamID='JAMUSA31'></RaceResult>
+			<SeriesResult NetPoints='103' Rank='9' TeamID='JAMUSA31' Tied='false' TotalPoints='135'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='17' RaceRank='17' ScoreCode='' TeamID='usalw12'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='11' RaceRank='11' ScoreCode='' TeamID='usalw12'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='14.3' RaceRank='29' ScoreCode='RDG/14.3' TeamID='usalw12'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='14.3' RaceRank='29' ScoreCode='RDG/14.3' TeamID='usalw12'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='8' RaceRank='8' ScoreCode='' TeamID='usalw12'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='2' RaceRank='2' ScoreCode='' TeamID='usalw12'></RaceResult>
+			<RaceResult Discard='true' RaceID='189' RacePoints='32' RaceRank='31' ScoreCode='OCS' TeamID='usalw12'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='16' RaceRank='16' ScoreCode='' TeamID='usalw12'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='25' RaceRank='25' ScoreCode='' TeamID='usalw12'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='10' RaceRank='10' ScoreCode='' TeamID='usalw12'></RaceResult>
+			<SeriesResult NetPoints='117.6' Rank='15' TeamID='usalw12' Tied='false' TotalPoints='149.6'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='9' RaceRank='9' ScoreCode='' TeamID='usaac8'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='5' RaceRank='5' ScoreCode='' TeamID='usaac8'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='7' RaceRank='7' ScoreCode='' TeamID='usaac8'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='7' RaceRank='7' ScoreCode='' TeamID='usaac8'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='9' RaceRank='9' ScoreCode='' TeamID='usaac8'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='1' RaceRank='1' ScoreCode='' TeamID='usaac8'></RaceResult>
+			<RaceResult Discard='true' RaceID='189' RacePoints='32' RaceRank='26' ScoreCode='OCS' TeamID='usaac8'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='9' RaceRank='9' ScoreCode='' TeamID='usaac8'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='11' RaceRank='11' ScoreCode='' TeamID='usaac8'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='6' RaceRank='6' ScoreCode='' TeamID='usaac8'></RaceResult>
+			<RaceResult Discard='false' RaceID='542' RacePoints='16' RaceRank='8' ScoreCode='' TeamID='usaac8'></RaceResult>
+			<SeriesResult NetPoints='80' Rank='4' TeamID='usaac8' Tied='false' TotalPoints='112'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='14' RaceRank='14' ScoreCode='' TeamID='USAAM20'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='1' RaceRank='1' ScoreCode='' TeamID='USAAM20'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='12' RaceRank='12' ScoreCode='' TeamID='USAAM20'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='19' RaceRank='19' ScoreCode='' TeamID='USAAM20'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='17' RaceRank='17' ScoreCode='' TeamID='USAAM20'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='3' RaceRank='3' ScoreCode='' TeamID='USAAM20'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='9' RaceRank='9' ScoreCode='' TeamID='USAAM20'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='7' RaceRank='7' ScoreCode='' TeamID='USAAM20'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='6' RaceRank='6' ScoreCode='' TeamID='USAAM20'></RaceResult>
+			<RaceResult Discard='true' RaceID='301' RacePoints='21' RaceRank='21' ScoreCode='' TeamID='USAAM20'></RaceResult>
+			<RaceResult Discard='false' RaceID='542' RacePoints='18' RaceRank='9' ScoreCode='' TeamID='USAAM20'></RaceResult>
+			<SeriesResult NetPoints='106' Rank='10' TeamID='USAAM20' Tied='false' TotalPoints='127'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='8' RaceRank='8' ScoreCode='' TeamID='IRLPO12'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='4' RaceRank='4' ScoreCode='' TeamID='IRLPO12'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='3' RaceRank='3' ScoreCode='' TeamID='IRLPO12'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='14' RaceRank='14' ScoreCode='' TeamID='IRLPO12'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='14' RaceRank='14' ScoreCode='' TeamID='IRLPO12'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='23' RaceRank='23' ScoreCode='' TeamID='IRLPO12'></RaceResult>
+			<RaceResult Discard='true' RaceID='189' RacePoints='32' RaceRank='22' ScoreCode='OCS' TeamID='IRLPO12'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='13' RaceRank='13' ScoreCode='' TeamID='IRLPO12'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='12' RaceRank='12' ScoreCode='' TeamID='IRLPO12'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='19' RaceRank='19' ScoreCode='' TeamID='IRLPO12'></RaceResult>
+			<SeriesResult NetPoints='110' Rank='12' TeamID='IRLPO12' Tied='false' TotalPoints='142'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='20' RaceRank='20' ScoreCode='' TeamID='NEDSJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='21' RaceRank='22' ScoreCode='' TeamID='NEDSJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='22' RaceRank='22' ScoreCode='' TeamID='NEDSJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='6' RaceRank='6' ScoreCode='' TeamID='NEDSJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='28' RaceRank='28' ScoreCode='' TeamID='NEDSJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='24' RaceRank='24' ScoreCode='' TeamID='NEDSJ1'></RaceResult>
+			<RaceResult Discard='true' RaceID='189' RacePoints='32' RaceRank='30' ScoreCode='OCS' TeamID='NEDSJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='24' RaceRank='24' ScoreCode='' TeamID='NEDSJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='9' RaceRank='9' ScoreCode='' TeamID='NEDSJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='15' RaceRank='15' ScoreCode='' TeamID='NEDSJ1'></RaceResult>
+			<SeriesResult NetPoints='169' Rank='22' TeamID='NEDSJ1' Tied='false' TotalPoints='201'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='24' RaceRank='24' ScoreCode='' TeamID='USARH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='17' RaceRank='17' ScoreCode='' TeamID='USARH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='6' RaceRank='6' ScoreCode='' TeamID='USARH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='2' RaceRank='2' ScoreCode='' TeamID='USARH19'></RaceResult>
+			<RaceResult Discard='true' RaceID='84' RacePoints='29' RaceRank='29' ScoreCode='' TeamID='USARH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='19' RaceRank='19' ScoreCode='' TeamID='USARH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='6' RaceRank='6' ScoreCode='' TeamID='USARH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='5' RaceRank='5' ScoreCode='' TeamID='USARH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='19' RaceRank='19' ScoreCode='' TeamID='USARH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='18' RaceRank='18' ScoreCode='' TeamID='USARH19'></RaceResult>
+			<SeriesResult NetPoints='116' Rank='14' TeamID='USARH19' Tied='false' TotalPoints='145'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='2' RaceRank='2' ScoreCode='' TeamID='usags9'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='7' RaceRank='7' ScoreCode='' TeamID='usags9'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='4' RaceRank='4' ScoreCode='' TeamID='usags9'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='12' RaceRank='12' ScoreCode='' TeamID='usags9'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='1' RaceRank='1' ScoreCode='' TeamID='usags9'></RaceResult>
+			<RaceResult Discard='true' RaceID='187' RacePoints='25' RaceRank='25' ScoreCode='' TeamID='usags9'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='4' RaceRank='4' ScoreCode='' TeamID='usags9'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='11' RaceRank='11' ScoreCode='' TeamID='usags9'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='7' RaceRank='7' ScoreCode='' TeamID='usags9'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='7' RaceRank='7' ScoreCode='' TeamID='usags9'></RaceResult>
+			<RaceResult Discard='false' RaceID='542' RacePoints='2' RaceRank='1' ScoreCode='' TeamID='usags9'></RaceResult>
+			<SeriesResult NetPoints='57' Rank='2' TeamID='usags9' Tied='false' TotalPoints='82'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='26' RaceRank='26' ScoreCode='' TeamID='CANOJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='26' RaceRank='27' ScoreCode='' TeamID='CANOJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='19' RaceRank='19' ScoreCode='' TeamID='CANOJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='22' RaceRank='22' ScoreCode='' TeamID='CANOJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='19' RaceRank='19' ScoreCode='' TeamID='CANOJ1'></RaceResult>
+			<RaceResult Discard='true' RaceID='187' RacePoints='32' ScoreCode='DNS' TeamID='CANOJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='32' RaceRank='24' ScoreCode='OCS' TeamID='CANOJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='25' RaceRank='25' ScoreCode='' TeamID='CANOJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='15' RaceRank='15' ScoreCode='' TeamID='CANOJ1'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='23' RaceRank='23' ScoreCode='' TeamID='CANOJ1'></RaceResult>
+			<SeriesResult NetPoints='207' Rank='26' TeamID='CANOJ1' Tied='false' TotalPoints='239'></SeriesResult>
+			<RaceResult Discard='true' RaceID='7' RacePoints='19' RaceRank='19' ScoreCode='' TeamID='USAAD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='16' RaceRank='16' ScoreCode='' TeamID='USAAD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='9' RaceRank='9' ScoreCode='' TeamID='USAAD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='5' RaceRank='5' ScoreCode='' TeamID='USAAD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='3' RaceRank='3' ScoreCode='' TeamID='USAAD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='6' RaceRank='6' ScoreCode='' TeamID='USAAD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='3' RaceRank='3' ScoreCode='' TeamID='USAAD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='10' RaceRank='10' ScoreCode='' TeamID='USAAD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='4' RaceRank='4' ScoreCode='' TeamID='USAAD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='13' RaceRank='13' ScoreCode='' TeamID='USAAD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='542' RacePoints='14' RaceRank='7' ScoreCode='' TeamID='USAAD1'></RaceResult>
+			<SeriesResult NetPoints='83' Rank='5' TeamID='USAAD1' Tied='false' TotalPoints='102'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='21' RaceRank='21' ScoreCode='' TeamID='SUIHD1'></RaceResult>
+			<RaceResult Discard='true' RaceID='64' RacePoints='24' RaceRank='25' ScoreCode='' TeamID='SUIHD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='18' RaceRank='18' ScoreCode='' TeamID='SUIHD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='18' RaceRank='18' ScoreCode='' TeamID='SUIHD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='22' RaceRank='22' ScoreCode='' TeamID='SUIHD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='18' RaceRank='18' ScoreCode='' TeamID='SUIHD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='18' RaceRank='18' ScoreCode='' TeamID='SUIHD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='20' RaceRank='20' ScoreCode='' TeamID='SUIHD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='10' RaceRank='10' ScoreCode='' TeamID='SUIHD1'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='24' RaceRank='24' ScoreCode='' TeamID='SUIHD1'></RaceResult>
+			<SeriesResult NetPoints='169' Rank='23' TeamID='SUIHD1' Tied='false' TotalPoints='193'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='4' RaceRank='4' ScoreCode='' TeamID='FINMD5'></RaceResult>
+			<RaceResult Discard='true' RaceID='64' RacePoints='32' RaceRank='18' ScoreCode='OCS' TeamID='FINMD5'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='14' RaceRank='14' ScoreCode='' TeamID='FINMD5'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='11' RaceRank='11' ScoreCode='' TeamID='FINMD5'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='6' RaceRank='6' ScoreCode='' TeamID='FINMD5'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='21' RaceRank='21' ScoreCode='' TeamID='FINMD5'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='5' RaceRank='5' ScoreCode='' TeamID='FINMD5'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='15' RaceRank='15' ScoreCode='' TeamID='FINMD5'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='23' RaceRank='23' ScoreCode='' TeamID='FINMD5'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='8' RaceRank='8' ScoreCode='' TeamID='FINMD5'></RaceResult>
+			<SeriesResult NetPoints='107' Rank='11' TeamID='FINMD5' Tied='false' TotalPoints='139'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='7' RaceRank='7' ScoreCode='' TeamID='USAJB107'></RaceResult>
+			<RaceResult Discard='true' RaceID='64' RacePoints='25' RaceRank='26' ScoreCode='' TeamID='USAJB107'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='20' RaceRank='20' ScoreCode='' TeamID='USAJB107'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='15' RaceRank='15' ScoreCode='' TeamID='USAJB107'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='16' RaceRank='16' ScoreCode='' TeamID='USAJB107'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='7' RaceRank='7' ScoreCode='' TeamID='USAJB107'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='15' RaceRank='15' ScoreCode='' TeamID='USAJB107'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='22' RaceRank='22' ScoreCode='' TeamID='USAJB107'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='17' RaceRank='17' ScoreCode='' TeamID='USAJB107'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='2' RaceRank='2' ScoreCode='' TeamID='USAJB107'></RaceResult>
+			<SeriesResult NetPoints='121' Rank='16' TeamID='USAJB107' Tied='false' TotalPoints='146'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='27' RaceRank='27' ScoreCode='' TeamID='GERAH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='29' RaceRank='30' ScoreCode='' TeamID='GERAH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='26' RaceRank='26' ScoreCode='' TeamID='GERAH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='23' RaceRank='23' ScoreCode='' TeamID='GERAH19'></RaceResult>
+			<RaceResult Discard='true' RaceID='84' RacePoints='30' RaceRank='30' ScoreCode='' TeamID='GERAH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='26' RaceRank='26' ScoreCode='' TeamID='GERAH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='17' RaceRank='17' ScoreCode='' TeamID='GERAH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='26' RaceRank='26' ScoreCode='' TeamID='GERAH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='21' RaceRank='21' ScoreCode='' TeamID='GERAH19'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='29' RaceRank='29' ScoreCode='' TeamID='GERAH19'></RaceResult>
+			<SeriesResult NetPoints='224' Rank='29' TeamID='GERAH19' Tied='false' TotalPoints='254'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='25' RaceRank='25' ScoreCode='' TeamID='USADC19'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='20' RaceRank='21' ScoreCode='' TeamID='USADC19'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='25' RaceRank='25' ScoreCode='' TeamID='USADC19'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='21' RaceRank='21' ScoreCode='' TeamID='USADC19'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='4' RaceRank='4' ScoreCode='' TeamID='USADC19'></RaceResult>
+			<RaceResult Discard='true' RaceID='187' RacePoints='32' ScoreCode='DNS' TeamID='USADC19'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='13' RaceRank='13' ScoreCode='' TeamID='USADC19'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='29' RaceRank='29' ScoreCode='' TeamID='USADC19'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='29' RaceRank='29' ScoreCode='' TeamID='USADC19'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='28' RaceRank='28' ScoreCode='' TeamID='USADC19'></RaceResult>
+			<SeriesResult NetPoints='194' Rank='25' TeamID='USADC19' Tied='false' TotalPoints='226'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='10' RaceRank='10' ScoreCode='' TeamID='usaed4'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='15' RaceRank='15' ScoreCode='' TeamID='usaed4'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='11' RaceRank='11' ScoreCode='' TeamID='usaed4'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='10' RaceRank='10' ScoreCode='' TeamID='usaed4'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='13' RaceRank='13' ScoreCode='' TeamID='usaed4'></RaceResult>
+			<RaceResult Discard='true' RaceID='187' RacePoints='22' RaceRank='22' ScoreCode='' TeamID='usaed4'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='12' RaceRank='12' ScoreCode='' TeamID='usaed4'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='3' RaceRank='3' ScoreCode='' TeamID='usaed4'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='2' RaceRank='2' ScoreCode='' TeamID='usaed4'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='11' RaceRank='11' ScoreCode='' TeamID='usaed4'></RaceResult>
+			<RaceResult Discard='false' RaceID='542' RacePoints='4' RaceRank='2' ScoreCode='' TeamID='usaed4'></RaceResult>
+			<SeriesResult NetPoints='91' Rank='7' TeamID='usaed4' Tied='false' TotalPoints='113'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='23' RaceRank='23' ScoreCode='' TeamID='ITADN1'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='10' RaceRank='10' ScoreCode='' TeamID='ITADN1'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='5' RaceRank='5' ScoreCode='' TeamID='ITADN1'></RaceResult>
+			<RaceResult Discard='true' RaceID='82' RacePoints='32' RaceRank='28' ScoreCode='OCS' TeamID='ITADN1'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='7' RaceRank='7' ScoreCode='' TeamID='ITADN1'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='32' ScoreCode='DNS' TeamID='ITADN1'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='32' RaceRank='27' ScoreCode='OCS' TeamID='ITADN1'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='12' RaceRank='12' ScoreCode='' TeamID='ITADN1'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='3' RaceRank='3' ScoreCode='' TeamID='ITADN1'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='1' RaceRank='1' ScoreCode='' TeamID='ITADN1'></RaceResult>
+			<SeriesResult NetPoints='125' Rank='17' TeamID='ITADN1' Tied='false' TotalPoints='157'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='3' RaceRank='3' ScoreCode='' TeamID='usarm14'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='6' RaceRank='6' ScoreCode='' TeamID='usarm14'></RaceResult>
+			<RaceResult Discard='true' RaceID='66' RacePoints='13' RaceRank='13' ScoreCode='' TeamID='usarm14'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='4' RaceRank='4' ScoreCode='' TeamID='usarm14'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='2' RaceRank='2' ScoreCode='' TeamID='usarm14'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='8' RaceRank='8' ScoreCode='' TeamID='usarm14'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='1' RaceRank='1' ScoreCode='' TeamID='usarm14'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='2' RaceRank='2' ScoreCode='' TeamID='usarm14'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='13' RaceRank='13' ScoreCode='' TeamID='usarm14'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='9' RaceRank='9' ScoreCode='' TeamID='usarm14'></RaceResult>
+			<RaceResult Discard='false' RaceID='542' RacePoints='6' RaceRank='3' ScoreCode='' TeamID='usarm14'></RaceResult>
+			<SeriesResult NetPoints='54' Rank='1' TeamID='usarm14' Tied='false' TotalPoints='67'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='1' RaceRank='1' ScoreCode='' TeamID='SUIFM1'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='3' RaceRank='3' ScoreCode='' TeamID='SUIFM1'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='1' RaceRank='1' ScoreCode='' TeamID='SUIFM1'></RaceResult>
+			<RaceResult Discard='true' RaceID='82' RacePoints='32' RaceRank='26' ScoreCode='OCS' TeamID='SUIFM1'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='5' RaceRank='5' ScoreCode='' TeamID='SUIFM1'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='5' RaceRank='5' ScoreCode='' TeamID='SUIFM1'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='32' RaceRank='23' ScoreCode='OCS' TeamID='SUIFM1'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='6' RaceRank='6' ScoreCode='' TeamID='SUIFM1'></RaceResult>
+			<RaceResult Discard='false' RaceID='289' RacePoints='1' RaceRank='1' ScoreCode='' TeamID='SUIFM1'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='4' RaceRank='4' ScoreCode='' TeamID='SUIFM1'></RaceResult>
+			<RaceResult Discard='false' RaceID='542' RacePoints='8' RaceRank='4' ScoreCode='' TeamID='SUIFM1'></RaceResult>
+			<SeriesResult NetPoints='66' Rank='3' TeamID='SUIFM1' Tied='false' TotalPoints='98'></SeriesResult>
+			<RaceResult Discard='false' RaceID='7' RacePoints='6' RaceRank='6' ScoreCode='' TeamID='usage2'></RaceResult>
+			<RaceResult Discard='false' RaceID='64' RacePoints='12' RaceRank='12' ScoreCode='' TeamID='usage2'></RaceResult>
+			<RaceResult Discard='false' RaceID='66' RacePoints='2' RaceRank='2' ScoreCode='' TeamID='usage2'></RaceResult>
+			<RaceResult Discard='false' RaceID='82' RacePoints='1' RaceRank='1' ScoreCode='' TeamID='usage2'></RaceResult>
+			<RaceResult Discard='false' RaceID='84' RacePoints='12' RaceRank='12' ScoreCode='' TeamID='usage2'></RaceResult>
+			<RaceResult Discard='false' RaceID='187' RacePoints='11' RaceRank='11' ScoreCode='' TeamID='usage2'></RaceResult>
+			<RaceResult Discard='false' RaceID='189' RacePoints='2' RaceRank='2' ScoreCode='' TeamID='usage2'></RaceResult>
+			<RaceResult Discard='false' RaceID='278' RacePoints='17' RaceRank='17' ScoreCode='' TeamID='usage2'></RaceResult>
+			<RaceResult Discard='true' RaceID='289' RacePoints='22' RaceRank='22' ScoreCode='' TeamID='usage2'></RaceResult>
+			<RaceResult Discard='false' RaceID='301' RacePoints='20' RaceRank='20' ScoreCode='' TeamID='usage2'></RaceResult>
+			<RaceResult Discard='false' RaceID='542' RacePoints='10' RaceRank='5' ScoreCode='' TeamID='usage2'></RaceResult>
+			<SeriesResult NetPoints='93' Rank='8' TeamID='usage2' Tied='false' TotalPoints='115'></SeriesResult>
+		</Division>
+	</Event>
+</SailingXRR>

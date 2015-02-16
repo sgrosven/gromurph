@@ -1,0 +1,8 @@
+Version 7.3.1
+April 2, 2015
+
+Internal project setup refactored for the modern era:
+- source code handling moved to gitlabs
+- project build moved to maven
+- unit testing moved to junit 4
+- gui testing moved to uispec4j  

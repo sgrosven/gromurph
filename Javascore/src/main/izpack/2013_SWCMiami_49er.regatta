@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.2.2" JuryChair="Bernard Bonneau" Multistage="true" Name="2013 Miami SWC - 49er" Pro="Bruce Green" UseBowNumbers="false" Version="600" comment="">
+<DivisionList>
+<Division DivName="49er" Gender="Men" IFClassID="49ER">
+<MinRating ClassName="49er" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Club="Lauderdale Yacht club" Division="49er" EntryId="437" MnaNumber="USA" RsaNumber="zonesail@aol.com">
+<Boat SailId="USA 9">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Brad" LastName="FUNK" SailorId="usabf3"/>
+<CrewList>
+<Crew FirstName="Eric" LastName="AAKHUS" SailorId="braea5"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="Willow Bank Yacht Club" Division="49er" EntryId="429" MnaNumber="USA" RsaNumber="campbell@landfallnav.com">
+<Boat SailId="USA 19">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Campbell" LastName="WOODS" SailorId="usacw120"/>
+<CrewList>
+<Crew FirstName="Eric" LastName="MAGNUSON" SailorId="usaem69"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="YCB" Division="49er" EntryId="438" MnaNumber="AUT" RsaNumber="bildstein-hussl@gmx.at">
+<Boat SailId="AUT 70">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Benjamin" LastName="BILDSTEIN" SailorId="autbb1"/>
+<CrewList>
+<Crew FirstName="David" LastName="HUSSL" SailorId="autdh1"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="Royal Canadian Yacht Club" Division="49er" EntryId="443" MnaNumber="CAN" RsaNumber="cleigh@Gmail.com">
+<Boat SailId="CAN 501">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Christopher" LastName="LEIGH" SailorId="cancl19"/>
+<CrewList>
+<Crew FirstName="John" LastName="HUDSON" SailorId="canjh28"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="RCYC" Division="49er" EntryId="442" MnaNumber="CAN" RsaNumber="jbarnes_91@hotmail.com">
+<Boat SailId="CAN 905">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="David" LastName="MORI" SailorId="candm33"/>
+<CrewList>
+<Crew FirstName="Justin" LastName="BARNES" SailorId="canjb25"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="Royal Swedish Yachtclub" Division="49er" EntryId="430" MnaNumber="SWE" RsaNumber="nils.akervall@hotmail.com">
+<Boat SailId="SWE 1108">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Nils" LastName="ÃKERVALL" SailorId="swean8"/>
+<CrewList>
+<Crew FirstName="David" LastName="JONSSON" SailorId="swedj1"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="KSSS" Division="49er" EntryId="431" MnaNumber="USA" RsaNumber="seb.ostling@gmail.com">
+<Boat SailId="SWE 1130">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Sebastian" LastName="OESTLING" SailorId="sweso2"/>
+<CrewList>
+<Crew FirstName="Kalle" LastName="TORLEN" SailorId="swekt1"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="Clube dos Jangadeiros" Division="49er" EntryId="440" MnaNumber="BRA" RsaNumber="CHRISTINE.MENDES@IG.COM.BR">
+<Boat SailId="BRA 1137">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Andre" LastName="FONSECA" SailorId="braff1"/>
+<CrewList>
+<Crew FirstName="Francisco" LastName="ANDRADE" SailorId="porfa7"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="beaconsfield yacht club" Division="49er" EntryId="441" MnaNumber="CAN" RsaNumber="ruedorb@hotmail.com">
+<Boat SailId="CAN 1139">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Michael" LastName="BRODEUR" SailorId="canmb29"/>
+<CrewList>
+<Crew FirstName="Alexandre" LastName="STRANIX" SailorId="canas13"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="www.Nov.gr" Division="49er" EntryId="444" MnaNumber="GRE" RsaNumber="al_panagiotidis@hotmail.com">
+<Boat SailId="GRE 1175">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Stelios" LastName="SOTIRIOU" SailorId="gress3"/>
+<CrewList>
+<Crew FirstName="Alfonso" LastName="PANAGIOTIDIS" SailorId="greap2"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="RCYC" Division="49er" EntryId="432" MnaNumber="CAN" RsaNumber="john.fraser.ferguson@gmail.com">
+<Boat SailId="CAN 1185">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="John" LastName="FERGUSON" SailorId="canjf14"/>
+<CrewList>
+<Crew FirstName="Arthur" LastName="FERGUSON" SailorId="canaf20"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="Vineyard Haven YC" Division="49er" EntryId="433" MnaNumber="USA" RsaNumber="rpesch08@gmail.com">
+<Boat SailId="USA 1222">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ryan" LastName="PESCH" SailorId="usarp33"/>
+<CrewList>
+<Crew FirstName="Trevor" LastName="BURD" SailorId="usatb97"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="rcyc" Division="49er" EntryId="434" MnaNumber="CAN" RsaNumber="andrewbrazier@mac.com">
+<Boat SailId="CAN 1238">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="andrew" LastName="BRAZIER" SailorId="canab27"/>
+<CrewList>
+<Crew FirstName="ben" LastName="GRAVELLE" SailorId="canbg12"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="RNYC" Division="49er" EntryId="435" MnaNumber="CAN" RsaNumber="jonladha@hotmail.com">
+<Boat SailId="CAN 1268">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jon" LastName="LADHA" SailorId="canjl9"/>
+<CrewList>
+<Crew FirstName="Daniel" LastName="INKPEN" SailorId="candi2"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="VYBA, SSS" Division="49er" EntryId="436" MnaNumber="USA" RsaNumber="fred.strammer@gmail.com">
+<Boat SailId="USA 1281">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Frederick" LastName="STRAMMER" SailorId="usafs6"/>
+<CrewList>
+<Crew FirstName="Zach" LastName="BROWN" SailorId="usazb9"/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="I.C.R.J" Division="49er" EntryId="439" MnaNumber="BRA" RsaNumber="MAURICIOSANTACRUZ@HOTMAIL.COM">
+<Boat SailId="BRA 1334">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="49er" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Mauricio" LastName="SANTA CRUZ" SailorId="brams4"/>
+<CrewList>
+<Crew FirstName="Tomas" LastName="MANGABEIRA" SailorId="bratm13"/>
+</CrewList>
+</Entry>
+</EntryList>
+<SubDivisionList>
+<SubDivision DivName="Medal" Gender="Men" Group="Final" GroupRank="" IFClassID="49ER" LastSplit="true" Monopoly="false" Parent="49er" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="436"/>
+<Entry Id="433"/>
+<Entry Id="431"/>
+<Entry Id="435"/>
+<Entry Id="437"/>
+<Entry Id="442"/>
+</EntryList>
+</SubDivision>
+</SubDivisionList>
+<RaceList>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="41" StartDate="28-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="431" Pos="1" Race="41"/>
+<Fin Ent="436" Pos="2" Race="41"/>
+<Fin Ent="433" Pos="3" Race="41"/>
+<Fin Ent="435" Pos="4" Race="41"/>
+<Fin Ent="437" Pos="5" Race="41"/>
+<Fin Ent="429" Pos="6" Race="41"/>
+<Fin Ent="440" Pos="7" Race="41"/>
+<Fin Ent="444" Pos="8" Race="41"/>
+<Fin Ent="432" Pos="9" Race="41"/>
+<Fin Ent="438" Pos="10" Race="41"/>
+<Fin Ent="441" Pos="11" Race="41"/>
+<Fin Ent="430" Pos="12" Race="41"/>
+<Fin Ent="442" Pos="13" Race="41"/>
+<Fin Ent="443" Pos="14" Race="41"/>
+<Fin Ent="434" Pos="DNS" Race="41">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="439" Pos="DNS" Race="41">
+<Penalty Penalty="DNS"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="45" StartDate="28-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="441" Pos="1" Race="45"/>
+<Fin Ent="435" Pos="2" Race="45"/>
+<Fin Ent="431" Pos="3" Race="45"/>
+<Fin Ent="433" Pos="4" Race="45"/>
+<Fin Ent="436" Pos="5" Race="45"/>
+<Fin Ent="437" Pos="6" Race="45"/>
+<Fin Ent="440" Pos="7" Race="45"/>
+<Fin Ent="442" Pos="8" Race="45"/>
+<Fin Ent="430" Pos="9" Race="45"/>
+<Fin Ent="438" Pos="10" Race="45"/>
+<Fin Ent="432" Pos="11" Race="45"/>
+<Fin Ent="439" Pos="12" Race="45">
+<Penalty Penalty="RDG" Points="10.0"/>
+</Fin>
+<Fin Ent="443" Pos="13" Race="45"/>
+<Fin Ent="429" Pos="14" Race="45"/>
+<Fin Ent="434" Pos="15" Race="45"/>
+<Fin Ent="444" Pos="DNS" Race="45">
+<Penalty Penalty="DNS"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="50" StartDate="28-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="444" Pos="1" Race="50"/>
+<Fin Ent="431" Pos="2" Race="50"/>
+<Fin Ent="435" Pos="3" Race="50"/>
+<Fin Ent="436" Pos="4" Race="50"/>
+<Fin Ent="433" Pos="5" Race="50"/>
+<Fin Ent="437" Pos="6" Race="50"/>
+<Fin Ent="442" Pos="7" Race="50"/>
+<Fin Ent="440" Pos="8" Race="50"/>
+<Fin Ent="438" Pos="9" Race="50"/>
+<Fin Ent="430" Pos="10" Race="50"/>
+<Fin Ent="432" Pos="11" Race="50"/>
+<Fin Ent="441" Pos="12" Race="50"/>
+<Fin Ent="434" Pos="13" Race="50"/>
+<Fin Ent="443" Pos="14" Race="50"/>
+<Fin Ent="439" Pos="15" Race="50"/>
+<Fin Ent="429" Pos="16" Race="50"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" RaceId="156" StartDate="29-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="433" Pos="1" Race="156"/>
+<Fin Ent="436" Pos="2" Race="156"/>
+<Fin Ent="431" Pos="3" Race="156"/>
+<Fin Ent="435" Pos="4" Race="156"/>
+<Fin Ent="444" Pos="5" Race="156"/>
+<Fin Ent="437" Pos="6" Race="156"/>
+<Fin Ent="441" Pos="7" Race="156"/>
+<Fin Ent="440" Pos="8" Race="156">
+<Penalty Penalty="OCS"/>
+</Fin>
+<Fin Ent="442" Pos="9" Race="156"/>
+<Fin Ent="438" Pos="10" Race="156"/>
+<Fin Ent="439" Pos="11" Race="156"/>
+<Fin Ent="430" Pos="12" Race="156"/>
+<Fin Ent="443" Pos="13" Race="156"/>
+<Fin Ent="429" Pos="DNF" Race="156">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="432" Pos="DNS" Race="156">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="434" Pos="DNS" Race="156">
+<Penalty Penalty="DNS"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" RaceId="158" StartDate="29-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="436" Pos="1" Race="158"/>
+<Fin Ent="444" Pos="2" Race="158">
+<Penalty Penalty="OCS"/>
+</Fin>
+<Fin Ent="433" Pos="3" Race="158"/>
+<Fin Ent="431" Pos="4" Race="158"/>
+<Fin Ent="435" Pos="5" Race="158"/>
+<Fin Ent="442" Pos="6" Race="158"/>
+<Fin Ent="440" Pos="7" Race="158"/>
+<Fin Ent="441" Pos="8" Race="158"/>
+<Fin Ent="437" Pos="9" Race="158">
+<Penalty Penalty="OCS"/>
+</Fin>
+<Fin Ent="432" Pos="10" Race="158">
+<Penalty Penalty="OCS"/>
+</Fin>
+<Fin Ent="438" Pos="11" Race="158">
+<Penalty Penalty="OCS"/>
+</Fin>
+<Fin Ent="439" Pos="12" Race="158"/>
+<Fin Ent="430" Pos="13" Race="158"/>
+<Fin Ent="443" Pos="14" Race="158">
+<Penalty Penalty="OCS"/>
+</Fin>
+<Fin Ent="429" Pos="DNF" Race="158">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="434" Pos="DNS" Race="158">
+<Penalty Penalty="DNS"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" RaceId="223" StartDate="29-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="436" Pos="1" Race="223"/>
+<Fin Ent="431" Pos="2" Race="223"/>
+<Fin Ent="437" Pos="3" Race="223"/>
+<Fin Ent="442" Pos="4" Race="223"/>
+<Fin Ent="441" Pos="5" Race="223">
+<Penalty Penalty="OCS"/>
+</Fin>
+<Fin Ent="435" Pos="6" Race="223"/>
+<Fin Ent="433" Pos="7" Race="223"/>
+<Fin Ent="444" Pos="8" Race="223"/>
+<Fin Ent="430" Pos="9" Race="223">
+<Penalty Penalty="OCS"/>
+</Fin>
+<Fin Ent="440" Pos="10" Race="223"/>
+<Fin Ent="438" Pos="11" Race="223"/>
+<Fin Ent="439" Pos="12" Race="223"/>
+<Fin Ent="432" Pos="13" Race="223"/>
+<Fin Ent="429" Pos="14" Race="223"/>
+<Fin Ent="443" Pos="15" Race="223"/>
+<Fin Ent="434" Pos="DNS" Race="223">
+<Penalty Penalty="DNS"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" RaceId="283" StartDate="30-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="436" Pos="1" Race="283"/>
+<Fin Ent="438" Pos="2" Race="283"/>
+<Fin Ent="440" Pos="3" Race="283"/>
+<Fin Ent="437" Pos="4" Race="283"/>
+<Fin Ent="433" Pos="5" Race="283"/>
+<Fin Ent="435" Pos="6" Race="283"/>
+<Fin Ent="442" Pos="7" Race="283"/>
+<Fin Ent="431" Pos="8" Race="283"/>
+<Fin Ent="441" Pos="9" Race="283"/>
+<Fin Ent="430" Pos="10" Race="283"/>
+<Fin Ent="439" Pos="11" Race="283"/>
+<Fin Ent="429" Pos="DNF" Race="283">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="443" Pos="DNF" Race="283">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="444" Pos="DNF" Race="283">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="432" Pos="DNC" Race="283">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="434" Pos="DNC" Race="283">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" RaceId="284" StartDate="30-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="436" Pos="1" Race="284"/>
+<Fin Ent="433" Pos="2" Race="284"/>
+<Fin Ent="440" Pos="3" Race="284"/>
+<Fin Ent="431" Pos="4" Race="284"/>
+<Fin Ent="435" Pos="5" Race="284"/>
+<Fin Ent="442" Pos="6" Race="284"/>
+<Fin Ent="430" Pos="7" Race="284"/>
+<Fin Ent="437" Pos="8" Race="284"/>
+<Fin Ent="441" Pos="9" Race="284"/>
+<Fin Ent="439" Pos="10" Race="284"/>
+<Fin Ent="438" Pos="11" Race="284"/>
+<Fin Ent="432" Pos="12" Race="284"/>
+<Fin Ent="443" Pos="13" Race="284">
+<Penalty Penalty="OCS"/>
+</Fin>
+<Fin Ent="429" Pos="DNF" Race="284">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="444" Pos="DNC" Race="284">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="434" Pos="DNC" Race="284">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" RaceId="330" StartDate="30-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="440" Pos="1" Race="330"/>
+<Fin Ent="442" Pos="2" Race="330"/>
+<Fin Ent="435" Pos="3" Race="330"/>
+<Fin Ent="433" Pos="4" Race="330"/>
+<Fin Ent="432" Pos="5" Race="330"/>
+<Fin Ent="441" Pos="6" Race="330"/>
+<Fin Ent="438" Pos="7" Race="330"/>
+<Fin Ent="430" Pos="8" Race="330"/>
+<Fin Ent="431" Pos="9" Race="330"/>
+<Fin Ent="443" Pos="10" Race="330"/>
+<Fin Ent="437" Pos="DNF" Race="330">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="436" Pos="DNF" Race="330">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="439" Pos="DNF" Race="330">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="429" Pos="DNC" Race="330">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="444" Pos="DNC" Race="330">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="434" Pos="DNC" Race="330">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" RaceId="408" StartDate="31-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="431" Pos="1" Race="408"/>
+<Fin Ent="440" Pos="2" Race="408"/>
+<Fin Ent="436" Pos="3" Race="408"/>
+<Fin Ent="437" Pos="4" Race="408"/>
+<Fin Ent="433" Pos="5" Race="408"/>
+<Fin Ent="441" Pos="6" Race="408"/>
+<Fin Ent="444" Pos="7" Race="408"/>
+<Fin Ent="442" Pos="8" Race="408"/>
+<Fin Ent="435" Pos="9" Race="408"/>
+<Fin Ent="430" Pos="10" Race="408"/>
+<Fin Ent="439" Pos="11" Race="408"/>
+<Fin Ent="438" Pos="12" Race="408"/>
+<Fin Ent="443" Pos="13" Race="408"/>
+<Fin Ent="429" Pos="DNF" Race="408">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="432" Pos="DNF" Race="408">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="434" Pos="DNC" Race="408">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="11" NonDiscardable="false" RaceId="410" StartDate="31-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="444" Pos="1" Race="410"/>
+<Fin Ent="433" Pos="2" Race="410"/>
+<Fin Ent="440" Pos="3" Race="410"/>
+<Fin Ent="431" Pos="4" Race="410"/>
+<Fin Ent="438" Pos="5" Race="410"/>
+<Fin Ent="430" Pos="6" Race="410"/>
+<Fin Ent="435" Pos="7" Race="410"/>
+<Fin Ent="442" Pos="8" Race="410"/>
+<Fin Ent="441" Pos="9" Race="410"/>
+<Fin Ent="436" Pos="10" Race="410"/>
+<Fin Ent="437" Pos="11" Race="410"/>
+<Fin Ent="443" Pos="12" Race="410"/>
+<Fin Ent="439" Pos="13" Race="410"/>
+<Fin Ent="429" Pos="DNF" Race="410">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="432" Pos="DNC" Race="410">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="434" Pos="DNC" Race="410">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="12" NonDiscardable="false" RaceId="493" StartDate="31-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="440" Pos="1" Race="493"/>
+<Fin Ent="435" Pos="2" Race="493"/>
+<Fin Ent="436" Pos="3" Race="493"/>
+<Fin Ent="437" Pos="4" Race="493"/>
+<Fin Ent="441" Pos="5" Race="493"/>
+<Fin Ent="444" Pos="6" Race="493"/>
+<Fin Ent="430" Pos="7" Race="493"/>
+<Fin Ent="438" Pos="8" Race="493"/>
+<Fin Ent="433" Pos="9" Race="493"/>
+<Fin Ent="431" Pos="10" Race="493"/>
+<Fin Ent="442" Pos="11" Race="493"/>
+<Fin Ent="443" Pos="12" Race="493"/>
+<Fin Ent="439" Pos="13" Race="493"/>
+<Fin Ent="429" Pos="DNS" Race="493">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="432" Pos="DNS" Race="493">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="434" Pos="DNS" Race="493">
+<Penalty Penalty="DNS"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="13" NonDiscardable="false" RaceId="701" StartDate="01-Feb-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="444" Pos="1" Race="701"/>
+<Fin Ent="433" Pos="2" Race="701"/>
+<Fin Ent="435" Pos="3" Race="701"/>
+<Fin Ent="436" Pos="4" Race="701"/>
+<Fin Ent="431" Pos="5" Race="701"/>
+<Fin Ent="437" Pos="6" Race="701"/>
+<Fin Ent="442" Pos="7" Race="701"/>
+<Fin Ent="430" Pos="8" Race="701"/>
+<Fin Ent="441" Pos="9" Race="701"/>
+<Fin Ent="439" Pos="10" Race="701"/>
+<Fin Ent="443" Pos="11" Race="701"/>
+<Fin Ent="438" Pos="DNF" Race="701">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="440" Pos="DNF" Race="701">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="429" Pos="DNS" Race="701">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="432" Pos="DNS" Race="701">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="434" Pos="DNS" Race="701">
+<Penalty Penalty="DNS"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="14" NonDiscardable="false" RaceId="703" StartDate="01-Feb-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="433" Pos="1" Race="703"/>
+<Fin Ent="436" Pos="2" Race="703"/>
+<Fin Ent="437" Pos="3" Race="703"/>
+<Fin Ent="435" Pos="4" Race="703"/>
+<Fin Ent="444" Pos="5" Race="703"/>
+<Fin Ent="431" Pos="6" Race="703"/>
+<Fin Ent="430" Pos="7" Race="703"/>
+<Fin Ent="442" Pos="8" Race="703"/>
+<Fin Ent="441" Pos="9" Race="703"/>
+<Fin Ent="439" Pos="10" Race="703"/>
+<Fin Ent="443" Pos="11" Race="703"/>
+<Fin Ent="429" Pos="DNS" Race="703">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="438" Pos="DNS" Race="703">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="440" Pos="DNS" Race="703">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="432" Pos="DNS" Race="703">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="434" Pos="DNS" Race="703">
+<Penalty Penalty="DNS"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="15" NonDiscardable="false" RaceId="704" StartDate="01-Feb-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="444" Pos="1" Race="704"/>
+<Fin Ent="431" Pos="2" Race="704"/>
+<Fin Ent="435" Pos="3" Race="704"/>
+<Fin Ent="433" Pos="4" Race="704"/>
+<Fin Ent="436" Pos="5" Race="704"/>
+<Fin Ent="437" Pos="6" Race="704"/>
+<Fin Ent="442" Pos="7" Race="704"/>
+<Fin Ent="430" Pos="8" Race="704"/>
+<Fin Ent="441" Pos="9" Race="704"/>
+<Fin Ent="443" Pos="10" Race="704"/>
+<Fin Ent="429" Pos="DNS" Race="704">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="438" Pos="DNS" Race="704">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="440" Pos="DNS" Race="704">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="432" Pos="DNS" Race="704">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="434" Pos="DNS" Race="704">
+<Penalty Penalty="DNS"/>
+</Fin>
+<Fin Ent="439" Pos="DNC" Race="704">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="16/ Carry Over" NonDiscardable="false" RaceId="776" StartDate="02-Feb-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="23:59:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="436" Pos="1" Race="776"/>
+<Fin Ent="433" Pos="2" Race="776"/>
+<Fin Ent="431" Pos="3" Race="776"/>
+<Fin Ent="435" Pos="4" Race="776"/>
+<Fin Ent="437" Pos="5" Race="776"/>
+<Fin Ent="442" Pos="6" Race="776"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="17" NonDiscardable="true" RaceId="894" StartDate="02-Feb-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="433" Pos="1" Race="894"/>
+<Fin Ent="436" Pos="2" Race="894"/>
+<Fin Ent="435" Pos="3" Race="894"/>
+<Fin Ent="431" Pos="4" Race="894"/>
+<Fin Ent="442" Pos="5" Race="894"/>
+<Fin Ent="437" Pos="6" Race="894"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="18" NonDiscardable="true" RaceId="956" StartDate="02-Feb-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="436" Pos="1" Race="956"/>
+<Fin Ent="433" Pos="2" Race="956"/>
+<Fin Ent="431" Pos="3" Race="956"/>
+<Fin Ent="435" Pos="4" Race="956"/>
+<Fin Ent="442" Pos="5" Race="956"/>
+<Fin Ent="437" Pos="6" Race="956"/>
+</FinishList>
+</Race>
+</RaceList>
+<Scores>
+<Stage CombinedQualifying="false" Name="Medal" PreviousStage="50" ScoreCarryOver="SEEDINGRACE" StageId="51" StageRank="2" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
+<Divisions/>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="4" TimeLimitPenalty="0" tiebreaker="1"/>
+</Stage>
+<Stage CombinedQualifying="false" Name="Fleet" ScoreCarryOver="ALL" StageId="50" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
+<Divisions/>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+</Stage>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="1" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="1.2"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.2"/>
+<item value="1.3"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="4.1"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="2.2"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="3.2"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
+</Regatta>

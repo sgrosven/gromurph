@@ -1,0 +1,1178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Regatta Dates='January 26 - February 2, 2013' Final='false' HostClub='US Sailing' IFEventID='IFRGT-15560' JSVersion='7.1.2' JuryChair='Bernard Bonneau' Multistage='true' Name='2013 Miami SWC - Finn' Pro='John Strassman / Jim Tichenor' UseBowNumbers='false' Version='600' comment=''>
+	<DivisionList>
+		<Division DivName='Finn' Gender='Men' IFClassID='FINN'>
+			<MinRating ClassName='Finn' System='OneDesign'></MinRating>
+			<MaxRating ClassName='&lt;none&gt;' System='OneDesign'></MaxRating>
+		</Division>
+	</DivisionList>
+	<EntryList>
+		<Entry Bow='' Club='Brendan  Casey' Division='Finn' EntryId='400' MnaNumber='AUS' RsaNumber='brendancasey@hotmail.com'>
+			<Boat SailId='AUS 1'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Brendan' LastName='CASEY' SailorId='ausbc4'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Yacht cLUB iLHABELA' Division='Finn' EntryId='401' MnaNumber='BRA' RsaNumber='CHRISTINE.MENDES@IG.COM.BR'>
+			<Boat SailId='BRA 1'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Bruno' LastName='PRADA' SailorId='brabp1'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Krasnodar' Division='Finn' EntryId='407' MnaNumber='RUS' RsaNumber='sailingfinn@gmail.com'>
+			<Boat SailId='RUS 1'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Alexey' LastName='SELIVANOV' SailorId='rusas8'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Noroton Yacht Club' Division='Finn' EntryId='384' MnaNumber='USA' RsaNumber='robert.a.crane1@gmail.com'>
+			<Boat SailId='USA 4'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Rob' LastName='CRANE' SailorId='usarc53'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Royal Canadian Yacht Club' Division='Finn' EntryId='403' MnaNumber='CAN' RsaNumber='greg_doug@hotmail.com'>
+			<Boat SailId='CAN 5'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Greg' LastName='DOUGLAS' SailorId='bargd1'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Southwestern Yacht Club' Division='Finn' EntryId='385' MnaNumber='USA' RsaNumber='calebpaine.619@gmail.com'>
+			<Boat SailId='USA 6'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Caleb' LastName='PAINE' SailorId='usacp65'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='RCYC' Division='Finn' EntryId='405' MnaNumber='CAN' RsaNumber='hemming.inc@gmail.com'>
+			<Boat SailId='CAN 9'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Rob' LastName='HEMMING' SailorId='canrh2'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='ABYC' Division='Finn' EntryId='386' MnaNumber='NZL' RsaNumber='rob@robcouttssailing.com'>
+			<Boat SailId='NZL 9'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Rob' LastName='COUTTS' SailorId='usarc113'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='ROPK' Division='Finn' EntryId='387' MnaNumber='EST' RsaNumber='laurivainsalu@smail.ee'>
+			<Boat SailId='EST 11'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Lauri' LastName='VAINSALU' SailorId='estlv1'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Thunder Bay YC' Division='Finn' EntryId='402' MnaNumber='CAN' RsaNumber='jeffroney66@hotmail.com'>
+			<Boat SailId='CAN 17'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Jeff' LastName='RONEY' SailorId='canjr24'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Lake Geneva Yacht Club / USSDT' Division='Finn' EntryId='409' MnaNumber='USA' RsaNumber='crl@vvco.com'>
+			<Boat SailId='USA 21'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Gordon' LastName='LAMPHERE' SailorId='usagl12'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='BucYC/FYC' Division='Finn' EntryId='388' MnaNumber='USA' RsaNumber='Dtgreenfield@earthlink.net'>
+			<Boat SailId='USA 22'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Terry' LastName='GREENFIELD' SailorId='usatg38'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Buccaneer Yacht Club' Division='Finn' EntryId='413' MnaNumber='USA' RsaNumber='jim.hunter08@gmail.com'>
+			<Boat SailId='USA 23'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='James' LastName='HUNTER' SailorId='usajh120'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='The Encinal Yacht Club' Division='Finn' EntryId='389' MnaNumber='USA' RsaNumber='charlesheimler@yahoo.com'>
+			<Boat SailId='USA 32'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Charles' LastName='HEIMLER' SailorId='usach147'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='CORAL REEF YACHT CLUB' Division='Finn' EntryId='390' MnaNumber='USA' RsaNumber='LFCGATES@AOL.COM'>
+			<Boat SailId='USA 40'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Luke' LastName='LAWRENCE' SailorId='usall12'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Pass Christian Yacht Club' Division='Finn' EntryId='391' MnaNumber='USA' RsaNumber='jfdane@iyc.com'>
+			<Boat SailId='USA 69'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='John F' LastName='DANE' SailorId='usajd204'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='n/a' Division='Finn' EntryId='392' MnaNumber='USA' RsaNumber='olympicfinn@mac.com'>
+			<Boat SailId='USA 74'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Henry' LastName='SPRAGUE' SailorId='usahs5'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Williams College' Division='Finn' EntryId='411' MnaNumber='USA' RsaNumber='slalomskier@gmail.com'>
+			<Boat SailId='USA 81'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Joshua' LastName='REVKIN' SailorId='usajr83'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Yacht Club do Rio De Janeiro' Division='Finn' EntryId='393' MnaNumber='BRA' RsaNumber='CHRISTINE.MENDES@IG.COM.BR'>
+			<Boat SailId='BRA 109'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Jorge' LastName='ZARIF' SailorId='brajz4'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='CVL / RCYC' Division='Finn' EntryId='394' MnaNumber='CAN' RsaNumber='martino.is@live.ca'>
+			<Boat SailId='CAN 110'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Martin' LastName='ROBITAILLE' SailorId='canmr7'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Orcas Island Yacht Club' Division='Finn' EntryId='395' MnaNumber='USA' RsaNumber='schuhman@gmail.com'>
+			<Boat SailId='USA 111'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Cameron' LastName='SCHUH' SailorId='usacs210'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Buccaneer Yacht Club' Division='Finn' EntryId='408' MnaNumber='USA' RsaNumber='mmark@mobis.com'>
+			<Boat SailId='USA 117'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Michael' LastName='MARK' SailorId='usamm24'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Encinal Yacht Club' Division='Finn' EntryId='396' MnaNumber='USA' RsaNumber='hikeharder@gmail.com'>
+			<Boat SailId='USA 253'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Andrew' LastName='NELSON' SailorId='usaan29'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Alamitos Bay Yacht Club' Division='Finn' EntryId='406' MnaNumber='ESP' RsaNumber='santi.r@gmail.com'>
+			<Boat SailId='ESP 315'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Santiago' LastName='REYERO' SailorId='espsr7'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Lauderdale Yacht Club' Division='Finn' EntryId='397' MnaNumber='USA' RsaNumber='craig2.johnson@att.net'>
+			<Boat SailId='DEN 401'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Craig' LastName='JOHNSON' SailorId='usacj44'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='BCYC/ABYC' Division='Finn' EntryId='398' MnaNumber='USA' RsaNumber='elidecis@hoag.org'>
+			<Boat SailId='USA 505'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Erik' LastName='LIDECIS' SailorId='usael15'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='Key West Community Sailing Center' Division='Finn' EntryId='399' MnaNumber='GBR' RsaNumber='broc@broc.co.uk'>
+			<Boat SailId='GBR (USA) 1201'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='David' LastName='BROCKBANK' SailorId='gbrdb85'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='St Francis' Division='Finn' EntryId='412' MnaNumber='USA' RsaNumber='andras.nady@gmail.com'>
+			<Boat SailId='USA 1213'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='Finn' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Andras' LastName='NADY' SailorId='usaan7'></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+	</EntryList>
+	<SubDivisionList>
+		<SubDivision DivName='Medal' Gender='Men' Group='Final' IFClassID='FINN' LastSplit='true' Monopoly='false' Parent='Finn' ParentType='Division' ScoreSeparately='false' addOn='0.0'>
+			<EntryList>
+				<Entry Id='385'></Entry>
+				<Entry Id='403'></Entry>
+				<Entry Id='393'></Entry>
+				<Entry Id='394'></Entry>
+				<Entry Id='401'></Entry>
+				<Entry Id='400'></Entry>
+				<Entry Id='387'></Entry>
+				<Entry Id='407'></Entry>
+				<Entry Id='409'></Entry>
+				<Entry Id='398'></Entry>
+			</EntryList>
+		</SubDivision>
+	</SubDivisionList>
+	<RaceList>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='1' NonDiscardable='false' RaceId='53' StartDate='28-Jan-2013' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Finn' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='401' Pos='1' Race='53'></Fin>
+				<Fin Ent='400' Pos='2' Race='53'></Fin>
+				<Fin Ent='394' Pos='3' Race='53'></Fin>
+				<Fin Ent='387' Pos='4' Race='53'></Fin>
+				<Fin Ent='403' Pos='5' Race='53'></Fin>
+				<Fin Ent='393' Pos='6' Race='53'></Fin>
+				<Fin Ent='385' Pos='7' Race='53'></Fin>
+				<Fin Ent='407' Pos='8' Race='53'></Fin>
+				<Fin Ent='398' Pos='9' Race='53'></Fin>
+				<Fin Ent='386' Pos='10' Race='53'></Fin>
+				<Fin Ent='402' Pos='11' Race='53'></Fin>
+				<Fin Ent='409' Pos='12' Race='53'></Fin>
+				<Fin Ent='390' Pos='13' Race='53'></Fin>
+				<Fin Ent='384' Pos='14' Race='53'></Fin>
+				<Fin Ent='405' Pos='15' Race='53'></Fin>
+				<Fin Ent='411' Pos='16' Race='53'></Fin>
+				<Fin Ent='391' Pos='17' Race='53'></Fin>
+				<Fin Ent='408' Pos='18' Race='53'></Fin>
+				<Fin Ent='396' Pos='19' Race='53'></Fin>
+				<Fin Ent='392' Pos='20' Race='53'></Fin>
+				<Fin Ent='389' Pos='21' Race='53'></Fin>
+				<Fin Ent='413' Pos='22' Race='53'></Fin>
+				<Fin Ent='399' Pos='23' Race='53'></Fin>
+				<Fin Ent='395' Pos='24' Race='53'></Fin>
+				<Fin Ent='412' Pos='25' Race='53'></Fin>
+				<Fin Ent='406' Pos='26' Race='53'></Fin>
+				<Fin Ent='397' Pos='27' Race='53'></Fin>
+				<Fin Ent='388' Pos='28' Race='53'></Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='2' NonDiscardable='false' RaceId='57' StartDate='28-Jan-2013' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Finn' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='385' Pos='1' Race='57'></Fin>
+				<Fin Ent='407' Pos='2' Race='57'></Fin>
+				<Fin Ent='401' Pos='3' Race='57'></Fin>
+				<Fin Ent='403' Pos='4' Race='57'></Fin>
+				<Fin Ent='387' Pos='5' Race='57'></Fin>
+				<Fin Ent='409' Pos='6' Race='57'></Fin>
+				<Fin Ent='398' Pos='7' Race='57'></Fin>
+				<Fin Ent='393' Pos='8' Race='57'></Fin>
+				<Fin Ent='384' Pos='9' Race='57'></Fin>
+				<Fin Ent='390' Pos='10' Race='57'></Fin>
+				<Fin Ent='394' Pos='11' Race='57'></Fin>
+				<Fin Ent='391' Pos='12' Race='57'></Fin>
+				<Fin Ent='405' Pos='13' Race='57'></Fin>
+				<Fin Ent='400' Pos='14' Race='57'></Fin>
+				<Fin Ent='402' Pos='15' Race='57'></Fin>
+				<Fin Ent='386' Pos='16' Race='57'></Fin>
+				<Fin Ent='411' Pos='17' Race='57'></Fin>
+				<Fin Ent='392' Pos='18' Race='57'></Fin>
+				<Fin Ent='396' Pos='19' Race='57'></Fin>
+				<Fin Ent='399' Pos='20' Race='57'></Fin>
+				<Fin Ent='408' Pos='21' Race='57'></Fin>
+				<Fin Ent='413' Pos='22' Race='57'></Fin>
+				<Fin Ent='395' Pos='23' Race='57'></Fin>
+				<Fin Ent='412' Pos='24' Race='57'></Fin>
+				<Fin Ent='406' Pos='25' Race='57'></Fin>
+				<Fin Ent='389' Pos='26' Race='57'></Fin>
+				<Fin Ent='397' Pos='27' Race='57'></Fin>
+				<Fin Ent='388' Pos='DNS' Race='57'>
+					<Penalty Penalty='DNS'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='3' NonDiscardable='false' RaceId='163' StartDate='29-Jan-2013' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Finn' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='385' Pos='1' Race='163'></Fin>
+				<Fin Ent='387' Pos='2' Race='163'></Fin>
+				<Fin Ent='393' Pos='3' Race='163'></Fin>
+				<Fin Ent='400' Pos='4' Race='163'></Fin>
+				<Fin Ent='394' Pos='5' Race='163'></Fin>
+				<Fin Ent='401' Pos='6' Race='163'></Fin>
+				<Fin Ent='403' Pos='7' Race='163'>
+					<Penalty Penalty='OCS'></Penalty>
+				</Fin>
+				<Fin Ent='398' Pos='8' Race='163'></Fin>
+				<Fin Ent='407' Pos='9' Race='163'></Fin>
+				<Fin Ent='402' Pos='10' Race='163'></Fin>
+				<Fin Ent='409' Pos='11' Race='163'></Fin>
+				<Fin Ent='384' Pos='12' Race='163'></Fin>
+				<Fin Ent='390' Pos='13' Race='163'></Fin>
+				<Fin Ent='386' Pos='14' Race='163'></Fin>
+				<Fin Ent='405' Pos='15' Race='163'></Fin>
+				<Fin Ent='392' Pos='16' Race='163'></Fin>
+				<Fin Ent='411' Pos='17' Race='163'></Fin>
+				<Fin Ent='391' Pos='18' Race='163'></Fin>
+				<Fin Ent='408' Pos='19' Race='163'></Fin>
+				<Fin Ent='406' Pos='20' Race='163'></Fin>
+				<Fin Ent='395' Pos='21' Race='163'></Fin>
+				<Fin Ent='396' Pos='22' Race='163'></Fin>
+				<Fin Ent='397' Pos='23' Race='163'></Fin>
+				<Fin Ent='412' Pos='24' Race='163'></Fin>
+				<Fin Ent='413' Pos='25' Race='163'></Fin>
+				<Fin Ent='389' Pos='26' Race='163'></Fin>
+				<Fin Ent='399' Pos='27' Race='163'></Fin>
+				<Fin Ent='388' Pos='DNS' Race='163'>
+					<Penalty Penalty='DNS'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='4' NonDiscardable='false' RaceId='207' StartDate='29-Jan-2013' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Finn' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='385' Pos='1' Race='207'></Fin>
+				<Fin Ent='400' Pos='2' Race='207'></Fin>
+				<Fin Ent='393' Pos='3' Race='207'></Fin>
+				<Fin Ent='403' Pos='4' Race='207'></Fin>
+				<Fin Ent='401' Pos='5' Race='207'></Fin>
+				<Fin Ent='390' Pos='6' Race='207'></Fin>
+				<Fin Ent='387' Pos='7' Race='207'></Fin>
+				<Fin Ent='394' Pos='8' Race='207'></Fin>
+				<Fin Ent='398' Pos='9' Race='207'></Fin>
+				<Fin Ent='407' Pos='10' Race='207'></Fin>
+				<Fin Ent='384' Pos='11' Race='207'></Fin>
+				<Fin Ent='409' Pos='12' Race='207'></Fin>
+				<Fin Ent='402' Pos='13' Race='207'></Fin>
+				<Fin Ent='386' Pos='14' Race='207'></Fin>
+				<Fin Ent='392' Pos='15' Race='207'></Fin>
+				<Fin Ent='411' Pos='16' Race='207'></Fin>
+				<Fin Ent='391' Pos='17' Race='207'></Fin>
+				<Fin Ent='408' Pos='18' Race='207'></Fin>
+				<Fin Ent='413' Pos='19' Race='207'></Fin>
+				<Fin Ent='395' Pos='20' Race='207'></Fin>
+				<Fin Ent='399' Pos='21' Race='207'></Fin>
+				<Fin Ent='389' Pos='22' Race='207'></Fin>
+				<Fin Ent='396' Pos='23' Race='207'></Fin>
+				<Fin Ent='406' Pos='24' Race='207'></Fin>
+				<Fin Ent='412' Pos='25' Race='207'></Fin>
+				<Fin Ent='397' Pos='26' Race='207'></Fin>
+				<Fin Ent='405' Pos='27' Race='207'>
+					<Penalty Penalty='RET'></Penalty>
+				</Fin>
+				<Fin Ent='388' Pos='DNC' Race='207'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='5' NonDiscardable='false' RaceId='304' StartDate='30-Jan-2013' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Finn' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='393' Pos='1' Race='304'></Fin>
+				<Fin Ent='400' Pos='2' Race='304'></Fin>
+				<Fin Ent='394' Pos='3' Race='304'></Fin>
+				<Fin Ent='385' Pos='4' Race='304'></Fin>
+				<Fin Ent='403' Pos='5' Race='304'></Fin>
+				<Fin Ent='387' Pos='6' Race='304'></Fin>
+				<Fin Ent='401' Pos='7' Race='304'></Fin>
+				<Fin Ent='390' Pos='8' Race='304'></Fin>
+				<Fin Ent='407' Pos='9' Race='304'></Fin>
+				<Fin Ent='384' Pos='10' Race='304'></Fin>
+				<Fin Ent='402' Pos='11' Race='304'></Fin>
+				<Fin Ent='409' Pos='12' Race='304'></Fin>
+				<Fin Ent='405' Pos='13' Race='304'></Fin>
+				<Fin Ent='398' Pos='14' Race='304'></Fin>
+				<Fin Ent='386' Pos='15' Race='304'></Fin>
+				<Fin Ent='392' Pos='16' Race='304'></Fin>
+				<Fin Ent='391' Pos='17' Race='304'></Fin>
+				<Fin Ent='411' Pos='18' Race='304'></Fin>
+				<Fin Ent='408' Pos='19' Race='304'></Fin>
+				<Fin Ent='396' Pos='20' Race='304'></Fin>
+				<Fin Ent='412' Pos='21' Race='304'></Fin>
+				<Fin Ent='399' Pos='22' Race='304'></Fin>
+				<Fin Ent='413' Pos='23' Race='304'></Fin>
+				<Fin Ent='397' Pos='24' Race='304'></Fin>
+				<Fin Ent='406' Pos='25' Race='304'></Fin>
+				<Fin Ent='389' Pos='26' Race='304'></Fin>
+				<Fin Ent='395' Pos='DNF' Race='304'>
+					<Penalty Penalty='DNF'></Penalty>
+				</Fin>
+				<Fin Ent='388' Pos='DNC' Race='304'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='6' NonDiscardable='false' RaceId='379' StartDate='30-Jan-2013' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Finn' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='403' Pos='1' Race='379'></Fin>
+				<Fin Ent='385' Pos='2' Race='379'></Fin>
+				<Fin Ent='393' Pos='3' Race='379'></Fin>
+				<Fin Ent='394' Pos='4' Race='379'></Fin>
+				<Fin Ent='400' Pos='5' Race='379'></Fin>
+				<Fin Ent='401' Pos='6' Race='379'></Fin>
+				<Fin Ent='387' Pos='7' Race='379'></Fin>
+				<Fin Ent='409' Pos='8' Race='379'></Fin>
+				<Fin Ent='384' Pos='9' Race='379'></Fin>
+				<Fin Ent='407' Pos='10' Race='379'></Fin>
+				<Fin Ent='402' Pos='11' Race='379'></Fin>
+				<Fin Ent='390' Pos='12' Race='379'></Fin>
+				<Fin Ent='398' Pos='13' Race='379'></Fin>
+				<Fin Ent='405' Pos='14' Race='379'></Fin>
+				<Fin Ent='392' Pos='15' Race='379'></Fin>
+				<Fin Ent='386' Pos='16' Race='379'></Fin>
+				<Fin Ent='396' Pos='17' Race='379'></Fin>
+				<Fin Ent='411' Pos='18' Race='379'></Fin>
+				<Fin Ent='399' Pos='19' Race='379'></Fin>
+				<Fin Ent='391' Pos='20' Race='379'></Fin>
+				<Fin Ent='408' Pos='21' Race='379'></Fin>
+				<Fin Ent='395' Pos='22' Race='379'></Fin>
+				<Fin Ent='406' Pos='23' Race='379'></Fin>
+				<Fin Ent='413' Pos='24' Race='379'></Fin>
+				<Fin Ent='412' Pos='25' Race='379'></Fin>
+				<Fin Ent='389' Pos='26' Race='379'></Fin>
+				<Fin Ent='397' Pos='27' Race='379'></Fin>
+				<Fin Ent='388' Pos='DNC' Race='379'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='7' NonDiscardable='false' RaceId='380' StartDate='31-Jan-2013' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Finn' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='385' Pos='1' Race='380'></Fin>
+				<Fin Ent='403' Pos='2' Race='380'></Fin>
+				<Fin Ent='400' Pos='3' Race='380'></Fin>
+				<Fin Ent='393' Pos='4' Race='380'></Fin>
+				<Fin Ent='394' Pos='5' Race='380'></Fin>
+				<Fin Ent='409' Pos='6' Race='380'></Fin>
+				<Fin Ent='387' Pos='7' Race='380'></Fin>
+				<Fin Ent='398' Pos='8' Race='380'></Fin>
+				<Fin Ent='401' Pos='9' Race='380'></Fin>
+				<Fin Ent='407' Pos='10' Race='380'></Fin>
+				<Fin Ent='402' Pos='11' Race='380'></Fin>
+				<Fin Ent='390' Pos='12' Race='380'></Fin>
+				<Fin Ent='384' Pos='13' Race='380'></Fin>
+				<Fin Ent='386' Pos='14' Race='380'></Fin>
+				<Fin Ent='405' Pos='15' Race='380'>
+					<Penalty Penalty='DSQ'></Penalty>
+				</Fin>
+				<Fin Ent='411' Pos='16' Race='380'></Fin>
+				<Fin Ent='391' Pos='17' Race='380'></Fin>
+				<Fin Ent='408' Pos='18' Race='380'></Fin>
+				<Fin Ent='396' Pos='19' Race='380'></Fin>
+				<Fin Ent='395' Pos='20' Race='380'></Fin>
+				<Fin Ent='413' Pos='21' Race='380'></Fin>
+				<Fin Ent='389' Pos='22' Race='380'></Fin>
+				<Fin Ent='412' Pos='23' Race='380'></Fin>
+				<Fin Ent='406' Pos='24' Race='380'></Fin>
+				<Fin Ent='388' Pos='DNC' Race='380'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+				<Fin Ent='392' Pos='DNC' Race='380'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+				<Fin Ent='397' Pos='DNC' Race='380'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+				<Fin Ent='399' Pos='DNC' Race='380'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='8' NonDiscardable='false' RaceId='383' StartDate='31-Jan-2013' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Finn' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='403' Pos='1' Race='383'></Fin>
+				<Fin Ent='400' Pos='2' Race='383'>
+					<Penalty Note='DNE by the Jury - Rule 42' Penalty='DNE'></Penalty>
+				</Fin>
+				<Fin Ent='385' Pos='3' Race='383'></Fin>
+				<Fin Ent='387' Pos='4' Race='383'></Fin>
+				<Fin Ent='394' Pos='5' Race='383'></Fin>
+				<Fin Ent='407' Pos='6' Race='383'></Fin>
+				<Fin Ent='393' Pos='7' Race='383'></Fin>
+				<Fin Ent='402' Pos='8' Race='383'></Fin>
+				<Fin Ent='398' Pos='9' Race='383'></Fin>
+				<Fin Ent='409' Pos='10' Race='383'></Fin>
+				<Fin Ent='390' Pos='11' Race='383'></Fin>
+				<Fin Ent='401' Pos='12' Race='383'></Fin>
+				<Fin Ent='405' Pos='13' Race='383'></Fin>
+				<Fin Ent='386' Pos='14' Race='383'></Fin>
+				<Fin Ent='395' Pos='15' Race='383'></Fin>
+				<Fin Ent='391' Pos='16' Race='383'></Fin>
+				<Fin Ent='411' Pos='17' Race='383'></Fin>
+				<Fin Ent='396' Pos='18' Race='383'></Fin>
+				<Fin Ent='408' Pos='19' Race='383'></Fin>
+				<Fin Ent='389' Pos='20' Race='383'></Fin>
+				<Fin Ent='406' Pos='21' Race='383'></Fin>
+				<Fin Ent='412' Pos='22' Race='383'></Fin>
+				<Fin Ent='413' Pos='23' Race='383'></Fin>
+				<Fin Ent='384' Pos='24' Race='383'>
+					<Penalty Penalty='RET'></Penalty>
+				</Fin>
+				<Fin Ent='388' Pos='DNC' Race='383'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+				<Fin Ent='392' Pos='DNC' Race='383'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+				<Fin Ent='397' Pos='DNC' Race='383'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+				<Fin Ent='399' Pos='DNC' Race='383'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='9' NonDiscardable='false' RaceId='667' StartDate='01-Feb-2013' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Finn' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='400' Pos='1' Race='667'></Fin>
+				<Fin Ent='393' Pos='2' Race='667'></Fin>
+				<Fin Ent='403' Pos='3' Race='667'></Fin>
+				<Fin Ent='385' Pos='4' Race='667'></Fin>
+				<Fin Ent='394' Pos='5' Race='667'></Fin>
+				<Fin Ent='402' Pos='6' Race='667'></Fin>
+				<Fin Ent='401' Pos='7' Race='667'></Fin>
+				<Fin Ent='409' Pos='8' Race='667'></Fin>
+				<Fin Ent='407' Pos='9' Race='667'></Fin>
+				<Fin Ent='398' Pos='10' Race='667'></Fin>
+				<Fin Ent='387' Pos='11' Race='667'></Fin>
+				<Fin Ent='405' Pos='12' Race='667'></Fin>
+				<Fin Ent='390' Pos='13' Race='667'></Fin>
+				<Fin Ent='386' Pos='14' Race='667'></Fin>
+				<Fin Ent='384' Pos='15' Race='667'></Fin>
+				<Fin Ent='391' Pos='16' Race='667'></Fin>
+				<Fin Ent='392' Pos='17' Race='667'></Fin>
+				<Fin Ent='408' Pos='18' Race='667'></Fin>
+				<Fin Ent='411' Pos='19' Race='667'></Fin>
+				<Fin Ent='396' Pos='20' Race='667'></Fin>
+				<Fin Ent='395' Pos='21' Race='667'></Fin>
+				<Fin Ent='412' Pos='22' Race='667'></Fin>
+				<Fin Ent='413' Pos='23' Race='667'></Fin>
+				<Fin Ent='389' Pos='24' Race='667'></Fin>
+				<Fin Ent='397' Pos='DNF' Race='667'>
+					<Penalty Penalty='DNF'></Penalty>
+				</Fin>
+				<Fin Ent='388' Pos='DNC' Race='667'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+				<Fin Ent='406' Pos='DNC' Race='667'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+				<Fin Ent='399' Pos='DNC' Race='667'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='10' NonDiscardable='false' RaceId='734' StartDate='01-Feb-2013' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Finn' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='400' Pos='1' Race='734'></Fin>
+				<Fin Ent='385' Pos='2' Race='734'></Fin>
+				<Fin Ent='403' Pos='3' Race='734'></Fin>
+				<Fin Ent='401' Pos='4' Race='734'></Fin>
+				<Fin Ent='393' Pos='5' Race='734'></Fin>
+				<Fin Ent='394' Pos='6' Race='734'></Fin>
+				<Fin Ent='390' Pos='7' Race='734'></Fin>
+				<Fin Ent='407' Pos='8' Race='734'></Fin>
+				<Fin Ent='402' Pos='9' Race='734'></Fin>
+				<Fin Ent='387' Pos='10' Race='734'></Fin>
+				<Fin Ent='405' Pos='11' Race='734'></Fin>
+				<Fin Ent='398' Pos='12' Race='734'></Fin>
+				<Fin Ent='409' Pos='13' Race='734'></Fin>
+				<Fin Ent='386' Pos='14' Race='734'></Fin>
+				<Fin Ent='384' Pos='15' Race='734'></Fin>
+				<Fin Ent='391' Pos='16' Race='734'></Fin>
+				<Fin Ent='408' Pos='17' Race='734'></Fin>
+				<Fin Ent='392' Pos='18' Race='734'></Fin>
+				<Fin Ent='396' Pos='19' Race='734'></Fin>
+				<Fin Ent='395' Pos='20' Race='734'></Fin>
+				<Fin Ent='412' Pos='21' Race='734'></Fin>
+				<Fin Ent='389' Pos='22' Race='734'></Fin>
+				<Fin Ent='413' Pos='23' Race='734'></Fin>
+				<Fin Ent='397' Pos='24' Race='734'></Fin>
+				<Fin Ent='411' Pos='25' Race='734'>
+					<Penalty Penalty='RET'></Penalty>
+				</Fin>
+				<Fin Ent='388' Pos='DNC' Race='734'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+				<Fin Ent='406' Pos='DNC' Race='734'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+				<Fin Ent='399' Pos='DNC' Race='734'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='true' Name='11' NonDiscardable='true' RaceId='839' StartDate='02-Feb-2013' Weight='2.0'>
+			<DivInfo>
+				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Finn' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='385' Pos='1' Race='839'></Fin>
+				<Fin Ent='387' Pos='2' Race='839'></Fin>
+				<Fin Ent='403' Pos='3' Race='839'></Fin>
+				<Fin Ent='400' Pos='4' Race='839'></Fin>
+				<Fin Ent='393' Pos='5' Race='839'></Fin>
+				<Fin Ent='407' Pos='6' Race='839'></Fin>
+				<Fin Ent='394' Pos='7' Race='839'></Fin>
+				<Fin Ent='401' Pos='8' Race='839'></Fin>
+				<Fin Ent='409' Pos='9' Race='839'></Fin>
+				<Fin Ent='398' Pos='10' Race='839'></Fin>
+			</FinishList>
+		</Race>
+	</RaceList>
+	<Scores>
+		<Stage CombinedQualifying='false' Name='Medal' PreviousStage='1' ScoreCarryOver='ALL' StageId='3' StageRank='2' SystemName='ISAF Low Point 2013-2016' ThrowoutCarryOver='ALL' TiebreakCarryOver='ALL'>
+			<Divisions>
+				<DivisionId>Medal</DivisionId>
+			</Divisions>
+			<System CheckinPercent='20' EntriesLargestDivision='false' FirstPlacePoints='1.0' LongSeries='false' Throwout1='2' Throwout2='0' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='0' tiebreaker='2'></System>
+			<RacePointsList>
+				<rp Div='Medal' Ent='385' Pos='1' Pts='2.0' Race='839'></rp>
+				<rp Div='Medal' Ent='387' Pos='2' Pts='4.0' Race='839'></rp>
+				<rp Div='Medal' Ent='403' Pos='3' Pts='6.0' Race='839'></rp>
+				<rp Div='Medal' Ent='400' Pos='4' Pts='8.0' Race='839'></rp>
+				<rp Div='Medal' Ent='393' Pos='5' Pts='10.0' Race='839'></rp>
+				<rp Div='Medal' Ent='407' Pos='6' Pts='12.0' Race='839'></rp>
+				<rp Div='Medal' Ent='394' Pos='7' Pts='14.0' Race='839'></rp>
+				<rp Div='Medal' Ent='401' Pos='8' Pts='16.0' Race='839'></rp>
+				<rp Div='Medal' Ent='409' Pos='9' Pts='18.0' Race='839'></rp>
+				<rp Div='Medal' Ent='398' Pos='10' Pts='20.0' Race='839'></rp>
+			</RacePointsList>
+			<SeriesPointsList>
+				<sp Div='Medal' Ent='385' Pos='1' Pts='20.0'></sp>
+				<sp Div='Medal' Ent='403' Pos='2' Pts='34.0'></sp>
+				<sp Div='Medal' Ent='393' Pos='3' Pts='43.0'></sp>
+				<sp Div='Medal' Ent='387' Pos='4' Pts='55.0'></sp>
+				<sp Div='Medal' Ent='400' Pos='5' Pts='57.0'></sp>
+				<sp Div='Medal' Ent='394' Pos='6' Pts='57.0001'></sp>
+				<sp Div='Medal' Ent='401' Pos='7' Pts='64.0'></sp>
+				<sp Div='Medal' Ent='407' Pos='8' Pts='81.0'></sp>
+				<sp Div='Medal' Ent='409' Pos='9' Pts='101.0'></sp>
+				<sp Div='Medal' Ent='398' Pos='10' Pts='103.0'></sp>
+			</SeriesPointsList>
+		</Stage>
+		<Stage CombinedQualifying='false' Name='Fleet' ScoreCarryOver='ALL' StageId='1' StageRank='1' SystemName='ISAF Low Point 2013-2016' ThrowoutCarryOver='ALL' TiebreakCarryOver='ALL'>
+			<Divisions>
+				<DivisionId>Finn</DivisionId>
+			</Divisions>
+			<System CheckinPercent='20' EntriesLargestDivision='false' FirstPlacePoints='1.0' LongSeries='false' Throwout1='2' Throwout2='0' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='0' tiebreaker='1'></System>
+			<RacePointsList>
+				<rp Div='Finn' Ent='401' Pos='1' Pts='1.0' Race='53'></rp>
+				<rp Div='Finn' Ent='400' Pos='2' Pts='2.0' Race='53'></rp>
+				<rp Div='Finn' Ent='394' Pos='3' Pts='3.0' Race='53'></rp>
+				<rp Div='Finn' Ent='387' Pos='4' Pts='4.0' Race='53'></rp>
+				<rp Div='Finn' Ent='403' Pos='5' Pts='5.0' Race='53'></rp>
+				<rp Div='Finn' Ent='393' Pos='6' Pts='6.0' Race='53'></rp>
+				<rp Div='Finn' Ent='385' Pos='7' Pts='7.0' Race='53' Toss='true'></rp>
+				<rp Div='Finn' Ent='407' Pos='8' Pts='8.0' Race='53'></rp>
+				<rp Div='Finn' Ent='398' Pos='9' Pts='9.0' Race='53'></rp>
+				<rp Div='Finn' Ent='386' Pos='10' Pts='10.0' Race='53'></rp>
+				<rp Div='Finn' Ent='402' Pos='11' Pts='11.0' Race='53'></rp>
+				<rp Div='Finn' Ent='409' Pos='12' Pts='12.0' Race='53'></rp>
+				<rp Div='Finn' Ent='390' Pos='13' Pts='13.0' Race='53' Toss='true'></rp>
+				<rp Div='Finn' Ent='384' Pos='14' Pts='14.0' Race='53'></rp>
+				<rp Div='Finn' Ent='405' Pos='15' Pts='15.0' Race='53'></rp>
+				<rp Div='Finn' Ent='411' Pos='16' Pts='16.0' Race='53'></rp>
+				<rp Div='Finn' Ent='391' Pos='17' Pts='17.0' Race='53'></rp>
+				<rp Div='Finn' Ent='408' Pos='18' Pts='18.0' Race='53'></rp>
+				<rp Div='Finn' Ent='396' Pos='19' Pts='19.0' Race='53'></rp>
+				<rp Div='Finn' Ent='392' Pos='20' Pts='20.0' Race='53'></rp>
+				<rp Div='Finn' Ent='389' Pos='21' Pts='21.0' Race='53'></rp>
+				<rp Div='Finn' Ent='413' Pos='22' Pts='22.0' Race='53'></rp>
+				<rp Div='Finn' Ent='399' Pos='23' Pts='23.0' Race='53'></rp>
+				<rp Div='Finn' Ent='395' Pos='24' Pts='24.0' Race='53'></rp>
+				<rp Div='Finn' Ent='412' Pos='25' Pts='25.0' Race='53' Toss='true'></rp>
+				<rp Div='Finn' Ent='406' Pos='26' Pts='26.0' Race='53'></rp>
+				<rp Div='Finn' Ent='397' Pos='27' Pts='27.0' Race='53'></rp>
+				<rp Div='Finn' Ent='388' Pos='28' Pts='28.0' Race='53'></rp>
+				<rp Div='Finn' Ent='385' Pos='1' Pts='1.0' Race='57'></rp>
+				<rp Div='Finn' Ent='407' Pos='2' Pts='2.0' Race='57'></rp>
+				<rp Div='Finn' Ent='401' Pos='3' Pts='3.0' Race='57'></rp>
+				<rp Div='Finn' Ent='403' Pos='4' Pts='4.0' Race='57'></rp>
+				<rp Div='Finn' Ent='387' Pos='5' Pts='5.0' Race='57'></rp>
+				<rp Div='Finn' Ent='409' Pos='6' Pts='6.0' Race='57'></rp>
+				<rp Div='Finn' Ent='398' Pos='7' Pts='7.0' Race='57'></rp>
+				<rp Div='Finn' Ent='393' Pos='8' Pts='8.0' Race='57' Toss='true'></rp>
+				<rp Div='Finn' Ent='384' Pos='9' Pts='9.0' Race='57'></rp>
+				<rp Div='Finn' Ent='390' Pos='10' Pts='10.0' Race='57'></rp>
+				<rp Div='Finn' Ent='394' Pos='11' Pts='11.0' Race='57' Toss='true'></rp>
+				<rp Div='Finn' Ent='391' Pos='12' Pts='12.0' Race='57'></rp>
+				<rp Div='Finn' Ent='405' Pos='13' Pts='13.0' Race='57'></rp>
+				<rp Div='Finn' Ent='400' Pos='14' Pts='14.0' Race='57' Toss='true'></rp>
+				<rp Div='Finn' Ent='402' Pos='15' Pts='15.0' Race='57' Toss='true'></rp>
+				<rp Div='Finn' Ent='386' Pos='16' Pts='16.0' Race='57' Toss='true'></rp>
+				<rp Div='Finn' Ent='411' Pos='17' Pts='17.0' Race='57'></rp>
+				<rp Div='Finn' Ent='392' Pos='18' Pts='18.0' Race='57'></rp>
+				<rp Div='Finn' Ent='396' Pos='19' Pts='19.0' Race='57'></rp>
+				<rp Div='Finn' Ent='399' Pos='20' Pts='20.0' Race='57'></rp>
+				<rp Div='Finn' Ent='408' Pos='21' Pts='21.0' Race='57' Toss='true'></rp>
+				<rp Div='Finn' Ent='413' Pos='22' Pts='22.0' Race='57'></rp>
+				<rp Div='Finn' Ent='395' Pos='23' Pts='23.0' Race='57'></rp>
+				<rp Div='Finn' Ent='412' Pos='24' Pts='24.0' Race='57'></rp>
+				<rp Div='Finn' Ent='406' Pos='25' Pts='25.0' Race='57'></rp>
+				<rp Div='Finn' Ent='389' Pos='26' Pts='26.0' Race='57' Toss='true'></rp>
+				<rp Div='Finn' Ent='397' Pos='27' Pts='27.0' Race='57'></rp>
+				<rp Div='Finn' Ent='388' Pos='40960' Pts='29.0' Race='57' Toss='true'></rp>
+				<rp Div='Finn' Ent='385' Pos='1' Pts='1.0' Race='163'></rp>
+				<rp Div='Finn' Ent='387' Pos='2' Pts='2.0' Race='163'></rp>
+				<rp Div='Finn' Ent='393' Pos='3' Pts='3.0' Race='163'></rp>
+				<rp Div='Finn' Ent='400' Pos='4' Pts='4.0' Race='163'></rp>
+				<rp Div='Finn' Ent='394' Pos='5' Pts='5.0' Race='163'></rp>
+				<rp Div='Finn' Ent='401' Pos='6' Pts='6.0' Race='163'></rp>
+				<rp Div='Finn' Ent='403' Pos='7' Pts='29.0' Race='163' Toss='true'></rp>
+				<rp Div='Finn' Ent='398' Pos='8' Pts='7.0' Race='163'></rp>
+				<rp Div='Finn' Ent='407' Pos='9' Pts='8.0' Race='163'></rp>
+				<rp Div='Finn' Ent='402' Pos='10' Pts='9.0' Race='163'></rp>
+				<rp Div='Finn' Ent='409' Pos='11' Pts='10.0' Race='163'></rp>
+				<rp Div='Finn' Ent='384' Pos='12' Pts='11.0' Race='163'></rp>
+				<rp Div='Finn' Ent='390' Pos='13' Pts='12.0' Race='163'></rp>
+				<rp Div='Finn' Ent='386' Pos='14' Pts='13.0' Race='163'></rp>
+				<rp Div='Finn' Ent='405' Pos='15' Pts='14.0' Race='163'></rp>
+				<rp Div='Finn' Ent='392' Pos='16' Pts='15.0' Race='163'></rp>
+				<rp Div='Finn' Ent='411' Pos='17' Pts='16.0' Race='163'></rp>
+				<rp Div='Finn' Ent='391' Pos='18' Pts='17.0' Race='163'></rp>
+				<rp Div='Finn' Ent='408' Pos='19' Pts='18.0' Race='163'></rp>
+				<rp Div='Finn' Ent='406' Pos='20' Pts='19.0' Race='163'></rp>
+				<rp Div='Finn' Ent='395' Pos='21' Pts='20.0' Race='163'></rp>
+				<rp Div='Finn' Ent='396' Pos='22' Pts='21.0' Race='163'></rp>
+				<rp Div='Finn' Ent='397' Pos='23' Pts='22.0' Race='163'></rp>
+				<rp Div='Finn' Ent='412' Pos='24' Pts='23.0' Race='163'></rp>
+				<rp Div='Finn' Ent='413' Pos='25' Pts='24.0' Race='163' Toss='true'></rp>
+				<rp Div='Finn' Ent='389' Pos='26' Pts='25.0' Race='163'></rp>
+				<rp Div='Finn' Ent='399' Pos='27' Pts='26.0' Race='163'></rp>
+				<rp Div='Finn' Ent='388' Pos='40960' Pts='29.0' Race='163'></rp>
+				<rp Div='Finn' Ent='385' Pos='1' Pts='1.0' Race='207'></rp>
+				<rp Div='Finn' Ent='400' Pos='2' Pts='2.0' Race='207'></rp>
+				<rp Div='Finn' Ent='393' Pos='3' Pts='3.0' Race='207'></rp>
+				<rp Div='Finn' Ent='403' Pos='4' Pts='4.0' Race='207'></rp>
+				<rp Div='Finn' Ent='401' Pos='5' Pts='5.0' Race='207'></rp>
+				<rp Div='Finn' Ent='390' Pos='6' Pts='6.0' Race='207'></rp>
+				<rp Div='Finn' Ent='387' Pos='7' Pts='7.0' Race='207'></rp>
+				<rp Div='Finn' Ent='394' Pos='8' Pts='8.0' Race='207'></rp>
+				<rp Div='Finn' Ent='398' Pos='9' Pts='9.0' Race='207'></rp>
+				<rp Div='Finn' Ent='407' Pos='10' Pts='10.0' Race='207' Toss='true'></rp>
+				<rp Div='Finn' Ent='384' Pos='11' Pts='11.0' Race='207'></rp>
+				<rp Div='Finn' Ent='409' Pos='12' Pts='12.0' Race='207'></rp>
+				<rp Div='Finn' Ent='402' Pos='13' Pts='13.0' Race='207'></rp>
+				<rp Div='Finn' Ent='386' Pos='14' Pts='14.0' Race='207'></rp>
+				<rp Div='Finn' Ent='392' Pos='15' Pts='15.0' Race='207'></rp>
+				<rp Div='Finn' Ent='411' Pos='16' Pts='16.0' Race='207'></rp>
+				<rp Div='Finn' Ent='391' Pos='17' Pts='17.0' Race='207'></rp>
+				<rp Div='Finn' Ent='408' Pos='18' Pts='18.0' Race='207'></rp>
+				<rp Div='Finn' Ent='413' Pos='19' Pts='19.0' Race='207'></rp>
+				<rp Div='Finn' Ent='395' Pos='20' Pts='20.0' Race='207'></rp>
+				<rp Div='Finn' Ent='399' Pos='21' Pts='21.0' Race='207'></rp>
+				<rp Div='Finn' Ent='389' Pos='22' Pts='22.0' Race='207'></rp>
+				<rp Div='Finn' Ent='396' Pos='23' Pts='23.0' Race='207' Toss='true'></rp>
+				<rp Div='Finn' Ent='406' Pos='24' Pts='24.0' Race='207'></rp>
+				<rp Div='Finn' Ent='412' Pos='25' Pts='25.0' Race='207'></rp>
+				<rp Div='Finn' Ent='397' Pos='26' Pts='26.0' Race='207'></rp>
+				<rp Div='Finn' Ent='405' Pos='27' Pts='29.0' Race='207' Toss='true'></rp>
+				<rp Div='Finn' Ent='388' Pos='49152' Pts='29.0' Race='207'></rp>
+				<rp Div='Finn' Ent='393' Pos='1' Pts='1.0' Race='304'></rp>
+				<rp Div='Finn' Ent='400' Pos='2' Pts='2.0' Race='304'></rp>
+				<rp Div='Finn' Ent='394' Pos='3' Pts='3.0' Race='304'></rp>
+				<rp Div='Finn' Ent='385' Pos='4' Pts='4.0' Race='304'></rp>
+				<rp Div='Finn' Ent='403' Pos='5' Pts='5.0' Race='304'></rp>
+				<rp Div='Finn' Ent='387' Pos='6' Pts='6.0' Race='304'></rp>
+				<rp Div='Finn' Ent='401' Pos='7' Pts='7.0' Race='304'></rp>
+				<rp Div='Finn' Ent='390' Pos='8' Pts='8.0' Race='304'></rp>
+				<rp Div='Finn' Ent='407' Pos='9' Pts='9.0' Race='304'></rp>
+				<rp Div='Finn' Ent='384' Pos='10' Pts='10.0' Race='304'></rp>
+				<rp Div='Finn' Ent='402' Pos='11' Pts='11.0' Race='304'></rp>
+				<rp Div='Finn' Ent='409' Pos='12' Pts='12.0' Race='304'></rp>
+				<rp Div='Finn' Ent='405' Pos='13' Pts='13.0' Race='304'></rp>
+				<rp Div='Finn' Ent='398' Pos='14' Pts='14.0' Race='304' Toss='true'></rp>
+				<rp Div='Finn' Ent='386' Pos='15' Pts='15.0' Race='304'></rp>
+				<rp Div='Finn' Ent='392' Pos='16' Pts='16.0' Race='304'></rp>
+				<rp Div='Finn' Ent='391' Pos='17' Pts='17.0' Race='304'></rp>
+				<rp Div='Finn' Ent='411' Pos='18' Pts='18.0' Race='304'></rp>
+				<rp Div='Finn' Ent='408' Pos='19' Pts='19.0' Race='304'></rp>
+				<rp Div='Finn' Ent='396' Pos='20' Pts='20.0' Race='304'></rp>
+				<rp Div='Finn' Ent='412' Pos='21' Pts='21.0' Race='304'></rp>
+				<rp Div='Finn' Ent='399' Pos='22' Pts='22.0' Race='304'></rp>
+				<rp Div='Finn' Ent='413' Pos='23' Pts='23.0' Race='304'></rp>
+				<rp Div='Finn' Ent='397' Pos='24' Pts='24.0' Race='304'></rp>
+				<rp Div='Finn' Ent='406' Pos='25' Pts='25.0' Race='304'></rp>
+				<rp Div='Finn' Ent='389' Pos='26' Pts='26.0' Race='304'></rp>
+				<rp Div='Finn' Ent='395' Pos='32768' Pts='29.0' Race='304' Toss='true'></rp>
+				<rp Div='Finn' Ent='388' Pos='49152' Pts='29.0' Race='304'></rp>
+				<rp Div='Finn' Ent='403' Pos='1' Pts='1.0' Race='379'></rp>
+				<rp Div='Finn' Ent='385' Pos='2' Pts='2.0' Race='379'></rp>
+				<rp Div='Finn' Ent='393' Pos='3' Pts='3.0' Race='379'></rp>
+				<rp Div='Finn' Ent='394' Pos='4' Pts='4.0' Race='379'></rp>
+				<rp Div='Finn' Ent='400' Pos='5' Pts='5.0' Race='379'></rp>
+				<rp Div='Finn' Ent='401' Pos='6' Pts='6.0' Race='379'></rp>
+				<rp Div='Finn' Ent='387' Pos='7' Pts='7.0' Race='379'></rp>
+				<rp Div='Finn' Ent='409' Pos='8' Pts='8.0' Race='379'></rp>
+				<rp Div='Finn' Ent='384' Pos='9' Pts='9.0' Race='379'></rp>
+				<rp Div='Finn' Ent='407' Pos='10' Pts='10.0' Race='379'></rp>
+				<rp Div='Finn' Ent='402' Pos='11' Pts='11.0' Race='379'></rp>
+				<rp Div='Finn' Ent='390' Pos='12' Pts='12.0' Race='379'></rp>
+				<rp Div='Finn' Ent='398' Pos='13' Pts='13.0' Race='379'></rp>
+				<rp Div='Finn' Ent='405' Pos='14' Pts='14.0' Race='379'></rp>
+				<rp Div='Finn' Ent='392' Pos='15' Pts='15.0' Race='379'></rp>
+				<rp Div='Finn' Ent='386' Pos='16' Pts='16.0' Race='379'></rp>
+				<rp Div='Finn' Ent='396' Pos='17' Pts='17.0' Race='379'></rp>
+				<rp Div='Finn' Ent='411' Pos='18' Pts='18.0' Race='379'></rp>
+				<rp Div='Finn' Ent='399' Pos='19' Pts='19.0' Race='379'></rp>
+				<rp Div='Finn' Ent='391' Pos='20' Pts='20.0' Race='379' Toss='true'></rp>
+				<rp Div='Finn' Ent='408' Pos='21' Pts='21.0' Race='379'></rp>
+				<rp Div='Finn' Ent='395' Pos='22' Pts='22.0' Race='379'></rp>
+				<rp Div='Finn' Ent='406' Pos='23' Pts='23.0' Race='379'></rp>
+				<rp Div='Finn' Ent='413' Pos='24' Pts='24.0' Race='379'></rp>
+				<rp Div='Finn' Ent='412' Pos='25' Pts='25.0' Race='379'></rp>
+				<rp Div='Finn' Ent='389' Pos='26' Pts='26.0' Race='379'></rp>
+				<rp Div='Finn' Ent='397' Pos='27' Pts='27.0' Race='379'></rp>
+				<rp Div='Finn' Ent='388' Pos='49152' Pts='29.0' Race='379'></rp>
+				<rp Div='Finn' Ent='385' Pos='1' Pts='1.0' Race='380'></rp>
+				<rp Div='Finn' Ent='403' Pos='2' Pts='2.0' Race='380'></rp>
+				<rp Div='Finn' Ent='400' Pos='3' Pts='3.0' Race='380'></rp>
+				<rp Div='Finn' Ent='393' Pos='4' Pts='4.0' Race='380'></rp>
+				<rp Div='Finn' Ent='394' Pos='5' Pts='5.0' Race='380'></rp>
+				<rp Div='Finn' Ent='409' Pos='6' Pts='6.0' Race='380'></rp>
+				<rp Div='Finn' Ent='387' Pos='7' Pts='7.0' Race='380'></rp>
+				<rp Div='Finn' Ent='398' Pos='8' Pts='8.0' Race='380'></rp>
+				<rp Div='Finn' Ent='401' Pos='9' Pts='9.0' Race='380'></rp>
+				<rp Div='Finn' Ent='407' Pos='10' Pts='10.0' Race='380'></rp>
+				<rp Div='Finn' Ent='402' Pos='11' Pts='11.0' Race='380'></rp>
+				<rp Div='Finn' Ent='390' Pos='12' Pts='12.0' Race='380'></rp>
+				<rp Div='Finn' Ent='384' Pos='13' Pts='13.0' Race='380'></rp>
+				<rp Div='Finn' Ent='386' Pos='14' Pts='14.0' Race='380'></rp>
+				<rp Div='Finn' Ent='405' Pos='15' Pts='29.0' Race='380'></rp>
+				<rp Div='Finn' Ent='411' Pos='16' Pts='15.0' Race='380'></rp>
+				<rp Div='Finn' Ent='391' Pos='17' Pts='16.0' Race='380'></rp>
+				<rp Div='Finn' Ent='408' Pos='18' Pts='17.0' Race='380'></rp>
+				<rp Div='Finn' Ent='396' Pos='19' Pts='18.0' Race='380'></rp>
+				<rp Div='Finn' Ent='395' Pos='20' Pts='19.0' Race='380'></rp>
+				<rp Div='Finn' Ent='413' Pos='21' Pts='20.0' Race='380'></rp>
+				<rp Div='Finn' Ent='389' Pos='22' Pts='21.0' Race='380'></rp>
+				<rp Div='Finn' Ent='412' Pos='23' Pts='22.0' Race='380'></rp>
+				<rp Div='Finn' Ent='406' Pos='24' Pts='23.0' Race='380'></rp>
+				<rp Div='Finn' Ent='388' Pos='49152' Pts='29.0' Race='380'></rp>
+				<rp Div='Finn' Ent='392' Pos='49152' Pts='29.0' Race='380' Toss='true'></rp>
+				<rp Div='Finn' Ent='397' Pos='49152' Pts='29.0' Race='380' Toss='true'></rp>
+				<rp Div='Finn' Ent='399' Pos='49152' Pts='29.0' Race='380' Toss='true'></rp>
+				<rp Div='Finn' Ent='403' Pos='1' Pts='1.0' Race='383'></rp>
+				<rp Div='Finn' Ent='400' Pos='2' Pts='29.0' Race='383'></rp>
+				<rp Div='Finn' Ent='385' Pos='3' Pts='2.0' Race='383'></rp>
+				<rp Div='Finn' Ent='387' Pos='4' Pts='3.0' Race='383'></rp>
+				<rp Div='Finn' Ent='394' Pos='5' Pts='4.0' Race='383'></rp>
+				<rp Div='Finn' Ent='407' Pos='6' Pts='5.0' Race='383'></rp>
+				<rp Div='Finn' Ent='393' Pos='7' Pts='6.0' Race='383'></rp>
+				<rp Div='Finn' Ent='402' Pos='8' Pts='7.0' Race='383'></rp>
+				<rp Div='Finn' Ent='398' Pos='9' Pts='8.0' Race='383'></rp>
+				<rp Div='Finn' Ent='409' Pos='10' Pts='9.0' Race='383'></rp>
+				<rp Div='Finn' Ent='390' Pos='11' Pts='10.0' Race='383'></rp>
+				<rp Div='Finn' Ent='401' Pos='12' Pts='11.0' Race='383' Toss='true'></rp>
+				<rp Div='Finn' Ent='405' Pos='13' Pts='12.0' Race='383'></rp>
+				<rp Div='Finn' Ent='386' Pos='14' Pts='13.0' Race='383'></rp>
+				<rp Div='Finn' Ent='395' Pos='15' Pts='14.0' Race='383'></rp>
+				<rp Div='Finn' Ent='391' Pos='16' Pts='15.0' Race='383'></rp>
+				<rp Div='Finn' Ent='411' Pos='17' Pts='16.0' Race='383'></rp>
+				<rp Div='Finn' Ent='396' Pos='18' Pts='17.0' Race='383'></rp>
+				<rp Div='Finn' Ent='408' Pos='19' Pts='18.0' Race='383'></rp>
+				<rp Div='Finn' Ent='389' Pos='20' Pts='19.0' Race='383'></rp>
+				<rp Div='Finn' Ent='406' Pos='21' Pts='20.0' Race='383'></rp>
+				<rp Div='Finn' Ent='412' Pos='22' Pts='21.0' Race='383'></rp>
+				<rp Div='Finn' Ent='413' Pos='23' Pts='22.0' Race='383'></rp>
+				<rp Div='Finn' Ent='384' Pos='24' Pts='29.0' Race='383' Toss='true'></rp>
+				<rp Div='Finn' Ent='388' Pos='49152' Pts='29.0' Race='383'></rp>
+				<rp Div='Finn' Ent='392' Pos='49152' Pts='29.0' Race='383'></rp>
+				<rp Div='Finn' Ent='397' Pos='49152' Pts='29.0' Race='383'></rp>
+				<rp Div='Finn' Ent='399' Pos='49152' Pts='29.0' Race='383'></rp>
+				<rp Div='Finn' Ent='400' Pos='1' Pts='1.0' Race='667'></rp>
+				<rp Div='Finn' Ent='393' Pos='2' Pts='2.0' Race='667'></rp>
+				<rp Div='Finn' Ent='403' Pos='3' Pts='3.0' Race='667'></rp>
+				<rp Div='Finn' Ent='385' Pos='4' Pts='4.0' Race='667'></rp>
+				<rp Div='Finn' Ent='394' Pos='5' Pts='5.0' Race='667'></rp>
+				<rp Div='Finn' Ent='402' Pos='6' Pts='6.0' Race='667'></rp>
+				<rp Div='Finn' Ent='401' Pos='7' Pts='7.0' Race='667'></rp>
+				<rp Div='Finn' Ent='409' Pos='8' Pts='8.0' Race='667'></rp>
+				<rp Div='Finn' Ent='407' Pos='9' Pts='9.0' Race='667'></rp>
+				<rp Div='Finn' Ent='398' Pos='10' Pts='10.0' Race='667'></rp>
+				<rp Div='Finn' Ent='387' Pos='11' Pts='11.0' Race='667' Toss='true'></rp>
+				<rp Div='Finn' Ent='405' Pos='12' Pts='12.0' Race='667'></rp>
+				<rp Div='Finn' Ent='390' Pos='13' Pts='13.0' Race='667'></rp>
+				<rp Div='Finn' Ent='386' Pos='14' Pts='14.0' Race='667'></rp>
+				<rp Div='Finn' Ent='384' Pos='15' Pts='15.0' Race='667'></rp>
+				<rp Div='Finn' Ent='391' Pos='16' Pts='16.0' Race='667'></rp>
+				<rp Div='Finn' Ent='392' Pos='17' Pts='17.0' Race='667'></rp>
+				<rp Div='Finn' Ent='408' Pos='18' Pts='18.0' Race='667'></rp>
+				<rp Div='Finn' Ent='411' Pos='19' Pts='19.0' Race='667'></rp>
+				<rp Div='Finn' Ent='396' Pos='20' Pts='20.0' Race='667'></rp>
+				<rp Div='Finn' Ent='395' Pos='21' Pts='21.0' Race='667'></rp>
+				<rp Div='Finn' Ent='412' Pos='22' Pts='22.0' Race='667'></rp>
+				<rp Div='Finn' Ent='413' Pos='23' Pts='23.0' Race='667'></rp>
+				<rp Div='Finn' Ent='389' Pos='24' Pts='24.0' Race='667'></rp>
+				<rp Div='Finn' Ent='397' Pos='32768' Pts='29.0' Race='667'></rp>
+				<rp Div='Finn' Ent='388' Pos='49152' Pts='29.0' Race='667'></rp>
+				<rp Div='Finn' Ent='406' Pos='49152' Pts='29.0' Race='667' Toss='true'></rp>
+				<rp Div='Finn' Ent='399' Pos='49152' Pts='29.0' Race='667'></rp>
+				<rp Div='Finn' Ent='400' Pos='1' Pts='1.0' Race='734'></rp>
+				<rp Div='Finn' Ent='385' Pos='2' Pts='2.0' Race='734'></rp>
+				<rp Div='Finn' Ent='403' Pos='3' Pts='3.0' Race='734'></rp>
+				<rp Div='Finn' Ent='401' Pos='4' Pts='4.0' Race='734'></rp>
+				<rp Div='Finn' Ent='393' Pos='5' Pts='5.0' Race='734'></rp>
+				<rp Div='Finn' Ent='394' Pos='6' Pts='6.0' Race='734'></rp>
+				<rp Div='Finn' Ent='390' Pos='7' Pts='7.0' Race='734'></rp>
+				<rp Div='Finn' Ent='407' Pos='8' Pts='8.0' Race='734'></rp>
+				<rp Div='Finn' Ent='402' Pos='9' Pts='9.0' Race='734'></rp>
+				<rp Div='Finn' Ent='387' Pos='10' Pts='10.0' Race='734'></rp>
+				<rp Div='Finn' Ent='405' Pos='11' Pts='11.0' Race='734'></rp>
+				<rp Div='Finn' Ent='398' Pos='12' Pts='12.0' Race='734'></rp>
+				<rp Div='Finn' Ent='409' Pos='13' Pts='13.0' Race='734' Toss='true'></rp>
+				<rp Div='Finn' Ent='386' Pos='14' Pts='14.0' Race='734'></rp>
+				<rp Div='Finn' Ent='384' Pos='15' Pts='15.0' Race='734'></rp>
+				<rp Div='Finn' Ent='391' Pos='16' Pts='16.0' Race='734'></rp>
+				<rp Div='Finn' Ent='408' Pos='17' Pts='17.0' Race='734'></rp>
+				<rp Div='Finn' Ent='392' Pos='18' Pts='18.0' Race='734'></rp>
+				<rp Div='Finn' Ent='396' Pos='19' Pts='19.0' Race='734'></rp>
+				<rp Div='Finn' Ent='395' Pos='20' Pts='20.0' Race='734'></rp>
+				<rp Div='Finn' Ent='412' Pos='21' Pts='21.0' Race='734'></rp>
+				<rp Div='Finn' Ent='389' Pos='22' Pts='22.0' Race='734'></rp>
+				<rp Div='Finn' Ent='413' Pos='23' Pts='23.0' Race='734'></rp>
+				<rp Div='Finn' Ent='397' Pos='24' Pts='24.0' Race='734'></rp>
+				<rp Div='Finn' Ent='411' Pos='25' Pts='29.0' Race='734' Toss='true'></rp>
+				<rp Div='Finn' Ent='388' Pos='49152' Pts='29.0' Race='734'></rp>
+				<rp Div='Finn' Ent='406' Pos='49152' Pts='29.0' Race='734'></rp>
+				<rp Div='Finn' Ent='399' Pos='49152' Pts='29.0' Race='734'></rp>
+			</RacePointsList>
+			<SeriesPointsList>
+				<sp Div='Finn' Ent='385' Pos='1' Pts='18.0'></sp>
+				<sp Div='Finn' Ent='403' Pos='2' Pts='28.0'></sp>
+				<sp Div='Finn' Ent='393' Pos='3' Pts='33.0'></sp>
+				<sp Div='Finn' Ent='394' Pos='4' Pts='43.0'></sp>
+				<sp Div='Finn' Ent='401' Pos='5' Pts='48.0'></sp>
+				<sp Div='Finn' Ent='400' Pos='6' Pts='49.0'></sp>
+				<sp Div='Finn' Ent='387' Pos='7' Pts='51.0'></sp>
+				<sp Div='Finn' Ent='407' Pos='8' Pts='69.0'></sp>
+				<sp Div='Finn' Ent='409' Pos='9' Pts='83.0'></sp>
+				<sp Div='Finn' Ent='398' Pos='10' Pts='83.0001'></sp>
+				<sp Div='Finn' Ent='402' Pos='11' Pts='88.0'></sp>
+				<sp Div='Finn' Ent='390' Pos='12' Pts='90.0'></sp>
+				<sp Div='Finn' Ent='384' Pos='13' Pts='107.0'></sp>
+				<sp Div='Finn' Ent='386' Pos='14' Pts='123.0'></sp>
+				<sp Div='Finn' Ent='405' Pos='15' Pts='133.0'></sp>
+				<sp Div='Finn' Ent='391' Pos='16' Pts='143.0'></sp>
+				<sp Div='Finn' Ent='411' Pos='17' Pts='151.0'></sp>
+				<sp Div='Finn' Ent='392' Pos='18' Pts='163.0'></sp>
+				<sp Div='Finn' Ent='408' Pos='19' Pts='164.0'></sp>
+				<sp Div='Finn' Ent='396' Pos='20' Pts='170.0'></sp>
+				<sp Div='Finn' Ent='395' Pos='21' Pts='183.0'></sp>
+				<sp Div='Finn' Ent='413' Pos='22' Pts='198.0'></sp>
+				<sp Div='Finn' Ent='412' Pos='23' Pts='204.0'></sp>
+				<sp Div='Finn' Ent='389' Pos='24' Pts='206.0'></sp>
+				<sp Div='Finn' Ent='406' Pos='25' Pts='214.0'></sp>
+				<sp Div='Finn' Ent='399' Pos='26' Pts='218.0'></sp>
+				<sp Div='Finn' Ent='397' Pos='27' Pts='235.0'></sp>
+				<sp Div='Finn' Ent='388' Pos='28' Pts='260.0'></sp>
+			</SeriesPointsList>
+		</Stage>
+	</Scores>
+	<ReportOptionList>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Series' Template=''>
+			<OptionLocations>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Race' Template=''>
+			<OptionLocations>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Entries' Template=''>
+			<OptionLocations>
+				<item value='1.2'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='3.1'></item>
+				<item value='none'></item>
+				<item value='4.1'></item>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='2' Show1DTimes='true' ShowLastXRaces='false' TabName='CheckIn' Template=''>
+			<OptionLocations>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='FinishSheet' Template=''>
+			<OptionLocations>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Proofing' Template=''>
+			<OptionLocations>
+				<item value='2.2'></item>
+				<item value='none'></item>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='3.1'></item>
+				<item value='3.2'></item>
+			</OptionLocations>
+		</Options>
+	</ReportOptionList>
+</Regatta>

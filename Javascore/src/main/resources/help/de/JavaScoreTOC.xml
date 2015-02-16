@@ -1,0 +1,29 @@
+<?xml  version='1.0' encoding='ISO-8859-1' ?>
+
+<toc version="2.0">
+<tocitem text="JavaScore Hilfe" target="top">
+
+   <tocitem text="Allgemeine Informationen">
+   	<tocitem text="Versionsinformationen" target="releaseNotes" />
+   	<tocitem text="Entwicklungsstufen" target="development" />
+   	<tocitem text="Anleitung zur Regattawertung mit Javascore" target="general.intro" />
+   </tocitem>
+
+   <tocitem text="JavaScore Programmoberfläche">
+	<tocitem text="Arbeitsbereich und Menüs" target="main" />
+	<tocitem text="Einstellungen" target="pref" />
+	<tocitem text="Regatta Bearbeiten Dialogfeld" target="regatta" />
+ 	<tocitem text="Wertungsoptionen Dialogfeld" target="lowpoint" />
+ 	<tocitem text="Klassen/Flotten" target="divisions" />
+ 	<tocitem text="Gruppen" target="fleets" />
+ 	<tocitem text="Teilgruppen" target="subdivisions" />
+	<tocitem text="Teilnehmer Eingeben/Bearbeiten Dialogfeld" target="entries" />
+	<tocitem text="Wettfahrten Eingeben/Bearbeiten Dialogfeld" target="race" />
+ 	<tocitem text="Zieleinlauf bearbeiten Dialogfeld" target="finish" />
+ 	<tocitem text="Strafen(Penalty) Dialogfeld" target="penalty" />
+ 	<tocitem text="Daten importieren" target="import" />
+ 	<tocitem text="Bericht Optionen" target="report" />
+   </tocitem>
+
+</tocitem>
+</toc>

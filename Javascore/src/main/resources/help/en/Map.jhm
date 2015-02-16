@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+
+
+<map version="1.0">
+
+<mapID target="top" url="JavaScore.html" />
+<mapID target="releaseNotes" url="ReleaseNotes.html" />
+<mapID target="javascore" url="JavaScore.html" />
+<mapID target="general.intro" url="GeneralIntro.html" />
+<mapID target="development" url="DevelopmentSchedule.html" />
+
+<mapID target="main" url="MainToolbar.html" />
+<mapID target="main.buttonRegatta" url="MainToolbar.html#regatta" />
+<mapID target="main.buttonEntries" url="MainToolbar.html#entries" />
+<mapID target="main.buttonRaces" url="MainToolbar.html#races" />
+<mapID target="main.fMenuMasterFiles" url="MainToolbar.html#master" />
+<mapID target="main.fMenuFile" url="MainToolbar.html#file" />
+<mapID target="main.fMenuReports" url="MainToolbar.html#reports" />
+<mapID target="main.fMenuHelp" url="MainToolbar.html#help" />
+
+<mapID target="regatta" url="PanelRegatta.html" />
+<mapID target="regatta.fTextName" url="PanelRegatta.html#name" />
+<mapID target="regatta.fTextHostClub" url="PanelRegatta.html#hostclub" />
+<mapID target="regatta.fTextDates" url="PanelRegatta.html#dates" />
+<mapID target="regatta.fTextPro" url="PanelRegatta.html#pro" />
+<mapID target="regatta.fTextJuryChair" url="PanelRegatta.html#jurychair" />
+<mapID target="regatta.fCheckBoxUseBowNumbers" url="PanelRegatta.html#usebownumbers" />
+<mapID target="regatta.fCheckBoxFinal" url="PanelRegatta.html#final" />
+<mapID target="regatta.fCheckBoxMultistage" url="PanelRegatta.html#splitfleet" />
+<mapID target="regatta.fListDivisions" url="PanelRegatta.html#divisions" />
+<mapID target="regatta.fButtonAdd" url="PanelRegatta.html#add" />
+<mapID target="regatta.fButtonRemove" url="PanelRegatta.html#remove" />
+<mapID target="regatta.fComboScoringSystem" url="PanelRegatta.html#scoring" />
+<mapID target="regatta.fButtonScoringOptions" url="PanelRegatta.html#scoringoptions" />
+<mapID target="regatta.fButtonEdit" url="PanelRegatta.html#editdiv" />
+
+<mapID target="splitfleet" url="PanelSplitFleet.html" />
+<mapID target="splitfleet.fTextDivName" url="PanelEntries.html#textName" />
+<mapID target="splitfleet.fTextTopPosition" url="PanelEntries.html#textPos" />
+
+<mapID target="entrylist" url="PanelEntries.html" />
+<mapID target="entries" url="PanelEntries.html" />
+<mapID target="entries.fComboDivision" url="PanelEntries.html#division" />
+<mapID target="entries.fTextSail" url="PanelEntries.html#sail" />
+<mapID target="entries.fTextBow" url="PanelEntries.html#bow" />
+<mapID target="entries.fTextName" url="PanelEntries.html#name" />
+<mapID target="entries.fTableCrew" url="PanelEntries.html#team" />
+<mapID target="entries.fTextRsa" url="PanelEntries.html#rsa" />
+<mapID target="entries.fTextMna" url="PanelEntries.html#mna" />
+<mapID target="entries.fTextClub" url="PanelEntries.html#club" />
+
+<mapID target="racelist" url="PanelRace.html" />
+<mapID target="race" url="PanelRace.html" />
+<mapID target="race.fTextName" url="PanelRace.html#name" />
+<mapID target="race.fPopupStartDate" url="PanelRace.html#startdate" />
+<mapID target="race.fTextStartDate" url="PanelRace.html#startdate" />
+<mapID target="race.fTextStartTime" url="PanelRace.html#starttime" />
+<mapID target="race.fTextLength" url="PanelRace.html#length" />
+<mapID target="race.fCheckNextDay" url="PanelRace.html#nextday" />
+<mapID target="race.fButtonClearAll" url="PanelRace.html#clearalldivs" />
+<mapID target="race.fButtonSetAll" url="PanelRace.html#setalldivs" />
+<mapID target="race.fButtonEditFinishes" url="PanelRace.html#finishes" />
+<mapID target="race.fButtonEditRoundings" url="PanelRace.html#roundings" />
+<mapID target="race.fButtonEditComment" url="PanelRace.html#comments" />
+<mapID target="race.fCheckIsRacing" url="PanelRace.html" />
+<mapID target="race.fCheckLongDistance" url="PanelRace.html" />
+<mapID target="race.fCheckMedalRace" url="PanelRace.html#medalrace" />
+<mapID target="race.groupBFactor" url="PanelRace.html#bfactor" />
+
+<mapID target="race.fButtonAdvanced" url="PanelRace.html#advanced" />
+<mapID target="race.fCheckNonDiscardable" url="PanelRace.html#nondiscardable" />
+<mapID target="race.fTextWeight" url="PanelRace.html#weight" />
+
+<mapID target="finish" url="DialogFinish.html" />
+<mapID target="finish.fTableFinished" url="DialogFinish.html#finished" />
+<mapID target="finish.fButtonDelete" url="DialogFinish.html#delete" />
+<mapID target="finish.fButtonInsert" url="DialogFinish.html#insert" />
+<mapID target="finish.fListUnFinished" url="DialogFinish.html#unfinished" />
+<mapID target="finish.fPanelFinish" url="DialogFinish.html#finish" />
+<mapID target="finish.fButtonRemaining" url="DialogFinish.html#remaining" />
+
+<mapID target="penalty" url="PanelPenalty.html" />
+<mapID target="penalty.panelNonFinish" url="PanelPenalty.html#nonfinish" />
+<mapID target="penalty.panelDisqualified" url="PanelPenalty.html#dsq" />
+<mapID target="penalty.panelPercentStandard" url="PanelPenalty.html#percentStandard" />
+<mapID target="penalty.panelPercentCustom" url="PanelPenalty.html#percentCustom" />
+<mapID target="penalty.panelRedress" url="PanelPenalty.html#panelRedress" />
+
+<mapID target="penalty.fTextPoints" url="PanelPenalty.html#points" />
+<mapID target="penalty.fTextPercent" url="PanelPenalty.html#percent" />
+<mapID target="penalty.fTextNote" url="PanelPenalty.html#note" />
+<mapID target="penalty.fTextTimePenalty" url="PanelPenalty.html#timepenalties" />
+<mapID target="penalty.fTextLabelOther" url="PanelPenalty.html#labelOther" />
+
+
+<mapID target="lowpoint" url="PanelScoringLowPoint.html" />
+<mapID target="lowpoint.fTextThrowouts" url="PanelScoringLowPoint.html#throwouts" />
+<mapID target="lowpoint.fCheckTimeLimits" url="PanelScoringLowPoint.html#timelimits" />
+<mapID target="lowpoint.fTextCheckin" url="PanelScoringLowPoint.html#checkin" />
+<mapID target="lowpoint.fTextPointForFirst" url="PanelScoringLowPoint.html#firstplacepoints" />
+<mapID target="lowpoint.fRadioLongSeries" url="PanelScoringLowPoint.html#longseries" />
+<mapID target="lowpoint.fRadioThrowoutByNumRaces" url="PanelScoringLowPoint.html#throwouts" />
+<mapID target="lowpoint.fRadioThrowoutPerXRaces" url="PanelScoringLowPoint.html#throwout" />
+<mapID target="lowpoint.fRadioThrowoutBestXRaces" url="PanelScoringLowPoint.html#throwouts" />
+<mapID target="lowpoint.fRadioThrowoutNone" url="PanelScoringLowPoint.html#throwouts" />
+<mapID target="lowpoint.fRadioTieRrsDefault" url="PanelScoringLowPoint.html#tieRrsDefault" />
+<mapID target="lowpoint.fRadioTieA82Only" url="PanelScoringLowPoint.html#tieA82Only" />
+<mapID target="lowpoint.fRadioTieA82Medal" url="PanelScoringLowPoint.html#tieA82medal" />
+<mapID target="lowpoint.fCheckEntriesLargestDivision" url="PanelScoringLowPoint.html#largestDivision" />
+<mapID target="lowpoint.fCheckMaxOneThrowoutInFinals" url="PanelScoringLowPoint.html#max1inFinals" />
+
+<mapID target="import" url="DialogImportTable.html" />
+<mapID target="import.fButtonExit" url="DialogImportTable.html#exit" />
+<mapID target="import.fButtonPaste" url="DialogImportTable.html#paste" />
+<mapID target="import.fButtonCancel" url="DialogImportTable.html#exit" />
+<mapID target="import.fTableImport" url="DialogImportTable.html#table" />
+
+<mapID target="report" url="PanelReportOptions.html" />
+<mapID target="report.panelColumns" url="PanelReportOptions.html#columns" />
+<mapID target="report.panelNames" url="PanelReportOptions.html#names" />
+<mapID target="report.fComboFontNames" url="PanelReportOptions.html#fonts" />
+<mapID target="report.fComboFontSizes" url="PanelReportOptions.html#fonts" />
+<mapID target="report.fTextTemplate" url="PanelReportOptions.html#template" />
+
+<mapID target="pref" url="PanelPreferences.html" />
+<mapID target="pref.rsa" url="PanelPreferences.html#rsa" />
+<mapID target="pref.mna" url="PanelPreferences.html#mna" />
+<mapID target="pref.skin" url="PanelPreferences.html#skin" />
+<mapID target="pref.language" url="PanelPreferences.html#language" />
+<mapID target="pref.AFactor" url="PanelPreferences.html#afactor" />
+<mapID target="pref.BFactor" url="PanelPreferences.html#bfactor" />
+
+<mapID target="divisionlist" url="PanelDivision.html" />
+<mapID target="divisions" url="PanelDivision.html" />
+<mapID target="divisions.fTextName" url="PanelDivision.html" />
+<mapID target="divisions.fChoiceSystem" url="PanelDivision.html" />
+<mapID target="divisions" url="PanelDivision.html" />
+
+<mapID target="fleets" url="PanelFleet.html" />
+<mapID target="fleets.fTextName" url="PanelFleet.html#name" />
+<mapID target="fleets.fPanelDivs" url="PanelFleet.html#divs" />
+<mapID target="fleets.fButtonClearAll" url="PanelFleet.html#clearall" />
+<mapID target="fleets.fButtonSelectAll" url="PanelFleet.html#selectall" />
+<mapID target="fleets.fCheckStartSameScoreSame" url="PanelFleet.html#samescore" />
+<mapID target="fleets.fRadioHandleDiff" url="PanelFleet.html#handlediff" />
+
+<mapID target="subdivisions" url="PanelSubDivisions.html" />
+<mapID target="subdivisions.entries" url="PanelEntries.html#subdivision" />
+<mapID target="subdivisions.fTextName" url="PanelSubDivisions.html#name" />
+<mapID target="subdivisions.fTextAddon" url="PanelSubDivisions.html#addon" />
+<mapID target="subdivisions.fComboParentDivision" url="PanelSubDivisions.html#parentdiv" />
+<mapID target="subdivisions.fCheckScoreSeparately" url="PanelSubDivisions.html#scoreseparately" />
+<mapID target="subdivisions.fCheckMonopoly" url="PanelSubDivisions.html#monopoly" />
+<mapID target="subdivisions.fRadioQualifying" url="PanelSubDivisions.html#qual" />
+<mapID target="subdivisions.fRadioFinal" url="PanelSubDivisions.html#qual" />
+<mapID target="subdivisions.fRadioScoring" url="PanelSubDivisions.html#qual" />
+<mapID target="subdivisions.fRadioMedal" url="PanelSubDivisions.html#qual" />
+
+<mapID target="subdivisions.fCheckMonopoly" url="PanelSubDivisions.html#monopoly" />
+<mapID target="rating" url="PanelRating.html" />
+<mapID target="rating.fTextRating" url="PanelRating.html" />
+<mapID target="rating.fComboOneDesignClass" url="PanelRating.html" />
+
+<mapID target="stage" url="PanelStage.html" />
+<mapID target="stage.fTextName" url="PanelStage.html#stagename" />
+<mapID target="stage.fCheckIsQualifying" url="PanelStage.html#isqualifying" />
+<mapID target="stage.fTextRank" url="PanelStage.html#rank" />
+<mapID target="stage.fComboPreviousStage" url="PanelStage.html#previousStage" />
+<mapID target="stage.fComboScoreCarryOver" url="PanelStage.html#scorecarryover" />
+<mapID target="stage.fComboThrowoutCarryOver" url="PanelStage.html#throwoutcarryover" />
+<mapID target="stage.fComboTiebreakCarryOver" url="PanelStage.html#tiebreakcarryover" />
+
+<mapID target="splitfleetqualifying" url="PanelSplitFleetQualifying.html" />
+<mapID target="splitqual.srcstage" url="PanelSplitFleetQualifying.html#srcstage" />
+<mapID target="splitqual.srcdivision" url="PanelSplitFleetQualifying.html#srcdivision" />
+<mapID target="splitqual.numsplits" url="PanelSplitFleetQualifying.html#numsplits" />
+<mapID target="splitqual.newdivname" url="PanelSplitFleetQualifying.html#newdivname" />
+
+<mapID target="splitfleetranking" url="PanelSplitFleetRanking.html" />
+<mapID target="splitrank.srcstage" url="PanelSplitFleetRanking.html#srcstage" />
+<mapID target="splitrank.srcdivision" url="PanelSplitFleetRanking.html#srcdivision" />
+<mapID target="splitrank.numsplits" url="PanelSplitFleetRanking.html#numsplits" />
+<mapID target="splitrank.createcarryover" url="PanelSplitFleetRanking.html#createcarryover" />
+<mapID target="splitrank.newdivname" url="PanelSplitFleetRanking.html#newdivname" />
+<mapID target="splitrank.topposition" url="PanelSplitFleetRanking.html#topposition" />
+
+</map>

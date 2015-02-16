@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.2.2" JuryChair="Bernard Bonneau" Multistage="true" Name="2013 Miami SWC - Men's RSX" Pro="John Craig / Ron Rostorfer" UseBowNumbers="false" Version="600" comment="">
+<DivisionList>
+<Division DivName="Men's RSX" Gender="Men" IFClassID="RSX">
+<MinRating ClassName="RSX" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Club="iATE cLUBE DO Rio de Janeiro" Division="Men's RSX" EntryId="505" MnaNumber="BRA" RsaNumber="CHRISTINE.MENDES@IG.COM.BR">
+<Boat SailId="BRA 1">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ricardo" LastName="SANTOS" SailorId="brapn1"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Volvo Cars" Division="Men's RSX" EntryId="511" MnaNumber="USA" RsaNumber="nick@nickdempsey.com">
+<Boat SailId="GBR 1">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Nick" LastName="DEMPSEY" SailorId="gbrnd10"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="none" Division="Men's RSX" EntryId="516" MnaNumber="MEX" RsaNumber="Davidmieryteran@hotmail.com">
+<Boat SailId="MEX 1">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="David" LastName="MIER Y TERAN" SailorId="mexdm2"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="wahk" Division="Men's RSX" EntryId="514" MnaNumber="HKG" RsaNumber="leunghotsun@gmail.com">
+<Boat SailId="HKG 2">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ho  Tsun" LastName="LEUNG" SailorId="hkghl3"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="ALBARIA ADS" Division="Men's RSX" EntryId="515" MnaNumber="ITA" RsaNumber="albaria@albaria.com">
+<Boat SailId="ITA 2">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Marcantonio" LastName="BAGLIONE" SailorId="itamb6"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Sotavento" Division="Men's RSX" EntryId="518" MnaNumber="MEX" RsaNumber="maumau4614@hotmail.com">
+<Boat SailId="MEX 2">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Mauricio" LastName="MARTINEZ DE ALVA" SailorId="mexmm1"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="CapuletoÂ´s Team" Division="Men's RSX" EntryId="519" MnaNumber="MEX" RsaNumber="parni05@hotmail.com">
+<Boat SailId="MEX 6">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Isaias" LastName="MINOR" SailorId="mexim1"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Santa Pola" Division="Men's RSX" EntryId="509" MnaNumber="ESP" RsaNumber="ivanpastor@hotmail.com">
+<Boat SailId="ESP 7">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ivan" LastName="PASTOR" SailorId="espip1"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Coconut Grove" Division="Men's RSX" EntryId="510" MnaNumber="GBR" RsaNumber="elliot274@mac.com">
+<Boat SailId="GBR 7">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Elliot" LastName="CARNEY" SailorId="gbrec5"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="ROCK ON" Division="Men's RSX" EntryId="520" MnaNumber="NED" RsaNumber="dorned8@gmail.com">
+<Boat SailId="NED 8">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Dorian" LastName="VAN RIJSSBELBERGHE" SailorId="neddv4"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="WAHK" Division="Men's RSX" EntryId="512" MnaNumber="HKG" RsaNumber="gabriel.brettell@gmail.com">
+<Boat SailId="HKG 10">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Gabriel Angelo Gar Fai" LastName="BRETTELL" SailorId="hkggb2"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Windsurfmexico" Division="Men's RSX" EntryId="517" MnaNumber="MEX" RsaNumber="nachobll9@hotmail.com">
+<Boat SailId="MEX 11">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ignacio" LastName="BERENGUER" SailorId="mexib4"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="wahk" Division="Men's RSX" EntryId="513" MnaNumber="HKG" RsaNumber="michaelcheng430@gmail.com">
+<Boat SailId="HKG 16">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Michael" LastName="CHENG CHUN LEUNG" SailorId="hkgcc5"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Royal Vancouver Yacht Club" Division="Men's RSX" EntryId="507" MnaNumber="CAN" RsaNumber="zacplav@gmail.com">
+<Boat SailId="CAN 33">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Zachary" LastName="PLAVSIC" SailorId="canzp1"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Multivoile" Division="Men's RSX" EntryId="508" MnaNumber="CAN" RsaNumber="jssailfast@hotmail.com">
+<Boat SailId="CAN 51">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jean-Sebastien" LastName="FUGERE" SailorId="canjf24"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Carson Crain" Division="Men's RSX" EntryId="524" MnaNumber="USA" RsaNumber="cmcrain@gmail.com">
+<Boat SailId="USA 75">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Carson" LastName="CRAIN" SailorId="usacc106"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="KSSS" Division="Men's RSX" EntryId="522" MnaNumber="SWE" RsaNumber="adam_r_holm@hotmail.com">
+<Boat SailId="SWE 109">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Adam" LastName="HOLM" SailorId="sweah11"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Clearwater Community Sailing Center" Division="Men's RSX" EntryId="504" MnaNumber="USA" RsaNumber="chris.waldo@gmail.com">
+<Boat SailId="USA 289">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Christopher" LastName="WALDO" SailorId="usacw123"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="MYC" Division="Men's RSX" EntryId="523" MnaNumber="USA" RsaNumber="optidude24@yahoo.com">
+<Boat SailId="USA 529">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Raul" LastName="LOPEZ" SailorId="usarl109"/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Veleiros da Ilha" Division="Men's RSX" EntryId="506" MnaNumber="BRA" RsaNumber="bra_767@hotmail.com">
+<Boat SailId="BRA 767">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="RSX" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Mateus" LastName="ISAAC" SailorId="brami1"/>
+<CrewList/>
+</Entry>
+</EntryList>
+<SubDivisionList>
+<SubDivision DivName="Final" Gender="Men" Group="Final" GroupRank="" IFClassID="RSX" LastSplit="true" Monopoly="false" Parent="Men's RSX" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="520"/>
+<Entry Id="514"/>
+<Entry Id="509"/>
+<Entry Id="516"/>
+<Entry Id="511"/>
+<Entry Id="510"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Quarter Final Repechage" Gender="Men" Group="Final" GroupRank="" IFClassID="RSX" LastSplit="true" Monopoly="false" Parent="Men's RSX" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="506"/>
+<Entry Id="518"/>
+<Entry Id="515"/>
+<Entry Id="524"/>
+<Entry Id="508"/>
+<Entry Id="519"/>
+<Entry Id="523"/>
+<Entry Id="504"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Quarter Final Top 10" Gender="Men" Group="Final" GroupRank="" IFClassID="RSX" LastSplit="true" Monopoly="false" Parent="Men's RSX" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="520"/>
+<Entry Id="505"/>
+<Entry Id="511"/>
+<Entry Id="509"/>
+<Entry Id="510"/>
+<Entry Id="513"/>
+<Entry Id="507"/>
+<Entry Id="514"/>
+<Entry Id="516"/>
+<Entry Id="512"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Semi" Gender="Men" Group="Final" GroupRank="" IFClassID="RSX" LastSplit="true" Monopoly="false" Parent="Men's RSX" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="522"/>
+<Entry Id="505"/>
+<Entry Id="511"/>
+<Entry Id="507"/>
+<Entry Id="513"/>
+<Entry Id="510"/>
+<Entry Id="512"/>
+<Entry Id="517"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Quarter Final Consolation" Gender="Men" Group="Final" GroupRank="" IFClassID="RSX" LastSplit="true" Monopoly="false" Parent="Men's RSX" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="515"/>
+<Entry Id="518"/>
+<Entry Id="524"/>
+<Entry Id="508"/>
+<Entry Id="519"/>
+<Entry Id="504"/>
+<Entry Id="523"/>
+<Entry Id="506"/>
+</EntryList>
+</SubDivision>
+</SubDivisionList>
+<RaceList>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="4" StartDate="28-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="505" Pos="1" Race="4"/>
+<Fin Ent="511" Pos="2" Race="4"/>
+<Fin Ent="520" Pos="3" Race="4"/>
+<Fin Ent="510" Pos="4" Race="4"/>
+<Fin Ent="513" Pos="5" Race="4"/>
+<Fin Ent="509" Pos="6" Race="4"/>
+<Fin Ent="514" Pos="7" Race="4"/>
+<Fin Ent="516" Pos="8" Race="4"/>
+<Fin Ent="507" Pos="9" Race="4"/>
+<Fin Ent="512" Pos="10" Race="4"/>
+<Fin Ent="518" Pos="11" Race="4"/>
+<Fin Ent="515" Pos="12" Race="4"/>
+<Fin Ent="517" Pos="13" Race="4"/>
+<Fin Ent="506" Pos="14" Race="4"/>
+<Fin Ent="522" Pos="15" Race="4"/>
+<Fin Ent="524" Pos="16" Race="4"/>
+<Fin Ent="508" Pos="17" Race="4"/>
+<Fin Ent="523" Pos="18" Race="4"/>
+<Fin Ent="519" Pos="19" Race="4"/>
+<Fin Ent="504" Pos="DNF" Race="4">
+<Penalty Penalty="DNF"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="28" StartDate="28-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="511" Pos="1" Race="28"/>
+<Fin Ent="520" Pos="2" Race="28"/>
+<Fin Ent="505" Pos="3" Race="28"/>
+<Fin Ent="513" Pos="4" Race="28"/>
+<Fin Ent="509" Pos="5" Race="28"/>
+<Fin Ent="514" Pos="6" Race="28"/>
+<Fin Ent="516" Pos="7" Race="28"/>
+<Fin Ent="510" Pos="8" Race="28"/>
+<Fin Ent="522" Pos="9" Race="28"/>
+<Fin Ent="507" Pos="10" Race="28"/>
+<Fin Ent="517" Pos="11" Race="28"/>
+<Fin Ent="524" Pos="12" Race="28"/>
+<Fin Ent="512" Pos="13" Race="28"/>
+<Fin Ent="515" Pos="14" Race="28"/>
+<Fin Ent="518" Pos="15" Race="28"/>
+<Fin Ent="523" Pos="16" Race="28"/>
+<Fin Ent="508" Pos="17" Race="28"/>
+<Fin Ent="519" Pos="18" Race="28"/>
+<Fin Ent="504" Pos="19" Race="28"/>
+<Fin Ent="506" Pos="20" Race="28"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="137" StartDate="29-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="520" Pos="1" Race="137"/>
+<Fin Ent="509" Pos="2" Race="137"/>
+<Fin Ent="505" Pos="3" Race="137"/>
+<Fin Ent="511" Pos="4" Race="137"/>
+<Fin Ent="513" Pos="5" Race="137"/>
+<Fin Ent="510" Pos="6" Race="137"/>
+<Fin Ent="514" Pos="7" Race="137"/>
+<Fin Ent="512" Pos="8" Race="137"/>
+<Fin Ent="517" Pos="9" Race="137"/>
+<Fin Ent="506" Pos="10" Race="137"/>
+<Fin Ent="518" Pos="11" Race="137"/>
+<Fin Ent="515" Pos="12" Race="137"/>
+<Fin Ent="516" Pos="13" Race="137"/>
+<Fin Ent="522" Pos="14" Race="137"/>
+<Fin Ent="524" Pos="15" Race="137"/>
+<Fin Ent="519" Pos="16" Race="137"/>
+<Fin Ent="523" Pos="17" Race="137"/>
+<Fin Ent="508" Pos="18" Race="137"/>
+<Fin Ent="504" Pos="19" Race="137"/>
+<Fin Ent="507" Pos="20" Race="137"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" RaceId="139" StartDate="29-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="520" Pos="1" Race="139"/>
+<Fin Ent="505" Pos="2" Race="139"/>
+<Fin Ent="510" Pos="3" Race="139"/>
+<Fin Ent="514" Pos="4" Race="139"/>
+<Fin Ent="507" Pos="5" Race="139"/>
+<Fin Ent="509" Pos="6" Race="139"/>
+<Fin Ent="513" Pos="7" Race="139"/>
+<Fin Ent="511" Pos="8" Race="139"/>
+<Fin Ent="516" Pos="9" Race="139"/>
+<Fin Ent="506" Pos="10" Race="139"/>
+<Fin Ent="512" Pos="11" Race="139"/>
+<Fin Ent="517" Pos="12" Race="139"/>
+<Fin Ent="524" Pos="13" Race="139"/>
+<Fin Ent="518" Pos="14" Race="139"/>
+<Fin Ent="522" Pos="15" Race="139"/>
+<Fin Ent="508" Pos="16" Race="139"/>
+<Fin Ent="519" Pos="17" Race="139"/>
+<Fin Ent="515" Pos="18" Race="139"/>
+<Fin Ent="523" Pos="19" Race="139"/>
+<Fin Ent="504" Pos="20" Race="139"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" RaceId="263" StartDate="30-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="520" Pos="1" Race="263"/>
+<Fin Ent="510" Pos="2" Race="263"/>
+<Fin Ent="507" Pos="3" Race="263"/>
+<Fin Ent="513" Pos="4" Race="263"/>
+<Fin Ent="511" Pos="5" Race="263"/>
+<Fin Ent="514" Pos="6" Race="263"/>
+<Fin Ent="509" Pos="7" Race="263"/>
+<Fin Ent="505" Pos="8" Race="263"/>
+<Fin Ent="517" Pos="9" Race="263"/>
+<Fin Ent="518" Pos="10" Race="263"/>
+<Fin Ent="516" Pos="11" Race="263"/>
+<Fin Ent="506" Pos="12" Race="263"/>
+<Fin Ent="522" Pos="13" Race="263"/>
+<Fin Ent="512" Pos="14" Race="263"/>
+<Fin Ent="515" Pos="15" Race="263"/>
+<Fin Ent="519" Pos="16" Race="263"/>
+<Fin Ent="508" Pos="17" Race="263"/>
+<Fin Ent="524" Pos="18" Race="263"/>
+<Fin Ent="504" Pos="DNF" Race="263">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="523" Pos="DNF" Race="263">
+<Penalty Penalty="DNF"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" RaceId="301" StartDate="30-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="520" Pos="1" Race="301"/>
+<Fin Ent="507" Pos="2" Race="301"/>
+<Fin Ent="509" Pos="3" Race="301"/>
+<Fin Ent="505" Pos="4" Race="301"/>
+<Fin Ent="511" Pos="5" Race="301"/>
+<Fin Ent="514" Pos="6" Race="301"/>
+<Fin Ent="513" Pos="7" Race="301"/>
+<Fin Ent="506" Pos="8" Race="301"/>
+<Fin Ent="512" Pos="9" Race="301"/>
+<Fin Ent="516" Pos="10" Race="301"/>
+<Fin Ent="515" Pos="11" Race="301"/>
+<Fin Ent="522" Pos="12" Race="301"/>
+<Fin Ent="518" Pos="13" Race="301"/>
+<Fin Ent="517" Pos="14" Race="301"/>
+<Fin Ent="524" Pos="15" Race="301"/>
+<Fin Ent="523" Pos="16" Race="301"/>
+<Fin Ent="508" Pos="17" Race="301"/>
+<Fin Ent="519" Pos="18" Race="301"/>
+<Fin Ent="504" Pos="19" Race="301"/>
+<Fin Ent="510" Pos="DNC" Race="301">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" RaceId="320" StartDate="31-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="520" Pos="1" Race="320"/>
+<Fin Ent="507" Pos="2" Race="320"/>
+<Fin Ent="505" Pos="3" Race="320"/>
+<Fin Ent="514" Pos="4" Race="320"/>
+<Fin Ent="511" Pos="5" Race="320"/>
+<Fin Ent="509" Pos="6" Race="320"/>
+<Fin Ent="512" Pos="7" Race="320"/>
+<Fin Ent="513" Pos="8" Race="320"/>
+<Fin Ent="516" Pos="9" Race="320"/>
+<Fin Ent="510" Pos="10" Race="320">
+<Penalty Penalty="RET"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" RaceId="448" StartDate="31-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="514" Pos="1" Race="448"/>
+<Fin Ent="520" Pos="2" Race="448"/>
+<Fin Ent="509" Pos="3" Race="448"/>
+<Fin Ent="513" Pos="4" Race="448"/>
+<Fin Ent="516" Pos="5" Race="448"/>
+<Fin Ent="505" Pos="6" Race="448"/>
+<Fin Ent="507" Pos="7" Race="448"/>
+<Fin Ent="511" Pos="8" Race="448"/>
+<Fin Ent="510" Pos="9" Race="448"/>
+<Fin Ent="512" Pos="10" Race="448"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" RaceId="469" StartDate="31-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="510" Pos="1" Race="469"/>
+<Fin Ent="516" Pos="2" Race="469"/>
+<Fin Ent="520" Pos="3" Race="469"/>
+<Fin Ent="511" Pos="4" Race="469"/>
+<Fin Ent="514" Pos="5" Race="469"/>
+<Fin Ent="509" Pos="6" Race="469"/>
+<Fin Ent="513" Pos="7" Race="469"/>
+<Fin Ent="512" Pos="8" Race="469"/>
+<Fin Ent="507" Pos="9" Race="469"/>
+<Fin Ent="505" Pos="10" Race="469"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" RaceId="471" StartDate="31-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="515" Pos="1" Race="471"/>
+<Fin Ent="508" Pos="2" Race="471"/>
+<Fin Ent="519" Pos="3" Race="471"/>
+<Fin Ent="506" Pos="4" Race="471"/>
+<Fin Ent="523" Pos="5" Race="471"/>
+<Fin Ent="518" Pos="6" Race="471"/>
+<Fin Ent="524" Pos="7" Race="471"/>
+<Fin Ent="504" Pos="8" Race="471"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="11" NonDiscardable="false" RaceId="508" StartDate="31-Jan-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="508" Pos="1" Race="508"/>
+<Fin Ent="519" Pos="2" Race="508"/>
+<Fin Ent="523" Pos="3" Race="508"/>
+<Fin Ent="524" Pos="4" Race="508"/>
+<Fin Ent="506" Pos="5" Race="508"/>
+<Fin Ent="515" Pos="6" Race="508"/>
+<Fin Ent="518" Pos="7" Race="508"/>
+<Fin Ent="504" Pos="8" Race="508"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="12" NonDiscardable="false" RaceId="520" StartDate="01-Feb-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="511" Pos="1" Race="520"/>
+<Fin Ent="510" Pos="2" Race="520"/>
+<Fin Ent="513" Pos="3" Race="520"/>
+<Fin Ent="505" Pos="4" Race="520"/>
+<Fin Ent="512" Pos="5" Race="520"/>
+<Fin Ent="517" Pos="6" Race="520"/>
+<Fin Ent="522" Pos="7" Race="520"/>
+<Fin Ent="507" Pos="DNF" Race="520">
+<Penalty Penalty="DNF"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="13" NonDiscardable="false" RaceId="521" StartDate="01-Feb-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="509" Pos="1" Race="521"/>
+<Fin Ent="511" Pos="2" Race="521"/>
+<Fin Ent="520" Pos="3" Race="521"/>
+<Fin Ent="514" Pos="4" Race="521"/>
+<Fin Ent="516" Pos="5" Race="521"/>
+<Fin Ent="510" Pos="6" Race="521"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="14" NonDiscardable="false" RaceId="526" StartDate="01-Feb-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="506" Pos="1" Race="526"/>
+<Fin Ent="515" Pos="2" Race="526"/>
+<Fin Ent="518" Pos="3" Race="526"/>
+<Fin Ent="524" Pos="4" Race="526"/>
+<Fin Ent="508" Pos="5" Race="526"/>
+<Fin Ent="519" Pos="6" Race="526"/>
+<Fin Ent="504" Pos="7" Race="526"/>
+<Fin Ent="523" Pos="8" Race="526"/>
+</FinishList>
+</Race>
+</RaceList>
+<Scores>
+<Stage CombinedQualifying="false" Name="Final" PreviousStage="500" ScoreCarryOver="NONE" StageId="499" StageRank="6" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
+<Divisions/>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="4" TimeLimitPenalty="0" tiebreaker="1"/>
+</Stage>
+<Stage CombinedQualifying="false" Name="Semi" PreviousStage="65" ScoreCarryOver="NONE" StageId="500" StageRank="5" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
+<Divisions/>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="4" TimeLimitPenalty="0" tiebreaker="1"/>
+</Stage>
+<Stage CombinedQualifying="false" Name="Quarter Final Repechage" PreviousStage="1" ScoreCarryOver="ALL" StageId="66" StageRank="4" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
+<Divisions/>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+</Stage>
+<Stage CombinedQualifying="false" Name="Quarter Final Top 10" PreviousStage="1" ScoreCarryOver="NONE" StageId="65" StageRank="3" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
+<Divisions/>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="4" TimeLimitPenalty="0" tiebreaker="1"/>
+</Stage>
+<Stage CombinedQualifying="false" Name="Quarter Final Consolation" PreviousStage="66" ScoreCarryOver="ALL" StageId="699" StageRank="2" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
+<Divisions/>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+</Stage>
+<Stage CombinedQualifying="false" Name="Fleet" ScoreCarryOver="ALL" StageId="1" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
+<Divisions/>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+</Stage>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.2"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="4.1"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="2.2"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="3.2"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
+</Regatta>

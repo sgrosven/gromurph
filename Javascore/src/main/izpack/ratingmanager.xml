@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<RatingManager>
+	<Item EditorClass='org.gromurph.javascore.gui.PanelRatingOneDesign' RatingClass='org.gromurph.javascore.model.ratings.RatingOneDesign' System='OneDesign'></Item>
+	<Item EditorClass='org.gromurph.javascore.gui.PanelRatingDouble' RatingClass='org.gromurph.javascore.model.ratings.RatingPhrf' System='PHRF'></Item>
+	<Item EditorClass='org.gromurph.javascore.gui.PanelRatingDouble' RatingClass='org.gromurph.javascore.model.ratings.RatingIrc' System='IRC'></Item>
+	<Item EditorClass='org.gromurph.javascore.gui.PanelRatingDouble' RatingClass='org.gromurph.javascore.model.ratings.RatingMorc' System='MORC'></Item>
+	<Item EditorClass='org.gromurph.javascore.gui.PanelRatingDouble' RatingClass='org.gromurph.javascore.model.ratings.RatingMultihull' System='Multihull'></Item>
+	<Item EditorClass='org.gromurph.javascore.gui.PanelRatingDouble' RatingClass='org.gromurph.javascore.model.ratings.RatingPhrfTimeOnTime' System='PHRFTimeOnTime'></Item>
+	<Item EditorClass='org.gromurph.javascore.gui.PanelRatingDouble' RatingClass='org.gromurph.javascore.model.ratings.RatingYardstick' System='Yardstick'></Item>
+	<Item EditorClass='org.gromurph.javascore.gui.PanelRatingDouble' RatingClass='org.gromurph.javascore.model.ratings.RatingPortsmouth' System='Portsmouth'></Item>
+</RatingManager>

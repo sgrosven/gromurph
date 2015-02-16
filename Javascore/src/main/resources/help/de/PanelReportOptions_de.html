@@ -1,0 +1,86 @@
+<html>
+<head>
+  <title>Javascore-Help-ReportOptionsPanel</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <meta name="generator" content="NoteTab Pro 4.95" />
+  <meta name="author" content="Dietmar Gottke" />
+</head>
+<body>
+<h1><font face="Arial, Helvetica, sans-serif">Java Score - Berichte Einstellungen</font></h1>
+<p><font face="Arial, Helvetica, sans-serif"><a href="PanelReportOptionsScr_de.html">Screenshot</a></font></p>
+<p><font face="Arial, Helvetica, sans-serif"><em>(Tip: Mit der Maus das Dialogfeld gr&ouml;&szlig;er 
+  ziehen, dann wird alles richtig angezeigt)</em></font></p>
+<p><font face="Arial, Helvetica, sans-serif">Die Ausgabeformat-Einstellungen f&uuml;r die Javascore 
+  Regattaberichte werden mit jeder Regatta gespeichert, so da&szlig; prinzipiell jede Regatta ein 
+  unterschiedliches Berichtformat haben k&ouml;nnte.</font></p>
+<p><font face="Arial, Helvetica, sans-serif">Mit der Auswahlbox ganz oben wird der Berichttyp ausgew&auml;hlt, 
+  zu dem die Ausgabeeinstellungen geh&ouml;ren sollen.</font></p>
+<p> <font face="Arial, Helvetica, sans-serif"><a name="columns"><b>Spalteneinteilung</b></a>: Erlaubt 
+  die Zuordnung von Begriffen als Spalten&uuml;berschriften. Die Spalten sind von links nach rechts 
+  durch die Ziffer vor dem Punkt bezeichnet. Jede Spalte kann 3 Begriffe beinhalten. Die Reihenfolge 
+  der Begriffe in der Spalten&uuml;berschrift (von links nach rechts) wird durch die Ziffer hinter 
+  dem Punkt eingestellt.</font></p>
+<p><font face="Arial, Helvetica, sans-serif">Soll ein Begriff nicht in einer Spalten&uuml;berschrift 
+  erscheinen, so w&auml;hlt man '&lt;Keine&gt;'.</font></p>
+<p><font face="Arial, Helvetica, sans-serif">Die &auml;u&szlig;ere linke Spalte (sozusagen mit der 
+  Bezeichnung 0.0) enth&auml;lt immer die Segelnummern (und die Bugnummern, wenn sie zur Verf&uuml;gung 
+  stehen).</font></p>
+<p><font face="Arial, Helvetica, sans-serif">Der Unterschied zwischen Rating und Rating(kpl.) ist, 
+  das bei Rating(kpl.) au&szlig;er dem Rating auch noch die Ratingbezeichnung erscheint.&nbsp;</font></p>
+<p><font face="Arial, Helvetica, sans-serif">Die kleine Tabelle auf dem Dialogfeld zeigt die eingestellte 
+  Ausgabe der Spalten&uuml;berschriften.</font></p>
+<p><font face="Arial, Helvetica, sans-serif"><b><a name="names"></a>Namensformat: </b>Stellt das Ausgabeformat 
+  f&uuml;r Skipper und Crew Namen ein.</font></p>
+<p><font face="Arial, Helvetica, sans-serif"><b><a name="font"></a>Schriftzeichen: </b>Hiermit wird 
+  Schriftart und Schriftgr&ouml;&szlig;e f&uuml;r den Tabellenteil der Berichte eingestellt.&nbsp; 
+  Standard ist &quot;<font size="2">Verdana 10</font>&quot;. Die kleine Tabelle auf dem Dialogfeld 
+  zeigt, wie die eingestellte Ausgabe aussieht.<br>
+  Da hier die Schriftarten des eigenen Computers angezeigt werden, und man nicht sicher sein kann, 
+  ob der Computer des Berichtelesers ebenfalls &uuml;ber diese Schriftarten verf&uuml;gt, ist hier 
+  empfohlen, die Standardeinstellung zu lassen, oder h&ouml;chstens auf Schriftarten zu wechseln, 
+  die allgemein verbreitet sind.</font></p>
+<p><font face="Arial, Helvetica, sans-serif"><b>Zeiten f&uuml;r Einheitsklasse einbeziehen? </b>(Dies 
+  ordnet man nur einer einfachen Einheitsklassenregatta zu) Stellt ein, ob eine Spalte f&uuml;r die 
+  Zielzeit erscheinen soll, oder nicht. Wenn keine Zielzeiten erfa&szlig;t werden, sollte hier nichts 
+  markiert sein, um ein wenig Platz zu sparen.</font></p>
+<p><font face="Arial, Helvetica, sans-serif"><b>Nur letzte &lt;x&gt; Wettfahrten einschliessen.</b>&nbsp;Hiermit 
+  kann man nur einen ganz bestimmten Teil der Wettfahrten anzeigen lassen, wobei aber die Wertungspunkte 
+  der gesamten Regatta angezeigt werden.</font></p>
+<p><font face="Arial, Helvetica, sans-serif"><b>Punkte f&uuml;r Strafen nicht einschliessen.</b>&nbsp; 
+  Wenn diese Checkbox NICHT markiert ist, wird in der Ergebnisliste die Punktwertung der Strafe und 
+  die entsprechende Abk&uuml;rzung der Strafe angezeigt (z.B. 55/DNF). Wenn die Checkbox markiert 
+  ist, wird die Zahl weggelassen, was bei gro&szlig;en Regatten mit vielen Wettfahrten Platz sparen 
+  kann.</font></p>
+<p><font face="Arial, Helvetica, sans-serif"><b>HTML-Vorlagendatei f&uuml;r die Bericht-Ausgabe:</b></font></p>
+<p><font face="Arial, Helvetica, sans-serif">Hier kann man eine Vorlagendatei angeben. Wenn nicht, 
+  </font><font face="Arial, Helvetica, sans-serif">sucht JavaScore nach der Vorlagendatei 'template.html' 
+  im Javascore Hauptverzeichnis.</font></p>
+<p><font face="Arial, Helvetica, sans-serif">Wenn die Datei vorhanden ist, dient sie als Formatvorlage 
+  f&uuml;r alle Berichte. In der Vorlagendatei finden sich drei Variablen, die wie folgt ersetzt werden:</font></p>
+<p><font face="Arial, Helvetica, sans-serif">'##REGATTA##' wird ersetzt durch den jeweiligen Regattanamen<br>
+  '##REPORT##' wird ersetzt durch die jeweilige Beschreibung des Berichts<br>
+  '##BODY##' wird ersetzt durch den Listenteil der Berichte (Ergebnislisten etc.)</font></p>
+<p><font face="Arial, Helvetica, sans-serif"> Im Listenteil sind au&szlig;erdem Standard Kopf- und 
+  Fu&szlig;noten Informationen enthalten.</font></p>
+<p><font face="Arial, Helvetica, sans-serif">Der Regattaname und die Berichtsbeschreibung kann so 
+  oft wie </font><font face="Arial, Helvetica, sans-serif"> gew&uuml;nscht in der Vorlagendatei vorkommen. 
+  Lediglich der Listenteil darf nur einmal vorkommen; kommt er mehrmals vor, wird dies ignoriert. 
+  Wenn die '##BODY##' Variable fehlt, wird der Listenteil direkt vor das schlie&szlig;ende Body Tag 
+  (&lt;/body) gesetzt.</font></p>
+<p><font face="Arial, Helvetica, sans-serif">Die Vorlagendatei enth&auml;lt im 'Head' Bereich Vorlagen 
+  f&uuml;r CSS Textformatierung. Wer sich damit auskennt, kann die Vorlagen benutzen und den 'body' 
+  Parameter 'class=normal' gegen 'class=modern' oder andere der CSS-Vorlagen austauschen.</font></p>
+<p><font face="Arial, Helvetica, sans-serif"><b>Einbindung eines Club-Logos: </b></font></p>
+<p><font face="Arial, Helvetica, sans-serif">Es ist oft gew&uuml;nscht, das ein Club- oder Klassenlogo 
+  auf den Berichten erscheint; die Vorlagendatei ist daf&uuml;r vorbereitet. So geht's:</font></p>
+<p><font face="Arial, Helvetica, sans-serif">Erstelle eine Grafik und speichere sie mit der Dateibezeichnung 
+  <em> <strong>'club-logo.jpg'</strong></em> im Javascore Hauptverzeichnis. Die schon vorhandene Datei 
+  'club-logo.jpg' muss dann &uuml;berschrieben werden. Die Datei sollte idealerweise eine Gr&ouml;&szlig;e 
+  von 175 x 80 Pixel nicht &uuml;berschreiten, allerdings werden auch gr&ouml;&szlig;ere Grafiken 
+  angezeigt, die dann den Textteil der Berichte nach unten verschieben. F&uuml;r ein schnelles Anzeigen 
+  der Berichte sollte die Grafik auch eine m&ouml;glichst kleine Speichergr&ouml;&szlig;e haben (max. 
+  20 Kb empfohlen).</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

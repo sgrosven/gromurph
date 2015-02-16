@@ -1,0 +1,127 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>JavaScore</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+
+<font SIZE="2">
+<h3>JavaScore - Penalty Panel</h3>
+</font>
+
+<p>This panel lets you enter penalty information for an entry in a race.</p>
+<p>I've grouped penalties into the following groups.&nbsp; </p>
+<p><b><a name="nonfinish"></a>Non-Finish penalties:</b>&nbsp;&nbsp; A boat can only have 1 of these
+penalties.&nbsp; If assigned one, the boat does not rank as a finisher for any
+penalties in a scoring system that might care how many boats finish.</p>
+<p><b><a name="dsq"></a>Disqualification </b><b>Penalties</b>.&nbsp; This is a bit of a misnomer, it include
+boats that have not technically been disqualified, but the effect is analogous.&nbsp;
+These are penalties that will override a boats finish position completely.&nbsp;
+If the boat is assigned one of these penalties, then boats finishing after them
+will have the finishes adjusted upwards. &nbsp;
+A boat can only be assigned one of these penalties.&nbsp;&nbsp;</p>
+<p><b><a name="percentStandard"></a>Standard Percentage Penalties:</b> These are the percentage scoring penalties.
+ These are percentage penaltyies are calculated as per RRS 44.  It's uncommon
+but boats can be assigned more that one of these penalties, in
+combination.&nbsp;&nbsp; Several do not make sense to assign in
+combination.&nbsp; It is the scoring system's job to make sense of it.&nbsp;
+Quickly here's a summary of what these penalties mean:</p>
+<blockquote>
+    <li>1st, 2nd, 3rd Z-Flag - boat received one or more penalties under RRS 30.2. </li>
+    <li>Check-in failure - boat is assigned a penalty for failing to check-in
+      properly. NOTE: this is beyond the RRS, and the SI's for the regatta must
+      provide for this penalty.&nbsp; The amount of the penalty is a percentage
+      and is defined under the <a href="PanelScoringLowPoint.html">Advanced Scoring
+      Options</a> panel within the main regatta parameters</li>
+      <li>After Race Penalty - this is an  scoring penalty generally affiliated with
+      Arbitration.  It is basically a 40% penalty with an adjustable "cap" to be either 40% or half the 
+      distance between a 20% penalty and a DNF.  it requires SI language to implement.
+      See ussailing.org/judges/arbitration for more details on the after race penalty. 
+      See Advanced Scoring Options to change the base 40% to something else.</li>
+   </ul>
+ </blockquote>  
+ <p><b><a name="percentCustom"></a><a name="percent"></a>Custom  Percentage Penalties:</b> 
+ These are two customize percentage  penalties.  Check the appropriate box for a 
+ scoring percentage or a elapsed time percentage.  Then use the text field to enter
+ the percentage amount.
+</p>
+
+ 
+ <p><b><a name="panelRedress"></a>Redress/Manual:</b> 
+ These are the scoring modifications that often come out of redress hearings.
+ Also just scoring unusual happenings.   You can choose from among several
+ types/amounts of adjustments.  And you can customize the label that shows on
+ the score sheets (Label).   The options include:
+</p>
+<blockquote>
+
+<ul>     
+    <li>None: the default.</li>
+    <li>Avg All Races: boat will receive a score equal to the average of other
+      finishes in accordance with RRS A10(a) (2013 Rules).&nbsp; NOTE: check with the protest
+      committee when they award this penalty as they may say average points but
+      not know about the A10(a) definition.&nbsp; If the jury intends something
+      other than A4(a), you'll have to manually enter the points via
+      &quot;Points&quot; option.</li>
+    <li><a name="points"></a>Points: if a boat gets some oddball points that the
+      scoring program doesn't deal with so the scorer must enter this manually.
+      Select the Points button, then enter the score the boat should receive in 
+      the text box.  I recommend that you use the Note
+      field to explain to the competitors.</li>
+    <li><a name="timepenalties"></a>Elapsed/Corrected Time.   JavaScore now 
+    supports two time-based penalties:&nbsp; one applied to a boat's elapsed time,
+    the other to its corrected time.  Use the text field to enter the raw amount 
+    of time to be added.  (Use a minus sign to reduce a boat's time).</li>
+ </ul>
+      
+<p>NOTE: for both Manual and Redress, if the boat ranks as a finisher, it
+      should have a valid finish position, and boats finishing below it will <i>not</i>
+      generally have their positions moved up.&nbsp;&nbsp; If the boat did not
+      finish, it should have one of the non-finishing penalties assigned to it, <i>in
+      addition</i> to the MAN or RDG penalty.</p>
+      
+<p><a name="labelOther">Label</a>:  Here you can check "RDG" to have a simple RDG label shown on the scoring
+reports.  Or select "Other" and use the text box to enter whatever wacky abbreviation you (or the
+protest committee) want to be shown on the reports.  Use the Notes field below to explain the abbreviation
+</p>
+</blockquote>
+<p><a name="note"></a><b>Note field</b>: Enter any notes that apply to this penalty here.&nbsp; They will 
+  be printed as footnotes on the scoring reports.&nbsp; You might use this field to explain an unusual penalty 
+  score, or reference a Hearing number for a DSQ or RDG.&nbsp; </p>
+<p><strong>STANDARD ABBREVIATIONS on the RRS:</strong><br>
+  <br>
+  DNC Did not start; did not come to the starting area<br>
+  DNS Did not start (other than DNC and OCS)<br>
+  OCS Did not start; on the course side of the starting line and broke rule<br>
+  29.1 or 30.1<br>
+  ZFP 20% penalty under rule 30.2<br>
+  BFD Disqualification under rule 30.3<br>
+  SCP Took a scoring penalty under rule 44.3<br>
+  DNF Did not finish<br>
+  RET Retired<br>
+  DSQ Disqualification<br>
+  DNE Disqualification not excludable under rule 88.3(b)<br>
+  DGM Disqualification for gross misconduct
+  RDG Redress given</p>
+  DPI Discretionary Penalty Imposed.
+  
+<p>Javascore also supports the following non-standard penalties:<br>
+<br>
+  TME Time penalty on elapsed time<br>
+  AVG Average points<br>
+  TMC Time penalty on corrected time<br>
+  ZFP2, ZFP3 - a 2nd or 3rd occurrence of ZFP on the same race<br>
+  
+
+<font SIZE="2">
+<p>&nbsp;</p>
+</font>
+
+</body>
+
+</html>

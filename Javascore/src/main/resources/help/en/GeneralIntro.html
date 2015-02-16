@@ -1,0 +1,106 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Introduction to Scoring Sailboat Regattas</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+
+<h2><b>Introduction to Scoring Sailboat Regattas <br>
+(tailored to terminology found in JavaScore)</b></h2>
+<h3><a name="toc"></a>Contents</h3>
+<ul>
+  <li><a href="#introgen">General Introduction to the Scoring Process</a></li>
+  <li><a href="#intodiv">How do the &quot;Divisions&quot; work?</a></li>
+</ul>
+<h3><a name="introgen"></a>General Introduction <font size="2" face="Arial">(<a href="#toc">top</a>)</font></h3>
+<p>This hasn't yet been written, volunteers wanted.</p>
+<h3><a name="intodiv"></a>How do the Divisions Work? <font size="2" face="Arial">(<a href="#toc">top</a>)</font></h3>
+<p>Release 3.0 of JavaScore adds the ability to score boats in
+&quot;fleets&quot; and &quot;subdivisions&quot;.&nbsp; This will be easier to
+understand with some background terminology.&nbsp; A boat can be scored in a
+variety of ways: </p>
+<ul>
+  <li>Several individual PHRF classes could be combined into an overall PHRF
+    fleet.&nbsp; </li>
+  <li>A large one-design regatta could be split into several &quot;qualifying
+    groups&quot; which race in various combinations.&nbsp; </li>
+  <li>A large regatta may include sub-groups for say, Juniors, or Masters, or
+    Women</li>
+</ul>
+<p>JavaScore's method of implementing fleets and subdivisions tries to take all
+of the different grouping into account.&nbsp; </p>
+<p>There are three types of groupings for boats:</p>
+<p><i><b>Starting Division</b></i>:&nbsp; this is the fundamental group that in
+which a boat races.&nbsp; Its starts and finishes are recorded by the race
+committee in this context.&nbsp; When defining a single race, only starting
+divisions can be given a start.&nbsp; The finish dialog of a single race shows
+all the entrants in all the starting divisions that are flagged as participating
+in that race.</p>
+<p><b><i>Fleet</i></b>: A fleet is a combination of several Starting
+Divisions.&nbsp; All members of each Starting Division in a Fleet are combined
+into the fleet.&nbsp;&nbsp; Defining a fleet consists of specifying which
+starting divisions make up the fleet, and two options:&nbsp; (a) how to handle
+races where different starting divisions have different lengths races; (b) how
+to handle a race where two starting divisions in the fleet start at the same
+time (sharing a starting line).</p>
+<p><i><b>Sub-Division:</b></i> Within a Starting Division or Fleet, some boats
+may also be flagged as being part of a Sub-Division.&nbsp; They will be scored
+as part of that Sub-Division.&nbsp; All sub-divisions have a single parent that
+must be either a starting division or a fleet.&nbsp; Options in defining a
+sub-division include: (a) if a single boat can be part of more than one
+sub-division, and (b) if boats are &quot;re-scored&quot; within their
+subdivision as if other members of their parent group didn't exist (i.e if you
+were in the Youth sub-division of the Laser starting division, and in race 1 you
+finished 5th overall in the Laser but were the first Youth finisher - the scorer
+can specify whether that boat's score in the Youth subdivision should be 5
+points or 1 point.</p>
+<p>Samples of how to setup the typical fleet/subdivision groupings:</p>
+<p><b><i>PHRF Overall as a combination of PHRF A, B, C divisions:</i></b> The
+regatta should have 3 Starting Divisons: PHRF A, PHRF B, and PHRF C.&nbsp; It
+will also have 1 Fleet, &quot;PHRF Overall&quot; that includes these three
+starting divisions.&nbsp; Boats would be entered in either PHRF A, B, or
+C.&nbsp; They will start and finish in those groups. </p>
+<p><i><b>Laser championship with groups for Youth, Women, and Masters:</b></i>&nbsp;
+This type of regatta would have a single Starting Division, Laser, and three
+Sub-Divisions:&nbsp; Youth, Women, and Masters.&nbsp; For each of the
+SubDivisions, the parent would be the Laser, and for each, boats could be
+entered in more than one ( a teenage girl would be eligible for both Youth and
+Women).&nbsp; <br>
+&nbsp;&nbsp;&nbsp; This is not a complete self-enforcing system, in a sample
+such as this, JavaScore would not be able to enforce the likely rule that the
+Youth and Master subdivisions should not have any &quot;joint&quot; members.</p>
+<p><i><b>Optimist regatta with all sailors being in one of Blue, White, and
+Green (all are racing together in one start):</b></i> The best way to set this
+up would be three Starting Divisions, Opti Blue, Opti White, and Opti
+Green.&nbsp; Each sailor is entered in one of these starting divisions.&nbsp;
+There would also be one Fleet, Optimist, containing each of the three starting
+divisions.&nbsp; In the Fleet definition, the flag for scoring boats that
+starting together as a single group should be turned on.&nbsp; So if the 3rd
+place boat is the first Opti Blue sailor, they will be scored 3rd place, not
+&quot;1st&quot; place.&nbsp;&nbsp; In each race, include all three starting
+divisions, and give them the same starting time.</p>
+<p><i><b>The &quot;typical&quot; Qualification Series.</b></i> A large fleet is
+split into 4 groups, for example, Pink, Yellow, Green, and Blue.&nbsp; Each race
+in the series has two starts with two of the groups starting in each
+start.&nbsp; So in race 1, in the first start, Pink and Yellow race together
+(and are scored as a single group), in the 2nd start, Green and Blue start (and
+are scored) together.&nbsp; In Race 2, Pink and Green are in the first start,
+and Yellow and Blue are in the second start.<br>
+&nbsp;&nbsp;&nbsp; Create 4 starting divisions (Pink, Yellow, Green, Blue) and
+one Fleet &quot;Overall&quot;.&nbsp; Set the flag that boats starting together
+are scored together. In the first Race, give Pink and Yellow the same starting
+time, then give Yellow and Blue a second starting time.</p>
+<p><br>
+&nbsp;&nbsp;&nbsp; </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<html>
+
+<head>
+<title>Java Score - Low Point options</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+</head>
+
+<body>
+
+<h3>Java Score - Stage Panel</h3>
+
+<p>Contains descriptive information about the current stage. It is only visible for multi-stage events.</p>
+<p><b><a name="stagename" id="stagename"></a>Name</b>: the name of the Stage.</p>
+
+<p><b><a name="isqualifying" id="isqualifying"></a>Is Qualifying: </b>Select this if the entries in the stage are sailing qualifying series in which they are split into multiple starts, and periodically regrouped, but are scored for the stage series as a single group. Example, a large Laser fleet is split  into Blue and Yellow fleets. See also Divisions | Split by Seeding on the main Javascore menu.</p>
+<p><b><a name="rank" id="rank"></a>Stage Rank: </b>This tells Javascore how to order the stages when it assigns boats their overall regatta ranking.  For example, all boats in the Gold fleet are generally ranked better in the regatta than boats in the Silver fleet.  A large number in the stage rank, means a better regatta ranking.</p>
+<p><b><a name="previousStage" id="previousStage"></a>Previous Stage: </b>Specifies the previous stage that boats in this stage race. Used for determining carry-over races for calculating series scores, tie-breakers, and discards.  A value of &quot;None&quot; means that this is the first stage of the event.</p>
+<p><b><a name="scoreCarryOver"></a>Score Carry Over </b>Specifies how scores from the previous stage are carried-over into this stage:</p>
+<ul>
+  <li>None - No scores are carried over at all</li>
+  <li>All Scores - All scores that were part of the previous stage are carried over.  If the previous stage carried scores over from an earlier stage as well, those earlier score will also carry into this stage.</li>
+  <li>Carryover Race - This stage contains a &quot;race&quot; in which each boat's finish position at the end of the previous stage becomes their score in the carryover race.  NOTE: selecting this option, does NOT create or edit a carryover race. You can either manually create the carryover race, or have JavaScore create it automatically when it splits the fleet (see Divisions | Split on Ranking).<br>
+  </li>
+</ul>
+<p><b><a name="throwoutCarryOver"></a>Throwout Carry Over </b>If the stage may have one or more excluded races, this determines how races from previous stage(s) are included:</p>
+<ul>
+  <li>None - No scores from any previous stage will be included</li>
+  <li>All Races - All races from that were part of the previous stage's excludable races are eligible to be excluded.</li>
+  <li>All Races, Max 1 this stage - All races from previous stage are eligible, but a maximum of one race sailed in the current stage can be excluded.</li>
+</ul>
+<p><b><a name="tiebreakCarryOver"></a>Tiebreak Carry Over </b>- Determines how scores from a previous stage can be carried over for tiebreaking purposes.</p>
+<ul>
+  <li>None - No scores from any previous stage will be used to resolve ties</li>
+  <li>All Races - All races from that were part of the previous stage can be used to resolve ties</li>
+</ul>
+<p><strong>Scoring Options Panel </strong>- The scoring options panel sets the scoring options for this stage. See <a href="PanelScoringLowPoint.html">Scoring Options Panel</a> for details.</p>
+<p>&nbsp;</p>
+</body>
+
+</html>

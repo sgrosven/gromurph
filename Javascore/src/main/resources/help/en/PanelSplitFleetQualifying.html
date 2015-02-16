@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0" />
+<meta name="ProgId" content="FrontPage.Editor.Document" />
+<title>Java Score</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+
+<body>
+
+<h3>JavaScore - Split by Seeding</h3>
+<p>Use this dialog to split a fleet into new divisions during a qualifying series.</p>
+<p>This &quot;by seeding&quot; split will assign boats to their new divisions based on the current overall position in the selected stage.  It will place the 1st place boat in the first division listed, the 2nd to the second division listed and so on. At the last division the assignment reverses.</p>
+<p>For example, if you want to perform the split at the end of day 1 into 2 new divisions called &quot;Yellow Day 2&quot;, and &quot;Blue Day 2&quot;, then split will occur as follows:</p>
+<p>1st place -&gt; Yellow Day 2<br>
+  2nd place -&gt;  Blue Day 2<br>
+  3rd place -&gt;  Blue Day 2<br>
+4th place -&gt;  Yellow Day 2<br>
+5th place -&gt;  Yellow Day 2<br>
+etc...
+</p>
+<p>If you want to perform the split at the end of day 1 into 3 new divisions called &quot;Yellow Day 2&quot;, and &quot;Blue Day 2&quot; and &quot;Green Day 2&quot;</p>
+<p>1st place -&gt; Yellow Day 2<br>
+  2nd place -&gt;  Blue Day 2<br>
+  3rd place -&gt;  Green Day 2<br>
+  4th place -&gt;  Green Day 2<br>
+  5th place -&gt;  Blue Day 2<br>
+  6th place -&gt;  Yellow Day 2<br>
+  7th place -&gt;  Yellow Day 2<br>
+  8th place -&gt;  Blue Day 2<br>
+  etc...
+</p>
+<p>The order of the divisions is important and should be specified in the Sailing Instructions. Once the panel is completed and the user presses OK, the data will be validated, and if there are no errors, you will get a final confirmation check to make sure you want to go through with the split.</p>
+<p>If you create a new split, and later decide you want to delete it. Go into &quot;Divisions | Subdivisions&quot; and delete the divisions.  If you have scored races involving those divisions, you should also delete those races or their scores will be incorrect.</p>
+<p>The panel has the following fields:</p>
+<p><a name="srcstage"></a> <strong>Stage to Split:</strong> This is the stage in which the split is to occur.  In the stage, the &quot;Is Qualifying Stage&quot; must be selected. Only stage with the &quot;Is Qualifying&quot; option selection will be show in the drop down box.</p>
+<p><a name="srcdivision" id="srcdivision"></a> <strong>Division to Split:</strong> This is the division that is to be split into qualifying subdivisions. </p>
+<p><a name="numsplits" id="numsplits"></a> <strong>Number of new divisions:</strong> The number of new qualifying divisions to be created.</p>
+<p><a name="newdivname" id="numsplits2"></a> <strong>New Division Names:</strong> The names of each new division. These names must be unique within the regatta.  For example, you cannot have two &quot;Red&quot; divisions, use something like &quot;Red Day 1&quot; for the first day's splits, then &quot;Red Day 2&quot; for the next Red split.</p>
+</body>
+
+</html>

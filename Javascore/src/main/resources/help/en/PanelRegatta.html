@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>New Page 1</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+
+<h3>Java Score: Regatta Panel</h3>
+<p>Contains parameters about the regatta as a whole.&nbsp; All of the fields are
+optional, but I strongly recommend giving the regatta a decent name </p>
+<a name="name"></a><b>Name</b>: The name of the regatta.&nbsp; I will create a
+default file name for saving the regatta based on this name.
+<p><a name="hostclub"></a><b>Club</b>: The name of the Host Club (just a plain text field, no validation)
+<p><a name="dates"></a><b>Dates</b>: this is just a plain text field, does not
+have to be a valid date
+<p><a name="pro"></a><b>PRO</b>: the name of the Principal Race Officer
+<p><a name="jurychair"></a>J<b>ury Chair</b> - the name of the chairman of the
+protest committee
+p><a name="scoring"></a><b>Scoring System</b>  choice box - Allows you to
+select the series scoring system to be used.&nbsp; Currently, the ISAF '97-2000
+Low Point is supported, and the standard modifications used by the Snipe and
+Lightning classes are supported.&nbsp;</p>
+<p><b>Scoring Options</b> button - Bring up a field that
+allows you to set the scoring system for the regatta series, and options related
+to it.</p>
+<p><a name="usebownumbers"></a><b>Use Bow Numbers</b> - this check box tells
+whether or not bow numbers are being used for this regatta.
+<p><a name="final"></a><b>Results are final</b> -&nbsp; This box should be checked when
+the results for a regatta have been finalized.&nbsp; All races are completed,
+all protests are resolved.&nbsp; It will immediately save the regatta file,
+create an updated set of reports label &quot;final&quot;, and set an internal
+flag that will prevent you from editing the regatta in JavaScore when the Final
+box is checked.</p>
+<p><a name="splitfleet"></a><b>Qualifying/final series</b> - Check this box if the regatta is
+going to be scored by splitting the entries into groups for the purposes of running a qualifying 
+series followed by a finals series.</p>
+<<p><a name="divisions"></a><b>Starting Classes</b> list - This is a list of all
+classes that are starting this event and should be scored as individual
+classes.&nbsp; No fleets or subfleets are yet supported.&nbsp; The full list of
+defined classes can be found under the menu item &quot;Master Files |
+Divisions&quot;.&nbsp; This includes handicap systems and the range of ratings
+contained within a class.&nbsp;&nbsp;</p>
+<p><a name="add"></a><b>Add</b> button - use this to add a new class to the
+regatta. This will bring up a choice box containing all the classes that are not
+yet a part of this regatta.&nbsp; If you need a new class, go to Master Files |
+Divisions to create the class.</p>
+<p><a name="remove"></a><b>Remove</b> button - use this to remove a class from
+the regatta.&nbsp; Select a class from the &quot;Starting Classes&quot; list
+then press the remove button.&nbsp; If there are any boats already entered into
+a class that is removed, then their class assignment will be changed to
+&quot;&lt;none&gt;&quot;.&nbsp; If left in the regatta, those boats will show up
+in the finish dialogs, but will never get assigned any series points.</p>
+
+<p><b><a name="editdiv"></a>Edit</b> button - use this button to edit a division
+in an existing regatta.&nbsp; If the change (say a minimum rating change) causes
+boats entered in the division to be invalid, you will be notified.&nbsp;
+Similarly, if there are boats not in a division that are eligible for the
+modified division, you'll have the opportunity to have them automatically placed
+in the modified division.</p>
+
+</body>
+
+</html>

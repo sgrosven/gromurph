@@ -1,0 +1,901 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Regatta Dates='July 21-22, 2000' Final='false' HostClub='Eastport Yacht Club' IFEventID='' JSVersion='7.1.2' JuryChair='Mark Murphy' Multistage='false' Name='2000 Solomon&#39;s Island Race' Pro='Sharon Hadsell' UseBowNumbers='false' Version='600'>
+	<DivisionList>
+		<Division DivName='CAT27'>
+			<MinRating ClassName='CAT27' System='OneDesign'></MinRating>
+			<MaxRating ClassName='CAT27' System='OneDesign'></MaxRating>
+		</Division>
+		<Division DivName='J105'>
+			<MinRating ClassName='J105' System='OneDesign'></MinRating>
+			<MaxRating ClassName='J105' System='OneDesign'></MaxRating>
+		</Division>
+		<Division DivName='J30'>
+			<MinRating ClassName='J30' System='OneDesign'></MinRating>
+			<MaxRating ClassName='&lt;none&gt;' System='OneDesign'></MaxRating>
+		</Division>
+		<Division DivName='J35'>
+			<MinRating ClassName='J35' System='OneDesign'></MinRating>
+			<MaxRating ClassName='J35' System='OneDesign'></MaxRating>
+		</Division>
+	</DivisionList>
+	<EntryList>
+		<Entry Bow='' Club='AYC' Division='J105' EntryId='106'>
+			<Boat BoatName='BAM' SailId='62'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='GN' LastName='Smernoff' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='NASS' Division='J105' EntryId='100'>
+			<Boat BoatName='CURLEW' SailId='98'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='J&amp;M' LastName='Detweiler' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J105' EntryId='57'>
+			<Boat BoatName='OSPREY' SailId='106'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Preben' LastName='Ostberg' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='CYC' Division='J105' EntryId='62'>
+			<Boat BoatName='LE RENARD' SailId='113 .1'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Jamie' LastName='Brohawn' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='eyc' Division='J105' EntryId='85'>
+			<Boat BoatName='THOOSA' SailId='163'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='J&amp;D' LastName='Driver' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='WSRC' Division='J105' EntryId='95'>
+			<Boat BoatName='SASSY' SailId='205'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Robt' LastName='Percival' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='RRBC' Division='J105' EntryId='82'>
+			<Boat BoatName='JAY BOAT' SailId='208'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='John' LastName='Kircher' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J105' EntryId='117'>
+			<Boat BoatName='BEEP BEEP' SailId='216'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Dan' LastName='Mitchell' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='BCYA' Division='J105' EntryId='94'>
+			<Boat BoatName='UNDERDOG' SailId='220'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Tom' LastName='Behrle' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='WRSC' Division='J30' EntryId='22'>
+			<Boat BoatName='MARY LOU' SailId='221'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J30' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='M&amp;K' LastName='McGill' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='EYC' Division='J105' EntryId='116'>
+			<Boat BoatName='EL TORO' SailId='250'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Tom' LastName='Bond' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AMCY' Division='J105' EntryId='112'>
+			<Boat BoatName='BREAKAWAY' SailId='251'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Richard' LastName='Hinds' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J105' EntryId='86'>
+			<Boat BoatName='ZEPHYR' SailId='252'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Walter' LastName='Nuschke' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='RRBC' Division='J105' EntryId='79'>
+			<Boat BoatName='STAMPEDE' SailId='253'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Gepff' LastName='Burdge' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='GSA' Division='J30' EntryId='21'>
+			<Boat BoatName='SHAKEN NOT STIR' SailId='258'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J30' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='Lotrobe/Pittmon' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J105' EntryId='99'>
+			<Boat BoatName='SUDDENLY SIXTY' SailId='308'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='John' LastName='Kushner' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J105' EntryId='88'>
+			<Boat BoatName='A TRAIN' SailId='313'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Robert' LastName='Reeves' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J105' EntryId='115'>
+			<Boat BoatName='RUM PUPPY' SailId='321'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Jack' LastName='Biddle' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='SSA' Division='J105' EntryId='92'>
+			<Boat BoatName='WHITE KNIGHT' SailId='322'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Art' LastName='Schraggey' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J105' EntryId='89'>
+			<Boat BoatName='MODELIA' SailId='326'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Denis' LastName='Seynhaeve' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='EYC' Division='J105' EntryId='58'>
+			<Boat BoatName='MOJO' SailId='327'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Julian' LastName='Bigden' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J105' EntryId='75'>
+			<Boat BoatName='MIRAGE' SailId='328'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='Lewis/Salvesen' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J30' EntryId='15'>
+			<Boat BoatName='TIGER' SailId='341'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J30' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Tom' LastName='Donlan' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J105' EntryId='72'>
+			<Boat SailId='351'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Jim' LastName='Konigsberg' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J30' EntryId='5'>
+			<Boat BoatName='CANNONBALL' SailId='387'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J30' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Bill' LastName='Wallop' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J30' EntryId='12'>
+			<Boat BoatName='BOTTOM UP' SailId='507'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J30' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='David' LastName='Moss' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J30' EntryId='6'>
+			<Boat BoatName='VALHALLA' SailId='33242'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J30' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Steve' LastName='Bardelman' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='WRSC' Division='J30' EntryId='19'>
+			<Boat BoatName='BUMP IN NIGHT' SailId='33450'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J30' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Maury' LastName='Niebur' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='RRBC' Division='J35' EntryId='48'>
+			<Boat BoatName='TIAMAT' SailId='33785'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J35' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Ted' LastName='Lepich' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J35' EntryId='52'>
+			<Boat BoatName='FATAL ATTRACTIO' SailId='41791'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J35' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='Lange/Horwitz' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='WRSC' Division='J30' EntryId='37'>
+			<Boat BoatName='DELIRIOUS' SailId='51885'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J30' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='David' LastName='Kim' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='MRSA' Division='J30' EntryId='20'>
+			<Boat BoatName='ENCOUNTER' SailId='53011'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J30' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Drew' LastName='Dowling' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J30' EntryId='14'>
+			<Boat BoatName='VIVACIOUS' SailId='53175'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J30' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='William' LastName='Munz' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J35' EntryId='25'>
+			<Boat BoatName='GRAYLING' SailId='53427'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J35' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='Johns/Born' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='SRYC' Division='J30' EntryId='31'>
+			<Boat BoatName='LAZY DUCK' SailId='63317'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J30' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Wick' LastName='Keating' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='WRSC' Division='J105' EntryId='84'>
+			<Boat BoatName='SINGULARITY' SailId='83082'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Stanley' LastName='Shortz' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J105' EntryId='73'>
+			<Boat BoatName='JAVA' SailId='83161'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='C&amp;C' LastName='Groobey' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J105' EntryId='108'>
+			<Boat BoatName='LEVITATION' SailId='83168'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Carleton' LastName='Mott' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='EYC' Division='J105' EntryId='71'>
+			<Boat BoatName='J&#39;MAKIN&#39; WAVES' SailId='83466'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='S&amp;D' LastName='Olinger' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Club='AYC' Division='J105' EntryId='56'>
+			<Boat BoatName='FREEDOM' SailId='93105'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J105' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Pete' LastName='Schelliw' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+	</EntryList>
+	<FleetList>
+		<Fleet DifferentLengths='AsIs' DivName='Famdamily' SameStartSameClass='false'>
+			<FleetDivList>
+				<Div Name='CAT27'></Div>
+				<Div Name='J105'></Div>
+				<Div Name='J30'></Div>
+				<Div Name='J35'></Div>
+			</FleetDivList>
+		</Fleet>
+	</FleetList>
+	<SubDivisionList>
+		<SubDivision DivName='Masters' Group='Final' LastSplit='true' Monopoly='false' Parent='Famdamily' ParentType='Fleet' ScoreSeparately='true' addOn='0.0'>
+			<EntryList>
+				<Entry Id='106'></Entry>
+				<Entry Id='117'></Entry>
+				<Entry Id='22'></Entry>
+				<Entry Id='58'></Entry>
+				<Entry Id='75'></Entry>
+			</EntryList>
+		</SubDivision>
+	</SubDivisionList>
+	<RaceList>
+		<Race AFactor='625' BFactor='625' Comment='' LongDistance='true' MedalRace='false' Name='1' NonDiscardable='false' RaceId='1' StartDate='21-Jul-2000' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='J35' Length='55.0' StartTime='19:05:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='J105' Length='55.0' StartTime='19:15:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='J30' Length='45.0' StartTime='19:25:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='CAT27' Length='45.0' StartTime='19:45:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Masters' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Famdamily' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Famdamily' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='117' Pos='1' Race='1' Time='1/04:00:00.0'></Fin>
+				<Fin Ent='5' Pos='2' Race='1' Time='1/04:13:56.0'></Fin>
+				<Fin Ent='6' Pos='3' Race='1' Time='1/04:17:21.0'></Fin>
+				<Fin Ent='12' Pos='4' Race='1' Time='1/04:36:01.0'></Fin>
+				<Fin Ent='14' Pos='5' Race='1' Time='1/04:38:58.0'></Fin>
+				<Fin Ent='15' Pos='6' Race='1' Time='1/04:41:18.0'></Fin>
+				<Fin Ent='19' Pos='7' Race='1' Time='1/04:59:27.0'></Fin>
+				<Fin Ent='20' Pos='8' Race='1' Time='1/05:00:52.0'></Fin>
+				<Fin Ent='21' Pos='9' Race='1' Time='1/05:00:53.0'></Fin>
+				<Fin Ent='22' Pos='10' Race='1' Time='1/05:00:57.0'></Fin>
+				<Fin Ent='25' Pos='11' Race='1' Time='1/05:03:13.0'></Fin>
+				<Fin Ent='31' Pos='12' Race='1' Time='1/05:07:20.0'></Fin>
+				<Fin Ent='37' Pos='13' Race='1' Time='1/05:16:19.0'></Fin>
+				<Fin Ent='48' Pos='14' Race='1' Time='1/05:31:39.0'></Fin>
+				<Fin Ent='52' Pos='15' Race='1' Time='1/05:38:58.0'></Fin>
+				<Fin Ent='56' Pos='16' Race='1' Time='1/05:41:54.0'></Fin>
+				<Fin Ent='57' Pos='17' Race='1' Time='1/05:42:10.0'></Fin>
+				<Fin Ent='58' Pos='18' Race='1' Time='1/05:42:41.0'></Fin>
+				<Fin Ent='62' Pos='19' Race='1' Time='1/05:44:52.0'></Fin>
+				<Fin Ent='71' Pos='20' Race='1' Time='1/05:50:40.0'></Fin>
+				<Fin Ent='72' Pos='21' Race='1' Time='1/05:51:07.0'></Fin>
+				<Fin Ent='73' Pos='22' Race='1' Time='1/05:51:38.0'></Fin>
+				<Fin Ent='75' Pos='23' Race='1' Time='1/05:53:22.0'></Fin>
+				<Fin Ent='79' Pos='24' Race='1' Time='1/05:56:12.0'></Fin>
+				<Fin Ent='82' Pos='25' Race='1' Time='1/06:00:14.0'></Fin>
+				<Fin Ent='84' Pos='26' Race='1' Time='1/06:01:32.0'></Fin>
+				<Fin Ent='85' Pos='27' Race='1' Time='1/06:02:12.0'></Fin>
+				<Fin Ent='86' Pos='28' Race='1' Time='1/06:04:50.0'></Fin>
+				<Fin Ent='88' Pos='29' Race='1' Time='1/06:05:30.0'></Fin>
+				<Fin Ent='89' Pos='30' Race='1' Time='1/06:05:47.0'></Fin>
+				<Fin Ent='92' Pos='31' Race='1' Time='1/06:09:37.0'></Fin>
+				<Fin Ent='94' Pos='32' Race='1' Time='1/06:10:00.0'></Fin>
+				<Fin Ent='95' Pos='33' Race='1' Time='1/06:11:12.0'></Fin>
+				<Fin Ent='99' Pos='34' Race='1' Time='1/06:16:45.0'></Fin>
+				<Fin Ent='100' Pos='35' Race='1' Time='1/06:17:26.0'></Fin>
+				<Fin Ent='106' Pos='36' Race='1' Time='1/06:27:24.0'></Fin>
+				<Fin Ent='108' Pos='37' Race='1' Time='1/06:32:26.0'></Fin>
+				<Fin Ent='112' Pos='38' Race='1' Time='1/06:38:07.0'></Fin>
+				<Fin Ent='115' Pos='39' Race='1' Time='1/06:41:48.0'></Fin>
+				<Fin Ent='116' Pos='40' Race='1' Time='1/06:45:48.0'></Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='625' BFactor='625' Comment='' LongDistance='true' MedalRace='false' Name='2' NonDiscardable='false' RaceId='2' StartDate='22-Jul-2000' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='J35' Length='70.0' StartTime='19:05:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='J105' Length='70.0' StartTime='19:15:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='J30' Length='70.0' StartTime='19:25:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='CAT27' Length='70.0' StartTime='19:45:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Masters' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Famdamily' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Famdamily' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='117' Pos='1' Race='2' Time='1/03:00:00.0'></Fin>
+				<Fin Ent='75' Pos='2' Race='2' Time='1/03:00:05.0'></Fin>
+				<Fin Ent='58' Pos='3' Race='2' Time='1/03:00:10.0'></Fin>
+				<Fin Ent='22' Pos='4' Race='2' Time='1/03:00:20.0'></Fin>
+				<Fin Ent='106' Pos='5' Race='2' Time='1/03:00:30.0'></Fin>
+				<Fin Ent='5' Pos='6' Race='2' Time='1/04:13:56.0'></Fin>
+				<Fin Ent='6' Pos='7' Race='2' Time='1/04:17:21.0'></Fin>
+				<Fin Ent='12' Pos='8' Race='2' Time='1/04:36:01.0'></Fin>
+				<Fin Ent='14' Pos='9' Race='2' Time='1/04:38:58.0'></Fin>
+				<Fin Ent='15' Pos='10' Race='2' Time='1/04:41:18.0'></Fin>
+				<Fin Ent='19' Pos='11' Race='2' Time='1/04:59:27.0'></Fin>
+				<Fin Ent='20' Pos='12' Race='2' Time='1/05:00:52.0'></Fin>
+				<Fin Ent='21' Pos='13' Race='2' Time='1/05:00:53.0'></Fin>
+				<Fin Ent='25' Pos='14' Race='2' Time='1/05:03:13.0'></Fin>
+				<Fin Ent='31' Pos='15' Race='2' Time='1/05:07:20.0'></Fin>
+				<Fin Ent='37' Pos='16' Race='2' Time='1/05:16:19.0'></Fin>
+				<Fin Ent='48' Pos='17' Race='2' Time='1/05:31:39.0'></Fin>
+				<Fin Ent='52' Pos='18' Race='2' Time='1/05:38:58.0'></Fin>
+				<Fin Ent='56' Pos='19' Race='2' Time='1/05:41:54.0'></Fin>
+				<Fin Ent='57' Pos='20' Race='2' Time='1/05:42:10.0'></Fin>
+				<Fin Ent='62' Pos='21' Race='2' Time='1/05:44:52.0'></Fin>
+				<Fin Ent='71' Pos='22' Race='2' Time='1/05:50:40.0'></Fin>
+				<Fin Ent='72' Pos='23' Race='2' Time='1/05:51:07.0'></Fin>
+				<Fin Ent='73' Pos='24' Race='2' Time='1/05:51:38.0'></Fin>
+				<Fin Ent='79' Pos='25' Race='2' Time='1/05:56:12.0'></Fin>
+				<Fin Ent='82' Pos='26' Race='2' Time='1/06:00:14.0'></Fin>
+				<Fin Ent='84' Pos='27' Race='2' Time='1/06:01:32.0'></Fin>
+				<Fin Ent='85' Pos='28' Race='2' Time='1/06:02:12.0'></Fin>
+				<Fin Ent='86' Pos='29' Race='2' Time='1/06:04:50.0'></Fin>
+				<Fin Ent='88' Pos='30' Race='2' Time='1/06:05:30.0'></Fin>
+				<Fin Ent='89' Pos='31' Race='2' Time='1/06:05:47.0'></Fin>
+				<Fin Ent='92' Pos='32' Race='2' Time='1/06:09:37.0'></Fin>
+				<Fin Ent='94' Pos='33' Race='2' Time='1/06:10:00.0'></Fin>
+				<Fin Ent='95' Pos='34' Race='2' Time='1/06:11:12.0'></Fin>
+				<Fin Ent='99' Pos='35' Race='2' Time='1/06:16:45.0'></Fin>
+				<Fin Ent='100' Pos='36' Race='2' Time='1/06:17:26.0'></Fin>
+				<Fin Ent='108' Pos='37' Race='2' Time='1/06:32:26.0'></Fin>
+				<Fin Ent='112' Pos='38' Race='2' Time='1/06:38:07.0'></Fin>
+				<Fin Ent='115' Pos='39' Race='2' Time='1/06:41:48.0'></Fin>
+				<Fin Ent='116' Pos='40' Race='2' Time='1/06:45:48.0'></Fin>
+			</FinishList>
+		</Race>
+	</RaceList>
+	<Scores SystemName='ISAF Low Point 2013-2016'>
+		<System CheckinPercent='20' EntriesLargestDivision='false' FirstPlacePoints='1.0' LongSeries='false' Throwout1='2' Throwout2='0' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='0' tiebreaker='1'></System>
+		<RacePointsList>
+			<rp Div='J105' Ent='117' Pos='1' Pts='1.0' Race='1' Toss='true'></rp>
+			<rp Div='J105' Ent='56' Pos='2' Pts='2.0' Race='1'></rp>
+			<rp Div='J105' Ent='57' Pos='3' Pts='3.0' Race='1'></rp>
+			<rp Div='J105' Ent='58' Pos='4' Pts='4.0' Race='1' Toss='true'></rp>
+			<rp Div='J105' Ent='62' Pos='5' Pts='5.0' Race='1'></rp>
+			<rp Div='J105' Ent='71' Pos='6' Pts='6.0' Race='1'></rp>
+			<rp Div='J105' Ent='72' Pos='7' Pts='7.0' Race='1'></rp>
+			<rp Div='J105' Ent='73' Pos='8' Pts='8.0' Race='1'></rp>
+			<rp Div='J105' Ent='75' Pos='9' Pts='9.0' Race='1' Toss='true'></rp>
+			<rp Div='J105' Ent='79' Pos='10' Pts='10.0' Race='1'></rp>
+			<rp Div='J105' Ent='82' Pos='11' Pts='11.0' Race='1'></rp>
+			<rp Div='J105' Ent='84' Pos='12' Pts='12.0' Race='1'></rp>
+			<rp Div='J105' Ent='85' Pos='13' Pts='13.0' Race='1'></rp>
+			<rp Div='J105' Ent='86' Pos='14' Pts='14.0' Race='1'></rp>
+			<rp Div='J105' Ent='88' Pos='15' Pts='15.0' Race='1'></rp>
+			<rp Div='J105' Ent='89' Pos='16' Pts='16.0' Race='1'></rp>
+			<rp Div='J105' Ent='92' Pos='17' Pts='17.0' Race='1'></rp>
+			<rp Div='J105' Ent='94' Pos='18' Pts='18.0' Race='1'></rp>
+			<rp Div='J105' Ent='95' Pos='19' Pts='19.0' Race='1'></rp>
+			<rp Div='J105' Ent='99' Pos='20' Pts='20.0' Race='1'></rp>
+			<rp Div='J105' Ent='100' Pos='21' Pts='21.0' Race='1'></rp>
+			<rp Div='J105' Ent='106' Pos='22' Pts='22.0' Race='1' Toss='true'></rp>
+			<rp Div='J105' Ent='108' Pos='23' Pts='23.0' Race='1' Toss='true'></rp>
+			<rp Div='J105' Ent='112' Pos='24' Pts='24.0' Race='1' Toss='true'></rp>
+			<rp Div='J105' Ent='115' Pos='25' Pts='25.0' Race='1' Toss='true'></rp>
+			<rp Div='J105' Ent='116' Pos='26' Pts='26.0' Race='1' Toss='true'></rp>
+			<rp Div='J105' Ent='117' Pos='1' Pts='1.0' Race='2'></rp>
+			<rp Div='J105' Ent='75' Pos='2' Pts='2.0' Race='2'></rp>
+			<rp Div='J105' Ent='58' Pos='3' Pts='3.0' Race='2'></rp>
+			<rp Div='J105' Ent='106' Pos='4' Pts='4.0' Race='2'></rp>
+			<rp Div='J105' Ent='56' Pos='5' Pts='5.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='57' Pos='6' Pts='6.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='62' Pos='7' Pts='7.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='71' Pos='8' Pts='8.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='72' Pos='9' Pts='9.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='73' Pos='10' Pts='10.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='79' Pos='11' Pts='11.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='82' Pos='12' Pts='12.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='84' Pos='13' Pts='13.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='85' Pos='14' Pts='14.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='86' Pos='15' Pts='15.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='88' Pos='16' Pts='16.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='89' Pos='17' Pts='17.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='92' Pos='18' Pts='18.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='94' Pos='19' Pts='19.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='95' Pos='20' Pts='20.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='99' Pos='21' Pts='21.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='100' Pos='22' Pts='22.0' Race='2' Toss='true'></rp>
+			<rp Div='J105' Ent='108' Pos='23' Pts='23.0' Race='2'></rp>
+			<rp Div='J105' Ent='112' Pos='24' Pts='24.0' Race='2'></rp>
+			<rp Div='J105' Ent='115' Pos='25' Pts='25.0' Race='2'></rp>
+			<rp Div='J105' Ent='116' Pos='26' Pts='26.0' Race='2'></rp>
+			<rp Div='J30' Ent='5' Pos='1' Pts='1.0' Race='1'></rp>
+			<rp Div='J30' Ent='6' Pos='2' Pts='2.0' Race='1'></rp>
+			<rp Div='J30' Ent='12' Pos='3' Pts='3.0' Race='1'></rp>
+			<rp Div='J30' Ent='14' Pos='4' Pts='4.0' Race='1'></rp>
+			<rp Div='J30' Ent='15' Pos='5' Pts='5.0' Race='1'></rp>
+			<rp Div='J30' Ent='19' Pos='6' Pts='6.0' Race='1'></rp>
+			<rp Div='J30' Ent='20' Pos='7' Pts='7.0' Race='1'></rp>
+			<rp Div='J30' Ent='21' Pos='8' Pts='8.0' Race='1'></rp>
+			<rp Div='J30' Ent='22' Pos='9' Pts='9.0' Race='1' Toss='true'></rp>
+			<rp Div='J30' Ent='31' Pos='10' Pts='10.0' Race='1' Toss='true'></rp>
+			<rp Div='J30' Ent='37' Pos='11' Pts='11.0' Race='1' Toss='true'></rp>
+			<rp Div='J30' Ent='22' Pos='1' Pts='1.0' Race='2'></rp>
+			<rp Div='J30' Ent='5' Pos='2' Pts='2.0' Race='2' Toss='true'></rp>
+			<rp Div='J30' Ent='6' Pos='3' Pts='3.0' Race='2' Toss='true'></rp>
+			<rp Div='J30' Ent='12' Pos='4' Pts='4.0' Race='2' Toss='true'></rp>
+			<rp Div='J30' Ent='14' Pos='5' Pts='5.0' Race='2' Toss='true'></rp>
+			<rp Div='J30' Ent='15' Pos='6' Pts='6.0' Race='2' Toss='true'></rp>
+			<rp Div='J30' Ent='19' Pos='7' Pts='7.0' Race='2' Toss='true'></rp>
+			<rp Div='J30' Ent='20' Pos='8' Pts='8.0' Race='2' Toss='true'></rp>
+			<rp Div='J30' Ent='21' Pos='9' Pts='9.0' Race='2' Toss='true'></rp>
+			<rp Div='J30' Ent='31' Pos='10' Pts='10.0' Race='2'></rp>
+			<rp Div='J30' Ent='37' Pos='11' Pts='11.0' Race='2'></rp>
+			<rp Div='J35' Ent='25' Pos='1' Pts='1.0' Race='1' Toss='true'></rp>
+			<rp Div='J35' Ent='48' Pos='2' Pts='2.0' Race='1' Toss='true'></rp>
+			<rp Div='J35' Ent='52' Pos='3' Pts='3.0' Race='1' Toss='true'></rp>
+			<rp Div='J35' Ent='25' Pos='1' Pts='1.0' Race='2'></rp>
+			<rp Div='J35' Ent='48' Pos='2' Pts='2.0' Race='2'></rp>
+			<rp Div='J35' Ent='52' Pos='3' Pts='3.0' Race='2'></rp>
+			<rp Div='Famdamily' Ent='117' Pos='1' Pts='1.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='5' Pos='2' Pts='2.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='6' Pos='3' Pts='3.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='12' Pos='4' Pts='4.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='14' Pos='5' Pts='5.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='15' Pos='6' Pts='6.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='19' Pos='7' Pts='7.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='20' Pos='8' Pts='8.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='21' Pos='9' Pts='9.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='22' Pos='10' Pts='10.0' Race='1' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='31' Pos='11' Pts='11.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='37' Pos='12' Pts='12.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='25' Pos='13' Pts='13.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='48' Pos='14' Pts='14.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='56' Pos='15' Pts='15.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='57' Pos='16' Pts='16.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='58' Pos='17' Pts='17.0' Race='1' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='62' Pos='18' Pts='18.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='52' Pos='19' Pts='19.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='71' Pos='20' Pts='20.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='72' Pos='21' Pts='21.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='73' Pos='22' Pts='22.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='75' Pos='23' Pts='23.0' Race='1' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='79' Pos='24' Pts='24.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='82' Pos='25' Pts='25.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='84' Pos='26' Pts='26.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='85' Pos='27' Pts='27.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='86' Pos='28' Pts='28.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='88' Pos='29' Pts='29.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='89' Pos='30' Pts='30.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='92' Pos='31' Pts='31.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='94' Pos='32' Pts='32.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='95' Pos='33' Pts='33.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='99' Pos='34' Pts='34.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='100' Pos='35' Pts='35.0' Race='1'></rp>
+			<rp Div='Famdamily' Ent='106' Pos='36' Pts='36.0' Race='1' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='108' Pos='37' Pts='37.0' Race='1' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='112' Pos='38' Pts='38.0' Race='1' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='115' Pos='39' Pts='39.0' Race='1' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='116' Pos='40' Pts='40.0' Race='1' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='22' Pos='1' Pts='1.0' Race='2'></rp>
+			<rp Div='Famdamily' Ent='117' Pos='2' Pts='2.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='75' Pos='3' Pts='3.0' Race='2'></rp>
+			<rp Div='Famdamily' Ent='58' Pos='4' Pts='4.0' Race='2'></rp>
+			<rp Div='Famdamily' Ent='106' Pos='5' Pts='5.0' Race='2'></rp>
+			<rp Div='Famdamily' Ent='5' Pos='6' Pts='6.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='6' Pos='7' Pts='7.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='12' Pos='8' Pts='8.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='14' Pos='9' Pts='9.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='15' Pos='10' Pts='10.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='19' Pos='11' Pts='11.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='20' Pos='12' Pts='12.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='21' Pos='13' Pts='13.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='31' Pos='14' Pts='14.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='37' Pos='15' Pts='15.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='25' Pos='16' Pts='16.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='48' Pos='17' Pts='17.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='56' Pos='18' Pts='18.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='57' Pos='19' Pts='19.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='62' Pos='20' Pts='20.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='52' Pos='21' Pts='21.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='71' Pos='22' Pts='22.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='72' Pos='23' Pts='23.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='73' Pos='24' Pts='24.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='79' Pos='25' Pts='25.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='82' Pos='26' Pts='26.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='84' Pos='27' Pts='27.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='85' Pos='28' Pts='28.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='86' Pos='29' Pts='29.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='88' Pos='30' Pts='30.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='89' Pos='31' Pts='31.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='92' Pos='32' Pts='32.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='94' Pos='33' Pts='33.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='95' Pos='34' Pts='34.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='99' Pos='35' Pts='35.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='100' Pos='36' Pts='36.0' Race='2' Toss='true'></rp>
+			<rp Div='Famdamily' Ent='108' Pos='37' Pts='37.0' Race='2'></rp>
+			<rp Div='Famdamily' Ent='112' Pos='38' Pts='38.0' Race='2'></rp>
+			<rp Div='Famdamily' Ent='115' Pos='39' Pts='39.0' Race='2'></rp>
+			<rp Div='Famdamily' Ent='116' Pos='40' Pts='40.0' Race='2'></rp>
+			<rp Div='Masters' Ent='117' Pos='1' Pts='1.0' Race='1'></rp>
+			<rp Div='Masters' Ent='22' Pos='2' Pts='2.0' Race='1' Toss='true'></rp>
+			<rp Div='Masters' Ent='58' Pos='3' Pts='3.0' Race='1'></rp>
+			<rp Div='Masters' Ent='75' Pos='4' Pts='4.0' Race='1' Toss='true'></rp>
+			<rp Div='Masters' Ent='106' Pos='5' Pts='5.0' Race='1' Toss='true'></rp>
+			<rp Div='Masters' Ent='22' Pos='1' Pts='1.0' Race='2'></rp>
+			<rp Div='Masters' Ent='117' Pos='2' Pts='2.0' Race='2' Toss='true'></rp>
+			<rp Div='Masters' Ent='75' Pos='3' Pts='3.0' Race='2'></rp>
+			<rp Div='Masters' Ent='58' Pos='4' Pts='4.0' Race='2' Toss='true'></rp>
+			<rp Div='Masters' Ent='106' Pos='5' Pts='5.0' Race='2'></rp>
+		</RacePointsList>
+		<SeriesPointsList>
+			<sp Div='J105' Ent='117' Pos='1' Pts='1.0'></sp>
+			<sp Div='J105' Ent='75' Pos='2' Pts='2.0'></sp>
+			<sp Div='J105' Ent='56' Pos='3' Pts='2.0001'></sp>
+			<sp Div='J105' Ent='58' Pos='4' Pts='3.0'></sp>
+			<sp Div='J105' Ent='57' Pos='5' Pts='3.0001'></sp>
+			<sp Div='J105' Ent='106' Pos='6' Pts='4.0'></sp>
+			<sp Div='J105' Ent='62' Pos='7' Pts='5.0'></sp>
+			<sp Div='J105' Ent='71' Pos='8' Pts='6.0'></sp>
+			<sp Div='J105' Ent='72' Pos='9' Pts='7.0'></sp>
+			<sp Div='J105' Ent='73' Pos='10' Pts='8.0'></sp>
+			<sp Div='J105' Ent='79' Pos='11' Pts='10.0'></sp>
+			<sp Div='J105' Ent='82' Pos='12' Pts='11.0'></sp>
+			<sp Div='J105' Ent='84' Pos='13' Pts='12.0'></sp>
+			<sp Div='J105' Ent='85' Pos='14' Pts='13.0'></sp>
+			<sp Div='J105' Ent='86' Pos='15' Pts='14.0'></sp>
+			<sp Div='J105' Ent='88' Pos='16' Pts='15.0'></sp>
+			<sp Div='J105' Ent='89' Pos='17' Pts='16.0'></sp>
+			<sp Div='J105' Ent='92' Pos='18' Pts='17.0'></sp>
+			<sp Div='J105' Ent='94' Pos='19' Pts='18.0'></sp>
+			<sp Div='J105' Ent='95' Pos='20' Pts='19.0'></sp>
+			<sp Div='J105' Ent='99' Pos='21' Pts='20.0'></sp>
+			<sp Div='J105' Ent='100' Pos='22' Pts='21.0'></sp>
+			<sp Div='J105' Ent='108' Pos='23' Pts='23.0'></sp>
+			<sp Div='J105' Ent='112' Pos='24' Pts='24.0'></sp>
+			<sp Div='J105' Ent='115' Pos='25' Pts='25.0'></sp>
+			<sp Div='J105' Ent='116' Pos='26' Pts='26.0'></sp>
+			<sp Div='J30' Ent='22' Pos='1' Pts='1.0'></sp>
+			<sp Div='J30' Ent='5' Pos='2' Pts='1.0001'></sp>
+			<sp Div='J30' Ent='6' Pos='3' Pts='2.0'></sp>
+			<sp Div='J30' Ent='12' Pos='4' Pts='3.0'></sp>
+			<sp Div='J30' Ent='14' Pos='5' Pts='4.0'></sp>
+			<sp Div='J30' Ent='15' Pos='6' Pts='5.0'></sp>
+			<sp Div='J30' Ent='19' Pos='7' Pts='6.0'></sp>
+			<sp Div='J30' Ent='20' Pos='8' Pts='7.0'></sp>
+			<sp Div='J30' Ent='21' Pos='9' Pts='8.0'></sp>
+			<sp Div='J30' Ent='31' Pos='10' Pts='10.0'></sp>
+			<sp Div='J30' Ent='37' Pos='11' Pts='11.0'></sp>
+			<sp Div='J35' Ent='25' Pos='1' Pts='1.0'></sp>
+			<sp Div='J35' Ent='48' Pos='2' Pts='2.0'></sp>
+			<sp Div='J35' Ent='52' Pos='3' Pts='3.0'></sp>
+			<sp Div='Famdamily' Ent='22' Pos='1' Pts='1.0'></sp>
+			<sp Div='Famdamily' Ent='117' Pos='2' Pts='1.0001'></sp>
+			<sp Div='Famdamily' Ent='5' Pos='3' Pts='2.0'></sp>
+			<sp Div='Famdamily' Ent='75' Pos='4' Pts='3.0'></sp>
+			<sp Div='Famdamily' Ent='6' Pos='5' Pts='3.0001'></sp>
+			<sp Div='Famdamily' Ent='58' Pos='6' Pts='4.0'></sp>
+			<sp Div='Famdamily' Ent='12' Pos='7' Pts='4.0001'></sp>
+			<sp Div='Famdamily' Ent='106' Pos='8' Pts='5.0'></sp>
+			<sp Div='Famdamily' Ent='14' Pos='9' Pts='5.0001'></sp>
+			<sp Div='Famdamily' Ent='15' Pos='10' Pts='6.0'></sp>
+			<sp Div='Famdamily' Ent='19' Pos='11' Pts='7.0'></sp>
+			<sp Div='Famdamily' Ent='20' Pos='12' Pts='8.0'></sp>
+			<sp Div='Famdamily' Ent='21' Pos='13' Pts='9.0'></sp>
+			<sp Div='Famdamily' Ent='31' Pos='14' Pts='11.0'></sp>
+			<sp Div='Famdamily' Ent='37' Pos='15' Pts='12.0'></sp>
+			<sp Div='Famdamily' Ent='25' Pos='16' Pts='13.0'></sp>
+			<sp Div='Famdamily' Ent='48' Pos='17' Pts='14.0'></sp>
+			<sp Div='Famdamily' Ent='56' Pos='18' Pts='15.0'></sp>
+			<sp Div='Famdamily' Ent='57' Pos='19' Pts='16.0'></sp>
+			<sp Div='Famdamily' Ent='62' Pos='20' Pts='18.0'></sp>
+			<sp Div='Famdamily' Ent='52' Pos='21' Pts='19.0'></sp>
+			<sp Div='Famdamily' Ent='71' Pos='22' Pts='20.0'></sp>
+			<sp Div='Famdamily' Ent='72' Pos='23' Pts='21.0'></sp>
+			<sp Div='Famdamily' Ent='73' Pos='24' Pts='22.0'></sp>
+			<sp Div='Famdamily' Ent='79' Pos='25' Pts='24.0'></sp>
+			<sp Div='Famdamily' Ent='82' Pos='26' Pts='25.0'></sp>
+			<sp Div='Famdamily' Ent='84' Pos='27' Pts='26.0'></sp>
+			<sp Div='Famdamily' Ent='85' Pos='28' Pts='27.0'></sp>
+			<sp Div='Famdamily' Ent='86' Pos='29' Pts='28.0'></sp>
+			<sp Div='Famdamily' Ent='88' Pos='30' Pts='29.0'></sp>
+			<sp Div='Famdamily' Ent='89' Pos='31' Pts='30.0'></sp>
+			<sp Div='Famdamily' Ent='92' Pos='32' Pts='31.0'></sp>
+			<sp Div='Famdamily' Ent='94' Pos='33' Pts='32.0'></sp>
+			<sp Div='Famdamily' Ent='95' Pos='34' Pts='33.0'></sp>
+			<sp Div='Famdamily' Ent='99' Pos='35' Pts='34.0'></sp>
+			<sp Div='Famdamily' Ent='100' Pos='36' Pts='35.0'></sp>
+			<sp Div='Famdamily' Ent='108' Pos='37' Pts='37.0'></sp>
+			<sp Div='Famdamily' Ent='112' Pos='38' Pts='38.0'></sp>
+			<sp Div='Famdamily' Ent='115' Pos='39' Pts='39.0'></sp>
+			<sp Div='Famdamily' Ent='116' Pos='40' Pts='40.0'></sp>
+			<sp Div='Masters' Ent='22' Pos='1' Pts='1.0'></sp>
+			<sp Div='Masters' Ent='117' Pos='2' Pts='1.0001'></sp>
+			<sp Div='Masters' Ent='75' Pos='3' Pts='3.0'></sp>
+			<sp Div='Masters' Ent='58' Pos='4' Pts='3.0001'></sp>
+			<sp Div='Masters' Ent='106' Pos='5' Pts='5.0'></sp>
+		</SeriesPointsList>
+	</Scores>
+	<ReportOptionList>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Series' Template=''>
+			<OptionLocations>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='false' ShowLastXRaces='false' TabName='Race' Template=''>
+			<OptionLocations>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='3.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='1' Show1DTimes='true' ShowLastXRaces='false' TabName='Entries' Template=''>
+			<OptionLocations>
+				<item value='1.2'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='3.1'></item>
+				<item value='none'></item>
+				<item value='4.1'></item>
+				<item value='3.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='2' Show1DTimes='true' ShowLastXRaces='false' TabName='CheckIn' Template=''>
+			<OptionLocations>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='FinishSheet' Template=''>
+			<OptionLocations>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Proofing' Template=''>
+			<OptionLocations>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='3.2'></item>
+				<item value='none'></item>
+				<item value='3.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+	</ReportOptionList>
+</Regatta>

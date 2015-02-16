@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<shortcuts>
+
+  <programGroup defaultName="JavaScore #version#" location="applications"/>
+  
+  <shortcut
+     name="Javascore #version#"
+     programGroup="yes"
+     desktop="yes"
+     applications="no"
+     startMenu="yes"
+     startup="no"
+     target="$INSTALL_PATH\JavaScore.jar"  
+     workingDirectory="$INSTALL_PATH"   
+     commandLine=""
+	 iconFile="$INSTALL_PATH\js32.ico" 
+     description="Runs Javascore #version#">
+     
+     <createForPack name="Base" />
+     
+   </shortcut>
+   
+</shortcuts>

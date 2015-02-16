@@ -1,0 +1,157 @@
+<?xml version='1.0'?>
+
+<Regatta Dates='4/21/2010 - 9/9/22/2010' Final='false' HostClub='MRSA/YCCSC/PSA/GIYS' IFEventID='' JSVersion='5.6.02' JuryChair='' Name='Magothy River Wednesday Night' Pro='' SplitFleet='false' UseBowNumbers='false' Version='552'>
+	<DivisionList>
+		<Division DivName='Magothy A'>
+			<MinRating System='PHRF' Value='0.0'></MinRating>
+			<MaxRating System='PHRF' Value='117.0'></MaxRating>
+		</Division>
+	</DivisionList>
+	<EntryList>
+		<Entry Bow='' Division='Magothy A' EntryId='10'>
+			<Boat BoatName='Ultraviolet' SailId='USA 9'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating System='PHRF' Value='84.0'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='NO ENTRY' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='Magothy A' EntryId='8'>
+			<Boat BoatName='Pressure Drop' SailId='76'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating System='PHRF' Value='90.0'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='NO ENTRY' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='Magothy A' EntryId='1'>
+			<Boat BoatName='Chaos' SailId='53501'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating System='PHRF' Value='99.0'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='Tom' LastName='Price' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+	</EntryList>
+	<RaceList>
+		<Race BFactor='550' Comment='4/21/2010; CB -- Ultraviolet; Course A-B-G-A-B-G-A for A, A-B-G-A for everyone else. ' LongDistance='false' MedalRace='false' Name='1, Series 1' NonDiscardable='false' RaceId='1' StartDate='21-Apr-2010' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='Magothy A' Length='7.46' StartTime='18:15:00.0' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin ClassPos='1' Ent='1' Pos='1' Race='1' Time='19:45:02.0'></Fin>
+				<Fin ClassPos='DNS' Ent='10' Pos='DNS' Race='1'>
+					<Penalty Note='CB' Penalty='AVG'></Penalty>
+				</Fin>
+				<Fin ClassPos='DNS' Ent='8' Pos='DNS' Race='1'>
+					<Penalty Penalty='DNS'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+	</RaceList>
+	<Scores SystemName='ISAF Low Point 2009-2012'>
+		<System AfterRacePenaltyPercent='40' CheckinPercent='20' EntriesLargestDivision='false' LongSeries='false' Throwout1='2' Throwout2='0' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='0' tiebreaker='1'></System>
+		<RacePointsList>
+			<rp Div='Magothy A' Ent='1' Pos='1' Pts='1.0' Race='1'></rp>
+			<rp Div='Magothy A' Ent='8' Pos='40960' Pts='4.0' Race='1'></rp>
+			<rp Div='Magothy A' Ent='10' Pos='40960' Pts='0.0' Race='1'></rp>
+		</RacePointsList>
+		<SeriesPointsList>
+			<sp Div='Magothy A' Ent='10' Pos='1' Pts='0.0' Tied='true'></sp>
+			<sp Div='Magothy A' Ent='1' Pos='2' Pts='1.0'></sp>
+			<sp Div='Magothy A' Ent='8' Pos='3' Pts='4.0'></sp>
+		</SeriesPointsList>
+	</Scores>
+	<ReportOptionList>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Series' Template=''>
+			<OptionLocations>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Race' Template=''>
+			<OptionLocations>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='3.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Entries' Template=''>
+			<OptionLocations>
+				<item value='1.2'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='3.1'></item>
+				<item value='none'></item>
+				<item value='4.1'></item>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='2' Show1DTimes='true' ShowLastXRaces='false' TabName='CheckIn' Template=''>
+			<OptionLocations>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='FinishSheet' Template=''>
+			<OptionLocations>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Proofing' Template=''>
+			<OptionLocations>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='3.2'></item>
+				<item value='none'></item>
+				<item value='3.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+	</ReportOptionList>
+</Regatta>

@@ -1,0 +1,474 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Regatta Dates='' Final='false' HostClub='' IFEventID='' JSVersion='7.1.2' JuryChair='' Multistage='true' Name='TestPenaltiesByLargestDivision' Pro='' UseBowNumbers='false' Version='600'>
+	<DivisionList>
+		<Division DivName='J22'>
+			<MinRating ClassName='J22' System='OneDesign'></MinRating>
+			<MaxRating ClassName='J22' System='OneDesign'></MaxRating>
+		</Division>
+	</DivisionList>
+	<EntryList>
+		<Entry Bow='' Division='J22' EntryId='354'>
+			<Boat SailId='G 1'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J22' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J22' EntryId='357'>
+			<Boat SailId='P 1'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J22' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J22' EntryId='360'>
+			<Boat SailId='Y 1'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J22' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J22' EntryId='356'>
+			<Boat SailId='G 2'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J22' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J22' EntryId='358'>
+			<Boat SailId='P 2'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J22' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J22' EntryId='361'>
+			<Boat SailId='Y 2'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J22' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J22' EntryId='359'>
+			<Boat SailId='P 3'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J22' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J22' EntryId='362'>
+			<Boat SailId='Y 3'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J22' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J22' EntryId='363'>
+			<Boat SailId='Y 4'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J22' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+	</EntryList>
+	<SubDivisionList>
+		<SubDivision DivName='Pink' Group='Qual' LastSplit='true' Monopoly='false' Parent='J22' ParentType='Division' ScoreSeparately='false' addOn='0.0'>
+			<EntryList>
+				<Entry Id='357'></Entry>
+				<Entry Id='358'></Entry>
+				<Entry Id='359'></Entry>
+			</EntryList>
+		</SubDivision>
+		<SubDivision DivName='Yellow' Group='Qual' LastSplit='true' Monopoly='false' Parent='J22' ParentType='Division' ScoreSeparately='false' addOn='0.0'>
+			<EntryList>
+				<Entry Id='360'></Entry>
+				<Entry Id='361'></Entry>
+				<Entry Id='362'></Entry>
+				<Entry Id='363'></Entry>
+			</EntryList>
+		</SubDivision>
+		<SubDivision DivName='Green' Group='Qual' LastSplit='true' Monopoly='false' Parent='J22' ParentType='Division' ScoreSeparately='false' addOn='0.0'>
+			<EntryList>
+				<Entry Id='354'></Entry>
+				<Entry Id='356'></Entry>
+			</EntryList>
+		</SubDivision>
+		<SubDivision DivName='Gold' Group='Final' GroupRank='0.0' LastSplit='true' Monopoly='false' Parent='J22' ParentType='Division' ScoreSeparately='false' addOn='0.0'>
+			<EntryList>
+				<Entry Id='356'></Entry>
+				<Entry Id='358'></Entry>
+				<Entry Id='359'></Entry>
+				<Entry Id='362'></Entry>
+			</EntryList>
+		</SubDivision>
+		<SubDivision DivName='Silver' Group='Final' GroupRank='0.1' LastSplit='true' Monopoly='false' Parent='J22' ParentType='Division' ScoreSeparately='false' addOn='0.0'>
+			<EntryList>
+				<Entry Id='354'></Entry>
+				<Entry Id='357'></Entry>
+				<Entry Id='360'></Entry>
+				<Entry Id='361'></Entry>
+				<Entry Id='363'></Entry>
+			</EntryList>
+		</SubDivision>
+	</SubDivisionList>
+	<RaceList>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='1' NonDiscardable='false' RaceId='439' StartDate='06-Dec-2009' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='Green' Length='0.0' StartTime='12:00:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Pink' Length='0.0' StartTime='12:10:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Yellow' Length='0.0' StartTime='12:20:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Gold' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='J22' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Silver' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='354' Pos='1' Race='439'>
+					<Penalty Penalty='DSQ'></Penalty>
+				</Fin>
+				<Fin Ent='356' Pos='2' Race='439'></Fin>
+				<Fin Ent='359' Pos='3' Race='439'></Fin>
+				<Fin Ent='358' Pos='4' Race='439'></Fin>
+				<Fin Ent='362' Pos='5' Race='439'></Fin>
+				<Fin Ent='361' Pos='6' Race='439'></Fin>
+				<Fin Ent='363' Pos='7' Race='439'></Fin>
+				<Fin Ent='357' Pos='DNF' Race='439'>
+					<Penalty Penalty='DNF'></Penalty>
+				</Fin>
+				<Fin Ent='360' Pos='DNC' Race='439'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='2' NonDiscardable='false' RaceId='442' StartDate='08-Dec-2009' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='J22' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Green' Length='0.0' StartTime='09:30:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Yellow' Length='0.0' StartTime='09:15:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Pink' Length='0.0' StartTime='09:00:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Gold' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Silver' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='359' Pos='1' Race='442'></Fin>
+				<Fin Ent='358' Pos='2' Race='442'></Fin>
+				<Fin Ent='357' Pos='3' Race='442'></Fin>
+				<Fin Ent='362' Pos='4' Race='442'></Fin>
+				<Fin Ent='360' Pos='5' Race='442'></Fin>
+				<Fin Ent='361' Pos='6' Race='442'></Fin>
+				<Fin Ent='363' Pos='7' Race='442'></Fin>
+				<Fin Ent='356' Pos='8' Race='442'></Fin>
+				<Fin Ent='354' Pos='9' Race='442'></Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='3' NonDiscardable='false' RaceId='443' StartDate='08-Dec-2009' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='J22' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Green' Length='0.0' StartTime='13:15:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Yellow' Length='0.0' StartTime='13:10:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Pink' Length='0.0' StartTime='13:05:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Gold' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Silver' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='358' Pos='1' Race='443'></Fin>
+				<Fin Ent='359' Pos='2' Race='443'></Fin>
+				<Fin Ent='357' Pos='3' Race='443'></Fin>
+				<Fin Ent='360' Pos='4' Race='443'></Fin>
+				<Fin Ent='362' Pos='5' Race='443'></Fin>
+				<Fin Ent='361' Pos='6' Race='443'></Fin>
+				<Fin Ent='356' Pos='7' Race='443'></Fin>
+				<Fin Ent='363' Pos='8' Race='443'></Fin>
+				<Fin Ent='354' Pos='9' Race='443'></Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='4' NonDiscardable='false' RaceId='444' StartDate='08-Dec-2009' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='J22' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Green' Length='0.0' StartTime='14:15:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Yellow' Length='0.0' StartTime='14:10:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Pink' Length='0.0' StartTime='14:05:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Gold' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Silver' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='357' Pos='1' Race='444'></Fin>
+				<Fin Ent='358' Pos='2' Race='444'></Fin>
+				<Fin Ent='361' Pos='3' Race='444'></Fin>
+				<Fin Ent='359' Pos='4' Race='444'>
+					<Penalty Penalty='DSQ'></Penalty>
+				</Fin>
+				<Fin Ent='363' Pos='5' Race='444'></Fin>
+				<Fin Ent='362' Pos='6' Race='444'></Fin>
+				<Fin Ent='356' Pos='7' Race='444'></Fin>
+				<Fin Ent='360' Pos='8' Race='444'></Fin>
+				<Fin Ent='354' Pos='9' Race='444'></Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='5' NonDiscardable='false' RaceId='445' StartDate='08-Dec-2009' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='J22' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Green' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Yellow' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Pink' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Gold' Length='0.0' StartTime='16:00:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Silver' Length='0.0' StartTime='16:05:00.0' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='354' Pos='1' Race='445'></Fin>
+				<Fin Ent='360' Pos='2' Race='445'></Fin>
+				<Fin Ent='358' Pos='3' Race='445'></Fin>
+				<Fin Ent='359' Pos='4' Race='445'></Fin>
+				<Fin Ent='356' Pos='5' Race='445'></Fin>
+				<Fin Ent='361' Pos='6' Race='445'></Fin>
+				<Fin Ent='362' Pos='7' Race='445'></Fin>
+				<Fin Ent='357' Pos='8' Race='445'></Fin>
+				<Fin Ent='363' Pos='9' Race='445'></Fin>
+			</FinishList>
+		</Race>
+		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='6' NonDiscardable='false' RaceId='446' StartDate='08-Dec-2009' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='J22' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Green' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Yellow' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Pink' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='Gold' Length='0.0' StartTime='16:30:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Silver' Length='0.0' StartTime='16:35:00.0' isRacing='true' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='356' Pos='1' Race='446'></Fin>
+				<Fin Ent='360' Pos='2' Race='446'></Fin>
+				<Fin Ent='354' Pos='3' Race='446'></Fin>
+				<Fin Ent='359' Pos='4' Race='446'></Fin>
+				<Fin Ent='363' Pos='5' Race='446'></Fin>
+				<Fin Ent='362' Pos='6' Race='446'></Fin>
+				<Fin Ent='361' Pos='7' Race='446'></Fin>
+				<Fin Ent='358' Pos='8' Race='446'>
+					<Penalty Penalty='RET'></Penalty>
+				</Fin>
+				<Fin Ent='357' Pos='DNS' Race='446'>
+					<Penalty Penalty='DNS'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+	</RaceList>
+	<Scores>
+		<Stage CombinedQualifying='false' Name='Gold' ScoreCarryOver='ALL' StageId='2' StageRank='3' SystemName='ISAF Low Point 2013-2016' ThrowoutCarryOver='ALL' TiebreakCarryOver='ALL'>
+			<Divisions>
+				<DivisionId>Gold</DivisionId>
+			</Divisions>
+			<System CheckinPercent='20' EntriesLargestDivision='false' FirstPlacePoints='1.0' LongSeries='false' Throwout1='2' Throwout2='0' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='0' tiebreaker='1'></System>
+			<RacePointsList>
+				<rp Div='Gold' Ent='358' Pos='1' Pts='1.0' Race='445'></rp>
+				<rp Div='Gold' Ent='359' Pos='2' Pts='2.0' Race='445' Toss='true'></rp>
+				<rp Div='Gold' Ent='356' Pos='3' Pts='3.0' Race='445' Toss='true'></rp>
+				<rp Div='Gold' Ent='362' Pos='4' Pts='4.0' Race='445' Toss='true'></rp>
+				<rp Div='Gold' Ent='356' Pos='1' Pts='1.0' Race='446'></rp>
+				<rp Div='Gold' Ent='359' Pos='2' Pts='2.0' Race='446'></rp>
+				<rp Div='Gold' Ent='362' Pos='3' Pts='3.0' Race='446'></rp>
+				<rp Div='Gold' Ent='358' Pos='4' Pts='5.0' Race='446' Toss='true'></rp>
+			</RacePointsList>
+			<SeriesPointsList>
+				<sp Div='Gold' Ent='356' Pos='1' Pts='1.0'></sp>
+				<sp Div='Gold' Ent='358' Pos='2' Pts='1.0001'></sp>
+				<sp Div='Gold' Ent='359' Pos='3' Pts='2.0'></sp>
+				<sp Div='Gold' Ent='362' Pos='4' Pts='3.0'></sp>
+			</SeriesPointsList>
+		</Stage>
+		<Stage CombinedQualifying='false' Name='Silver' ScoreCarryOver='ALL' StageId='3' StageRank='2' SystemName='ISAF Low Point 2013-2016' ThrowoutCarryOver='ALL' TiebreakCarryOver='ALL'>
+			<Divisions>
+				<DivisionId>Silver</DivisionId>
+			</Divisions>
+			<System CheckinPercent='20' EntriesLargestDivision='true' FirstPlacePoints='1.0' LongSeries='false' Throwout1='2' Throwout2='0' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='0' tiebreaker='1'></System>
+			<RacePointsList>
+				<rp Div='Silver' Ent='354' Pos='1' Pts='1.0' Race='445'></rp>
+				<rp Div='Silver' Ent='360' Pos='2' Pts='2.0' Race='445' Toss='true'></rp>
+				<rp Div='Silver' Ent='361' Pos='3' Pts='3.0' Race='445'></rp>
+				<rp Div='Silver' Ent='357' Pos='4' Pts='4.0' Race='445'></rp>
+				<rp Div='Silver' Ent='363' Pos='5' Pts='5.0' Race='445' Toss='true'></rp>
+				<rp Div='Silver' Ent='360' Pos='1' Pts='1.0' Race='446'></rp>
+				<rp Div='Silver' Ent='354' Pos='2' Pts='2.0' Race='446' Toss='true'></rp>
+				<rp Div='Silver' Ent='363' Pos='3' Pts='3.0' Race='446'></rp>
+				<rp Div='Silver' Ent='361' Pos='4' Pts='4.0' Race='446' Toss='true'></rp>
+				<rp Div='Silver' Ent='357' Pos='40960' Pts='6.0' Race='446' Toss='true'></rp>
+			</RacePointsList>
+			<SeriesPointsList>
+				<sp Div='Silver' Ent='360' Pos='1' Pts='1.0'></sp>
+				<sp Div='Silver' Ent='354' Pos='2' Pts='1.0001'></sp>
+				<sp Div='Silver' Ent='363' Pos='3' Pts='3.0'></sp>
+				<sp Div='Silver' Ent='361' Pos='4' Pts='3.0001'></sp>
+				<sp Div='Silver' Ent='357' Pos='5' Pts='4.0'></sp>
+			</SeriesPointsList>
+		</Stage>
+		<Stage CombinedQualifying='true' Name='Qualifying' ScoreCarryOver='ALL' StageId='4' StageRank='1' SystemName='ISAF Low Point 2013-2016' ThrowoutCarryOver='ALL' TiebreakCarryOver='ALL'>
+			<Divisions>
+				<DivisionId>Green</DivisionId>
+				<DivisionId>Pink</DivisionId>
+				<DivisionId>Yellow</DivisionId>
+			</Divisions>
+			<System CheckinPercent='20' EntriesLargestDivision='false' FirstPlacePoints='1.0' LongSeries='false' Throwout1='2' Throwout2='0' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='0' tiebreaker='1'></System>
+			<RacePointsList>
+				<rp Div='Green' Ent='354' Pos='1' Pts='3.0' Race='439' Toss='true'></rp>
+				<rp Div='Green' Ent='356' Pos='2' Pts='1.0' Race='439' Toss='true'></rp>
+				<rp Div='Pink' Ent='359' Pos='1' Pts='1.0' Race='439'></rp>
+				<rp Div='Pink' Ent='358' Pos='2' Pts='2.0' Race='439' Toss='true'></rp>
+				<rp Div='Pink' Ent='357' Pos='32768' Pts='4.0' Race='439' Toss='true'></rp>
+				<rp Div='Yellow' Ent='362' Pos='1' Pts='1.0' Race='439'></rp>
+				<rp Div='Yellow' Ent='361' Pos='2' Pts='2.0' Race='439'></rp>
+				<rp Div='Yellow' Ent='363' Pos='3' Pts='3.0' Race='439'></rp>
+				<rp Div='Yellow' Ent='360' Pos='49152' Pts='5.0' Race='439' Toss='true'></rp>
+				<rp Div='Green' Ent='356' Pos='1' Pts='1.0' Race='442'></rp>
+				<rp Div='Green' Ent='354' Pos='2' Pts='2.0' Race='442'></rp>
+				<rp Div='Yellow' Ent='362' Pos='1' Pts='1.0' Race='442'></rp>
+				<rp Div='Yellow' Ent='360' Pos='2' Pts='2.0' Race='442'></rp>
+				<rp Div='Yellow' Ent='361' Pos='3' Pts='3.0' Race='442' Toss='true'></rp>
+				<rp Div='Yellow' Ent='363' Pos='4' Pts='4.0' Race='442' Toss='true'></rp>
+				<rp Div='Pink' Ent='359' Pos='1' Pts='1.0' Race='442'></rp>
+				<rp Div='Pink' Ent='358' Pos='2' Pts='2.0' Race='442'></rp>
+				<rp Div='Pink' Ent='357' Pos='3' Pts='3.0' Race='442'></rp>
+				<rp Div='Green' Ent='356' Pos='1' Pts='1.0' Race='443'></rp>
+				<rp Div='Green' Ent='354' Pos='2' Pts='2.0' Race='443'></rp>
+				<rp Div='Yellow' Ent='360' Pos='1' Pts='1.0' Race='443'></rp>
+				<rp Div='Yellow' Ent='362' Pos='2' Pts='2.0' Race='443'></rp>
+				<rp Div='Yellow' Ent='361' Pos='3' Pts='3.0' Race='443'></rp>
+				<rp Div='Yellow' Ent='363' Pos='4' Pts='4.0' Race='443'></rp>
+				<rp Div='Pink' Ent='358' Pos='1' Pts='1.0' Race='443'></rp>
+				<rp Div='Pink' Ent='359' Pos='2' Pts='2.0' Race='443'></rp>
+				<rp Div='Pink' Ent='357' Pos='3' Pts='3.0' Race='443'></rp>
+				<rp Div='Green' Ent='356' Pos='1' Pts='1.0' Race='444'></rp>
+				<rp Div='Green' Ent='354' Pos='2' Pts='2.0' Race='444'></rp>
+				<rp Div='Yellow' Ent='361' Pos='1' Pts='1.0' Race='444'></rp>
+				<rp Div='Yellow' Ent='363' Pos='2' Pts='2.0' Race='444'></rp>
+				<rp Div='Yellow' Ent='362' Pos='3' Pts='3.0' Race='444' Toss='true'></rp>
+				<rp Div='Yellow' Ent='360' Pos='4' Pts='4.0' Race='444'></rp>
+				<rp Div='Pink' Ent='357' Pos='1' Pts='1.0' Race='444'></rp>
+				<rp Div='Pink' Ent='358' Pos='2' Pts='2.0' Race='444'></rp>
+				<rp Div='Pink' Ent='359' Pos='3' Pts='4.0' Race='444' Toss='true'></rp>
+			</RacePointsList>
+			<SeriesPointsList>
+				<sp Div='J22' Ent='356' Pos='1' Pts='3.0'></sp>
+				<sp Div='J22' Ent='362' Pos='2' Pts='4.0'></sp>
+				<sp Div='J22' Ent='359' Pos='3' Pts='4.0001'></sp>
+				<sp Div='J22' Ent='358' Pos='4' Pts='5.0'></sp>
+				<sp Div='J22' Ent='361' Pos='5' Pts='6.0'></sp>
+				<sp Div='J22' Ent='354' Pos='6' Pts='6.0001'></sp>
+				<sp Div='J22' Ent='360' Pos='7' Pts='7.0'></sp>
+				<sp Div='J22' Ent='357' Pos='8' Pts='7.0001'></sp>
+				<sp Div='J22' Ent='363' Pos='9' Pts='9.0'></sp>
+			</SeriesPointsList>
+		</Stage>
+	</Scores>
+	<ReportOptionList>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='false' ShowLastXRaces='false' TabName='Series' Template=''>
+			<OptionLocations>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Race' Template=''>
+			<OptionLocations>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Entries' Template=''>
+			<OptionLocations>
+				<item value='1.2'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='3.1'></item>
+				<item value='none'></item>
+				<item value='4.1'></item>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='2' Show1DTimes='true' ShowLastXRaces='false' TabName='CheckIn' Template=''>
+			<OptionLocations>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='FinishSheet' Template=''>
+			<OptionLocations>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Proofing' Template=''>
+			<OptionLocations>
+				<item value='2.2'></item>
+				<item value='none'></item>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='3.1'></item>
+				<item value='3.2'></item>
+			</OptionLocations>
+		</Options>
+	</ReportOptionList>
+</Regatta>

@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>JavaScore Main Toolbar and Menu</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+
+<p><b>JavaScore</b><b> Main Toolbar and Menu</b></p>
+<p><a name="regatta"><b>Regatta</b> Button</a> - Brings up the
+regatta panel to allow you edit the overall regatta fields.&nbsp; If no regatta
+has been opened, the Open Regatta dialog automatically comes up.</p>
+<p><b><a name="entries"></a>Entries</b> Button - Brings up the entries panel to allow you to enter and
+edit the boats entered in the regatta (As of release 0.01, all boats must be
+one-design and are in the same division)</p>
+<p><b><a name="races"></a>Races</b> Button - Brings up the races panel to allow you to define or
+edit races, and enter finishes</p>
+<p><b><a name="file"></a>File</b> Menu - items related to saving and reading files from disk</p>
+<ul>
+  <li><b>New Regatta</b> - creates a new regatta and brings up the regatta panel</li>
+  <li><b>Save Regatta</b> - saves the current regatta to disk</li>
+  <li><b>Save Regatta As</b> - saves the current regatta to disk allowing you to set a
+    new file name</li>
+  <li><b>Import Regatta</b> - provides an import capability from Excel via the
+    &quot;clipboard&quot;.&nbsp; Click <a href="DialogImportTable.html">here</a>
+    for more details.</li>
+  <li><b>Restore Regatta</b> - when you open a regatta, or explicitly save it, I create
+    an &quot;backup&quot; version called .regatta~ (you may have seen these
+    cluttering up your directory.&nbsp; If you ask to Restore, I'll discard the
+    current regatta entirely and reload from the backup.</li>
+  <li><b>Preferences Panel</b> - Allows you to modify the overall program preferences.
+    Click <a href="PanelPreferences.html">here</a> for more details</li>
+  <li><b>Exit</b> - exits JavaScore</li>
+</ul>
+<p>Speaking of <b>saving regattas</b>, the following scheme is used to keep you
+from losing your information:</p>
+<blockquote>
+  <ul>
+    <li>when you create a regatta, I give it a temporary file name until you do your first explicit save</li>
+    <li>when a regatta is opened or created, a &quot;backup&quot; of the regatta
+      with the extensions '.regatta~' is created.&nbsp; The contents of this
+      backup are not touched until you either: explicitly save the regatta, or
+      you open the regatta again JavaScore .</li>
+    <li>Whenever you exit out of the Regatta form, the Entries form, or the
+      Races form, I automatically save the regatta (under the .regatta name, the
+      backup is left untouched).</li>
+    <li>When you explicitly Save the regatta, I delete the old backup version
+      and create a new one with the just saved regatta.</li>
+    <li>When you open a previously saved regatta, I delete the old backup file
+      (if any) and create a new one.</li>
+    <li>If you RESTORE the regatta, I dump the current regatta and reload the
+      latest &quot;regatta~&quot; regatta.</li>
+    <li>Reports are re-generated whenever the regatta is saved, whether JavaScore
+      does in automatically, or you explicitly save the regatta, or you go to
+      view the regatta's reports.&nbsp;&nbsp; This is probably overkill, but it
+      should make it very difficult for the reports to get out of synch with the
+      regatta file (unless you have manually renamed a backup 'regatta~'&nbsp;
+      but since re-opened the regatta and given JavaScore a chance to update the
+      reports)</li>
+  </ul>
+</blockquote>
+
+<p><b><a name="reports"></a>Reports</b> Menu -&nbsp;</p>
+<ul>
+  <li><b>Show Reports</b> - Brings a browser to display reports.&nbsp; The
+    program will, by default, try to use the default browser you have set on
+    your computer.&nbsp; If this doesn't work, or you want to use something
+    different, use the Preferences panel under the&nbsp; File menu to change
+    it.&nbsp; Use the browser's capabilities to print reports.</li>
+  <li><b>Report Options</b> - Allows you to set the various options that control
+    formatting of the reports. For more details, click <a href="PanelReportOptions.html">here</a>.</li>
+</ul>
+<p><b><a name="master"></a>Master Files</b> Menu - not yet implemented, will provide access to master
+database of boats and of divisions</p>
+<p><b><a name="help"></a>Help</b> menu - provides the ability to bring up the help system, and the
+about menu</p>
+
+</body>
+
+</html>

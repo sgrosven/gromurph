@@ -1,0 +1,29 @@
+<?xml  version='1.0' encoding='ISO-8859-1' ?>
+
+
+<toc version="2.0">
+<tocitem text="JavaScore Help Contents" target="top">
+
+   <tocitem text="General Information">
+   	<tocitem text="Release Notes" target="releaseNotes" />
+   	<tocitem text="Development Schedule" target="development" />
+   	<tocitem text="Introduction to Scoring Regattas" target="general.intro" />
+   </tocitem>
+
+   <tocitem text="JavaScore Panels">
+	<tocitem text="Main Toolbar and Menus" target="main" />
+	<tocitem text="Preferences" target="prefs" />
+	<tocitem text="Regatta Panel" target="regatta" />
+ 	<tocitem text="Low Point Scoring Panel" target="lowpoint" />
+ 	<tocitem text="Fleets" target="fleets" />
+ 	<tocitem text="Subdivisions" target="subdivisions" />
+	<tocitem text="Entry Panel" target="entries" />
+	<tocitem text="Race Panel" target="race" />
+ 	<tocitem text="Finish Panel" target="finish" />
+ 	<tocitem text="Penalty Panel" target="penalty" />
+ 	<tocitem text="Importing Data" target="import" />
+ 	<tocitem text="Report Options" target="report" />
+   </tocitem>
+
+</tocitem>
+</toc>

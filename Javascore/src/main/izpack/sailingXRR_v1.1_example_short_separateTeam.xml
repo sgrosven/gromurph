@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SailingXRR Type="SailingXRR" Version="1.0" Date="20080821" Time="145612000" 
+		xsi:noNamespaceSchemaLocation="sailingXRR_v1.1.xsd" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<PersonList>
+		<Person PersonID="aaabb1" FamilyName="Bergmans" GivenName="Patrick" NOC="BEL" IFPersonID="aaabb1"/>
+	</PersonList>
+	<BoatList>
+		<Boat BoatID="b001" SailNumber="XXXX" BoatName="XXXX"/>
+	</BoatList>
+	<RaceList>
+		<Race RaceID="r001" RaceNumber="1" RaceName="xxxx" RaceStartDate="01-jan-2000" RaceStartTime="12:00:00" />
+		<Race RaceID="r002" RaceNumber="2" RaceName="xxxx" RaceStartDate="01-jan-2000" RaceStartTime="14:00:00" RaceStatus="Final"/>
+	</RaceList>
+	<TeamList>
+		<Team TeamID="t001"  NOC="GBR" TeamName="xxx" Gender="M">
+			<CrewList>
+				<Crew PersonID="aaabb1" Position="S"/>
+			</CrewList>
+		</Team>
+	</TeamList>
+	<EventList>
+		<Event EventID="e01" Title="Sail Sydney 2008" IFEventID="12345">
+			<DivisionList>
+				<Division DivisionID="d01" Title="470 Men" IFClassID="470" Gender="M">
+					<EntryList>
+						<Entry TeamID="t001" BoatID="b001">
+							<Result TotalPoints="58" NetPoints="45" Rank="1">
+								<RacePointsList>
+									<RacePoints RaceID="r001" RacePoints="2"/>
+									<RacePoints RaceID="r002" RacePoints="8" Discard="true" ScoreCode="DNF"/>
+								</RacePointsList>
+							</Result>
+						</Entry>
+					</EntryList>
+				</Division>
+			</DivisionList>
+		</Event>
+	</EventList>
+</SailingXRR>
+							

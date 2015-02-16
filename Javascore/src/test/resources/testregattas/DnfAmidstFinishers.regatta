@@ -1,0 +1,207 @@
+<?xml version='1.0'?>
+
+<Regatta Dates='' Final='false' HostClub='' JSVersion='4.3.1' JuryChair='' Name='Dnf  Amidst Finishers' Pro='' SplitFleet='false' UseBowNumbers='false' Version='420'>
+	<DivisionList>
+		<Division DivName='PHRF B'>
+			<MinRating System='PHRF' Value='-9999.0'></MinRating>
+			<MaxRating System='PHRF' Value='9999.0'></MaxRating>
+		</Division>
+	</DivisionList>
+	<EntryList>
+		<Entry Bow='' Club='MCYC' Division='PHRF B' EntryId='1647'>
+			<Boat BoatName='STAR DUST' SailId='84'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating System='PHRF' Value='171.0'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='FRITZ' LastName='BALLIS' SailorId=''></Skipper>
+			<CrewList>
+				<Crew FirstName='' LastName='' SailorId=''></Crew>
+			</CrewList>
+		</Entry>
+		<Entry Bow='' Club='MCYC' Division='PHRF B' EntryId='1642'>
+			<Boat BoatName='THE BEST OF TIMES' SailId='101'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating System='PHRF' Value='219.0'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='DENNIS' LastName='RAFTERY' SailorId=''></Skipper>
+			<CrewList>
+				<Crew FirstName='' LastName='' SailorId=''></Crew>
+			</CrewList>
+		</Entry>
+		<Entry Bow='' Club='TRYC' Division='PHRF B' EntryId='1059'>
+			<Boat BoatName='PHOENIX' SailId='407'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating System='PHRF' Value='132.0'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='GARY' LastName='PUCO' SailorId=''></Skipper>
+			<CrewList>
+				<Crew FirstName='' LastName='' SailorId=''></Crew>
+			</CrewList>
+		</Entry>
+		<Entry Bow='' Club='MCYC' Division='PHRF B' EntryId='1060'>
+			<Boat BoatName='NORTH STAR' SailId='585'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating System='PHRF' Value='183.0'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='DAVE' LastName='SLEYS' SailorId=''></Skipper>
+			<CrewList>
+				<Crew FirstName='' LastName='' SailorId=''></Crew>
+			</CrewList>
+		</Entry>
+		<Entry Bow='' Club='MCYC' Division='PHRF B' EntryId='1061'>
+			<Boat BoatName='IRISH MIST' SailId='1940'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating System='PHRF' Value='93.0'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='BILL' LastName='KENNEDY' SailorId=''></Skipper>
+			<CrewList>
+				<Crew FirstName='' LastName='' SailorId=''></Crew>
+			</CrewList>
+		</Entry>
+		<Entry Bow='' Club='MCYC' Division='PHRF B' EntryId='1698'>
+			<Boat BoatName='CYMOTHOE*' SailId='51362'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating System='PHRF' Value='132.0'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='DAVE' LastName='ALLDIAN' SailorId=''></Skipper>
+			<CrewList>
+				<Crew FirstName='' LastName='' SailorId=''></Crew>
+			</CrewList>
+		</Entry>
+		<Entry Bow='' Club='MCYC' Division='PHRF B' EntryId='1069'>
+			<Boat BoatName='THE BIG GRIN' SailId='51652'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating System='PHRF' Value='132.0'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='RICK' LastName='EYTEL' SailorId=''></Skipper>
+			<CrewList>
+				<Crew FirstName='' LastName='' SailorId=''></Crew>
+			</CrewList>
+		</Entry>
+	</EntryList>
+	<FleetList></FleetList>
+	<SubDivisionList></SubDivisionList>
+	<RaceList>
+		<Race BFactor='550' Comment='' LongDistance='false' Name='1' RaceId='1' StartDate='14-Jun-2005'>
+			<DivInfo>
+				<DivStart Div='PHRF A' Length='4.2' StartTime='18:26:00.0' isRacing='true'></DivStart>
+				<DivStart Div='&lt;none&gt;' Length='0.0' StartTime='No Time' isRacing='true'></DivStart>
+				<DivStart Div='PHRF C' Length='1.8' StartTime='18:38:00.0' isRacing='true'></DivStart>
+				<DivStart Div=' SPORT BOATS' Length='5.4' StartTime='18:20:00.0' isRacing='true'></DivStart>
+				<DivStart Div='PHRF B' Length='3.0' StartTime='18:32:00.0' isRacing='true'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='1061' Pos='1' Race='1' Time='19:17:59.0'></Fin>
+				<Fin Ent='1647' Pos='2' Race='1'></Fin>
+				<Fin Ent='1060' Pos='3' Race='1' Time='19:21:53.0'></Fin>
+				<Fin Ent='1642' Pos='4' Race='1'>
+					<Penalty Penalty='DNF'></Penalty>
+				</Fin>
+				<Fin Ent='1069' Pos='5' Race='1' Time='19:17:18.0'></Fin>
+				<Fin Ent='1059' Pos='DNF' Race='1' Time='19:19:30.0'>
+					<Penalty Penalty='DNF'></Penalty>
+				</Fin>
+				<Fin Ent='1698' Pos='DNC' Race='1'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+	</RaceList>
+	<Scores SystemName='ISAF Low Point 2005-2008'>
+		<System CheckinPercent='20' LongSeries='true' Throwout1='5' Throwout2='6' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='2'></System>
+		<RacePointsList>
+			<rp Div='PHRF B' Ent='1642' Pos='1' Pts='7.0' Race='1'></rp>
+			<rp Div='PHRF B' Ent='1647' Pos='2' Pts='2.0' Race='1'></rp>
+			<rp Div='PHRF B' Ent='1698' Pos='49152' Pts='8.0' Race='1'></rp>
+			<rp Div='PHRF B' Ent='1069' Pos='4' Pts='3.0' Race='1'></rp>
+			<rp Div='PHRF B' Ent='1060' Pos='5' Pts='4.0' Race='1'></rp>
+			<rp Div='PHRF B' Ent='1059' Pos='32768' Pts='7.0' Race='1'></rp>
+			<rp Div='PHRF B' Ent='1061' Pos='7' Pts='5.0' Race='1'></rp>
+		</RacePointsList>
+		<SeriesPointsList>
+			<sp Div='PHRF B' Ent='1647' Pos='1' Pts='2.0'></sp>
+			<sp Div='PHRF B' Ent='1069' Pos='2' Pts='3.0'></sp>
+			<sp Div='PHRF B' Ent='1060' Pos='3' Pts='4.0'></sp>
+			<sp Div='PHRF B' Ent='1061' Pos='4' Pts='5.0'></sp>
+			<sp Div='PHRF B' Ent='1642' Pos='5' Pts='7.0' Tied='true'></sp>
+			<sp Div='PHRF B' Ent='1059' Pos='5' Pts='7.0' Tied='true'></sp>
+			<sp Div='PHRF B' Ent='1698' Pos='7' Pts='8.0'></sp>
+		</SeriesPointsList>
+	</Scores>
+	<Options FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Proofing' Template=''>
+		<OptionLocations>
+			<item value='2.1'></item>
+			<item value='none'></item>
+			<item value='1.1'></item>
+			<item value='none'></item>
+			<item value='none'></item>
+			<item value='none'></item>
+			<item value='none'></item>
+			<item value='none'></item>
+		</OptionLocations>
+		<OptionLocations>
+			<item value='2.1'></item>
+			<item value='None'></item>
+			<item value='1.1'></item>
+			<item value='None'></item>
+			<item value='None'></item>
+			<item value='None'></item>
+			<item value='3.1'></item>
+			<item value='None'></item>
+		</OptionLocations>
+		<OptionLocations>
+			<item value='1.2'></item>
+			<item value='None'></item>
+			<item value='1.1'></item>
+			<item value='3.1'></item>
+			<item value='None'></item>
+			<item value='None'></item>
+			<item value='2.1'></item>
+			<item value='None'></item>
+		</OptionLocations>
+		<OptionLocations>
+			<item value='None'></item>
+			<item value='None'></item>
+			<item value='1.1'></item>
+			<item value='None'></item>
+			<item value='None'></item>
+			<item value='None'></item>
+			<item value='None'></item>
+			<item value='None'></item>
+		</OptionLocations>
+		<OptionLocations>
+			<item value='None'></item>
+			<item value='None'></item>
+			<item value='1.1'></item>
+			<item value='None'></item>
+			<item value='None'></item>
+			<item value='None'></item>
+			<item value='None'></item>
+			<item value='None'></item>
+		</OptionLocations>
+		<OptionLocations>
+			<item value='2.1'></item>
+			<item value='None'></item>
+			<item value='1.1'></item>
+			<item value='3.2'></item>
+			<item value='None'></item>
+			<item value='3.1'></item>
+			<item value='None'></item>
+			<item value='None'></item>
+		</OptionLocations>
+	</Options>
+</Regatta>

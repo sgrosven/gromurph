@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<shortcuts>
+
+  <programGroup defaultName="JavaScore 7.2.2" location="applications"/>
+  
+  <shortcut
+     name="Javascore 7.2.2"
+     programGroup="yes"
+     desktop="yes"
+     applications="no"
+     startMenu="yes"
+     startup="no"
+     target="$INSTALL_PATH\JavaScore.jar"  
+     workingDirectory="$INSTALL_PATH"   
+     commandLine=""
+	 iconFile="$INSTALL_PATH\js32.ico" 
+     description="Runs Javascore 7.2.2">
+     
+     <createForPack name="Base" />
+     
+   </shortcut>
+   
+</shortcuts>

@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Regatta Dates='' Final='false' HostClub='QAYC' IFEventID='' JSVersion='7.1.2' JuryChair='' Multistage='true' Name='Tester' Pro='' UseBowNumbers='false' Version='600'>
+	<DivisionList>
+		<Division DivName='J24' Gender='Open'>
+			<MinRating ClassName='J24' System='OneDesign'></MinRating>
+			<MaxRating ClassName='J24' System='OneDesign'></MaxRating>
+		</Division>
+	</DivisionList>
+	<EntryList>
+		<Entry Bow='' Division='J24' EntryId='11'>
+			<Boat BoatName='g1' SailId='g 1'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J24' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J24' EntryId='15'>
+			<Boat BoatName='o1' SailId='o 1'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J24' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J24' EntryId='18'>
+			<Boat BoatName='p1' SailId='p 1'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J24' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J24' EntryId='21'>
+			<Boat BoatName='y1' SailId='y 1'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J24' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J24' EntryId='14'>
+			<Boat BoatName='g2' SailId='g 2'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J24' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J24' EntryId='16'>
+			<Boat BoatName='o2' SailId='o 2'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J24' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J24' EntryId='19'>
+			<Boat BoatName='p2' SailId='p 2'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J24' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J24' EntryId='86'>
+			<Boat BoatName='y2' SailId='y 2'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J24' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J24' EntryId='17'>
+			<Boat BoatName='g3' SailId='g 3'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J24' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J24' EntryId='13'>
+			<Boat BoatName='o3' SailId='o 3'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J24' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J24' EntryId='20'>
+			<Boat BoatName='p3' SailId='p 3'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J24' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J24' EntryId='89'>
+			<Boat BoatName='y3' SailId='y 3'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J24' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+		<Entry Bow='' Division='J24' EntryId='91'>
+			<Boat BoatName='y4' SailId='y 4'>
+				<Owner FirstName='' LastName='' SailorId=''></Owner>
+				<RatingList>
+					<Rating ClassName='J24' System='OneDesign'></Rating>
+				</RatingList>
+			</Boat>
+			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
+			<CrewList></CrewList>
+		</Entry>
+	</EntryList>
+	<SubDivisionList>
+		<SubDivision DivName='Green' Gender='Open' Group='Qual' LastSplit='true' Monopoly='true' Parent='J24' ParentType='Division' ScoreSeparately='false' addOn='0.0'>
+			<EntryList>
+				<Entry Id='11'></Entry>
+				<Entry Id='14'></Entry>
+				<Entry Id='17'></Entry>
+			</EntryList>
+		</SubDivision>
+		<SubDivision DivName='Orange' Gender='Open' Group='Qual' LastSplit='true' Monopoly='true' Parent='J24' ParentType='Division' ScoreSeparately='false' addOn='0.0'>
+			<EntryList>
+				<Entry Id='15'></Entry>
+				<Entry Id='16'></Entry>
+				<Entry Id='13'></Entry>
+			</EntryList>
+		</SubDivision>
+		<SubDivision DivName='Pink' Gender='Open' Group='Qual' LastSplit='true' Monopoly='true' Parent='J24' ParentType='Division' ScoreSeparately='false' addOn='0.0'>
+			<EntryList>
+				<Entry Id='18'></Entry>
+				<Entry Id='19'></Entry>
+				<Entry Id='20'></Entry>
+			</EntryList>
+		</SubDivision>
+		<SubDivision DivName='Yellow' Gender='Open' Group='Qual' LastSplit='true' Monopoly='true' Parent='J24' ParentType='Division' ScoreSeparately='false' addOn='0.0'>
+			<EntryList>
+				<Entry Id='21'></Entry>
+				<Entry Id='86'></Entry>
+				<Entry Id='89'></Entry>
+				<Entry Id='91'></Entry>
+			</EntryList>
+		</SubDivision>
+	</SubDivisionList>
+	<RaceList>
+		<Race AFactor='625' BFactor='625' Comment='' LongDistance='false' MedalRace='false' Name='1' NonDiscardable='false' RaceId='1' StartDate='07-Feb-2002' Weight='1.0'>
+			<DivInfo>
+				<DivStart Div='Green' Length='0.0' StartTime='01:00:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Yellow' Length='0.0' StartTime='01:00:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Orange' Length='0.0' StartTime='01:10:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='Pink' Length='0.0' StartTime='01:10:00.0' isRacing='true' nextDay='false'></DivStart>
+				<DivStart Div='&lt;no name&gt;' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='J24' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='J24 Fleet' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='J24 green' Length='2.0' StartTime='01:00:00.0' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='J24 orange' Length='2.0' StartTime='01:10:00.0' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='J24 pink' Length='2.0' StartTime='01:10:00.0' isRacing='false' nextDay='false'></DivStart>
+				<DivStart Div='J24 yellow' Length='2.0' StartTime='01:00:00.0' isRacing='false' nextDay='false'></DivStart>
+			</DivInfo>
+			<FinishList>
+				<Fin Ent='21' Pos='1' Race='1'></Fin>
+				<Fin Ent='86' Pos='2' Race='1'></Fin>
+				<Fin Ent='89' Pos='3' Race='1'></Fin>
+				<Fin Ent='11' Pos='4' Race='1'></Fin>
+				<Fin Ent='14' Pos='5' Race='1'></Fin>
+				<Fin Ent='15' Pos='6' Race='1'></Fin>
+				<Fin Ent='17' Pos='7' Race='1'></Fin>
+				<Fin Ent='18' Pos='8' Race='1'></Fin>
+				<Fin Ent='16' Pos='9' Race='1'></Fin>
+				<Fin Ent='19' Pos='10' Race='1'></Fin>
+				<Fin Ent='13' Pos='11' Race='1'>
+					<Penalty Penalty='DSQ'></Penalty>
+				</Fin>
+				<Fin Ent='20' Pos='12' Race='1'></Fin>
+				<Fin Ent='91' Pos='DNC' Race='1'>
+					<Penalty Penalty='DNC'></Penalty>
+				</Fin>
+			</FinishList>
+		</Race>
+	</RaceList>
+	<Scores>
+		<Stage CombinedQualifying='true' Name='Fleet' ScoreCarryOver='ALL' StageId='1' StageRank='1' SystemName='ISAF Low Point 2013-2016' ThrowoutCarryOver='ALL' TiebreakCarryOver='ALL'>
+			<Divisions>
+				<DivisionId>Orange</DivisionId>
+				<DivisionId>Yellow</DivisionId>
+				<DivisionId>Pink</DivisionId>
+				<DivisionId>Green</DivisionId>
+			</Divisions>
+			<System CheckinPercent='20' EntriesLargestDivision='false' FirstPlacePoints='1.0' LongSeries='false' Throwout1='2' Throwout2='0' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='0' tiebreaker='1'></System>
+			<RacePointsList>
+				<rp Div='Yellow' Ent='21' Pos='1' Pts='1.0' Race='1'></rp>
+				<rp Div='Yellow' Ent='86' Pos='2' Pts='2.0' Race='1'></rp>
+				<rp Div='Yellow' Ent='89' Pos='3' Pts='3.0' Race='1'></rp>
+				<rp Div='Green' Ent='11' Pos='4' Pts='4.0' Race='1'></rp>
+				<rp Div='Green' Ent='14' Pos='5' Pts='5.0' Race='1'></rp>
+				<rp Div='Green' Ent='17' Pos='6' Pts='6.0' Race='1'></rp>
+				<rp Div='Yellow' Ent='91' Pos='49152' Pts='8.0' Race='1'></rp>
+				<rp Div='Orange' Ent='15' Pos='1' Pts='1.0' Race='1'></rp>
+				<rp Div='Pink' Ent='18' Pos='2' Pts='2.0' Race='1'></rp>
+				<rp Div='Orange' Ent='16' Pos='3' Pts='3.0' Race='1'></rp>
+				<rp Div='Pink' Ent='19' Pos='4' Pts='4.0' Race='1'></rp>
+				<rp Div='Orange' Ent='13' Pos='5' Pts='7.0' Race='1'></rp>
+				<rp Div='Pink' Ent='20' Pos='6' Pts='5.0' Race='1'></rp>
+			</RacePointsList>
+			<SeriesPointsList>
+				<sp Div='J24' Ent='21' Pos='1' Pts='1.0' Tied='true'></sp>
+				<sp Div='J24' Ent='15' Pos='1' Pts='1.0' Tied='true'></sp>
+				<sp Div='J24' Ent='86' Pos='3' Pts='2.0' Tied='true'></sp>
+				<sp Div='J24' Ent='18' Pos='3' Pts='2.0' Tied='true'></sp>
+				<sp Div='J24' Ent='89' Pos='5' Pts='3.0' Tied='true'></sp>
+				<sp Div='J24' Ent='16' Pos='5' Pts='3.0' Tied='true'></sp>
+				<sp Div='J24' Ent='11' Pos='7' Pts='4.0' Tied='true'></sp>
+				<sp Div='J24' Ent='19' Pos='7' Pts='4.0' Tied='true'></sp>
+				<sp Div='J24' Ent='14' Pos='9' Pts='5.0' Tied='true'></sp>
+				<sp Div='J24' Ent='20' Pos='9' Pts='5.0' Tied='true'></sp>
+				<sp Div='J24' Ent='17' Pos='11' Pts='6.0'></sp>
+				<sp Div='J24' Ent='13' Pos='12' Pts='7.0'></sp>
+				<sp Div='J24' Ent='91' Pos='13' Pts='8.0'></sp>
+			</SeriesPointsList>
+		</Stage>
+	</Scores>
+	<ReportOptionList>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Series' Template=''>
+			<OptionLocations>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Race' Template=''>
+			<OptionLocations>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Entries' Template=''>
+			<OptionLocations>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='3.1'></item>
+				<item value='none'></item>
+				<item value='4.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='2' Show1DTimes='true' ShowLastXRaces='false' TabName='CheckIn' Template=''>
+			<OptionLocations>
+				<item value='1.2'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='FinishSheet' Template=''>
+			<OptionLocations>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Proofing' Template=''>
+			<OptionLocations>
+				<item value='2.1'></item>
+				<item value='none'></item>
+				<item value='1.1'></item>
+				<item value='3.2'></item>
+				<item value='none'></item>
+				<item value='3.1'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+				<item value='none'></item>
+			</OptionLocations>
+		</Options>
+	</ReportOptionList>
+</Regatta>

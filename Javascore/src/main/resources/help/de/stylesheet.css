@@ -1,0 +1,159 @@
+/*
+=== File Prolog ==============================================================
+  This code was developed by NASA, Goddard Space Flight Center, Code 588
+  for the Science Goal Monitor (SGM) project.
+
+--- DISCLAIMER ---------------------------------------------------------------
+
+  This software is provided "as is" without any warranty of any kind, either
+  express, implied, or statutory, including, but not limited to, any
+  warranty that the software will conform to specification, any implied
+  warranties of merchantability, fitness for a particular purpose, and
+  freedom from infringement, and any warranty that the documentation will
+  conform to the program, or any warranty that the software will be error
+  free.
+
+  In no event shall NASA be liable for any damages, including, but not
+  limited to direct, indirect, special or consequential damages, arising out
+  of, resulting from, or in any way connected with this software, whether or
+  not based upon warranty, contract, tort or otherwise, whether or not
+  injury was sustained by persons or property or otherwise, and whether or
+  not loss was sustained from or arose out of the results of, or use of,
+  their software or services provided hereunder.
+
+=== End File Prolog ==========================================================
+*/
+
+body
+{ 
+	margin-left: 5%; 
+	margin-right: 5%; 
+	font-family: trebuchet ms, Arial, Helvetica
+}
+
+h1
+{
+	font-variant: small-caps
+}
+
+td.header
+{
+	background-image: url(images/header_background.jpg);
+	background-repeat: no-repeat;
+	background-color: #2F2F2F;
+	background-position: 0% 0%;
+	border-style: solid;
+	border-color: #666699;
+	border-width: 1px;
+	color: #FFFFFF;
+	padding: 0px 5px 0px 5px
+}
+
+/* Reusable panels which are meant to look like embedded windows
+   with title bars on them. */
+
+table.panel
+{
+}
+
+th.panel
+{
+	background-color: #A7B3DE;
+	padding: 0px 3px 0px 3px;
+	text-align: center
+}
+
+td.panel
+{
+	background-color: #EFEFEF;
+	border-style: solid;
+	border-color: #666699;
+	border-width: 1px;
+	padding: 0px
+}
+
+/* Customizations for the navigation command panel */
+
+table.panel#nav
+{
+	border-style: solid;
+	border-color: #666699;
+	border-width: 1px
+}
+
+td.panel#nav
+{
+	background-color: #FFFFFF;
+	border-style: none
+}
+
+/* Styles for the scenario list page */
+
+div.scenariotype
+{
+	font-weight: bold;
+	font-size: 150%
+}
+
+div.scenariosubtype
+{
+	font-style: italic
+}
+
+hr.scenariotype
+{
+	color: #A7B3DE
+}
+
+p.scenariobody
+{
+	padding-left: 2em
+}
+
+/* Horizontal separator within panel tables */
+
+th.separator
+{
+	border-top: thin dotted #666699;
+	padding: 0px 3px 0px 3px;
+	text-align: center
+}
+
+/* EntryField groups */
+
+table.entryGroup
+{
+	background-color: #EFEFEF;
+	border-style: dotted;
+	border-color: #9EACDE;
+	border-width: 1px;
+	padding: 0px
+}
+
+th.entryGroup
+{
+	background-color: #B3BDDE;
+	padding: 0px 3px 0px 3px;
+	text-align: left
+}
+
+/* Error Messages */
+
+table.error
+{
+	background-color: #FFDDDD;
+	border-style: solid;
+	border-color: red;
+	border-width: 2px;
+}
+
+div.errorHdg
+{
+	color: red;
+	font-weight: bold
+}
+
+div.errorMsg
+{
+	padding-left: 2em
+}

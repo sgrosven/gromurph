@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:simpleType name="CrewPositions">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="S">
+				<xsd:annotation>
+					<xsd:documentation>Skipper</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="Skipper">
+				<xsd:annotation>
+					<xsd:documentation>Skipper</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="C">
+				<xsd:annotation>
+					<xsd:documentation>Crew</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="Crew">
+				<xsd:annotation>
+					<xsd:documentation>Crew</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="Genders">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="Male">
+				<xsd:annotation>
+					<xsd:documentation>Male</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="Men">
+				<xsd:annotation>
+					<xsd:documentation>Male</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="M">
+				<xsd:annotation>
+					<xsd:documentation>Male</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="F">
+				<xsd:annotation>
+					<xsd:documentation>Female</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="Female">
+				<xsd:annotation>
+					<xsd:documentation>Female</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="W">
+				<xsd:annotation>
+					<xsd:documentation>Female</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="Women">
+				<xsd:annotation>
+					<xsd:documentation>Female</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="O">
+				<xsd:annotation>
+					<xsd:documentation>Open</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="Open">
+				<xsd:annotation>
+					<xsd:documentation>Open</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="WorldCupClassID">
+<!--IFClassIDs for the 2009 World Cup classes-->
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="470">
+				<xsd:annotation>
+					<xsd:documentation>International 470</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="49ER">
+				<xsd:annotation>
+					<xsd:documentation>49er</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="2.4mR">
+				<xsd:annotation>
+					<xsd:documentation>2.4 Metre</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="FINN">
+				<xsd:annotation>
+					<xsd:documentation>Finn</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="LSR">
+				<xsd:annotation>
+					<xsd:documentation>Laser Standard</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="LAR">
+				<xsd:annotation>
+					<xsd:documentation>Laser Radial</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="RSX">
+				<xsd:annotation>
+					<xsd:documentation>RS:X</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SKUD18">
+				<xsd:annotation>
+					<xsd:documentation>SKUD 18</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SONAR">
+				<xsd:annotation>
+					<xsd:documentation>Sonar</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="STR">
+				<xsd:annotation>
+					<xsd:documentation>Star</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="WMR">
+				<xsd:annotation>
+					<xsd:documentation>Womens Match Race</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="Person">
+		<xsd:attribute name="PersonID" type="xsd:string" use="required"/>
+		<xsd:attribute name="IFPersonID" type="xsd:string" use="required"/>
+		<xsd:attribute name="FamilyName" type="xsd:string" use="required"/>
+		<xsd:attribute name="GivenName" type="xsd:string" use="optional"/>
+		<xsd:attribute name="NOC" type="xsd:string" use="optional"/>
+		<xsd:attribute name="Gender" type="Genders" use="optional"/>
+	</xsd:complexType>
+	<xsd:complexType name="PersonList">
+		<xsd:sequence>
+			<xsd:element maxOccurs="unbounded" name="Person" type="Person"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Crew">
+			<xsd:attribute name="PersonID" type="xsd:string" use="required"/>
+			<xsd:attribute name="Position" type="CrewPositions" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="CrewList">
+		<xsd:sequence>
+			<xsd:element maxOccurs="unbounded" name="Crew" type="Crew"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Boat">
+		<xsd:attribute name="BoatID" type="xsd:string" use="required"/>
+		<xsd:attribute name="BoatName" type="xsd:string" use="optional"/>
+		<xsd:attribute name="SailNumber" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="BoatList">
+		<xsd:sequence>
+			<xsd:element maxOccurs="unbounded" name="Boat" type="Boat"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Division">
+		<xsd:choice>
+			<xsd:element name="EntryList" type="EntryList"/>
+		</xsd:choice>
+		<xsd:attribute name="DivisionID" type="xsd:string" use="required"/>
+		<xsd:attribute name="Title" type="xsd:string" use="required"/>
+		<xsd:attribute name="IFClassID" type="xsd:string" use="optional"/>
+		<xsd:attribute name="Gender" type="Genders" use="optional"/>
+	</xsd:complexType>
+	<xsd:complexType name="DivisionList">
+		<xsd:sequence>
+			<xsd:element maxOccurs="unbounded" name="Division" type="Division"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Entry">
+		<xsd:sequence>
+			<xsd:element name="Result" type="Result"/>
+		</xsd:sequence>
+		<xsd:attribute name="TeamID" type="xsd:string" />
+		<xsd:attribute name="BoatID" type="xsd:string"/>
+	</xsd:complexType>
+	<xsd:complexType name="EntryList">
+		<xsd:sequence>
+			<xsd:element maxOccurs="unbounded" name="Entry" type="Entry"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Team">
+		<xsd:sequence>
+			<xsd:element name="CrewList" type="CrewList"/>
+		</xsd:sequence>
+		<xsd:attribute name="TeamID" type="xsd:string" use="required"/>
+		<xsd:attribute name="NOC" type="xsd:string" use="optional"/>
+		<xsd:attribute name="TeamName" type="xsd:string" use="optional"/>
+		<xsd:attribute name="Gender" type="Genders" use="optional"/>
+	</xsd:complexType>
+
+	<xsd:complexType name="TeamList">
+		<xsd:sequence>
+			<xsd:element maxOccurs="unbounded" name="Team" type="Team"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Race">
+		<xsd:annotation>
+			<xsd:documentation> 
+				very preliminary, info about a single race within a regatta</xsd:documentation>
+		</xsd:annotation>
+		<xsd:attribute name="RaceID" type="xsd:string" use="required"/>
+		<xsd:attribute name="RaceNumber" type="xsd:positiveInteger" use="required"/>
+		<xsd:attribute name="RaceName" type="xsd:string" use="optional"/>
+		<xsd:attribute name="RaceStartDate" type="xsd:string" use="optional"/>
+		<xsd:attribute name="RaceStartTime" type="xsd:string" use="optional"/>
+		<xsd:attribute name="RaceStatus" type="xsd:string" use="optional"/>   
+	</xsd:complexType>
+	<xsd:complexType name="RaceList">
+		<xsd:sequence>
+			<xsd:element maxOccurs="unbounded" name="Race" type="Race"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="RacePoints">
+		<xsd:attribute name="RaceID" type="xsd:string" use="required"/>
+		<xsd:attribute name="RacePoints" type="xsd:decimal" use="required"/>
+		<xsd:attribute name="RaceRank" type="xsd:positiveInteger" use="optional"/>
+		<xsd:attribute default="false" name="Discard" type="xsd:boolean" use="optional"/>
+		<xsd:attribute default="" name="ScoreCode" type="xsd:string" use="optional"/>
+	</xsd:complexType>
+	<xsd:complexType name="RacePointsList">
+		<xsd:sequence>
+			<xsd:element maxOccurs="unbounded" name="RacePoints" type="RacePoints"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Result">
+		<xsd:choice>
+			<xsd:element name="RacePointsList" type="RacePointsList"/>
+		</xsd:choice>
+		<xsd:attribute name="NetPoints" type="xsd:decimal" use="required"/>
+		<xsd:attribute name="Rank" type="xsd:positiveInteger" use="required"/>
+		<xsd:attribute default="false" name="Tied" type="xsd:boolean" use="optional"/>
+		<xsd:attribute name="TotalPoints" type="xsd:decimal" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="Event">
+		<xsd:choice>
+			<xsd:element name="DivisionList" type="DivisionList"/>
+		</xsd:choice>
+		<xsd:attribute name="EventID" type="xsd:string" use="required"/>
+		<xsd:attribute name="IFEventID" type="xsd:string" use="required"/>
+		<xsd:attribute name="Title" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="EventList">
+		<xsd:sequence>
+			<xsd:element maxOccurs="unbounded" name="Event" type="Event"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:element name="SailingXRR">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded" minOccurs="1">
+				<xsd:element name="PersonList" type="PersonList"/>
+				<xsd:element name="BoatList" type="BoatList"/>
+				<xsd:element name="TeamList" type="TeamList"/>
+				<xsd:element name="RaceList" type="RaceList" />
+				<xsd:element name="EventList" type="EventList"/>
+			</xsd:choice>
+			<xsd:attribute name="Date" type="xsd:string" use="required"/>
+			<xsd:attribute name="Time" type="xsd:string" use="required"/>
+			<xsd:attribute name="Type" type="xsd:string" use="required"/>
+			<xsd:attribute name="Version" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

@@ -1,0 +1,78 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Java Score</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+
+<h2>Java Score - Import Dialog</h2>
+
+<p>There are now three separate dialogs for importing information: importing
+entry information, importing finishes, and importing mark roundings.&nbsp; All
+three dialogs work about the same.&nbsp; This file uses the importing entries
+screen as an example.</p>
+<p>This dialog lets you import regatta entries and finishes from an Excel
+spreadsheet.&nbsp; The spreadsheet in Excel show be arranged with each row being
+an entry and the columns being the information about the entry (skipper name,
+boat name, sail id, finishes if any, etc).&nbsp;&nbsp;here are the steps:</p>
+<p>(1) In Excel, select the rows you
+want to import to JavaScore.&nbsp; &quot;Copy&quot; this block of cells to your
+clipboard ( on the menu bar, Edit, Copy): </p>
+<p><img border="0" src="importexcel.gif" hspace="5" vspace="5" width="432" height="372"> </p>
+<p><a name="paste"></a>(2) Next go to the Import Dialog in JavaScore by selecting the menu item
+&quot;File&quot;, &quot;Import Regatta...&quot;.&nbsp; In that dialog click
+on the <b> Paste</b> button, and JavaScore will create a table of the data it finds on
+the clip board.</p>
+<p><a name="table"></a>(3) The screen will show you a left hand column full of
+&quot;choice boxes&quot; that lets you tell JavaScore what each
+field in the import should become in JavaScore.&nbsp;&nbsp; The next 3
+columns are the first 3 rows of your import data set. The following screen shot
+shows the pasted cells from Excel, with the first three variable names already
+set, and the &quot;Bow&quot; field about to be registered.</p>
+<p><a name="ok"></a>(4) Press the <b>OK</b> key, a new Regatta is created at the data from this table
+is used to populate the regatta.&nbsp;&nbsp;</p>
+<p><img border="0" src="importjs.gif" width="387" height="396"></p>
+
+<p>If there are any race results contained in the selected
+variable,&nbsp; new races will be create as necessary and populated with
+finishes.</p>
+<p>The <i> only</i> time Finish Points are saved is when it matches a RDR
+or MAN penalty.&nbsp; Otherwise the points will be overwritten when JavaScore
+turns around and does its own calculations.</p>
+
+<p>Note also, that if you import FinishPosition, that should be the position not
+necessarily the points assigned, and the penalty must be entered via a separate
+field.</p>
+
+<p>This is not terribly bullet proof yet.&nbsp; I strongly suggest that you
+ALWAYS include the Sail Id and Helmsman Last Name (at least) in the import.&nbsp;&nbsp;</p>
+
+<p>I'm not very graceful yet at handling problems, and I will flag every error
+separately, so if you have a problem in the same cell in every row of your
+import, you may get the same error for each row.&nbsp; Yes its ugly, but fixing
+that is a lower priority than other things right now.&nbsp;</p>
+
+<p><a name="exit"></a>(5) If you change your mind and don't want to do the
+import, press the <b>Cancel</b> button</p>
+
+<p><b>Side Notes for Techies and other computer savvy users</b>:&nbsp; The
+format on the clipboard is a very simple one, the fields are text-based, one row
+at a time, the cells in a row are separated by the &quot;Tab&quot; character,
+and the rows are separated by the &quot;carriage return&quot;.&nbsp; This is the
+&quot;Unformatted Text&quot; format that Excel puts on a clipboard.&nbsp; I have
+not checked but this format could probably easily be replicated by a variety of
+means.&nbsp; (i.e. you are probably not limited to importing from Excel, any
+tab/return based file should be &quot;pastable&quot;)</p>
+<p><b>Not Yet Implemented:</b></p>
+<ul>
+  <li>(release 2.1) add some ability to look at import headers from the excel
+    import and &quot;guess&quot; at the variable names.</li>
+</ul>
+</body>
+
+</html>

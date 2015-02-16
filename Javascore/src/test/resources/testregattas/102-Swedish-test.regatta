@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta Dates="2001-02-04" Final="false" HostClub="sisf" IFEventID="" JSVersion="7.1.3" JuryChair="" Multistage="false" Name="Swedish test" Pro="" UseBowNumbers="false" Version="600" comment="">
+<DivisionList>
+<Division DivName="DN">
+<MinRating ClassName="DN" System="OneDesign"/>
+<MaxRating ClassName="DN" System="OneDesign"/>
+</Division>
+<Division DivName="J22">
+<MinRating ClassName="J22" System="OneDesign"/>
+<MaxRating ClassName="J22" System="OneDesign"/>
+</Division>
+<Division DivName="J24">
+<MinRating ClassName="J24" System="OneDesign"/>
+<MaxRating ClassName="J24" System="OneDesign"/>
+</Division>
+<Division DivName="Sloling">
+<MinRating ClassName="Sloling" System="OneDesign"/>
+<MaxRating ClassName="Sloling" System="OneDesign"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Club="Black Ice" Division="DN" EntryId="13">
+<Boat SailId="S 5">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="�ke" LastName="Luks" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SIK" Division="DN" EntryId="7">
+<Boat SailId="S 22">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Magnus" LastName="Johansson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="�IK" Division="DN" EntryId="24">
+<Boat SailId="S 43">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Eide" LastName="Stjernefeldt" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SIK" Division="DN" EntryId="5">
+<Boat SailId="S 44">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Gutta" LastName="Johansson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="NYIS" Division="DN" EntryId="11">
+<Boat SailId="S 81">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Tomas" LastName="Lindgren" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SKK" Division="DN" EntryId="14">
+<Boat SailId="S 93">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="J�rgen" LastName="Olsson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="TIS" Division="DN" EntryId="3">
+<Boat SailId="S 143">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="H�kan" LastName="Elfstr�m" SailorId=""/>
+<CrewList>
+<Crew FirstName="" LastName="" SailorId=""/>
+</CrewList>
+</Entry>
+<Entry Bow="" Club="Black Ice" Division="DN" EntryId="29">
+<Boat SailId="S 173">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Bernt" LastName="�stlind" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="VIJK" Division="DN" EntryId="19">
+<Boat SailId="S 176">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ove" LastName="Sandeus" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SIK" Division="DN" EntryId="10">
+<Boat SailId="S 182">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Claes" LastName="Liljesson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SIK" Division="DN" EntryId="21">
+<Boat SailId="S 222">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jonas" LastName="Seweling" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="NYIS" Division="DN" EntryId="23">
+<Boat SailId="S 329">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Patrik" LastName="Sp�ngs" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="VIS" Division="DN" EntryId="12">
+<Boat SailId="S 379">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Frank" LastName="Lindstr�m" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="MARIE" Division="DN" EntryId="26">
+<Boat SailId="S 398">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Joakim" LastName="Svensson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="VIJK" Division="DN" EntryId="22">
+<Boat SailId="S 413">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="S�ren" LastName="Sn�ckerstr�m" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="BOREN" Division="DN" EntryId="27">
+<Boat SailId="S 416">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Leif" LastName="S�derlund" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SIK" Division="DN" EntryId="16">
+<Boat SailId="S 450">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Joakim" LastName="Qvarnstr�m" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="NYIS" Division="DN" EntryId="28">
+<Boat SailId="S 480">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Bengt" LastName="�hrn" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EKOLN" Division="DN" EntryId="1">
+<Boat SailId="S 519">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Per-�ke" LastName="Bejersten" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="�IK" Division="DN" EntryId="6">
+<Boat SailId="S 542">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Lars" LastName="Johansson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SIK" Division="DN" EntryId="4">
+<Boat SailId="S 548">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Kenneth" LastName="Holmberg" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="BOREN" Division="DN" EntryId="8">
+<Boat SailId="S 550">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="J�rgen" LastName="Landz" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="VIS" Division="DN" EntryId="9">
+<Boat SailId="S 552">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Lars" LastName="Lantz" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Black Ice" Division="DN" EntryId="2">
+<Boat SailId="S 553">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ronnie" LastName="Bj�rkrot" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Black Ice" Division="DN" EntryId="15">
+<Boat SailId="S 559">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="H�kan" LastName="Pettersson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="NYIS" Division="DN" EntryId="18">
+<Boat SailId="S 560">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Bj�rn" LastName="Sagerman" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SIK" Division="DN" EntryId="25">
+<Boat SailId="S 596">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Gunnar" LastName="Str�mberg" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EKOLN" Division="DN" EntryId="17">
+<Boat SailId="S 607">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Mats" LastName="Rimm�" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SKK" Division="DN" EntryId="20">
+<Boat SailId="S 613">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="DN" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ola" LastName="Schwarz" SailorId=""/>
+<CrewList/>
+</Entry>
+</EntryList>
+<RaceList>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" Weight="1.0">
+<DivInfo>
+<DivStart Div="Sloling" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="DN" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J22" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList/>
+</Race>
+</RaceList>
+<Scores SystemName="ISAF Low Point 2013-2016">
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="4" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="DN" Ent="13" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="7" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="24" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="5" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="11" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="14" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="3" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="29" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="19" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="10" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="21" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="23" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="12" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="26" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="22" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="27" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="16" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="28" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="1" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="6" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="4" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="8" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="9" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="2" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="15" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="18" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="25" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="17" Pos="57344" Pts="30.0" Race="1"/>
+<rp Div="DN" Ent="20" Pos="57344" Pts="30.0" Race="1"/>
+</RacePointsList>
+<SeriesPointsList>
+<sp Div="DN" Ent="13" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="7" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="24" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="5" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="11" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="14" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="3" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="29" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="19" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="10" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="21" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="23" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="12" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="26" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="22" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="27" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="16" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="28" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="1" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="6" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="4" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="8" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="9" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="2" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="15" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="18" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="25" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="17" Pos="1" Pts="30.0" Tied="true"/>
+<sp Div="DN" Ent="20" Pos="1" Pts="30.0" Tied="true"/>
+</SeriesPointsList>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="1" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="1" Show1DTimes="true" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="1" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="1" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="1" Show1DTimes="true" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="1.2"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.2"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
+</Regatta>
