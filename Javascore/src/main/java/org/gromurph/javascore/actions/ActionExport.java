@@ -97,7 +97,7 @@ public class ActionExport extends AbstractAction {
 			filename = filename + ".xml";
 		}
 
-		String chosenFilename = Util.selectFile(Util.getWorkingDirectory(), filename, 
+		String chosenFilename = Util.selectFile(filename, 
 			new FileFilter[] { new IsafFileFilter(), new TabFileFilter() }, 
 			res.getString("ActionExportMessageSelectExportFile"),
 			false, true);
@@ -161,7 +161,7 @@ public class ActionExport extends AbstractAction {
 	public static void main(String[] args) {
 		ActionExport ae = new ActionExport();
 		try {
-			Regatta reg = RegattaManager.readRegattaFromDisk(Util.getWorkingDirectory(),
+			Regatta reg = RegattaManager.readTestRegatta(
 					"US_SAILING's_Rolex_Miami_OCR_-_470.regatta");
 		} catch (Exception e) {}
 		ae.actionPerformed(null);

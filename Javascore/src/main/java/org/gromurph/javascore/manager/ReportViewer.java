@@ -313,7 +313,7 @@ public class ReportViewer {
 	 */
 	private File getDirectoryAsFile() {
 		try {
-			String dir = Util.getWorkingDirectory() + "reports/";
+			String dir = fRegatta.getSaveDirectory() + "reports/";
 
 			// make sure we have a reports directory
 			File f = new File(dir);

@@ -43,13 +43,13 @@ import org.slf4j.LoggerFactory;
  * extends Junit testcase to supply some gromurph specific checks
  */
 public class UtilTestCase extends TestCase {
-	protected static String BASEDIR = TestUtils.BASEDIR;
 	protected static double ERR_MARGIN = TestUtils.ERR_MARGIN;
 
 	protected Logger logger = LoggerFactory.getLogger(this.getClass());
 
 	public UtilTestCase(String name) {
-		super(name);
+ 		super(name);
+        Util.setTesting(true);
 	}
 
 	protected boolean xmlEquals(BaseObject obj) {
@@ -71,4 +71,7 @@ public class UtilTestCase extends TestCase {
 		TestUtils.xmlObjectToObject(src, dest);
 	}
 
+	public void testDummy() {
+		// just to avoid a no test error
+	}
 }

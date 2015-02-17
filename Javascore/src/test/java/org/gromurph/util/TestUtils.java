@@ -44,7 +44,6 @@ import org.slf4j.LoggerFactory;
  */
 public class TestUtils 
 {
-	public static String BASEDIR = Util.getWorkingDirectory();
 	public static String MAVEN_TARGET_TEST_CLASSES = "/target/test-classes";
 	public static String MAVEN_TARGET_CLASSES = "/target/classes";
 	public static double ERR_MARGIN = 0.00001;
@@ -56,7 +55,6 @@ public class TestUtils
 
     public static void baseMain(Class c)
     {
-        org.gromurph.util.Util.setTesting(true);
         String[] testCases = { c.getName() };
         junit.textui.TestRunner.main( testCases);
     }

@@ -48,26 +48,30 @@ public class RegattaManager {
 		regatta = r;
 	}
 
-	public static Regatta readRegattaFromDisk(String inDir, String inFile) throws IOException {
-		Regatta reg = new Regatta();
-		JavaScoreProperties.setRegatta(reg);
+	public static Regatta readTestRegatta(String inFile) throws IOException {
+		return readRegattaFromDisk( "testregattas/" + inFile);
+	}
+
+	public static Regatta readRegattaFromDisk(String inFile) throws IOException {
+		File file = Util.getFile( inFile);
 		
-		if (!inDir.endsWith("/"))
-			inDir = inDir + "/";
-		if (inFile.startsWith("/"))
-			inFile = inFile.substring(1);
-
-		File file = Util.getFile(inDir, inFile);
-
 		// try reading as Xml file
-		boolean readOK = reg.xmlReadFromReader(new FileReader(file));
-
-		if (readOK) {
-			reg.setSaveName(file.getName());
-			reg.setSaveDirectory(file.getParent());
-			return reg;
+		if (file.exists()) {
+			Regatta reg = new Regatta();
+			JavaScoreProperties.setRegatta(reg);
+			
+    		boolean readOK = reg.xmlReadFromReader(new FileReader(file));
+    
+    		if (readOK) {
+    			reg.setSaveName(file.getName());
+    			reg.setSaveDirectory(file.getParent());
+    			return reg;
+    		} else {
+    			JavaScoreProperties.setRegatta(null);
+    			return null;
+    		}
 		} else {
-			JavaScoreProperties.setRegatta(null);
+			logger.error("No file found: " + inFile);
 			return null;
 		}
 	}
@@ -135,7 +139,7 @@ public class RegattaManager {
 		}
 	}	
 
-	protected Logger logger = LoggerFactory.getLogger( this.getClass());
+	protected static Logger logger = LoggerFactory.getLogger( "RegattaManager");
 	
 	public void splitFleetTopBottom(Stage srcStage, AbstractDivision targetParentDiv, String[] newDivisionNames,
 			int[] topPositions, boolean wantCarryOverRace) {

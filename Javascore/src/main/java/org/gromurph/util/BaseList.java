@@ -15,6 +15,8 @@ package org.gromurph.util;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
@@ -161,16 +163,16 @@ public abstract class BaseList<T extends BaseObjectModel> extends java.util.Arra
 	}
 
 	public boolean xmlReadFromFile(String fileName) throws IOException, DocumentException {
-		try {
-			Reader r = new FileReader(fileName);
+		File f = Util.getFile( fileName);
+		if (f.exists()) {
+			Reader r = new FileReader(f);
 			PersistentNode root = XmlUtil.readDocument(r);
 			xmlRead(root, this);
 			return true;
-		}
-		catch (Exception e) {
-			Util.printlnException(this, e, true);
+		} else {
+			Util.printlnException(this, new FileNotFoundException("Cannot find file: " + fileName), true);
 			return false;
-		}
+		}	
 	}
 
 	@SuppressWarnings("unchecked")

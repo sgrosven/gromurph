@@ -1269,8 +1269,7 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 		JavaScore.initializeEditors();
 
 		try {
-			Regatta reg = RegattaManager.readRegattaFromDisk(Util.getWorkingDirectory() + "/testregattas",
-					"DnfAmidstFinishers.regatta");
+			Regatta reg = RegattaManager.readTestRegatta("DnfAmidstFinishers.regatta");
 
 			DialogFinishListEditor panel = new DialogFinishListEditor(null);
 			// panel.setDefaultCloseOperation( JDialog.EXIT_ON_CLOSE);

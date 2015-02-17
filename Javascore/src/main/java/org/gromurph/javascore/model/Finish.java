@@ -268,6 +268,9 @@ public class Finish extends BaseObject implements Constants {
 		if (fPenalty != null) fPenalty.removePropertyChangeListener(this);
 		Penalty hold = fPenalty;
 		fPenalty = inPenalty;
+		if (inPenalty.isFinishPenalty()) {
+			setFinishPosition(new FinishPosition(inPenalty.getPenalty() & NOFINISH_MASK));
+		}
 		if (fPenalty != null) fPenalty.addPropertyChangeListener(this);
 		firePropertyChange(PENALTY_PROPERTY, hold, fPenalty);
 	}

@@ -132,8 +132,6 @@ public class DialogReportTabs extends DialogBaseEditor {
 		}
 	}
 
-	private static String BASEDIR = Util.getWorkingDirectory() + "/testregattas/";
-
 	public static void main( String[] args) {
 		try {
 
@@ -142,7 +140,7 @@ public class DialogReportTabs extends DialogBaseEditor {
 			// "1000_Star_Wars.regatta");
 			Regatta reg = null;
 			try {
-				reg = RegattaManager.readRegattaFromDisk( BASEDIR, "MedalTest_JustAfterSplit.regatta");
+				reg = RegattaManager.readTestRegatta("MedalTest_JustAfterSplit.regatta");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

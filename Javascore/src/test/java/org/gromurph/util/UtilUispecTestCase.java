@@ -382,53 +382,8 @@ public class UtilUispecTestCase extends UISpecTestCase {
    	            .triggerButtonClick(buttonName))
    	   .run();
 	}
-
-//	public void testDummy() {
-//		// empty test just to keep package level eclipse testing happy
-//		assertTrue(true);
-//	}
+	public void testDummy() {
+		// just to avoid a no test error
+	}
 
 }
-/**
- * $Log: UtilJfcTestCase.java,v $ Revision 1.7 2006/01/15 21:08:39 sandyg resubmit at 5.1.02
- * 
- * Revision 1.5 2006/01/14 21:06:55 sandyg final bug fixes for 5.01.1. All tests work
- * 
- * Revision 1.4 2006/01/11 02:27:46 sandyg updating copyright years
- * 
- * Revision 1.3 2006/01/11 02:16:46 sandyg updated to use relative class path
- * 
- * Revision 1.2 2006/01/02 22:30:20 sandyg re-laidout scoring options, added alternate A8.2 only tiebreaker, added unit
- * tests for both
- * 
- * Revision 1.1 2006/01/01 02:27:03 sandyg preliminary submission to centralize code in a new module
- * 
- * Revision 1.11.2.2 2005/11/30 02:52:30 sandyg focuslost commit added to JTextFieldSelectAll
- * 
- * Revision 1.11.2.1 2005/11/26 17:44:21 sandyg implement race weight & nondiscardable, did some gui test cleanups.
- * 
- * Revision 1.11 2005/06/26 22:48:08 sandyg Xml overhaul to remove xerces dependence
- * 
- * Revision 1.10 2004/04/10 22:19:41 sandyg Copyright update
- * 
- * Revision 1.9 2003/05/13 22:32:33 sandyg improved component tracing
- * 
- * Revision 1.8 2003/05/02 02:42:55 sandyg added trace method
- * 
- * Revision 1.7 2003/04/30 00:57:09 sandyg added component tracer() method
- * 
- * Revision 1.6 2003/04/27 21:01:16 sandyg lots of cleanup, unit testing for 4.1.1 almost complete
- * 
- * Revision 1.5 2003/04/20 15:44:31 sandyg added javascore.Constants to consolidate penalty defs, and added new penaltys
- * TIM (time value penalty) and TMP (time percentage penalty)
- * 
- * Revision 1.4 2003/03/30 00:04:09 sandyg gui test cleanup, moved fFrame, fPanel to UtilJfcTestCase
- * 
- * Revision 1.3 2003/03/19 02:39:51 sandyg added awtSleep to keep dialogs straight
- * 
- * Revision 1.2 2003/03/16 20:40:15 sandyg 3.9.2 release: encapsulated changes to division list in Regatta, fixed a bad
- * bug in PanelDivsion/Rating
- * 
- * Revision 1.1 2003/02/22 13:55:12 sandyg no message
- * 
- */

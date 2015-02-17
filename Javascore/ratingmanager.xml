@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<RatingManager>
+<Item RatingClass="org.gromurph.javascore.model.ratings.RatingOneDesign" System="OneDesign"/>
+<Item RatingClass="org.gromurph.javascore.model.ratings.RatingPhrf" System="PHRF"/>
+<Item RatingClass="org.gromurph.javascore.model.ratings.RatingIrc" System="IRC"/>
+<Item RatingClass="org.gromurph.javascore.model.ratings.RatingMorc" System="MORC"/>
+<Item RatingClass="org.gromurph.javascore.model.ratings.RatingMultihull" System="Multihull"/>
+<Item RatingClass="org.gromurph.javascore.model.ratings.RatingPhrfTimeOnTime" System="PHRFTimeOnTime"/>
+<Item RatingClass="org.gromurph.javascore.model.ratings.RatingYardstick" System="Yardstick"/>
+<Item RatingClass="org.gromurph.javascore.model.ratings.RatingPortsmouth" System="Portsmouth"/>
+</RatingManager>

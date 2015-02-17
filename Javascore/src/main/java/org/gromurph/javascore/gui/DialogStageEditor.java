@@ -69,9 +69,7 @@ public class DialogStageEditor extends DialogBaseListEditor<Stage, StageList> {
 		Util.setTesting(true);
 		Regatta reg = null;
 		try {
-			reg = RegattaManager.readRegattaFromDisk(
-					Util.getWorkingDirectory(),
-					"testregattas/2011MiamiOCRLaser.regatta");
+			reg = RegattaManager.readTestRegatta("2011MiamiOCRLaser.regatta");
 		} catch (Exception e) {
 			Util.showError(e, true);
 		}

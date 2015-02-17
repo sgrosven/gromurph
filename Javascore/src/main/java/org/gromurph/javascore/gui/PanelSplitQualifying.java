@@ -360,15 +360,13 @@ public class PanelSplitQualifying extends BaseEditor<Regatta> implements ActionL
 		}
 	}
 
-	private static String BASEDIR = Util.getWorkingDirectory() + "/testregattas/";
-
 	public static void main(String[] args) {
+		Util.setTesting(true);
 		JavaScore.initializeEditors();
 
-		Util.setTesting(true);
 		Regatta reg = null;
 		try {
-			reg = RegattaManager.readRegattaFromDisk(BASEDIR, "MultistageOCRLaser.regatta");
+			reg = RegattaManager.readTestRegatta("MultistageOCRLaser.regatta");
     		DialogBaseEditor fFrame = new DialogBaseEditor();
     		fFrame.addWindowListener(new WindowAdapter() {
     			@Override public void windowClosing(WindowEvent event) {

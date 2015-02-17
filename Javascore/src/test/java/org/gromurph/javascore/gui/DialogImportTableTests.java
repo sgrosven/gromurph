@@ -39,7 +39,7 @@ public class DialogImportTableTests extends JavascoreTestCase {
 		}
 		List fields = Arrays.asList(cols);
 
-		importer.convertTableToRegatta(fields, cells);
+		importer.importTableFields(fields, cells);
 	}
 
 	String[] entryfields1 = new String[] { res.getString("GenSail"), res.getString("GenBoatName"),
@@ -176,7 +176,7 @@ public class DialogImportTableTests extends JavascoreTestCase {
 		assertNotNull(race);
 
 		assertEquals("race 3, 2 j24 finishers", 2, race.getNumberFinishers(j24));
-		assertEquals("race 3, 2 j22 finishers", 1, race.getNumberFinishers(j22)); // 1 clean finish, 1 TLE
+		assertEquals("race 3, 1 j22 finishers", 1, race.getNumberFinishers(j22)); // 1 clean finish, 1 TLE
 	}
 
 }

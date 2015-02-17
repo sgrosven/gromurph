@@ -18,6 +18,7 @@ import junit.framework.TestSuite;
 
 import org.gromurph.javascore.Constants;
 import org.gromurph.javascore.JavaScoreProperties;
+import org.gromurph.javascore.JavascoreTestCase;
 import org.gromurph.javascore.SailTime;
 import org.gromurph.javascore.exception.RatingOutOfBoundsException;
 import org.gromurph.javascore.model.Division;
@@ -34,7 +35,7 @@ import org.gromurph.javascore.model.SailId;
 /**
  * Unit test scripts for Regatta class
  */
-public class ScoringLowPointTests extends org.gromurph.javascore.JavascoreTestCase
+public class ScoringLowPointTests extends JavascoreTestCase
 {
 
     public ScoringLowPointTests(String s)
@@ -377,57 +378,5 @@ public class ScoringLowPointTests extends org.gromurph.javascore.JavascoreTestCa
 
 	}
 
-    public static Test suite()
-    {
-        return new TestSuite( ScoringLowPointTests.class);
-    }
-
-    public static void main(String[] args)
-    {
-        org.gromurph.util.Util.setTesting(true);
-        String[] testCases = { ScoringLowPointTests.class.getName() };
-        junit.textui.TestRunner.main( testCases);
-    }
-
 }
-/**
-* $Log: ScoringLowPointTests.java,v $
-* Revision 1.6  2006/05/19 05:48:43  sandyg
-* final release 5.1 modifications
-*
-* Revision 1.5  2006/01/15 21:08:39  sandyg
-* resubmit at 5.1.02
-*
-* Revision 1.3  2006/01/15 03:09:52  sandyg
-* fixed bug 1258638, two tied boats, one with a scoring penalty.
-*
-* Revision 1.2  2006/01/11 02:20:26  sandyg
-* updating copyright years
-*
-* Revision 1.1  2006/01/01 02:27:02  sandyg
-* preliminary submission to centralize code in a new module
-*
-* Revision 1.11  2004/04/10 22:19:38  sandyg
-* Copyright update
-*
-* Revision 1.10  2003/11/27 02:45:00  sandyg
-* Fixed 1d tied boats (with same time) also minor reporting oddness on positions
-* with tied boats.  Bug 836458
-*
-* Revision 1.9  2003/11/26 03:28:53  sandyg
-* Fixing points with long series and NO_FINISH (bug 839704)
-*
-* Revision 1.8  2003/04/27 21:00:55  sandyg
-* lots of cleanup, unit testing for 4.1.1 almost complete
-*
-* Revision 1.7  2003/03/16 20:40:13  sandyg
-* 3.9.2 release: encapsulated changes to division list in Regatta,
-* fixed a bad bug in PanelDivsion/Rating
-*
-* Revision 1.6  2003/01/06 00:32:37  sandyg
-* replaced forceDivision and forceRating statements
-*
-* Revision 1.5  2003/01/04 17:09:28  sandyg
-* Prefix/suffix overhaul
-*
-*/
+

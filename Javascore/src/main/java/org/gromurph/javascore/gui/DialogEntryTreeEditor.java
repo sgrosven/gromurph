@@ -534,7 +534,7 @@ public class DialogEntryTreeEditor extends JDialog implements BaseEditorContaine
 		JavaScore.initializeEditors();
 
 		try {
-			Regatta reg = RegattaManager.readRegattaFromDisk(Util.getWorkingDirectory(), "testRegattas/Spring_Sampler.regatta");
+			Regatta reg = RegattaManager.readTestRegatta( "Spring_Sampler.regatta");
 			DialogEntryTreeEditor panel = new DialogEntryTreeEditor(null);
 			panel.setVisible(true);
 

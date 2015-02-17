@@ -90,9 +90,18 @@ public class Util {
 	}
 
 	public static File getFile(String endName) {
-		if (endName.startsWith("/"))
-			endName = endName.substring(1);
-		return new File(getWorkingDirectory() + endName);
+		if (endName.startsWith("/")) endName = endName.substring(1);
+		File file = getFile( getWorkingDirectory(), endName);
+		if (file.exists()) return file;
+				
+		if (sTesting) {
+			// look in maven's test-classes directory
+			file = getFile( getWorkingDirectory() + "target/test-classes/", endName);
+			if (file.exists()) return file;
+			file = getFile( getWorkingDirectory() + "target/classes/", endName);
+			if (file.exists()) return file;
+		}
+		return file;
 	}
 
 	public static File getFile(String dir, String file) {
@@ -295,20 +304,97 @@ public class Util {
 	 */
 	private static void showError(Object source, String message, boolean wantTrace, boolean dumpOption,
 			Object dumpObject, String dumpTitle, Throwable secondStack) {
+		
 		if (sTesting) {
-			StringBuffer sb = new StringBuffer();
-			sb.append("showError exception from: ");
-			sb.append(source);
-			sb.append(", message=");
-			sb.append(message);
-
-			if (secondStack != null)
-				secondStack.printStackTrace();
-
-			logger.error( sb.toString());
-			throw new java.lang.RuntimeException(sb.toString());
+			String errMessage = logError(source, message, secondStack);
+			throw new java.lang.RuntimeException(errMessage);
+		} else {
+    		JPanel jp = createErrorPanel(source, message, wantTrace, secondStack);
+    
+    		if (dumpOption) {
+    			String dumpMessage = createDumpString( source,  message,  dumpObject,  dumpTitle);
+    			JTextPane tp2 = new JTextPane();
+    			tp2.setText( dumpMessage);
+    			tp2.setBackground(jp.getBackground());
+    			jp.add(tp2, BorderLayout.SOUTH);
+    		}
+    
+    		jp.setPreferredSize(new java.awt.Dimension(500, 350));
+    		JOptionPane.showMessageDialog(null, jp, "Error encountered", JOptionPane.ERROR_MESSAGE);
 		}
+	}
 
+	private static String createDumpString(Object source, String message, Object dumpObject, String dumpTitle) {
+		try {
+			String dumpFileName = getWorkingDirectory() + "/core" + Long.toString(System.currentTimeMillis())
+					+ ".txt";
+			FileOutputStream fos = new FileOutputStream(dumpFileName);
+			PrintWriter fw = new PrintWriter(fos);
+
+			fw.println(message);
+			fw.print("received from ");
+			if (source != null)
+				fw.println(source.toString());
+			else
+				fw.println("<null source>");
+			fw.println();
+
+			if (dumpTitle != null) {
+				fw.println(dumpTitle);
+				fw.println();
+			}
+
+			fw.println("Stack:");
+			Throwable t = null;
+			if (source instanceof Throwable) {
+				t = (Throwable) source;
+			} else {
+				t = new Throwable();
+			}
+			StringWriter sw = new StringWriter();
+			t.printStackTrace(new PrintWriter(sw));
+			fw.println(sw.toString());
+			fw.println();
+			fw.flush();
+
+			System.getProperties().store(fos, "System.properties");
+			fos.flush();
+
+			if (dumpObject != null) {
+				fw.println();
+				fw.print("<<start:");
+				fw.print(getObjectIdString(dumpObject));
+				fw.println(">>");
+
+				if (dumpObject instanceof BaseObject) {
+					((BaseObject) dumpObject).xmlWriteToWriter(fw, "BaseObject");
+				} else {
+					fw.flush();
+
+					ObjectOutputStream os = new ObjectOutputStream(fos);
+					os.writeObject(dumpObject);
+					os.flush();
+					fos.flush();
+				}
+
+				fw.println();
+				fw.print("<<end:");
+				fw.print(getObjectIdString(dumpObject));
+				fw.println(">>");
+			}
+			fw.flush();
+			fw.close();
+			fos.flush();
+			fos.close();
+
+			String dumpMessage = MessageFormat.format(resUtil.getString("DumpMessage"), new Object[] { dumpFileName });
+			return dumpMessage;
+		} catch (Exception ex) {
+			return "Exception trying to create core file:\n" + ex;
+		}
+	}
+
+	private static JPanel createErrorPanel(Object source, String message, boolean wantTrace, Throwable secondStack) {
 		StringWriter w = new StringWriter();
 		w.write(message);
 		if (source != null) {
@@ -356,85 +442,22 @@ public class Util {
 		} else {
 			jp.add(jpMessage, BorderLayout.CENTER);
 		}
+		return jp;
+	}
 
-		if (dumpOption) {
-			try {
-				String dumpFileName = getWorkingDirectory() + "/core" + Long.toString(System.currentTimeMillis())
-						+ ".txt";
-				FileOutputStream fos = new FileOutputStream(dumpFileName);
-				PrintWriter fw = new PrintWriter(fos);
+	private static String logError(Object source, String message, Throwable secondStack) {
+		StringBuffer sb = new StringBuffer();
+		sb.append("showError exception from: ");
+		sb.append(source);
+		sb.append(", message=");
+		sb.append(message);
 
-				fw.println(message);
-				fw.print("received from ");
-				if (source != null)
-					fw.println(source.toString());
-				else
-					fw.println("<null source>");
-				fw.println();
+		if (secondStack != null)
+			secondStack.printStackTrace();
 
-				if (dumpTitle != null) {
-					fw.println(dumpTitle);
-					fw.println();
-				}
-
-				fw.println("Stack:");
-				Throwable t = null;
-				if (source instanceof Throwable) {
-					t = (Throwable) source;
-				} else {
-					t = new Throwable();
-				}
-				StringWriter sw = new StringWriter();
-				t.printStackTrace(new PrintWriter(sw));
-				fw.println(sw.toString());
-				fw.println();
-				fw.flush();
-
-				System.getProperties().store(fos, "System.properties");
-				fos.flush();
-
-				if (dumpObject != null) {
-					fw.println();
-					fw.print("<<start:");
-					fw.print(getObjectIdString(dumpObject));
-					fw.println(">>");
-
-					if (dumpObject instanceof BaseObject) {
-						((BaseObject) dumpObject).xmlWriteToWriter(fw, "BaseObject");
-					} else {
-						fw.flush();
-
-						ObjectOutputStream os = new ObjectOutputStream(fos);
-						os.writeObject(dumpObject);
-						os.flush();
-						fos.flush();
-					}
-
-					fw.println();
-					fw.print("<<end:");
-					fw.print(getObjectIdString(dumpObject));
-					fw.println(">>");
-				}
-				fw.flush();
-				fw.close();
-				fos.flush();
-				fos.close();
-
-				JTextPane tp2 = new JTextPane();
-				tp2.setText(MessageFormat.format(resUtil.getString("DumpMessage"), new Object[] { dumpFileName }));
-				tp2.setBackground(jp.getBackground());
-				jp.add(tp2, BorderLayout.SOUTH);
-			} catch (Exception ex) {
-				JTextPane tp3 = new JTextPane();
-				tp3.setText("Exception trying to create core file:\n" + ex);
-				tp3.setBackground(jp.getBackground());
-				jp.add(tp3, BorderLayout.SOUTH);
-			}
-
-		}
-
-		jp.setPreferredSize(new java.awt.Dimension(500, 350));
-		JOptionPane.showMessageDialog(null, jp, "Error encountered", JOptionPane.ERROR_MESSAGE);
+		String errMessage = sb.toString();
+		logger.error( errMessage);
+		return errMessage;
 	}
 
 	public static void createAndShowErrorPanel( String title, Map<String,String> messages) {
@@ -566,8 +589,7 @@ public class Util {
 	} // of findImage
 
 	/**
-	 * Finds a target URL. Looks first in JAR file, if any, then on local disk, then
-	 * if testing in maven target classes and target test classes directories
+	 * Finds a target URL. Looks first in JAR file, if any, then on local disk or classpath
 	 * 
 	 * @param srcObject
 	 *           src object, used for class loader base
@@ -576,7 +598,7 @@ public class Util {
 	 * @return the Image after loading it
 	 **/
 	public static URL findResourceUrl(Object srcObject, String inName) {
-		boolean haveLocalAccess = true; // (isApplet() ? false :
+		boolean haveLocalAccess = true;  // originally written for servlets, but here always have local access
 		URL retUrl = null;
 
 		// first try the Jar file:
@@ -589,7 +611,7 @@ public class Util {
 			try {
 				String fName = null;
 				if (inName.startsWith("/")) 
-					fName = "." + inName;  // should now be "./filename"
+					fName = "." + inName;  // was 'filename', should now be './filename'
 				else
 					fName = inName;
 				retUrl = ClassLoader.getSystemResource(fName);
@@ -942,10 +964,10 @@ public class Util {
 	private static JFileChooser sFileChooser = null;
 	private static Frame sChooserFrame = null;
 
-	public static String selectFile(String startDirectory, String filename, FileFilter filter, String dialogTitle,
+	public static String selectFile(String filename, FileFilter filter, String dialogTitle,
 			boolean mustExist, boolean confirmOverwrite) {
 
-		return selectFile(startDirectory, filename, new FileFilter[] { filter }, dialogTitle, mustExist,
+		return selectFile(filename, new FileFilter[] { filter }, dialogTitle, mustExist,
 				confirmOverwrite);
 	}
 
@@ -953,9 +975,11 @@ public class Util {
 		return ((sFileChooser == null) ? null : sFileChooser.getFileFilter());
 	}
 
-	public static String selectFile(String startDirectory, String filename, FileFilter[] filters, String dialogTitle,
+	public static String selectFile(String filename, FileFilter[] filters, String dialogTitle,
 			boolean mustExist, boolean confirmOverwrite) {
 
+		String startDirectory = Util.getWorkingDirectory();
+		
 		if (sFileChooser == null) {
 			sFileChooser = new JFileChooser();
 			sChooserFrame = new Frame();

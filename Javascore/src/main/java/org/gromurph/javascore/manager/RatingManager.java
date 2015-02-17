@@ -51,7 +51,7 @@ public class RatingManager {
 
 		};
 
-		sRatingElements.setFileName(Util.getWorkingDirectory() + "/ratingmanager.xml");
+		sRatingElements.setFileName("ratingmanager.xml");
 		sRatingElements.setRootTag("RatingManager");
 		sRatingElements.setElementTag("Item");
 		try {

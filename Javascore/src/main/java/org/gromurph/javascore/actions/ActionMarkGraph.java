@@ -53,18 +53,6 @@ public class ActionMarkGraph extends AbstractAction {
 		super(res.getString("MarkRoundingGraph"));
 	}
 
-	public static void main(String s[]) {
-		ActionMarkGraph amg = new ActionMarkGraph();
-		amg.initFields();
-		try {
-			amg.logger.info("Opening...{}{}.regatta" , Util.getWorkingDirectory(), s[0]);
-			Regatta reg = RegattaManager.readRegattaFromDisk(Util
-					.getWorkingDirectory(), s[0] + ".regatta");
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
 	public void actionPerformed(java.awt.event.ActionEvent event) {
 		if (fGraph == null) initFields();
 		setVisible(true);

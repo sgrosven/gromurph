@@ -24,7 +24,6 @@ import org.gromurph.util.UtilUispecTestCase;
 
 public class JavascoreTestCase extends UtilUispecTestCase {
 
-	protected static String BASEDIR = TestUtils.BASEDIR;
 	protected static double ERR_MARGIN = TestUtils.ERR_MARGIN;
 	
 	static ResourceBundle res = JavaScoreProperties.getResources();
@@ -32,7 +31,7 @@ public class JavascoreTestCase extends UtilUispecTestCase {
 
 	public JavascoreTestCase(String name) {
 		super(name);
-		Util.setWorkingDirectory( TestUtils.BASEDIR);
+        Util.setTesting(true);
 	}
 
 	private static JavaScore jsInstance;
@@ -55,8 +54,7 @@ public class JavascoreTestCase extends UtilUispecTestCase {
 
 		Regatta reg = new Regatta();
 		if (filename != null) {
-			String basedir = TestUtils.BASEDIR + TestUtils.MAVEN_TARGET_TEST_CLASSES + "/testregattas/";
-			reg = RegattaManager.readRegattaFromDisk( basedir, filename);
+			reg = RegattaManager.readTestRegatta( filename);
 			reg.scoreRegatta();
 		}
 		
@@ -84,6 +82,9 @@ public class JavascoreTestCase extends UtilUispecTestCase {
 		TestUtils.xmlObjectToObject(src, dest);
 	}
 
+	public void testDummy() {
+		// just to avoid a no test error
+	}
 
 }
 /**

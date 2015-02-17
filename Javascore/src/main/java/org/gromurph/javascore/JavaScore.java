@@ -281,7 +281,7 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 			Util.setDumpTitle(res.getString("MainTitle") + " " + JavaScoreProperties.getVersion());
 			if (args.length > 0) {
 				try {
-					Regatta reg = RegattaManager.readRegattaFromDisk(Util.getWorkingDirectory(), args[0]);
+					Regatta reg = RegattaManager.readRegattaFromDisk( args[0]);
 					getInstance().setRegatta(reg);
 				} catch (Exception e) {}
 			}
@@ -840,7 +840,7 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 		if (Util.confirm(MessageFormat.format(msg, new Object[] { new Date(lastMod) }))) {
 			try {
 				logger.info(res.getString("MainMessageRestoring"));
-				Regatta reg = RegattaManager.readRegattaFromDisk(Util.getWorkingDirectory(), fileName + BAK);
+				Regatta reg = RegattaManager.readRegattaFromDisk( fileName + BAK);
 				reg.setSaveName(fileName);
 				setRegatta(reg);
 				updateReports(true);
@@ -871,7 +871,7 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 				// for reading divisions in stages, we need access to regatta
 				// in mid-read... tempReg and Reg should be same instance except in case of errs
 				
-				Regatta reg = RegattaManager.readRegattaFromDisk(Util.getWorkingDirectory(), fileName);
+				Regatta reg = RegattaManager.readRegattaFromDisk( fileName);
 				if (reg == null) {
 					JOptionPane.showMessageDialog(this, MessageFormat.format(res.getString("InvalidRegattaFile"),
 							new Object[] { Util.getWorkingDirectory() + fileName }), res

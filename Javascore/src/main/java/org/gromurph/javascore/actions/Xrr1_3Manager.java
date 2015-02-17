@@ -1048,7 +1048,7 @@ public class Xrr1_3Manager implements Exporter, Constants {
 
 	public static void main(String[] args) {
 		try {
-			Regatta reg = RegattaManager.readRegattaFromDisk(Util.getWorkingDirectory(),
+			Regatta reg = RegattaManager.readTestRegatta(
 					"US_SAILING's_Rolex_Miami_OCR_-_470.regatta");
 			Xrr1_3Manager exporter = new Xrr1_3Manager();
 			exporter.setFilename("testExportISAFREsults.xml");

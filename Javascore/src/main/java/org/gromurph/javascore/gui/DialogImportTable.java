@@ -224,7 +224,7 @@ public abstract class DialogImportTable extends JDialog
         convertTableToRegatta( fTableModel.getFields(), fPastedRows);
     }
 
-    public void convertTableToRegatta( List fields, List rows)
+    public void importTableFields( List fields, List rows)
     {
         fWarnings.clear();
         for (int row = 0; row < rows.size(); row++)
@@ -241,8 +241,13 @@ public abstract class DialogImportTable extends JDialog
                 }
             }
         } // row loop
+    }
 
-        fWarnings.showPopup( this);
+    public void convertTableToRegatta( List fields, List rows)
+    {
+    	importTableFields( fields, rows);
+
+        if (fWarnings.size() > 0) fWarnings.showPopup( this);
         JavaScoreProperties.getRegatta().scoreRegatta();
         JavaScore.backgroundSave();
     }

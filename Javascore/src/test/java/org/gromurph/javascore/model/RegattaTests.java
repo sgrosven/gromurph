@@ -60,9 +60,9 @@ public class RegattaTests extends org.gromurph.javascore.JavascoreTestCase
 
 	protected void readwriteCheck( Regatta reg) throws Exception
 	{
-		new RegattaManager( reg).writeRegattaToDisk( Util.getWorkingDirectory(), "testregattas/test.regatta");
+		new RegattaManager( reg).writeRegattaToDisk( Util.getWorkingDirectory(), "test.regatta");
 		
-		Regatta reg2 = loadTestRegatta( "test.regatta");		
+		Regatta reg2 = RegattaManager.readRegattaFromDisk("test.regatta");		
 		assertEquals( "readwrite " + reg.getName(), reg, reg2);
 	}
 

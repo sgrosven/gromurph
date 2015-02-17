@@ -92,9 +92,7 @@ public class DialogRaceEditor extends DialogBaseListEditor {
 		JavaScore.initializeEditors();
 
 		try {
-			Regatta reg = RegattaManager.readRegattaFromDisk(
-					Util.getWorkingDirectory(),
-					"testregattas/0000-Test-Master.regatta");
+			Regatta reg = RegattaManager.readTestRegatta("0000-Test-Master.regatta");
 
 			DialogRaceEditor panel = new DialogRaceEditor(null);
 			StringBuffer sb = new StringBuffer("Races: ");
