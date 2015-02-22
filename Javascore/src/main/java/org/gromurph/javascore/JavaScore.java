@@ -109,6 +109,9 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 
 		// TODO A add ability to do series scores by day of race
 		// TODO Convert to Github and Maven
+			// maven: compile, test seem to work
+			//    need to figure out the deploy/izpack
+			//    need to clean up excess files, understand where to put samples, aux, test regattas etc
 
 		// DONE implement log file, with option to turn it on in javascore.ini?
 	// TODO A+ export test:
