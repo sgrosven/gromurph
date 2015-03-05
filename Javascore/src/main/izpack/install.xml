@@ -3,8 +3,9 @@
 <installation version="1.0">
 
 	<variables>
-    	<variable name="RESOURCEROOT" value="src/main/izpack"/>
-  	</variables>
+    	<variable name="ASSEMBLE_PATH" value="build/assemble" />
+     	<variable name="DEST_PATH" value="build/distributions" />
+   	</variables>
   
     <info>
         <appname>Javascore</appname>
@@ -45,14 +46,10 @@
     <packs>
         <pack name="Base" required="yes">
             <description>The main javascore application</description>
-            <file src="@{project.build.finalName}.jar" targetdir="$INSTALL_PATH"/>
-            <fileset dir="" targetdir="$INSTALL_PATH">
+            <fileset dir="" targetdir="$ASSEMBLE_PATH">
+            	<include name="*.jar" />
 	            <include name="*.txt" />
-	            <include name="JavaScore.jar" />
 	            <include name="javascore_properties.jar" />
-	            <include name="*.jar" />
-	            	<exclude name="*-install-*.jar" />
-	            	<exclude name="*-src-*.jar" />
 	            <include name="template*.html" />
 	            <include name="club-logo.jpg" />
 	            <include name="js32.ico" />
