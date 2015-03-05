@@ -26,7 +26,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="���ke" LastName="Luks" SailorId=""/>
+<Skipper FirstName="�ke" LastName="Luks" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="SIK" Division="DN" EntryId="7">
@@ -39,7 +39,7 @@
 <Skipper FirstName="Magnus" LastName="Johansson" SailorId=""/>
 <CrewList/>
 </Entry>
-<Entry Bow="" Club="���IK" Division="DN" EntryId="24">
+<Entry Bow="" Club="�IK" Division="DN" EntryId="24">
 <Boat SailId="S 43">
 <Owner FirstName="" LastName="" SailorId=""/>
 <RatingList>
@@ -76,7 +76,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="J���rgen" LastName="Olsson" SailorId=""/>
+<Skipper FirstName="J�rgen" LastName="Olsson" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="TIS" Division="DN" EntryId="3">
@@ -86,7 +86,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="H���kan" LastName="Elfstr���m" SailorId=""/>
+<Skipper FirstName="H�kan" LastName="Elfstr�m" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="Black Ice" Division="DN" EntryId="29">
@@ -96,7 +96,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="Bernt" LastName="���stlind" SailorId=""/>
+<Skipper FirstName="Bernt" LastName="�stlind" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="VIJK" Division="DN" EntryId="19">
@@ -136,7 +136,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="Patrik" LastName="Sp���ngs" SailorId=""/>
+<Skipper FirstName="Patrik" LastName="Sp�ngs" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="VIS" Division="DN" EntryId="12">
@@ -146,7 +146,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="Frank" LastName="Lindstr���m" SailorId=""/>
+<Skipper FirstName="Frank" LastName="Lindstr�m" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="MARIE" Division="DN" EntryId="26">
@@ -166,7 +166,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="S���ren" LastName="Sn���ckerstr���m" SailorId=""/>
+<Skipper FirstName="S�ren" LastName="Sn�ckerstr�m" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="BOREN" Division="DN" EntryId="27">
@@ -176,7 +176,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="Leif" LastName="S���derlund" SailorId=""/>
+<Skipper FirstName="Leif" LastName="S�derlund" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="SIK" Division="DN" EntryId="16">
@@ -186,7 +186,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="Joakim" LastName="Qvarnstr���m" SailorId=""/>
+<Skipper FirstName="Joakim" LastName="Qvarnstr�m" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="NYIS" Division="DN" EntryId="28">
@@ -196,7 +196,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="Bengt" LastName="���hrn" SailorId=""/>
+<Skipper FirstName="Bengt" LastName="�hrn" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="EKOLN" Division="DN" EntryId="1">
@@ -206,10 +206,10 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="Per-���ke" LastName="Bejersten" SailorId=""/>
+<Skipper FirstName="Per-�ke" LastName="Bejersten" SailorId=""/>
 <CrewList/>
 </Entry>
-<Entry Bow="" Club="���IK" Division="DN" EntryId="6">
+<Entry Bow="" Club="�IK" Division="DN" EntryId="6">
 <Boat SailId="S 542">
 <Owner FirstName="" LastName="" SailorId=""/>
 <RatingList>
@@ -236,7 +236,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="J���rgen" LastName="Landz" SailorId=""/>
+<Skipper FirstName="J�rgen" LastName="Landz" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="VIS" Division="DN" EntryId="9">
@@ -256,7 +256,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="Ronnie" LastName="Bj���rkrot" SailorId=""/>
+<Skipper FirstName="Ronnie" LastName="Bj�rkrot" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="Black Ice" Division="DN" EntryId="15">
@@ -266,7 +266,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="H���kan" LastName="Pettersson" SailorId=""/>
+<Skipper FirstName="H�kan" LastName="Pettersson" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="NYIS" Division="DN" EntryId="18">
@@ -276,7 +276,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="Bj���rn" LastName="Sagerman" SailorId=""/>
+<Skipper FirstName="Bj�rn" LastName="Sagerman" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="SIK" Division="DN" EntryId="25">
@@ -286,7 +286,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="Gunnar" LastName="Str���mberg" SailorId=""/>
+<Skipper FirstName="Gunnar" LastName="Str�mberg" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="EKOLN" Division="DN" EntryId="17">
@@ -296,7 +296,7 @@
 <Rating ClassName="DN" System="OneDesign"/>
 </RatingList>
 </Boat>
-<Skipper FirstName="Mats" LastName="Rimm���" SailorId=""/>
+<Skipper FirstName="Mats" LastName="Rimm�" SailorId=""/>
 <CrewList/>
 </Entry>
 <Entry Bow="" Club="SKK" Division="DN" EntryId="20">

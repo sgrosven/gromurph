@@ -94,7 +94,7 @@ public class EntryTreeModelTests extends org.gromurph.javascore.JavascoreTestCas
     }
 
 
-    public void showTreeLevel1( EntryTreeModel model)
+    public void showTreeLevel1( EntryTreeModel model) 
     {
     	StringBuffer sb = new StringBuffer(32);
     	
