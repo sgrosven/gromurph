@@ -2,10 +2,10 @@
 
 <shortcuts>
 
-  <programGroup defaultName="JavaScore #version#" location="applications"/>
+  <programGroup defaultName="JavaScore @version@" location="applications"/>
   
   <shortcut
-     name="Javascore #version#"
+     name="Javascore @version@"
      programGroup="yes"
      desktop="yes"
      applications="no"
@@ -15,7 +15,7 @@
      workingDirectory="$INSTALL_PATH"   
      commandLine=""
 	 iconFile="$INSTALL_PATH\js32.ico" 
-     description="Runs Javascore #version#">
+     description="Runs Javascore @version@">
      
      <createForPack name="Base" />
      

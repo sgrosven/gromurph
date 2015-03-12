@@ -1,14 +1,24 @@
 apply plugin: 'java'
-apply plugin: 'com.bmuschko.izpack'
+// apply plugin: 'com.bmuschko.izpack'
+
+import org.apache.tools.ant.filters.ReplaceTokens
 
 sourceCompatibility = 1.7
 version = '7.3.1'
+ext.releaseDate = '2 April 2015'
+
+ext.izpackDir = "/Users/sandygrosvenor/Dropbox/dev/eclipseworkspace/izpack4"
+ext.distDir = "$buildDir/distributions"
+ext.assembleDir = "$buildDir/assemble"
+ext.classpathString = file('$assembleDir/*.jar').listFiles().toString()
+
 jar {
 	archiveName = 'JavaScore.jar'
     manifest {
-        attributes 'Implementation-Title': 'JavaScore Regatta Scoring',
+        attributes 'Implementation-Title': 'JavaScore Regatta Scoring, version ' + version,
                    'Implementation-Version': version,
-                   'Main-Class': 'org.gromurph.javascore.Javascore'
+                   'Main-Class': 'org.gromurph.javascore.Javascore',
+                   'Class-Path' : classpathString
     }
 }
 
@@ -44,7 +54,7 @@ dependencies {
    compile group: 'sailing-org', name: 'sailingXrr', version: '1.3'
     
    // release packaging
-   izpack 'org.codehaus.izpack:izpack-standalone-compiler:4.3.5'
+   // izpack 'org.codehaus.izpack:izpack-standalone-compiler:4.3.5'
 
 }
 
@@ -52,14 +62,28 @@ buildscript {
 	repositories {
 		jcenter()
 	}
-	dependencies {
-   		classpath 'com.bmuschko:gradle-izpack-plugin:2.0'
+//	dependencies {
+//   		classpath 'com.bmuschko:gradle-izpack-plugin:2.0'
+//	}
+}
+
+task compileJava.doFirst {
+	
+	file('src/main/java/org/gromurph/javascore/JavaScoreVersion.java').delete()
+	copy {
+		from 'src/main/izpack'
+		into 'src/main/java/org/gromurph/javascore'
+		include 'JavaScoreVersion.java.master'
+		filter( ReplaceTokens, tokens: [ version: version, releasedate: releaseDate])
+		rename 'JavaScoreVersion.java.master', 	'JavaScoreVersion.java'
 	}
 }
 
-task copyDependentJars(type: Copy) {
-    into "$buildDir/assemble"
-    from configurations.runtime
+task assemble.doLast {
+	copy {
+    	into "$buildDir/libs"
+    	from configurations.runtime
+    }
 }
 
 task copyIzPack(type: Copy) {
@@ -67,16 +91,25 @@ task copyIzPack(type: Copy) {
     from "src/main/izpack"
 }
 
-izpack {
-    baseDir = file("$buildDir/assemble")
-    appProperties = [
-    	'app.group': 'org-gromurph', 
-    	'app.name': 'JavaScore', 
-    	'app.title': 'JavaScore',
-        'app.version': version, 
-        'app.subpath': "Javascore-$version"]
-}
+task releaseBuild {
+	dependsOn assemble
+	
+	println 'importing ant build'
+	
+	FileCollection cp = files( '/Users/sandygrosvenor/Dropbox/dev/eclipseworkspace/izpack4/lib/*.jar')
+	
+	ant.taskdef( name: 'izpack',
+		classpath: cp,
+		classname: 'com.izforge.izpack.ant.IzPackTask')
 
-task buildInstaller {
-	dependsOn jar, copyDependentJars, copyIzPack, izPackCreateInstaller
+	ant.mkdir( dir: '$distDir')
+	file( '$distDir/Javascore-install-$version.jar').delete()
+    	
+    ant.izpack( 
+    	input: '$assembleDir/izpack-javascore-install.xml',
+	    output: '$distDir/Javascore-install-$version.jar',
+    	installerType: 'standard',
+    	basedir: '$buildDir/assemble',
+    	izPackDir: '$izpackDir/' )
+    	
 }

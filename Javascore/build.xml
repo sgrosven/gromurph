@@ -4,21 +4,18 @@
 <!-- Run "ant -projecthelp" for usage info                                 -->
 <!--=======================================================================-->
 
-<project name="Javascore" default="release" basedir=".">
+<project name="Javascore" basedir=".">
 	
-	<property name="izpack.dir" value="../izpack4" />
+	<property name="izpack.dir" value="/Users/sandygrosvenor/Dropbox/dev/eclipseworkspace/izpack4" />
 	<taskdef name="izpack" classpath="${izpack.dir}/lib/compiler.jar"
 		classname="com.izforge.izpack.ant.IzPackTask"/>
 	<tstamp />
  	
-    <property name="app.version"	value="7.2.2" />
-	<property name="app.builddate" 	value="${DSTAMP}" />
-
-	<!-- Include user-specific properties -->
-    <property file="build.properties"/>
-    <property file="${user.home}/build.properties"/>
-    
-	<!-- General properties -->
+	<!-- begin - overwritten by gradle -->
+    <property name="app_version"	value="VERSN" /> 
+	<property name="app_builddate" 	value="RDATE" /> 
+	<!-- end - overwritten by gradle -->
+	
     <property name="app.label"		value="JavaScore"/>
     <property name="app.name"		value="javascore"/>
     <property name="app.path"		value="/${app.name}"/>
@@ -26,61 +23,44 @@
 	<!-- web site info -->
 	<property name="base.url"	value="http://gromurph.org/javascore" />
 
-	
 	<!-- Path properties -->
-    <property name="build.home"	value="${basedir}/classes"/>
-    <property name="docs.home"	value="${basedir}/api"/>
-    <property name="src.home"	value="${basedir}/source"/>
-    <property name="lib.home"	value="${basedir}/jars"/>
-    <property name="test.home"	value="${basedir}/test"/>
-	<property name="dist.dir" value = "${basedir}/releasefiles" />
+	<property name="build.dir" value="${basedir}/build" />
+    <property name="classes.dir"	value="${build.dir}/classes"/>
+    <property name="docs.home"	value="${basedir}/target/api"/>
+    <property name="src.home"	value="${basedir}/src/main/java"/>
+    <property name="test.home"	value="${basedir}/src/test/java"/>
+	<property name="src.izpack" value = "${basedir}/src/main/izpack" />
+	<property name="dist.dir" value = "${build.dir}/distributions" />
+    <property name="assemble.dir"	value="${build.dir}/assemble"/>
+    <property name="libs.dir"	value="${build.dir}/libs"/>
         
-	<!-- Compile properties -->
-    <property name="compile.debug"			value="true"/>
-    <property name="compile.deprecation"	value="false"/>
-    <property name="compile.optimize"		value="true"/>
-    <property name="compile.source"			value="1.7"/>
-  
 	<!-- Classpath property -->
     <path id="compile.classpath">
-        <fileset dir="${lib.home}">
+        <fileset dir="${assemble.dir}">
             <include name="**/*.jar"/>
         </fileset>
     </path>
 	
 <!-- =================================================================== -->
-<!-- ALL Target                                                          -->
-<!-- =================================================================== -->
-   
-	<target 
-		name="all" 
-		depends="clean,compile"
-    	description="Clean build and dist directories, then compile"
-	/>
-
-<!-- =================================================================== -->
 <!-- Release - builds release files                                      -->
 <!-- =================================================================== -->
 	
     <target 
-    	name="release" 
-    	depends="jarcode,jarproperties,jarsource"
-        description="release package"
+    	name="antBuildInstaller" 
+    	depends="antBuild.assemble.dir"
+        description="builds installer jar using izpack."
     >
     	<!-- echo out the release info -->
-    	<echo message="Release info: VERSION=${app.version} BUILD Date=${app.builddate} RELEASEDIR=${dist.dir}" />
+    	<echo>antBuildInstaller: VERSION=${app_version} BUILD Date=${app_builddate} RELEASEDIR=${dist.dir}</echo>
     	
-    	<delete file="${dist.dir}/Javascore-install-${app.version}.jar"/>
-    	
-    	<!-- copy files that need to be in install root directory -->    	
-    	<copy todir="${dist.dir}" >
-    		<fileset dir="${src.home}" includes="*.*" />  		
-    	</copy>
+    	<mkdir dir="${dist.dir}" />
+    	<delete file="${dist.dir}/Javascore-install-${app_version}.jar"/>
     	
     	<!-- run izpack -->
-    	<izpack input="${dist.dir}/izpack-javascore-install.xml"
-    		output="${dist.dir}/Javascore-install-${app.version}.jar"
-    		installerType="standard" basedir="${dist.dir}"
+    	<izpack input="${assemble.dir}/izpack-javascore-install.xml"
+    		output="${dist.dir}/Javascore-install-${app_version}.jar"
+    		installerType="standard" 
+    		basedir="${assemble.dir}"
     		izPackDir="${izpack.dir}/"
     	/>
     	        	
@@ -88,215 +68,76 @@
 			
    
 <!-- =================================================================== -->
-<!-- Clean Target                                                        -->
-<!-- =================================================================== -->
-	
-    <target 
-    	name="clean"
-		description="Delete old build and dist directories">
-        <delete dir="${build.home}"/>
-    </target>   
-
-<!-- =================================================================== -->
 <!-- Prepare Target                                                      -->
 <!-- =================================================================== -->
+	<target name="clean.assemble.dir">
+		<delete dir="${assemble.dir}"/>
+		<mkdir dir="${assemble.dir}"/>
+	</target>
 	
-	<target 
-		name="prepare">
-		<!-- Create build directories as needed -->
-    	<mkdir  dir="${build.home}"/>
-	
-		<delete >
-			<fileset dir="${dist.dir}" includes="*.jar" excludes="javascore*.jar" />
-		</delete>
-		
-	  	<copy	todir="${dist.dir}" >
-	    	<fileset dir="${lib.home}" includes="*.jar" excludes="jfcunit*.jar" />  		
-	    </copy>
+	<target name="antBuild.assemble.dir" depends="clean.assemble.dir">
 
-		<copy	tofile="${dist.dir}/izpack-javascore-install.xml"
-				file="${dist.dir}/izpack-javascore-install.xml.master"
+    	<!-- copy files that need to be in install root directory -->    	
+    	<copy todir="${assemble.dir}" >
+    		<fileset dir="${src.izpack}" includes="*.*" excludes="*.master" />  		
+    		<fileset dir="${libs.dir}" includes="*.*" />  		
+    	</copy>
+    	
+		<copy	file="${src.izpack}/izpack-javascore-install.xml.master"
+				tofile="${assemble.dir}/izpack-javascore-install.xml"
 				overwrite="true" />
 			
-        <replace file="${dist.dir}/izpack-javascore-install.xml" token="#version#" value="${app.version}" summary="yes" />	
-        <replace file="${dist.dir}/izpack-javascore-install.xml" token="#releasedate#" value="${app.builddate}" summary="yes" />
+        <replace file="${assemble.dir}/izpack-javascore-install.xml" token="@version@" value="${app_version}" summary="yes" />	
+        <replace file="${assemble.dir}/izpack-javascore-install.xml" token="@releasedate@" value="${app_builddate}" summary="yes" />
 
 		
-		<copy	tofile="${dist.dir}/windows_shortcut_spec.xml"
-				file="${dist.dir}/windows_shortcut_spec.xml.master"
+		<copy	tofile="${assemble.dir}/windows_shortcut_spec.xml"
+				file="${src.izpack}/windows_shortcut_spec.xml.master"
 				overwrite="true" />			
-		<replace file="${dist.dir}/windows_shortcut_spec.xml" token="#version#" value="${app.version}" summary="yes" />	
+		<replace file="${assemble.dir}/windows_shortcut_spec.xml" token="@version@" value="${app_version}" summary="yes" />	
 		
-		<copy	tofile="${dist.dir}/unix_shortcut_specification.xml"
-				file="${dist.dir}/unix_shortcut_specification.xml.master"
+		<copy	tofile="${assemble.dir}/unix_shortcut_specification.xml"
+				file="${src.izpack}/unix_shortcut_specification.xml.master"
 				overwrite="true" />			
-		<replace file="${dist.dir}/unix_shortcut_specification.xml" token="#version#" value="${app.version}" summary="yes" />	
+		<replace file="${assemble.dir}/unix_shortcut_specification.xml" token="@version@" value="${app_version}" summary="yes" />	
 		
 		
-		<copy	tofile="JavaScoreVersion.java"
-				file="${dist.dir}/JavaScoreVersion.java.master"
-				overwrite="true" />
-			
-        <replace file="JavaScoreVersion.java" token="#version#" value="${app.version}" summary="yes" />	
-        <replace file="JavaScoreVersion.java" token="#releasedate#" value="${app.builddate}" summary="yes" />
-	
-		<move 	file="JavaScoreVersion.java"
-				todir="${src.home}/org/gromurph/javascore"
-				overwrite="true" />
-			
 	</target>
   
-<!-- =================================================================== -->
-<!-- Compile Target                                                      -->
-<!-- =================================================================== -->
-	
-	<target 
-		name="compile" 
-		depends="prepare"
-   		description="Compile Java sources">
-
-	<!-- Compile Java classes as necessary -->
-    	<mkdir dir="${build.home}"/>
-	    <javac	
-			includeantruntime="false"
-	    	destdir="${build.home}"
-            debug="${compile.debug}"
-			deprecation="${compile.deprecation}"
-			optimize="${compile.optimize}"
-        	source="${compile.source}" >
-			<src path="${src.home}"/>
-			<src path="${test.home}"/>
-			<classpath refid="compile.classpath"/>
-		</javac>
-
-	<!-- Copy application resources -->
-    	<copy  todir="${build.home}">
-      		<fileset dir="${src.home}" excludes="**/*.java,CVS/**"/>
-    	</copy>
-	</target>
-
-<!-- =================================================================== -->
-<!-- Run Javascore                                                           -->
-<!-- =================================================================== -->
-	
-	<target 
-		name="run" 
-		depends="compile" 
-		description="Runs Javascore in development environment">
-		
-		<java 
-  			classname="org.gromurph.javascore.JavaScore"
-			fork="true"
-			dir="${basedir}"
-			>
-  			
-			<classpath>
-				<pathelement location="${build.home}"/>
-				<pathelement location="${basedir}"/>
-			  	<path refid="compile.classpath"/>
-			</classpath>
-		</java>
-	</target>
-
-<!-- =================================================================== -->
-<!-- Generate the Code JAR file -->
-<!-- =================================================================== -->
-
-	<target 
-		name="jarcode" 
-		depends="compile"
-   		description="Creates an executable jar file for JavaScore">
-	    
-		<mkdir dir="${basedir}" />				
-		
-		<jar destfile="${dist.dir}/JavaScore.jar" 
-			basedir="${basedir}/classes"
-			includes="**/*.class images/*.*" 
-			excludes="help/*.* **/*Test.*" 
-	    	>
-			<manifest>
-				<attribute name="Main-Class" value="org.gromurph.javascore.JavaScore" />
-				<attribute name="Class-Path" value=". javascore_properties.jar commons-codec-1.6.jar commons-io-2.4.jar commons-logging-1.1.1.jar commons.net-3.2.jar dbswing.jar httpclient-4.2.3.jar jaxb-api.jar jaxb-impl.jar jaxb-xjc.jar jcalendar.jar jhall-2.0_02.jar log4j-1.2.17.jar sailingXRR.jar" />
-			</manifest>
-		</jar>
-		
-<!--		<signjar keystore="${key.store}" alias="${key.alias}" storepass="${key.storepass}" >
-			<fileset dir="." >
-				<include name="${dist.dir}/JavaScore.jar" />
-			</fileset>
-		</signjar>  	
-		-->
-
-	</target>
-
 <!-- =================================================================== -->
 <!-- Generate the properties jar file for language info					 -->
 <!-- =================================================================== -->
 
 	<target 
-		name="jarproperties" 
+		name="antBuildPropertiesJar" 
    		description="Creates a jar file for resources used by the javascore code ">
 
 		<jar destfile="${dist.dir}/javascore_properties.jar" >
 			
-			<fileset dir="${basedir}/classes" 
+			<fileset dir="${classes.dir}" 
 				includes="**/*.properties"/>				
-			<fileset dir="${basedir}/classes" 
+			<fileset dir="${classes.dir}" 
 				includes="help/*.* help/**/*.*" />
-			<fileset dir="${basedir}/classes" 
+			<fileset dir="${classes.dir}" 
 				includes="template*.html club-logo.jpg" />				
 			<fileset dir="${dist.dir}" >
 				<filename name="Spring_Sampler.regatta" />				
 	    	</fileset>
 		</jar>
-			<!--
-		<signjar keystore="${key.store}" alias="${key.alias}" storepass="${key.storepass}" >
-			<fileset dir="." >
-				<include name="${dist.dir}/javascore_properties.jar" />
-			</fileset>
-		</signjar>  	
-		-->
-
 	</target>
 		  	
-<!-- =================================================================== -->
-<!-- Signs the jar files that are part of the release -->
-<!-- =================================================================== -->
-	<target name="signExternalJars" 
-		description="Signs stock jars, jhall, dbswing, and calendar">
-		
-		<signjar keystore="gromurph.ks"
-		  	alias="sandy.gromurph.org"
-			storepass="Gr0murph!" 
-	  		>  	
-
-			<fileset dir="${lib.home}">
-				<include name="jhall.jar"/>		  
-				<include name="dbswing.jar" />
-				<include name="jcalendar.jar" />
-			</fileset>					
-			
-		</signjar>
-	</target>
-	
 <!-- =================================================================== -->
 <!-- Generate the Src JAR file -->
 <!-- =================================================================== -->
 		
 	<target 
-		name="jarsource" 
+		name="antBuildSourceJar" 
 		description="Creates a jar file for javascore source code ">
-		<jar destfile="${dist.dir}/javascore-src-${app.version}.jar" >
+		<jar destfile="${dist.dir}/javascore-src-${app_version}.jar" >
 			<fileset dir="${basedir}" 
 				includes="source/**/*.* test/**/*.* testregattas/**/*.*" />
 	    </jar>
 
-		<!-- <signjar keystore="${key.store}" alias="${key.alias}" storepass="${key.storepass}" >
-			<fileset dir="." >
-				<include name="${dist.dir}/javascore_src.jar" />
-			</fileset>
-		</signjar>  	-->
-		
 	</target>
 	 
 	  
@@ -305,18 +146,13 @@
 <!-- =================================================================== -->
 
 	<target 
-		name="jarapi" 
-		depends="compile, javadoc"
+		name="antBuildApiJar" 
+		depends="antBuildJavadocJar"
    		description="Creates a jar file for javadoc javascore code ">
 	    
 		<jar destfile="${dist.dir}/javascore_api.jar"
     	     basedir="api"
 	    />
-		<!-- <signjar keystore="${key.store}" alias="${key.alias}" storepass="${key.storepass}" >
-			<fileset dir="." >
-				<include name="${dist.dir}/javascore_api.jar" />
-			</fileset>
-		</signjar>  	-->
 
 	</target>
 	
@@ -326,8 +162,7 @@
 <!-- =================================================================== -->
 
 	<target 
-		name="javadoc" 
-		depends="compile"
+		name="antBuildJavadocJar" 
    		description="Create Javadoc API documentation">
 
 		<delete dir="${docs.home}"/>

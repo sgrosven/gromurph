@@ -1,0 +1,33 @@
+body { font-family:Verdana; margin: 4px; color:black; background:white }
+table { bgcolor=#FFFFFF font-family:Verdana; font-weight: normal; valign:top; align:center; }
+thead { vertical-align: bottom; font-weight:bold}
+td {padding-left: 5px; padding-right: 5px}
+p.regattatitle { padding: 0; font-weight:bold; font-size:120%; margin-top:0; margin-bottom:0}
+p.reporttitle { font-weight: bold; font-size:110%; margin-top:0; margin-bottom:0}
+p.infoheader { font-size: 90%; margin-top:5px; margin-bottom:0}
+p.infofooter { font-size: 90%; margin-top:30px; margin-bottom:0}
+p.divisionlinks { font-size: 90%; margin-top:10px; margin-bottom:5px}
+p.divisionheader { font-size: 110%; font-weight: bold; margin-top:30px; margin-bottom:15px}
+p.versionfooter { font-size: 70%}
+p.footnoteheader { font-size: 80%; margin-top:5px; margin-bottom:0}
+p.comments { font-size: 100%; margin-top:10px; margin-bottom:0}
+table.footnotes { font-size: 80%}
+table.seriestable { font-size: 90%}
+table.checkintable { font-size: 90%}
+table.rawfinishtable { font-size: 90%}
+table.scratchtable { font-size: 90%}
+table.racetable { font-size: 90%}
+table.toctable { font-size: 100%}
+table.finishsheetrecorder { }
+table.finishsheetclasses { }
+table.finishsheetfinishes { }
+table.finishsheetfleetlist { }
+td.ssdiv { border-top: 1px solid; border-bottom: 1px solid;
+padding-left: 3px; padding-right: 3px; padding-top: 1px; padding-bottom: 1px;
+font-size: 110%; font-weight:bold; background: #DDD;}
+td.ss { padding-left: 3px; padding-right: 3px; padding-top: 1px; padding-bottom: 1px}
+td.fsR { font-size: 100%; border: 1px solid}
+td.fsC { font-size: 100%; border: 1px solid}
+td.fsF { font-size: 100%; border: 1px solid}
+td.fsL { font-size: 100%; border: 1px solid}
+tr.divisionlabelrow { font-size: 100% font-weight: bold}
