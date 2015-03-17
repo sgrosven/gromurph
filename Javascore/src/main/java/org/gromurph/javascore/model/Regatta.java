@@ -91,9 +91,7 @@ public class Regatta extends BaseObject {
 	public transient static final String DATES_PROPERTY = "Dates";
 	public transient static final String USEBOWNUMBERS_PROPERTY = "UseBowNumbers";
 	public transient static final String FINAL_PROPERTY = "Final";
-	@Deprecated private transient static final String SPLITFLEET_PROPERTY = "SplitFleet";
 	public transient static final String MULTISTAGE_PROPERTY = "Multistage";
-	@Deprecated public transient static final String LASTRACEBEFORESPLIT_PROPERTY = "lastRaceBeforeSplit";
 	public transient static final String COMMENT_PROPERTY = "comment";
 	public transient static final String IFEVENTID_PROPERTY = "IFEventID";
 
@@ -293,7 +291,7 @@ public class Regatta extends BaseObject {
 			fRaces.xmlRead(n2, this);
 		}
 
-		String multiProperty = (fVersion < 600) ? SPLITFLEET_PROPERTY : MULTISTAGE_PROPERTY;
+		String multiProperty = MULTISTAGE_PROPERTY;
 		if ((value = n.getAttribute(multiProperty)) != null) {
 			boolean b = value.toString().equalsIgnoreCase("true");
 			try {
@@ -301,18 +299,9 @@ public class Regatta extends BaseObject {
 			} catch (Exception e) {}
 		}
 		
-		if (fScores instanceof MultiStage && fVersion < 600) {
-			if ((value = n.getAttribute(LASTRACEBEFORESPLIT_PROPERTY)) != null) {
-				((MultiStage) fScores).pre600_setLastRaceBeforeSplit(value);
-			}
-			if ((n2 = n.getElement(SCORES_PROPERTY)) != null) {
-				((MultiStage) fScores).xmlRead_pre600(n2, this);
-			}			
-		} else {
-			if ((n2 = n.getElement(SCORES_PROPERTY)) != null) {
-				fScores.xmlRead(n2, this);
-			}			
-		}
+		if ((n2 = n.getElement(SCORES_PROPERTY)) != null) {
+			fScores.xmlRead(n2, this);
+		}			
 		
 		if (fVersion < 201) {
 			// need to rescore to get the seriespoint initialized correctly

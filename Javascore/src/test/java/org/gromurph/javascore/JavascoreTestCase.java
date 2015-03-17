@@ -82,7 +82,7 @@ public class JavascoreTestCase extends UtilUispecTestCase {
 		TestUtils.xmlObjectToObject(src, dest);
 	}
 
-	public void testDummy() {
+	@Override public void testDummy() {
 		// just to avoid a no test error
 	}
 
