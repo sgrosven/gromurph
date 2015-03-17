@@ -7,18 +7,19 @@ sourceCompatibility = 1.7
 version = '7.3.1'
 ext.releaseDate = '2 April 2015'
 
-ext.izpackDir = "/Users/sandygrosvenor/Dropbox/dev/eclipseworkspace/izpack4"
+ext.izpackLibs = "/Users/sandygrosvenor/Dropbox/dev/eclipseworkspace/izpack4/lib"
 ext.distDir = "$buildDir/distributions"
 ext.assembleDir = "$buildDir/assemble"
-ext.classpathString = file('$assembleDir/*.jar').listFiles().toString()
+ext.libsDir = "$buildDir/libs"
 
 jar {
 	archiveName = 'JavaScore.jar'
+
     manifest {
         attributes 'Implementation-Title': 'JavaScore Regatta Scoring, version ' + version,
                    'Implementation-Version': version,
                    'Main-Class': 'org.gromurph.javascore.Javascore',
-                   'Class-Path' : classpathString
+                   'Class-Path' : configurations.runtime.join(' ')
     }
 }
 
@@ -79,25 +80,40 @@ task compileJava.doFirst {
 	}
 }
 
-task assemble.doLast {
-	copy {
-    	into "$buildDir/libs"
-    	from configurations.runtime
-    }
-}
+//assemble {
+//	outputs = new File( '$distDir/Javascore-install-$version.jar')
+//} 
 
-task copyIzPack(type: Copy) {
-    into "$buildDir/assemble"
-    from "src/main/izpack"
-}
+assemble.doLast {
+ 	new File( assembleDir).mkdirs()
+ 	new File( libsDir).mkdirs()
+    
+    copy {
+    	into libsDir
+   		from configurations.runtime
+	}
+    copy {
+    	into assembleDir
+    	from "src/main/izpack"
+	}
 
-task releaseBuild {
-	dependsOn assemble
+	println 'running buildIzPackInstaller'
 	
-	println 'importing ant build'
+	println 'importing ant build'	
+	ant.importBuild 'build.xml'
 	
-	FileCollection cp = files( '/Users/sandygrosvenor/Dropbox/dev/eclipseworkspace/izpack4/lib/*.jar')
+	ant.properties.app_version = version
+	ant.properties.app_builddate = releaseDate
 	
+	println 'running antBuildAssembler'
+	antBuildAssembler
+	
+	println 'running antBuildInstaller'
+	antBuildInstaller
+	
+	/*
+	FileCollection cp = files( '$izpackLibs/*.jar')
+	println 'izpack classpath is: ' + cp.join(' ')
 	ant.taskdef( name: 'izpack',
 		classpath: cp,
 		classname: 'com.izforge.izpack.ant.IzPackTask')
@@ -111,5 +127,6 @@ task releaseBuild {
     	installerType: 'standard',
     	basedir: '$buildDir/assemble',
     	izPackDir: '$izpackDir/' )
+    	*/
     	
 }

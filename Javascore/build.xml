@@ -47,7 +47,7 @@
 	
     <target 
     	name="antBuildInstaller" 
-    	depends="antBuild.assemble.dir"
+    
         description="builds installer jar using izpack."
     >
     	<!-- echo out the release info -->
@@ -70,12 +70,14 @@
 <!-- =================================================================== -->
 <!-- Prepare Target                                                      -->
 <!-- =================================================================== -->
-	<target name="clean.assemble.dir">
+	<target name="antClean.assemble.dir">
 		<delete dir="${assemble.dir}"/>
 		<mkdir dir="${assemble.dir}"/>
 	</target>
 	
-	<target name="antBuild.assemble.dir" depends="clean.assemble.dir">
+	<target name="antBuildAssembler" >
+
+    	<echo>antBuildAssembler: VERSION=${app_version} BUILD Date=${app_builddate} RELEASEDIR=${dist.dir}</echo>
 
     	<!-- copy files that need to be in install root directory -->    	
     	<copy todir="${assemble.dir}" >
@@ -89,6 +91,7 @@
 			
         <replace file="${assemble.dir}/izpack-javascore-install.xml" token="@version@" value="${app_version}" summary="yes" />	
         <replace file="${assemble.dir}/izpack-javascore-install.xml" token="@releasedate@" value="${app_builddate}" summary="yes" />
+        <replace file="${assemble.dir}/izpack-javascore-install.xml" token="@assemble.dir@" value="${assemble.dir}" summary="yes" />
 
 		
 		<copy	tofile="${assemble.dir}/windows_shortcut_spec.xml"

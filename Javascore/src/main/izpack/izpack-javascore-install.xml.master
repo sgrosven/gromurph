@@ -45,8 +45,8 @@
     <packs>
         <pack name="Base" required="yes">
             <description>The main javascore application</description>
-            <file src="JavaScore.jar" targetdir="@assemble.dir@"/>
-            <fileset dir="" targetdir="@assemble.dir@">
+            <file src="JavaScore.jar" targetdir="$INSTALL_PATH"/>
+            <fileset dir="" targetdir="$INSTALL_PATH">
 	            <include name="*.txt" />
 	            <include name="JavaScore.jar" />
 	            <include name="javascore_properties.jar" />
