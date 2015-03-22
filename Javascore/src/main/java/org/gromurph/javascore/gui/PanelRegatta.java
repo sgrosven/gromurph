@@ -54,7 +54,7 @@ import org.gromurph.javascore.model.Entry;
 import org.gromurph.javascore.model.EntryList;
 import org.gromurph.javascore.model.Regatta;
 import org.gromurph.javascore.model.ratings.Rating;
-import org.gromurph.javascore.model.scoring.MultiStage;
+import org.gromurph.javascore.model.scoring.MultiStageScoring;
 import org.gromurph.javascore.model.scoring.Stage;
 import org.gromurph.util.BaseEditor;
 import org.gromurph.util.BaseEditorContainer;
@@ -651,7 +651,7 @@ public class PanelRegatta extends BaseEditor<Regatta> implements ActionListener,
 		
 		if (fRegatta.isMultistage()) {
 			// can't take a multi stage regatta with more than one stage back to single stage
-			fCheckBoxMultistage.setEnabled( ((MultiStage) fRegatta.getScoringManager()).getNumStages() <= 1);
+			fCheckBoxMultistage.setEnabled( ((MultiStageScoring) fRegatta.getScoringManager()).getNumStages() <= 1);
 		} else {
 			fCheckBoxMultistage.setEnabled(true);
 		}
@@ -705,7 +705,7 @@ public class PanelRegatta extends BaseEditor<Regatta> implements ActionListener,
 		b.setMultistage(true);
 		Stage s = new Stage();
 		s.setName(Stage.FLEET);
-		((MultiStage) b.getScoringManager()).addStage(s);
+		((MultiStageScoring) b.getScoringManager()).addStage(s);
 		
 		b.setName("Snipe Intergalactices");
 		b.setPro("Sandy Grosvenor");

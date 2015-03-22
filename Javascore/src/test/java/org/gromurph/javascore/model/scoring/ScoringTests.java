@@ -103,7 +103,7 @@ public class ScoringTests extends JavascoreTestCase implements Constants {
 	public void testOCSFinishPosition() throws Exception {
 			// bug in 4.0.2, 4.3.1.02 - fixed in 4.3.1.03
 			Regatta reg = loadTestRegatta( "OCSPositionTest.regatta");
-			((SingleStage) reg.getScoringManager()).setModel(ScoringLowPoint.NAME);
+			((SingleStageScoring) reg.getScoringManager()).setModel(ScoringLowPoint.NAME);
 
 			reg.scoreRegatta();
 			Division albergs = reg.getDivision("Alberg30");
@@ -178,9 +178,9 @@ public class ScoringTests extends JavascoreTestCase implements Constants {
 
 	public void testCbyraSampler() throws Exception {
 		Regatta reg = loadTestRegatta( "Cbyra_Sampler.regatta");
-		((SingleStage) reg.getScoringManager()).setModel(ScoringLowPoint.NAME);
+		((SingleStageScoring) reg.getScoringManager()).setModel(ScoringLowPoint.NAME);
 
-		ScoringOptions scoringOptions = (ScoringOptions) ((SingleStage) reg.getScoringManager()).getModel().getOptions();
+		ScoringOptions scoringOptions = (ScoringOptions) ((SingleStageScoring) reg.getScoringManager()).getModel().getOptions();
 
 		// eliminate the throw out
 		scoringOptions.setThrowout(0, 0);
@@ -308,7 +308,7 @@ public class ScoringTests extends JavascoreTestCase implements Constants {
 	}
 
 	public void scoringTiesDefaultRrs(Regatta reg) throws ScoringException {
-		SingleStage mgr = (SingleStage) reg.getScoringManager();
+		SingleStageScoring mgr = (SingleStageScoring) reg.getScoringManager();
 		ScoringLowPoint scorer = (ScoringLowPoint) mgr.getModel();
 
 		mgr.setModel(ScoringLowPoint.NAME);
@@ -388,7 +388,7 @@ public class ScoringTests extends JavascoreTestCase implements Constants {
 		// 2 D ddd 3 5 1 2 [6] 4 6 21.0001 2
 		// 3 E eee [7] 4 2 4 3 1 7 21.0002 3
 
-		SingleStage mgr = (SingleStage)reg.getScoringManager();
+		SingleStageScoring mgr = (SingleStageScoring)reg.getScoringManager();
 		mgr.setModel(ScoringLowPoint.NAME);
 
 		ScoringLowPoint scorer = (ScoringLowPoint) mgr.getModel();
@@ -421,7 +421,7 @@ public class ScoringTests extends JavascoreTestCase implements Constants {
 	}
 
 	public void scoringChecksLightning(Regatta reg) throws ScoringException {
-		((SingleStage) reg.getScoringManager()).setModel(ScoringLowPointLightning.NAME);
+		((SingleStageScoring) reg.getScoringManager()).setModel(ScoringLowPointLightning.NAME);
 		reg.scoreRegatta();
 		String n = reg.getName() + "(Lightning)";
 

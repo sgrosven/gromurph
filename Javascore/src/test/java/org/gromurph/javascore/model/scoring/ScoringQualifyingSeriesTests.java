@@ -111,11 +111,11 @@ public class ScoringQualifyingSeriesTests extends org.gromurph.javascore.Javasco
 		Entry e12 = getEntry(reg, "12");
 		assertNotNull(e12);
 
-		assertTrue( reg.getScoringManager() instanceof MultiStage);
-		MultiStage scorer = (MultiStage) reg.getScoringManager();
+		assertTrue( reg.getScoringManager() instanceof MultiStageScoring);
+		MultiStageScoring scorer = (MultiStageScoring) reg.getScoringManager();
 		
 		assertTrue( reg.isMultistage());
-		MultiStage mgr = (MultiStage) reg.getScoringManager();
+		MultiStageScoring mgr = (MultiStageScoring) reg.getScoringManager();
 		assertEquals( 3, mgr.getStages().size());
 
 		//		19th			20th
@@ -309,7 +309,7 @@ public class ScoringQualifyingSeriesTests extends org.gromurph.javascore.Javasco
 		assertNotNull(e12);
 
 		assertTrue( reg.isMultistage());
-		MultiStage scorer = (MultiStage) reg.getScoringManager();
+		MultiStageScoring scorer = (MultiStageScoring) reg.getScoringManager();
 		assertEquals( 3, scorer.getStages().size());
 
 		// put back in 1 throw out
@@ -445,296 +445,299 @@ public class ScoringQualifyingSeriesTests extends org.gromurph.javascore.Javasco
 		assertEquals("BadGrey should be silver 6th overall", 6, spts.getPosition());
 	}
 
-	public void testQualScoresAfterSplit() throws Exception {
-
-		//	MedalTest_JustAfterSplit / Consolation Div.. before fix...
-		//	Pos Sail           1    2    3         4      Total   Pos 
-		//	 1   110           19   21   20   [31/NoFin]   64.00   1 
-		//	 2   111           20   22   19   [31/NoFin]   66.00   2 
-		//	 3   113           23   24   23   [31/NoFin]   80.00   3 
-
-		//	 SHOULD BE (20 boats in fleet)
-		//
-		//	Pos Sail           1    2    3         4      Total   Pos 
-		//	 1   110           19   21   20   [21/NoFin]   64.00   1 
-		//	 2   111           20   22   19   [21/NoFin]   66.00   2 
-		//	 3   113           23   24   23   [21/NoFin]   80.00   3 
-
-		Regatta reg = loadTestRegatta( "MedalTest_JustAfterSplit.regatta");
-		assertNotNull(reg);
-
-		Race race4 = reg.getRace("4");
-		assertNotNull(race4);
-
-		Race race1 = reg.getRace("1");
-		assertNotNull(race1);
-
-		Entry e110 = getEntry(reg, "110");
-		assertNotNull(e110);
-
-		SubDivision consol = reg.getSubDivision("Consolation");
-		assertNotNull(consol);
-
-		SubDivision medal = reg.getSubDivision("Medal");
-		assertNotNull(medal);
-
-		assertEquals("wrong num entries in Medal", 10, medal.getNumEntries());
-		assertEquals("wrong num entries in Medal", 10, medal.getNumEntries(race4));
-		assertEquals("wrong num entries in Medal", 0, medal.getNumEntries(race1));
-
-		assertEquals("wrong num entries in Consol", 20, consol.getNumEntries());
-		assertEquals("wrong num entries in Consol", 20, consol.getNumEntries(race4));
-		assertEquals("wrong num entries in Consol", 0, consol.getNumEntries(race1));
-
-		reg.scoreRegatta();
-		RegattaScoringModel scorer = reg.getScoringManager();
-
-		//	Pos Sail           1    2    3         4      Total   Pos 
-		//	 1   110           19   21   20   [21/NoFin]   64.00   1
-
-		RacePointsList thisRace = scorer.getRacePointsList().findAll(race4);
-		RacePoints pts = thisRace.find(race4, e110, consol);
-		if (pts != null) {
-			assertEquals("sail 110 in race 4 is DNC, should have 21 points", 21.0, pts.getPoints(), ERR_MARGIN);
-		}
-
-	}
-
-	public void testQualScoresMedalRaceNoConsolation() throws Exception {
-
-		// on Saturday, Dec 5th... 
-
-		// testing for new 3rd Medal race only 8.2 tiebreaker
-
-		// initially testing with tiebreaker - normal, race 4 without new medal race flag set...
-		// we get the following, which is good
-
-		//	Pos	Sail	Boat	Skipper	1	2	3	4m1,2	Total
-		//									Points	Pos
-		//	Medal
-		//	1	104	 	 	[4]	1	4	4	9.00	1
-		//	2	103	 	 	3	[4]	2	6	11.00	2
-		//	3	101	 	 	1	[2]	1	14	16.00	3
-		//	4	109	 	 	9	[10]	9	2	20.00	4
-		//	5	107	 	 	7	[8]	6	8	21.00	5
-		//	6	105	 	 	5	[6]	5	12	22.00	6
-		//	7	102	 	 	2	[3]	3	20	25.00	7
-		//	8	106	 	 	6	[7]	7	16	29.00	8
-		//	9	108	 	 	[8]	5	8	18	31.00	9   
-		//	10	112	 	 	[12]	9	12	10	31.00	10  
-		//	Consolation
-		//	11	111	 	 	11	[12]	10	 	21.00	11
-		//	12	110	 	 	10	[11]	11	 	21.00	12
-		//	13	113	 	 	13	[14]	13	 	26.00	13
-		//	14	116	 	 	[16]	13	16	 	29.00	14  
-		//	15	115	 	 	15	[16]	14	 	29.00	15 
-		//	16	114	 	 	14	[15]	15	 	29.00	16  
-
-		Regatta reg = loadTestRegatta( "MedalTest_Postsplit_MedalRaceOnly.regatta");
-		assertNotNull(reg);
-
-		Race race4 = reg.getRace("4m");
-		Race race1 = reg.getRace("1");
-
-		Entry e111 = getEntry(reg, "111");
-		Entry e110 = getEntry(reg, "110");
-		Entry e113 = getEntry(reg, "113");
-		Entry e104 = getEntry(reg, "104");
-		Entry e103 = getEntry(reg, "103");
-		Entry e101 = getEntry(reg, "101");
-		Entry e102 = getEntry(reg, "102");
-		Entry e108 = getEntry(reg, "108");
-		Entry e112 = getEntry(reg, "112");
-		Entry e116 = getEntry(reg, "116");
-		Entry e115 = getEntry(reg, "115");
-		Entry e114 = getEntry(reg, "114");
-
-
-		SubDivision consol = reg.getSubDivision("Consolation");
-		assertNotNull(consol);
-
-		SubDivision medal = reg.getSubDivision("Medal");
-		assertNotNull(medal);
-
-		AbstractDivision radial = medal.getParentDivision();
-		assertNotNull(radial);
-
-		assertEquals("wrong num entries in Medal", 10, medal.getNumEntries());
-		assertEquals("wrong num entries in Medal", 10, medal.getNumEntries(race4));
-		assertEquals("wrong num entries in Medal", 0, medal.getNumEntries(race1));
-
-		assertEquals("wrong num entries in Consol", 20, consol.getNumEntries());
-		assertEquals("wrong num entries in Consol", 0, consol.getNumEntries(race4));
-		assertEquals("wrong num entries in Consol", 0, consol.getNumEntries(race1));
-
-		// turn medal race scoring off... should be normal yacht race
-		// race 4 is weight 1 and discardable
-		// tiebreaks normal
-
-		race4.setMedalRace(false);  // should reset weigth to 1, discardable to true,
-		assertEquals( 1.0, race4.getWeight());
-		assertEquals( false, race4.isNonDiscardable());
-		
-		MultiStage sm = (MultiStage) reg.getScoringManager();
-		List<Stage> sl = sm.getStages();
-		assertNotNull(sl);
-		assertEquals( 2, sl.size());
-		assertTrue( sl.get(0).getModel() instanceof ScoringLowPoint);
-		
-		for (Stage s : sm.getStages()) {
-			ScoringLowPoint scoring = (ScoringLowPoint) s.getModel();
-			scoring.getOptions().setTiebreaker( ScoringLowPoint.TIE_RRS_DEFAULT);
-		}
-
-		reg.scoreRegatta();
-		RegattaScoringModel scorer = reg.getScoringManager();
-
-		//	Pos	Sail	Boat	Skipper	1	2	3	4m1,2	Total
-		//	Points	Pos    	
-		//Consolation
-		//11	111	 	 	11	[12]	10	 	21.00	11
-		//12	110	 	 	10	[11]	11	 	21.00	12
-		//13	113	 	 	13	[14]	13	 	26.00	13
-		//14	116	 	 	[16]	13	16	 	29.00	14  
-		//15	115	 	 	15	[16]	14	 	29.00	15 
-		//16	114	 	 	14	[15]	15	 	29.00	16  
-
-		RacePointsList race4pts = scorer.getRacePointsList().findAll(race4);
-		RacePointsList race1pts = scorer.getRacePointsList().findAll(race1);
-
-		checkPoints(race1pts, e111, race1, radial, 11.0);
-		checkPoints(race1pts, e110, race1, radial, 10.0);
-		checkPoints(race1pts, e113, race1, radial, 13.0);
-
-		checkPoints(race4pts, e111, race4, radial, Double.NaN);
-		checkPoints(race4pts, e110, race4, radial, Double.NaN);
-		checkPoints(race4pts, e113, race4, radial, Double.NaN);
-
-		// 110, 111 were tied with a boat that made gold, so there end of Fleet
-		// scores are 21.0001 and 0002
-		checkSeriesPoints(e111, radial, 21.0001, scorer);
-		checkSeriesPoints(e110, radial, 21.0002, scorer);
-		checkSeriesPoints(e113, radial, 26.0, scorer);
-		checkSeriesPoints(e116, radial, 29.0000, scorer);
-		checkSeriesPoints(e115, radial, 29.0001, scorer);
-		checkSeriesPoints(e114, radial, 29.0002, scorer);
-
-		//	Pos	Sail	Boat	Skipper	1	2	3	4m1,2	Total
-		//	Points	Pos
-		//Medal
-		//3	101	 	 	1	2	1	[7]		4.00	1
-		//1	104	 	 	[4]	1	4	2		7.00	2
-		//2	103	 	 	3	[4]	2	3		8.00	3
-		//7	102	 	 	2	3	3	[10]	8.00	4
-		//6	105	 	 	5	[6]	5	6		16.00	5
-		//5	107	 	 	7	[8]	6	4		17.00	6
-		//4	109	 	 	9  [10]	9	1		19.00	7
-		//9	108	 	 	8	5	8	[9]		21.00	8   
-		//8	106	 	 	6	7	7	[8]		22.00	9
-		//10 112	   [12]	9	12	5		26.00	10
-
-		checkPoints(race1pts, e101, race1, radial, 1.0);
-		checkPoints(race1pts, e104, race1, radial, 4.0);
-		checkPoints(race1pts, e103, race1, radial, 3.0);
-
-		checkPoints(race4pts, e101, race4, radial, 7.0);
-		checkPoints(race4pts, e104, race4, radial, 2.0);
-		checkPoints(race4pts, e103, race4, radial,3.0);
-
-		checkPoints(race4pts, e101, race4, medal, 7.0);
-		checkPoints(race4pts, e104, race4, medal, 2.0);  
-		checkPoints(race4pts, e103, race4, medal, 3.0);
-
-		// with medal race single weight
-		checkSeriesPoints(e104, radial, 7.0, scorer);
-		checkSeriesPoints(e103, radial, 8.0, scorer);
-		checkSeriesPoints(e101, radial, 9.0, scorer);
-		checkSeriesPoints(e102, radial, 15.0, scorer);
-
-		checkSeriesPoints(e112, radial, 26.0000, scorer);
-		checkSeriesPoints(e108, radial, 22.0000, scorer);
-
-		// now set tiebreaker to A8.2 only (all classes)
-		// and set medal race double weighting
-		race4.setMedalRace(true);
-		assertEquals( 2.0, race4.getWeight());
-		assertEquals( true, race4.isNonDiscardable());
-		
-		for (Stage s : sm.getStages()) {
-			ScoringLowPoint scoring = (ScoringLowPoint) s.getModel();
-			scoring.getOptions().setTiebreaker( ScoringLowPoint.TIE_RRS_A82_ONLY);
-		}
-
-		reg.scoreRegatta();
-
-		//	Medal
-		//	1	104	 	 	[4]	1	4	4	9.00	1
-		//	2	103	 	 	3	[4]	2	6	11.00	2
-		//	3	101	 	 	1	[2]	1	14	16.00	3
-		//	4	109	 	 	9	[10]	9	2	20.00	4
-		//	5	107	 	 	7	[8]	6	8	21.00	5
-		//	6	105	 	 	5	[6]	5	12	22.00	6
-		//	7	102	 	 	2	[3]	3	20	25.00	7
-		//	8	106	 	 	6	[7]	7	16	29.00	8
-		//	9	112	 	  [12]	9	12	10	31.0000	9  
-		//	10	108	 	 	[8]	5	8	18	31.0001	10   
-		//	Consolation
-		//	11	111	 	 	11	[12]  10	 	21.0001	11 // .0001 cuz were tied with 112 at end
-		//	12	110	 	 	10	[11]  11	 	21.0002	12 // .0002  .. of fleet stage
-		//	13	113	 	 	13	[14]  13	 	26.00	13
-		//	15	115	 	 	15	[16]  14	 	29.0000	14 
-		//	16	114	 	 	14	[15]  15	 	29.0001	15  
-		//	14	116	 	 	[16] 13	  16	 	29.0002	16  
-
-
-		// 112 should bean 108
-		checkSeriesPoints(e108, radial, 31.0001, scorer);
-		checkSeriesPoints(e112, radial, 31.0000, scorer);
-		// 115 beats 114 who beats 116
-		checkSeriesPoints(e116, radial, 29.0002, scorer);
-		checkSeriesPoints(e115, radial, 29.0000, scorer);
-		checkSeriesPoints(e114, radial, 29.0001, scorer);
-
-
-
-		// now set tiebreaker to A8.2 medal race only.. 
-		// if race 4 is NOT medal - but explicity weigth 2 and nondisc, 
-				// results should be default RRS
-		race4.setMedalRace(false);
-		race4.setWeight(2);
-		race4.setNonDiscardable(true);
-
-		assertEquals( 2.0, race4.getWeight());
-		assertEquals( true, race4.isNonDiscardable());
-		
-		for (Stage s : sm.getStages()) {
-			ScoringOptions options = ((ScoringLowPoint) s.getModel()).getOptions();
-			options.setTiebreaker( Constants.TIE_RRS_DEFAULT);
-		}
-		
-		ScoringOptions medalOptions = ((ScoringLowPoint)sm.getStage( Stage.MEDAL).getModel()).getOptions();
-		medalOptions.setTiebreaker( Constants.TIE_RRS_A82_ONLY);
-		reg.scoreRegatta();
-
-		checkSeriesPoints(e112, radial, 31.0000, scorer);
-		checkSeriesPoints(e108, radial, 31.0001, scorer);
-		checkSeriesPoints(e116, radial, 29.0000, scorer);
-		checkSeriesPoints(e115, radial, 29.0001, scorer);
-		checkSeriesPoints(e114, radial, 29.0002, scorer);
-
-		// now flag race 4 as medal
-
-		race4.setMedalRace(true);
-		reg.scoreRegatta();
-
-		// 112 should bean 108
-		checkSeriesPoints(e108, radial, 31.0001, scorer);
-		checkSeriesPoints(e112, radial, 31.0000, scorer);
-		// but radial is same as default RRS ties
-		checkSeriesPoints(e116, radial, 29.0000, scorer);
-		checkSeriesPoints(e115, radial, 29.0001, scorer);
-		checkSeriesPoints(e114, radial, 29.0002, scorer);
-	}
+	// 21 March 2015 - these tests don't make sense with the MultiStage stuff
+	// commenting out, I may not have good alternative test and may wish I had them back
+	// just after git conversion, I am killing the respective test regattas
+//	public void testQualScoresAfterSplit() throws Exception {
+//
+//		//	MedalTest_JustAfterSplit / Consolation Div.. before fix...
+//		//	Pos Sail           1    2    3         4      Total   Pos 
+//		//	 1   110           19   21   20   [31/NoFin]   64.00   1 
+//		//	 2   111           20   22   19   [31/NoFin]   66.00   2 
+//		//	 3   113           23   24   23   [31/NoFin]   80.00   3 
+//
+//		//	 SHOULD BE (20 boats in fleet)
+//		//
+//		//	Pos Sail           1    2    3         4      Total   Pos 
+//		//	 1   110           19   21   20   [21/NoFin]   64.00   1 
+//		//	 2   111           20   22   19   [21/NoFin]   66.00   2 
+//		//	 3   113           23   24   23   [21/NoFin]   80.00   3 
+//
+//		Regatta reg = loadTestRegatta( "MedalTest_JustAfterSplit.regatta");
+//		assertNotNull(reg);
+//
+//		Race race4 = reg.getRace("4");
+//		assertNotNull(race4);
+//
+//		Race race1 = reg.getRace("1");
+//		assertNotNull(race1);
+//
+//		Entry e110 = getEntry(reg, "110");
+//		assertNotNull(e110);
+//
+//		SubDivision consol = reg.getSubDivision("Consolation");
+//		assertNotNull(consol);
+//
+//		SubDivision medal = reg.getSubDivision("Medal");
+//		assertNotNull(medal);
+//
+//		assertEquals("wrong num entries in Medal", 10, medal.getNumEntries());
+//		assertEquals("wrong num entries in Medal", 10, medal.getNumEntries(race4));
+//		assertEquals("wrong num entries in Medal", 0, medal.getNumEntries(race1));
+//
+//		assertEquals("wrong num entries in Consol", 20, consol.getNumEntries());
+//		assertEquals("wrong num entries in Consol", 20, consol.getNumEntries(race4));
+//		assertEquals("wrong num entries in Consol", 0, consol.getNumEntries(race1));
+//
+//		reg.scoreRegatta();
+//		RegattaScoringModel scorer = reg.getScoringManager();
+//
+//		//	Pos Sail           1    2    3         4      Total   Pos 
+//		//	 1   110           19   21   20   [21/NoFin]   64.00   1
+//
+//		RacePointsList thisRace = scorer.getRacePointsList().findAll(race4);
+//		RacePoints pts = thisRace.find(race4, e110, consol);
+//		if (pts != null) {
+//			assertEquals("sail 110 in race 4 is DNC, should have 21 points", 21.0, pts.getPoints(), ERR_MARGIN);
+//		}
+//
+//	}
+//
+//	public void testQualScoresMedalRaceNoConsolation() throws Exception {
+//
+//		// on Saturday, Dec 5th... 
+//
+//		// testing for new 3rd Medal race only 8.2 tiebreaker
+//
+//		// initially testing with tiebreaker - normal, race 4 without new medal race flag set...
+//		// we get the following, which is good
+//
+//		//	Pos	Sail	Boat	Skipper	1	2	3	4m1,2	Total
+//		//									Points	Pos
+//		//	Medal
+//		//	1	104	 	 	[4]	1	4	4	9.00	1
+//		//	2	103	 	 	3	[4]	2	6	11.00	2
+//		//	3	101	 	 	1	[2]	1	14	16.00	3
+//		//	4	109	 	 	9	[10]	9	2	20.00	4
+//		//	5	107	 	 	7	[8]	6	8	21.00	5
+//		//	6	105	 	 	5	[6]	5	12	22.00	6
+//		//	7	102	 	 	2	[3]	3	20	25.00	7
+//		//	8	106	 	 	6	[7]	7	16	29.00	8
+//		//	9	108	 	 	[8]	5	8	18	31.00	9   
+//		//	10	112	 	 	[12]	9	12	10	31.00	10  
+//		//	Consolation
+//		//	11	111	 	 	11	[12]	10	 	21.00	11
+//		//	12	110	 	 	10	[11]	11	 	21.00	12
+//		//	13	113	 	 	13	[14]	13	 	26.00	13
+//		//	14	116	 	 	[16]	13	16	 	29.00	14  
+//		//	15	115	 	 	15	[16]	14	 	29.00	15 
+//		//	16	114	 	 	14	[15]	15	 	29.00	16  
+//
+//		Regatta reg = loadTestRegatta( "MedalTest_Postsplit_MedalRaceOnly.regatta");
+//		assertNotNull(reg);
+//
+//		Race race4 = reg.getRace("4m");
+//		Race race1 = reg.getRace("1");
+//
+//		Entry e111 = getEntry(reg, "111");
+//		Entry e110 = getEntry(reg, "110");
+//		Entry e113 = getEntry(reg, "113");
+//		Entry e104 = getEntry(reg, "104");
+//		Entry e103 = getEntry(reg, "103");
+//		Entry e101 = getEntry(reg, "101");
+//		Entry e102 = getEntry(reg, "102");
+//		Entry e108 = getEntry(reg, "108");
+//		Entry e112 = getEntry(reg, "112");
+//		Entry e116 = getEntry(reg, "116");
+//		Entry e115 = getEntry(reg, "115");
+//		Entry e114 = getEntry(reg, "114");
+//
+//
+//		SubDivision consol = reg.getSubDivision("Consolation");
+//		assertNotNull(consol);
+//
+//		SubDivision medal = reg.getSubDivision("Medal");
+//		assertNotNull(medal);
+//
+//		AbstractDivision radial = medal.getParentDivision();
+//		assertNotNull(radial);
+//
+//		assertEquals("wrong num entries in Medal", 10, medal.getNumEntries());
+//		assertEquals("wrong num entries in Medal", 10, medal.getNumEntries(race4));
+//		assertEquals("wrong num entries in Medal", 0, medal.getNumEntries(race1));
+//
+//		assertEquals("wrong num entries in Consol", 20, consol.getNumEntries());
+//		assertEquals("wrong num entries in Consol", 0, consol.getNumEntries(race4));
+//		assertEquals("wrong num entries in Consol", 0, consol.getNumEntries(race1));
+//
+//		// turn medal race scoring off... should be normal yacht race
+//		// race 4 is weight 1 and discardable
+//		// tiebreaks normal
+//
+//		race4.setMedalRace(false);  // should reset weigth to 1, discardable to true,
+//		assertEquals( 1.0, race4.getWeight());
+//		assertEquals( false, race4.isNonDiscardable());
+//		
+//		MultiStageScoring sm = (MultiStageScoring) reg.getScoringManager();
+//		List<Stage> sl = sm.getStages();
+//		assertNotNull(sl);
+//		assertEquals( 2, sl.size());
+//		assertTrue( sl.get(0).getModel() instanceof ScoringLowPoint);
+//		
+//		for (Stage s : sm.getStages()) {
+//			ScoringLowPoint scoring = (ScoringLowPoint) s.getModel();
+//			scoring.getOptions().setTiebreaker( ScoringLowPoint.TIE_RRS_DEFAULT);
+//		}
+//
+//		reg.scoreRegatta();
+//		RegattaScoringModel scorer = reg.getScoringManager();
+//
+//		//	Pos	Sail	Boat	Skipper	1	2	3	4m1,2	Total
+//		//	Points	Pos    	
+//		//Consolation
+//		//11	111	 	 	11	[12]	10	 	21.00	11
+//		//12	110	 	 	10	[11]	11	 	21.00	12
+//		//13	113	 	 	13	[14]	13	 	26.00	13
+//		//14	116	 	 	[16]	13	16	 	29.00	14  
+//		//15	115	 	 	15	[16]	14	 	29.00	15 
+//		//16	114	 	 	14	[15]	15	 	29.00	16  
+//
+//		RacePointsList race4pts = scorer.getRacePointsList().findAll(race4);
+//		RacePointsList race1pts = scorer.getRacePointsList().findAll(race1);
+//
+//		checkPoints(race1pts, e111, race1, radial, 11.0);
+//		checkPoints(race1pts, e110, race1, radial, 10.0);
+//		checkPoints(race1pts, e113, race1, radial, 13.0);
+//
+//		checkPoints(race4pts, e111, race4, radial, Double.NaN);
+//		checkPoints(race4pts, e110, race4, radial, Double.NaN);
+//		checkPoints(race4pts, e113, race4, radial, Double.NaN);
+//
+//		// 110, 111 were tied with a boat that made gold, so there end of Fleet
+//		// scores are 21.0001 and 0002
+//		checkSeriesPoints(e111, radial, 21.0001, scorer);
+//		checkSeriesPoints(e110, radial, 21.0002, scorer);
+//		checkSeriesPoints(e113, radial, 26.0, scorer);
+//		checkSeriesPoints(e116, radial, 29.0000, scorer);
+//		checkSeriesPoints(e115, radial, 29.0001, scorer);
+//		checkSeriesPoints(e114, radial, 29.0002, scorer);
+//
+//		//	Pos	Sail	Boat	Skipper	1	2	3	4m1,2	Total
+//		//	Points	Pos
+//		//Medal
+//		//3	101	 	 	1	2	1	[7]		4.00	1
+//		//1	104	 	 	[4]	1	4	2		7.00	2
+//		//2	103	 	 	3	[4]	2	3		8.00	3
+//		//7	102	 	 	2	3	3	[10]	8.00	4
+//		//6	105	 	 	5	[6]	5	6		16.00	5
+//		//5	107	 	 	7	[8]	6	4		17.00	6
+//		//4	109	 	 	9  [10]	9	1		19.00	7
+//		//9	108	 	 	8	5	8	[9]		21.00	8   
+//		//8	106	 	 	6	7	7	[8]		22.00	9
+//		//10 112	   [12]	9	12	5		26.00	10
+//
+//		checkPoints(race1pts, e101, race1, radial, 1.0);
+//		checkPoints(race1pts, e104, race1, radial, 4.0);
+//		checkPoints(race1pts, e103, race1, radial, 3.0);
+//
+//		checkPoints(race4pts, e101, race4, radial, 7.0);
+//		checkPoints(race4pts, e104, race4, radial, 2.0);
+//		checkPoints(race4pts, e103, race4, radial,3.0);
+//
+//		checkPoints(race4pts, e101, race4, medal, 7.0);
+//		checkPoints(race4pts, e104, race4, medal, 2.0);  
+//		checkPoints(race4pts, e103, race4, medal, 3.0);
+//
+//		// with medal race single weight
+//		checkSeriesPoints(e104, radial, 7.0, scorer);
+//		checkSeriesPoints(e103, radial, 8.0, scorer);
+//		checkSeriesPoints(e101, radial, 9.0, scorer);
+//		checkSeriesPoints(e102, radial, 15.0, scorer);
+//
+//		checkSeriesPoints(e112, radial, 26.0000, scorer);
+//		checkSeriesPoints(e108, radial, 22.0000, scorer);
+//
+//		// now set tiebreaker to A8.2 only (all classes)
+//		// and set medal race double weighting
+//		race4.setMedalRace(true);
+//		assertEquals( 2.0, race4.getWeight());
+//		assertEquals( true, race4.isNonDiscardable());
+//		
+//		for (Stage s : sm.getStages()) {
+//			ScoringLowPoint scoring = (ScoringLowPoint) s.getModel();
+//			scoring.getOptions().setTiebreaker( ScoringLowPoint.TIE_RRS_A82_ONLY);
+//		}
+//
+//		reg.scoreRegatta();
+//
+//		//	Medal
+//		//	1	104	 	 	[4]	1	4	4	9.00	1
+//		//	2	103	 	 	3	[4]	2	6	11.00	2
+//		//	3	101	 	 	1	[2]	1	14	16.00	3
+//		//	4	109	 	 	9	[10]	9	2	20.00	4
+//		//	5	107	 	 	7	[8]	6	8	21.00	5
+//		//	6	105	 	 	5	[6]	5	12	22.00	6
+//		//	7	102	 	 	2	[3]	3	20	25.00	7
+//		//	8	106	 	 	6	[7]	7	16	29.00	8
+//		//	9	112	 	  [12]	9	12	10	31.0000	9  
+//		//	10	108	 	 	[8]	5	8	18	31.0001	10   
+//		//	Consolation
+//		//	11	111	 	 	11	[12]  10	 	21.0001	11 // .0001 cuz were tied with 112 at end
+//		//	12	110	 	 	10	[11]  11	 	21.0002	12 // .0002  .. of fleet stage
+//		//	13	113	 	 	13	[14]  13	 	26.00	13
+//		//	15	115	 	 	15	[16]  14	 	29.0000	14 
+//		//	16	114	 	 	14	[15]  15	 	29.0001	15  
+//		//	14	116	 	 	[16] 13	  16	 	29.0002	16  
+//
+//
+//		// 112 should bean 108
+//		checkSeriesPoints(e108, radial, 31.0001, scorer);
+//		checkSeriesPoints(e112, radial, 31.0000, scorer);
+//		// 115 beats 114 who beats 116
+//		checkSeriesPoints(e116, radial, 29.0002, scorer);
+//		checkSeriesPoints(e115, radial, 29.0000, scorer);
+//		checkSeriesPoints(e114, radial, 29.0001, scorer);
+//
+//
+//
+//		// now set tiebreaker to A8.2 medal race only.. 
+//		// if race 4 is NOT medal - but explicity weigth 2 and nondisc, 
+//				// results should be default RRS
+//		race4.setMedalRace(false);
+//		race4.setWeight(2);
+//		race4.setNonDiscardable(true);
+//
+//		assertEquals( 2.0, race4.getWeight());
+//		assertEquals( true, race4.isNonDiscardable());
+//		
+//		for (Stage s : sm.getStages()) {
+//			ScoringOptions options = ((ScoringLowPoint) s.getModel()).getOptions();
+//			options.setTiebreaker( Constants.TIE_RRS_DEFAULT);
+//		}
+//		
+//		ScoringOptions medalOptions = ((ScoringLowPoint)sm.getStage( Stage.MEDAL).getModel()).getOptions();
+//		medalOptions.setTiebreaker( Constants.TIE_RRS_A82_ONLY);
+//		reg.scoreRegatta();
+//
+//		checkSeriesPoints(e112, radial, 31.0000, scorer);
+//		checkSeriesPoints(e108, radial, 31.0001, scorer);
+//		checkSeriesPoints(e116, radial, 29.0000, scorer);
+//		checkSeriesPoints(e115, radial, 29.0001, scorer);
+//		checkSeriesPoints(e114, radial, 29.0002, scorer);
+//
+//		// now flag race 4 as medal
+//
+//		race4.setMedalRace(true);
+//		reg.scoreRegatta();
+//
+//		// 112 should bean 108
+//		checkSeriesPoints(e108, radial, 31.0001, scorer);
+//		checkSeriesPoints(e112, radial, 31.0000, scorer);
+//		// but radial is same as default RRS ties
+//		checkSeriesPoints(e116, radial, 29.0000, scorer);
+//		checkSeriesPoints(e115, radial, 29.0001, scorer);
+//		checkSeriesPoints(e114, radial, 29.0002, scorer);
+//	}
 
 	private void checkPoints(RacePointsList rpl, Entry e, Race r, AbstractDivision div, double expectedPoints) {
 		RacePoints pts = rpl.find(r, e, div);
@@ -773,8 +776,11 @@ public class ScoringQualifyingSeriesTests extends org.gromurph.javascore.Javasco
 		assertEquals("wrong num entries in Green", 2, green.getNumEntries());
 		assertEquals("wrong num entries in Yellow", 4, yellow.getNumEntries());
 		
+		// TODO this should be a converted from pre-multistage qualifying event into a multistage regatta
+		// converted by loading in to JS 7.1.2, then saving
+		// it should have adapted to become a multistage event
 		assertTrue( reg.isMultistage());
-		MultiStage mgr = (MultiStage) reg.getScoringManager();
+		MultiStageScoring mgr = (MultiStageScoring) reg.getScoringManager();
 		assertEquals( 1, mgr.getStages().size());
 		ScoringLowPoint scoring = (ScoringLowPoint) mgr.getStages().get(0).getModel();
 
@@ -840,7 +846,7 @@ public class ScoringQualifyingSeriesTests extends org.gromurph.javascore.Javasco
 		assertEquals("wrong num entries in Green", 2, green.getNumEntries());
 		assertEquals("wrong num entries in Yellow", 4, yellow.getNumEntries());
 		
-		List<Stage> stages = ((MultiStage) reg.getScoringManager()).getStages();
+		List<Stage> stages = ((MultiStageScoring) reg.getScoringManager()).getStages();
 		assertEquals( 3, stages.size());
 
 		// these should be points under normal scoring

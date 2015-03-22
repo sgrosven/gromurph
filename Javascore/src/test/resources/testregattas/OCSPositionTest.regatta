@@ -1,191 +1,200 @@
-<?xml version='1.0'?>
-
-<Regatta Dates='' Final='false' HostClub='' JSVersion='4.3.1' JuryChair='' Name='OCSPositionTest' Pro='' SplitFleet='false' UseBowNumbers='false' Version='420'>
-	<DivisionList>
-		<Division DivName='Alberg30'>
-			<MinRating ClassName='Alberg30' System='OneDesign'></MinRating>
-			<MaxRating ClassName='Alberg30' System='OneDesign'></MaxRating>
-		</Division>
-		<Division DivName='Cal25'>
-			<MinRating ClassName='Cal25' System='OneDesign'></MinRating>
-			<MaxRating ClassName='Cal25' System='OneDesign'></MaxRating>
-		</Division>
-	</DivisionList>
-	<EntryList>
-		<Entry Bow='' Division='Alberg30' EntryId='2'>
-			<Boat BoatName='a 1' SailId='a 1'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Alberg30' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList>
-				<Crew FirstName='' LastName='' SailorId=''></Crew>
-			</CrewList>
-		</Entry>
-		<Entry Bow='' Division='Alberg30' EntryId='4'>
-			<Boat BoatName='a 2' SailId='a 2'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Alberg30' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList>
-				<Crew FirstName='' LastName='' SailorId=''></Crew>
-			</CrewList>
-		</Entry>
-		<Entry Bow='' Division='Cal25' EntryId='6'>
-			<Boat BoatName='c 3' SailId='c 3'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Cal25' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList>
-				<Crew FirstName='' LastName='' SailorId=''></Crew>
-			</CrewList>
-		</Entry>
-		<Entry Bow='' Division='Cal25' EntryId='7'>
-			<Boat BoatName='c 4' SailId='c 4'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Cal25' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList>
-				<Crew FirstName='' LastName='' SailorId=''></Crew>
-			</CrewList>
-		</Entry>
-		<Entry Bow='' Division='Alberg30' EntryId='5'>
-			<Boat BoatName='a 5' SailId='a 5'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Alberg30' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList>
-				<Crew FirstName='' LastName='' SailorId=''></Crew>
-			</CrewList>
-		</Entry>
-		<Entry Bow='' Division='Cal25' EntryId='8'>
-			<Boat BoatName='c 6' SailId='c 6'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Cal25' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList>
-				<Crew FirstName='' LastName='' SailorId=''></Crew>
-			</CrewList>
-		</Entry>
-	</EntryList>
-	<FleetList></FleetList>
-	<SubDivisionList></SubDivisionList>
-	<RaceList>
-		<Race BFactor='550' Comment='' LongDistance='false' Name='1' RaceId='1' StartDate='04-Jul-2005'>
-			<DivInfo>
-				<DivStart Div='Alberg30' Length='0.0' StartTime='No Time' isRacing='true'></DivStart>
-				<DivStart Div='Cal25' Length='0.0' StartTime='No Time' isRacing='true'></DivStart>
-			</DivInfo>
-			<FinishList>
-				<Fin Ent='2' Pos='1' Race='1'></Fin>
-				<Fin Ent='4' Pos='2' Race='1'></Fin>
-				<Fin Ent='6' Pos='3' Race='1'>
-					<Penalty Penalty='OCS'></Penalty>
-				</Fin>
-				<Fin Ent='7' Pos='4' Race='1'></Fin>
-				<Fin Ent='5' Pos='5' Race='1'>
-					<Penalty Penalty='OCS'></Penalty>
-				</Fin>
-				<Fin Ent='8' Pos='6' Race='1'></Fin>
-			</FinishList>
-		</Race>
-	</RaceList>
-	<Scores SystemName='ISAF Low Point 2005-2008'>
-		<System CheckinPercent='20' LongSeries='false' Throwout1='2' Throwout2='0' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='0'></System>
-		<RacePointsList>
-			<rp Div='Alberg30' Ent='2' Pos='1' Pts='1.0' Race='1'></rp>
-			<rp Div='Alberg30' Ent='4' Pos='2' Pts='2.0' Race='1'></rp>
-			<rp Div='Alberg30' Ent='5' Pos='3' Pts='4.0' Race='1'></rp>
-			<rp Div='Cal25' Ent='6' Pos='1' Pts='4.0' Race='1'></rp>
-			<rp Div='Cal25' Ent='7' Pos='2' Pts='1.0' Race='1'></rp>
-			<rp Div='Cal25' Ent='8' Pos='3' Pts='2.0' Race='1'></rp>
-		</RacePointsList>
-		<SeriesPointsList>
-			<sp Div='Alberg30' Ent='2' Pos='1' Pts='1.0'></sp>
-			<sp Div='Alberg30' Ent='4' Pos='2' Pts='2.0'></sp>
-			<sp Div='Alberg30' Ent='5' Pos='3' Pts='4.0'></sp>
-			<sp Div='Cal25' Ent='7' Pos='1' Pts='1.0'></sp>
-			<sp Div='Cal25' Ent='8' Pos='2' Pts='2.0'></sp>
-			<sp Div='Cal25' Ent='6' Pos='3' Pts='4.0'></sp>
-		</SeriesPointsList>
-	</Scores>
-	<Options FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Proofing' Template=''>
-		<OptionLocations>
-			<item value='2.1'></item>
-			<item value='none'></item>
-			<item value='1.1'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-		</OptionLocations>
-		<OptionLocations>
-			<item value='2.1'></item>
-			<item value='none'></item>
-			<item value='1.1'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-			<item value='3.1'></item>
-			<item value='none'></item>
-		</OptionLocations>
-		<OptionLocations>
-			<item value='1.2'></item>
-			<item value='none'></item>
-			<item value='1.1'></item>
-			<item value='3.1'></item>
-			<item value='none'></item>
-			<item value='4.1'></item>
-			<item value='2.1'></item>
-			<item value='none'></item>
-		</OptionLocations>
-		<OptionLocations>
-			<item value='none'></item>
-			<item value='none'></item>
-			<item value='1.1'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-		</OptionLocations>
-		<OptionLocations>
-			<item value='none'></item>
-			<item value='none'></item>
-			<item value='1.1'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-		</OptionLocations>
-		<OptionLocations>
-			<item value='2.1'></item>
-			<item value='none'></item>
-			<item value='1.1'></item>
-			<item value='3.2'></item>
-			<item value='none'></item>
-			<item value='3.1'></item>
-			<item value='none'></item>
-			<item value='none'></item>
-		</OptionLocations>
-	</Options>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta Dates="" Final="false" HostClub="" IFEventID="" JSVersion="7.2.1" JuryChair="" Multistage="false" Name="OCSPositionTest" Pro="" UseBowNumbers="false" Version="600" comment="">
+<DivisionList>
+<Division DivName="Alberg30">
+<MinRating ClassName="Alberg30" System="OneDesign"/>
+<MaxRating ClassName="Alberg30" System="OneDesign"/>
+</Division>
+<Division DivName="Cal25">
+<MinRating ClassName="Cal25" System="OneDesign"/>
+<MaxRating ClassName="Cal25" System="OneDesign"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Division="Alberg30" EntryId="2">
+<Boat BoatName="a 1" SailId="a 1">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Alberg30" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Alberg30" EntryId="4">
+<Boat BoatName="a 2" SailId="a 2">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Alberg30" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Cal25" EntryId="6">
+<Boat BoatName="c 3" SailId="c 3">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Cal25" EntryId="7">
+<Boat BoatName="c 4" SailId="c 4">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Alberg30" EntryId="5">
+<Boat BoatName="a 5" SailId="a 5">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Alberg30" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Cal25" EntryId="8">
+<Boat BoatName="c 6" SailId="c 6">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+</EntryList>
+<RaceList>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="04-Jul-2005" Weight="1.0">
+<DivInfo>
+<DivStart Div="Alberg30" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Cal25" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="2" Pos="1" Race="1"/>
+<Fin Ent="4" Pos="2" Race="1"/>
+<Fin Ent="6" Pos="3" Race="1">
+<Penalty Penalty="OCS"/>
+</Fin>
+<Fin Ent="7" Pos="4" Race="1"/>
+<Fin Ent="5" Pos="5" Race="1">
+<Penalty Penalty="OCS"/>
+</Fin>
+<Fin Ent="8" Pos="6" Race="1"/>
+</FinishList>
+</Race>
+</RaceList>
+<Scores SystemName="ISAF Low Point 2013-2016">
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="Alberg30" Ent="2" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="Alberg30" Ent="4" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="Alberg30" Ent="5" Pos="3" Pts="4.0" Race="1"/>
+<rp Div="Cal25" Ent="6" Pos="1" Pts="4.0" Race="1"/>
+<rp Div="Cal25" Ent="7" Pos="2" Pts="1.0" Race="1"/>
+<rp Div="Cal25" Ent="8" Pos="3" Pts="2.0" Race="1"/>
+</RacePointsList>
+<SeriesPointsList>
+<sp Div="Alberg30" Ent="2" Pos="1" Pts="1.0"/>
+<sp Div="Alberg30" Ent="4" Pos="2" Pts="2.0"/>
+<sp Div="Alberg30" Ent="5" Pos="3" Pts="4.0"/>
+<sp Div="Cal25" Ent="7" Pos="1" Pts="1.0"/>
+<sp Div="Cal25" Ent="8" Pos="2" Pts="2.0"/>
+<sp Div="Cal25" Ent="6" Pos="3" Pts="4.0"/>
+</SeriesPointsList>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.2"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="4.1"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="2.2"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="3.2"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
 </Regatta>

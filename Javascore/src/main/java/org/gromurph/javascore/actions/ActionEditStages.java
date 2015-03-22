@@ -18,7 +18,7 @@ import javax.swing.JFrame;
 
 import org.gromurph.javascore.gui.DialogStageEditor;
 import org.gromurph.javascore.model.StageList;
-import org.gromurph.javascore.model.scoring.MultiStage;
+import org.gromurph.javascore.model.scoring.MultiStageScoring;
 import org.gromurph.javascore.model.scoring.Stage;
 
 public class ActionEditStages extends ActionShowEditor<Stage> {
@@ -31,13 +31,13 @@ public class ActionEditStages extends ActionShowEditor<Stage> {
 	@Override
 	public StageList getList() {
 		if (getRegatta().isMultistage()) {
-			return ( (MultiStage) getRegatta().getScoringManager()).getStages();
+			return ( (MultiStageScoring) getRegatta().getScoringManager()).getStages();
 		} else {
 			return null;
 		}
 	} 
 	
-	public void setScoringManager( MultiStage mgr) {
+	public void setScoringManager( MultiStageScoring mgr) {
 		DialogStageEditor dialog = (DialogStageEditor) getDialog();
 		dialog.setScoringManager(mgr);
 	}

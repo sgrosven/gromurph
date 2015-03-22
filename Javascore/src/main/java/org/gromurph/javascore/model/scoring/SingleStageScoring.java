@@ -51,16 +51,16 @@ import org.gromurph.xml.PersistentNode;
  * But when multi-classes and possibly overall fleet results come in, then there will be one of these for each scored
  * class, and each scored fleet.
  **/
-public class SingleStage extends BaseObject 
+public class SingleStageScoring extends BaseObject 
 		implements RegattaScoringModel, StageScoringModel, Constants {
 	
-	public SingleStage( Regatta reg) {
+	public SingleStageScoring( Regatta reg) {
 		super();
 		setRegatta(reg);
 	}
 	
-	public static SingleStage createFromMultiStage( MultiStage ms) {
-		SingleStage ss = new SingleStage(null);
+	public static SingleStageScoring createFromMultiStage( MultiStageScoring ms) {
+		SingleStageScoring ss = new SingleStageScoring(null);
 		
 		if (ms.getNumStages() > 0) {
 			Stage s = ms.getStages().get(0);
@@ -83,7 +83,7 @@ public class SingleStage extends BaseObject
 	protected RacePointsList fPointsList = new RacePointsList();
 
 	private Regatta _regatta;
-	private Regatta getRegatta() { 
+	public Regatta getRegatta() { 
 		if (_regatta == null) {
 			_regatta = JavaScoreProperties.getRegatta();
 		}
@@ -96,7 +96,7 @@ public class SingleStage extends BaseObject
 	/**
 	 * list of strings containing Warning Messages
 	 */
-	protected static WarningList sWarnings = new WarningList();
+	protected WarningList warnings = new WarningList();
 
 	protected ScoringModel fModel = new ScoringLowPoint();
 
@@ -114,8 +114,8 @@ public class SingleStage extends BaseObject
 	 * 
 	 * @return list of warnings
 	 */
-	public static WarningList getWarnings() {
-		return sWarnings;
+	public WarningList getWarnings() {
+		return warnings;
 	}
 
 	/**
@@ -137,6 +137,11 @@ public class SingleStage extends BaseObject
 		return fPointsList;
 	}
 
+	public void initializeScoring() {
+		clearResults();
+		warnings.clear();
+	}
+
 	/**
 	 * scores all boats, all races in the regatta
 	 * 
@@ -147,31 +152,18 @@ public class SingleStage extends BaseObject
 	 * @throws ScoringException
 	 *             if a problem is encountered
 	 */
-	public void validate() throws ScoringException {
+	public boolean validate() throws ScoringException {
 		Regatta regatta = getRegatta();
-		JavaScoreProperties.acquireScoringLock();
-		try {
-			logger.trace("ScoringManager: validation started...");
-			if (regatta == null || regatta.getNumRaces() == 0 || regatta.getNumEntries() == 0) {
-				logger.trace("ScoringManager: (empty) done.");
-				return;
+		// check for entries with a division not in the fRegatta
+		warnings.clear();
+		for (Entry entry : regatta.getAllEntries()) {
+			if (!regatta.hasDivision(entry.getDivision())) {
+				warnings.add(MessageFormat.format(res.getString("WarningEntryNotInDivision"), new Object[] { entry
+						.toString() }));
 			}
-
-			// check for entries with a division not in the fRegatta
-			sWarnings.clear();
-			for (Entry entry : regatta.getAllEntries()) {
-				if (!regatta.hasDivision(entry.getDivision())) {
-					sWarnings.add(MessageFormat.format(res.getString("WarningEntryNotInDivision"), new Object[] { entry
-							.toString() }));
-				}
-			}
-
-			clearResults();
-			ScoringUtilities.validateRegatta(regatta);
-			
-		} finally {
-			JavaScoreProperties.releaseScoringLock();
 		}
+		warnings.addAll( ScoringUtilities.validateRegatta(regatta));
+		return (warnings.size() == 0);
 	}
 	
 	protected void clearResults() {
@@ -325,7 +317,7 @@ public class SingleStage extends BaseObject
 		if (this == obj)
 			return true;
 		try {
-			SingleStage that = (SingleStage) obj;
+			SingleStageScoring that = (SingleStageScoring) obj;
 
 			// if (!Util.equalsWithNull( this.fRaces, that.fRaces)) return
 			// false;

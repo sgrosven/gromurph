@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="2001-02-04" Final="false" HostClub="sisf" IFEventID="" JSVersion="7.3" JuryChair="" Multistage="false" Name="Swedish test" Pro="" UseBowNumbers="false" Version="600" comment="">
+<Regatta Dates="2001-02-04" Final="false" HostClub="sisf" IFEventID="" JSVersion="7.3.1" JuryChair="" Multistage="false" Name="Swedish test" Pro="" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="DN">
 <MinRating ClassName="DN" System="OneDesign"/>

@@ -35,7 +35,7 @@ import org.gromurph.javascore.Constants;
 import org.gromurph.javascore.JavaScore;
 import org.gromurph.javascore.JavaScoreProperties;
 import org.gromurph.javascore.model.Regatta;
-import org.gromurph.javascore.model.scoring.MultiStage;
+import org.gromurph.javascore.model.scoring.MultiStageScoring;
 import org.gromurph.javascore.model.scoring.Stage;
 import org.gromurph.util.BaseEditor;
 import org.gromurph.util.BaseEditorContainer;
@@ -56,7 +56,7 @@ public class PanelStage extends BaseEditor<Stage> implements Constants, ActionLi
 	private Stage fStage;
 
 	public Regatta fRegatta;
-	public MultiStage fScoring;
+	public MultiStageScoring fScoring;
 
 	public PanelStage(BaseEditorContainer parent) {
 		super(parent);
@@ -106,7 +106,7 @@ public class PanelStage extends BaseEditor<Stage> implements Constants, ActionLi
 	@Override public void updateFields() {
 		
 		fRegatta = JavaScoreProperties.getRegatta();
-		if (fRegatta != null) fScoring = (MultiStage) fRegatta.getScoringManager();
+		if (fRegatta != null) fScoring = (MultiStageScoring) fRegatta.getScoringManager();
 
 		updateComboPreviousStage();
 		
@@ -391,7 +391,7 @@ public class PanelStage extends BaseEditor<Stage> implements Constants, ActionLi
 		Regatta r = new Regatta();
 		JavaScoreProperties.setRegatta(r);
 		r.setMultistage(true);
-		MultiStage scoring = (MultiStage) r.getScoringManager();
+		MultiStageScoring scoring = (MultiStageScoring) r.getScoringManager();
 		
 		Stage qual = new Stage( scoring);
 		qual.setName("Qualifying");

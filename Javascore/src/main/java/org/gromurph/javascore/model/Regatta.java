@@ -35,9 +35,9 @@ import org.gromurph.javascore.actions.ActionReportRawFinish;
 import org.gromurph.javascore.actions.ActionReportScratch;
 import org.gromurph.javascore.actions.ActionReportSeriesStandingsSingleStage;
 import org.gromurph.javascore.manager.RegattaManager;
-import org.gromurph.javascore.model.scoring.MultiStage;
+import org.gromurph.javascore.model.scoring.MultiStageScoring;
 import org.gromurph.javascore.model.scoring.RegattaScoringModel;
-import org.gromurph.javascore.model.scoring.SingleStage;
+import org.gromurph.javascore.model.scoring.SingleStageScoring;
 import org.gromurph.util.BaseObject;
 import org.gromurph.util.Util;
 import org.gromurph.xml.PersistentNode;
@@ -140,7 +140,7 @@ public class Regatta extends BaseObject {
 		mgr = new RegattaManager(this);
 		
 		fIsMultiStage = false;
-		fScores = new SingleStage(this);
+		fScores = new SingleStageScoring(this);
 	}
 
 	public List<ReportOptions> getReportOptionsList() {
@@ -357,8 +357,8 @@ public class Regatta extends BaseObject {
 		fIsMultiStage = b;
 		
 		if (oldb != b) {
-			if (b) fScores = MultiStage.createFromSingleStage( (SingleStage)fScores);
-			else fScores = SingleStage.createFromMultiStage( (MultiStage)fScores);
+			if (b) fScores = MultiStageScoring.createFromSingleStage( (SingleStageScoring)fScores);
+			else fScores = SingleStageScoring.createFromMultiStage( (MultiStageScoring)fScores);
 		}
 		firePropertyChange(MULTISTAGE_PROPERTY, oldb, new Boolean(fIsMultiStage));
 	}
@@ -586,7 +586,7 @@ public class Regatta extends BaseObject {
 	public void addDivision(Division div) {
 		fDivisions.add(div);
 		if (isMultistage()) {
-			((MultiStage) fScores).addDivisionToStages(div);
+			((MultiStageScoring) fScores).addDivisionToStages(div);
 		}
 		div.addPropertyChangeListener(this);
 	}
@@ -594,7 +594,7 @@ public class Regatta extends BaseObject {
 	public void removeDivision(Division div) {
 		div.removePropertyChangeListener(this);
 		if (isMultistage()) {
-			((MultiStage) fScores).removeDivisionFromStages(div);			
+			((MultiStageScoring) fScores).removeDivisionFromStages(div);			
 		}
 		fDivisions.remove(div);
 	}

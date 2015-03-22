@@ -23,7 +23,7 @@ import org.gromurph.javascore.exception.RatingOutOfBoundsException;
 import org.gromurph.javascore.model.ratings.RatingPhrf;
 import org.gromurph.javascore.model.scoring.RegattaScoringModel;
 import org.gromurph.javascore.model.scoring.ScoringLowPoint;
-import org.gromurph.javascore.model.scoring.SingleStage;
+import org.gromurph.javascore.model.scoring.SingleStageScoring;
 import org.gromurph.util.TestUtils;
 
 /**
@@ -446,7 +446,7 @@ public class PenaltyTests extends JavascoreTestCase implements Constants {
 
 	public void testDncAndAveragePoints() {
 		
-		ScoringLowPoint sd1 = (ScoringLowPoint) ((SingleStage) reg.getScoringManager()).getModel();
+		ScoringLowPoint sd1 = (ScoringLowPoint) ((SingleStageScoring) reg.getScoringManager()).getModel();
 		sd1.getOptions().setThrowoutScheme(ScoringLowPoint.THROWOUT_BYNUMRACES);
 		sd1.getOptions().getThrowouts().set(0, new Integer(2));
 		sd1.getOptions().getThrowouts().set(1, new Integer(0));
@@ -516,7 +516,7 @@ public class PenaltyTests extends JavascoreTestCase implements Constants {
 	}
 
 	public void testManPenalty() {
-		ScoringLowPoint sd1 = (ScoringLowPoint) ((SingleStage) reg.getScoringManager()).getModel();
+		ScoringLowPoint sd1 = (ScoringLowPoint) ((SingleStageScoring) reg.getScoringManager()).getModel();
 		sd1.getOptions().setThrowoutScheme(ScoringLowPoint.THROWOUT_BYNUMRACES);
 		sd1.getOptions().getThrowouts().set(0, new Integer(2));
 		sd1.getOptions().getThrowouts().set(1, new Integer(0));

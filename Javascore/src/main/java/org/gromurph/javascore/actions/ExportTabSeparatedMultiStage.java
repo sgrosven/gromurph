@@ -32,7 +32,7 @@ import org.gromurph.javascore.model.RacePoints;
 import org.gromurph.javascore.model.Regatta;
 import org.gromurph.javascore.model.SeriesPoints;
 import org.gromurph.javascore.model.SubDivision;
-import org.gromurph.javascore.model.scoring.MultiStage;
+import org.gromurph.javascore.model.scoring.MultiStageScoring;
 import org.gromurph.javascore.model.scoring.Stage;
 import org.gromurph.util.Exporter;
 import org.gromurph.util.Util;
@@ -48,7 +48,7 @@ public class ExportTabSeparatedMultiStage implements Exporter  {
 	static ResourceBundle resUtil = Util.getResources();
 
 	private Regatta regatta;
-	private MultiStage stageManager;
+	private MultiStageScoring stageManager;
 
 	PrintWriter pw;
 
@@ -103,7 +103,7 @@ public class ExportTabSeparatedMultiStage implements Exporter  {
 	 */
 	public void export( Regatta reg) throws IOException {
 		regatta = reg;
-		stageManager = (MultiStage) regatta.getScoringManager(); 
+		stageManager = (MultiStageScoring) regatta.getScoringManager(); 
 		
 		exportHeaders();
 

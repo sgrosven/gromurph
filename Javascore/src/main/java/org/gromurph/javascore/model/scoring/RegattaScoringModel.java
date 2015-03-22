@@ -6,13 +6,13 @@ import org.gromurph.javascore.exception.ScoringException;
 import org.gromurph.javascore.model.AbstractDivision;
 import org.gromurph.javascore.model.Entry;
 import org.gromurph.javascore.model.RacePointsList;
+import org.gromurph.javascore.model.Regatta;
 import org.gromurph.javascore.model.SeriesPoints;
 import org.gromurph.javascore.model.SeriesPointsList;
+import org.gromurph.util.WarningList;
 import org.gromurph.xml.PersistentNode;
 
 public interface RegattaScoringModel {
-
-	 public void scoreRegatta() throws ScoringException;
 
 	/**
 	 * returns list of all racepoints
@@ -31,8 +31,12 @@ public interface RegattaScoringModel {
 	 * @throws ScoringException
 	 *             if a problem is encountered
 	 */
-	public void validate() throws ScoringException;
+	public void scoreRegatta() throws ScoringException;
 
+	public void initializeScoring();
+
+	public boolean validate() throws ScoringException;
+	
 	public void xmlRead(PersistentNode n, Object rootObject);
 	
 	public void xmlWrite(PersistentNode node);
@@ -49,5 +53,7 @@ public interface RegattaScoringModel {
 	
 	public List<String> getSeriesScoringNotes( RacePointsList rpList);
 	
-
+	public WarningList getWarnings();
+	
+	public Regatta getRegatta();
 }

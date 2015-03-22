@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="2001-02-04" Final="false" HostClub="sisf" IFEventID="" JSVersion="7.1.3" JuryChair="" Multistage="false" Name="Swedish test" Pro="" UseBowNumbers="false" Version="600" comment="">
+<Regatta Dates="2001-02-04" Final="false" HostClub="sisf" IFEventID="" JSVersion="7.2.1" JuryChair="" Multistage="false" Name="Swedish test" Pro="" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="DN">
 <MinRating ClassName="DN" System="OneDesign"/>
@@ -87,9 +87,7 @@
 </RatingList>
 </Boat>
 <Skipper FirstName="H�kan" LastName="Elfstr�m" SailorId=""/>
-<CrewList>
-<Crew FirstName="" LastName="" SailorId=""/>
-</CrewList>
+<CrewList/>
 </Entry>
 <Entry Bow="" Club="Black Ice" Division="DN" EntryId="29">
 <Boat SailId="S 173">

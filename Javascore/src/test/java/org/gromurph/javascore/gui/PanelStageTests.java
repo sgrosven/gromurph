@@ -22,7 +22,7 @@ import javax.swing.JTextField;
 import org.gromurph.javascore.Constants;
 import org.gromurph.javascore.JavaScoreProperties;
 import org.gromurph.javascore.JavascoreTestCase;
-import org.gromurph.javascore.model.scoring.MultiStage;
+import org.gromurph.javascore.model.scoring.MultiStageScoring;
 import org.gromurph.javascore.model.scoring.Stage;
 import org.gromurph.util.Util;
 
@@ -52,7 +52,7 @@ public class PanelStageTests extends JavascoreTestCase {
 	public void testStageOptions() {
 
 		fRegatta.setMultistage(true);
-		MultiStage manager = (MultiStage) fRegatta.getScoringManager();
+		MultiStageScoring manager = (MultiStageScoring) fRegatta.getScoringManager();
 
 		assertNotNull(manager);
 

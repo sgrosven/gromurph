@@ -180,7 +180,7 @@ public class Stage extends BaseObject implements StageScoringModel, Constants {
     	}
 	}
 	private void scoreRaces_NonQualifying() throws ScoringException {
-		Regatta regatta = JavaScoreProperties.getRegatta();
+		Regatta regatta = parentMgr.getRegatta();
 
 		for (AbstractDivision div : getDivisions()) {
 
@@ -196,7 +196,7 @@ public class Stage extends BaseObject implements StageScoringModel, Constants {
 	}
 	
 	private void scoreRaces_Qualifying() throws ScoringException {
-		Regatta regatta = JavaScoreProperties.getRegatta();
+		Regatta regatta = parentMgr.getRegatta();
 
 		// calc races points for each race and each division in THIS stage in the race
 		for (Race race : regatta.getRaces()) {
@@ -249,7 +249,7 @@ public class Stage extends BaseObject implements StageScoringModel, Constants {
 		}
 		
 		List<SubDivisionList> miniFleet = getQualifyingMiniFleets(startingDivs, race);
-		Regatta regatta = JavaScoreProperties.getRegatta();
+		Regatta regatta = parentMgr.getRegatta();
 
 		// handling combo minifleets first
 		for (SubDivisionList subDivs : miniFleet) {
@@ -351,7 +351,7 @@ public class Stage extends BaseObject implements StageScoringModel, Constants {
 	protected RacePointsList scoreDivisionRace(AbstractDivision div, Race race)
 			throws ScoringException {
 		
-		Regatta regatta = JavaScoreProperties.getRegatta();
+		Regatta regatta = parentMgr.getRegatta();
 
 		// the division has no subfleets racing in it
 		RacePointsList racePoints = new RacePointsList();
@@ -612,9 +612,9 @@ public class Stage extends BaseObject implements StageScoringModel, Constants {
 	public Race getLastRaceBeforeSplit() {
 		if (tempLastRaceIdBeforeSplit == null) return null;
 		if (tempLastRaceBeforeSplit != null) return tempLastRaceBeforeSplit;
-		if (JavaScoreProperties.getRegatta() == null) return null;
+		if (parentMgr.getRegatta() == null) return null;
 			
-		tempLastRaceBeforeSplit = JavaScoreProperties.getRegatta().getRaceId(Integer.parseInt(tempLastRaceIdBeforeSplit));
+		tempLastRaceBeforeSplit = parentMgr.getRegatta().getRaceId(Integer.parseInt(tempLastRaceIdBeforeSplit));
 		return tempLastRaceBeforeSplit;
 	}
 	

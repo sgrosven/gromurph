@@ -40,8 +40,8 @@ public class ScoringDragonTests extends JavascoreTestCase implements Constants
     {
         Regatta reg = new Regatta();
         JavaScoreProperties.setRegatta(reg);
-        ((SingleStage) reg.getScoringManager()).setModel( ScoringLowPointDnIceboat.NAME);
-        ScoringLowPoint sd1 = (ScoringLowPoint) ((SingleStage) reg.getScoringManager()).getModel();
+        ((SingleStageScoring) reg.getScoringManager()).setModel( ScoringLowPointDnIceboat.NAME);
+        ScoringLowPoint sd1 = (ScoringLowPoint) ((SingleStageScoring) reg.getScoringManager()).getModel();
         sd1.getOptions().setThrowoutScheme( ScoringLowPoint.THROWOUT_BYNUMRACES);
         sd1.getOptions().getThrowouts().set( 0, new Integer(2));
         sd1.getOptions().getThrowouts().set( 1, new Integer(0));

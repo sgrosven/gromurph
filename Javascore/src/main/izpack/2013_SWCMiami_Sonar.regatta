@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.2.2" JuryChair="Bernard Bonneau" Multistage="false" Name="2013 Miami SWC - Sonar" Pro="Peter Van Muyden" UseBowNumbers="false" Version="600" comment="">
+<Regatta Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.2.1" JuryChair="Bernard Bonneau" Multistage="false" Name="2013 Miami SWC - Sonar" Pro="Peter Van Muyden" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="Sonar" Gender="Open" IFClassID="SONAR">
 <MinRating ClassName="SONAR" System="OneDesign"/>

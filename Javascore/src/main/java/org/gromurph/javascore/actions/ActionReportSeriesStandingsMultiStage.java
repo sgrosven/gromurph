@@ -34,7 +34,7 @@ import org.gromurph.javascore.model.ReportOptions;
 import org.gromurph.javascore.model.SeriesPoints;
 import org.gromurph.javascore.model.SeriesPointsList;
 import org.gromurph.javascore.model.SubDivision;
-import org.gromurph.javascore.model.scoring.MultiStage;
+import org.gromurph.javascore.model.scoring.MultiStageScoring;
 import org.gromurph.javascore.model.scoring.Stage;
 
 /**
@@ -80,7 +80,7 @@ public class ActionReportSeriesStandingsMultiStage extends ActionReport {
 	 * @param obj
 	 */
 	@Override public void generateBody(PrintWriter pw, Object obj) {
-		stageManager = (MultiStage) fRegatta.getScoringManager();
+		stageManager = (MultiStageScoring) fRegatta.getScoringManager();
 		
 		if (fRegatta.getComment() != null && fRegatta.getComment().trim().length() > 0) {
 			pw.println("<p class=" + COMMENTS_PCLASS + ">");
@@ -155,14 +155,14 @@ public class ActionReportSeriesStandingsMultiStage extends ActionReport {
 
 	}
 	
-	private MultiStage stageManager;
+	private MultiStageScoring stageManager;
 
 	private void reportForDivision(PrintWriter pw, AbstractDivision div, EntryList entries, boolean is1D,
 			boolean haveFinalsRaces) {
 		boolean posOnRight = true;
 		String divname = div.getName();
 		
-		stageManager = (MultiStage) fRegatta.getScoringManager();
+		stageManager = (MultiStageScoring) fRegatta.getScoringManager();
 		SeriesPointsList rankingPoints = stageManager.getAllRegattaRankings().findAll(div);
 		rankingPoints.sortPosition();
 		// fRegatta.getScoringManager().getModel().sortSeries( seriesPoints);

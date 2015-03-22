@@ -95,10 +95,10 @@ public class Util {
 		if (file.exists()) return file;
 				
 		if (sTesting) {
-			// look in maven's test-classes directory
-			file = getFile( getWorkingDirectory() + "target/test-classes/", endName);
+			// look in gradle's test-classes directory
+			file = getFile( getWorkingDirectory() + "build/classes/main", endName);
 			if (file.exists()) return file;
-			file = getFile( getWorkingDirectory() + "target/classes/", endName);
+			file = getFile( getWorkingDirectory() + "build/classes/test", endName);
 			if (file.exists()) return file;
 		}
 		return file;

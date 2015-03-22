@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.2.2" JuryChair="Bernard Bonneau" Multistage="true" Name="2013 Miami SWC - Men's RSX" Pro="John Craig / Ron Rostorfer" UseBowNumbers="false" Version="600" comment="">
+<Regatta Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.2.1" JuryChair="Bernard Bonneau" Multistage="true" Name="2013 Miami SWC - Men's RSX" Pro="John Craig / Ron Rostorfer" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="Men's RSX" Gender="Men" IFClassID="RSX">
 <MinRating ClassName="RSX" System="OneDesign"/>

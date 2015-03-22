@@ -17,7 +17,7 @@ import javax.swing.JDialog;
 import javax.swing.JFrame;
 
 import org.gromurph.javascore.model.scoring.ScoringOptions;
-import org.gromurph.javascore.model.scoring.SingleStage;
+import org.gromurph.javascore.model.scoring.SingleStageScoring;
 import org.gromurph.util.BaseObjectModel;
 import org.gromurph.util.DialogBaseEditor;
 
@@ -30,7 +30,7 @@ public class ActionEditScoringOptions extends ActionShowEditor {
 
 	@Override public BaseObjectModel getObject() {
 		if (getRegatta().isMultistage()) return null;
-		else return (SingleStage) getRegatta().getScoringManager();
+		else return (SingleStageScoring) getRegatta().getScoringManager();
 	};
 	
 	@Override public JDialog initializeEditor(JFrame rootParent) {

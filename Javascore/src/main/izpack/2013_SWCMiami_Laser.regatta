@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.2.2" JuryChair="Bernard Bonneau" Multistage="true" Name="2013 Miami SWC - Laser" Pro="Tom Duggan" UseBowNumbers="true" Version="600" comment="">
+<Regatta Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.2.1" JuryChair="Bernard Bonneau" Multistage="true" Name="2013 Miami SWC - Laser" Pro="Tom Duggan" UseBowNumbers="true" Version="600" comment="">
 <DivisionList>
 <Division DivName="Laser" Gender="Men" IFClassID="LSR">
 <MinRating ClassName="Laser" System="OneDesign"/>

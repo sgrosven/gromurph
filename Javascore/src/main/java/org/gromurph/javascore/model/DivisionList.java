@@ -44,39 +44,22 @@ public class DivisionList extends BaseList<Division> {
 		sMasterList.setFileName("divisions.ini");
 		sMasterList.setRootTag("Divisions");
 		sMasterList.setElementTag("Div");
+		
+		boolean gotItAsXml = false;
 		try {
-			sMasterList.xmlReadFromFile();
+			gotItAsXml = sMasterList.xmlReadFromFile();
+		} catch (Exception e1) { 
+			gotItAsXml = false;
 		}
-		catch (Exception e1) {
-			try {
-				sMasterList.loadFromDisk(sMasterList.getFileName());
-			}
-			catch (IOException e2) {
-				// must not have divisions.ini file, make the default
-				sMasterList.add(new Division("J22"));
-				sMasterList.add(new Division("J24"));
-				sMasterList.add(new Division("J80"));
-				sMasterList.add(new Division("J30"));
-				sMasterList.add(new Division("J105"));
-				sMasterList.add(new Division("J35"));
-				sMasterList.add(new Division("Farr30"));
-				sMasterList.add(new Division("Melges24"));
-				sMasterList.add(new Division("Alberg30"));
-				sMasterList.add(new Division("Triton"));
-				sMasterList.add(new Division("Cal25"));
-				sMasterList.add(new Division("Cat27"));
-				sMasterList.add(new Division("Etchells"));
-
-				// updated 12/31/2011 for 2012, based on http://www.phrfchesbay.com/splits99.htm
-				sMasterList.add(new Division("PHRF A0", new RatingPhrf(-9999), new RatingPhrf(25)));
-				sMasterList.add(new Division("PHRF A1", new RatingPhrf(26), new RatingPhrf(70)));
-				sMasterList.add(new Division("PHRF A2", new RatingPhrf(71), new RatingPhrf(109)));
-				sMasterList.add(new Division("PHRF A", new RatingPhrf(-9999), new RatingPhrf(109)));
-				sMasterList.add(new Division("PHRF B", new RatingPhrf(110), new RatingPhrf(145)));
-				sMasterList.add(new Division("PHRF C", new RatingPhrf(146), new RatingPhrf(9999)));
-				sMasterList.add(new Division("MORC", new RatingMorc(-9999), new RatingMorc(9999)));
-				sMasterList.add(new Division("Multihull", new RatingMultihull(0), new RatingMultihull(999)));
-			}
+		boolean gotIt = gotItAsXml;
+		if (!gotItAsXml) try {
+			sMasterList.loadFromDisk(sMasterList.getFileName());
+			gotIt = true;
+		} catch (IOException e2) {
+			gotIt = false;
+		}
+		if (!gotIt) createNewMasterList();
+		if (!gotItAsXml) {
 			try {
 				sMasterList.xmlWriteToFile();
 			}
@@ -84,6 +67,35 @@ public class DivisionList extends BaseList<Division> {
 				Util.printlnException(sMasterList, e3, true);
 			}
 		}
+	}
+
+	private static void createNewMasterList() {
+		
+		// must not have divisions.ini file, make the default
+		sMasterList.add(new Division("J22"));
+		sMasterList.add(new Division("J24"));
+		sMasterList.add(new Division("J80"));
+		sMasterList.add(new Division("J30"));
+		sMasterList.add(new Division("J105"));
+		sMasterList.add(new Division("J35"));
+		sMasterList.add(new Division("Farr30"));
+		sMasterList.add(new Division("Melges24"));
+		sMasterList.add(new Division("Alberg30"));
+		sMasterList.add(new Division("Triton"));
+		sMasterList.add(new Division("Cal25"));
+		sMasterList.add(new Division("Cat27"));
+		sMasterList.add(new Division("Etchells"));
+
+		// updated 12/31/2011 for 2012, based on http://www.phrfchesbay.com/splits99.htm
+		sMasterList.add(new Division("PHRF A0", new RatingPhrf(-9999), new RatingPhrf(25)));
+		sMasterList.add(new Division("PHRF A1", new RatingPhrf(26), new RatingPhrf(70)));
+		sMasterList.add(new Division("PHRF A2", new RatingPhrf(71), new RatingPhrf(109)));
+		sMasterList.add(new Division("PHRF A", new RatingPhrf(-9999), new RatingPhrf(109)));
+		sMasterList.add(new Division("PHRF B", new RatingPhrf(110), new RatingPhrf(145)));
+		sMasterList.add(new Division("PHRF C", new RatingPhrf(146), new RatingPhrf(9999)));
+		sMasterList.add(new Division("MORC", new RatingMorc(-9999), new RatingMorc(9999)));
+		sMasterList.add(new Division("Multihull", new RatingMultihull(0), new RatingMultihull(999)));
+		
 	}
 
 	public Division find(String name) {

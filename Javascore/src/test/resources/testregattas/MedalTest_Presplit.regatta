@@ -1,704 +1,629 @@
-<?xml version='1.0' encoding='UTF-8'?>
-
-<Regatta Dates='' Final='false' HostClub='' IFEventID='' JSVersion='7.1.1' JuryChair='' Multistage='true' Name='Medal Race Test' Pro='' UseBowNumbers='false' Version='600'>
-	<DivisionList>
-		<Division DivName='Laser Radial'>
-			<MinRating ClassName='Laser Radial' System='OneDesign'></MinRating>
-			<MaxRating ClassName='&lt;none&gt;' System='OneDesign'></MaxRating>
-		</Division>
-	</DivisionList>
-	<EntryList>
-		<Entry Bow='' Division='Laser Radial' EntryId='32'>
-			<Boat SailId='101'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='33'>
-			<Boat SailId='102'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='34'>
-			<Boat SailId='103'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='35'>
-			<Boat SailId='104'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='36'>
-			<Boat SailId='105'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='37'>
-			<Boat SailId='106'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='38'>
-			<Boat SailId='107'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='39'>
-			<Boat SailId='108'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='40'>
-			<Boat SailId='109'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='41'>
-			<Boat SailId='110'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='42'>
-			<Boat SailId='111'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='43'>
-			<Boat SailId='112'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='44'>
-			<Boat SailId='113'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='45'>
-			<Boat SailId='114'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='46'>
-			<Boat SailId='115'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='47'>
-			<Boat SailId='116'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='48'>
-			<Boat SailId='117'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='49'>
-			<Boat SailId='118'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='50'>
-			<Boat SailId='119'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='51'>
-			<Boat SailId='120'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='52'>
-			<Boat SailId='121'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='53'>
-			<Boat SailId='122'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='54'>
-			<Boat SailId='123'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='55'>
-			<Boat SailId='124'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='56'>
-			<Boat SailId='125'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='57'>
-			<Boat SailId='126'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='58'>
-			<Boat SailId='127'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='59'>
-			<Boat SailId='128'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='60'>
-			<Boat SailId='129'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Laser Radial' EntryId='61'>
-			<Boat SailId='130'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Laser Radial' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-	</EntryList>
-	<SubDivisionList>
-		<SubDivision DivName='a' Group='Final' LastSplit='true' Monopoly='false' Parent='Laser Radial' ParentType='Division' ScoreSeparately='false' addOn='0.0'>
-			<EntryList>
-				<Entry Id='32'></Entry>
-				<Entry Id='35'></Entry>
-				<Entry Id='34'></Entry>
-				<Entry Id='33'></Entry>
-				<Entry Id='36'></Entry>
-				<Entry Id='39'></Entry>
-				<Entry Id='38'></Entry>
-				<Entry Id='37'></Entry>
-				<Entry Id='40'></Entry>
-				<Entry Id='43'></Entry>
-				<Entry Id='42'></Entry>
-				<Entry Id='41'></Entry>
-				<Entry Id='44'></Entry>
-				<Entry Id='47'></Entry>
-				<Entry Id='46'></Entry>
-			</EntryList>
-		</SubDivision>
-		<SubDivision DivName='b' Group='Final' LastSplit='true' Monopoly='false' Parent='Laser Radial' ParentType='Division' ScoreSeparately='false' addOn='0.0'>
-			<EntryList>
-				<Entry Id='45'></Entry>
-				<Entry Id='48'></Entry>
-				<Entry Id='51'></Entry>
-				<Entry Id='50'></Entry>
-				<Entry Id='49'></Entry>
-				<Entry Id='52'></Entry>
-				<Entry Id='55'></Entry>
-				<Entry Id='54'></Entry>
-				<Entry Id='53'></Entry>
-				<Entry Id='56'></Entry>
-				<Entry Id='59'></Entry>
-				<Entry Id='58'></Entry>
-				<Entry Id='57'></Entry>
-				<Entry Id='60'></Entry>
-				<Entry Id='61'></Entry>
-			</EntryList>
-		</SubDivision>
-	</SubDivisionList>
-	<RaceList>
-		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='1' NonDiscardable='false' RaceId='4' StartDate='15-Dec-2005' Weight='1.0'>
-			<DivInfo>
-				<DivStart Div='Laser Radial' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Gold' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='Silver' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='a' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='b' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='g' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='s' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-			</DivInfo>
-			<FinishList>
-				<Fin ClassPos='1' Ent='32' Pos='1' Race='4'></Fin>
-				<Fin ClassPos='2' Ent='33' Pos='2' Race='4'></Fin>
-				<Fin ClassPos='3' Ent='34' Pos='3' Race='4'></Fin>
-				<Fin ClassPos='4' Ent='35' Pos='4' Race='4'></Fin>
-				<Fin ClassPos='5' Ent='36' Pos='5' Race='4'></Fin>
-				<Fin ClassPos='6' Ent='37' Pos='6' Race='4'></Fin>
-				<Fin ClassPos='7' Ent='38' Pos='7' Race='4'></Fin>
-				<Fin ClassPos='8' Ent='39' Pos='8' Race='4'></Fin>
-				<Fin ClassPos='9' Ent='40' Pos='9' Race='4'></Fin>
-				<Fin ClassPos='10' Ent='41' Pos='10' Race='4'></Fin>
-				<Fin ClassPos='11' Ent='42' Pos='11' Race='4'></Fin>
-				<Fin ClassPos='12' Ent='43' Pos='12' Race='4'></Fin>
-				<Fin ClassPos='13' Ent='44' Pos='13' Race='4'></Fin>
-				<Fin ClassPos='14' Ent='45' Pos='14' Race='4'></Fin>
-				<Fin ClassPos='15' Ent='46' Pos='15' Race='4'></Fin>
-				<Fin ClassPos='16' Ent='47' Pos='16' Race='4'></Fin>
-				<Fin ClassPos='17' Ent='48' Pos='17' Race='4'></Fin>
-				<Fin ClassPos='18' Ent='49' Pos='18' Race='4'></Fin>
-				<Fin ClassPos='19' Ent='50' Pos='19' Race='4'></Fin>
-				<Fin ClassPos='20' Ent='51' Pos='20' Race='4'></Fin>
-				<Fin ClassPos='21' Ent='52' Pos='21' Race='4'></Fin>
-				<Fin ClassPos='22' Ent='53' Pos='22' Race='4'></Fin>
-				<Fin ClassPos='23' Ent='54' Pos='23' Race='4'></Fin>
-				<Fin ClassPos='24' Ent='55' Pos='24' Race='4'></Fin>
-				<Fin ClassPos='25' Ent='56' Pos='25' Race='4'></Fin>
-				<Fin ClassPos='26' Ent='57' Pos='26' Race='4'></Fin>
-				<Fin ClassPos='27' Ent='58' Pos='27' Race='4'></Fin>
-				<Fin ClassPos='28' Ent='59' Pos='28' Race='4'></Fin>
-				<Fin ClassPos='29' Ent='60' Pos='29' Race='4'></Fin>
-				<Fin ClassPos='30' Ent='61' Pos='30' Race='4'></Fin>
-			</FinishList>
-		</Race>
-		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='2' NonDiscardable='false' RaceId='5' StartDate='15-Dec-2005' Weight='1.0'>
-			<DivInfo>
-				<DivStart Div='Laser Radial' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Gold' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='Silver' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='a' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='b' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='g' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='s' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-			</DivInfo>
-			<FinishList>
-				<Fin ClassPos='1' Ent='35' Pos='1' Race='5'></Fin>
-				<Fin ClassPos='2' Ent='32' Pos='2' Race='5'></Fin>
-				<Fin ClassPos='3' Ent='33' Pos='3' Race='5'></Fin>
-				<Fin ClassPos='4' Ent='34' Pos='4' Race='5'></Fin>
-				<Fin ClassPos='5' Ent='39' Pos='5' Race='5'></Fin>
-				<Fin ClassPos='6' Ent='36' Pos='6' Race='5'></Fin>
-				<Fin ClassPos='7' Ent='37' Pos='7' Race='5'></Fin>
-				<Fin ClassPos='8' Ent='38' Pos='8' Race='5'></Fin>
-				<Fin ClassPos='9' Ent='43' Pos='9' Race='5'></Fin>
-				<Fin ClassPos='10' Ent='40' Pos='10' Race='5'></Fin>
-				<Fin ClassPos='11' Ent='41' Pos='11' Race='5'></Fin>
-				<Fin ClassPos='12' Ent='42' Pos='12' Race='5'></Fin>
-				<Fin ClassPos='13' Ent='47' Pos='13' Race='5'></Fin>
-				<Fin ClassPos='14' Ent='44' Pos='14' Race='5'></Fin>
-				<Fin ClassPos='15' Ent='45' Pos='15' Race='5'></Fin>
-				<Fin ClassPos='16' Ent='46' Pos='16' Race='5'></Fin>
-				<Fin ClassPos='17' Ent='51' Pos='17' Race='5'></Fin>
-				<Fin ClassPos='18' Ent='48' Pos='18' Race='5'></Fin>
-				<Fin ClassPos='19' Ent='49' Pos='19' Race='5'></Fin>
-				<Fin ClassPos='20' Ent='50' Pos='20' Race='5'></Fin>
-				<Fin ClassPos='21' Ent='55' Pos='21' Race='5'></Fin>
-				<Fin ClassPos='22' Ent='52' Pos='22' Race='5'></Fin>
-				<Fin ClassPos='23' Ent='53' Pos='23' Race='5'></Fin>
-				<Fin ClassPos='24' Ent='54' Pos='24' Race='5'></Fin>
-				<Fin ClassPos='25' Ent='59' Pos='25' Race='5'></Fin>
-				<Fin ClassPos='26' Ent='56' Pos='26' Race='5'></Fin>
-				<Fin ClassPos='27' Ent='57' Pos='27' Race='5'></Fin>
-				<Fin ClassPos='28' Ent='58' Pos='28' Race='5'></Fin>
-				<Fin ClassPos='29' Ent='60' Pos='29' Race='5'></Fin>
-				<Fin ClassPos='30' Ent='61' Pos='30' Race='5'></Fin>
-			</FinishList>
-		</Race>
-		<Race AFactor='550' BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='3' NonDiscardable='false' RaceId='6' StartDate='15-Dec-2005' Weight='1.0'>
-			<DivInfo>
-				<DivStart Div='Laser Radial' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Gold' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='Silver' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='a' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='b' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='g' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='s' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-			</DivInfo>
-			<FinishList>
-				<Fin ClassPos='1' Ent='32' Pos='1' Race='6'></Fin>
-				<Fin ClassPos='2' Ent='34' Pos='2' Race='6'></Fin>
-				<Fin ClassPos='3' Ent='33' Pos='3' Race='6'></Fin>
-				<Fin ClassPos='4' Ent='35' Pos='4' Race='6'></Fin>
-				<Fin ClassPos='5' Ent='36' Pos='5' Race='6'></Fin>
-				<Fin ClassPos='6' Ent='38' Pos='6' Race='6'></Fin>
-				<Fin ClassPos='7' Ent='37' Pos='7' Race='6'></Fin>
-				<Fin ClassPos='8' Ent='39' Pos='8' Race='6'></Fin>
-				<Fin ClassPos='9' Ent='40' Pos='9' Race='6'></Fin>
-				<Fin ClassPos='10' Ent='42' Pos='10' Race='6'></Fin>
-				<Fin ClassPos='11' Ent='41' Pos='11' Race='6'></Fin>
-				<Fin ClassPos='12' Ent='43' Pos='12' Race='6'></Fin>
-				<Fin ClassPos='13' Ent='44' Pos='13' Race='6'></Fin>
-				<Fin ClassPos='14' Ent='46' Pos='14' Race='6'></Fin>
-				<Fin ClassPos='15' Ent='45' Pos='15' Race='6'></Fin>
-				<Fin ClassPos='16' Ent='47' Pos='16' Race='6'></Fin>
-				<Fin ClassPos='17' Ent='48' Pos='17' Race='6'></Fin>
-				<Fin ClassPos='18' Ent='50' Pos='18' Race='6'></Fin>
-				<Fin ClassPos='19' Ent='49' Pos='19' Race='6'></Fin>
-				<Fin ClassPos='20' Ent='51' Pos='20' Race='6'></Fin>
-				<Fin ClassPos='21' Ent='52' Pos='21' Race='6'></Fin>
-				<Fin ClassPos='22' Ent='54' Pos='22' Race='6'></Fin>
-				<Fin ClassPos='23' Ent='53' Pos='23' Race='6'></Fin>
-				<Fin ClassPos='24' Ent='55' Pos='24' Race='6'></Fin>
-				<Fin ClassPos='25' Ent='56' Pos='25' Race='6'></Fin>
-				<Fin ClassPos='26' Ent='58' Pos='26' Race='6'></Fin>
-				<Fin ClassPos='27' Ent='57' Pos='27' Race='6'></Fin>
-				<Fin ClassPos='28' Ent='59' Pos='28' Race='6'></Fin>
-				<Fin ClassPos='29' Ent='60' Pos='29' Race='6'></Fin>
-				<Fin ClassPos='30' Ent='61' Pos='30' Race='6'></Fin>
-			</FinishList>
-		</Race>
-		<Race AFactor='600' BFactor='625' Comment='' LongDistance='false' MedalRace='false' Name='4/co' NonDiscardable='false' RaceId='11' StartDate='23-Feb-2013' Weight='1.0'>
-			<DivInfo>
-				<DivStart Div='a' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='b' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Laser Radial' Length='0.0' StartTime='No Time' isRacing='false' nextDay='false'></DivStart>
-				<DivStart Div='Gold' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Medal' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Silver' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='g' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='s' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-			</DivInfo>
-			<FinishList>
-				<Fin ClassPos='1' Ent='32' Pos='1' Race='11'></Fin>
-				<Fin ClassPos='1' Ent='45' Pos='2' Race='11'></Fin>
-				<Fin ClassPos='2' Ent='35' Pos='3' Race='11'></Fin>
-				<Fin ClassPos='2' Ent='48' Pos='4' Race='11'></Fin>
-				<Fin ClassPos='3' Ent='34' Pos='5' Race='11'></Fin>
-				<Fin ClassPos='3' Ent='51' Pos='6' Race='11'></Fin>
-				<Fin ClassPos='4' Ent='33' Pos='7' Race='11'></Fin>
-				<Fin ClassPos='4' Ent='50' Pos='8' Race='11'></Fin>
-				<Fin ClassPos='5' Ent='36' Pos='9' Race='11'></Fin>
-				<Fin ClassPos='5' Ent='49' Pos='10' Race='11'></Fin>
-				<Fin ClassPos='6' Ent='39' Pos='11' Race='11'></Fin>
-				<Fin ClassPos='6' Ent='52' Pos='12' Race='11'></Fin>
-				<Fin ClassPos='7' Ent='38' Pos='13' Race='11'></Fin>
-				<Fin ClassPos='7' Ent='55' Pos='14' Race='11'></Fin>
-				<Fin ClassPos='8' Ent='37' Pos='15' Race='11'></Fin>
-				<Fin ClassPos='8' Ent='54' Pos='16' Race='11'></Fin>
-				<Fin ClassPos='9' Ent='40' Pos='17' Race='11'></Fin>
-				<Fin ClassPos='9' Ent='53' Pos='18' Race='11'></Fin>
-				<Fin ClassPos='10' Ent='43' Pos='19' Race='11'></Fin>
-				<Fin ClassPos='10' Ent='56' Pos='20' Race='11'></Fin>
-				<Fin ClassPos='11' Ent='42' Pos='21' Race='11'></Fin>
-				<Fin ClassPos='11' Ent='59' Pos='22' Race='11'></Fin>
-				<Fin ClassPos='12' Ent='41' Pos='23' Race='11'></Fin>
-				<Fin ClassPos='12' Ent='58' Pos='24' Race='11'></Fin>
-				<Fin ClassPos='13' Ent='44' Pos='25' Race='11'></Fin>
-				<Fin ClassPos='13' Ent='57' Pos='26' Race='11'></Fin>
-				<Fin ClassPos='14' Ent='47' Pos='27' Race='11'></Fin>
-				<Fin ClassPos='14' Ent='60' Pos='28' Race='11'></Fin>
-				<Fin ClassPos='15' Ent='46' Pos='29' Race='11'></Fin>
-				<Fin ClassPos='15' Ent='61' Pos='30' Race='11'></Fin>
-			</FinishList>
-		</Race>
-	</RaceList>
-	<Scores>
-		<Stage CombinedQualifying='false' Name='a' PreviousStage='2' ScoreCarryOver='SEEDINGRACE' StageId='37' StageRank='20' SystemName='ISAF Low Point 2013-2016' ThrowoutCarryOver='ALL' TiebreakCarryOver='ALL'>
-			<Divisions>
-				<DivisionId>a</DivisionId>
-			</Divisions>
-			<System CheckinPercent='20' EntriesLargestDivision='false' FirstPlacePoints='1.0' LongSeries='false' Throwout1='2' Throwout2='0' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='0' tiebreaker='1'></System>
-			<RacePointsList>
-				<rp Div='a' Ent='32' Pos='1' Pts='1.0' Race='11'></rp>
-				<rp Div='a' Ent='35' Pos='2' Pts='2.0' Race='11'></rp>
-				<rp Div='a' Ent='34' Pos='3' Pts='3.0' Race='11'></rp>
-				<rp Div='a' Ent='33' Pos='4' Pts='4.0' Race='11'></rp>
-				<rp Div='a' Ent='36' Pos='5' Pts='5.0' Race='11'></rp>
-				<rp Div='a' Ent='39' Pos='6' Pts='6.0' Race='11'></rp>
-				<rp Div='a' Ent='38' Pos='7' Pts='7.0' Race='11'></rp>
-				<rp Div='a' Ent='37' Pos='8' Pts='8.0' Race='11'></rp>
-				<rp Div='a' Ent='40' Pos='9' Pts='9.0' Race='11'></rp>
-				<rp Div='a' Ent='43' Pos='10' Pts='10.0' Race='11'></rp>
-				<rp Div='a' Ent='42' Pos='11' Pts='11.0' Race='11'></rp>
-				<rp Div='a' Ent='41' Pos='12' Pts='12.0' Race='11'></rp>
-				<rp Div='a' Ent='44' Pos='13' Pts='13.0' Race='11'></rp>
-				<rp Div='a' Ent='47' Pos='14' Pts='14.0' Race='11'></rp>
-				<rp Div='a' Ent='46' Pos='15' Pts='15.0' Race='11'></rp>
-			</RacePointsList>
-			<SeriesPointsList>
-				<sp Div='a' Ent='32' Pos='1' Pts='1.0'></sp>
-				<sp Div='a' Ent='35' Pos='2' Pts='2.0'></sp>
-				<sp Div='a' Ent='34' Pos='3' Pts='3.0'></sp>
-				<sp Div='a' Ent='33' Pos='4' Pts='4.0'></sp>
-				<sp Div='a' Ent='36' Pos='5' Pts='5.0'></sp>
-				<sp Div='a' Ent='39' Pos='6' Pts='6.0'></sp>
-				<sp Div='a' Ent='38' Pos='7' Pts='7.0'></sp>
-				<sp Div='a' Ent='37' Pos='8' Pts='8.0'></sp>
-				<sp Div='a' Ent='40' Pos='9' Pts='9.0'></sp>
-				<sp Div='a' Ent='43' Pos='10' Pts='10.0'></sp>
-				<sp Div='a' Ent='42' Pos='11' Pts='11.0'></sp>
-				<sp Div='a' Ent='41' Pos='12' Pts='12.0'></sp>
-				<sp Div='a' Ent='44' Pos='13' Pts='13.0'></sp>
-				<sp Div='a' Ent='47' Pos='14' Pts='14.0'></sp>
-				<sp Div='a' Ent='46' Pos='15' Pts='15.0'></sp>
-			</SeriesPointsList>
-		</Stage>
-		<Stage CombinedQualifying='false' Name='b' PreviousStage='2' ScoreCarryOver='SEEDINGRACE' StageId='38' StageRank='19' SystemName='ISAF Low Point 2013-2016' ThrowoutCarryOver='ALL' TiebreakCarryOver='ALL'>
-			<Divisions>
-				<DivisionId>b</DivisionId>
-			</Divisions>
-			<System CheckinPercent='20' EntriesLargestDivision='false' FirstPlacePoints='1.0' LongSeries='false' Throwout1='2' Throwout2='0' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='0' tiebreaker='1'></System>
-			<RacePointsList>
-				<rp Div='b' Ent='45' Pos='1' Pts='1.0' Race='11'></rp>
-				<rp Div='b' Ent='48' Pos='2' Pts='2.0' Race='11'></rp>
-				<rp Div='b' Ent='51' Pos='3' Pts='3.0' Race='11'></rp>
-				<rp Div='b' Ent='50' Pos='4' Pts='4.0' Race='11'></rp>
-				<rp Div='b' Ent='49' Pos='5' Pts='5.0' Race='11'></rp>
-				<rp Div='b' Ent='52' Pos='6' Pts='6.0' Race='11'></rp>
-				<rp Div='b' Ent='55' Pos='7' Pts='7.0' Race='11'></rp>
-				<rp Div='b' Ent='54' Pos='8' Pts='8.0' Race='11'></rp>
-				<rp Div='b' Ent='53' Pos='9' Pts='9.0' Race='11'></rp>
-				<rp Div='b' Ent='56' Pos='10' Pts='10.0' Race='11'></rp>
-				<rp Div='b' Ent='59' Pos='11' Pts='11.0' Race='11'></rp>
-				<rp Div='b' Ent='58' Pos='12' Pts='12.0' Race='11'></rp>
-				<rp Div='b' Ent='57' Pos='13' Pts='13.0' Race='11'></rp>
-				<rp Div='b' Ent='60' Pos='14' Pts='14.0' Race='11'></rp>
-				<rp Div='b' Ent='61' Pos='15' Pts='15.0' Race='11'></rp>
-			</RacePointsList>
-			<SeriesPointsList>
-				<sp Div='b' Ent='45' Pos='1' Pts='1.0'></sp>
-				<sp Div='b' Ent='48' Pos='2' Pts='2.0'></sp>
-				<sp Div='b' Ent='51' Pos='3' Pts='3.0'></sp>
-				<sp Div='b' Ent='50' Pos='4' Pts='4.0'></sp>
-				<sp Div='b' Ent='49' Pos='5' Pts='5.0'></sp>
-				<sp Div='b' Ent='52' Pos='6' Pts='6.0'></sp>
-				<sp Div='b' Ent='55' Pos='7' Pts='7.0'></sp>
-				<sp Div='b' Ent='54' Pos='8' Pts='8.0'></sp>
-				<sp Div='b' Ent='53' Pos='9' Pts='9.0'></sp>
-				<sp Div='b' Ent='56' Pos='10' Pts='10.0'></sp>
-				<sp Div='b' Ent='59' Pos='11' Pts='11.0'></sp>
-				<sp Div='b' Ent='58' Pos='12' Pts='12.0'></sp>
-				<sp Div='b' Ent='57' Pos='13' Pts='13.0'></sp>
-				<sp Div='b' Ent='60' Pos='14' Pts='14.0'></sp>
-				<sp Div='b' Ent='61' Pos='15' Pts='15.0'></sp>
-			</SeriesPointsList>
-		</Stage>
-		<Stage CombinedQualifying='true' Name='Fleet' ScoreCarryOver='ALL' StageId='2' StageRank='10' SystemName='ISAF Low Point 2013-2016' ThrowoutCarryOver='ALL' TiebreakCarryOver='ALL'>
-			<Divisions>
-				<DivisionId>Laser Radial</DivisionId>
-			</Divisions>
-			<System CheckinPercent='20' EntriesLargestDivision='false' FirstPlacePoints='1.0' LongSeries='false' Throwout1='2' Throwout2='0' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='0' tiebreaker='1'></System>
-		</Stage>
-	</Scores>
-	<ReportOptionList>
-		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Series' Template=''>
-			<OptionLocations>
-				<item value='2.1'></item>
-				<item value='none'></item>
-				<item value='1.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-			</OptionLocations>
-		</Options>
-		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Race' Template=''>
-			<OptionLocations>
-				<item value='2.1'></item>
-				<item value='none'></item>
-				<item value='1.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='3.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-			</OptionLocations>
-		</Options>
-		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Entries' Template=''>
-			<OptionLocations>
-				<item value='1.2'></item>
-				<item value='none'></item>
-				<item value='1.1'></item>
-				<item value='3.1'></item>
-				<item value='none'></item>
-				<item value='4.1'></item>
-				<item value='2.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-			</OptionLocations>
-		</Options>
-		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='2' Show1DTimes='true' ShowLastXRaces='false' TabName='CheckIn' Template=''>
-			<OptionLocations>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='1.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-			</OptionLocations>
-		</Options>
-		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='FinishSheet' Template=''>
-			<OptionLocations>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='1.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-			</OptionLocations>
-		</Options>
-		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Proofing' Template=''>
-			<OptionLocations>
-				<item value='2.1'></item>
-				<item value='none'></item>
-				<item value='1.1'></item>
-				<item value='3.2'></item>
-				<item value='none'></item>
-				<item value='3.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-			</OptionLocations>
-		</Options>
-	</ReportOptionList>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta Dates="" Final="false" HostClub="" IFEventID="" JSVersion="7.2.1" JuryChair="" Multistage="true" Name="Medal Race Test" Pro="" UseBowNumbers="false" Version="600" comment="">
+<DivisionList>
+<Division DivName="Laser Radial">
+<MinRating ClassName="Laser Radial" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Division="Laser Radial" EntryId="32">
+<Boat SailId="101">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="33">
+<Boat SailId="102">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="34">
+<Boat SailId="103">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="35">
+<Boat SailId="104">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="36">
+<Boat SailId="105">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="37">
+<Boat SailId="106">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="38">
+<Boat SailId="107">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="39">
+<Boat SailId="108">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="40">
+<Boat SailId="109">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="41">
+<Boat SailId="110">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="42">
+<Boat SailId="111">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="43">
+<Boat SailId="112">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="44">
+<Boat SailId="113">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="45">
+<Boat SailId="114">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="46">
+<Boat SailId="115">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="47">
+<Boat SailId="116">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="48">
+<Boat SailId="117">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="49">
+<Boat SailId="118">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="50">
+<Boat SailId="119">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="51">
+<Boat SailId="120">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="52">
+<Boat SailId="121">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="53">
+<Boat SailId="122">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="54">
+<Boat SailId="123">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="55">
+<Boat SailId="124">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="56">
+<Boat SailId="125">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="57">
+<Boat SailId="126">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="58">
+<Boat SailId="127">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="59">
+<Boat SailId="128">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="60">
+<Boat SailId="129">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Laser Radial" EntryId="61">
+<Boat SailId="130">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Laser Radial" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+</EntryList>
+<SubDivisionList>
+<SubDivision DivName="a" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" Parent="Laser Radial" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="32"/>
+<Entry Id="35"/>
+<Entry Id="34"/>
+<Entry Id="33"/>
+<Entry Id="36"/>
+<Entry Id="39"/>
+<Entry Id="38"/>
+<Entry Id="37"/>
+<Entry Id="40"/>
+<Entry Id="43"/>
+<Entry Id="42"/>
+<Entry Id="41"/>
+<Entry Id="44"/>
+<Entry Id="47"/>
+<Entry Id="46"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="b" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" Parent="Laser Radial" ParentType="Division" ScoreSeparately="false" addOn="0.0">
+<EntryList>
+<Entry Id="45"/>
+<Entry Id="48"/>
+<Entry Id="51"/>
+<Entry Id="50"/>
+<Entry Id="49"/>
+<Entry Id="52"/>
+<Entry Id="55"/>
+<Entry Id="54"/>
+<Entry Id="53"/>
+<Entry Id="56"/>
+<Entry Id="59"/>
+<Entry Id="58"/>
+<Entry Id="57"/>
+<Entry Id="60"/>
+<Entry Id="61"/>
+</EntryList>
+</SubDivision>
+</SubDivisionList>
+<RaceList>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="4" StartDate="15-Dec-2005" Weight="1.0">
+<DivInfo>
+<DivStart Div="Laser Radial" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="a" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="b" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="g" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="s" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="32" Pos="1" Race="4"/>
+<Fin Ent="33" Pos="2" Race="4"/>
+<Fin Ent="34" Pos="3" Race="4"/>
+<Fin Ent="35" Pos="4" Race="4"/>
+<Fin Ent="36" Pos="5" Race="4"/>
+<Fin Ent="37" Pos="6" Race="4"/>
+<Fin Ent="38" Pos="7" Race="4"/>
+<Fin Ent="39" Pos="8" Race="4"/>
+<Fin Ent="40" Pos="9" Race="4"/>
+<Fin Ent="41" Pos="10" Race="4"/>
+<Fin Ent="42" Pos="11" Race="4"/>
+<Fin Ent="43" Pos="12" Race="4"/>
+<Fin Ent="44" Pos="13" Race="4"/>
+<Fin Ent="45" Pos="14" Race="4"/>
+<Fin Ent="46" Pos="15" Race="4"/>
+<Fin Ent="47" Pos="16" Race="4"/>
+<Fin Ent="48" Pos="17" Race="4"/>
+<Fin Ent="49" Pos="18" Race="4"/>
+<Fin Ent="50" Pos="19" Race="4"/>
+<Fin Ent="51" Pos="20" Race="4"/>
+<Fin Ent="52" Pos="21" Race="4"/>
+<Fin Ent="53" Pos="22" Race="4"/>
+<Fin Ent="54" Pos="23" Race="4"/>
+<Fin Ent="55" Pos="24" Race="4"/>
+<Fin Ent="56" Pos="25" Race="4"/>
+<Fin Ent="57" Pos="26" Race="4"/>
+<Fin Ent="58" Pos="27" Race="4"/>
+<Fin Ent="59" Pos="28" Race="4"/>
+<Fin Ent="60" Pos="29" Race="4"/>
+<Fin Ent="61" Pos="30" Race="4"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="5" StartDate="15-Dec-2005" Weight="1.0">
+<DivInfo>
+<DivStart Div="Laser Radial" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="a" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="b" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="g" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="s" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="35" Pos="1" Race="5"/>
+<Fin Ent="32" Pos="2" Race="5"/>
+<Fin Ent="33" Pos="3" Race="5"/>
+<Fin Ent="34" Pos="4" Race="5"/>
+<Fin Ent="39" Pos="5" Race="5"/>
+<Fin Ent="36" Pos="6" Race="5"/>
+<Fin Ent="37" Pos="7" Race="5"/>
+<Fin Ent="38" Pos="8" Race="5"/>
+<Fin Ent="43" Pos="9" Race="5"/>
+<Fin Ent="40" Pos="10" Race="5"/>
+<Fin Ent="41" Pos="11" Race="5"/>
+<Fin Ent="42" Pos="12" Race="5"/>
+<Fin Ent="47" Pos="13" Race="5"/>
+<Fin Ent="44" Pos="14" Race="5"/>
+<Fin Ent="45" Pos="15" Race="5"/>
+<Fin Ent="46" Pos="16" Race="5"/>
+<Fin Ent="51" Pos="17" Race="5"/>
+<Fin Ent="48" Pos="18" Race="5"/>
+<Fin Ent="49" Pos="19" Race="5"/>
+<Fin Ent="50" Pos="20" Race="5"/>
+<Fin Ent="55" Pos="21" Race="5"/>
+<Fin Ent="52" Pos="22" Race="5"/>
+<Fin Ent="53" Pos="23" Race="5"/>
+<Fin Ent="54" Pos="24" Race="5"/>
+<Fin Ent="59" Pos="25" Race="5"/>
+<Fin Ent="56" Pos="26" Race="5"/>
+<Fin Ent="57" Pos="27" Race="5"/>
+<Fin Ent="58" Pos="28" Race="5"/>
+<Fin Ent="60" Pos="29" Race="5"/>
+<Fin Ent="61" Pos="30" Race="5"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="6" StartDate="15-Dec-2005" Weight="1.0">
+<DivInfo>
+<DivStart Div="Laser Radial" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="a" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="b" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="g" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="s" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="32" Pos="1" Race="6"/>
+<Fin Ent="34" Pos="2" Race="6"/>
+<Fin Ent="33" Pos="3" Race="6"/>
+<Fin Ent="35" Pos="4" Race="6"/>
+<Fin Ent="36" Pos="5" Race="6"/>
+<Fin Ent="38" Pos="6" Race="6"/>
+<Fin Ent="37" Pos="7" Race="6"/>
+<Fin Ent="39" Pos="8" Race="6"/>
+<Fin Ent="40" Pos="9" Race="6"/>
+<Fin Ent="42" Pos="10" Race="6"/>
+<Fin Ent="41" Pos="11" Race="6"/>
+<Fin Ent="43" Pos="12" Race="6"/>
+<Fin Ent="44" Pos="13" Race="6"/>
+<Fin Ent="46" Pos="14" Race="6"/>
+<Fin Ent="45" Pos="15" Race="6"/>
+<Fin Ent="47" Pos="16" Race="6"/>
+<Fin Ent="48" Pos="17" Race="6"/>
+<Fin Ent="50" Pos="18" Race="6"/>
+<Fin Ent="49" Pos="19" Race="6"/>
+<Fin Ent="51" Pos="20" Race="6"/>
+<Fin Ent="52" Pos="21" Race="6"/>
+<Fin Ent="54" Pos="22" Race="6"/>
+<Fin Ent="53" Pos="23" Race="6"/>
+<Fin Ent="55" Pos="24" Race="6"/>
+<Fin Ent="56" Pos="25" Race="6"/>
+<Fin Ent="58" Pos="26" Race="6"/>
+<Fin Ent="57" Pos="27" Race="6"/>
+<Fin Ent="59" Pos="28" Race="6"/>
+<Fin Ent="60" Pos="29" Race="6"/>
+<Fin Ent="61" Pos="30" Race="6"/>
+</FinishList>
+</Race>
+<Race AFactor="600" BFactor="625" Comment="" LongDistance="false" MedalRace="false" Name="4/co" NonDiscardable="false" RaceId="11" StartDate="23-Feb-2013" Weight="1.0">
+<DivInfo>
+<DivStart Div="a" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="b" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Laser Radial" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="g" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="s" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="32" Pos="1" Race="11"/>
+<Fin Ent="45" Pos="2" Race="11"/>
+<Fin Ent="35" Pos="3" Race="11"/>
+<Fin Ent="48" Pos="4" Race="11"/>
+<Fin Ent="34" Pos="5" Race="11"/>
+<Fin Ent="51" Pos="6" Race="11"/>
+<Fin Ent="33" Pos="7" Race="11"/>
+<Fin Ent="50" Pos="8" Race="11"/>
+<Fin Ent="36" Pos="9" Race="11"/>
+<Fin Ent="49" Pos="10" Race="11"/>
+<Fin Ent="39" Pos="11" Race="11"/>
+<Fin Ent="52" Pos="12" Race="11"/>
+<Fin Ent="38" Pos="13" Race="11"/>
+<Fin Ent="55" Pos="14" Race="11"/>
+<Fin Ent="37" Pos="15" Race="11"/>
+<Fin Ent="54" Pos="16" Race="11"/>
+<Fin Ent="40" Pos="17" Race="11"/>
+<Fin Ent="53" Pos="18" Race="11"/>
+<Fin Ent="43" Pos="19" Race="11"/>
+<Fin Ent="56" Pos="20" Race="11"/>
+<Fin Ent="42" Pos="21" Race="11"/>
+<Fin Ent="59" Pos="22" Race="11"/>
+<Fin Ent="41" Pos="23" Race="11"/>
+<Fin Ent="58" Pos="24" Race="11"/>
+<Fin Ent="44" Pos="25" Race="11"/>
+<Fin Ent="57" Pos="26" Race="11"/>
+<Fin Ent="47" Pos="27" Race="11"/>
+<Fin Ent="60" Pos="28" Race="11"/>
+<Fin Ent="46" Pos="29" Race="11"/>
+<Fin Ent="61" Pos="30" Race="11"/>
+</FinishList>
+</Race>
+</RaceList>
+<Scores>
+<Stage CombinedQualifying="false" Name="a" PreviousStage="2" ScoreCarryOver="SEEDINGRACE" StageId="37" StageRank="20" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
+<Divisions/>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+</Stage>
+<Stage CombinedQualifying="false" Name="b" PreviousStage="2" ScoreCarryOver="SEEDINGRACE" StageId="38" StageRank="19" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
+<Divisions/>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+</Stage>
+<Stage CombinedQualifying="true" Name="Fleet" ScoreCarryOver="ALL" StageId="2" StageRank="10" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
+<Divisions/>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+</Stage>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.2"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="4.1"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.2"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
 </Regatta>

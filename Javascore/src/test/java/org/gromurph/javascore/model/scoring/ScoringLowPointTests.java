@@ -114,8 +114,8 @@ public class ScoringLowPointTests extends JavascoreTestCase
 		Race race1 = new Race( reg, "1");
 		reg.addRace( race1);
 
-		((SingleStage) reg.getScoringManager()).setModel( ScoringLowPoint.NAME);
-		(( ScoringLowPoint) ((SingleStage) reg.getScoringManager()).getModel()).getOptions().setLongSeries( true);
+		((SingleStageScoring) reg.getScoringManager()).setModel( ScoringLowPoint.NAME);
+		(( ScoringLowPoint) ((SingleStageScoring) reg.getScoringManager()).getModel()).getOptions().setLongSeries( true);
 		
 		race1.setFinish( new Finish( race1, e1, SailTime.NOTIME, new FinishPosition(1), new Penalty(Penalty.NO_PENALTY)));
 		race1.setFinish( new Finish( race1, e2, SailTime.NOTIME, new FinishPosition(2), new Penalty(Penalty.NO_PENALTY)));
@@ -184,7 +184,7 @@ public class ScoringLowPointTests extends JavascoreTestCase
 		
 		Race r = new Race( reg, "1");
 	
-		((SingleStage) reg.getScoringManager()).setModel( ScoringLowPoint.NAME);
+		((SingleStageScoring) reg.getScoringManager()).setModel( ScoringLowPoint.NAME);
 		reg.addRace(r);
 	
 		for (int i = 0; i < 10; i++)
@@ -237,8 +237,8 @@ public class ScoringLowPointTests extends JavascoreTestCase
 		Race race1 = new Race( reg, "1");
 		reg.addRace( race1);
 
-		((SingleStage) reg.getScoringManager()).setModel( ScoringLowPoint.NAME);
-		(( ScoringLowPoint) ((SingleStage) reg.getScoringManager()).getModel()).getOptions().setLongSeries( true);
+		((SingleStageScoring) reg.getScoringManager()).setModel( ScoringLowPoint.NAME);
+		(( ScoringLowPoint) ((SingleStageScoring) reg.getScoringManager()).getModel()).getOptions().setLongSeries( true);
 		
 		race1.setFinish( new Finish( race1, e1, SailTime.NOTIME, new FinishPosition(1), new Penalty(Penalty.NO_PENALTY)));
 		race1.setFinish( new Finish( race1, e2, SailTime.forceToLong( "12:05:10"), new FinishPosition(2), new Penalty(Penalty.NO_PENALTY)));
@@ -283,7 +283,7 @@ public class ScoringLowPointTests extends JavascoreTestCase
 		}
 		reg.scoreRegatta();
 
-        ScoringOptions sd1 = ((SingleStage) reg.getScoringManager()).getModel().getOptions();
+        ScoringOptions sd1 = ((SingleStageScoring) reg.getScoringManager()).getModel().getOptions();
 
         // default Division goes to/from xml ok
         assertTrue( "sd1", xmlEquals( sd1));
@@ -332,7 +332,7 @@ public class ScoringLowPointTests extends JavascoreTestCase
 	
 		Race race1 = new Race( reg, "1");
 		reg.addRace( race1);
-		((SingleStage) reg.getScoringManager()).setModel( ScoringLowPoint.NAME);
+		((SingleStageScoring) reg.getScoringManager()).setModel( ScoringLowPoint.NAME);
 
 		int NN = 8;
 		Entry[] entries = new Entry[NN];

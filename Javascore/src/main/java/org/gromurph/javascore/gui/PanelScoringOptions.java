@@ -50,7 +50,7 @@ import org.gromurph.javascore.model.Regatta;
 import org.gromurph.javascore.model.scoring.ScoringModel;
 import org.gromurph.javascore.model.scoring.ScoringOptions;
 import org.gromurph.javascore.model.scoring.ScoringUtilities;
-import org.gromurph.javascore.model.scoring.SingleStage;
+import org.gromurph.javascore.model.scoring.SingleStageScoring;
 import org.gromurph.javascore.model.scoring.StageScoringModel;
 import org.gromurph.util.BaseEditor;
 import org.gromurph.util.BaseEditorContainer;
@@ -793,7 +793,7 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 
 		Regatta r = new Regatta();
 		JavaScoreProperties.setRegatta(r);
-		StageScoringModel sm = (SingleStage) r.getScoringManager();
+		StageScoringModel sm = (SingleStageScoring) r.getScoringManager();
 		ScoringOptions s = sm.getModel().getOptions() ; //(ScoringLowPoint) r.getScoringManager().getModel();
 
 		DialogBaseEditor fFrame = new DialogBaseEditor();

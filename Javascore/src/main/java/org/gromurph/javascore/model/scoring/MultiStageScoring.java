@@ -41,13 +41,13 @@ import org.gromurph.xml.PersistentNode;
 /**
  * 
  **/
-public class MultiStage extends BaseObject implements RegattaScoringModel, Constants {
+public class MultiStageScoring extends BaseObject implements RegattaScoringModel, Constants {
 	
 	static ResourceBundle res = JavaScoreProperties.getResources();
 
 	public String getScoringSystemName() { return ScoringLowPoint.NAME; }
 	
-	public MultiStage() {
+	public MultiStageScoring() {
 		
 		// initialize first stage
 		stages = new StageList();
@@ -56,8 +56,8 @@ public class MultiStage extends BaseObject implements RegattaScoringModel, Const
 		addStage(s);
 	}
 
-	public static MultiStage createFromSingleStage( SingleStage ss) {
-		MultiStage ms = new MultiStage();
+	public static MultiStageScoring createFromSingleStage( SingleStageScoring ss) {
+		MultiStageScoring ms = new MultiStageScoring();
 		Regatta r = JavaScoreProperties.getRegatta();
 		Stage s = ms.getStage(Stage.FLEET);
 		s.setModel( ss.getModel());
@@ -69,12 +69,12 @@ public class MultiStage extends BaseObject implements RegattaScoringModel, Const
 	
 	private Regatta fRegatta;
 	
-	private Regatta getRegatta() { 
+	public Regatta getRegatta() { 
 		if (fRegatta == null) fRegatta = JavaScoreProperties.getRegatta();
 		return fRegatta;
 	}
 	
-	private StageList stages;
+	protected StageList stages;
 	public StageList getStages() { return stages; }
 	
 	public Stage getStage( String stageName) {
@@ -121,15 +121,15 @@ public class MultiStage extends BaseObject implements RegattaScoringModel, Const
 	}
 	
 
-	protected static WarningList sWarnings = new WarningList();
+	protected WarningList warnings = new WarningList();
 
 	/**
 	 * list of warning messages generated during last scoring run
 	 * 
 	 * @return list of warnings
 	 */
-	public static WarningList getWarnings() {
-		return sWarnings;
+	public WarningList getWarnings() {
+		return warnings;
 	}
 
 	/**
@@ -142,32 +142,23 @@ public class MultiStage extends BaseObject implements RegattaScoringModel, Const
 	 * @throws ScoringException
 	 *             if a problem is encountered
 	 */
-	public void validate() throws ScoringException {
-		JavaScoreProperties.acquireScoringLock();
-		try {
-			logger.trace("ScoringManager: validation started...");
+	public void initializeScoring() {
+		clearResults();
+		warnings.clear();
+	}
+	
+	public boolean validate() throws ScoringException {
+		logger.trace("ScoringManager: validation started...");
 
-			clearResults();
-
-			if (getRegatta() == null || getRegatta().getNumRaces() == 0 || getRegatta().getNumEntries() == 0) {
-				logger.trace("ScoringManager: (empty) done.");
-				return;
+		// check for entries with a division not in the getRegatta()
+		for (Entry entry : getRegatta().getAllEntries()) {
+			if (!getRegatta().hasDivision(entry.getDivision())) {
+				warnings.add(MessageFormat.format(res.getString("WarningEntryNotInDivision"), new Object[] { entry
+						.toString() }));
 			}
-
-			// check for entries with a division not in the getRegatta()
-			sWarnings.clear();
-			for (Entry entry : getRegatta().getAllEntries()) {
-				if (!getRegatta().hasDivision(entry.getDivision())) {
-					sWarnings.add(MessageFormat.format(res.getString("WarningEntryNotInDivision"), new Object[] { entry
-							.toString() }));
-				}
-			}
-
-			ScoringUtilities.validateRegatta(getRegatta());
-			
-		} finally {
-			JavaScoreProperties.releaseScoringLock();
 		}
+		warnings.addAll( ScoringUtilities.validateRegatta(getRegatta()));
+		return (warnings.size() == 0);
 	}
 	
 	protected void clearResults() {
@@ -243,7 +234,7 @@ public class MultiStage extends BaseObject implements RegattaScoringModel, Const
 		if (this == obj)
 			return true;
 		try {
-			MultiStage that = (MultiStage) obj;
+			MultiStageScoring that = (MultiStageScoring) obj;
 
 			// if (!Util.equalsWithNull( this.fRaces, that.fRaces)) return
 			// false;
@@ -353,6 +344,3 @@ public class MultiStage extends BaseObject implements RegattaScoringModel, Const
 
 
 }
-/**
- * $Log: ScoringManager.java,v $ Revision 1.12 2006/05/19 05:48:42 sandyg final release 5.1 modifications
- */

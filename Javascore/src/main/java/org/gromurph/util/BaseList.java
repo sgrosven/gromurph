@@ -170,7 +170,7 @@ public abstract class BaseList<T extends BaseObjectModel> extends java.util.Arra
 			xmlRead(root, this);
 			return true;
 		} else {
-			Util.printlnException(this, new FileNotFoundException("Cannot find file: " + fileName), true);
+			Util.printlnException(this, new FileNotFoundException("Cannot find file: " + fileName), false);
 			return false;
 		}	
 	}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="" Final="false" HostClub="" IFEventID="" JSVersion="7.2.2" JuryChair="" Multistage="true" Name="Opti one/two rbg test" Pro="" UseBowNumbers="false" Version="600" comment="">
+<Regatta Dates="" Final="false" HostClub="" IFEventID="" JSVersion="7.2.1" JuryChair="" Multistage="true" Name="Opti one/two rbg test" Pro="" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="Opti" Gender="Open">
 <MinRating ClassName="Optimist" System="OneDesign"/>

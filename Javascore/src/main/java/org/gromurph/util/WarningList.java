@@ -23,6 +23,9 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextPane;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class WarningList extends ArrayList<String>
 {
 
@@ -52,7 +55,11 @@ public class WarningList extends ArrayList<String>
      *
      * @param comp Containing component, may be null
      */
-    public void showPopup( Component comp)
+    public void showPopup( Component comp) {
+    	showPopup( comp, JOptionPane.WARNING_MESSAGE);
+    }
+    
+    public void showPopup( Component comp, int messageType)
     {
         if (size() > 0)
         {
@@ -68,31 +75,13 @@ public class WarningList extends ArrayList<String>
                 comp,
                 panel,
                 fTitle,
-                JOptionPane.WARNING_MESSAGE);
+                messageType);
         }
     }
+    
+    public void logMessages( Logger logger) {
+    	for ( String s : this) {
+    		logger.error( s);
+    	}
+    }
 }
-/**
- * $Log: WarningList.java,v $
- * Revision 1.4  2006/01/15 21:10:35  sandyg
- * resubmit at 5.1.02
- *
- * Revision 1.2  2006/01/11 02:27:14  sandyg
- * updating copyright years
- *
- * Revision 1.1  2006/01/01 02:27:02  sandyg
- * preliminary submission to centralize code in a new module
- *
- * Revision 1.5.4.1  2005/11/01 02:36:02  sandyg
- * Java5 update - using generics
- *
- * Revision 1.5  2004/04/10 20:49:39  sandyg
- * Copyright year update
- *
- * Revision 1.4  2003/01/06 00:30:19  sandyg
- * add header string above main scrolling list
- *
- * Revision 1.3  2003/01/04 17:53:06  sandyg
- * Prefix/suffix overhaul
- *
-*/

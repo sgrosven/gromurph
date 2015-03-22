@@ -90,7 +90,7 @@ import org.gromurph.javascore.model.SubDivision;
 import org.gromurph.javascore.model.ratings.RatingDouble;
 import org.gromurph.javascore.model.ratings.RatingOneDesign;
 import org.gromurph.javascore.model.scoring.ScoringOptions;
-import org.gromurph.javascore.model.scoring.SingleStage;
+import org.gromurph.javascore.model.scoring.SingleStageScoring;
 import org.gromurph.javascore.model.scoring.Stage;
 import org.gromurph.util.EditorManager;
 import org.gromurph.util.HelpManager;
@@ -257,7 +257,7 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 		EditorManager.put( Regatta.class, PanelRegatta.class);
 		EditorManager.put( ReportOptions.class, PanelReportOptions.class);
 		EditorManager.put( ScoringOptions.class, PanelScoringOptions.class);
-		EditorManager.put( SingleStage.class, PanelScoringOptions.class);
+		EditorManager.put( SingleStageScoring.class, PanelScoringOptions.class);
 		EditorManager.put( Stage.class, PanelStage.class);
 		EditorManager.put( SubDivision.class, PanelSubDivision.class);
 		EditorManager.put( Division.class, PanelDivision.class);

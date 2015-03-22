@@ -1,243 +1,329 @@
-<?xml version="1.0"?>
-
-<Regatta JSVersion="3.1.2" Version="300" Name="2002 Buzzard&apos;s Bay Regatta - Green Circle" Pro="Tom Farquhar" JuryChair="" HostClub="BYC, NBYC, LTYC, MYC" Dates="August 2-4, 2002" Final="false" UseBowNumbers="false">
-  <DivisionList>
-    <Division DivName="420 blue">
-      <MinRating System="OneDesign" ClassName="Club 420" />
-      <MaxRating System="OneDesign" ClassName="&lt;none&gt;" />
-    </Division>
-    <Division DivName="420 green">
-      <MinRating System="OneDesign" ClassName="Club 420" />
-      <MaxRating System="OneDesign" ClassName="&lt;none&gt;" />
-    </Division>
-    <Division DivName="420 red">
-      <MinRating System="OneDesign" ClassName="Club 420" />
-      <MaxRating System="OneDesign" ClassName="&lt;none&gt;" />
-    </Division>
-    <Division DivName="420 yellow">
-      <MinRating System="OneDesign" ClassName="Club 420" />
-      <MaxRating System="OneDesign" ClassName="&lt;none&gt;" />
-    </Division>
-  </DivisionList>
-  <EntryList>
-    <Entry EntryId="2" Bow="" Division="420 blue">
-      <Rating System="OneDesign" ClassName="Club 420" />
-      <Boat SailId="10">
-	<Owner FirstName="" LastName="" SailorId="" />
-	<RatingList />
-      </Boat>
-      <Skipper FirstName="One" LastName="Blue" SailorId="" />
-      <Crew FirstName="" LastName="" SailorId="" />
-    </Entry>
-    <Entry EntryId="4" Bow="" Division="420 blue">
-      <Rating System="OneDesign" ClassName="Club 420" />
-      <Boat SailId="11">
-	<Owner FirstName="" LastName="" SailorId="" />
-	<RatingList />
-      </Boat>
-      <Skipper FirstName="Two " LastName="Blue" SailorId="" />
-      <Crew FirstName="" LastName="" SailorId="" />
-    </Entry>
-    <Entry EntryId="5" Bow="" Division="420 green">
-      <Rating System="OneDesign" ClassName="Club 420" />
-      <Boat SailId="20">
-	<Owner FirstName="" LastName="" SailorId="" />
-	<RatingList />
-      </Boat>
-      <Skipper FirstName="One" LastName="Green" SailorId="" />
-      <Crew FirstName="" LastName="" SailorId="" />
-    </Entry>
-    <Entry EntryId="6" Bow="" Division="420 green">
-      <Rating System="OneDesign" ClassName="Club 420" />
-      <Boat SailId="21">
-	<Owner FirstName="" LastName="" SailorId="" />
-	<RatingList />
-      </Boat>
-      <Skipper FirstName="Two " LastName="Green" SailorId="" />
-      <Crew FirstName="" LastName="" SailorId="" />
-    </Entry>
-    <Entry EntryId="7" Bow="" Division="420 red">
-      <Rating System="OneDesign" ClassName="Club 420" />
-      <Boat SailId="31">
-	<Owner FirstName="" LastName="" SailorId="" />
-	<RatingList />
-      </Boat>
-      <Skipper FirstName="One" LastName="Red" SailorId="" />
-      <Crew FirstName="" LastName="" SailorId="" />
-    </Entry>
-    <Entry EntryId="8" Bow="" Division="420 red">
-      <Rating System="OneDesign" ClassName="Club 420" />
-      <Boat SailId="32">
-	<Owner FirstName="" LastName="" SailorId="" />
-	<RatingList />
-      </Boat>
-      <Skipper FirstName="Two" LastName="Red" SailorId="" />
-      <Crew FirstName="" LastName="" SailorId="" />
-    </Entry>
-    <Entry EntryId="9" Bow="" Division="420 yellow">
-      <Rating System="OneDesign" ClassName="Club 420" />
-      <Boat SailId="41">
-	<Owner FirstName="" LastName="" SailorId="" />
-	<RatingList />
-      </Boat>
-      <Skipper FirstName="One" LastName="Yellow" SailorId="" />
-      <Crew FirstName="" LastName="" SailorId="" />
-    </Entry>
-    <Entry EntryId="10" Bow="" Division="420 yellow">
-      <Rating System="OneDesign" ClassName="Club 420" />
-      <Boat SailId="42">
-	<Owner FirstName="" LastName="" SailorId="" />
-	<RatingList />
-      </Boat>
-      <Skipper FirstName="Two" LastName="Yellow" SailorId="" />
-      <Crew FirstName="" LastName="" SailorId="" />
-    </Entry>
-  </EntryList>
-  <FleetList>
-    <Fleet DivName="Club 420 Fleet" DifferentLengths="Drop" SameStartSameClass="true">
-      <DivisionList>
-	<Div Name="420 blue" />
-	<Div Name="420 green" />
-	<Div Name="420 red" />
-	<Div Name="420 yellow" />
-      </DivisionList>
-    </Fleet>
-  </FleetList>
-  <SubDivisionList />
-  <RaceList>
-    <Race RaceId="1" Name="1" StartDate="02-Aug-2002" LongDistance="false" BFactor="550">
-      <DivInfo>
-	<DivStart Div="420 green" StartTime="10:45:00" Length="0.0" isRacing="true" />
-	<DivStart Div="420 yellow" StartTime="10:45:00" Length="0.0" isRacing="true" />
-	<DivStart Div="420 red" StartTime="10:40:00" Length="0.0" isRacing="true" />
-	<DivStart Div="420 blue" StartTime="10:40:00" Length="0.0" isRacing="true" />
-      </DivInfo>
-      <FinishList>
-	<Fin Ent="8" Race="1" Pos="1" Time="13:20:00" />
-	<Fin Ent="7" Race="1" Pos="2" Time="13:20:01" />
-	<Fin Ent="5" Race="1" Pos="3" Time="13:20:02" />
-	<Fin Ent="4" Race="1" Pos="4" Time="13:20:03" />
-	<Fin Ent="2" Race="1" Pos="5" Time="13:20:04" />
-	<Fin Ent="9" Race="1" Pos="6" Time="13:20:05" />
-	<Fin Ent="6" Race="1" Pos="7" Time="13:20:06" />
-	<Fin Ent="10" Race="1" Pos="8" Time="13:20:08" />
-      </FinishList>
-    </Race>
-    <Race RaceId="3" Name="2" StartDate="02-Aug-2002" LongDistance="false" BFactor="550">
-      <DivInfo>
-	<DivStart Div="420 green" StartTime="12:10:00" Length="0.0" isRacing="true" />
-	<DivStart Div="420 yellow" StartTime="12:10:00" Length="0.0" isRacing="true" />
-	<DivStart Div="420 red" StartTime="12:05:00" Length="0.0" isRacing="true" />
-	<DivStart Div="420 blue" StartTime="12:05:00" Length="0.0" isRacing="true" />
-      </DivInfo>
-      <FinishList>
-	<Fin Ent="9" Race="3" Pos="1" />
-	<Fin Ent="6" Race="3" Pos="2" />
-	<Fin Ent="8" Race="3" Pos="3" />
-	<Fin Ent="5" Race="3" Pos="4" />
-	<Fin Ent="4" Race="3" Pos="5" />
-	<Fin Ent="7" Race="3" Pos="6" />
-	<Fin Ent="2" Race="3" Pos="7" />
-	<Fin Ent="10" Race="3" Pos="8" />
-      </FinishList>
-    </Race>
-    <Race RaceId="4" Name="3" StartDate="02-Aug-2002" LongDistance="false" BFactor="550">
-      <DivInfo>
-	<DivStart Div="420 green" StartTime="14:05:00" Length="0.0" isRacing="true" />
-	<DivStart Div="420 yellow" StartTime="14:10:00" Length="0.0" isRacing="true" />
-	<DivStart Div="420 red" StartTime="14:10:00" Length="0.0" isRacing="true" />
-	<DivStart Div="420 blue" StartTime="14:05:00" Length="0.0" isRacing="true" />
-      </DivInfo>
-      <FinishList>
-	<Fin Ent="5" Race="4" Pos="1" />
-	<Fin Ent="4" Race="4" Pos="2" />
-	<Fin Ent="2" Race="4" Pos="3" />
-	<Fin Ent="6" Race="4" Pos="4" />
-	<Fin Ent="9" Race="4" Pos="5" />
-	<Fin Ent="8" Race="4" Pos="6" />
-	<Fin Ent="7" Race="4" Pos="7" />
-	<Fin Ent="10" Race="4" Pos="8" />
-      </FinishList>
-    </Race>
-  </RaceList>
-  <Scores SystemName="ISAF Low Point 2001-2004">
-    <System TimeLimitPenalty="0" LongSeries="false" CheckinPercent="20" ThrowoutScheme="1" ThrowoutPerX="0" ThrowoutBestX="0" Throwout1="5" Throwout2="0" Throwout3="0" />
-    <RacePointsList />
-    <SeriesPointsList />
-  </Scores>
-  <ReportOptionList>
-    <Options NameOption="2" FontName="Comic Sans MS" FontSize="2" TabName="Series" Template="" Show1DTimes="true" ShowLastXRaces="false" HidePenaltyPoints="false" LastXRaces="5">
-      <OptionLocations>
-	<item value="1.1" />
-	<item value="1.2" />
-	<item value="None" />
-	<item value="2.1" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-      </OptionLocations>
-    </Options>
-    <Options NameOption="0" FontName="Comic Sans MS" FontSize="2" TabName="Race" Template="" Show1DTimes="true" ShowLastXRaces="false" HidePenaltyPoints="false" LastXRaces="5">
-      <OptionLocations>
-	<item value="1.1" />
-	<item value="1.2" />
-	<item value="None" />
-	<item value="2.1" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-      </OptionLocations>
-    </Options>
-    <Options NameOption="1" FontName="Comic Sans MS" FontSize="2" TabName="Entries" Template="" Show1DTimes="true" ShowLastXRaces="false" HidePenaltyPoints="false" LastXRaces="5">
-      <OptionLocations>
-	<item value="1.1" />
-	<item value="2.1" />
-	<item value="None" />
-	<item value="3.1" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-      </OptionLocations>
-    </Options>
-    <Options NameOption="2" FontName="Comic Sans MS" FontSize="2" TabName="CheckIn" Template="" Show1DTimes="true" ShowLastXRaces="false" HidePenaltyPoints="false" LastXRaces="5">
-      <OptionLocations>
-	<item value="1.1" />
-	<item value="1.2" />
-	<item value="None" />
-	<item value="2.1" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-      </OptionLocations>
-    </Options>
-    <Options NameOption="2" FontName="Comic Sans MS" FontSize="2" TabName="FinishSheet" Template="" Show1DTimes="false" ShowLastXRaces="false" HidePenaltyPoints="false" LastXRaces="5">
-      <OptionLocations>
-	<item value="1.1" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-      </OptionLocations>
-    </Options>
-    <Options NameOption="2" FontName="Comic Sans MS" FontSize="2" TabName="Proofing" Template="" Show1DTimes="true" ShowLastXRaces="false" HidePenaltyPoints="false" LastXRaces="5">
-      <OptionLocations>
-	<item value="1.1" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-	<item value="None" />
-      </OptionLocations>
-    </Options>
-  </ReportOptionList>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta Dates="August 2-4, 2002" Final="false" HostClub="BYC, NBYC, LTYC, MYC" IFEventID="" JSVersion="7.2.1" JuryChair="" Multistage="false" Name="2002 Buzzard's Bay Regatta - Green Circle" Pro="Tom Farquhar" UseBowNumbers="false" Version="600" comment="">
+<DivisionList>
+<Division DivName="420 blue">
+<MinRating ClassName="Club 420" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+<Division DivName="420 green">
+<MinRating ClassName="Club 420" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+<Division DivName="420 red">
+<MinRating ClassName="Club 420" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+<Division DivName="420 yellow">
+<MinRating ClassName="Club 420" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Division="420 blue" EntryId="2">
+<Boat SailId="10">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Club 420" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="One" LastName="Blue" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="420 blue" EntryId="4">
+<Boat SailId="11">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Club 420" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Two " LastName="Blue" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="420 green" EntryId="5">
+<Boat SailId="20">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Club 420" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="One" LastName="Green" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="420 green" EntryId="6">
+<Boat SailId="21">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Club 420" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Two " LastName="Green" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="420 red" EntryId="7">
+<Boat SailId="31">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Club 420" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="One" LastName="Red" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="420 red" EntryId="8">
+<Boat SailId="32">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Club 420" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Two" LastName="Red" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="420 yellow" EntryId="9">
+<Boat SailId="41">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Club 420" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="One" LastName="Yellow" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="420 yellow" EntryId="10">
+<Boat SailId="42">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Club 420" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Two" LastName="Yellow" SailorId=""/>
+<CrewList/>
+</Entry>
+</EntryList>
+<FleetList>
+<Fleet DifferentLengths="Drop" DivName="Club 420 Fleet" SameStartSameClass="true">
+<FleetDivList>
+<Div Name="420 blue"/>
+<Div Name="420 green"/>
+<Div Name="420 red"/>
+<Div Name="420 yellow"/>
+</FleetDivList>
+</Fleet>
+</FleetList>
+<RaceList>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="02-Aug-2002" Weight="1.0">
+<DivInfo>
+<DivStart Div="420 green" Length="0.0" StartTime="10:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 yellow" Length="0.0" StartTime="10:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 red" Length="0.0" StartTime="10:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 blue" Length="0.0" StartTime="10:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Club 420 Fleet" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="8" Pos="1" Race="1" Time="13:20:00.0"/>
+<Fin Ent="7" Pos="2" Race="1" Time="13:20:01.0"/>
+<Fin Ent="5" Pos="3" Race="1" Time="13:20:02.0"/>
+<Fin Ent="4" Pos="4" Race="1" Time="13:20:03.0"/>
+<Fin Ent="2" Pos="5" Race="1" Time="13:20:04.0"/>
+<Fin Ent="9" Pos="6" Race="1" Time="13:20:05.0"/>
+<Fin Ent="6" Pos="7" Race="1" Time="13:20:06.0"/>
+<Fin Ent="10" Pos="8" Race="1" Time="13:20:08.0"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="3" StartDate="02-Aug-2002" Weight="1.0">
+<DivInfo>
+<DivStart Div="420 green" Length="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 yellow" Length="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 red" Length="0.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 blue" Length="0.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Club 420 Fleet" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="9" Pos="1" Race="3"/>
+<Fin Ent="6" Pos="2" Race="3"/>
+<Fin Ent="8" Pos="3" Race="3"/>
+<Fin Ent="5" Pos="4" Race="3"/>
+<Fin Ent="4" Pos="5" Race="3"/>
+<Fin Ent="7" Pos="6" Race="3"/>
+<Fin Ent="2" Pos="7" Race="3"/>
+<Fin Ent="10" Pos="8" Race="3"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="4" StartDate="02-Aug-2002" Weight="1.0">
+<DivInfo>
+<DivStart Div="420 green" Length="0.0" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 yellow" Length="0.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 red" Length="0.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 blue" Length="0.0" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Club 420 Fleet" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="5" Pos="1" Race="4"/>
+<Fin Ent="4" Pos="2" Race="4"/>
+<Fin Ent="2" Pos="3" Race="4"/>
+<Fin Ent="6" Pos="4" Race="4"/>
+<Fin Ent="9" Pos="5" Race="4"/>
+<Fin Ent="8" Pos="6" Race="4"/>
+<Fin Ent="7" Pos="7" Race="4"/>
+<Fin Ent="10" Pos="8" Race="4"/>
+</FinishList>
+</Race>
+</RaceList>
+<Scores SystemName="ISAF Low Point 2013-2016">
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="5" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="420 blue" Ent="4" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="420 blue" Ent="2" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="420 blue" Ent="4" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="420 blue" Ent="2" Pos="2" Pts="2.0" Race="3"/>
+<rp Div="420 blue" Ent="4" Pos="1" Pts="1.0" Race="4"/>
+<rp Div="420 blue" Ent="2" Pos="2" Pts="2.0" Race="4"/>
+<rp Div="420 green" Ent="5" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="420 green" Ent="6" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="420 green" Ent="6" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="420 green" Ent="5" Pos="2" Pts="2.0" Race="3"/>
+<rp Div="420 green" Ent="5" Pos="1" Pts="1.0" Race="4"/>
+<rp Div="420 green" Ent="6" Pos="2" Pts="2.0" Race="4"/>
+<rp Div="420 red" Ent="8" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="420 red" Ent="7" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="420 red" Ent="8" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="420 red" Ent="7" Pos="2" Pts="2.0" Race="3"/>
+<rp Div="420 red" Ent="8" Pos="1" Pts="1.0" Race="4"/>
+<rp Div="420 red" Ent="7" Pos="2" Pts="2.0" Race="4"/>
+<rp Div="420 yellow" Ent="9" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="420 yellow" Ent="10" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="420 yellow" Ent="9" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="420 yellow" Ent="10" Pos="2" Pts="2.0" Race="3"/>
+<rp Div="420 yellow" Ent="9" Pos="1" Pts="1.0" Race="4"/>
+<rp Div="420 yellow" Ent="10" Pos="2" Pts="2.0" Race="4"/>
+<rp Div="Club 420 Fleet" Ent="5" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="Club 420 Fleet" Ent="9" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="Club 420 Fleet" Ent="6" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="Club 420 Fleet" Ent="10" Pos="4" Pts="4.0" Race="1"/>
+<rp Div="Club 420 Fleet" Ent="8" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="Club 420 Fleet" Ent="7" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="Club 420 Fleet" Ent="4" Pos="7" Pts="7.0" Race="1"/>
+<rp Div="Club 420 Fleet" Ent="2" Pos="8" Pts="8.0" Race="1"/>
+<rp Div="Club 420 Fleet" Ent="9" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="Club 420 Fleet" Ent="6" Pos="2" Pts="2.0" Race="3"/>
+<rp Div="Club 420 Fleet" Ent="8" Pos="3" Pts="3.0" Race="3"/>
+<rp Div="Club 420 Fleet" Ent="5" Pos="4" Pts="4.0" Race="3"/>
+<rp Div="Club 420 Fleet" Ent="4" Pos="5" Pts="5.0" Race="3"/>
+<rp Div="Club 420 Fleet" Ent="7" Pos="6" Pts="6.0" Race="3"/>
+<rp Div="Club 420 Fleet" Ent="2" Pos="7" Pts="7.0" Race="3"/>
+<rp Div="Club 420 Fleet" Ent="10" Pos="8" Pts="8.0" Race="3"/>
+<rp Div="Club 420 Fleet" Ent="5" Pos="1" Pts="1.0" Race="4"/>
+<rp Div="Club 420 Fleet" Ent="4" Pos="2" Pts="2.0" Race="4"/>
+<rp Div="Club 420 Fleet" Ent="2" Pos="3" Pts="3.0" Race="4"/>
+<rp Div="Club 420 Fleet" Ent="6" Pos="4" Pts="4.0" Race="4"/>
+<rp Div="Club 420 Fleet" Ent="9" Pos="5" Pts="5.0" Race="4"/>
+<rp Div="Club 420 Fleet" Ent="8" Pos="6" Pts="6.0" Race="4"/>
+<rp Div="Club 420 Fleet" Ent="7" Pos="7" Pts="7.0" Race="4"/>
+<rp Div="Club 420 Fleet" Ent="10" Pos="8" Pts="8.0" Race="4"/>
+</RacePointsList>
+<SeriesPointsList>
+<sp Div="420 blue" Ent="4" Pos="1" Pts="3.0"/>
+<sp Div="420 blue" Ent="2" Pos="2" Pts="6.0"/>
+<sp Div="420 green" Ent="5" Pos="1" Pts="4.0"/>
+<sp Div="420 green" Ent="6" Pos="2" Pts="5.0"/>
+<sp Div="420 red" Ent="8" Pos="1" Pts="3.0"/>
+<sp Div="420 red" Ent="7" Pos="2" Pts="6.0"/>
+<sp Div="420 yellow" Ent="9" Pos="1" Pts="3.0"/>
+<sp Div="420 yellow" Ent="10" Pos="2" Pts="6.0"/>
+<sp Div="Club 420 Fleet" Ent="5" Pos="1" Pts="6.0"/>
+<sp Div="Club 420 Fleet" Ent="9" Pos="2" Pts="8.0"/>
+<sp Div="Club 420 Fleet" Ent="6" Pos="3" Pts="9.0"/>
+<sp Div="Club 420 Fleet" Ent="4" Pos="4" Pts="14.0"/>
+<sp Div="Club 420 Fleet" Ent="8" Pos="5" Pts="14.0001"/>
+<sp Div="Club 420 Fleet" Ent="2" Pos="6" Pts="18.0"/>
+<sp Div="Club 420 Fleet" Ent="7" Pos="7" Pts="19.0"/>
+<sp Div="Club 420 Fleet" Ent="10" Pos="8" Pts="20.0"/>
+</SeriesPointsList>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Comic Sans MS" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="1.2"/>
+<item value="None"/>
+<item value="2.1"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Comic Sans MS" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="1.2"/>
+<item value="None"/>
+<item value="2.1"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Comic Sans MS" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="1" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="2.1"/>
+<item value="None"/>
+<item value="3.1"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Comic Sans MS" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="1.2"/>
+<item value="None"/>
+<item value="2.1"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Comic Sans MS" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="false" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Comic Sans MS" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="1.1"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
 </Regatta>
-

@@ -27,7 +27,8 @@ import org.gromurph.javascore.model.Regatta;
 import org.gromurph.javascore.model.SeriesPoints;
 import org.gromurph.javascore.model.SeriesPointsList;
 import org.gromurph.javascore.model.SubDivision;
-import org.gromurph.javascore.model.scoring.MultiStage;
+import org.gromurph.javascore.model.scoring.MultiStageScoring;
+import org.gromurph.javascore.model.scoring.RegattaScoringModel;
 import org.gromurph.javascore.model.scoring.Stage;
 import org.gromurph.util.Util;
 import org.slf4j.Logger;
@@ -49,7 +50,7 @@ public class RegattaManager {
 	}
 
 	public static Regatta readTestRegatta(String inFile) throws IOException {
-		return readRegattaFromDisk( "testregattas/" + inFile);
+		return readRegattaFromDisk( "build/resources/test/testregattas/" + inFile);
 	}
 
 	public static Regatta readRegattaFromDisk(String inFile) throws IOException {
@@ -113,20 +114,27 @@ public class RegattaManager {
 
 	public void scoreRegatta() {
 		try {
-			
-			regatta.getScoringManager().validate();
-
 			JavaScoreProperties.acquireScoringLock();
 			try {
-				logger.trace("ScoringManager: scoring started...");
+				
+				RegattaScoringModel scorer = regatta.getScoringManager();
+				scorer.initializeScoring();
+				
 				if (regatta == null || regatta.getNumRaces() == 0 || regatta.getNumEntries() == 0) {
 					logger.trace("ScoringManager: (empty) done.");
 					return;
 				}
 
-				regatta.getScoringManager().scoreRegatta();
+				logger.trace("ScoringManager: validation started...");
+				boolean validationOK = scorer.validate();
 
-				logger.trace("ScoringManager: scoring completed.");
+				if (validationOK) {
+					logger.trace("ScoringManager: scoring started...");
+					scorer.scoreRegatta();
+					logger.trace("ScoringManager: scoring completed.");
+				} else {
+					scorer.getWarnings().logMessages( LoggerFactory.getLogger( scorer.getClass()));
+				}
 
 			}
 			finally {
@@ -136,7 +144,7 @@ public class RegattaManager {
 		catch (Exception e) {
 			Logger l = LoggerFactory.getLogger(this.getClass());
 			l.error( "Exception=" + e.toString(), e);
-		}
+    	}
 	}	
 
 	protected static Logger logger = LoggerFactory.getLogger( "RegattaManager");
@@ -144,7 +152,7 @@ public class RegattaManager {
 	public void splitFleetTopBottom(Stage srcStage, AbstractDivision targetParentDiv, String[] newDivisionNames,
 			int[] topPositions, boolean wantCarryOverRace) {
 		
-		MultiStage mgr = (MultiStage) regatta.getScoringManager();
+		MultiStageScoring mgr = (MultiStageScoring) regatta.getScoringManager();
 		AbstractDivision parentDiv = (targetParentDiv instanceof SubDivision) ? targetParentDiv.getParentDivision() : targetParentDiv;
 
 		SubDivision[] subDivs = new SubDivision[newDivisionNames.length];

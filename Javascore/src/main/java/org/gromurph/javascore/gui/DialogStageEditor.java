@@ -24,7 +24,7 @@ import org.gromurph.javascore.JavaScoreProperties;
 import org.gromurph.javascore.manager.RegattaManager;
 import org.gromurph.javascore.model.Regatta;
 import org.gromurph.javascore.model.StageList;
-import org.gromurph.javascore.model.scoring.MultiStage;
+import org.gromurph.javascore.model.scoring.MultiStageScoring;
 import org.gromurph.javascore.model.scoring.Stage;
 import org.gromurph.util.DialogBaseListEditor;
 import org.gromurph.util.Util;
@@ -48,9 +48,9 @@ public class DialogStageEditor extends DialogBaseListEditor<Stage, StageList> {
 		return 150;
 	}
 
-	private MultiStage scoringManager;
+	private MultiStageScoring scoringManager;
 	
-	public void setScoringManager( MultiStage mgr) {
+	public void setScoringManager( MultiStageScoring mgr) {
 		scoringManager = mgr;
 		StageList sl = mgr.getStages();
 		Collections.sort( sl, new Stage.SortBottomToTop());
@@ -76,7 +76,7 @@ public class DialogStageEditor extends DialogBaseListEditor<Stage, StageList> {
 
 		JavaScore.initializeEditors();
 		
-		MultiStage mgr = (MultiStage)reg.getScoringManager();
+		MultiStageScoring mgr = (MultiStageScoring)reg.getScoringManager();
 		DialogStageEditor panel = new DialogStageEditor(null);
 		
 		StringBuffer sb = new StringBuffer("Stages: ");

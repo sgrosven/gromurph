@@ -28,7 +28,7 @@ import org.gromurph.javascore.JavascoreTestCase;
 import org.gromurph.javascore.model.scoring.ScoringLowPoint;
 import org.gromurph.javascore.model.scoring.ScoringOptions;
 import org.gromurph.javascore.model.scoring.ScoringUtilities;
-import org.gromurph.javascore.model.scoring.SingleStage;
+import org.gromurph.javascore.model.scoring.SingleStageScoring;
 import org.gromurph.javascore.model.scoring.StageScoringModel;
 import org.gromurph.util.DialogBaseEditor;
 import org.gromurph.util.Util;
@@ -51,7 +51,7 @@ public class PanelScoringOptionsTests extends JavascoreTestCase {
 	public void setUp() throws Exception {
 		super.setUp();
 
-		fModel = (SingleStage) fRegatta.getScoringManager();
+		fModel = (SingleStageScoring) fRegatta.getScoringManager();
 		assertNotNull(fModel);
 		fDialog = (DialogBaseEditor)showPanel(fModel);
 		

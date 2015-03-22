@@ -48,7 +48,7 @@ import org.gromurph.javascore.model.Fleet;
 import org.gromurph.javascore.model.Regatta;
 import org.gromurph.javascore.model.StageList;
 import org.gromurph.javascore.model.SubDivision;
-import org.gromurph.javascore.model.scoring.MultiStage;
+import org.gromurph.javascore.model.scoring.MultiStageScoring;
 import org.gromurph.javascore.model.scoring.Stage;
 import org.gromurph.util.BaseEditor;
 import org.gromurph.util.BaseEditorContainer;
@@ -99,7 +99,7 @@ public class PanelSplitQualifying extends BaseEditor<Regatta> implements ActionL
 	@Override public void updateFields() {
 		if (fRegatta != null && fRegatta.isMultistage()) {
 			StageList qstages = new StageList();
-			StageList stages = ( (MultiStage) fRegatta.getScoringManager()).getStages();
+			StageList stages = ( (MultiStageScoring) fRegatta.getScoringManager()).getStages();
 			for (Stage s : stages) {
 				if (s.isCombinedQualifying()) qstages.add(s);
 			}

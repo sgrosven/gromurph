@@ -51,7 +51,7 @@ import org.gromurph.javascore.model.SeriesPointsList;
 import org.gromurph.javascore.model.SubDivision;
 import org.gromurph.javascore.model.scoring.ScoringLowPoint;
 import org.gromurph.javascore.model.scoring.ScoringOptions;
-import org.gromurph.javascore.model.scoring.SingleStage;
+import org.gromurph.javascore.model.scoring.SingleStageScoring;
 import org.gromurph.util.Exporter;
 import org.gromurph.util.Person;
 import org.gromurph.util.Util;
@@ -526,7 +526,7 @@ public class Xrr1_3Manager implements Exporter, Constants {
 		}
 
 		// set up throwouts based on the number we saw in the input
-		SingleStage mgr = (SingleStage) regatta.getScoringManager();
+		SingleStageScoring mgr = (SingleStageScoring) regatta.getScoringManager();
 		if (mgr.getModel() instanceof ScoringLowPoint) {
 			ScoringOptions s = mgr.getModel().getOptions();
 			if (nThrowouts == 0)

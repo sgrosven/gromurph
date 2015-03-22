@@ -1,540 +1,539 @@
-<?xml version='1.0' encoding='UTF-8'?>
-
-<Regatta Dates='April 13-14, 2002' Final='false' HostClub='My Yacht Club' IFEventID='' JSVersion='5.7' JuryChair='Dan I M Goode' Name='Spring Sampler' Pro='Godfired O. Dangerfield' SplitFleet='false' UseBowNumbers='false' Version='552' comment='Sample small boat style regatta, with a &#34;womens&#34; subdivision within the 470 class, and demonstrating a nightmare tiebreaker in the &#34;Tiedlings&#34; class'>
-	<DivisionList>
-		<Division DivName='470'>
-			<MinRating ClassName='470' System='OneDesign'></MinRating>
-			<MaxRating ClassName='&lt;none&gt;' System='OneDesign'></MaxRating>
-		</Division>
-		<Division DivName='Tiedlings'>
-			<MinRating ClassName='Tiedlings' System='OneDesign'></MinRating>
-			<MaxRating ClassName='&lt;none&gt;' System='OneDesign'></MaxRating>
-		</Division>
-	</DivisionList>
-	<EntryList>
-		<Entry Bow='' Division='Tiedlings' EntryId='6'>
-			<Boat BoatName='A' SailId='F 1'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Tiedlings' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Tiedlings' EntryId='7'>
-			<Boat BoatName='B' SailId='F 2'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Tiedlings' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Tiedlings' EntryId='8'>
-			<Boat BoatName='C' SailId='F 3'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Tiedlings' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Tiedlings' EntryId='9'>
-			<Boat BoatName='D' SailId='F 4'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Tiedlings' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Tiedlings' EntryId='10'>
-			<Boat BoatName='E' SailId='F 5'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Tiedlings' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Tiedlings' EntryId='36'>
-			<Boat BoatName='f' SailId='F 6'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Tiedlings' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Tiedlings' EntryId='37'>
-			<Boat BoatName='g' SailId='F 7'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Tiedlings' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='Tiedlings' EntryId='38'>
-			<Boat BoatName='h' SailId='F 8'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='Tiedlings' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='' LastName='' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='470' EntryId='1'>
-			<Boat SailId='4001'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='470' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='Joe' LastName='Macho' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='470' EntryId='3'>
-			<Boat SailId='4002'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='470' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='Sue' LastName='Sleek' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='470' EntryId='4'>
-			<Boat SailId='4003'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='470' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='Tom' LastName='Trapeze' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-		<Entry Bow='' Division='470' EntryId='5'>
-			<Boat SailId='4004'>
-				<Owner FirstName='' LastName='' SailorId=''></Owner>
-				<RatingList>
-					<Rating ClassName='470' System='OneDesign'></Rating>
-				</RatingList>
-			</Boat>
-			<Skipper FirstName='Olympia' LastName='Olympian' SailorId=''></Skipper>
-			<CrewList></CrewList>
-		</Entry>
-	</EntryList>
-	<FleetList>
-		<Fleet DifferentLengths='Drop' DivName='PHRF TOD' SameStartSameClass='true'>
-			<FleetDivList>
-				<Div Name='PHRF B'></Div>
-				<Div Name='PHRF A'></Div>
-			</FleetDivList>
-		</Fleet>
-		<Fleet DifferentLengths='Drop' DivName='PHRF ToT' SameStartSameClass='true'>
-			<FleetDivList>
-				<Div Name='PHRF ToT A'></Div>
-				<Div Name='PHRF ToT B'></Div>
-			</FleetDivList>
-		</Fleet>
-	</FleetList>
-	<SubDivisionList>
-		<SubDivision DivName='Women' Group='Final' GroupRank='0.0' Monopoly='false' Parent='470' ParentType='Division' ScoreSeparately='true' addOn='0.0'>
-			<EntryList>
-				<Entry Id='5'></Entry>
-				<Entry Id='3'></Entry>
-			</EntryList>
-		</SubDivision>
-	</SubDivisionList>
-	<RaceList>
-		<Race BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='1' NonDiscardable='false' RaceId='3' StartDate='13-Apr-2002' Weight='1.0'>
-			<DivInfo>
-				<DivStart Div='470' Length='0.0' StartTime='0/12:10:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Women' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Tiedlings' Length='0.0' StartTime='0/12:15:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-			</DivInfo>
-			<FinishList>
-				<Fin ClassPos='1' Ent='7' Pos='1' Race='3'></Fin>
-				<Fin ClassPos='2' Ent='8' Pos='2' Race='3'></Fin>
-				<Fin ClassPos='3' Ent='9' Pos='3' Race='3'></Fin>
-				<Fin ClassPos='4' Ent='36' Pos='4' Race='3'></Fin>
-				<Fin ClassPos='5' Ent='6' Pos='5' Race='3'></Fin>
-				<Fin ClassPos='6' Ent='37' Pos='6' Race='3'></Fin>
-				<Fin ClassPos='7' Ent='10' Pos='7' Race='3'></Fin>
-				<Fin ClassPos='8' Ent='38' Pos='8' Race='3'></Fin>
-				<Fin ClassPos='1' Ent='1' Pos='9' Race='3'></Fin>
-				<Fin ClassPos='1' Ent='3' Pos='10' Race='3'></Fin>
-				<Fin ClassPos='2' Ent='5' Pos='11' Race='3'></Fin>
-				<Fin ClassPos='4' Ent='4' Pos='12' Race='3'></Fin>
-			</FinishList>
-		</Race>
-		<Race BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='2' NonDiscardable='false' RaceId='5' StartDate='13-Apr-2002' Weight='1.0'>
-			<DivInfo>
-				<DivStart Div='470' Length='0.0' StartTime='0/14:10:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Women' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Tiedlings' Length='0.0' StartTime='0/14:15:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-			</DivInfo>
-			<FinishList>
-				<Fin ClassPos='1' Ent='4' Pos='1' Race='5'></Fin>
-				<Fin ClassPos='1' Ent='3' Pos='2' Race='5'></Fin>
-				<Fin ClassPos='3' Ent='1' Pos='3' Race='5'></Fin>
-				<Fin ClassPos='2' Ent='5' Pos='4' Race='5'></Fin>
-				<Fin ClassPos='1' Ent='8' Pos='5' Race='5'></Fin>
-				<Fin ClassPos='2' Ent='6' Pos='6' Race='5'></Fin>
-				<Fin ClassPos='3' Ent='7' Pos='7' Race='5'></Fin>
-				<Fin ClassPos='4' Ent='10' Pos='8' Race='5'></Fin>
-				<Fin ClassPos='5' Ent='9' Pos='9' Race='5'></Fin>
-				<Fin ClassPos='6' Ent='37' Pos='10' Race='5'></Fin>
-				<Fin ClassPos='7' Ent='36' Pos='11' Race='5'></Fin>
-				<Fin ClassPos='8' Ent='38' Pos='12' Race='5'></Fin>
-			</FinishList>
-		</Race>
-		<Race BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='3' NonDiscardable='false' RaceId='6' StartDate='13-Apr-2002' Weight='1.0'>
-			<DivInfo>
-				<DivStart Div='470' Length='0.0' StartTime='0/14:40:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Women' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Tiedlings' Length='0.0' StartTime='0/14:45:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-			</DivInfo>
-			<FinishList>
-				<Fin ClassPos='1' Ent='4' Pos='1' Race='6'></Fin>
-				<Fin ClassPos='1' Ent='5' Pos='2' Race='6'></Fin>
-				<Fin ClassPos='2' Ent='3' Pos='3' Race='6'></Fin>
-				<Fin ClassPos='4' Ent='1' Pos='4' Race='6'></Fin>
-				<Fin ClassPos='1' Ent='9' Pos='5' Race='6'></Fin>
-				<Fin ClassPos='2' Ent='10' Pos='6' Race='6'></Fin>
-				<Fin ClassPos='3' Ent='6' Pos='7' Race='6'></Fin>
-				<Fin ClassPos='4' Ent='7' Pos='8' Race='6'></Fin>
-				<Fin ClassPos='5' Ent='37' Pos='9' Race='6'></Fin>
-				<Fin ClassPos='6' Ent='8' Pos='10' Race='6'></Fin>
-				<Fin ClassPos='7' Ent='38' Pos='11' Race='6'></Fin>
-				<Fin ClassPos='8' Ent='36' Pos='12' Race='6'></Fin>
-			</FinishList>
-		</Race>
-		<Race BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='4' NonDiscardable='false' RaceId='7' StartDate='13-Apr-2002' Weight='1.0'>
-			<DivInfo>
-				<DivStart Div='470' Length='0.0' StartTime='0/15:00:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Women' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Tiedlings' Length='0.0' StartTime='0/15:05:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-			</DivInfo>
-			<FinishList>
-				<Fin ClassPos='1' Ent='6' Pos='1' Race='7'></Fin>
-				<Fin ClassPos='2' Ent='9' Pos='2' Race='7'></Fin>
-				<Fin ClassPos='3' Ent='8' Pos='3' Race='7'></Fin>
-				<Fin ClassPos='4' Ent='10' Pos='4' Race='7'></Fin>
-				<Fin ClassPos='5' Ent='7' Pos='5' Race='7'></Fin>
-				<Fin ClassPos='6' Ent='38' Pos='6' Race='7'></Fin>
-				<Fin ClassPos='1' Ent='3' Pos='7' Race='7'></Fin>
-				<Fin ClassPos='2' Ent='1' Pos='8' Race='7'></Fin>
-				<Fin ClassPos='7' Ent='37' Pos='9' Race='7'></Fin>
-				<Fin ClassPos='8' Ent='36' Pos='10' Race='7'></Fin>
-				<Fin ClassPos='2' Ent='5' Pos='11' Race='7'></Fin>
-				<Fin ClassPos='4' Ent='4' Pos='12' Race='7'></Fin>
-			</FinishList>
-		</Race>
-		<Race BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='5' NonDiscardable='false' RaceId='8' StartDate='13-Apr-2002' Weight='1.0'>
-			<DivInfo>
-				<DivStart Div='470' Length='0.0' StartTime='0/16:05:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Women' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Tiedlings' Length='0.0' StartTime='0/16:10:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-			</DivInfo>
-			<FinishList>
-				<Fin ClassPos='1' Ent='37' Pos='1' Race='8'></Fin>
-				<Fin ClassPos='2' Ent='36' Pos='2' Race='8'></Fin>
-				<Fin ClassPos='3' Ent='10' Pos='3' Race='8'></Fin>
-				<Fin ClassPos='4' Ent='6' Pos='4' Race='8'></Fin>
-				<Fin ClassPos='5' Ent='38' Pos='5' Race='8'></Fin>
-				<Fin ClassPos='6' Ent='9' Pos='6' Race='8'></Fin>
-				<Fin ClassPos='7' Ent='8' Pos='7' Race='8'></Fin>
-				<Fin ClassPos='8' Ent='7' Pos='8' Race='8'></Fin>
-				<Fin ClassPos='1' Ent='3' Pos='9' Race='8'></Fin>
-				<Fin ClassPos='2' Ent='5' Pos='10' Race='8'></Fin>
-				<Fin ClassPos='3' Ent='4' Pos='11' Race='8'></Fin>
-				<Fin ClassPos='4' Ent='1' Pos='12' Race='8'></Fin>
-			</FinishList>
-		</Race>
-		<Race BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='6' NonDiscardable='false' RaceId='9' StartDate='13-Apr-2002' Weight='1.0'>
-			<DivInfo>
-				<DivStart Div='470' Length='0.0' StartTime='0/17:05:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Women' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Tiedlings' Length='0.0' StartTime='0/17:05:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-			</DivInfo>
-			<FinishList>
-				<Fin ClassPos='1' Ent='10' Pos='1' Race='9'></Fin>
-				<Fin ClassPos='2' Ent='36' Pos='2' Race='9'></Fin>
-				<Fin ClassPos='3' Ent='37' Pos='3' Race='9'></Fin>
-				<Fin ClassPos='4' Ent='9' Pos='4' Race='9'></Fin>
-				<Fin ClassPos='5' Ent='8' Pos='5' Race='9'></Fin>
-				<Fin ClassPos='6' Ent='7' Pos='6' Race='9'></Fin>
-				<Fin ClassPos='7' Ent='6' Pos='7' Race='9'></Fin>
-				<Fin ClassPos='8' Ent='38' Pos='8' Race='9'></Fin>
-				<Fin ClassPos='1' Ent='3' Pos='9' Race='9'></Fin>
-				<Fin ClassPos='2' Ent='4' Pos='10' Race='9'></Fin>
-				<Fin ClassPos='3' Ent='1' Pos='11' Race='9'></Fin>
-				<Fin ClassPos='2' Ent='5' Pos='12' Race='9'></Fin>
-			</FinishList>
-		</Race>
-		<Race BFactor='550' Comment='' LongDistance='false' MedalRace='false' Name='7' NonDiscardable='false' RaceId='10' StartDate='13-Apr-2002' Weight='1.0'>
-			<DivInfo>
-				<DivStart Div='470' Length='0.0' StartTime='0/17:40:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Women' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='Tiedlings' Length='0.0' StartTime='0/17:45:00.0' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT A' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-				<DivStart Div='PHRF ToT B' Length='0.0' StartTime='No Time' isRacing='true' nextDay='false'></DivStart>
-			</DivInfo>
-			<FinishList>
-				<Fin ClassPos='1' Ent='36' Pos='1' Race='10'></Fin>
-				<Fin ClassPos='2' Ent='7' Pos='2' Race='10'></Fin>
-				<Fin ClassPos='3' Ent='37' Pos='3' Race='10'></Fin>
-				<Fin ClassPos='4' Ent='8' Pos='4' Race='10'></Fin>
-				<Fin ClassPos='5' Ent='38' Pos='5' Race='10'></Fin>
-				<Fin ClassPos='6' Ent='9' Pos='6' Race='10'></Fin>
-				<Fin ClassPos='7' Ent='10' Pos='7' Race='10'></Fin>
-				<Fin ClassPos='8' Ent='6' Pos='8' Race='10'></Fin>
-				<Fin ClassPos='1' Ent='3' Pos='9' Race='10'></Fin>
-				<Fin ClassPos='2' Ent='5' Pos='10' Race='10'></Fin>
-				<Fin ClassPos='3' Ent='4' Pos='11' Race='10'></Fin>
-				<Fin ClassPos='4' Ent='1' Pos='12' Race='10'></Fin>
-			</FinishList>
-		</Race>
-	</RaceList>
-	<Scores SystemName='ISAF Low Point 2009-2012'>
-		<System AfterRacePenaltyPercent='40' CheckinPercent='20' EntriesLargestDivision='false' LongSeries='false' Throwout1='2' Throwout2='0' Throwout3='0' ThrowoutBestX='0' ThrowoutPerX='0' ThrowoutScheme='1' TimeLimitPenalty='0' tiebreaker='1'></System>
-		<RacePointsList>
-			<rp Div='470' Ent='1' Pos='1' Pts='1.0' Race='3'></rp>
-			<rp Div='470' Ent='3' Pos='2' Pts='2.0' Race='3'></rp>
-			<rp Div='470' Ent='5' Pos='3' Pts='3.0' Race='3'></rp>
-			<rp Div='470' Ent='4' Pos='4' Pts='4.0' Race='3' Toss='true'></rp>
-			<rp Div='470' Ent='4' Pos='1' Pts='1.0' Race='5'></rp>
-			<rp Div='470' Ent='3' Pos='2' Pts='2.0' Race='5'></rp>
-			<rp Div='470' Ent='1' Pos='3' Pts='3.0' Race='5'></rp>
-			<rp Div='470' Ent='5' Pos='4' Pts='4.0' Race='5' Toss='true'></rp>
-			<rp Div='470' Ent='4' Pos='1' Pts='1.0' Race='6'></rp>
-			<rp Div='470' Ent='5' Pos='2' Pts='2.0' Race='6'></rp>
-			<rp Div='470' Ent='3' Pos='3' Pts='3.0' Race='6' Toss='true'></rp>
-			<rp Div='470' Ent='1' Pos='4' Pts='4.0' Race='6' Toss='true'></rp>
-			<rp Div='470' Ent='3' Pos='1' Pts='1.0' Race='7'></rp>
-			<rp Div='470' Ent='1' Pos='2' Pts='2.0' Race='7'></rp>
-			<rp Div='470' Ent='5' Pos='3' Pts='3.0' Race='7'></rp>
-			<rp Div='470' Ent='4' Pos='4' Pts='4.0' Race='7'></rp>
-			<rp Div='470' Ent='3' Pos='1' Pts='1.0' Race='8'></rp>
-			<rp Div='470' Ent='5' Pos='2' Pts='2.0' Race='8'></rp>
-			<rp Div='470' Ent='4' Pos='3' Pts='3.0' Race='8'></rp>
-			<rp Div='470' Ent='1' Pos='4' Pts='4.0' Race='8'></rp>
-			<rp Div='470' Ent='3' Pos='1' Pts='1.0' Race='9'></rp>
-			<rp Div='470' Ent='4' Pos='2' Pts='2.0' Race='9'></rp>
-			<rp Div='470' Ent='1' Pos='3' Pts='3.0' Race='9'></rp>
-			<rp Div='470' Ent='5' Pos='4' Pts='4.0' Race='9'></rp>
-			<rp Div='470' Ent='3' Pos='1' Pts='1.0' Race='10'></rp>
-			<rp Div='470' Ent='5' Pos='2' Pts='2.0' Race='10'></rp>
-			<rp Div='470' Ent='4' Pos='3' Pts='3.0' Race='10'></rp>
-			<rp Div='470' Ent='1' Pos='4' Pts='4.0' Race='10'></rp>
-			<rp Div='Tiedlings' Ent='7' Pos='1' Pts='1.0' Race='3'></rp>
-			<rp Div='Tiedlings' Ent='8' Pos='2' Pts='2.0' Race='3'></rp>
-			<rp Div='Tiedlings' Ent='9' Pos='3' Pts='3.0' Race='3'></rp>
-			<rp Div='Tiedlings' Ent='36' Pos='4' Pts='4.0' Race='3'></rp>
-			<rp Div='Tiedlings' Ent='6' Pos='5' Pts='5.0' Race='3'></rp>
-			<rp Div='Tiedlings' Ent='37' Pos='6' Pts='6.0' Race='3'></rp>
-			<rp Div='Tiedlings' Ent='10' Pos='7' Pts='7.0' Race='3' Toss='true'></rp>
-			<rp Div='Tiedlings' Ent='38' Pos='8' Pts='8.0' Race='3' Toss='true'></rp>
-			<rp Div='Tiedlings' Ent='8' Pos='1' Pts='1.0' Race='5'></rp>
-			<rp Div='Tiedlings' Ent='6' Pos='2' Pts='2.0' Race='5'></rp>
-			<rp Div='Tiedlings' Ent='7' Pos='3' Pts='3.0' Race='5'></rp>
-			<rp Div='Tiedlings' Ent='10' Pos='4' Pts='4.0' Race='5'></rp>
-			<rp Div='Tiedlings' Ent='9' Pos='5' Pts='5.0' Race='5'></rp>
-			<rp Div='Tiedlings' Ent='37' Pos='6' Pts='6.0' Race='5'></rp>
-			<rp Div='Tiedlings' Ent='36' Pos='7' Pts='7.0' Race='5'></rp>
-			<rp Div='Tiedlings' Ent='38' Pos='8' Pts='8.0' Race='5'></rp>
-			<rp Div='Tiedlings' Ent='9' Pos='1' Pts='1.0' Race='6'></rp>
-			<rp Div='Tiedlings' Ent='10' Pos='2' Pts='2.0' Race='6'></rp>
-			<rp Div='Tiedlings' Ent='6' Pos='3' Pts='3.0' Race='6'></rp>
-			<rp Div='Tiedlings' Ent='7' Pos='4' Pts='4.0' Race='6'></rp>
-			<rp Div='Tiedlings' Ent='37' Pos='5' Pts='5.0' Race='6'></rp>
-			<rp Div='Tiedlings' Ent='8' Pos='6' Pts='6.0' Race='6'></rp>
-			<rp Div='Tiedlings' Ent='38' Pos='7' Pts='7.0' Race='6'></rp>
-			<rp Div='Tiedlings' Ent='36' Pos='8' Pts='8.0' Race='6' Toss='true'></rp>
-			<rp Div='Tiedlings' Ent='6' Pos='1' Pts='1.0' Race='7'></rp>
-			<rp Div='Tiedlings' Ent='9' Pos='2' Pts='2.0' Race='7'></rp>
-			<rp Div='Tiedlings' Ent='8' Pos='3' Pts='3.0' Race='7'></rp>
-			<rp Div='Tiedlings' Ent='10' Pos='4' Pts='4.0' Race='7'></rp>
-			<rp Div='Tiedlings' Ent='7' Pos='5' Pts='5.0' Race='7'></rp>
-			<rp Div='Tiedlings' Ent='38' Pos='6' Pts='6.0' Race='7'></rp>
-			<rp Div='Tiedlings' Ent='37' Pos='7' Pts='7.0' Race='7' Toss='true'></rp>
-			<rp Div='Tiedlings' Ent='36' Pos='8' Pts='8.0' Race='7'></rp>
-			<rp Div='Tiedlings' Ent='37' Pos='1' Pts='1.0' Race='8'></rp>
-			<rp Div='Tiedlings' Ent='36' Pos='2' Pts='2.0' Race='8'></rp>
-			<rp Div='Tiedlings' Ent='10' Pos='3' Pts='3.0' Race='8'></rp>
-			<rp Div='Tiedlings' Ent='6' Pos='4' Pts='4.0' Race='8'></rp>
-			<rp Div='Tiedlings' Ent='38' Pos='5' Pts='5.0' Race='8'></rp>
-			<rp Div='Tiedlings' Ent='9' Pos='6' Pts='6.0' Race='8' Toss='true'></rp>
-			<rp Div='Tiedlings' Ent='8' Pos='7' Pts='7.0' Race='8' Toss='true'></rp>
-			<rp Div='Tiedlings' Ent='7' Pos='8' Pts='8.0' Race='8' Toss='true'></rp>
-			<rp Div='Tiedlings' Ent='10' Pos='1' Pts='1.0' Race='9'></rp>
-			<rp Div='Tiedlings' Ent='36' Pos='2' Pts='2.0' Race='9'></rp>
-			<rp Div='Tiedlings' Ent='37' Pos='3' Pts='3.0' Race='9'></rp>
-			<rp Div='Tiedlings' Ent='9' Pos='4' Pts='4.0' Race='9'></rp>
-			<rp Div='Tiedlings' Ent='8' Pos='5' Pts='5.0' Race='9'></rp>
-			<rp Div='Tiedlings' Ent='7' Pos='6' Pts='6.0' Race='9'></rp>
-			<rp Div='Tiedlings' Ent='6' Pos='7' Pts='7.0' Race='9'></rp>
-			<rp Div='Tiedlings' Ent='38' Pos='8' Pts='8.0' Race='9'></rp>
-			<rp Div='Tiedlings' Ent='36' Pos='1' Pts='1.0' Race='10'></rp>
-			<rp Div='Tiedlings' Ent='7' Pos='2' Pts='2.0' Race='10'></rp>
-			<rp Div='Tiedlings' Ent='37' Pos='3' Pts='3.0' Race='10'></rp>
-			<rp Div='Tiedlings' Ent='8' Pos='4' Pts='4.0' Race='10'></rp>
-			<rp Div='Tiedlings' Ent='38' Pos='5' Pts='5.0' Race='10'></rp>
-			<rp Div='Tiedlings' Ent='9' Pos='6' Pts='6.0' Race='10'></rp>
-			<rp Div='Tiedlings' Ent='10' Pos='7' Pts='7.0' Race='10'></rp>
-			<rp Div='Tiedlings' Ent='6' Pos='8' Pts='8.0' Race='10' Toss='true'></rp>
-			<rp Div='Women' Ent='3' Pos='1' Pts='1.0' Race='3'></rp>
-			<rp Div='Women' Ent='5' Pos='2' Pts='2.0' Race='3' Toss='true'></rp>
-			<rp Div='Women' Ent='3' Pos='1' Pts='1.0' Race='5'></rp>
-			<rp Div='Women' Ent='5' Pos='2' Pts='2.0' Race='5'></rp>
-			<rp Div='Women' Ent='5' Pos='1' Pts='1.0' Race='6'></rp>
-			<rp Div='Women' Ent='3' Pos='2' Pts='2.0' Race='6' Toss='true'></rp>
-			<rp Div='Women' Ent='3' Pos='1' Pts='1.0' Race='7'></rp>
-			<rp Div='Women' Ent='5' Pos='2' Pts='2.0' Race='7'></rp>
-			<rp Div='Women' Ent='3' Pos='1' Pts='1.0' Race='8'></rp>
-			<rp Div='Women' Ent='5' Pos='2' Pts='2.0' Race='8'></rp>
-			<rp Div='Women' Ent='3' Pos='1' Pts='1.0' Race='9'></rp>
-			<rp Div='Women' Ent='5' Pos='2' Pts='2.0' Race='9'></rp>
-			<rp Div='Women' Ent='3' Pos='1' Pts='1.0' Race='10'></rp>
-			<rp Div='Women' Ent='5' Pos='2' Pts='2.0' Race='10'></rp>
-		</RacePointsList>
-		<SeriesPointsList>
-			<sp Div='470' Ent='3' Pos='1' Pts='8.0'></sp>
-			<sp Div='470' Ent='4' Pos='2' Pts='14.0'></sp>
-			<sp Div='470' Ent='5' Pos='3' Pts='16.0'></sp>
-			<sp Div='470' Ent='1' Pos='4' Pts='17.0'></sp>
-			<sp Div='Tiedlings' Ent='10' Pos='1' Pts='21.0'></sp>
-			<sp Div='Tiedlings' Ent='7' Pos='2' Pts='21.0001'></sp>
-			<sp Div='Tiedlings' Ent='8' Pos='3' Pts='21.0002'></sp>
-			<sp Div='Tiedlings' Ent='9' Pos='4' Pts='21.0003'></sp>
-			<sp Div='Tiedlings' Ent='6' Pos='5' Pts='22.0'></sp>
-			<sp Div='Tiedlings' Ent='36' Pos='6' Pts='24.0'></sp>
-			<sp Div='Tiedlings' Ent='37' Pos='7' Pts='24.0001'></sp>
-			<sp Div='Tiedlings' Ent='38' Pos='8' Pts='39.0'></sp>
-			<sp Div='Women' Ent='3' Pos='1' Pts='6.0'></sp>
-			<sp Div='Women' Ent='5' Pos='2' Pts='11.0'></sp>
-		</SeriesPointsList>
-	</Scores>
-	<ReportOptionList>
-		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Series' Template=''>
-			<OptionLocations>
-				<item value='2.1'></item>
-				<item value='none'></item>
-				<item value='1.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-			</OptionLocations>
-		</Options>
-		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Race' Template=''>
-			<OptionLocations>
-				<item value='2.1'></item>
-				<item value='none'></item>
-				<item value='1.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='3.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-			</OptionLocations>
-		</Options>
-		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Entries' Template=''>
-			<OptionLocations>
-				<item value='1.2'></item>
-				<item value='none'></item>
-				<item value='1.1'></item>
-				<item value='3.1'></item>
-				<item value='none'></item>
-				<item value='4.1'></item>
-				<item value='2.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-			</OptionLocations>
-		</Options>
-		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='2' Show1DTimes='true' ShowLastXRaces='false' TabName='CheckIn' Template=''>
-			<OptionLocations>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='1.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-			</OptionLocations>
-		</Options>
-		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='FinishSheet' Template=''>
-			<OptionLocations>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='1.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-			</OptionLocations>
-		</Options>
-		<Options CombineRaceAndSeries='false' FontName='Verdana' FontSize='2' HidePenaltyPoints='false' LastXRaces='5' NameOption='0' Show1DTimes='true' ShowLastXRaces='false' TabName='Proofing' Template=''>
-			<OptionLocations>
-				<item value='2.1'></item>
-				<item value='none'></item>
-				<item value='1.1'></item>
-				<item value='3.2'></item>
-				<item value='none'></item>
-				<item value='3.1'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-				<item value='none'></item>
-			</OptionLocations>
-		</Options>
-	</ReportOptionList>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta Dates="April 13-14, 2002" Final="false" HostClub="My Yacht Club" IFEventID="" JSVersion="7.2.1" JuryChair="Dan I M Goode" Multistage="false" Name="Spring Sampler" Pro="Godfired O. Dangerfield" UseBowNumbers="false" Version="600" comment="Sample small boat style regatta, with a &quot;womens&quot; subdivision within the 470 class, and demonstrating a nightmare tiebreaker in the &quot;Tiedlings&quot; class">
+<DivisionList>
+<Division DivName="470">
+<MinRating ClassName="470" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+<Division DivName="Tiedlings">
+<MinRating ClassName="Tiedlings" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Division="Tiedlings" EntryId="6">
+<Boat BoatName="A" SailId="F 1">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Tiedlings" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Tiedlings" EntryId="7">
+<Boat BoatName="B" SailId="F 2">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Tiedlings" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Tiedlings" EntryId="8">
+<Boat BoatName="C" SailId="F 3">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Tiedlings" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Tiedlings" EntryId="9">
+<Boat BoatName="D" SailId="F 4">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Tiedlings" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Tiedlings" EntryId="10">
+<Boat BoatName="E" SailId="F 5">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Tiedlings" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Tiedlings" EntryId="36">
+<Boat BoatName="f" SailId="F 6">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Tiedlings" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Tiedlings" EntryId="37">
+<Boat BoatName="g" SailId="F 7">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Tiedlings" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Tiedlings" EntryId="38">
+<Boat BoatName="h" SailId="F 8">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Tiedlings" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="470" EntryId="1">
+<Boat SailId="4001">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="470" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Joe" LastName="Macho" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="470" EntryId="3">
+<Boat SailId="4002">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="470" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Sue" LastName="Sleek" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="470" EntryId="4">
+<Boat SailId="4003">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="470" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Tom" LastName="Trapeze" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="470" EntryId="5">
+<Boat SailId="4004">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="470" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Olympia" LastName="Olympian" SailorId=""/>
+<CrewList/>
+</Entry>
+</EntryList>
+<FleetList>
+<Fleet DifferentLengths="Drop" DivName="PHRF TOD" SameStartSameClass="true">
+<FleetDivList>
+<Div Name="PHRF B"/>
+<Div Name="PHRF A"/>
+</FleetDivList>
+</Fleet>
+<Fleet DifferentLengths="Drop" DivName="PHRF ToT" SameStartSameClass="true">
+<FleetDivList>
+<Div Name="PHRF ToT A"/>
+<Div Name="PHRF ToT B"/>
+</FleetDivList>
+</Fleet>
+</FleetList>
+<SubDivisionList>
+<SubDivision DivName="Women" Group="Final" GroupRank="0.0" LastSplit="true" Monopoly="false" Parent="470" ParentType="Division" ScoreSeparately="true" addOn="0.0">
+<EntryList>
+<Entry Id="5"/>
+<Entry Id="3"/>
+</EntryList>
+</SubDivision>
+</SubDivisionList>
+<RaceList>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="3" StartDate="13-Apr-2002" Weight="1.0">
+<DivInfo>
+<DivStart Div="470" Length="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="7" Pos="1" Race="3"/>
+<Fin Ent="8" Pos="2" Race="3"/>
+<Fin Ent="9" Pos="3" Race="3"/>
+<Fin Ent="36" Pos="4" Race="3"/>
+<Fin Ent="6" Pos="5" Race="3"/>
+<Fin Ent="37" Pos="6" Race="3"/>
+<Fin Ent="10" Pos="7" Race="3"/>
+<Fin Ent="38" Pos="8" Race="3"/>
+<Fin Ent="1" Pos="9" Race="3"/>
+<Fin Ent="3" Pos="10" Race="3"/>
+<Fin Ent="5" Pos="11" Race="3"/>
+<Fin Ent="4" Pos="12" Race="3"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="5" StartDate="13-Apr-2002" Weight="1.0">
+<DivInfo>
+<DivStart Div="470" Length="0.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" StartTime="14:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="4" Pos="1" Race="5"/>
+<Fin Ent="3" Pos="2" Race="5"/>
+<Fin Ent="1" Pos="3" Race="5"/>
+<Fin Ent="5" Pos="4" Race="5"/>
+<Fin Ent="8" Pos="5" Race="5"/>
+<Fin Ent="6" Pos="6" Race="5"/>
+<Fin Ent="7" Pos="7" Race="5"/>
+<Fin Ent="10" Pos="8" Race="5"/>
+<Fin Ent="9" Pos="9" Race="5"/>
+<Fin Ent="37" Pos="10" Race="5"/>
+<Fin Ent="36" Pos="11" Race="5"/>
+<Fin Ent="38" Pos="12" Race="5"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="6" StartDate="13-Apr-2002" Weight="1.0">
+<DivInfo>
+<DivStart Div="470" Length="0.0" StartTime="14:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" StartTime="14:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="4" Pos="1" Race="6"/>
+<Fin Ent="5" Pos="2" Race="6"/>
+<Fin Ent="3" Pos="3" Race="6"/>
+<Fin Ent="1" Pos="4" Race="6"/>
+<Fin Ent="9" Pos="5" Race="6"/>
+<Fin Ent="10" Pos="6" Race="6"/>
+<Fin Ent="6" Pos="7" Race="6"/>
+<Fin Ent="7" Pos="8" Race="6"/>
+<Fin Ent="37" Pos="9" Race="6"/>
+<Fin Ent="8" Pos="10" Race="6"/>
+<Fin Ent="38" Pos="11" Race="6"/>
+<Fin Ent="36" Pos="12" Race="6"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" RaceId="7" StartDate="13-Apr-2002" Weight="1.0">
+<DivInfo>
+<DivStart Div="470" Length="0.0" StartTime="15:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" StartTime="15:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="6" Pos="1" Race="7"/>
+<Fin Ent="9" Pos="2" Race="7"/>
+<Fin Ent="8" Pos="3" Race="7"/>
+<Fin Ent="10" Pos="4" Race="7"/>
+<Fin Ent="7" Pos="5" Race="7"/>
+<Fin Ent="38" Pos="6" Race="7"/>
+<Fin Ent="3" Pos="7" Race="7"/>
+<Fin Ent="1" Pos="8" Race="7"/>
+<Fin Ent="37" Pos="9" Race="7"/>
+<Fin Ent="36" Pos="10" Race="7"/>
+<Fin Ent="5" Pos="11" Race="7"/>
+<Fin Ent="4" Pos="12" Race="7"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" RaceId="8" StartDate="13-Apr-2002" Weight="1.0">
+<DivInfo>
+<DivStart Div="470" Length="0.0" StartTime="16:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" StartTime="16:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="37" Pos="1" Race="8"/>
+<Fin Ent="36" Pos="2" Race="8"/>
+<Fin Ent="10" Pos="3" Race="8"/>
+<Fin Ent="6" Pos="4" Race="8"/>
+<Fin Ent="38" Pos="5" Race="8"/>
+<Fin Ent="9" Pos="6" Race="8"/>
+<Fin Ent="8" Pos="7" Race="8"/>
+<Fin Ent="7" Pos="8" Race="8"/>
+<Fin Ent="3" Pos="9" Race="8"/>
+<Fin Ent="5" Pos="10" Race="8"/>
+<Fin Ent="4" Pos="11" Race="8"/>
+<Fin Ent="1" Pos="12" Race="8"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" RaceId="9" StartDate="13-Apr-2002" Weight="1.0">
+<DivInfo>
+<DivStart Div="470" Length="0.0" StartTime="17:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" StartTime="17:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="10" Pos="1" Race="9"/>
+<Fin Ent="36" Pos="2" Race="9"/>
+<Fin Ent="37" Pos="3" Race="9"/>
+<Fin Ent="9" Pos="4" Race="9"/>
+<Fin Ent="8" Pos="5" Race="9"/>
+<Fin Ent="7" Pos="6" Race="9"/>
+<Fin Ent="6" Pos="7" Race="9"/>
+<Fin Ent="38" Pos="8" Race="9"/>
+<Fin Ent="3" Pos="9" Race="9"/>
+<Fin Ent="4" Pos="10" Race="9"/>
+<Fin Ent="1" Pos="11" Race="9"/>
+<Fin Ent="5" Pos="12" Race="9"/>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" RaceId="10" StartDate="13-Apr-2002" Weight="1.0">
+<DivInfo>
+<DivStart Div="470" Length="0.0" StartTime="17:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" StartTime="17:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="36" Pos="1" Race="10"/>
+<Fin Ent="7" Pos="2" Race="10"/>
+<Fin Ent="37" Pos="3" Race="10"/>
+<Fin Ent="8" Pos="4" Race="10"/>
+<Fin Ent="38" Pos="5" Race="10"/>
+<Fin Ent="9" Pos="6" Race="10"/>
+<Fin Ent="10" Pos="7" Race="10"/>
+<Fin Ent="6" Pos="8" Race="10"/>
+<Fin Ent="3" Pos="9" Race="10"/>
+<Fin Ent="5" Pos="10" Race="10"/>
+<Fin Ent="4" Pos="11" Race="10"/>
+<Fin Ent="1" Pos="12" Race="10"/>
+</FinishList>
+</Race>
+</RaceList>
+<Scores SystemName="ISAF Low Point 2013-2016">
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="470" Ent="1" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="470" Ent="3" Pos="2" Pts="2.0" Race="3"/>
+<rp Div="470" Ent="5" Pos="3" Pts="3.0" Race="3"/>
+<rp Div="470" Ent="4" Pos="4" Pts="4.0" Race="3" Toss="true"/>
+<rp Div="470" Ent="4" Pos="1" Pts="1.0" Race="5"/>
+<rp Div="470" Ent="3" Pos="2" Pts="2.0" Race="5"/>
+<rp Div="470" Ent="1" Pos="3" Pts="3.0" Race="5"/>
+<rp Div="470" Ent="5" Pos="4" Pts="4.0" Race="5" Toss="true"/>
+<rp Div="470" Ent="4" Pos="1" Pts="1.0" Race="6"/>
+<rp Div="470" Ent="5" Pos="2" Pts="2.0" Race="6"/>
+<rp Div="470" Ent="3" Pos="3" Pts="3.0" Race="6" Toss="true"/>
+<rp Div="470" Ent="1" Pos="4" Pts="4.0" Race="6" Toss="true"/>
+<rp Div="470" Ent="3" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="470" Ent="1" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="470" Ent="5" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="470" Ent="4" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="470" Ent="3" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="470" Ent="5" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="470" Ent="4" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="470" Ent="1" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="470" Ent="3" Pos="1" Pts="1.0" Race="9"/>
+<rp Div="470" Ent="4" Pos="2" Pts="2.0" Race="9"/>
+<rp Div="470" Ent="1" Pos="3" Pts="3.0" Race="9"/>
+<rp Div="470" Ent="5" Pos="4" Pts="4.0" Race="9"/>
+<rp Div="470" Ent="3" Pos="1" Pts="1.0" Race="10"/>
+<rp Div="470" Ent="5" Pos="2" Pts="2.0" Race="10"/>
+<rp Div="470" Ent="4" Pos="3" Pts="3.0" Race="10"/>
+<rp Div="470" Ent="1" Pos="4" Pts="4.0" Race="10"/>
+<rp Div="Tiedlings" Ent="7" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="Tiedlings" Ent="8" Pos="2" Pts="2.0" Race="3"/>
+<rp Div="Tiedlings" Ent="9" Pos="3" Pts="3.0" Race="3"/>
+<rp Div="Tiedlings" Ent="36" Pos="4" Pts="4.0" Race="3"/>
+<rp Div="Tiedlings" Ent="6" Pos="5" Pts="5.0" Race="3"/>
+<rp Div="Tiedlings" Ent="37" Pos="6" Pts="6.0" Race="3"/>
+<rp Div="Tiedlings" Ent="10" Pos="7" Pts="7.0" Race="3" Toss="true"/>
+<rp Div="Tiedlings" Ent="38" Pos="8" Pts="8.0" Race="3" Toss="true"/>
+<rp Div="Tiedlings" Ent="8" Pos="1" Pts="1.0" Race="5"/>
+<rp Div="Tiedlings" Ent="6" Pos="2" Pts="2.0" Race="5"/>
+<rp Div="Tiedlings" Ent="7" Pos="3" Pts="3.0" Race="5"/>
+<rp Div="Tiedlings" Ent="10" Pos="4" Pts="4.0" Race="5"/>
+<rp Div="Tiedlings" Ent="9" Pos="5" Pts="5.0" Race="5"/>
+<rp Div="Tiedlings" Ent="37" Pos="6" Pts="6.0" Race="5"/>
+<rp Div="Tiedlings" Ent="36" Pos="7" Pts="7.0" Race="5"/>
+<rp Div="Tiedlings" Ent="38" Pos="8" Pts="8.0" Race="5"/>
+<rp Div="Tiedlings" Ent="9" Pos="1" Pts="1.0" Race="6"/>
+<rp Div="Tiedlings" Ent="10" Pos="2" Pts="2.0" Race="6"/>
+<rp Div="Tiedlings" Ent="6" Pos="3" Pts="3.0" Race="6"/>
+<rp Div="Tiedlings" Ent="7" Pos="4" Pts="4.0" Race="6"/>
+<rp Div="Tiedlings" Ent="37" Pos="5" Pts="5.0" Race="6"/>
+<rp Div="Tiedlings" Ent="8" Pos="6" Pts="6.0" Race="6"/>
+<rp Div="Tiedlings" Ent="38" Pos="7" Pts="7.0" Race="6"/>
+<rp Div="Tiedlings" Ent="36" Pos="8" Pts="8.0" Race="6" Toss="true"/>
+<rp Div="Tiedlings" Ent="6" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="Tiedlings" Ent="9" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="Tiedlings" Ent="8" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="Tiedlings" Ent="10" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="Tiedlings" Ent="7" Pos="5" Pts="5.0" Race="7"/>
+<rp Div="Tiedlings" Ent="38" Pos="6" Pts="6.0" Race="7"/>
+<rp Div="Tiedlings" Ent="37" Pos="7" Pts="7.0" Race="7" Toss="true"/>
+<rp Div="Tiedlings" Ent="36" Pos="8" Pts="8.0" Race="7"/>
+<rp Div="Tiedlings" Ent="37" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="Tiedlings" Ent="36" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="Tiedlings" Ent="10" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="Tiedlings" Ent="6" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="Tiedlings" Ent="38" Pos="5" Pts="5.0" Race="8"/>
+<rp Div="Tiedlings" Ent="9" Pos="6" Pts="6.0" Race="8" Toss="true"/>
+<rp Div="Tiedlings" Ent="8" Pos="7" Pts="7.0" Race="8" Toss="true"/>
+<rp Div="Tiedlings" Ent="7" Pos="8" Pts="8.0" Race="8" Toss="true"/>
+<rp Div="Tiedlings" Ent="10" Pos="1" Pts="1.0" Race="9"/>
+<rp Div="Tiedlings" Ent="36" Pos="2" Pts="2.0" Race="9"/>
+<rp Div="Tiedlings" Ent="37" Pos="3" Pts="3.0" Race="9"/>
+<rp Div="Tiedlings" Ent="9" Pos="4" Pts="4.0" Race="9"/>
+<rp Div="Tiedlings" Ent="8" Pos="5" Pts="5.0" Race="9"/>
+<rp Div="Tiedlings" Ent="7" Pos="6" Pts="6.0" Race="9"/>
+<rp Div="Tiedlings" Ent="6" Pos="7" Pts="7.0" Race="9"/>
+<rp Div="Tiedlings" Ent="38" Pos="8" Pts="8.0" Race="9"/>
+<rp Div="Tiedlings" Ent="36" Pos="1" Pts="1.0" Race="10"/>
+<rp Div="Tiedlings" Ent="7" Pos="2" Pts="2.0" Race="10"/>
+<rp Div="Tiedlings" Ent="37" Pos="3" Pts="3.0" Race="10"/>
+<rp Div="Tiedlings" Ent="8" Pos="4" Pts="4.0" Race="10"/>
+<rp Div="Tiedlings" Ent="38" Pos="5" Pts="5.0" Race="10"/>
+<rp Div="Tiedlings" Ent="9" Pos="6" Pts="6.0" Race="10"/>
+<rp Div="Tiedlings" Ent="10" Pos="7" Pts="7.0" Race="10"/>
+<rp Div="Tiedlings" Ent="6" Pos="8" Pts="8.0" Race="10" Toss="true"/>
+<rp Div="Women" Ent="3" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="Women" Ent="5" Pos="2" Pts="2.0" Race="3" Toss="true"/>
+<rp Div="Women" Ent="3" Pos="1" Pts="1.0" Race="5"/>
+<rp Div="Women" Ent="5" Pos="2" Pts="2.0" Race="5"/>
+<rp Div="Women" Ent="5" Pos="1" Pts="1.0" Race="6"/>
+<rp Div="Women" Ent="3" Pos="2" Pts="2.0" Race="6" Toss="true"/>
+<rp Div="Women" Ent="3" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="Women" Ent="5" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="Women" Ent="3" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="Women" Ent="5" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="Women" Ent="3" Pos="1" Pts="1.0" Race="9"/>
+<rp Div="Women" Ent="5" Pos="2" Pts="2.0" Race="9"/>
+<rp Div="Women" Ent="3" Pos="1" Pts="1.0" Race="10"/>
+<rp Div="Women" Ent="5" Pos="2" Pts="2.0" Race="10"/>
+</RacePointsList>
+<SeriesPointsList>
+<sp Div="470" Ent="3" Pos="1" Pts="8.0"/>
+<sp Div="470" Ent="4" Pos="2" Pts="14.0"/>
+<sp Div="470" Ent="5" Pos="3" Pts="16.0"/>
+<sp Div="470" Ent="1" Pos="4" Pts="17.0"/>
+<sp Div="Tiedlings" Ent="10" Pos="1" Pts="21.0"/>
+<sp Div="Tiedlings" Ent="7" Pos="2" Pts="21.0001"/>
+<sp Div="Tiedlings" Ent="8" Pos="3" Pts="21.0002"/>
+<sp Div="Tiedlings" Ent="9" Pos="4" Pts="21.0003"/>
+<sp Div="Tiedlings" Ent="6" Pos="5" Pts="22.0"/>
+<sp Div="Tiedlings" Ent="36" Pos="6" Pts="24.0"/>
+<sp Div="Tiedlings" Ent="37" Pos="7" Pts="24.0001"/>
+<sp Div="Tiedlings" Ent="38" Pos="8" Pts="39.0"/>
+<sp Div="Women" Ent="3" Pos="1" Pts="6.0"/>
+<sp Div="Women" Ent="5" Pos="2" Pts="11.0"/>
+</SeriesPointsList>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.2"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="4.1"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.2"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
 </Regatta>
