@@ -62,7 +62,10 @@ public class SingleStageScoring extends BaseObject
 	public static SingleStageScoring createFromMultiStage( MultiStageScoring ms) {
 		SingleStageScoring ss = new SingleStageScoring(null);
 		
-		if (ms.getNumStages() > 0) {
+		if (ms instanceof DailyStageScoring) {
+			Stage s = ms.getStage( Stage.ALLDAYS);
+			ss.setModel(s.getModel());
+		} else if (ms.getNumStages() > 0) {
 			Stage s = ms.getStages().get(0);
 			ss.setModel( s.getModel());
 		}

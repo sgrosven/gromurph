@@ -1,0 +1,2352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta DailyScoring="true" Dates="28-30 April" Final="false" HostClub="Severn Sailing Association" IFEventID="" JSVersion="7.3.1" JuryChair="Chris Petracco" Multistage="false" Name="2007 SPERRY TOP-SIDER NOOD DIV 1" Pro="Sandy Grosvenor" UseBowNumbers="false" Version="600" comment="">
+<DivisionList>
+<Division DivName="Etchells">
+<MinRating ClassName="Etchells" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+<Division DivName="J/22">
+<MinRating ClassName="J/22" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+<Division DivName="J/24">
+<MinRating ClassName="J/24" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Club="EYC" Division="J/22" EntryId="142">
+<Boat BoatName="Purple Leprechaun" SailId="7">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Joe" LastName="Gibson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="National Yacht Club" Division="J/22" EntryId="143">
+<Boat BoatName="SpongeWorthy" SailId="34">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Peter" LastName="Hale" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/24" EntryId="179">
+<Boat BoatName="Bangor Packet" SailId="58">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Tony" LastName="Parker" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="Etchells" EntryId="125">
+<Boat BoatName="Screaming Eagle" SailId="130">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Carleton" LastName="Mott" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="Etchells" EntryId="126">
+<Boat BoatName="Riot" SailId="146">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Robert" LastName="Floyd" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Rochester Yacht Club" Division="J/22" EntryId="144">
+<Boat BoatName="Thunder Chicken" SailId="154">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jim" LastName="Barnash" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="J/22" EntryId="145">
+<Boat BoatName="Tiger" SailId="169">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Tom" LastName="Donlan" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Edgewater Yacht Club" Division="J/22" EntryId="146">
+<Boat BoatName="Devils Play" SailId="239">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Bill" LastName="Abbott/Florence/Wulff" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="BCYA" Division="J/24" EntryId="180">
+<Boat BoatName="Minor Threat" SailId="240">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Simmons Brothers" LastName="Simmons" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="National Yacht Club" Division="J/22" EntryId="147">
+<Boat BoatName="Three's Company" SailId="457">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jim Chorostecki/" LastName="Paul Davignon" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Severn Sailing Association" Division="J/24" EntryId="181">
+<Boat BoatName="Fotogelegenheit" SailId="465">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Vince" LastName="Harris" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Dillon Yacht Club" Division="J/22" EntryId="148">
+<Boat BoatName="Not Responsible" SailId="466">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="D B" LastName="Tanner" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="National Yacht Club" Division="J/22" EntryId="175">
+<Boat BoatName="Double Secret Probation" SailId="CAN- 481">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Luc S." LastName="D'Aoust" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Youngstown Yacht Club" Division="J/22" EntryId="149">
+<Boat BoatName="Mo' Money" SailId="489">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Kevin Doyle/" LastName="Victor Snyder" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="J/24" EntryId="182">
+<Boat BoatName="Sane Asylum" SailId="556">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Brent" LastName="Ellwood" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="J/22" EntryId="163">
+<Boat BoatName="Leading Edge" SailId="586">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Greg" LastName="Fisher" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="Etchells" EntryId="127">
+<Boat BoatName="Crow's Nest" SailId="598">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Rick" LastName="Crow" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="J/22" EntryId="177">
+<Boat BoatName="Permanent Custody" SailId="609">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Cheryl" LastName="Jersey" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Indian Landing Boat Club" Division="Etchells" EntryId="128">
+<Boat BoatName="True Grit" SailId="612">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ross" LastName="Dierdorff" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Edgewater Yacht Club" Division="J/22" EntryId="150">
+<Boat BoatName="Daisy" SailId="650">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Keven" LastName="Eiber" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="United States Naval Academy" Division="J/22" EntryId="151">
+<Boat SailId="660">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Chris" LastName="Hamilton" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/24" EntryId="183">
+<Boat BoatName="Show Dog" SailId="669">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Peter" LastName="Rich" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Etchells" EntryId="129">
+<Boat BoatName="Lion's Paw" SailId="675">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Tom" LastName="Schubert" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/22" EntryId="152">
+<Boat BoatName="Strapped" SailId="677">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Brad" LastName="Julian" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="n/a" Division="J/22" EntryId="153">
+<Boat BoatName="Ponk" SailId="678">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Collin" LastName="Linehan" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/22" EntryId="154">
+<Boat BoatName="EASE" SailId="725">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Carl / Geg" LastName="Engel / Cukor" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Great Lakes Yacht Club" Division="J/22" EntryId="155">
+<Boat BoatName="Shadow" SailId="738">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Steven" LastName="Lowery" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/22" EntryId="156">
+<Boat BoatName="Handbasket" SailId="792">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Dave" LastName="Robinson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Eastport Yacht Club" Division="Etchells" EntryId="130">
+<Boat BoatName="Make Mine a Double" SailId="819">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Reid" LastName="McLaughlin" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Cleveland Yacht Club" Division="J/22" EntryId="157">
+<Boat BoatName="Herbs" SailId="822">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Brett" LastName="Swasey" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Eastport YC" Division="J/22" EntryId="158">
+<Boat SailId="891">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Allan" LastName="Terhune, Jr." SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Ram Island" Division="J/22" EntryId="159">
+<Boat BoatName="Don't Tell Mom" SailId="938">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Dave" LastName="Nickerson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="J/22" EntryId="160">
+<Boat BoatName="Just Wing It" SailId="1002">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Timothy" LastName="Adelman" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/22" EntryId="161">
+<Boat BoatName="Indecision" SailId="1036">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Alon" LastName="Finkelstein" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Riverton Yacht Club" Division="J/22" EntryId="162">
+<Boat BoatName="Bearly" SailId="1040">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Terry" LastName="Rapp" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Etchells" EntryId="141">
+<Boat BoatName="USA 1076" SailId="1076">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Raymond" LastName="Harrington" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Etchells" EntryId="131">
+<Boat BoatName="Caramba" SailId="1097">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jose" LastName="Fuentes" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="New Bedford Yacht Club" Division="Etchells" EntryId="132">
+<Boat SailId="1105">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Rob" LastName="Hitchcock" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis" Division="Etchells" EntryId="133">
+<Boat SailId="1147">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jim" LastName="Kavle" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Etchells" EntryId="140">
+<Boat BoatName="Junkyard Dog" SailId="1153">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Joseph" LastName="Bainton" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Southport YC, southport, maine" Division="Etchells" EntryId="134">
+<Boat BoatName="VooDoo Too" SailId="1166">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Gretchen" LastName="Kinsey" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="St Mary's College S.A." Division="Etchells" EntryId="135">
+<Boat BoatName="Painted Jezebel" SailId="1171">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jordan" LastName="Smith" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="CYC" Division="Etchells" EntryId="136">
+<Boat BoatName="Riva" SailId="1221">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Justin" LastName="Muller" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Fleet 43" Division="J/24" EntryId="184">
+<Boat BoatName="PIT PARTY" SailId="1225">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Rock on," LastName="Fernald/Ketchum" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Etchells" EntryId="137">
+<Boat BoatName="Phoenix" SailId="1233">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Chuck" LastName="Coyer" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC/NYYC" Division="Etchells" EntryId="138">
+<Boat BoatName="ANNIE" SailId="1238">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Gary" LastName="Gilbert" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Sail Newport" Division="Etchells" EntryId="139">
+<Boat BoatName="Encore" SailId="1304">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Etchells" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ralph" LastName="Hertz" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="J/22" EntryId="176">
+<Boat BoatName="Uprising" SailId="1326">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Charles" LastName="Wright" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="CYCCM" Division="J/24" EntryId="185">
+<Boat BoatName=":blink" SailId="1336">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Dave" LastName="Sharp" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA &amp; Wadawanuck YC" Division="J/22" EntryId="164">
+<Boat BoatName="Scram" SailId="1417">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="J.R." LastName="Maxwell" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="J/22" EntryId="178">
+<Boat BoatName="Twins" SailId="1461">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Chris" LastName="Carroll" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Edgewater YC" Division="J/22" EntryId="165">
+<Boat SailId="1464">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ned" LastName="Goodman" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/22" EntryId="166">
+<Boat BoatName="Rythmic Pumping" SailId="1504">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Aden" LastName="King" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Severn Sailing Association" Division="J/22" EntryId="167">
+<Boat BoatName="Hot Ticket" SailId="1536">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Kirby" LastName="Mehrhof" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/22" EntryId="168">
+<Boat BoatName="Old School" SailId="1546">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Matt Garner /" LastName="Todd Carrico" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Hampton Yacht Club" Division="J/22" EntryId="169">
+<Boat BoatName="Bang Marks" SailId="1552">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Richard" LastName="Winters" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Severn Sailing Association" Division="J/22" EntryId="170">
+<Boat BoatName="Jade" SailId="1558">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jason" LastName="Goscha" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="J/22" EntryId="171">
+<Boat BoatName="Palmer Legal Staffing" SailId="1574">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Peter" LastName="McChesney" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Severn Sailing Association" Division="J/22" EntryId="172">
+<Boat BoatName="Bob" SailId="1577">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Joe" LastName="McCorkell" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="J/22" EntryId="173">
+<Boat SailId="1586">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jo Ann" LastName="Fisher" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Youngstown YC" Division="J/22" EntryId="174">
+<Boat SailId="1589">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Chris" LastName="Doyle" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Severn Sailing Association" Division="J/24" EntryId="186">
+<Boat BoatName="Maverick" SailId="1968">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ken" LastName="Jacobs" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="CBYRA" Division="J/24" EntryId="187">
+<Boat BoatName="aliannalizabeth" SailId="2253">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="McCool" LastName="Housley" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC/SSA" Division="J/24" EntryId="188">
+<Boat BoatName="WIP" SailId="2274">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Mark" LastName="Hillman" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Eastport YC" Division="J/24" EntryId="189">
+<Boat BoatName="Who's Drivin'?" SailId="2853">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Peter" LastName="Kassal" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="RHODE RIVER BOAT CLUB" Division="J/24" EntryId="190">
+<Boat BoatName="RADICALJ" SailId="3264">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="JACK" LastName="MACHLIN" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/24" EntryId="191">
+<Boat BoatName="Wild Card" SailId="3293">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Vincent" LastName="Kalish" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Fishing Bay Yacht Club" Division="J/24" EntryId="192">
+<Boat BoatName="Thin Ice" SailId="3733">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="William" LastName="Hope" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/24" EntryId="193">
+<Boat BoatName="Blue Strikes Back" SailId="4269">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Harry" LastName="Benson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/24" EntryId="194">
+<Boat BoatName="Millennium Falcon" SailId="5350">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/24" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Paul" LastName="Van Ravenswaay" SailorId=""/>
+<CrewList/>
+</Entry>
+</EntryList>
+<RaceList>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="27-Apr-2007" Weight="1.0">
+<DivInfo>
+<DivStart Div="J/22" Length="0.0" StartTime="12:13:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Etchells" Length="0.0" StartTime="12:06:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" StartTime="12:19:00.0" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="140" Pos="1" Race="1"/>
+<Fin Ent="132" Pos="2" Race="1"/>
+<Fin Ent="194" Pos="3" Race="1"/>
+<Fin Ent="141" Pos="4" Race="1"/>
+<Fin Ent="134" Pos="5" Race="1"/>
+<Fin Ent="139" Pos="6" Race="1"/>
+<Fin Ent="136" Pos="7" Race="1"/>
+<Fin Ent="129" Pos="8" Race="1"/>
+<Fin Ent="131" Pos="9" Race="1"/>
+<Fin Ent="179" Pos="10" Race="1"/>
+<Fin Ent="135" Pos="11" Race="1"/>
+<Fin Ent="187" Pos="12" Race="1"/>
+<Fin Ent="191" Pos="13" Race="1"/>
+<Fin Ent="183" Pos="14" Race="1"/>
+<Fin Ent="126" Pos="15" Race="1"/>
+<Fin Ent="133" Pos="16" Race="1"/>
+<Fin Ent="127" Pos="17" Race="1"/>
+<Fin Ent="130" Pos="18" Race="1"/>
+<Fin Ent="193" Pos="19" Race="1"/>
+<Fin Ent="188" Pos="20" Race="1"/>
+<Fin Ent="189" Pos="21" Race="1"/>
+<Fin Ent="185" Pos="22" Race="1"/>
+<Fin Ent="180" Pos="23" Race="1"/>
+<Fin Ent="190" Pos="24" Race="1"/>
+<Fin Ent="192" Pos="25" Race="1"/>
+<Fin Ent="182" Pos="26" Race="1"/>
+<Fin Ent="186" Pos="27" Race="1"/>
+<Fin Ent="181" Pos="28" Race="1"/>
+<Fin Ent="184" Pos="29" Race="1"/>
+<Fin Ent="142" Pos="30" Race="1">
+<Penalty Penalty="DSQ"/>
+</Fin>
+<Fin Ent="146" Pos="31" Race="1"/>
+<Fin Ent="158" Pos="32" Race="1"/>
+<Fin Ent="156" Pos="33" Race="1"/>
+<Fin Ent="159" Pos="34" Race="1"/>
+<Fin Ent="163" Pos="35" Race="1"/>
+<Fin Ent="165" Pos="36" Race="1"/>
+<Fin Ent="143" Pos="37" Race="1"/>
+<Fin Ent="166" Pos="38" Race="1"/>
+<Fin Ent="144" Pos="39" Race="1"/>
+<Fin Ent="155" Pos="40" Race="1"/>
+<Fin Ent="174" Pos="41" Race="1"/>
+<Fin Ent="164" Pos="42" Race="1"/>
+<Fin Ent="147" Pos="43" Race="1"/>
+<Fin Ent="175" Pos="44" Race="1"/>
+<Fin Ent="152" Pos="45" Race="1"/>
+<Fin Ent="161" Pos="46" Race="1"/>
+<Fin Ent="149" Pos="47" Race="1"/>
+<Fin Ent="177" Pos="48" Race="1"/>
+<Fin Ent="168" Pos="49" Race="1"/>
+<Fin Ent="171" Pos="50" Race="1"/>
+<Fin Ent="178" Pos="51" Race="1"/>
+<Fin Ent="162" Pos="52" Race="1"/>
+<Fin Ent="173" Pos="53" Race="1"/>
+<Fin Ent="169" Pos="54" Race="1"/>
+<Fin Ent="157" Pos="55" Race="1"/>
+<Fin Ent="153" Pos="56" Race="1"/>
+<Fin Ent="154" Pos="57" Race="1"/>
+<Fin Ent="170" Pos="58" Race="1"/>
+<Fin Ent="172" Pos="59" Race="1"/>
+<Fin Ent="167" Pos="60" Race="1"/>
+<Fin Ent="150" Pos="61" Race="1"/>
+<Fin Ent="176" Pos="62" Race="1"/>
+<Fin Ent="160" Pos="63" Race="1"/>
+<Fin Ent="151" Pos="64" Race="1"/>
+<Fin Ent="148" Pos="65" Race="1"/>
+<Fin Ent="125" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="145" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="128" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="137" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="138" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="3" StartDate="28-Apr-2007" Weight="1.0">
+<DivInfo>
+<DivStart Div="Etchells" Length="0.0" StartTime="13:34:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/22" Length="0.0" StartTime="13:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" StartTime="13:55:00.0" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="139" Pos="1" Race="3"/>
+<Fin Ent="132" Pos="2" Race="3"/>
+<Fin Ent="141" Pos="3" Race="3"/>
+<Fin Ent="135" Pos="4" Race="3"/>
+<Fin Ent="140" Pos="5" Race="3"/>
+<Fin Ent="130" Pos="6" Race="3"/>
+<Fin Ent="136" Pos="7" Race="3"/>
+<Fin Ent="133" Pos="8" Race="3"/>
+<Fin Ent="129" Pos="9" Race="3"/>
+<Fin Ent="126" Pos="10" Race="3"/>
+<Fin Ent="131" Pos="11" Race="3"/>
+<Fin Ent="134" Pos="12" Race="3"/>
+<Fin Ent="127" Pos="13" Race="3"/>
+<Fin Ent="183" Pos="14" Race="3"/>
+<Fin Ent="182" Pos="15" Race="3"/>
+<Fin Ent="194" Pos="16" Race="3"/>
+<Fin Ent="188" Pos="17" Race="3"/>
+<Fin Ent="193" Pos="18" Race="3"/>
+<Fin Ent="180" Pos="19" Race="3"/>
+<Fin Ent="179" Pos="20" Race="3"/>
+<Fin Ent="185" Pos="21" Race="3"/>
+<Fin Ent="191" Pos="22" Race="3"/>
+<Fin Ent="192" Pos="23" Race="3"/>
+<Fin Ent="181" Pos="24" Race="3"/>
+<Fin Ent="189" Pos="25" Race="3"/>
+<Fin Ent="187" Pos="26" Race="3"/>
+<Fin Ent="190" Pos="27" Race="3"/>
+<Fin Ent="184" Pos="28" Race="3"/>
+<Fin Ent="186" Pos="29" Race="3"/>
+<Fin Ent="155" Pos="30" Race="3"/>
+<Fin Ent="146" Pos="31" Race="3"/>
+<Fin Ent="149" Pos="32" Race="3"/>
+<Fin Ent="174" Pos="33" Race="3"/>
+<Fin Ent="171" Pos="34" Race="3"/>
+<Fin Ent="169" Pos="35" Race="3"/>
+<Fin Ent="164" Pos="36" Race="3"/>
+<Fin Ent="163" Pos="37" Race="3"/>
+<Fin Ent="173" Pos="38" Race="3"/>
+<Fin Ent="152" Pos="39" Race="3"/>
+<Fin Ent="178" Pos="40" Race="3"/>
+<Fin Ent="144" Pos="41" Race="3"/>
+<Fin Ent="168" Pos="42" Race="3"/>
+<Fin Ent="158" Pos="43" Race="3"/>
+<Fin Ent="143" Pos="44" Race="3"/>
+<Fin Ent="165" Pos="45" Race="3"/>
+<Fin Ent="166" Pos="46" Race="3"/>
+<Fin Ent="175" Pos="47" Race="3"/>
+<Fin Ent="161" Pos="48" Race="3"/>
+<Fin Ent="142" Pos="49" Race="3"/>
+<Fin Ent="151" Pos="50" Race="3"/>
+<Fin Ent="162" Pos="51" Race="3"/>
+<Fin Ent="167" Pos="52" Race="3"/>
+<Fin Ent="176" Pos="53" Race="3"/>
+<Fin Ent="159" Pos="54" Race="3"/>
+<Fin Ent="156" Pos="55" Race="3"/>
+<Fin Ent="170" Pos="56" Race="3"/>
+<Fin Ent="154" Pos="57" Race="3"/>
+<Fin Ent="147" Pos="58" Race="3"/>
+<Fin Ent="177" Pos="59" Race="3"/>
+<Fin Ent="148" Pos="60" Race="3"/>
+<Fin Ent="172" Pos="61" Race="3"/>
+<Fin Ent="150" Pos="62" Race="3"/>
+<Fin Ent="160" Pos="63" Race="3"/>
+<Fin Ent="157" Pos="64" Race="3"/>
+<Fin Ent="153" Pos="DNF" Race="3">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="125" Pos="DNC" Race="3">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="145" Pos="DNC" Race="3">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="128" Pos="DNC" Race="3">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="137" Pos="DNC" Race="3">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="138" Pos="DNC" Race="3">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="4" StartDate="28-Apr-2007" Weight="1.0">
+<DivInfo>
+<DivStart Div="Etchells" Length="0.0" StartTime="14:25:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/22" Length="0.0" StartTime="14:36:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" StartTime="14:53:00.0" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="135" Pos="1" Race="4"/>
+<Fin Ent="141" Pos="2" Race="4"/>
+<Fin Ent="130" Pos="3" Race="4"/>
+<Fin Ent="139" Pos="4" Race="4"/>
+<Fin Ent="133" Pos="5" Race="4"/>
+<Fin Ent="134" Pos="6" Race="4"/>
+<Fin Ent="132" Pos="7" Race="4"/>
+<Fin Ent="140" Pos="8" Race="4"/>
+<Fin Ent="136" Pos="9" Race="4"/>
+<Fin Ent="127" Pos="10" Race="4"/>
+<Fin Ent="131" Pos="11" Race="4"/>
+<Fin Ent="129" Pos="12" Race="4"/>
+<Fin Ent="126" Pos="13" Race="4"/>
+<Fin Ent="188" Pos="14" Race="4"/>
+<Fin Ent="194" Pos="15" Race="4"/>
+<Fin Ent="179" Pos="16" Race="4"/>
+<Fin Ent="180" Pos="17" Race="4"/>
+<Fin Ent="182" Pos="18" Race="4"/>
+<Fin Ent="183" Pos="19" Race="4"/>
+<Fin Ent="187" Pos="20" Race="4"/>
+<Fin Ent="189" Pos="21" Race="4"/>
+<Fin Ent="193" Pos="22" Race="4"/>
+<Fin Ent="181" Pos="23" Race="4"/>
+<Fin Ent="192" Pos="24" Race="4"/>
+<Fin Ent="185" Pos="25" Race="4"/>
+<Fin Ent="191" Pos="26" Race="4"/>
+<Fin Ent="190" Pos="27" Race="4"/>
+<Fin Ent="186" Pos="28" Race="4"/>
+<Fin Ent="184" Pos="29" Race="4"/>
+<Fin Ent="171" Pos="30" Race="4"/>
+<Fin Ent="149" Pos="31" Race="4"/>
+<Fin Ent="152" Pos="32" Race="4"/>
+<Fin Ent="161" Pos="33" Race="4"/>
+<Fin Ent="158" Pos="34" Race="4"/>
+<Fin Ent="164" Pos="35" Race="4"/>
+<Fin Ent="163" Pos="36" Race="4"/>
+<Fin Ent="166" Pos="37" Race="4"/>
+<Fin Ent="175" Pos="38" Race="4"/>
+<Fin Ent="156" Pos="39" Race="4"/>
+<Fin Ent="142" Pos="40" Race="4"/>
+<Fin Ent="178" Pos="41" Race="4"/>
+<Fin Ent="174" Pos="42" Race="4"/>
+<Fin Ent="157" Pos="43" Race="4"/>
+<Fin Ent="167" Pos="44" Race="4"/>
+<Fin Ent="153" Pos="45" Race="4"/>
+<Fin Ent="146" Pos="46" Race="4"/>
+<Fin Ent="155" Pos="47" Race="4"/>
+<Fin Ent="176" Pos="48" Race="4"/>
+<Fin Ent="144" Pos="49" Race="4"/>
+<Fin Ent="165" Pos="50" Race="4"/>
+<Fin Ent="169" Pos="51" Race="4"/>
+<Fin Ent="168" Pos="52" Race="4"/>
+<Fin Ent="173" Pos="53" Race="4"/>
+<Fin Ent="159" Pos="54" Race="4"/>
+<Fin Ent="148" Pos="55" Race="4"/>
+<Fin Ent="154" Pos="56" Race="4"/>
+<Fin Ent="143" Pos="57" Race="4"/>
+<Fin Ent="151" Pos="58" Race="4"/>
+<Fin Ent="177" Pos="59" Race="4"/>
+<Fin Ent="160" Pos="60" Race="4"/>
+<Fin Ent="150" Pos="61" Race="4"/>
+<Fin Ent="147" Pos="62" Race="4"/>
+<Fin Ent="170" Pos="63" Race="4"/>
+<Fin Ent="172" Pos="64" Race="4"/>
+<Fin Ent="162" Pos="65" Race="4"/>
+<Fin Ent="125" Pos="DNC" Race="4">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="145" Pos="DNC" Race="4">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="128" Pos="DNC" Race="4">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="137" Pos="DNC" Race="4">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="138" Pos="DNC" Race="4">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" RaceId="5" StartDate="29-Apr-2007" Weight="1.0">
+<DivInfo>
+<DivStart Div="Etchells" Length="0.0" StartTime="06:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/22" Length="0.0" StartTime="11:19:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" StartTime="11:13:00.0" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="132" Pos="1" Race="5"/>
+<Fin Ent="130" Pos="2" Race="5"/>
+<Fin Ent="133" Pos="3" Race="5"/>
+<Fin Ent="141" Pos="4" Race="5"/>
+<Fin Ent="135" Pos="5" Race="5"/>
+<Fin Ent="131" Pos="6" Race="5"/>
+<Fin Ent="136" Pos="7" Race="5"/>
+<Fin Ent="134" Pos="8" Race="5"/>
+<Fin Ent="140" Pos="9" Race="5"/>
+<Fin Ent="139" Pos="10" Race="5"/>
+<Fin Ent="127" Pos="11" Race="5"/>
+<Fin Ent="129" Pos="12" Race="5"/>
+<Fin Ent="126" Pos="13" Race="5"/>
+<Fin Ent="188" Pos="14" Race="5"/>
+<Fin Ent="194" Pos="15" Race="5"/>
+<Fin Ent="179" Pos="16" Race="5"/>
+<Fin Ent="180" Pos="17" Race="5"/>
+<Fin Ent="185" Pos="18" Race="5"/>
+<Fin Ent="183" Pos="19" Race="5"/>
+<Fin Ent="187" Pos="20" Race="5"/>
+<Fin Ent="181" Pos="21" Race="5"/>
+<Fin Ent="193" Pos="22" Race="5"/>
+<Fin Ent="182" Pos="23" Race="5"/>
+<Fin Ent="191" Pos="24" Race="5"/>
+<Fin Ent="189" Pos="25" Race="5"/>
+<Fin Ent="192" Pos="26" Race="5"/>
+<Fin Ent="190" Pos="27" Race="5"/>
+<Fin Ent="186" Pos="28" Race="5"/>
+<Fin Ent="171" Pos="29" Race="5"/>
+<Fin Ent="142" Pos="30" Race="5"/>
+<Fin Ent="155" Pos="31" Race="5"/>
+<Fin Ent="166" Pos="32" Race="5"/>
+<Fin Ent="144" Pos="33" Race="5"/>
+<Fin Ent="174" Pos="34" Race="5"/>
+<Fin Ent="163" Pos="35" Race="5"/>
+<Fin Ent="161" Pos="36" Race="5"/>
+<Fin Ent="165" Pos="37" Race="5"/>
+<Fin Ent="149" Pos="38" Race="5"/>
+<Fin Ent="173" Pos="39" Race="5"/>
+<Fin Ent="159" Pos="40" Race="5"/>
+<Fin Ent="152" Pos="41" Race="5"/>
+<Fin Ent="158" Pos="42" Race="5"/>
+<Fin Ent="175" Pos="43" Race="5"/>
+<Fin Ent="178" Pos="44" Race="5"/>
+<Fin Ent="169" Pos="45" Race="5"/>
+<Fin Ent="168" Pos="46" Race="5"/>
+<Fin Ent="172" Pos="47" Race="5"/>
+<Fin Ent="156" Pos="48" Race="5"/>
+<Fin Ent="153" Pos="49" Race="5"/>
+<Fin Ent="157" Pos="50" Race="5"/>
+<Fin Ent="146" Pos="51" Race="5"/>
+<Fin Ent="170" Pos="52" Race="5"/>
+<Fin Ent="162" Pos="53" Race="5"/>
+<Fin Ent="154" Pos="54" Race="5"/>
+<Fin Ent="151" Pos="55" Race="5"/>
+<Fin Ent="164" Pos="56" Race="5"/>
+<Fin Ent="167" Pos="57" Race="5"/>
+<Fin Ent="177" Pos="58" Race="5"/>
+<Fin Ent="143" Pos="59" Race="5"/>
+<Fin Ent="147" Pos="60" Race="5"/>
+<Fin Ent="150" Pos="61" Race="5"/>
+<Fin Ent="176" Pos="62" Race="5"/>
+<Fin Ent="148" Pos="63" Race="5"/>
+<Fin Ent="160" Pos="64" Race="5"/>
+<Fin Ent="125" Pos="DNC" Race="5">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="145" Pos="DNC" Race="5">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="128" Pos="DNC" Race="5">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="184" Pos="DNC" Race="5">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="137" Pos="DNC" Race="5">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="138" Pos="DNC" Race="5">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" RaceId="7" StartDate="29-Apr-2007" Weight="1.0">
+<DivInfo>
+<DivStart Div="Etchells" Length="0.0" StartTime="11:06:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/22" Length="0.0" StartTime="12:08:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="130" Pos="1" Race="7"/>
+<Fin Ent="138" Pos="2" Race="7"/>
+<Fin Ent="132" Pos="3" Race="7"/>
+<Fin Ent="140" Pos="4" Race="7"/>
+<Fin Ent="139" Pos="5" Race="7"/>
+<Fin Ent="141" Pos="6" Race="7"/>
+<Fin Ent="131" Pos="7" Race="7"/>
+<Fin Ent="135" Pos="8" Race="7"/>
+<Fin Ent="134" Pos="9" Race="7"/>
+<Fin Ent="133" Pos="10" Race="7"/>
+<Fin Ent="136" Pos="11" Race="7"/>
+<Fin Ent="129" Pos="12" Race="7"/>
+<Fin Ent="137" Pos="13" Race="7"/>
+<Fin Ent="126" Pos="14" Race="7"/>
+<Fin Ent="127" Pos="15" Race="7"/>
+<Fin Ent="179" Pos="16" Race="7"/>
+<Fin Ent="182" Pos="17" Race="7"/>
+<Fin Ent="183" Pos="18" Race="7"/>
+<Fin Ent="188" Pos="19" Race="7"/>
+<Fin Ent="193" Pos="20" Race="7"/>
+<Fin Ent="194" Pos="21" Race="7"/>
+<Fin Ent="185" Pos="22" Race="7"/>
+<Fin Ent="180" Pos="23" Race="7"/>
+<Fin Ent="187" Pos="24" Race="7"/>
+<Fin Ent="191" Pos="25" Race="7"/>
+<Fin Ent="189" Pos="26" Race="7"/>
+<Fin Ent="181" Pos="27" Race="7"/>
+<Fin Ent="190" Pos="28" Race="7"/>
+<Fin Ent="186" Pos="29" Race="7"/>
+<Fin Ent="142" Pos="30" Race="7"/>
+<Fin Ent="163" Pos="31" Race="7"/>
+<Fin Ent="168" Pos="32" Race="7"/>
+<Fin Ent="144" Pos="33" Race="7"/>
+<Fin Ent="171" Pos="34" Race="7"/>
+<Fin Ent="149" Pos="35" Race="7"/>
+<Fin Ent="158" Pos="36" Race="7"/>
+<Fin Ent="159" Pos="37" Race="7"/>
+<Fin Ent="155" Pos="38" Race="7"/>
+<Fin Ent="146" Pos="39" Race="7"/>
+<Fin Ent="178" Pos="40" Race="7"/>
+<Fin Ent="161" Pos="41" Race="7"/>
+<Fin Ent="156" Pos="42" Race="7"/>
+<Fin Ent="169" Pos="43" Race="7"/>
+<Fin Ent="164" Pos="44" Race="7"/>
+<Fin Ent="166" Pos="45" Race="7"/>
+<Fin Ent="162" Pos="46" Race="7"/>
+<Fin Ent="173" Pos="47" Race="7"/>
+<Fin Ent="174" Pos="48" Race="7"/>
+<Fin Ent="172" Pos="49" Race="7"/>
+<Fin Ent="153" Pos="50" Race="7"/>
+<Fin Ent="152" Pos="51" Race="7"/>
+<Fin Ent="165" Pos="52" Race="7"/>
+<Fin Ent="175" Pos="53" Race="7"/>
+<Fin Ent="167" Pos="54" Race="7"/>
+<Fin Ent="157" Pos="55" Race="7"/>
+<Fin Ent="150" Pos="56" Race="7"/>
+<Fin Ent="160" Pos="57" Race="7"/>
+<Fin Ent="151" Pos="58" Race="7"/>
+<Fin Ent="143" Pos="59" Race="7"/>
+<Fin Ent="176" Pos="60" Race="7"/>
+<Fin Ent="170" Pos="61" Race="7"/>
+<Fin Ent="154" Pos="62" Race="7"/>
+<Fin Ent="147" Pos="63" Race="7"/>
+<Fin Ent="177" Pos="64" Race="7"/>
+<Fin Ent="148" Pos="65" Race="7"/>
+<Fin Ent="125" Pos="DNC" Race="7">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="145" Pos="DNC" Race="7">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="128" Pos="DNC" Race="7">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="184" Pos="DNC" Race="7">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="192" Pos="DNC" Race="7">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" RaceId="8" StartDate="29-Apr-2007" Weight="1.0">
+<DivInfo>
+<DivStart Div="Etchells" Length="0.0" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/22" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="140" Pos="1" Race="8"/>
+<Fin Ent="141" Pos="2" Race="8"/>
+<Fin Ent="133" Pos="3" Race="8"/>
+<Fin Ent="135" Pos="4" Race="8"/>
+<Fin Ent="130" Pos="5" Race="8"/>
+<Fin Ent="139" Pos="6" Race="8"/>
+<Fin Ent="132" Pos="7" Race="8"/>
+<Fin Ent="138" Pos="8" Race="8"/>
+<Fin Ent="134" Pos="9" Race="8"/>
+<Fin Ent="137" Pos="10" Race="8"/>
+<Fin Ent="136" Pos="11" Race="8"/>
+<Fin Ent="131" Pos="12" Race="8"/>
+<Fin Ent="126" Pos="13" Race="8"/>
+<Fin Ent="129" Pos="14" Race="8"/>
+<Fin Ent="127" Pos="15" Race="8"/>
+<Fin Ent="125" Pos="DNC" Race="8">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="128" Pos="DNC" Race="8">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+</RaceList>
+<Scores>
+<Stage CombinedQualifying="false" Name="AllDays" ScoreCarryOver="NONE" StageId="2" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
+<Divisions>
+<DivisionId>Etchells</DivisionId>
+<DivisionId>J/22</DivisionId>
+<DivisionId>J/24</DivisionId>
+</Divisions>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="Etchells" Ent="140" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="Etchells" Ent="132" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="Etchells" Ent="141" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="Etchells" Ent="134" Pos="4" Pts="4.0" Race="1"/>
+<rp Div="Etchells" Ent="139" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="Etchells" Ent="136" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="Etchells" Ent="129" Pos="7" Pts="7.0" Race="1"/>
+<rp Div="Etchells" Ent="131" Pos="8" Pts="8.0" Race="1"/>
+<rp Div="Etchells" Ent="135" Pos="9" Pts="9.0" Race="1" Toss="true"/>
+<rp Div="Etchells" Ent="126" Pos="10" Pts="10.0" Race="1"/>
+<rp Div="Etchells" Ent="133" Pos="11" Pts="11.0" Race="1" Toss="true"/>
+<rp Div="Etchells" Ent="127" Pos="12" Pts="12.0" Race="1"/>
+<rp Div="Etchells" Ent="130" Pos="13" Pts="13.0" Race="1" Toss="true"/>
+<rp Div="Etchells" Ent="125" Pos="49152" Pts="18.0" Race="1" Toss="true"/>
+<rp Div="Etchells" Ent="128" Pos="49152" Pts="18.0" Race="1" Toss="true"/>
+<rp Div="Etchells" Ent="137" Pos="49152" Pts="18.0" Race="1" Toss="true"/>
+<rp Div="Etchells" Ent="138" Pos="49152" Pts="18.0" Race="1" Toss="true"/>
+<rp Div="Etchells" Ent="139" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="Etchells" Ent="132" Pos="2" Pts="2.0" Race="3"/>
+<rp Div="Etchells" Ent="141" Pos="3" Pts="3.0" Race="3"/>
+<rp Div="Etchells" Ent="135" Pos="4" Pts="4.0" Race="3"/>
+<rp Div="Etchells" Ent="140" Pos="5" Pts="5.0" Race="3"/>
+<rp Div="Etchells" Ent="130" Pos="6" Pts="6.0" Race="3"/>
+<rp Div="Etchells" Ent="136" Pos="7" Pts="7.0" Race="3"/>
+<rp Div="Etchells" Ent="133" Pos="8" Pts="8.0" Race="3"/>
+<rp Div="Etchells" Ent="129" Pos="9" Pts="9.0" Race="3"/>
+<rp Div="Etchells" Ent="126" Pos="10" Pts="10.0" Race="3"/>
+<rp Div="Etchells" Ent="131" Pos="11" Pts="11.0" Race="3"/>
+<rp Div="Etchells" Ent="134" Pos="12" Pts="12.0" Race="3" Toss="true"/>
+<rp Div="Etchells" Ent="127" Pos="13" Pts="13.0" Race="3"/>
+<rp Div="Etchells" Ent="125" Pos="49152" Pts="18.0" Race="3"/>
+<rp Div="Etchells" Ent="128" Pos="49152" Pts="18.0" Race="3"/>
+<rp Div="Etchells" Ent="137" Pos="49152" Pts="18.0" Race="3"/>
+<rp Div="Etchells" Ent="138" Pos="49152" Pts="18.0" Race="3"/>
+<rp Div="Etchells" Ent="135" Pos="1" Pts="1.0" Race="4"/>
+<rp Div="Etchells" Ent="141" Pos="2" Pts="2.0" Race="4"/>
+<rp Div="Etchells" Ent="130" Pos="3" Pts="3.0" Race="4"/>
+<rp Div="Etchells" Ent="139" Pos="4" Pts="4.0" Race="4"/>
+<rp Div="Etchells" Ent="133" Pos="5" Pts="5.0" Race="4"/>
+<rp Div="Etchells" Ent="134" Pos="6" Pts="6.0" Race="4"/>
+<rp Div="Etchells" Ent="132" Pos="7" Pts="7.0" Race="4" Toss="true"/>
+<rp Div="Etchells" Ent="140" Pos="8" Pts="8.0" Race="4"/>
+<rp Div="Etchells" Ent="136" Pos="9" Pts="9.0" Race="4"/>
+<rp Div="Etchells" Ent="127" Pos="10" Pts="10.0" Race="4"/>
+<rp Div="Etchells" Ent="131" Pos="11" Pts="11.0" Race="4"/>
+<rp Div="Etchells" Ent="129" Pos="12" Pts="12.0" Race="4"/>
+<rp Div="Etchells" Ent="126" Pos="13" Pts="13.0" Race="4"/>
+<rp Div="Etchells" Ent="125" Pos="49152" Pts="18.0" Race="4"/>
+<rp Div="Etchells" Ent="128" Pos="49152" Pts="18.0" Race="4"/>
+<rp Div="Etchells" Ent="137" Pos="49152" Pts="18.0" Race="4"/>
+<rp Div="Etchells" Ent="138" Pos="49152" Pts="18.0" Race="4"/>
+<rp Div="Etchells" Ent="132" Pos="1" Pts="1.0" Race="5"/>
+<rp Div="Etchells" Ent="130" Pos="2" Pts="2.0" Race="5"/>
+<rp Div="Etchells" Ent="133" Pos="3" Pts="3.0" Race="5"/>
+<rp Div="Etchells" Ent="141" Pos="4" Pts="4.0" Race="5"/>
+<rp Div="Etchells" Ent="135" Pos="5" Pts="5.0" Race="5"/>
+<rp Div="Etchells" Ent="131" Pos="6" Pts="6.0" Race="5"/>
+<rp Div="Etchells" Ent="136" Pos="7" Pts="7.0" Race="5"/>
+<rp Div="Etchells" Ent="134" Pos="8" Pts="8.0" Race="5"/>
+<rp Div="Etchells" Ent="140" Pos="9" Pts="9.0" Race="5" Toss="true"/>
+<rp Div="Etchells" Ent="139" Pos="10" Pts="10.0" Race="5" Toss="true"/>
+<rp Div="Etchells" Ent="127" Pos="11" Pts="11.0" Race="5"/>
+<rp Div="Etchells" Ent="129" Pos="12" Pts="12.0" Race="5"/>
+<rp Div="Etchells" Ent="126" Pos="13" Pts="13.0" Race="5"/>
+<rp Div="Etchells" Ent="125" Pos="49152" Pts="18.0" Race="5"/>
+<rp Div="Etchells" Ent="128" Pos="49152" Pts="18.0" Race="5"/>
+<rp Div="Etchells" Ent="137" Pos="49152" Pts="18.0" Race="5"/>
+<rp Div="Etchells" Ent="138" Pos="49152" Pts="18.0" Race="5"/>
+<rp Div="Etchells" Ent="130" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="Etchells" Ent="138" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="Etchells" Ent="132" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="Etchells" Ent="140" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="Etchells" Ent="139" Pos="5" Pts="5.0" Race="7"/>
+<rp Div="Etchells" Ent="141" Pos="6" Pts="6.0" Race="7" Toss="true"/>
+<rp Div="Etchells" Ent="131" Pos="7" Pts="7.0" Race="7"/>
+<rp Div="Etchells" Ent="135" Pos="8" Pts="8.0" Race="7"/>
+<rp Div="Etchells" Ent="134" Pos="9" Pts="9.0" Race="7"/>
+<rp Div="Etchells" Ent="133" Pos="10" Pts="10.0" Race="7"/>
+<rp Div="Etchells" Ent="136" Pos="11" Pts="11.0" Race="7" Toss="true"/>
+<rp Div="Etchells" Ent="129" Pos="12" Pts="12.0" Race="7"/>
+<rp Div="Etchells" Ent="137" Pos="13" Pts="13.0" Race="7"/>
+<rp Div="Etchells" Ent="126" Pos="14" Pts="14.0" Race="7" Toss="true"/>
+<rp Div="Etchells" Ent="127" Pos="15" Pts="15.0" Race="7" Toss="true"/>
+<rp Div="Etchells" Ent="125" Pos="49152" Pts="18.0" Race="7"/>
+<rp Div="Etchells" Ent="128" Pos="49152" Pts="18.0" Race="7"/>
+<rp Div="Etchells" Ent="140" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="Etchells" Ent="141" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="Etchells" Ent="133" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="Etchells" Ent="135" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="Etchells" Ent="130" Pos="5" Pts="5.0" Race="8"/>
+<rp Div="Etchells" Ent="139" Pos="6" Pts="6.0" Race="8"/>
+<rp Div="Etchells" Ent="132" Pos="7" Pts="7.0" Race="8"/>
+<rp Div="Etchells" Ent="138" Pos="8" Pts="8.0" Race="8"/>
+<rp Div="Etchells" Ent="134" Pos="9" Pts="9.0" Race="8"/>
+<rp Div="Etchells" Ent="137" Pos="10" Pts="10.0" Race="8"/>
+<rp Div="Etchells" Ent="136" Pos="11" Pts="11.0" Race="8"/>
+<rp Div="Etchells" Ent="131" Pos="12" Pts="12.0" Race="8" Toss="true"/>
+<rp Div="Etchells" Ent="126" Pos="13" Pts="13.0" Race="8"/>
+<rp Div="Etchells" Ent="129" Pos="14" Pts="14.0" Race="8" Toss="true"/>
+<rp Div="Etchells" Ent="127" Pos="15" Pts="15.0" Race="8"/>
+<rp Div="Etchells" Ent="125" Pos="49152" Pts="18.0" Race="8"/>
+<rp Div="Etchells" Ent="128" Pos="49152" Pts="18.0" Race="8"/>
+<rp Div="J/22" Ent="142" Pos="1" Pts="38.0" Race="1" Toss="true"/>
+<rp Div="J/22" Ent="146" Pos="2" Pts="1.0" Race="1"/>
+<rp Div="J/22" Ent="158" Pos="3" Pts="2.0" Race="1"/>
+<rp Div="J/22" Ent="156" Pos="4" Pts="3.0" Race="1"/>
+<rp Div="J/22" Ent="159" Pos="5" Pts="4.0" Race="1"/>
+<rp Div="J/22" Ent="163" Pos="6" Pts="5.0" Race="1"/>
+<rp Div="J/22" Ent="165" Pos="7" Pts="6.0" Race="1"/>
+<rp Div="J/22" Ent="143" Pos="8" Pts="7.0" Race="1"/>
+<rp Div="J/22" Ent="166" Pos="9" Pts="8.0" Race="1"/>
+<rp Div="J/22" Ent="144" Pos="10" Pts="9.0" Race="1"/>
+<rp Div="J/22" Ent="155" Pos="11" Pts="10.0" Race="1"/>
+<rp Div="J/22" Ent="174" Pos="12" Pts="11.0" Race="1"/>
+<rp Div="J/22" Ent="164" Pos="13" Pts="12.0" Race="1"/>
+<rp Div="J/22" Ent="147" Pos="14" Pts="13.0" Race="1"/>
+<rp Div="J/22" Ent="175" Pos="15" Pts="14.0" Race="1"/>
+<rp Div="J/22" Ent="152" Pos="16" Pts="15.0" Race="1"/>
+<rp Div="J/22" Ent="161" Pos="17" Pts="16.0" Race="1"/>
+<rp Div="J/22" Ent="149" Pos="18" Pts="17.0" Race="1" Toss="true"/>
+<rp Div="J/22" Ent="177" Pos="19" Pts="18.0" Race="1"/>
+<rp Div="J/22" Ent="168" Pos="20" Pts="19.0" Race="1"/>
+<rp Div="J/22" Ent="171" Pos="21" Pts="20.0" Race="1" Toss="true"/>
+<rp Div="J/22" Ent="178" Pos="22" Pts="21.0" Race="1" Toss="true"/>
+<rp Div="J/22" Ent="162" Pos="23" Pts="22.0" Race="1"/>
+<rp Div="J/22" Ent="173" Pos="24" Pts="23.0" Race="1"/>
+<rp Div="J/22" Ent="169" Pos="25" Pts="24.0" Race="1" Toss="true"/>
+<rp Div="J/22" Ent="157" Pos="26" Pts="25.0" Race="1"/>
+<rp Div="J/22" Ent="153" Pos="27" Pts="26.0" Race="1"/>
+<rp Div="J/22" Ent="154" Pos="28" Pts="27.0" Race="1"/>
+<rp Div="J/22" Ent="170" Pos="29" Pts="28.0" Race="1"/>
+<rp Div="J/22" Ent="172" Pos="30" Pts="29.0" Race="1"/>
+<rp Div="J/22" Ent="167" Pos="31" Pts="30.0" Race="1" Toss="true"/>
+<rp Div="J/22" Ent="150" Pos="32" Pts="31.0" Race="1"/>
+<rp Div="J/22" Ent="176" Pos="33" Pts="32.0" Race="1"/>
+<rp Div="J/22" Ent="160" Pos="34" Pts="33.0" Race="1"/>
+<rp Div="J/22" Ent="151" Pos="35" Pts="34.0" Race="1" Toss="true"/>
+<rp Div="J/22" Ent="148" Pos="36" Pts="35.0" Race="1"/>
+<rp Div="J/22" Ent="145" Pos="49152" Pts="38.0" Race="1" Toss="true"/>
+<rp Div="J/22" Ent="155" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="J/22" Ent="146" Pos="2" Pts="2.0" Race="3"/>
+<rp Div="J/22" Ent="149" Pos="3" Pts="3.0" Race="3"/>
+<rp Div="J/22" Ent="174" Pos="4" Pts="4.0" Race="3"/>
+<rp Div="J/22" Ent="171" Pos="5" Pts="5.0" Race="3"/>
+<rp Div="J/22" Ent="169" Pos="6" Pts="6.0" Race="3"/>
+<rp Div="J/22" Ent="164" Pos="7" Pts="7.0" Race="3"/>
+<rp Div="J/22" Ent="163" Pos="8" Pts="8.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="173" Pos="9" Pts="9.0" Race="3"/>
+<rp Div="J/22" Ent="152" Pos="10" Pts="10.0" Race="3"/>
+<rp Div="J/22" Ent="178" Pos="11" Pts="11.0" Race="3"/>
+<rp Div="J/22" Ent="144" Pos="12" Pts="12.0" Race="3"/>
+<rp Div="J/22" Ent="168" Pos="13" Pts="13.0" Race="3"/>
+<rp Div="J/22" Ent="158" Pos="14" Pts="14.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="143" Pos="15" Pts="15.0" Race="3"/>
+<rp Div="J/22" Ent="165" Pos="16" Pts="16.0" Race="3"/>
+<rp Div="J/22" Ent="166" Pos="17" Pts="17.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="175" Pos="18" Pts="18.0" Race="3"/>
+<rp Div="J/22" Ent="161" Pos="19" Pts="19.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="142" Pos="20" Pts="20.0" Race="3"/>
+<rp Div="J/22" Ent="151" Pos="21" Pts="21.0" Race="3"/>
+<rp Div="J/22" Ent="162" Pos="22" Pts="22.0" Race="3"/>
+<rp Div="J/22" Ent="167" Pos="23" Pts="23.0" Race="3"/>
+<rp Div="J/22" Ent="176" Pos="24" Pts="24.0" Race="3"/>
+<rp Div="J/22" Ent="159" Pos="25" Pts="25.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="156" Pos="26" Pts="26.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="170" Pos="27" Pts="27.0" Race="3"/>
+<rp Div="J/22" Ent="154" Pos="28" Pts="28.0" Race="3"/>
+<rp Div="J/22" Ent="147" Pos="29" Pts="29.0" Race="3"/>
+<rp Div="J/22" Ent="177" Pos="30" Pts="30.0" Race="3"/>
+<rp Div="J/22" Ent="148" Pos="31" Pts="31.0" Race="3"/>
+<rp Div="J/22" Ent="172" Pos="32" Pts="32.0" Race="3"/>
+<rp Div="J/22" Ent="150" Pos="33" Pts="33.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="160" Pos="34" Pts="34.0" Race="3"/>
+<rp Div="J/22" Ent="157" Pos="35" Pts="35.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="153" Pos="32768" Pts="38.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="145" Pos="49152" Pts="38.0" Race="3"/>
+<rp Div="J/22" Ent="171" Pos="1" Pts="1.0" Race="4"/>
+<rp Div="J/22" Ent="149" Pos="2" Pts="2.0" Race="4"/>
+<rp Div="J/22" Ent="152" Pos="3" Pts="3.0" Race="4"/>
+<rp Div="J/22" Ent="161" Pos="4" Pts="4.0" Race="4"/>
+<rp Div="J/22" Ent="158" Pos="5" Pts="5.0" Race="4"/>
+<rp Div="J/22" Ent="164" Pos="6" Pts="6.0" Race="4"/>
+<rp Div="J/22" Ent="163" Pos="7" Pts="7.0" Race="4"/>
+<rp Div="J/22" Ent="166" Pos="8" Pts="8.0" Race="4"/>
+<rp Div="J/22" Ent="175" Pos="9" Pts="9.0" Race="4"/>
+<rp Div="J/22" Ent="156" Pos="10" Pts="10.0" Race="4"/>
+<rp Div="J/22" Ent="142" Pos="11" Pts="11.0" Race="4"/>
+<rp Div="J/22" Ent="178" Pos="12" Pts="12.0" Race="4"/>
+<rp Div="J/22" Ent="174" Pos="13" Pts="13.0" Race="4"/>
+<rp Div="J/22" Ent="157" Pos="14" Pts="14.0" Race="4"/>
+<rp Div="J/22" Ent="167" Pos="15" Pts="15.0" Race="4"/>
+<rp Div="J/22" Ent="153" Pos="16" Pts="16.0" Race="4"/>
+<rp Div="J/22" Ent="146" Pos="17" Pts="17.0" Race="4"/>
+<rp Div="J/22" Ent="155" Pos="18" Pts="18.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="176" Pos="19" Pts="19.0" Race="4"/>
+<rp Div="J/22" Ent="144" Pos="20" Pts="20.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="165" Pos="21" Pts="21.0" Race="4"/>
+<rp Div="J/22" Ent="169" Pos="22" Pts="22.0" Race="4"/>
+<rp Div="J/22" Ent="168" Pos="23" Pts="23.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="173" Pos="24" Pts="24.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="159" Pos="25" Pts="25.0" Race="4"/>
+<rp Div="J/22" Ent="148" Pos="26" Pts="26.0" Race="4"/>
+<rp Div="J/22" Ent="154" Pos="27" Pts="27.0" Race="4"/>
+<rp Div="J/22" Ent="143" Pos="28" Pts="28.0" Race="4"/>
+<rp Div="J/22" Ent="151" Pos="29" Pts="29.0" Race="4"/>
+<rp Div="J/22" Ent="177" Pos="30" Pts="30.0" Race="4"/>
+<rp Div="J/22" Ent="160" Pos="31" Pts="31.0" Race="4"/>
+<rp Div="J/22" Ent="150" Pos="32" Pts="32.0" Race="4"/>
+<rp Div="J/22" Ent="147" Pos="33" Pts="33.0" Race="4"/>
+<rp Div="J/22" Ent="170" Pos="34" Pts="34.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="172" Pos="35" Pts="35.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="162" Pos="36" Pts="36.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="145" Pos="49152" Pts="38.0" Race="4"/>
+<rp Div="J/22" Ent="171" Pos="1" Pts="1.0" Race="5"/>
+<rp Div="J/22" Ent="142" Pos="2" Pts="2.0" Race="5"/>
+<rp Div="J/22" Ent="155" Pos="3" Pts="3.0" Race="5"/>
+<rp Div="J/22" Ent="166" Pos="4" Pts="4.0" Race="5"/>
+<rp Div="J/22" Ent="144" Pos="5" Pts="5.0" Race="5"/>
+<rp Div="J/22" Ent="174" Pos="6" Pts="6.0" Race="5"/>
+<rp Div="J/22" Ent="163" Pos="7" Pts="7.0" Race="5"/>
+<rp Div="J/22" Ent="161" Pos="8" Pts="8.0" Race="5"/>
+<rp Div="J/22" Ent="165" Pos="9" Pts="9.0" Race="5"/>
+<rp Div="J/22" Ent="149" Pos="10" Pts="10.0" Race="5"/>
+<rp Div="J/22" Ent="173" Pos="11" Pts="11.0" Race="5"/>
+<rp Div="J/22" Ent="159" Pos="12" Pts="12.0" Race="5"/>
+<rp Div="J/22" Ent="152" Pos="13" Pts="13.0" Race="5"/>
+<rp Div="J/22" Ent="158" Pos="14" Pts="14.0" Race="5"/>
+<rp Div="J/22" Ent="175" Pos="15" Pts="15.0" Race="5"/>
+<rp Div="J/22" Ent="178" Pos="16" Pts="16.0" Race="5"/>
+<rp Div="J/22" Ent="169" Pos="17" Pts="17.0" Race="5"/>
+<rp Div="J/22" Ent="168" Pos="18" Pts="18.0" Race="5"/>
+<rp Div="J/22" Ent="172" Pos="19" Pts="19.0" Race="5"/>
+<rp Div="J/22" Ent="156" Pos="20" Pts="20.0" Race="5"/>
+<rp Div="J/22" Ent="153" Pos="21" Pts="21.0" Race="5"/>
+<rp Div="J/22" Ent="157" Pos="22" Pts="22.0" Race="5"/>
+<rp Div="J/22" Ent="146" Pos="23" Pts="23.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="170" Pos="24" Pts="24.0" Race="5"/>
+<rp Div="J/22" Ent="162" Pos="25" Pts="25.0" Race="5"/>
+<rp Div="J/22" Ent="154" Pos="26" Pts="26.0" Race="5"/>
+<rp Div="J/22" Ent="151" Pos="27" Pts="27.0" Race="5"/>
+<rp Div="J/22" Ent="164" Pos="28" Pts="28.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="167" Pos="29" Pts="29.0" Race="5"/>
+<rp Div="J/22" Ent="177" Pos="30" Pts="30.0" Race="5"/>
+<rp Div="J/22" Ent="143" Pos="31" Pts="31.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="147" Pos="32" Pts="32.0" Race="5"/>
+<rp Div="J/22" Ent="150" Pos="33" Pts="33.0" Race="5"/>
+<rp Div="J/22" Ent="176" Pos="34" Pts="34.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="148" Pos="35" Pts="35.0" Race="5"/>
+<rp Div="J/22" Ent="160" Pos="36" Pts="36.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="145" Pos="49152" Pts="38.0" Race="5"/>
+<rp Div="J/22" Ent="142" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="J/22" Ent="163" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="J/22" Ent="168" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="J/22" Ent="144" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="J/22" Ent="171" Pos="5" Pts="5.0" Race="7"/>
+<rp Div="J/22" Ent="149" Pos="6" Pts="6.0" Race="7"/>
+<rp Div="J/22" Ent="158" Pos="7" Pts="7.0" Race="7"/>
+<rp Div="J/22" Ent="159" Pos="8" Pts="8.0" Race="7"/>
+<rp Div="J/22" Ent="155" Pos="9" Pts="9.0" Race="7"/>
+<rp Div="J/22" Ent="146" Pos="10" Pts="10.0" Race="7"/>
+<rp Div="J/22" Ent="178" Pos="11" Pts="11.0" Race="7"/>
+<rp Div="J/22" Ent="161" Pos="12" Pts="12.0" Race="7"/>
+<rp Div="J/22" Ent="156" Pos="13" Pts="13.0" Race="7"/>
+<rp Div="J/22" Ent="169" Pos="14" Pts="14.0" Race="7"/>
+<rp Div="J/22" Ent="164" Pos="15" Pts="15.0" Race="7"/>
+<rp Div="J/22" Ent="166" Pos="16" Pts="16.0" Race="7"/>
+<rp Div="J/22" Ent="162" Pos="17" Pts="17.0" Race="7"/>
+<rp Div="J/22" Ent="173" Pos="18" Pts="18.0" Race="7"/>
+<rp Div="J/22" Ent="174" Pos="19" Pts="19.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="172" Pos="20" Pts="20.0" Race="7"/>
+<rp Div="J/22" Ent="153" Pos="21" Pts="21.0" Race="7"/>
+<rp Div="J/22" Ent="152" Pos="22" Pts="22.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="165" Pos="23" Pts="23.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="175" Pos="24" Pts="24.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="167" Pos="25" Pts="25.0" Race="7"/>
+<rp Div="J/22" Ent="157" Pos="26" Pts="26.0" Race="7"/>
+<rp Div="J/22" Ent="150" Pos="27" Pts="27.0" Race="7"/>
+<rp Div="J/22" Ent="160" Pos="28" Pts="28.0" Race="7"/>
+<rp Div="J/22" Ent="151" Pos="29" Pts="29.0" Race="7"/>
+<rp Div="J/22" Ent="143" Pos="30" Pts="30.0" Race="7"/>
+<rp Div="J/22" Ent="176" Pos="31" Pts="31.0" Race="7"/>
+<rp Div="J/22" Ent="170" Pos="32" Pts="32.0" Race="7"/>
+<rp Div="J/22" Ent="154" Pos="33" Pts="33.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="147" Pos="34" Pts="34.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="177" Pos="35" Pts="35.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="148" Pos="36" Pts="36.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="145" Pos="49152" Pts="38.0" Race="7"/>
+<rp Div="J/24" Ent="194" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="J/24" Ent="179" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="J/24" Ent="187" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="J/24" Ent="191" Pos="4" Pts="4.0" Race="1"/>
+<rp Div="J/24" Ent="183" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="J/24" Ent="193" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="J/24" Ent="188" Pos="7" Pts="7.0" Race="1" Toss="true"/>
+<rp Div="J/24" Ent="189" Pos="8" Pts="8.0" Race="1"/>
+<rp Div="J/24" Ent="185" Pos="9" Pts="9.0" Race="1"/>
+<rp Div="J/24" Ent="180" Pos="10" Pts="10.0" Race="1" Toss="true"/>
+<rp Div="J/24" Ent="190" Pos="11" Pts="11.0" Race="1"/>
+<rp Div="J/24" Ent="192" Pos="12" Pts="12.0" Race="1"/>
+<rp Div="J/24" Ent="182" Pos="13" Pts="13.0" Race="1" Toss="true"/>
+<rp Div="J/24" Ent="186" Pos="14" Pts="14.0" Race="1"/>
+<rp Div="J/24" Ent="181" Pos="15" Pts="15.0" Race="1" Toss="true"/>
+<rp Div="J/24" Ent="184" Pos="16" Pts="16.0" Race="1"/>
+<rp Div="J/24" Ent="183" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="J/24" Ent="182" Pos="2" Pts="2.0" Race="3"/>
+<rp Div="J/24" Ent="194" Pos="3" Pts="3.0" Race="3"/>
+<rp Div="J/24" Ent="188" Pos="4" Pts="4.0" Race="3"/>
+<rp Div="J/24" Ent="193" Pos="5" Pts="5.0" Race="3"/>
+<rp Div="J/24" Ent="180" Pos="6" Pts="6.0" Race="3"/>
+<rp Div="J/24" Ent="179" Pos="7" Pts="7.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="185" Pos="8" Pts="8.0" Race="3"/>
+<rp Div="J/24" Ent="191" Pos="9" Pts="9.0" Race="3"/>
+<rp Div="J/24" Ent="192" Pos="10" Pts="10.0" Race="3"/>
+<rp Div="J/24" Ent="181" Pos="11" Pts="11.0" Race="3"/>
+<rp Div="J/24" Ent="189" Pos="12" Pts="12.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="187" Pos="13" Pts="13.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="190" Pos="14" Pts="14.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="184" Pos="15" Pts="15.0" Race="3"/>
+<rp Div="J/24" Ent="186" Pos="16" Pts="16.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="188" Pos="1" Pts="1.0" Race="4"/>
+<rp Div="J/24" Ent="194" Pos="2" Pts="2.0" Race="4"/>
+<rp Div="J/24" Ent="179" Pos="3" Pts="3.0" Race="4"/>
+<rp Div="J/24" Ent="180" Pos="4" Pts="4.0" Race="4"/>
+<rp Div="J/24" Ent="182" Pos="5" Pts="5.0" Race="4"/>
+<rp Div="J/24" Ent="183" Pos="6" Pts="6.0" Race="4" Toss="true"/>
+<rp Div="J/24" Ent="187" Pos="7" Pts="7.0" Race="4"/>
+<rp Div="J/24" Ent="189" Pos="8" Pts="8.0" Race="4"/>
+<rp Div="J/24" Ent="193" Pos="9" Pts="9.0" Race="4" Toss="true"/>
+<rp Div="J/24" Ent="181" Pos="10" Pts="10.0" Race="4"/>
+<rp Div="J/24" Ent="192" Pos="11" Pts="11.0" Race="4"/>
+<rp Div="J/24" Ent="185" Pos="12" Pts="12.0" Race="4" Toss="true"/>
+<rp Div="J/24" Ent="191" Pos="13" Pts="13.0" Race="4" Toss="true"/>
+<rp Div="J/24" Ent="190" Pos="14" Pts="14.0" Race="4"/>
+<rp Div="J/24" Ent="186" Pos="15" Pts="15.0" Race="4"/>
+<rp Div="J/24" Ent="184" Pos="16" Pts="16.0" Race="4"/>
+<rp Div="J/24" Ent="188" Pos="1" Pts="1.0" Race="5"/>
+<rp Div="J/24" Ent="194" Pos="2" Pts="2.0" Race="5"/>
+<rp Div="J/24" Ent="179" Pos="3" Pts="3.0" Race="5"/>
+<rp Div="J/24" Ent="180" Pos="4" Pts="4.0" Race="5"/>
+<rp Div="J/24" Ent="185" Pos="5" Pts="5.0" Race="5"/>
+<rp Div="J/24" Ent="183" Pos="6" Pts="6.0" Race="5"/>
+<rp Div="J/24" Ent="187" Pos="7" Pts="7.0" Race="5"/>
+<rp Div="J/24" Ent="181" Pos="8" Pts="8.0" Race="5"/>
+<rp Div="J/24" Ent="193" Pos="9" Pts="9.0" Race="5"/>
+<rp Div="J/24" Ent="182" Pos="10" Pts="10.0" Race="5"/>
+<rp Div="J/24" Ent="191" Pos="11" Pts="11.0" Race="5"/>
+<rp Div="J/24" Ent="189" Pos="12" Pts="12.0" Race="5"/>
+<rp Div="J/24" Ent="192" Pos="13" Pts="13.0" Race="5"/>
+<rp Div="J/24" Ent="190" Pos="14" Pts="14.0" Race="5"/>
+<rp Div="J/24" Ent="186" Pos="15" Pts="15.0" Race="5"/>
+<rp Div="J/24" Ent="184" Pos="49152" Pts="17.0" Race="5" Toss="true"/>
+<rp Div="J/24" Ent="179" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="J/24" Ent="182" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="J/24" Ent="183" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="J/24" Ent="188" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="J/24" Ent="193" Pos="5" Pts="5.0" Race="7"/>
+<rp Div="J/24" Ent="194" Pos="6" Pts="6.0" Race="7" Toss="true"/>
+<rp Div="J/24" Ent="185" Pos="7" Pts="7.0" Race="7"/>
+<rp Div="J/24" Ent="180" Pos="8" Pts="8.0" Race="7"/>
+<rp Div="J/24" Ent="187" Pos="9" Pts="9.0" Race="7"/>
+<rp Div="J/24" Ent="191" Pos="10" Pts="10.0" Race="7"/>
+<rp Div="J/24" Ent="189" Pos="11" Pts="11.0" Race="7"/>
+<rp Div="J/24" Ent="181" Pos="12" Pts="12.0" Race="7"/>
+<rp Div="J/24" Ent="190" Pos="13" Pts="13.0" Race="7"/>
+<rp Div="J/24" Ent="186" Pos="14" Pts="14.0" Race="7"/>
+<rp Div="J/24" Ent="184" Pos="49152" Pts="17.0" Race="7"/>
+<rp Div="J/24" Ent="192" Pos="49152" Pts="17.0" Race="7" Toss="true"/>
+</RacePointsList>
+<SeriesPointsList>
+<sp Div="Etchells" Ent="141" Pos="1" Pts="14.0"/>
+<sp Div="Etchells" Ent="132" Pos="2" Pts="15.0"/>
+<sp Div="Etchells" Ent="130" Pos="3" Pts="17.0"/>
+<sp Div="Etchells" Ent="140" Pos="4" Pts="19.0"/>
+<sp Div="Etchells" Ent="139" Pos="5" Pts="21.0"/>
+<sp Div="Etchells" Ent="135" Pos="6" Pts="22.0"/>
+<sp Div="Etchells" Ent="133" Pos="7" Pts="29.0"/>
+<sp Div="Etchells" Ent="134" Pos="8" Pts="36.0"/>
+<sp Div="Etchells" Ent="136" Pos="9" Pts="40.0"/>
+<sp Div="Etchells" Ent="131" Pos="10" Pts="43.0"/>
+<sp Div="Etchells" Ent="129" Pos="11" Pts="52.0"/>
+<sp Div="Etchells" Ent="126" Pos="12" Pts="59.0"/>
+<sp Div="Etchells" Ent="127" Pos="13" Pts="61.0"/>
+<sp Div="Etchells" Ent="138" Pos="14" Pts="64.0"/>
+<sp Div="Etchells" Ent="137" Pos="15" Pts="77.0"/>
+<sp Div="Etchells" Ent="125" Pos="16" Pts="90.0" Tied="true"/>
+<sp Div="Etchells" Ent="128" Pos="16" Pts="90.0" Tied="true"/>
+<sp Div="J/22" Ent="171" Pos="1" Pts="12.0"/>
+<sp Div="J/22" Ent="149" Pos="2" Pts="21.0"/>
+<sp Div="J/22" Ent="163" Pos="3" Pts="21.0001"/>
+<sp Div="J/22" Ent="155" Pos="4" Pts="23.0"/>
+<sp Div="J/22" Ent="158" Pos="5" Pts="28.0"/>
+<sp Div="J/22" Ent="146" Pos="6" Pts="30.0"/>
+<sp Div="J/22" Ent="144" Pos="7" Pts="30.0001"/>
+<sp Div="J/22" Ent="142" Pos="8" Pts="34.0"/>
+<sp Div="J/22" Ent="174" Pos="9" Pts="34.0001"/>
+<sp Div="J/22" Ent="166" Pos="10" Pts="36.0"/>
+<sp Div="J/22" Ent="161" Pos="11" Pts="40.0"/>
+<sp Div="J/22" Ent="164" Pos="12" Pts="40.0001"/>
+<sp Div="J/22" Ent="152" Pos="13" Pts="41.0"/>
+<sp Div="J/22" Ent="156" Pos="14" Pts="46.0"/>
+<sp Div="J/22" Ent="159" Pos="15" Pts="49.0"/>
+<sp Div="J/22" Ent="178" Pos="16" Pts="50.0"/>
+<sp Div="J/22" Ent="165" Pos="17" Pts="52.0"/>
+<sp Div="J/22" Ent="168" Pos="18" Pts="53.0"/>
+<sp Div="J/22" Ent="175" Pos="19" Pts="56.0"/>
+<sp Div="J/22" Ent="169" Pos="20" Pts="59.0"/>
+<sp Div="J/22" Ent="173" Pos="21" Pts="61.0"/>
+<sp Div="J/22" Ent="143" Pos="22" Pts="80.0"/>
+<sp Div="J/22" Ent="153" Pos="23" Pts="84.0"/>
+<sp Div="J/22" Ent="162" Pos="24" Pts="86.0"/>
+<sp Div="J/22" Ent="157" Pos="25" Pts="87.0"/>
+<sp Div="J/22" Ent="167" Pos="26" Pts="92.0"/>
+<sp Div="J/22" Ent="172" Pos="27" Pts="100.0"/>
+<sp Div="J/22" Ent="176" Pos="28" Pts="106.0"/>
+<sp Div="J/22" Ent="151" Pos="29" Pts="106.0001"/>
+<sp Div="J/22" Ent="147" Pos="30" Pts="107.0"/>
+<sp Div="J/22" Ent="177" Pos="31" Pts="108.0"/>
+<sp Div="J/22" Ent="154" Pos="32" Pts="108.0001"/>
+<sp Div="J/22" Ent="170" Pos="33" Pts="111.0"/>
+<sp Div="J/22" Ent="150" Pos="34" Pts="123.0"/>
+<sp Div="J/22" Ent="160" Pos="35" Pts="126.0"/>
+<sp Div="J/22" Ent="148" Pos="36" Pts="127.0"/>
+<sp Div="J/22" Ent="145" Pos="37" Pts="152.0"/>
+<sp Div="J/24" Ent="194" Pos="1" Pts="8.0"/>
+<sp Div="J/24" Ent="179" Pos="2" Pts="9.0"/>
+<sp Div="J/24" Ent="188" Pos="3" Pts="10.0"/>
+<sp Div="J/24" Ent="183" Pos="4" Pts="15.0"/>
+<sp Div="J/24" Ent="182" Pos="5" Pts="19.0"/>
+<sp Div="J/24" Ent="180" Pos="6" Pts="22.0"/>
+<sp Div="J/24" Ent="193" Pos="7" Pts="25.0"/>
+<sp Div="J/24" Ent="187" Pos="8" Pts="26.0"/>
+<sp Div="J/24" Ent="185" Pos="9" Pts="29.0"/>
+<sp Div="J/24" Ent="191" Pos="10" Pts="34.0"/>
+<sp Div="J/24" Ent="189" Pos="11" Pts="39.0"/>
+<sp Div="J/24" Ent="181" Pos="12" Pts="41.0"/>
+<sp Div="J/24" Ent="192" Pos="13" Pts="46.0"/>
+<sp Div="J/24" Ent="190" Pos="14" Pts="52.0"/>
+<sp Div="J/24" Ent="186" Pos="15" Pts="58.0"/>
+<sp Div="J/24" Ent="184" Pos="16" Pts="64.0"/>
+</SeriesPointsList>
+</Stage>
+<Stage CombinedQualifying="false" Name="Fri 27-Apr" ScoreCarryOver="NONE" StageId="3" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
+<Divisions>
+<DivisionId>Etchells</DivisionId>
+<DivisionId>J/22</DivisionId>
+<DivisionId>J/24</DivisionId>
+</Divisions>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="Etchells" Ent="140" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="Etchells" Ent="132" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="Etchells" Ent="141" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="Etchells" Ent="134" Pos="4" Pts="4.0" Race="1"/>
+<rp Div="Etchells" Ent="139" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="Etchells" Ent="136" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="Etchells" Ent="129" Pos="7" Pts="7.0" Race="1"/>
+<rp Div="Etchells" Ent="131" Pos="8" Pts="8.0" Race="1"/>
+<rp Div="Etchells" Ent="135" Pos="9" Pts="9.0" Race="1"/>
+<rp Div="Etchells" Ent="126" Pos="10" Pts="10.0" Race="1"/>
+<rp Div="Etchells" Ent="133" Pos="11" Pts="11.0" Race="1"/>
+<rp Div="Etchells" Ent="127" Pos="12" Pts="12.0" Race="1"/>
+<rp Div="Etchells" Ent="130" Pos="13" Pts="13.0" Race="1"/>
+<rp Div="Etchells" Ent="125" Pos="49152" Pts="18.0" Race="1"/>
+<rp Div="Etchells" Ent="128" Pos="49152" Pts="18.0" Race="1"/>
+<rp Div="Etchells" Ent="137" Pos="49152" Pts="18.0" Race="1"/>
+<rp Div="Etchells" Ent="138" Pos="49152" Pts="18.0" Race="1"/>
+<rp Div="J/22" Ent="142" Pos="1" Pts="38.0" Race="1"/>
+<rp Div="J/22" Ent="146" Pos="2" Pts="1.0" Race="1"/>
+<rp Div="J/22" Ent="158" Pos="3" Pts="2.0" Race="1"/>
+<rp Div="J/22" Ent="156" Pos="4" Pts="3.0" Race="1"/>
+<rp Div="J/22" Ent="159" Pos="5" Pts="4.0" Race="1"/>
+<rp Div="J/22" Ent="163" Pos="6" Pts="5.0" Race="1"/>
+<rp Div="J/22" Ent="165" Pos="7" Pts="6.0" Race="1"/>
+<rp Div="J/22" Ent="143" Pos="8" Pts="7.0" Race="1"/>
+<rp Div="J/22" Ent="166" Pos="9" Pts="8.0" Race="1"/>
+<rp Div="J/22" Ent="144" Pos="10" Pts="9.0" Race="1"/>
+<rp Div="J/22" Ent="155" Pos="11" Pts="10.0" Race="1"/>
+<rp Div="J/22" Ent="174" Pos="12" Pts="11.0" Race="1"/>
+<rp Div="J/22" Ent="164" Pos="13" Pts="12.0" Race="1"/>
+<rp Div="J/22" Ent="147" Pos="14" Pts="13.0" Race="1"/>
+<rp Div="J/22" Ent="175" Pos="15" Pts="14.0" Race="1"/>
+<rp Div="J/22" Ent="152" Pos="16" Pts="15.0" Race="1"/>
+<rp Div="J/22" Ent="161" Pos="17" Pts="16.0" Race="1"/>
+<rp Div="J/22" Ent="149" Pos="18" Pts="17.0" Race="1"/>
+<rp Div="J/22" Ent="177" Pos="19" Pts="18.0" Race="1"/>
+<rp Div="J/22" Ent="168" Pos="20" Pts="19.0" Race="1"/>
+<rp Div="J/22" Ent="171" Pos="21" Pts="20.0" Race="1"/>
+<rp Div="J/22" Ent="178" Pos="22" Pts="21.0" Race="1"/>
+<rp Div="J/22" Ent="162" Pos="23" Pts="22.0" Race="1"/>
+<rp Div="J/22" Ent="173" Pos="24" Pts="23.0" Race="1"/>
+<rp Div="J/22" Ent="169" Pos="25" Pts="24.0" Race="1"/>
+<rp Div="J/22" Ent="157" Pos="26" Pts="25.0" Race="1"/>
+<rp Div="J/22" Ent="153" Pos="27" Pts="26.0" Race="1"/>
+<rp Div="J/22" Ent="154" Pos="28" Pts="27.0" Race="1"/>
+<rp Div="J/22" Ent="170" Pos="29" Pts="28.0" Race="1"/>
+<rp Div="J/22" Ent="172" Pos="30" Pts="29.0" Race="1"/>
+<rp Div="J/22" Ent="167" Pos="31" Pts="30.0" Race="1"/>
+<rp Div="J/22" Ent="150" Pos="32" Pts="31.0" Race="1"/>
+<rp Div="J/22" Ent="176" Pos="33" Pts="32.0" Race="1"/>
+<rp Div="J/22" Ent="160" Pos="34" Pts="33.0" Race="1"/>
+<rp Div="J/22" Ent="151" Pos="35" Pts="34.0" Race="1"/>
+<rp Div="J/22" Ent="148" Pos="36" Pts="35.0" Race="1"/>
+<rp Div="J/22" Ent="145" Pos="49152" Pts="38.0" Race="1"/>
+<rp Div="J/24" Ent="194" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="J/24" Ent="179" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="J/24" Ent="187" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="J/24" Ent="191" Pos="4" Pts="4.0" Race="1"/>
+<rp Div="J/24" Ent="183" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="J/24" Ent="193" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="J/24" Ent="188" Pos="7" Pts="7.0" Race="1"/>
+<rp Div="J/24" Ent="189" Pos="8" Pts="8.0" Race="1"/>
+<rp Div="J/24" Ent="185" Pos="9" Pts="9.0" Race="1"/>
+<rp Div="J/24" Ent="180" Pos="10" Pts="10.0" Race="1"/>
+<rp Div="J/24" Ent="190" Pos="11" Pts="11.0" Race="1"/>
+<rp Div="J/24" Ent="192" Pos="12" Pts="12.0" Race="1"/>
+<rp Div="J/24" Ent="182" Pos="13" Pts="13.0" Race="1"/>
+<rp Div="J/24" Ent="186" Pos="14" Pts="14.0" Race="1"/>
+<rp Div="J/24" Ent="181" Pos="15" Pts="15.0" Race="1"/>
+<rp Div="J/24" Ent="184" Pos="16" Pts="16.0" Race="1"/>
+</RacePointsList>
+<SeriesPointsList>
+<sp Div="Etchells" Ent="140" Pos="1" Pts="1.0"/>
+<sp Div="Etchells" Ent="132" Pos="2" Pts="2.0"/>
+<sp Div="Etchells" Ent="141" Pos="3" Pts="3.0"/>
+<sp Div="Etchells" Ent="134" Pos="4" Pts="4.0"/>
+<sp Div="Etchells" Ent="139" Pos="5" Pts="5.0"/>
+<sp Div="Etchells" Ent="136" Pos="6" Pts="6.0"/>
+<sp Div="Etchells" Ent="129" Pos="7" Pts="7.0"/>
+<sp Div="Etchells" Ent="131" Pos="8" Pts="8.0"/>
+<sp Div="Etchells" Ent="135" Pos="9" Pts="9.0"/>
+<sp Div="Etchells" Ent="126" Pos="10" Pts="10.0"/>
+<sp Div="Etchells" Ent="133" Pos="11" Pts="11.0"/>
+<sp Div="Etchells" Ent="127" Pos="12" Pts="12.0"/>
+<sp Div="Etchells" Ent="130" Pos="13" Pts="13.0"/>
+<sp Div="Etchells" Ent="125" Pos="14" Pts="18.0" Tied="true"/>
+<sp Div="Etchells" Ent="128" Pos="14" Pts="18.0" Tied="true"/>
+<sp Div="Etchells" Ent="137" Pos="14" Pts="18.0" Tied="true"/>
+<sp Div="Etchells" Ent="138" Pos="14" Pts="18.0" Tied="true"/>
+<sp Div="J/22" Ent="146" Pos="1" Pts="1.0"/>
+<sp Div="J/22" Ent="158" Pos="2" Pts="2.0"/>
+<sp Div="J/22" Ent="156" Pos="3" Pts="3.0"/>
+<sp Div="J/22" Ent="159" Pos="4" Pts="4.0"/>
+<sp Div="J/22" Ent="163" Pos="5" Pts="5.0"/>
+<sp Div="J/22" Ent="165" Pos="6" Pts="6.0"/>
+<sp Div="J/22" Ent="143" Pos="7" Pts="7.0"/>
+<sp Div="J/22" Ent="166" Pos="8" Pts="8.0"/>
+<sp Div="J/22" Ent="144" Pos="9" Pts="9.0"/>
+<sp Div="J/22" Ent="155" Pos="10" Pts="10.0"/>
+<sp Div="J/22" Ent="174" Pos="11" Pts="11.0"/>
+<sp Div="J/22" Ent="164" Pos="12" Pts="12.0"/>
+<sp Div="J/22" Ent="147" Pos="13" Pts="13.0"/>
+<sp Div="J/22" Ent="175" Pos="14" Pts="14.0"/>
+<sp Div="J/22" Ent="152" Pos="15" Pts="15.0"/>
+<sp Div="J/22" Ent="161" Pos="16" Pts="16.0"/>
+<sp Div="J/22" Ent="149" Pos="17" Pts="17.0"/>
+<sp Div="J/22" Ent="177" Pos="18" Pts="18.0"/>
+<sp Div="J/22" Ent="168" Pos="19" Pts="19.0"/>
+<sp Div="J/22" Ent="171" Pos="20" Pts="20.0"/>
+<sp Div="J/22" Ent="178" Pos="21" Pts="21.0"/>
+<sp Div="J/22" Ent="162" Pos="22" Pts="22.0"/>
+<sp Div="J/22" Ent="173" Pos="23" Pts="23.0"/>
+<sp Div="J/22" Ent="169" Pos="24" Pts="24.0"/>
+<sp Div="J/22" Ent="157" Pos="25" Pts="25.0"/>
+<sp Div="J/22" Ent="153" Pos="26" Pts="26.0"/>
+<sp Div="J/22" Ent="154" Pos="27" Pts="27.0"/>
+<sp Div="J/22" Ent="170" Pos="28" Pts="28.0"/>
+<sp Div="J/22" Ent="172" Pos="29" Pts="29.0"/>
+<sp Div="J/22" Ent="167" Pos="30" Pts="30.0"/>
+<sp Div="J/22" Ent="150" Pos="31" Pts="31.0"/>
+<sp Div="J/22" Ent="176" Pos="32" Pts="32.0"/>
+<sp Div="J/22" Ent="160" Pos="33" Pts="33.0"/>
+<sp Div="J/22" Ent="151" Pos="34" Pts="34.0"/>
+<sp Div="J/22" Ent="148" Pos="35" Pts="35.0"/>
+<sp Div="J/22" Ent="142" Pos="36" Pts="38.0" Tied="true"/>
+<sp Div="J/22" Ent="145" Pos="36" Pts="38.0" Tied="true"/>
+<sp Div="J/24" Ent="194" Pos="1" Pts="1.0"/>
+<sp Div="J/24" Ent="179" Pos="2" Pts="2.0"/>
+<sp Div="J/24" Ent="187" Pos="3" Pts="3.0"/>
+<sp Div="J/24" Ent="191" Pos="4" Pts="4.0"/>
+<sp Div="J/24" Ent="183" Pos="5" Pts="5.0"/>
+<sp Div="J/24" Ent="193" Pos="6" Pts="6.0"/>
+<sp Div="J/24" Ent="188" Pos="7" Pts="7.0"/>
+<sp Div="J/24" Ent="189" Pos="8" Pts="8.0"/>
+<sp Div="J/24" Ent="185" Pos="9" Pts="9.0"/>
+<sp Div="J/24" Ent="180" Pos="10" Pts="10.0"/>
+<sp Div="J/24" Ent="190" Pos="11" Pts="11.0"/>
+<sp Div="J/24" Ent="192" Pos="12" Pts="12.0"/>
+<sp Div="J/24" Ent="182" Pos="13" Pts="13.0"/>
+<sp Div="J/24" Ent="186" Pos="14" Pts="14.0"/>
+<sp Div="J/24" Ent="181" Pos="15" Pts="15.0"/>
+<sp Div="J/24" Ent="184" Pos="16" Pts="16.0"/>
+</SeriesPointsList>
+</Stage>
+<Stage CombinedQualifying="false" Name="Sat 28-Apr" ScoreCarryOver="NONE" StageId="4" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
+<Divisions>
+<DivisionId>Etchells</DivisionId>
+<DivisionId>J/22</DivisionId>
+<DivisionId>J/24</DivisionId>
+</Divisions>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="Etchells" Ent="139" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="Etchells" Ent="132" Pos="2" Pts="2.0" Race="3"/>
+<rp Div="Etchells" Ent="141" Pos="3" Pts="3.0" Race="3" Toss="true"/>
+<rp Div="Etchells" Ent="135" Pos="4" Pts="4.0" Race="3" Toss="true"/>
+<rp Div="Etchells" Ent="140" Pos="5" Pts="5.0" Race="3"/>
+<rp Div="Etchells" Ent="130" Pos="6" Pts="6.0" Race="3" Toss="true"/>
+<rp Div="Etchells" Ent="136" Pos="7" Pts="7.0" Race="3"/>
+<rp Div="Etchells" Ent="133" Pos="8" Pts="8.0" Race="3" Toss="true"/>
+<rp Div="Etchells" Ent="129" Pos="9" Pts="9.0" Race="3"/>
+<rp Div="Etchells" Ent="126" Pos="10" Pts="10.0" Race="3"/>
+<rp Div="Etchells" Ent="131" Pos="11" Pts="11.0" Race="3" Toss="true"/>
+<rp Div="Etchells" Ent="134" Pos="12" Pts="12.0" Race="3" Toss="true"/>
+<rp Div="Etchells" Ent="127" Pos="13" Pts="13.0" Race="3" Toss="true"/>
+<rp Div="Etchells" Ent="125" Pos="49152" Pts="18.0" Race="3" Toss="true"/>
+<rp Div="Etchells" Ent="128" Pos="49152" Pts="18.0" Race="3" Toss="true"/>
+<rp Div="Etchells" Ent="137" Pos="49152" Pts="18.0" Race="3" Toss="true"/>
+<rp Div="Etchells" Ent="138" Pos="49152" Pts="18.0" Race="3" Toss="true"/>
+<rp Div="Etchells" Ent="135" Pos="1" Pts="1.0" Race="4"/>
+<rp Div="Etchells" Ent="141" Pos="2" Pts="2.0" Race="4"/>
+<rp Div="Etchells" Ent="130" Pos="3" Pts="3.0" Race="4"/>
+<rp Div="Etchells" Ent="139" Pos="4" Pts="4.0" Race="4" Toss="true"/>
+<rp Div="Etchells" Ent="133" Pos="5" Pts="5.0" Race="4"/>
+<rp Div="Etchells" Ent="134" Pos="6" Pts="6.0" Race="4"/>
+<rp Div="Etchells" Ent="132" Pos="7" Pts="7.0" Race="4" Toss="true"/>
+<rp Div="Etchells" Ent="140" Pos="8" Pts="8.0" Race="4" Toss="true"/>
+<rp Div="Etchells" Ent="136" Pos="9" Pts="9.0" Race="4" Toss="true"/>
+<rp Div="Etchells" Ent="127" Pos="10" Pts="10.0" Race="4"/>
+<rp Div="Etchells" Ent="131" Pos="11" Pts="11.0" Race="4"/>
+<rp Div="Etchells" Ent="129" Pos="12" Pts="12.0" Race="4" Toss="true"/>
+<rp Div="Etchells" Ent="126" Pos="13" Pts="13.0" Race="4" Toss="true"/>
+<rp Div="Etchells" Ent="125" Pos="49152" Pts="18.0" Race="4"/>
+<rp Div="Etchells" Ent="128" Pos="49152" Pts="18.0" Race="4"/>
+<rp Div="Etchells" Ent="137" Pos="49152" Pts="18.0" Race="4"/>
+<rp Div="Etchells" Ent="138" Pos="49152" Pts="18.0" Race="4"/>
+<rp Div="J/22" Ent="155" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="J/22" Ent="146" Pos="2" Pts="2.0" Race="3"/>
+<rp Div="J/22" Ent="149" Pos="3" Pts="3.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="174" Pos="4" Pts="4.0" Race="3"/>
+<rp Div="J/22" Ent="171" Pos="5" Pts="5.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="169" Pos="6" Pts="6.0" Race="3"/>
+<rp Div="J/22" Ent="164" Pos="7" Pts="7.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="163" Pos="8" Pts="8.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="173" Pos="9" Pts="9.0" Race="3"/>
+<rp Div="J/22" Ent="152" Pos="10" Pts="10.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="178" Pos="11" Pts="11.0" Race="3"/>
+<rp Div="J/22" Ent="144" Pos="12" Pts="12.0" Race="3"/>
+<rp Div="J/22" Ent="168" Pos="13" Pts="13.0" Race="3"/>
+<rp Div="J/22" Ent="158" Pos="14" Pts="14.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="143" Pos="15" Pts="15.0" Race="3"/>
+<rp Div="J/22" Ent="165" Pos="16" Pts="16.0" Race="3"/>
+<rp Div="J/22" Ent="166" Pos="17" Pts="17.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="175" Pos="18" Pts="18.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="161" Pos="19" Pts="19.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="142" Pos="20" Pts="20.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="151" Pos="21" Pts="21.0" Race="3"/>
+<rp Div="J/22" Ent="162" Pos="22" Pts="22.0" Race="3"/>
+<rp Div="J/22" Ent="167" Pos="23" Pts="23.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="176" Pos="24" Pts="24.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="159" Pos="25" Pts="25.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="156" Pos="26" Pts="26.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="170" Pos="27" Pts="27.0" Race="3"/>
+<rp Div="J/22" Ent="154" Pos="28" Pts="28.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="147" Pos="29" Pts="29.0" Race="3"/>
+<rp Div="J/22" Ent="177" Pos="30" Pts="30.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="148" Pos="31" Pts="31.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="172" Pos="32" Pts="32.0" Race="3"/>
+<rp Div="J/22" Ent="150" Pos="33" Pts="33.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="160" Pos="34" Pts="34.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="157" Pos="35" Pts="35.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="153" Pos="32768" Pts="38.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="145" Pos="49152" Pts="38.0" Race="3" Toss="true"/>
+<rp Div="J/22" Ent="171" Pos="1" Pts="1.0" Race="4"/>
+<rp Div="J/22" Ent="149" Pos="2" Pts="2.0" Race="4"/>
+<rp Div="J/22" Ent="152" Pos="3" Pts="3.0" Race="4"/>
+<rp Div="J/22" Ent="161" Pos="4" Pts="4.0" Race="4"/>
+<rp Div="J/22" Ent="158" Pos="5" Pts="5.0" Race="4"/>
+<rp Div="J/22" Ent="164" Pos="6" Pts="6.0" Race="4"/>
+<rp Div="J/22" Ent="163" Pos="7" Pts="7.0" Race="4"/>
+<rp Div="J/22" Ent="166" Pos="8" Pts="8.0" Race="4"/>
+<rp Div="J/22" Ent="175" Pos="9" Pts="9.0" Race="4"/>
+<rp Div="J/22" Ent="156" Pos="10" Pts="10.0" Race="4"/>
+<rp Div="J/22" Ent="142" Pos="11" Pts="11.0" Race="4"/>
+<rp Div="J/22" Ent="178" Pos="12" Pts="12.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="174" Pos="13" Pts="13.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="157" Pos="14" Pts="14.0" Race="4"/>
+<rp Div="J/22" Ent="167" Pos="15" Pts="15.0" Race="4"/>
+<rp Div="J/22" Ent="153" Pos="16" Pts="16.0" Race="4"/>
+<rp Div="J/22" Ent="146" Pos="17" Pts="17.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="155" Pos="18" Pts="18.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="176" Pos="19" Pts="19.0" Race="4"/>
+<rp Div="J/22" Ent="144" Pos="20" Pts="20.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="165" Pos="21" Pts="21.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="169" Pos="22" Pts="22.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="168" Pos="23" Pts="23.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="173" Pos="24" Pts="24.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="159" Pos="25" Pts="25.0" Race="4"/>
+<rp Div="J/22" Ent="148" Pos="26" Pts="26.0" Race="4"/>
+<rp Div="J/22" Ent="154" Pos="27" Pts="27.0" Race="4"/>
+<rp Div="J/22" Ent="143" Pos="28" Pts="28.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="151" Pos="29" Pts="29.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="177" Pos="30" Pts="30.0" Race="4"/>
+<rp Div="J/22" Ent="160" Pos="31" Pts="31.0" Race="4"/>
+<rp Div="J/22" Ent="150" Pos="32" Pts="32.0" Race="4"/>
+<rp Div="J/22" Ent="147" Pos="33" Pts="33.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="170" Pos="34" Pts="34.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="172" Pos="35" Pts="35.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="162" Pos="36" Pts="36.0" Race="4" Toss="true"/>
+<rp Div="J/22" Ent="145" Pos="49152" Pts="38.0" Race="4"/>
+<rp Div="J/24" Ent="183" Pos="1" Pts="1.0" Race="3"/>
+<rp Div="J/24" Ent="182" Pos="2" Pts="2.0" Race="3"/>
+<rp Div="J/24" Ent="194" Pos="3" Pts="3.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="188" Pos="4" Pts="4.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="193" Pos="5" Pts="5.0" Race="3"/>
+<rp Div="J/24" Ent="180" Pos="6" Pts="6.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="179" Pos="7" Pts="7.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="185" Pos="8" Pts="8.0" Race="3"/>
+<rp Div="J/24" Ent="191" Pos="9" Pts="9.0" Race="3"/>
+<rp Div="J/24" Ent="192" Pos="10" Pts="10.0" Race="3"/>
+<rp Div="J/24" Ent="181" Pos="11" Pts="11.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="189" Pos="12" Pts="12.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="187" Pos="13" Pts="13.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="190" Pos="14" Pts="14.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="184" Pos="15" Pts="15.0" Race="3"/>
+<rp Div="J/24" Ent="186" Pos="16" Pts="16.0" Race="3" Toss="true"/>
+<rp Div="J/24" Ent="188" Pos="1" Pts="1.0" Race="4"/>
+<rp Div="J/24" Ent="194" Pos="2" Pts="2.0" Race="4"/>
+<rp Div="J/24" Ent="179" Pos="3" Pts="3.0" Race="4"/>
+<rp Div="J/24" Ent="180" Pos="4" Pts="4.0" Race="4"/>
+<rp Div="J/24" Ent="182" Pos="5" Pts="5.0" Race="4" Toss="true"/>
+<rp Div="J/24" Ent="183" Pos="6" Pts="6.0" Race="4" Toss="true"/>
+<rp Div="J/24" Ent="187" Pos="7" Pts="7.0" Race="4"/>
+<rp Div="J/24" Ent="189" Pos="8" Pts="8.0" Race="4"/>
+<rp Div="J/24" Ent="193" Pos="9" Pts="9.0" Race="4" Toss="true"/>
+<rp Div="J/24" Ent="181" Pos="10" Pts="10.0" Race="4"/>
+<rp Div="J/24" Ent="192" Pos="11" Pts="11.0" Race="4" Toss="true"/>
+<rp Div="J/24" Ent="185" Pos="12" Pts="12.0" Race="4" Toss="true"/>
+<rp Div="J/24" Ent="191" Pos="13" Pts="13.0" Race="4" Toss="true"/>
+<rp Div="J/24" Ent="190" Pos="14" Pts="14.0" Race="4"/>
+<rp Div="J/24" Ent="186" Pos="15" Pts="15.0" Race="4"/>
+<rp Div="J/24" Ent="184" Pos="16" Pts="16.0" Race="4" Toss="true"/>
+</RacePointsList>
+<SeriesPointsList>
+<sp Div="Etchells" Ent="135" Pos="1" Pts="1.0"/>
+<sp Div="Etchells" Ent="139" Pos="2" Pts="1.0001"/>
+<sp Div="Etchells" Ent="141" Pos="3" Pts="2.0"/>
+<sp Div="Etchells" Ent="132" Pos="4" Pts="2.0001"/>
+<sp Div="Etchells" Ent="130" Pos="5" Pts="3.0"/>
+<sp Div="Etchells" Ent="133" Pos="6" Pts="5.0"/>
+<sp Div="Etchells" Ent="140" Pos="7" Pts="5.0001"/>
+<sp Div="Etchells" Ent="134" Pos="8" Pts="6.0"/>
+<sp Div="Etchells" Ent="136" Pos="9" Pts="7.0"/>
+<sp Div="Etchells" Ent="129" Pos="10" Pts="9.0"/>
+<sp Div="Etchells" Ent="127" Pos="11" Pts="10.0"/>
+<sp Div="Etchells" Ent="126" Pos="12" Pts="10.0001"/>
+<sp Div="Etchells" Ent="131" Pos="13" Pts="11.0"/>
+<sp Div="Etchells" Ent="125" Pos="14" Pts="18.0" Tied="true"/>
+<sp Div="Etchells" Ent="128" Pos="14" Pts="18.0" Tied="true"/>
+<sp Div="Etchells" Ent="137" Pos="14" Pts="18.0" Tied="true"/>
+<sp Div="Etchells" Ent="138" Pos="14" Pts="18.0" Tied="true"/>
+<sp Div="J/22" Ent="171" Pos="1" Pts="1.0"/>
+<sp Div="J/22" Ent="155" Pos="2" Pts="1.0001"/>
+<sp Div="J/22" Ent="149" Pos="3" Pts="2.0"/>
+<sp Div="J/22" Ent="146" Pos="4" Pts="2.0001"/>
+<sp Div="J/22" Ent="152" Pos="5" Pts="3.0"/>
+<sp Div="J/22" Ent="161" Pos="6" Pts="4.0"/>
+<sp Div="J/22" Ent="174" Pos="7" Pts="4.0001"/>
+<sp Div="J/22" Ent="158" Pos="8" Pts="5.0"/>
+<sp Div="J/22" Ent="164" Pos="9" Pts="6.0"/>
+<sp Div="J/22" Ent="169" Pos="10" Pts="6.0001"/>
+<sp Div="J/22" Ent="163" Pos="11" Pts="7.0"/>
+<sp Div="J/22" Ent="166" Pos="12" Pts="8.0"/>
+<sp Div="J/22" Ent="175" Pos="13" Pts="9.0"/>
+<sp Div="J/22" Ent="173" Pos="14" Pts="9.0001"/>
+<sp Div="J/22" Ent="156" Pos="15" Pts="10.0"/>
+<sp Div="J/22" Ent="142" Pos="16" Pts="11.0"/>
+<sp Div="J/22" Ent="178" Pos="17" Pts="11.0001"/>
+<sp Div="J/22" Ent="144" Pos="18" Pts="12.0"/>
+<sp Div="J/22" Ent="168" Pos="19" Pts="13.0"/>
+<sp Div="J/22" Ent="157" Pos="20" Pts="14.0"/>
+<sp Div="J/22" Ent="167" Pos="21" Pts="15.0"/>
+<sp Div="J/22" Ent="143" Pos="22" Pts="15.0001"/>
+<sp Div="J/22" Ent="153" Pos="23" Pts="16.0"/>
+<sp Div="J/22" Ent="165" Pos="24" Pts="16.0001"/>
+<sp Div="J/22" Ent="176" Pos="25" Pts="19.0"/>
+<sp Div="J/22" Ent="151" Pos="26" Pts="21.0"/>
+<sp Div="J/22" Ent="162" Pos="27" Pts="22.0"/>
+<sp Div="J/22" Ent="159" Pos="28" Pts="25.0"/>
+<sp Div="J/22" Ent="148" Pos="29" Pts="26.0"/>
+<sp Div="J/22" Ent="154" Pos="30" Pts="27.0"/>
+<sp Div="J/22" Ent="170" Pos="31" Pts="27.0001"/>
+<sp Div="J/22" Ent="147" Pos="32" Pts="29.0"/>
+<sp Div="J/22" Ent="177" Pos="33" Pts="30.0"/>
+<sp Div="J/22" Ent="160" Pos="34" Pts="31.0"/>
+<sp Div="J/22" Ent="150" Pos="35" Pts="32.0"/>
+<sp Div="J/22" Ent="172" Pos="36" Pts="32.0001"/>
+<sp Div="J/22" Ent="145" Pos="37" Pts="38.0"/>
+<sp Div="J/24" Ent="188" Pos="1" Pts="1.0"/>
+<sp Div="J/24" Ent="183" Pos="2" Pts="1.0001"/>
+<sp Div="J/24" Ent="194" Pos="3" Pts="2.0"/>
+<sp Div="J/24" Ent="182" Pos="4" Pts="2.0001"/>
+<sp Div="J/24" Ent="179" Pos="5" Pts="3.0"/>
+<sp Div="J/24" Ent="180" Pos="6" Pts="4.0"/>
+<sp Div="J/24" Ent="193" Pos="7" Pts="5.0"/>
+<sp Div="J/24" Ent="187" Pos="8" Pts="7.0"/>
+<sp Div="J/24" Ent="189" Pos="9" Pts="8.0"/>
+<sp Div="J/24" Ent="185" Pos="10" Pts="8.0001"/>
+<sp Div="J/24" Ent="191" Pos="11" Pts="9.0"/>
+<sp Div="J/24" Ent="181" Pos="12" Pts="10.0"/>
+<sp Div="J/24" Ent="192" Pos="13" Pts="10.0001"/>
+<sp Div="J/24" Ent="190" Pos="14" Pts="14.0"/>
+<sp Div="J/24" Ent="186" Pos="15" Pts="15.0"/>
+<sp Div="J/24" Ent="184" Pos="16" Pts="15.0001"/>
+</SeriesPointsList>
+</Stage>
+<Stage CombinedQualifying="false" Name="Sun 29-Apr" ScoreCarryOver="NONE" StageId="5" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
+<Divisions>
+<DivisionId>Etchells</DivisionId>
+<DivisionId>J/22</DivisionId>
+<DivisionId>J/24</DivisionId>
+</Divisions>
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="Etchells" Ent="132" Pos="1" Pts="1.0" Race="5"/>
+<rp Div="Etchells" Ent="130" Pos="2" Pts="2.0" Race="5"/>
+<rp Div="Etchells" Ent="133" Pos="3" Pts="3.0" Race="5"/>
+<rp Div="Etchells" Ent="141" Pos="4" Pts="4.0" Race="5"/>
+<rp Div="Etchells" Ent="135" Pos="5" Pts="5.0" Race="5"/>
+<rp Div="Etchells" Ent="131" Pos="6" Pts="6.0" Race="5"/>
+<rp Div="Etchells" Ent="136" Pos="7" Pts="7.0" Race="5"/>
+<rp Div="Etchells" Ent="134" Pos="8" Pts="8.0" Race="5"/>
+<rp Div="Etchells" Ent="140" Pos="9" Pts="9.0" Race="5" Toss="true"/>
+<rp Div="Etchells" Ent="139" Pos="10" Pts="10.0" Race="5" Toss="true"/>
+<rp Div="Etchells" Ent="127" Pos="11" Pts="11.0" Race="5"/>
+<rp Div="Etchells" Ent="129" Pos="12" Pts="12.0" Race="5"/>
+<rp Div="Etchells" Ent="126" Pos="13" Pts="13.0" Race="5"/>
+<rp Div="Etchells" Ent="125" Pos="49152" Pts="18.0" Race="5" Toss="true"/>
+<rp Div="Etchells" Ent="128" Pos="49152" Pts="18.0" Race="5" Toss="true"/>
+<rp Div="Etchells" Ent="137" Pos="49152" Pts="18.0" Race="5" Toss="true"/>
+<rp Div="Etchells" Ent="138" Pos="49152" Pts="18.0" Race="5" Toss="true"/>
+<rp Div="Etchells" Ent="130" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="Etchells" Ent="138" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="Etchells" Ent="132" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="Etchells" Ent="140" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="Etchells" Ent="139" Pos="5" Pts="5.0" Race="7"/>
+<rp Div="Etchells" Ent="141" Pos="6" Pts="6.0" Race="7" Toss="true"/>
+<rp Div="Etchells" Ent="131" Pos="7" Pts="7.0" Race="7"/>
+<rp Div="Etchells" Ent="135" Pos="8" Pts="8.0" Race="7" Toss="true"/>
+<rp Div="Etchells" Ent="134" Pos="9" Pts="9.0" Race="7" Toss="true"/>
+<rp Div="Etchells" Ent="133" Pos="10" Pts="10.0" Race="7" Toss="true"/>
+<rp Div="Etchells" Ent="136" Pos="11" Pts="11.0" Race="7" Toss="true"/>
+<rp Div="Etchells" Ent="129" Pos="12" Pts="12.0" Race="7"/>
+<rp Div="Etchells" Ent="137" Pos="13" Pts="13.0" Race="7"/>
+<rp Div="Etchells" Ent="126" Pos="14" Pts="14.0" Race="7" Toss="true"/>
+<rp Div="Etchells" Ent="127" Pos="15" Pts="15.0" Race="7" Toss="true"/>
+<rp Div="Etchells" Ent="125" Pos="49152" Pts="18.0" Race="7"/>
+<rp Div="Etchells" Ent="128" Pos="49152" Pts="18.0" Race="7"/>
+<rp Div="Etchells" Ent="140" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="Etchells" Ent="141" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="Etchells" Ent="133" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="Etchells" Ent="135" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="Etchells" Ent="130" Pos="5" Pts="5.0" Race="8" Toss="true"/>
+<rp Div="Etchells" Ent="139" Pos="6" Pts="6.0" Race="8"/>
+<rp Div="Etchells" Ent="132" Pos="7" Pts="7.0" Race="8" Toss="true"/>
+<rp Div="Etchells" Ent="138" Pos="8" Pts="8.0" Race="8"/>
+<rp Div="Etchells" Ent="134" Pos="9" Pts="9.0" Race="8"/>
+<rp Div="Etchells" Ent="137" Pos="10" Pts="10.0" Race="8"/>
+<rp Div="Etchells" Ent="136" Pos="11" Pts="11.0" Race="8"/>
+<rp Div="Etchells" Ent="131" Pos="12" Pts="12.0" Race="8" Toss="true"/>
+<rp Div="Etchells" Ent="126" Pos="13" Pts="13.0" Race="8"/>
+<rp Div="Etchells" Ent="129" Pos="14" Pts="14.0" Race="8" Toss="true"/>
+<rp Div="Etchells" Ent="127" Pos="15" Pts="15.0" Race="8"/>
+<rp Div="Etchells" Ent="125" Pos="49152" Pts="18.0" Race="8"/>
+<rp Div="Etchells" Ent="128" Pos="49152" Pts="18.0" Race="8"/>
+<rp Div="J/22" Ent="171" Pos="1" Pts="1.0" Race="5"/>
+<rp Div="J/22" Ent="142" Pos="2" Pts="2.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="155" Pos="3" Pts="3.0" Race="5"/>
+<rp Div="J/22" Ent="166" Pos="4" Pts="4.0" Race="5"/>
+<rp Div="J/22" Ent="144" Pos="5" Pts="5.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="174" Pos="6" Pts="6.0" Race="5"/>
+<rp Div="J/22" Ent="163" Pos="7" Pts="7.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="161" Pos="8" Pts="8.0" Race="5"/>
+<rp Div="J/22" Ent="165" Pos="9" Pts="9.0" Race="5"/>
+<rp Div="J/22" Ent="149" Pos="10" Pts="10.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="173" Pos="11" Pts="11.0" Race="5"/>
+<rp Div="J/22" Ent="159" Pos="12" Pts="12.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="152" Pos="13" Pts="13.0" Race="5"/>
+<rp Div="J/22" Ent="158" Pos="14" Pts="14.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="175" Pos="15" Pts="15.0" Race="5"/>
+<rp Div="J/22" Ent="178" Pos="16" Pts="16.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="169" Pos="17" Pts="17.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="168" Pos="18" Pts="18.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="172" Pos="19" Pts="19.0" Race="5"/>
+<rp Div="J/22" Ent="156" Pos="20" Pts="20.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="153" Pos="21" Pts="21.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="157" Pos="22" Pts="22.0" Race="5"/>
+<rp Div="J/22" Ent="146" Pos="23" Pts="23.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="170" Pos="24" Pts="24.0" Race="5"/>
+<rp Div="J/22" Ent="162" Pos="25" Pts="25.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="154" Pos="26" Pts="26.0" Race="5"/>
+<rp Div="J/22" Ent="151" Pos="27" Pts="27.0" Race="5"/>
+<rp Div="J/22" Ent="164" Pos="28" Pts="28.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="167" Pos="29" Pts="29.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="177" Pos="30" Pts="30.0" Race="5"/>
+<rp Div="J/22" Ent="143" Pos="31" Pts="31.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="147" Pos="32" Pts="32.0" Race="5"/>
+<rp Div="J/22" Ent="150" Pos="33" Pts="33.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="176" Pos="34" Pts="34.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="148" Pos="35" Pts="35.0" Race="5"/>
+<rp Div="J/22" Ent="160" Pos="36" Pts="36.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="145" Pos="49152" Pts="38.0" Race="5" Toss="true"/>
+<rp Div="J/22" Ent="142" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="J/22" Ent="163" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="J/22" Ent="168" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="J/22" Ent="144" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="J/22" Ent="171" Pos="5" Pts="5.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="149" Pos="6" Pts="6.0" Race="7"/>
+<rp Div="J/22" Ent="158" Pos="7" Pts="7.0" Race="7"/>
+<rp Div="J/22" Ent="159" Pos="8" Pts="8.0" Race="7"/>
+<rp Div="J/22" Ent="155" Pos="9" Pts="9.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="146" Pos="10" Pts="10.0" Race="7"/>
+<rp Div="J/22" Ent="178" Pos="11" Pts="11.0" Race="7"/>
+<rp Div="J/22" Ent="161" Pos="12" Pts="12.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="156" Pos="13" Pts="13.0" Race="7"/>
+<rp Div="J/22" Ent="169" Pos="14" Pts="14.0" Race="7"/>
+<rp Div="J/22" Ent="164" Pos="15" Pts="15.0" Race="7"/>
+<rp Div="J/22" Ent="166" Pos="16" Pts="16.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="162" Pos="17" Pts="17.0" Race="7"/>
+<rp Div="J/22" Ent="173" Pos="18" Pts="18.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="174" Pos="19" Pts="19.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="172" Pos="20" Pts="20.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="153" Pos="21" Pts="21.0" Race="7"/>
+<rp Div="J/22" Ent="152" Pos="22" Pts="22.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="165" Pos="23" Pts="23.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="175" Pos="24" Pts="24.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="167" Pos="25" Pts="25.0" Race="7"/>
+<rp Div="J/22" Ent="157" Pos="26" Pts="26.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="150" Pos="27" Pts="27.0" Race="7"/>
+<rp Div="J/22" Ent="160" Pos="28" Pts="28.0" Race="7"/>
+<rp Div="J/22" Ent="151" Pos="29" Pts="29.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="143" Pos="30" Pts="30.0" Race="7"/>
+<rp Div="J/22" Ent="176" Pos="31" Pts="31.0" Race="7"/>
+<rp Div="J/22" Ent="170" Pos="32" Pts="32.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="154" Pos="33" Pts="33.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="147" Pos="34" Pts="34.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="177" Pos="35" Pts="35.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="148" Pos="36" Pts="36.0" Race="7" Toss="true"/>
+<rp Div="J/22" Ent="145" Pos="49152" Pts="38.0" Race="7"/>
+<rp Div="J/24" Ent="188" Pos="1" Pts="1.0" Race="5"/>
+<rp Div="J/24" Ent="194" Pos="2" Pts="2.0" Race="5"/>
+<rp Div="J/24" Ent="179" Pos="3" Pts="3.0" Race="5" Toss="true"/>
+<rp Div="J/24" Ent="180" Pos="4" Pts="4.0" Race="5"/>
+<rp Div="J/24" Ent="185" Pos="5" Pts="5.0" Race="5"/>
+<rp Div="J/24" Ent="183" Pos="6" Pts="6.0" Race="5" Toss="true"/>
+<rp Div="J/24" Ent="187" Pos="7" Pts="7.0" Race="5"/>
+<rp Div="J/24" Ent="181" Pos="8" Pts="8.0" Race="5"/>
+<rp Div="J/24" Ent="193" Pos="9" Pts="9.0" Race="5" Toss="true"/>
+<rp Div="J/24" Ent="182" Pos="10" Pts="10.0" Race="5" Toss="true"/>
+<rp Div="J/24" Ent="191" Pos="11" Pts="11.0" Race="5" Toss="true"/>
+<rp Div="J/24" Ent="189" Pos="12" Pts="12.0" Race="5" Toss="true"/>
+<rp Div="J/24" Ent="192" Pos="13" Pts="13.0" Race="5"/>
+<rp Div="J/24" Ent="190" Pos="14" Pts="14.0" Race="5" Toss="true"/>
+<rp Div="J/24" Ent="186" Pos="15" Pts="15.0" Race="5" Toss="true"/>
+<rp Div="J/24" Ent="184" Pos="49152" Pts="17.0" Race="5" Toss="true"/>
+<rp Div="J/24" Ent="179" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="J/24" Ent="182" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="J/24" Ent="183" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="J/24" Ent="188" Pos="4" Pts="4.0" Race="7" Toss="true"/>
+<rp Div="J/24" Ent="193" Pos="5" Pts="5.0" Race="7"/>
+<rp Div="J/24" Ent="194" Pos="6" Pts="6.0" Race="7" Toss="true"/>
+<rp Div="J/24" Ent="185" Pos="7" Pts="7.0" Race="7" Toss="true"/>
+<rp Div="J/24" Ent="180" Pos="8" Pts="8.0" Race="7" Toss="true"/>
+<rp Div="J/24" Ent="187" Pos="9" Pts="9.0" Race="7" Toss="true"/>
+<rp Div="J/24" Ent="191" Pos="10" Pts="10.0" Race="7"/>
+<rp Div="J/24" Ent="189" Pos="11" Pts="11.0" Race="7"/>
+<rp Div="J/24" Ent="181" Pos="12" Pts="12.0" Race="7" Toss="true"/>
+<rp Div="J/24" Ent="190" Pos="13" Pts="13.0" Race="7"/>
+<rp Div="J/24" Ent="186" Pos="14" Pts="14.0" Race="7"/>
+<rp Div="J/24" Ent="184" Pos="49152" Pts="17.0" Race="7"/>
+<rp Div="J/24" Ent="192" Pos="49152" Pts="17.0" Race="7" Toss="true"/>
+</RacePointsList>
+<SeriesPointsList>
+<sp Div="Etchells" Ent="130" Pos="1" Pts="3.0"/>
+<sp Div="Etchells" Ent="132" Pos="2" Pts="4.0"/>
+<sp Div="Etchells" Ent="140" Pos="3" Pts="5.0"/>
+<sp Div="Etchells" Ent="141" Pos="4" Pts="6.0"/>
+<sp Div="Etchells" Ent="133" Pos="5" Pts="6.0001"/>
+<sp Div="Etchells" Ent="135" Pos="6" Pts="9.0"/>
+<sp Div="Etchells" Ent="138" Pos="7" Pts="10.0"/>
+<sp Div="Etchells" Ent="139" Pos="8" Pts="11.0"/>
+<sp Div="Etchells" Ent="131" Pos="9" Pts="13.0"/>
+<sp Div="Etchells" Ent="134" Pos="10" Pts="17.0"/>
+<sp Div="Etchells" Ent="136" Pos="11" Pts="18.0"/>
+<sp Div="Etchells" Ent="137" Pos="12" Pts="23.0"/>
+<sp Div="Etchells" Ent="129" Pos="13" Pts="24.0"/>
+<sp Div="Etchells" Ent="127" Pos="14" Pts="26.0"/>
+<sp Div="Etchells" Ent="126" Pos="15" Pts="26.0001"/>
+<sp Div="Etchells" Ent="125" Pos="16" Pts="36.0" Tied="true"/>
+<sp Div="Etchells" Ent="128" Pos="16" Pts="36.0" Tied="true"/>
+<sp Div="J/22" Ent="142" Pos="1" Pts="1.0"/>
+<sp Div="J/22" Ent="171" Pos="2" Pts="1.0001"/>
+<sp Div="J/22" Ent="163" Pos="3" Pts="2.0"/>
+<sp Div="J/22" Ent="168" Pos="4" Pts="3.0"/>
+<sp Div="J/22" Ent="155" Pos="5" Pts="3.0001"/>
+<sp Div="J/22" Ent="144" Pos="6" Pts="4.0"/>
+<sp Div="J/22" Ent="166" Pos="7" Pts="4.0001"/>
+<sp Div="J/22" Ent="149" Pos="8" Pts="6.0"/>
+<sp Div="J/22" Ent="174" Pos="9" Pts="6.0001"/>
+<sp Div="J/22" Ent="158" Pos="10" Pts="7.0"/>
+<sp Div="J/22" Ent="159" Pos="11" Pts="8.0"/>
+<sp Div="J/22" Ent="161" Pos="12" Pts="8.0001"/>
+<sp Div="J/22" Ent="165" Pos="13" Pts="9.0"/>
+<sp Div="J/22" Ent="146" Pos="14" Pts="10.0"/>
+<sp Div="J/22" Ent="178" Pos="15" Pts="11.0"/>
+<sp Div="J/22" Ent="173" Pos="16" Pts="11.0001"/>
+<sp Div="J/22" Ent="156" Pos="17" Pts="13.0"/>
+<sp Div="J/22" Ent="152" Pos="18" Pts="13.0001"/>
+<sp Div="J/22" Ent="169" Pos="19" Pts="14.0"/>
+<sp Div="J/22" Ent="164" Pos="20" Pts="15.0"/>
+<sp Div="J/22" Ent="175" Pos="21" Pts="15.0001"/>
+<sp Div="J/22" Ent="162" Pos="22" Pts="17.0"/>
+<sp Div="J/22" Ent="172" Pos="23" Pts="19.0"/>
+<sp Div="J/22" Ent="153" Pos="24" Pts="21.0"/>
+<sp Div="J/22" Ent="157" Pos="25" Pts="22.0"/>
+<sp Div="J/22" Ent="170" Pos="26" Pts="24.0"/>
+<sp Div="J/22" Ent="167" Pos="27" Pts="25.0"/>
+<sp Div="J/22" Ent="154" Pos="28" Pts="26.0"/>
+<sp Div="J/22" Ent="150" Pos="29" Pts="27.0"/>
+<sp Div="J/22" Ent="151" Pos="30" Pts="27.0001"/>
+<sp Div="J/22" Ent="160" Pos="31" Pts="28.0"/>
+<sp Div="J/22" Ent="143" Pos="32" Pts="30.0"/>
+<sp Div="J/22" Ent="177" Pos="33" Pts="30.0001"/>
+<sp Div="J/22" Ent="176" Pos="34" Pts="31.0"/>
+<sp Div="J/22" Ent="147" Pos="35" Pts="32.0"/>
+<sp Div="J/22" Ent="148" Pos="36" Pts="35.0"/>
+<sp Div="J/22" Ent="145" Pos="37" Pts="38.0"/>
+<sp Div="J/24" Ent="179" Pos="1" Pts="1.0"/>
+<sp Div="J/24" Ent="188" Pos="2" Pts="1.0001"/>
+<sp Div="J/24" Ent="182" Pos="3" Pts="2.0"/>
+<sp Div="J/24" Ent="194" Pos="4" Pts="2.0001"/>
+<sp Div="J/24" Ent="183" Pos="5" Pts="3.0"/>
+<sp Div="J/24" Ent="180" Pos="6" Pts="4.0"/>
+<sp Div="J/24" Ent="193" Pos="7" Pts="5.0"/>
+<sp Div="J/24" Ent="185" Pos="8" Pts="5.0001"/>
+<sp Div="J/24" Ent="187" Pos="9" Pts="7.0"/>
+<sp Div="J/24" Ent="181" Pos="10" Pts="8.0"/>
+<sp Div="J/24" Ent="191" Pos="11" Pts="10.0"/>
+<sp Div="J/24" Ent="189" Pos="12" Pts="11.0"/>
+<sp Div="J/24" Ent="190" Pos="13" Pts="13.0"/>
+<sp Div="J/24" Ent="192" Pos="14" Pts="13.0001"/>
+<sp Div="J/24" Ent="186" Pos="15" Pts="14.0"/>
+<sp Div="J/24" Ent="184" Pos="16" Pts="17.0"/>
+</SeriesPointsList>
+</Stage>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="1" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="None"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="1" Show1DTimes="true" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="None"/>
+<item value="1.1"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="1" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="None"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="None"/>
+<item value="None"/>
+<item value="1.1"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="None"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.2"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
+</Regatta>

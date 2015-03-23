@@ -343,7 +343,6 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 
 	public void reportForDivision(PrintWriter pw, RacePointsList racePoints, String divName, boolean is1D,
 			boolean isSubDiv) {
-		List<String> fNotes = new ArrayList<String>();
 		racePoints.sortPoints();
 
 		// performance thing... go thru the map iterators once, make an array

@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
+import org.gromurph.javascore.JavaScoreProperties;
 import org.gromurph.javascore.exception.ScoringException;
 import org.gromurph.javascore.model.AbstractDivision;
 import org.gromurph.javascore.model.Race;
@@ -31,13 +32,30 @@ public class DailyStageScoring extends MultiStageScoring {
 		return ok;
 	}
 
+	public static DailyStageScoring createFromSingleStage( SingleStageScoring ss) {
+		DailyStageScoring ms = new DailyStageScoring();
+		Regatta r = JavaScoreProperties.getRegatta();
+		Stage s = ms.getStage(Stage.FLEET);
+		s.setName( Stage.ALLDAYS);
+		s.setModel( ss.getModel());
+		for (AbstractDivision div : r.getDivisions()) {
+			s.divisions.add(div);
+		}
+		return ms;
+	}
+		
 	
 	@Override
-	public void scoreRegatta() throws ScoringException {
+	public void initializeScoring() {
 		// when we get here, we should know we have at least one
 		// race and that all races have a start date
+		initializeDailyStages();	
 		
-		initializeDailyStages();
+		super.initializeScoring();
+	}
+
+	@Override
+	public void scoreRegatta() throws ScoringException {
 		
 		// turn multi-stage scoring lose on the whole chebang
 		super.scoreRegatta();
@@ -61,14 +79,16 @@ public class DailyStageScoring extends MultiStageScoring {
 		Object[] sortedDates = dates.toArray();
 		Arrays.sort( sortedDates);
 		
-		Stage prevStage = null;
+		// create an allday stage
+		Stage a = new DailyStage( this, (Date) sortedDates[0], (Date) sortedDates[ sortedDates.length-1]);
+		a.setName( Stage.ALLDAYS);
+		stages.add(a);
+		
 		// recreate a new stage for each day of with racing
 		for ( int d = 0; d < sortedDates.length; d++) {
 			
 			Stage s = new DailyStage( this, (Date) sortedDates[d]);
-			s.setPrevStage(s);
 			stages.add(s);
-			prevStage = s;
 		}
 	}
 

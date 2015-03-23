@@ -300,6 +300,14 @@ public class PanelRegatta extends BaseEditor<Regatta> implements ActionListener,
 		HelpManager.getInstance().registerHelpTopic(fCheckBoxMultistage, "regatta.fCheckBoxMultistage");
 		gridbagAdd(fPanelParams, fCheckBoxMultistage, 1, row, 1, GridBagConstraints.WEST, GridBagConstraints.HORIZONTAL);
 
+		row++;
+		fCheckBoxDailyScores = new JCheckBox(res.getString("RegattaLabelDailyScores"));
+		fCheckBoxDailyScores.setName("fCheckBoxDailyScores");
+		fCheckBoxDailyScores.setToolTipText(res.getString("RegattaLabelDailyScoresToolTip"));
+		fCheckBoxDailyScores.setMnemonic('d');
+		HelpManager.getInstance().registerHelpTopic(fCheckBoxDailyScores, "regatta.fCheckBoxDailyScores");
+		gridbagAdd(fPanelParams, fCheckBoxDailyScores, 1, row, 1, GridBagConstraints.WEST, GridBagConstraints.HORIZONTAL);
+
 		// ====== build DivisionsIn panel
 
 		JPanel fPanelDivisions = new JPanel(new BorderLayout());
@@ -391,6 +399,7 @@ public class PanelRegatta extends BaseEditor<Regatta> implements ActionListener,
 		fCheckBoxUseBowNumbers.addActionListener(this);
 		fCheckBoxFinal.addActionListener(this);
 		fCheckBoxMultistage.addActionListener(this);
+		fCheckBoxDailyScores.addActionListener(this);
 
 		fButtonAddDivision.addActionListener(this);
 		fButtonRemoveDivision.addActionListener(this);
@@ -418,6 +427,7 @@ public class PanelRegatta extends BaseEditor<Regatta> implements ActionListener,
 		fCheckBoxUseBowNumbers.removeActionListener(this);
 		fCheckBoxFinal.removeActionListener(this);
 		fCheckBoxMultistage.removeActionListener(this);
+		fCheckBoxDailyScores.removeActionListener(this);
 
 		fButtonStageScoring.removeActionListener(this);
 		fButtonAddDivision.removeActionListener(this);
@@ -464,6 +474,7 @@ public class PanelRegatta extends BaseEditor<Regatta> implements ActionListener,
 	JCheckBox fCheckBoxUseBowNumbers;
 	JCheckBox fCheckBoxFinal;
 	JCheckBox fCheckBoxMultistage;
+	JCheckBox fCheckBoxDailyScores;
 	JButton fButtonStageScoring;
 	Action fActionFleets;
 	Action fActionSubDivisions;
@@ -486,6 +497,8 @@ public class PanelRegatta extends BaseEditor<Regatta> implements ActionListener,
 			fCheckBoxFinal_actionPerformed();
 		else if (object == fCheckBoxMultistage)
 			fCheckBoxMultistage_actionPerformed();
+		else if (object == fCheckBoxDailyScores)
+			fCheckBoxDailyScores_actionPerformed();
 		else if (object == fButtonAddDivision)
 			fButtonAddDivision_actionPerformed();
 		else if (object == fButtonRemoveDivision)
@@ -561,6 +574,12 @@ public class PanelRegatta extends BaseEditor<Regatta> implements ActionListener,
 		} else {
 			fButtonStageScoring.setAction( fActionEditScoringOptions);
 		}
+		updateFields();
+	}
+
+	void fCheckBoxDailyScores_actionPerformed() {
+		boolean checked = fCheckBoxDailyScores.isSelected();
+		fRegatta.setDailyScoring(checked);
 		updateFields();
 	}
 
@@ -648,13 +667,19 @@ public class PanelRegatta extends BaseEditor<Regatta> implements ActionListener,
 			fButtonStageScoring.setEnabled(true);
 		}
 		fButtonEditDivision.setEnabled((fListDivs.getSelectedIndices().length == 1));
-		
+				
 		if (fRegatta.isMultistage()) {
 			// can't take a multi stage regatta with more than one stage back to single stage
-			fCheckBoxMultistage.setEnabled( ((MultiStageScoring) fRegatta.getScoringManager()).getNumStages() <= 1);
+			int nStages = ((MultiStageScoring) fRegatta.getScoringManager()).getNumStages();
+			fCheckBoxMultistage.setEnabled( nStages <= 1);
+			fCheckBoxDailyScores.setEnabled(false);
+		} else if (fRegatta.isDailyScoring()) {
+			fCheckBoxMultistage.setEnabled(false);
+			fCheckBoxDailyScores.setEnabled(true);
 		} else {
 			fCheckBoxMultistage.setEnabled(true);
-		}
+			fCheckBoxDailyScores.setEnabled(true);
+		}		
 	}
 
 	private void confirmOneDivision() {

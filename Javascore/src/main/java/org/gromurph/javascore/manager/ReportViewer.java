@@ -33,6 +33,8 @@ import org.gromurph.javascore.actions.ActionReportOneRace;
 import org.gromurph.javascore.actions.ActionReportRawFinish;
 import org.gromurph.javascore.actions.ActionReportRegattaTOC;
 import org.gromurph.javascore.actions.ActionReportScratch;
+import org.gromurph.javascore.actions.ActionReportSeriesStandingsAbstract;
+import org.gromurph.javascore.actions.ActionReportSeriesStandingsDailyStage;
 import org.gromurph.javascore.actions.ActionReportSeriesStandingsMultiStage;
 import org.gromurph.javascore.actions.ActionReportSeriesStandingsSingleStage;
 import org.gromurph.javascore.model.Entry;
@@ -103,13 +105,15 @@ public class ReportViewer {
 
 			new ActionReportFinish().createReportFile(dir, "finish.html", fRegatta, null);
 
-			if (fRegatta.isMultistage()) {
-				new ActionReportSeriesStandingsMultiStage().createReportFile(dir, getRegattaName() + ".html", fRegatta,
-						null);
+			ActionReportSeriesStandingsAbstract reporter = null;
+			if (fRegatta.isDailyScoring()) {
+				reporter = new ActionReportSeriesStandingsDailyStage();
+			} else if (fRegatta.isMultistage()) {
+				reporter = new ActionReportSeriesStandingsMultiStage();
 			} else {
-				new ActionReportSeriesStandingsSingleStage().createReportFile(dir, getRegattaName() + ".html",
-						fRegatta, null);
+				reporter = new ActionReportSeriesStandingsSingleStage();
 			}
+			reporter.createReportFile(dir, getRegattaName() + ".html", fRegatta, null);
 
 			ActionReportOneRace raceReport = new ActionReportOneRace();
 			for (int i = 0; i < fRegatta.getNumRaces(); i++) {

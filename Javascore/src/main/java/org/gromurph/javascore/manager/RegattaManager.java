@@ -50,7 +50,10 @@ public class RegattaManager {
 	}
 
 	public static Regatta readTestRegatta(String inFile) throws IOException {
-		return readRegattaFromDisk( "build/resources/test/testregattas/" + inFile);
+		Regatta r = readRegattaFromDisk( "build/resources/test/testregattas/" + inFile);
+		if (r != null) return r;
+		r = readRegattaFromDisk( "src/test/resources/testregattas/" + inFile);
+		return r;
 	}
 
 	public static Regatta readRegattaFromDisk(String inFile) throws IOException {

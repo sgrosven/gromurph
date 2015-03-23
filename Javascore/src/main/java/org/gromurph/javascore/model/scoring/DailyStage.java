@@ -8,45 +8,88 @@ import org.gromurph.javascore.exception.ScoringException;
 import org.gromurph.javascore.model.AbstractDivision;
 import org.gromurph.javascore.model.EntryList;
 import org.gromurph.javascore.model.Race;
+import org.gromurph.javascore.model.RaceList;
 import org.gromurph.javascore.model.RacePointsList;
 import org.gromurph.javascore.model.Regatta;
 
 public class DailyStage extends Stage {
 
-	public Date getRaceDate() {
-		return raceDate;
-	}
+	// none of these are saved as they are re-created each time the regatta is scored
+	private Date startDate;
+	private Date endDate;
+	private RaceList races;
 
-	public void setRaceDate(Date raceDate) {
-		this.raceDate = raceDate;
-		
-		if (raceDate != null) {
-    		DateFormat fmt = new SimpleDateFormat("EEE dd-MMM");
-    		String dayName = fmt.format(raceDate);
-    		setName( dayName);
-		} else {
-			setName( "No date");
-		}
-	}
-
-	private Date raceDate;
-	
 	public DailyStage(RegattaScoringModel mgr, Date raceDate) {
+		this( mgr, raceDate, raceDate);
+	}
+	public DailyStage(RegattaScoringModel mgr, Date startDate, Date endDate) {
 		super(mgr);
 
-		setPrevStage( prevStage);
+		setPrevStage( null);
 		setCombinedQualifying(false);
-		setRaceDate( raceDate);
+		setStartDate( startDate);
+		setEndDate( endDate);
+		setScoreCarryOver( ScoreCarryOver.NONE);
+		setTiebreakCarryOver( TiebreakCarryOver.NONE);
+		setThrowoutCarryOver(ThrowoutCarryOver.NONE);
 		
 		// add all divisions
 		for (AbstractDivision div : mgr.getRegatta().getAllDivisions()) {
 			addDivision(div);
 		}
-		
 	}
 
+	public Date getStartDate() {
+		return startDate;
+	}
+
+	public void setStartDate(Date raceDate) {
+		this.startDate = raceDate;
+		updateName();
+	}
+
+	
+	public Date getEndDate() {
+		return endDate;
+	}
+
+	public void setEndDate(Date raceDate) {
+		this.endDate = raceDate;
+		updateName();
+	}
+
+	private void updateName() {
+  		DateFormat fmt = new SimpleDateFormat("EEE dd-MMM");
+		String sName = (startDate == null) ? "None" : fmt.format(startDate);
+		String eName = (endDate == null) ? "None" : fmt.format(endDate);
+		
+		if (startDate != null) {
+			if ( endDate != null) {
+				if (startDate == endDate) {
+					// one date
+					setName( sName);
+				} else {
+					// both dates - different
+					setName( sName + " - " + eName); 
+				}
+			} else {
+				// only a start date
+				setName( sName + " and all after");
+			}
+		} else if (endDate != null) {
+			// only an endDate
+			setName( "All through " + endDate);
+		} else {
+			// both null
+			setName( "All races");
+		}
+	}
+	
 	@Override
 	public void scoreRaces() throws ScoringException {
+		
+		races = new RaceList();
+
 		Regatta regatta = parentMgr.getRegatta();
 
 		for (AbstractDivision div : getDivisions()) {
@@ -55,14 +98,21 @@ public class DailyStage extends Stage {
 
 			// calc races points for each race on this date
 			for (Race race : regatta.getRaces()) {
-				if (race.getStartDate().equals( this.raceDate)) {
-    				logger.trace( " scoring {} in stage ", race.getName(), this.getName());
-    				RacePointsList divPointsList = scoreDivisionRace(div, race);
-    				fPointsList.addAll(divPointsList);
+				if (startDate == null || !race.getStartDate().before( startDate)) {
+					// start is acceptable
+					if (endDate == null || !race.getStartDate().after(endDate)) {
+						races.add( race);
+						// end is acceptable, keep this race
+	    				logger.trace( " scoring {} in stage ", race.getName(), this.getName());
+	    				RacePointsList divPointsList = scoreDivisionRace(div, race);
+	    				fPointsList.addAll(divPointsList);
+					}
 				}
 			}
 		}
 	}
 
-
+	public RaceList getRaces() {
+		return races;
+	}
 }

@@ -111,6 +111,9 @@ public class Stage extends BaseObject implements StageScoringModel, Constants {
 	public static final String SILVER = "Silver";
 	public static final String FLEET = "Fleet";
 	
+	public static final String ALLDAYS = "AllDays";
+	public static final String DAILY = "Daily";
+	
 	protected RegattaScoringModel parentMgr;
 	protected String name;
 	protected int stageRank;

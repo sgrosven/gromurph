@@ -595,6 +595,8 @@ public abstract class ActionReport extends AbstractAction implements ActionListe
 			string = Util.stringReplace(string, REPORT_KEY, getReportName());
 			pw.print(string);
 
+			initializeNotes();
+
 			generateHeader(pw);
 			generateBody(pw, obj);
 			generateFooter(pw);
@@ -621,6 +623,12 @@ public abstract class ActionReport extends AbstractAction implements ActionListe
 					fRegatta.getSaveDate()));
 		}
 		pw.println("</p><br>");
+	}
+
+	protected List<String> fNotes;
+
+	protected void initializeNotes() {
+		fNotes = new ArrayList<String>();
 	}
 
 	protected void formatNotes(PrintWriter pw, List<String> notes) {

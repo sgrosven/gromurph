@@ -65,7 +65,6 @@ public class ScoringLowPointTests extends JavascoreTestCase
 		reg = new Regatta();
 		JavaScoreProperties.setRegatta(reg);
 		reg.removeAllDivisions();
-		ScoringUtilities.testing = true;
     }
 
 	public void testLongSeries()

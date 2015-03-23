@@ -29,7 +29,7 @@ public class ScoringOptions extends BaseObject implements Constants {
 	 * option per RRS2013 A9 for different penalties for "long" series If true, the penalties as per A9 will be applied
 	 */
 	private boolean fIsLongSeries = false;
-
+	
 	/**
 	 * throwouts, this vector is minimum number of races for i'th throwout.
 	 */
@@ -86,6 +86,7 @@ public class ScoringOptions extends BaseObject implements Constants {
 			
 			this.fTiebreaker = that.fTiebreaker;
 			this.fUserCanChangeTiebreaker = that.fUserCanChangeTiebreaker;
+			
 		} catch (java.lang.ClassCastException e) {}
 	}
 

@@ -126,8 +126,6 @@ public abstract class ScoringUtilities implements Constants {
 		return warnings;
 	}
 
-	public static boolean testing = false;
-
 	public static void mergeEntries(EntryList existingEntries, EntryList newEntries) {
 		for (Entry ent : newEntries) {
 			if (!existingEntries.contains(ent))

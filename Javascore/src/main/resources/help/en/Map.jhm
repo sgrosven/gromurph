@@ -27,6 +27,7 @@
 <mapID target="regatta.fCheckBoxUseBowNumbers" url="PanelRegatta.html#usebownumbers" />
 <mapID target="regatta.fCheckBoxFinal" url="PanelRegatta.html#final" />
 <mapID target="regatta.fCheckBoxMultistage" url="PanelRegatta.html#splitfleet" />
+<mapID target="regatta.fCheckBoxDailyScores" url="PanelRegatta.html#dailyscores" />
 <mapID target="regatta.fListDivisions" url="PanelRegatta.html#divisions" />
 <mapID target="regatta.fButtonAdd" url="PanelRegatta.html#add" />
 <mapID target="regatta.fButtonRemove" url="PanelRegatta.html#remove" />

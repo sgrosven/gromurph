@@ -35,6 +35,7 @@ import org.gromurph.javascore.actions.ActionReportRawFinish;
 import org.gromurph.javascore.actions.ActionReportScratch;
 import org.gromurph.javascore.actions.ActionReportSeriesStandingsSingleStage;
 import org.gromurph.javascore.manager.RegattaManager;
+import org.gromurph.javascore.model.scoring.DailyStageScoring;
 import org.gromurph.javascore.model.scoring.MultiStageScoring;
 import org.gromurph.javascore.model.scoring.RegattaScoringModel;
 import org.gromurph.javascore.model.scoring.SingleStageScoring;
@@ -84,6 +85,11 @@ public class Regatta extends BaseObject {
 	private boolean fIsMultiStage = false;
 	private String fComment = null;
 
+	/**
+	 * if true, then a stage/series score for each day of racing will also be calculated
+	 */
+	private boolean fDailyScoring = false;
+
 	public transient static final String NAME_PROPERTY = "Name";
 	public transient static final String PRO_PROPERTY = "Pro";
 	public transient static final String JURYCHAIR_PROPERTY = "JuryChair";
@@ -110,6 +116,7 @@ public class Regatta extends BaseObject {
 	private transient static final String SUBDIVISION_PROPERTY = "SubDivision";
 	private transient static final String VERSION_PROPERTY = "Version";
 	private transient static final String JAVASCORE_VERSION = "JSVersion";
+	private transient static final String DAILYSCORING_PROPERTY = "DailyScoring";
 
 	public static final String NONAME = Util.NONAME;
 
@@ -162,6 +169,7 @@ public class Regatta extends BaseObject {
 		e.setAttribute(USEBOWNUMBERS_PROPERTY, new Boolean(isUseBowNumbers()).toString());
 		e.setAttribute(COMMENT_PROPERTY, fComment);
 		e.setAttribute(IFEVENTID_PROPERTY, fIfEventId);
+		e.setAttribute(DAILYSCORING_PROPERTY, new Boolean(fDailyScoring).toString());
 
 		if (fDivisions.size() > 0)
 			fDivisions.xmlWrite(e.createChildElement(DIVISIONLIST_PROPERTY), DIVISION_PROPERTY);
@@ -303,6 +311,15 @@ public class Regatta extends BaseObject {
 			fScores.xmlRead(n2, this);
 		}			
 		
+		value = n.getAttribute(DAILYSCORING_PROPERTY);
+		if (value != null) {
+			boolean b = value.toString().equalsIgnoreCase("true");
+			try {
+				setDailyScoring(b);
+			} catch (Exception e) {}
+		}
+
+
 		if (fVersion < 201) {
 			// need to rescore to get the seriespoint initialized correctly
 			mgr.scoreRegatta();
@@ -357,12 +374,27 @@ public class Regatta extends BaseObject {
 		fIsMultiStage = b;
 		
 		if (oldb != b) {
-			if (b) fScores = MultiStageScoring.createFromSingleStage( (SingleStageScoring)fScores);
+			if (fIsMultiStage) fScores = MultiStageScoring.createFromSingleStage( (SingleStageScoring)fScores);
 			else fScores = SingleStageScoring.createFromMultiStage( (MultiStageScoring)fScores);
 		}
 		firePropertyChange(MULTISTAGE_PROPERTY, oldb, new Boolean(fIsMultiStage));
 	}
 	
+	public void setDailyScoring(boolean b) {
+		boolean oldb = fDailyScoring;
+		fDailyScoring = b;
+		
+		if (oldb != b) {
+			if (fDailyScoring) fScores = DailyStageScoring.createFromSingleStage( (SingleStageScoring) fScores);
+			else fScores = SingleStageScoring.createFromMultiStage( (DailyStageScoring) fScores);
+		}
+		firePropertyChange( DAILYSCORING_PROPERTY, oldb, fDailyScoring);
+	}
+
+	public boolean isDailyScoring() {
+		return fDailyScoring;
+	}
+
 	
 
 	public int compareTo(Object obj) {
