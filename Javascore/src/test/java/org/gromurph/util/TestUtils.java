@@ -44,8 +44,8 @@ import org.slf4j.LoggerFactory;
  */
 public class TestUtils 
 {
-	public static String MAVEN_TARGET_TEST_CLASSES = "/target/test-classes";
-	public static String MAVEN_TARGET_CLASSES = "/target/classes";
+	public static String TEST_CLASSES_DIR = "build/classes";
+	public static String CLASSES_DIR = "build/classes";
 	public static double ERR_MARGIN = 0.00001;
 	
    public static Test suite( Class c)

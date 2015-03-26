@@ -1,5 +1,5 @@
 apply plugin: 'java'
-// apply plugin: 'com.bmuschko.izpack'
+apply plugin: 'com.bmuschko.izpack'
 
 import org.apache.tools.ant.filters.ReplaceTokens
 
@@ -7,10 +7,10 @@ sourceCompatibility = 1.7
 version = '7.3.1'
 ext.releaseDate = '2 April 2015'
 
-ext.izpackLibs = "/Users/sandygrosvenor/Dropbox/dev/eclipseworkspace/izpack4/lib"
-ext.distDir = "$buildDir/distributions"
-ext.assembleDir = "$buildDir/assemble"
-ext.libsDir = "$buildDir/libs"
+ext.buildDir = "build"
+ext.distDir = "build/distributions"
+ext.assembleDir = "build/assemble"
+ext.libsDir = "build/libs"
 
 jar {
 	archiveName = 'JavaScore.jar'
@@ -32,30 +32,30 @@ repositories {
 }
 
 dependencies {
-   compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
-   compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.2.12'
-   compile group: 'javax.help', name: 'javahelp', version: '2.0.05'
-   compile group: 'com.toedter', name: 'jcalendar', version: '1.4'
-   compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.10'
-   compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.1'
-   compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.1'
-   compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.1'
-   compile group: 'commons-io', name: 'commons-io', version: '2.4'
-   compile group: 'commons-net', name: 'commons-net', version: '3.3'
-   compile group: 'commons-codec', name: 'commons-codec', version: '1.10'
-   compile group: 'jakarta-regexp', name: 'jakarta-regexp', version: '1.4'
-   compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.4'
+   compile 'commons-collections:commons-collections:3.2'
+   compile 'javax.xml.bind:jaxb-api:2.2.12'
+   compile 'javax.help:javahelp:2.0.05'
+   compile 'com.toedter:jcalendar:1.4'
+   compile 'org.slf4j:slf4j-api:1.7.10'
+   compile 'org.apache.logging.log4j:log4j-api:2.1'
+   compile 'org.apache.logging.log4j:log4j-core:2.1'
+   compile 'org.apache.logging.log4j:log4j-slf4j-impl:2.1'
+   compile 'commons-io:commons-io:2.4'
+   compile 'commons-net:commons-net:3.3'
+   compile 'commons-codec:commons-codec:1.10'
+   compile 'jakarta-regexp:jakarta-regexp:1.4'
+   compile 'org.apache.httpcomponents:httpclient:4.4'
     
    // testing only 
-   testCompile group: 'junit', name: 'junit', version: '4.+'
-   testCompile group: 'org-uispec4j', name: 'uispec4j', version: '2.5-SNAPSHOT'
+   testCompile 'junit:junit:4.+'
+   testCompile 'org-uispec4j:uispec4j:2.5-SNAPSHOT'
    
    // local repo
-   compile group: 'dbswing', name: 'dbswing', version: '0.0'
-   compile group: 'sailing-org', name: 'sailingXrr', version: '1.3'
+   compile 'dbswing:dbswing:0.0'
+   compile 'sailing-org:sailingXrr:1.3'
     
    // release packaging
-   // izpack 'org.codehaus.izpack:izpack-standalone-compiler:4.3.5'
+   izpack 'org.codehaus.izpack:izpack-standalone-compiler:4.3.4'
 
 }
 
@@ -63,12 +63,13 @@ buildscript {
 	repositories {
 		jcenter()
 	}
-//	dependencies {
-//   		classpath 'com.bmuschko:gradle-izpack-plugin:2.0'
-//	}
+	dependencies {
+        classpath 'com.bmuschko:gradle-izpack-plugin:2.0'
+    }
 }
 
-task compileJava.doFirst {
+compileJava.doFirst {
+	println "compileJava.doFirst, version: $version, releaseDate: $releaseDate"
 	
 	file('src/main/java/org/gromurph/javascore/JavaScoreVersion.java').delete()
 	copy {
@@ -80,53 +81,84 @@ task compileJava.doFirst {
 	}
 }
 
-//assemble {
-//	outputs = new File( '$distDir/Javascore-install-$version.jar')
-//} 
+//izPackCreateInstaller.dependsOn assembleIzpack
 
+//task assembleIzpack << {
 assemble.doLast {
- 	new File( assembleDir).mkdirs()
- 	new File( libsDir).mkdirs()
-    
+
+	println "assembleIzpack: VERSION=$version BUILD Date=$releaseDate RELEASEDIR=$distDir"
+
+	new File( libsDir).mkdirs()
+
+	def aDir = new File( assembleDir)
+	aDir.delete()
+	aDir.mkdirs()
+	
     copy {
-    	into libsDir
-   		from configurations.runtime
+    	into assembleDir
+    	from 'src/main/izpack'
+    	include '*.master'
+    	rename { String fileName -> fileName.replace('.master', '') }
+    	filter( ReplaceTokens, tokens: [ version: version, releasedate: releaseDate])
+     }
+
+	copy {
+		into assembleDir
+		from 'src/main/izpack'
+		include '*.*'
+		exclude '*.master'
+		exclude 'reports'
+		exclude 'lib'
+	}
+
+	copy {
+		into assembleDir
+		from libsDir
+		include '*.*'
+	}
+		
+    copy {
+    	into assembleDir
+   		from configurations.compile
 	}
     copy {
     	into assembleDir
-    	from "src/main/izpack"
+   		from configurations.runtime
 	}
 
-	println 'running buildIzPackInstaller'
+}
+
+== = = = = =* * * * *  now generates a proper installer that runs.
+    need to fix the mac install directory
+    javascore.jar is not auto-running on mac
+    test on window
+    
+izpack {
+	println "izpack: VERSION=$version BUILD Date=$releaseDate RELEASEDIR=$distDir"
+
+	baseDir = file('build/assemble')
+	installFile = file('build/assemble/izpack-javascore-install.xml')
+	outputFile = file("build/distributions/Javascore-install-${version}.jar")
 	
-	println 'importing ant build'	
-	ant.importBuild 'build.xml'
+	appProperties = ['app.group': 'gromurph', 'app.name': 'Javascore', 'app.title': 'Javascore sailboat regatta scoring',
+                     'app.version': version, 'app.subpath': "javascore-$version"]
 	
-	ant.properties.app_version = version
-	ant.properties.app_builddate = releaseDate
-	
-	println 'running antBuildAssembler'
-	antBuildAssembler
-	
-	println 'running antBuildInstaller'
-	antBuildInstaller
 	
 	/*
-	FileCollection cp = files( '$izpackLibs/*.jar')
-	println 'izpack classpath is: ' + cp.join(' ')
+	def distDirectory = file( distDir)
+	distDirectory.delete()
+	distDirectory.mkdirs()
+
+	FileCollection cp = files( dir: '/Users/sandygrosvenor/Dropbox/dev/eclipseworkspace/izpack4/lib')
 	ant.taskdef( name: 'izpack',
 		classpath: cp,
 		classname: 'com.izforge.izpack.ant.IzPackTask')
 
-	ant.mkdir( dir: '$distDir')
-	file( '$distDir/Javascore-install-$version.jar').delete()
-    	
-    ant.izpack( 
+	ant.izpack( 
     	input: '$assembleDir/izpack-javascore-install.xml',
-	    output: '$distDir/Javascore-install-$version.jar',
+	    output: "$distDir/Javascore-install-${version}.jar",
     	installerType: 'standard',
     	basedir: '$buildDir/assemble',
     	izPackDir: '$izpackDir/' )
-    	*/
-    	
+	*/
 }

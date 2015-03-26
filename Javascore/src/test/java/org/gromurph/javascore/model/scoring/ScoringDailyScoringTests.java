@@ -47,7 +47,11 @@ public class ScoringDailyScoringTests extends JavascoreTestCase
 		Regatta reg = loadTestRegatta( "2007_NOOD_DIV_1.regatta");
 		assertNotNull(reg);
 		
+		assertTrue( reg.isDailyScoring());
+		assertTrue( reg.getScoringManager() instanceof DailyStageScoring);
+		
 		// starts without daily scoring, should be singlestage event
+		reg.setDailyScoring(false);
 		assertFalse( reg.isDailyScoring());
 		assertTrue( reg.getScoringManager() instanceof SingleStageScoring);
 		

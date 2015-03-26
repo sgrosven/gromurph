@@ -61,7 +61,7 @@ public class HelpTests extends UtilTestCase {
 
 	public void testCheckHelpXmlSyntax() {
 		fHelpSet = JavaScoreProperties.HELP_SET;
-		fBaseDir = Util.getWorkingDirectory() + TestUtils.MAVEN_TARGET_CLASSES + "/help";
+		fBaseDir = Util.getWorkingDirectory() + TestUtils.CLASSES_DIR + "/help";
 
 		File helpDir = new File(fBaseDir);
 		assertNotNull(helpDir);

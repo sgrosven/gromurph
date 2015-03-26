@@ -2,7 +2,7 @@
 
 <installation version="1.0">
 
-	<!-- @param@ are replace by release specific info by gradle at build time -->
+	<!-- at-param-at are replace by release specific info by gradle at build time -->
 
     <info>
         <appname>Javascore</appname>
