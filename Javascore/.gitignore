@@ -1,8 +1,8 @@
-/target/
-/.settings/
+**/target/
+**/.settings/
 **/.DS_Store
 **/reports
-/build/
-/bin/
+**/build/
+**/bin/
 .gradle
-.classpath
+**/.classpath

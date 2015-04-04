@@ -24,7 +24,7 @@
     
     
     <resources>
-        <res id="HTMLLicencePanel.licence" 	src="javascore.license.htm"/>
+        <res id="HTMLHelloPanel.info" 	src="javascore.hellopanel.htm"/>
         <res id="HTMLLicencePanel.licence" 	src="javascore.license.htm"/>
         <res id="Installer.image" 		src="InstallGraphic.jpg" />
         <res id="TargetPanel.dir.macosx"	src="targetDir.mac.txt" />

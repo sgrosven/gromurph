@@ -11,39 +11,20 @@ ext.buildDir = "build"
 ext.distDir = "build/distributions"
 ext.assembleDir = "build/assemble"
 ext.libsDir = "build/libs"
-/*
-jar {
-	archiveName = 'JavaScore.jar'
 
-    manifest {
-        attributes 'Implementation-Title': 'JavaScore Regatta Scoring, version ' + version,
-                   'Implementation-Version': version,
-                   'Main-Class': 'org.gromurph.javascore.JavaScore',
-                   'Class-Path' : configurations.runtime.join(' ')
-    }
-    
-    
-}
-*/
 jar {
-
     archiveName = "JavaScore.jar"
-
     from {
-
         configurations.runtime.collect {
             it.isDirectory() ? it : zipTree(it)
         }
-
         configurations.compile.collect {
             it.isDirectory() ? it : zipTree(it)
         }
     }
-
     manifest {
         attributes 'Main-Class': 'org.gromurph.javascore.JavaScore'
     }
-
     exclude 'META-INF/*.RSA', 'META-INF/*.SF','META-INF/*.DSA'
 }
 
@@ -92,22 +73,22 @@ buildscript {
     }
 }
 
-compileJava.doFirst {
+task initializeJavaScoreVersion << {
 	println "compileJava.doFirst, version: $version, releaseDate: $releaseDate"
 	
 	file('src/main/java/org/gromurph/javascore/JavaScoreVersion.java').delete()
 	copy {
 		from 'src/main/izpack'
 		into 'src/main/java/org/gromurph/javascore'
-		include 'JavaScoreVersion.java.master'
+		include 'master.JavaScoreVersion.java'
 		filter( ReplaceTokens, tokens: [ version: version, releasedate: releaseDate])
-		rename 'JavaScoreVersion.java.master', 	'JavaScoreVersion.java'
+		rename 'master.JavaScoreVersion.java', 	'JavaScoreVersion.java'
 	}
 }
 
-assemble.doLast {
+task prepareIzpack << {
 
-	println "assembleIzpack: VERSION=$version BUILD Date=$releaseDate RELEASEDIR=$distDir"
+	println "prepareIzpack: VERSION=$version BUILD Date=$releaseDate RELEASEDIR=$distDir"
 
 	new File( libsDir).mkdirs()
 
@@ -118,8 +99,8 @@ assemble.doLast {
     copy {
     	into assembleDir
     	from 'src/main/izpack'
-    	include '*.master'
-    	rename { String fileName -> fileName.replace('.master', '') }
+    	include 'master.*'
+    	rename { String fileName -> fileName.replace('master.', '') }
     	filter( ReplaceTokens, tokens: [ version: version, releasedate: releaseDate])
      }
 
@@ -127,7 +108,7 @@ assemble.doLast {
 		into assembleDir
 		from 'src/main/izpack'
 		include '*.*'
-		exclude '*.master'
+		exclude 'master.'
 		exclude 'reports'
 		exclude 'lib'
 	}
@@ -138,8 +119,9 @@ assemble.doLast {
 		include '*.*'
 	}
 		
-	izPackCreateInstaller.execute()
+
 }
+   
     
 izpack {
 	println "izpack: VERSION=$version BUILD Date=$releaseDate RELEASEDIR=$distDir"
@@ -151,22 +133,8 @@ izpack {
 	appProperties = ['app.group': 'gromurph', 'app.name': 'JavaScore', 'app.title': 'JavaScore sailboat regatta scoring',
                      'app.version': version, 'app.subpath': "javascore-$version"]
 	
-	
-	/*
-	def distDirectory = file( distDir)
-	distDirectory.delete()
-	distDirectory.mkdirs()
-
-	FileCollection cp = files( dir: '/Users/sandygrosvenor/Dropbox/dev/eclipseworkspace/izpack4/lib')
-	ant.taskdef( name: 'izpack',
-		classpath: cp,
-		classname: 'com.izforge.izpack.ant.IzPackTask')
-
-	ant.izpack( 
-    	input: '$assembleDir/izpack-javascore-install.xml',
-	    output: "$distDir/Javascore-install-${version}.jar",
-    	installerType: 'standard',
-    	basedir: '$buildDir/assemble',
-    	izPackDir: '$izpackDir/' )
-	*/
 }
+
+compileJava.dependsOn 'initializeJavaScoreVersion'
+izPackCreateInstaller.dependsOn 'assemble', 'prepareIzpack'
+

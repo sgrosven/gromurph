@@ -61,11 +61,13 @@ public class HelpTests extends UtilTestCase {
 
 	public void testCheckHelpXmlSyntax() {
 		fHelpSet = JavaScoreProperties.HELP_SET;
-		fBaseDir = Util.getWorkingDirectory() + TestUtils.CLASSES_DIR + "/help";
+		
 
-		File helpDir = new File(fBaseDir);
+		fBaseDir = "help";
+
+		File helpDir = Util.getFile( fBaseDir);
 		assertNotNull(helpDir);
-		assertTrue(helpDir.isDirectory());
+		assertTrue("helpDir does not exist: " + fBaseDir, helpDir.isDirectory());
 
 		fBads.clear();
 		checkHelpDir(helpDir);

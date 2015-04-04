@@ -89,17 +89,19 @@ public class Util {
 		return System.getProperty("os.name").toLowerCase().startsWith("mac");
 	}
 
+	private static String eclipseClassesAndResourcesDir = "/bin";
+	private static String gradleClassesDir = "/build/classes";
+	private static String gradleResourcesDir = "/build/resources";
+	
 	public static File getFile(String endName) {
 		if (endName.startsWith("/")) endName = endName.substring(1);
-		File file = getFile( getWorkingDirectory(), endName);
-		if (file.exists()) return file;
+		File file = getFile( getWorkingDirectory(), endName);;
 				
 		if (sTesting) {
-			// look in gradle's test-classes directory
-			file = getFile( getWorkingDirectory() + "build/classes/main", endName);
-			if (file.exists()) return file;
-			file = getFile( getWorkingDirectory() + "build/classes/test", endName);
-			if (file.exists()) return file;
+			// look in the following order:  eclipseClassesAndresources, gradleResources, gradleClasses
+			if (!file.exists()) file = getFile( getWorkingDirectory() + eclipseClassesAndResourcesDir, endName);			
+			if (!file.exists()) file = getFile( getWorkingDirectory() + gradleResourcesDir, endName);
+			if (!file.exists()) file = getFile( getWorkingDirectory() + gradleClassesDir, endName);
 		}
 		return file;
 	}

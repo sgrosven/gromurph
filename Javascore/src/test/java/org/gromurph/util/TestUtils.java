@@ -44,8 +44,7 @@ import org.slf4j.LoggerFactory;
  */
 public class TestUtils 
 {
-	public static String TEST_CLASSES_DIR = "build/classes";
-	public static String CLASSES_DIR = "build/classes";
+	
 	public static double ERR_MARGIN = 0.00001;
 	
    public static Test suite( Class c)
