@@ -24,17 +24,20 @@
     
     
     <resources>
-        <res id="LicencePanel.licence" 	src="javascore.license.txt"/>
+        <res id="HTMLLicencePanel.licence" 	src="javascore.license.htm"/>
+        <res id="HTMLLicencePanel.licence" 	src="javascore.license.htm"/>
         <res id="Installer.image" 		src="InstallGraphic.jpg" />
-        <res id="TargetPanel.dir"		src="targetDir.win.txt" />
+        <res id="TargetPanel.dir.macosx"	src="targetDir.mac.txt" />
+        <res id="TargetPanel.dir.windows"	src="targetDir.win.txt" />
+        <res id="TargetPanel.dir.unix"		src="targetDir.linux.txt" />
        	<res id="shortcutSpec.xml"		src="windows_shortcut_spec.xml" />
 		<res id="Unix_shortcutSpec.xml"	src="unix_shortcut_specification.xml" />
     </resources>
     
 
     <panels>
-        <panel classname="HelloPanel" />
-        <panel classname="LicencePanel" />
+        <panel classname="HTMLHelloPanel" />
+        <panel classname="HTMLLicencePanel" />
         <panel classname="TargetPanel" /> 
         <panel classname="ShortcutPanel" />
         <panel classname="InstallPanel" />

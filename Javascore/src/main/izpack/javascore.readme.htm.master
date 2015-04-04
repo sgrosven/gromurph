@@ -1,0 +1,104 @@
+<html>
+
+<head>
+<meta name=Title content="">
+<meta name=Keywords content="">
+<meta http-equiv=Content-Type content="text/html; charset=macintosh">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"Courier New";
+	panose-1:2 7 3 9 2 2 5 2 4 4;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\FF2D\FF33 \660E\671D";}
+@font-face
+	{font-family:"\FF2D\FF33 \660E\671D";}
+@font-face
+	{font-family:"Myriad Pro";
+	panose-1:2 11 5 3 3 4 3 2 2 4;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:Cambria;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:Courier;}
+span.PlainTextChar
+	{font-family:Courier;}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:Cambria;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 53.95pt 1.0in 53.95pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body bgcolor=white lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=MsoPlainText><span style='font-family:"Myriad Pro"'>Version @version@</span></p>
+
+<p class=MsoPlainText><span style='font-family:"Myriad Pro"'>April 2, 2015</span></p>
+
+<p class=MsoPlainText><span style='font-family:"Myriad Pro"'>&nbsp;</span></p>
+
+<p class=MsoPlainText><span style='font-family:"Myriad Pro"'>New Features:</span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:"Myriad Pro"'>-
+bugs in enter skipper/crew names fixed</span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:"Myriad Pro"'>-
+added support for daily results</span></p>
+
+<p class=MsoPlainText><span style='font-family:"Myriad Pro"'>&nbsp;</span></p>
+
+<p class=MsoPlainText><span style='font-family:"Myriad Pro"'>Internal project
+setup refactored for the modern era:</span></p>
+
+<p class=MsoPlainText style='margin-left:.5in;text-indent:-.25in'><span
+style='font-family:"Myriad Pro"'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Myriad Pro"'>source code handling moved
+to gitlabs</span></p>
+
+<p class=MsoPlainText style='margin-left:.5in;text-indent:-.25in'><span
+style='font-family:"Myriad Pro"'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Myriad Pro"'>project build moved to
+maven</span></p>
+
+<p class=MsoPlainText style='margin-left:.5in;text-indent:-.25in'><span
+style='font-family:"Myriad Pro"'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Myriad Pro"'>unit testing moved to
+junit 4</span></p>
+
+<p class=MsoPlainText style='margin-left:.5in;text-indent:-.25in'><span
+style='font-family:"Myriad Pro"'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Myriad Pro"'>gui testing moved to
+uispec4j&nbsp; </span></p>
+
+</div>
+
+</body>
+
+</html>

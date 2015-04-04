@@ -1,1 +1,1 @@
-Applications/JavaScore
+/Applications/JavaScore

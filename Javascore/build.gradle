@@ -11,16 +11,40 @@ ext.buildDir = "build"
 ext.distDir = "build/distributions"
 ext.assembleDir = "build/assemble"
 ext.libsDir = "build/libs"
-
+/*
 jar {
 	archiveName = 'JavaScore.jar'
 
     manifest {
         attributes 'Implementation-Title': 'JavaScore Regatta Scoring, version ' + version,
                    'Implementation-Version': version,
-                   'Main-Class': 'org.gromurph.javascore.Javascore',
+                   'Main-Class': 'org.gromurph.javascore.JavaScore',
                    'Class-Path' : configurations.runtime.join(' ')
     }
+    
+    
+}
+*/
+jar {
+
+    archiveName = "JavaScore.jar"
+
+    from {
+
+        configurations.runtime.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+
+    manifest {
+        attributes 'Main-Class': 'org.gromurph.javascore.JavaScore'
+    }
+
+    exclude 'META-INF/*.RSA', 'META-INF/*.SF','META-INF/*.DSA'
 }
 
 repositories {
@@ -47,7 +71,7 @@ dependencies {
    compile 'org.apache.httpcomponents:httpclient:4.4'
     
    // testing only 
-   testCompile 'junit:junit:4.+'
+   testCompile 'junit:junit:4.11'
    testCompile 'org-uispec4j:uispec4j:2.5-SNAPSHOT'
    
    // local repo
@@ -81,9 +105,6 @@ compileJava.doFirst {
 	}
 }
 
-//izPackCreateInstaller.dependsOn assembleIzpack
-
-//task assembleIzpack << {
 assemble.doLast {
 
 	println "assembleIzpack: VERSION=$version BUILD Date=$releaseDate RELEASEDIR=$distDir"
@@ -117,21 +138,8 @@ assemble.doLast {
 		include '*.*'
 	}
 		
-    copy {
-    	into assembleDir
-   		from configurations.compile
-	}
-    copy {
-    	into assembleDir
-   		from configurations.runtime
-	}
-
+	izPackCreateInstaller.execute()
 }
-
-== = = = = =* * * * *  now generates a proper installer that runs.
-    need to fix the mac install directory
-    javascore.jar is not auto-running on mac
-    test on window
     
 izpack {
 	println "izpack: VERSION=$version BUILD Date=$releaseDate RELEASEDIR=$distDir"
@@ -140,7 +148,7 @@ izpack {
 	installFile = file('build/assemble/izpack-javascore-install.xml')
 	outputFile = file("build/distributions/Javascore-install-${version}.jar")
 	
-	appProperties = ['app.group': 'gromurph', 'app.name': 'Javascore', 'app.title': 'Javascore sailboat regatta scoring',
+	appProperties = ['app.group': 'gromurph', 'app.name': 'JavaScore', 'app.title': 'JavaScore sailboat regatta scoring',
                      'app.version': version, 'app.subpath': "javascore-$version"]
 	
 	
