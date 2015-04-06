@@ -162,7 +162,9 @@ public class PanelRegatta extends BaseEditor<Regatta> implements ActionListener,
 	private void updateStageScoringFields() {
 		if (fRegatta == null) {
 			fCheckBoxMultistage.setSelected(false);
+			fCheckBoxDailyScores.setSelected(false);
 		} else {
+			fCheckBoxDailyScores.setSelected( fRegatta.isDailyScoring());
 			fCheckBoxMultistage.setSelected( fRegatta.isMultistage());
 			if (fRegatta.isMultistage()) {	
         		fButtonStageScoring.setAction( fActionEditStages);
