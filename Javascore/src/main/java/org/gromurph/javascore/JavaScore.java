@@ -110,6 +110,16 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 		// DONE Convert to Github and gradle
 		// DONE implement log file, with option to turn it on in javascore.ini?
 	
+	// BUGS (while trying to investigate AYC Wed Penalty issue
+	//  Finish dialog
+	//      putting 'nofin' on the finish side!
+	//      very buggy tracking of who has finished and who hasnt
+	//      close dialog, and return does not give same results
+	//  AYC scoring penalties wrong: 
+	//		10% of 7 yielding 0 pt penalty (should be 1);  
+	//      original complaint from 7.2.2: 10% 0f 10 yielding 2 pts (should be 1)
+	
+	
 	// TODO A+ export test:
 	//     series points and position do not export right
 	//     need race by race subdivision
