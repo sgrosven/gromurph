@@ -24,6 +24,7 @@ import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.TreeMap;
 
+import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComponent;
 
@@ -45,6 +46,9 @@ public class PanelStageDivisions extends PanelStartStop implements ActionListene
 	private Stage stage;
 	private List<JCheckBox> fCheckDivisions = new ArrayList<JCheckBox>();
 	private Map<String, AbstractDivision> allDivisions = new TreeMap<String, AbstractDivision>();
+	
+	private JButton fButtonStageDivisionClearAll;
+	private JButton fButtonStageDivisionSelectAll;
 
 	public PanelStageDivisions() {
 		super();
@@ -69,10 +73,18 @@ public class PanelStageDivisions extends PanelStartStop implements ActionListene
 	
 	@Override public void start() {
 		addCheckBoxListeners();
+		if (fButtonStageDivisionClearAll != null) {
+			fButtonStageDivisionClearAll.addActionListener(this);
+			fButtonStageDivisionSelectAll.addActionListener(this);
+		}
 	}
 	
 	@Override public void stop() {
 		removeCheckBoxListeners();
+		if (fButtonStageDivisionClearAll != null) {
+			fButtonStageDivisionClearAll.removeActionListener(this);
+			fButtonStageDivisionSelectAll.removeActionListener(this);
+		}
 	}
 
 	private void addCheckBoxListeners() {
@@ -87,13 +99,29 @@ public class PanelStageDivisions extends PanelStartStop implements ActionListene
 	}
 
 	private void addFields() {
-		HelpManager.getInstance().registerHelpTopic(this, "subdivisions.entries");
+		HelpManager.getInstance().registerHelpTopic(this, "stage.divisions");
 		setLayout(new GridBagLayout()); // new FlowLayout( FlowLayout.LEFT));
-		updateCheckBoxes();
+		int numRowsOfBoxes = updateCheckBoxes();
+		
+		fButtonStageDivisionClearAll = new JButton( res.getString( "StageDivisionClearAllLabel"));
+		fButtonStageDivisionClearAll.setName("fButtonStageDivisionClearAll");
+		fButtonStageDivisionClearAll.setMnemonic(res.getString("StageDivisionClearAllMnemonic").charAt(0));
+		fButtonStageDivisionClearAll.setToolTipText(res.getString("StageDivisionClearAllToolTip"));
+		HelpManager.getInstance().registerHelpTopic(fButtonStageDivisionClearAll, "stage.divisions.fButtonClearAll");
+		gridbagAdd( fButtonStageDivisionClearAll, 0, numRowsOfBoxes+1);
+		
+		fButtonStageDivisionSelectAll = new JButton( res.getString( "StageDivisionSelectAllLabel"));
+		fButtonStageDivisionSelectAll.setName("fButtonStageDivisionSelectAll");
+		fButtonStageDivisionSelectAll.setMnemonic(res.getString("StageDivisionSelectAllMnemonic").charAt(0));
+		fButtonStageDivisionSelectAll.setToolTipText(res.getString("StageDivisionSelectAllToolTip"));
+		HelpManager.getInstance().registerHelpTopic(fButtonStageDivisionSelectAll, "stage.divisions.fButtonSelectAll");
+		gridbagAdd( fButtonStageDivisionSelectAll, 1, numRowsOfBoxes+1);
 	}
 
-	public void updateCheckBoxes() {
-		if (regatta == null) return;
+	private final int PERROW = 4;
+
+	public int updateCheckBoxes() {
+		if (regatta == null) return 0;
 		
 		allDivisions.clear();
 		for ( AbstractDivision ad : regatta.getAllDivisions()) {
@@ -107,7 +135,6 @@ public class PanelStageDivisions extends PanelStartStop implements ActionListene
 		fCheckDivisions.clear();
 
 		// recreate the check boxes
-		final int PERROW = 4;
 		int i = 0;
 		int x = 0;
 		int y = 0;
@@ -128,9 +155,10 @@ public class PanelStageDivisions extends PanelStartStop implements ActionListene
 			}
 			i++;
 		}
-		y++;
 		
 		revalidate();
+		
+		return y; // number of rows
 	}
 
 	private GridBagConstraints gbc = new GridBagConstraints();
@@ -156,18 +184,36 @@ public class PanelStageDivisions extends PanelStartStop implements ActionListene
 	public void actionPerformed(ActionEvent event) {
 		if (regatta == null) return;
 		if (stage == null) return;
-
-		JCheckBox check = (JCheckBox) event.getSource();
-
+		
+		if (event.getSource() == fButtonStageDivisionClearAll) {
+			setOrClearAll(false);
+		} else if (event.getSource() == fButtonStageDivisionSelectAll) {
+			setOrClearAll(true);
+		} else  { // must be a jcheckbox, nothing else in the panel
+    		JCheckBox check = (JCheckBox) event.getSource();
+    		setOrClearCheckBox( check, check.isSelected());
+		}
+		updateEnabled();
+	}
+	
+	private void setOrClearCheckBox( JCheckBox check, boolean selecting) {
 		String divname = check.getText();
 		AbstractDivision div = allDivisions.get(divname);
 		
+		check.setSelected( selecting);
 		if (check.isSelected()) {
 			stage.addDivision(div);
 		} else {
 			stage.removeDivision(div);
 		}
-		updateEnabled();
+
+	}
+	
+	private void setOrClearAll(boolean selecting) {
+		if (stage == null) return;
+		for (JCheckBox c : fCheckDivisions) {
+			setOrClearCheckBox( c, selecting);
+		}
 	}
 
 	@Override public void setEnabled(boolean onoff) {

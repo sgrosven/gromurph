@@ -559,8 +559,6 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 		if (fRace.getWeight() != 1.00) fNotes.add(formatWeightedNote(fRace));
 
 		fNotes.addAll(ScoringUtilities.getRaceScoringNotes(racePoints));
-		formatNotes(pw, fNotes);
-
 	}
 
 }

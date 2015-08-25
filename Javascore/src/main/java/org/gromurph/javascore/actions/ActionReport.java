@@ -647,6 +647,7 @@ public abstract class ActionReport extends AbstractAction implements ActionListe
 			}
 			pw.println("</table>");
 		}
+		notes.clear();
 	}
 
 	protected String formatNonDiscardableNote(Race race) {

@@ -61,6 +61,7 @@ public class MultiStageScoring extends BaseObject implements RegattaScoringModel
 		Regatta r = JavaScoreProperties.getRegatta();
 		Stage s = ms.getStage(Stage.FLEET);
 		s.setModel( ss.getModel());
+		s.setCombinedQualifying(true);
 		for (AbstractDivision div : r.getDivisions()) {
 			s.divisions.add(div);
 		}

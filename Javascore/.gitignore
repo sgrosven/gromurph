@@ -1,3 +1,4 @@
+**/.DS_Store
 **/target/
 **/.settings/
 **/.DS_Store
@@ -7,3 +8,5 @@
 .gradle
 **/.classpath
 **/*.regatta.bak
+**/core*.txt
+

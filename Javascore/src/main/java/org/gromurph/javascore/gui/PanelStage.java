@@ -310,8 +310,6 @@ public class PanelStage extends BaseEditor<Stage> implements Constants, ActionLi
 		if (fStage == null) return;
 		Boolean b = fCheckIsQualifying.isSelected();
 		fStage.setCombinedQualifying(b);
-		updateScoringOptions();
-
 	}
 
 	private void fComboScoreCarryOver_actionPerformed(ActionEvent event) {
@@ -345,10 +343,6 @@ public class PanelStage extends BaseEditor<Stage> implements Constants, ActionLi
 		else fStage.setPrevStage( ps);
 	}
 
-
-	private void updateScoringOptions() {
-		
-	}
 
 	private void updateComboPreviousStage() {
 

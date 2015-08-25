@@ -652,7 +652,16 @@ public class Stage extends BaseObject implements StageScoringModel, Constants {
 	}
 
 	public void addDivision( AbstractDivision div) {
-		if (!hasDivision(div.getName())) divisions.add(div);
+		if (!hasDivision(div.getName())) {
+			
+			if (isCombinedQualifying() && div instanceof SubDivision) {
+				// if stage is a qualifying stage, and we had a subdivision to it,
+				// make sure the qualifying attribute of subdivision is turned on
+				( (SubDivision) div).setGroup(SubDivision.QUALIFYING);
+			}
+
+			divisions.add(div);
+		}
 	}
 
 	public void removeDivision( AbstractDivision div) {

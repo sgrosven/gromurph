@@ -97,7 +97,7 @@ public class ActionReportSeriesStandingsMultiStage extends ActionReportSeriesSta
 		rankingPoints.sortPosition();
 		// fRegatta.getScoringManager().getModel().sortSeries( seriesPoints);
 
-		int startr = fRegatta.getNumRaces() - fOptions.getLastXRaces();
+		int startr = Math.max(0,  fRegatta.getNumRaces() - fOptions.getLastXRaces());
 		initializeNotes();
 
 		pw.println("<table class=" + SERIES_TABLECLASS + ">");

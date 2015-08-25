@@ -170,6 +170,10 @@
 <mapID target="stage.fComboScoreCarryOver" url="PanelStage.html#scorecarryover" />
 <mapID target="stage.fComboThrowoutCarryOver" url="PanelStage.html#throwoutcarryover" />
 <mapID target="stage.fComboTiebreakCarryOver" url="PanelStage.html#tiebreakcarryover" />
+<mapID target="stage.divisions" url="PanelStage.html#stagedivisions" />
+<mapID target="stage.divisions.fButtonClearAll" url="PanelStage.html#stagedivisions" />
+<mapID target="stage.divisions.fButtonClearAll" url="PanelStage.html#stagedivisions" />
+
 
 <mapID target="splitfleetqualifying" url="PanelSplitFleetQualifying.html" />
 <mapID target="splitqual.srcstage" url="PanelSplitFleetQualifying.html#srcstage" />
