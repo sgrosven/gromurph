@@ -103,12 +103,22 @@ import org.slf4j.LoggerFactory;
 public class JavaScore extends JFrame implements ActionListener, WindowListener {
 	private static final String SPLASH_GRAPHIC = "/images/SplashGraphic.jpg";
 	
-	// release 7.3.1
-		// DONE fixed (again) crew dialogs
-		// DONE A+ NOT reading last year's miami regattas right - losing all after first stage, no series standings
-		// DONE A add ability to do series scores by day of race
-		// DONE Convert to Github and gradle
-		// DONE implement log file, with option to turn it on in javascore.ini?
+	// release 7.5 ?
+		// TOT fix (from Jim)
+		// WNR fix (from Bobby)
+		// install glitches - especially default install directory by OS
+	// TODO A update release website documentation
+	// TODO A copy help files over to website
+	// TODO A - (gebhardt 2/20/13) not saving/using last directory saved?
+	// TODO A (dykman 2/26/13) not handling order of finish right
+	// TODO A review/revise java 7 esp mac install documentation
+//  TODO 	B Able to validate sailor ids
+// TODO improve on-the-fly lookup entering finishes?
+	// TODO B size of duplicate sail dialog, also flag boats already finished?
+	// TODO B invalid time on race dialog - do popup
+	
+	// Javascript based result view (not part of java, but part of delivery package?
+
 	
 	// BUGS (while trying to investigate AYC Wed Penalty issue
 	//  Finish dialog
@@ -120,18 +130,20 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 	//      original complaint from 7.2.2: 10% 0f 10 yielding 2 pts (should be 1)
 	
 	
+
+	// release 7.3.1
+		// DONE fixed (again) crew dialogs
+		// DONE A+ NOT reading last year's miami regattas right - losing all after first stage, no series standings
+		// DONE A add ability to do series scores by day of race
+		// DONE Convert to Github and gradle
+		// DONE implement log file, with option to turn it on in javascore.ini?
+	
 	// TODO A+ export test:
 	//     series points and position do not export right
 	//     need race by race subdivision
 	
-	// TODO A update release website documentation
-	// TODO A copy help files over to website
-	// TODO A - (gebhardt 2/20/13) not saving/using last directory saved?
-	// TODO A (dykman 2/26/13) not handling order of finish right
-	// TODO A review/revise java 7 esp mac install documentation
 
 //  TODO 	B Able to post "blank" event to ISAF
-//  TODO 	B Able to validate sailor ids
 //  - look for missing
 //  - look for duplicates
 //  - validate what we have
@@ -139,8 +151,6 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 
 	// TODO retest ISAF upload
 	
-	// TODO B size of duplicate sail dialog, also flag boats already finished?
-	// TODO B invalid time on race dialog - do popup
 	
     // TODO A- Better process info on ISAF upload...
 	

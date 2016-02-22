@@ -66,34 +66,11 @@ public class ScoringLowPointAYCWednesday extends ScoringLowPoint
             return standardPoints;
          }
      }
+    
+    @Override protected double getPenaltyPointsWithoutManual(Penalty p, RacePointsList entryPointList, double basePts) {
+    	int nFinishers = 0;
+    	if (entryPointList != null) nFinishers = entryPointList.getNumberFinishers();
+		return getPenaltyPointsForEntryBase(p, entryPointList, basePts, nFinishers);
+	}
+
 }
-/**
- * $Log: ScoringLowPointAYCWednesday.java,v $
- * Revision 1.6  2006/05/19 05:48:42  sandyg
- * final release 5.1 modifications
- *
- * Revision 1.5  2006/01/15 21:10:39  sandyg
- * resubmit at 5.1.02
- *
- * Revision 1.3  2006/01/11 02:26:10  sandyg
- * updating copyright years
- *
- * Revision 1.2  2006/01/02 22:30:20  sandyg
- * re-laidout scoring options, added alternate A8.2 only tiebreaker, added unit tests for both
- *
- * Revision 1.1  2006/01/01 02:27:02  sandyg
- * preliminary submission to centralize code in a new module
- *
- * Revision 1.7.4.1  2005/11/01 02:36:02  sandyg
- * Java5 update - using generics
- *
- * Revision 1.7  2004/04/10 20:49:29  sandyg
- * Copyright year update
- *
- * Revision 1.6  2003/01/05 21:29:29  sandyg
- * fixed bad version/id string
- *
- * Revision 1.5  2003/01/04 17:29:10  sandyg
- * Prefix/suffix overhaul
- *
- */
