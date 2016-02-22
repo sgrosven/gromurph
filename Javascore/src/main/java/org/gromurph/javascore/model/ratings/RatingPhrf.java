@@ -121,6 +121,8 @@ public class RatingPhrf extends RatingDouble
 
     @Override public void validateRace( Race race, Division div, WarningList warnings)
     {
+    	if (!race.getDivInfo().isRacing(div)) return;
+    	
         long starttime = race.getStartTimeRaw( div);
         if ( starttime == SailTime.NOTIME)
         {

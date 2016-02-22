@@ -358,7 +358,6 @@ public class ScoringLowPoint implements ScoringModel, Constants {
 	 */
 	protected double getPenaltyPointsWithoutManual(Penalty p, RacePointsList entryPointList, double basePts) {
 		int nEntries = 0;
-		int nEntriesPlus1 = 0;
 
 		if (entryPointList != null) {
 			if (!fOptions.isEntriesLargestDivision()) {
@@ -366,9 +365,16 @@ public class ScoringLowPoint implements ScoringModel, Constants {
 			} else {
 				nEntries = calculateEntriesInLargestDivision(entryPointList);
 			}
-			nEntriesPlus1 = nEntries + 1;
+			
 		}
 
+		return getPenaltyPointsForEntryBase(p, entryPointList, basePts, nEntries);
+	}
+
+	protected double getPenaltyPointsForEntryBase(Penalty p, RacePointsList entryPointList, double basePts,
+			int nEntries) {
+		int nEntriesPlus1 = nEntries + 1;
+		
 		if (p.hasPenalty(DNC) || p.hasPenalty(NOFINISH))
 			return nEntriesPlus1;
 

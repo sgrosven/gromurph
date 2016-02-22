@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta DailyScoring="false" Dates="April 22 - May 27, 2015" Final="false" HostClub="Annapolis Yacht Club" IFEventID="" JSVersion="7.3.1" JuryChair="" Multistage="false" Name="2015 Wednesday Night Race Series 1" Pro="Bobby Frey" UseBowNumbers="false" Version="600" comment="">
+<DivisionList>
+<Division DivName="Harbor 20" Gender="Open">
+<MinRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+<Division DivName="Herreshoff 12.5">
+<MinRating ClassName="Herreshoff 12.5" System="OneDesign"/>
+<MaxRating ClassName="Herreshoff 12.5" System="OneDesign"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Club="shreveport yacht club" Division="Harbor 20" EntryId="257" MnaNumber="652323g">
+<Boat BoatName="Sheila Marie" SailId="132">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="robert" LastName="kehoe" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Herreshoff 12.5" EntryId="266">
+<Boat BoatName="Clover" SailId="147">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Herreshoff 12.5" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="James" LastName="O'Hare" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="259">
+<Boat BoatName="Mofongo" SailId="162">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Rick" LastName="Hill" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="HHSA" Division="Harbor 20" EntryId="258">
+<Boat BoatName="Elixir" SailId="205">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Patrick" LastName="Shannon" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="253">
+<Boat BoatName="SKIMMER" SailId="311">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Peter" LastName="Trogdon" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="248">
+<Boat BoatName="Misty" SailId="312">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Marshall" LastName="Steele Syndicate" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="261">
+<Boat BoatName="Fuzzy Logic" SailId="319">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="William" LastName="Sutton" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="250">
+<Boat BoatName="MEADEOR" SailId="321">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="JIM &amp; RACHEL" LastName="MEAD" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="260">
+<Boat BoatName="Allegro" SailId="323">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ken" LastName="Stevens" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="262" MnaNumber="743077T">
+<Boat BoatName="Puffin" SailId="325">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="F Michael" LastName="Smith" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="254">
+<Boat BoatName="Yellow Jacket" SailId="326">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jeff" LastName="Scholz" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="255" MnaNumber="731431U">
+<Boat BoatName="Queen Ann(e)" SailId="332">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Anne" LastName="Harrington" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="249" MnaNumber="261996F">
+<Boat BoatName="H20" SailId="339">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Garth" LastName="Hichens" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="247" MnaNumber="652189F">
+<Boat BoatName="Velella" SailId="340">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Marino" LastName="DiMarzo" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="256">
+<Boat BoatName="Bullforg" SailId="341">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Al" LastName="Adelman" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="Harbor 20" EntryId="251">
+<Boat BoatName="Tru Blu" SailId="342">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Cooper" LastName="Rees" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="Harbor 20" EntryId="448">
+<Boat BoatName="Merlyn" SailId="344">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="Cahill, William" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="Harbor 20" EntryId="252" MnaNumber="652413D">
+<Boat BoatName="Rhapsody" SailId="355">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Dan" LastName="Corenzwit" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Herreshoff 12.5" EntryId="269">
+<Boat BoatName="Dottie K" SailId="400">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Herreshoff 12.5" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Gill" LastName="Cochran" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Herreshoff 12.5" EntryId="263">
+<Boat BoatName="Bit O'Luck" SailId="411">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Herreshoff 12.5" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Chuck" LastName="Hurley" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC regular member" Division="Herreshoff 12.5" EntryId="267">
+<Boat BoatName="Hubcap" SailId="471">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Herreshoff 12.5" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Cindy" LastName="Weber" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="none" Division="Herreshoff 12.5" EntryId="265" MnaNumber="667505U">
+<Boat BoatName="BLUE JACKET" SailId="492">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Herreshoff 12.5" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Spencer" LastName="Leech" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Herreshoff 12.5" EntryId="264" MnaNumber="140007Z">
+<Boat BoatName="RAVEN" SailId="522">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Herreshoff 12.5" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="William" LastName="museler" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Herreshoff 12.5" EntryId="268" MnaNumber="685884N">
+<Boat BoatName="Emma Lou" SailId="639">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Herreshoff 12.5" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Peter" LastName="King" SailorId=""/>
+<CrewList/>
+</Entry>
+</EntryList>
+<RaceList>
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="22-Apr-2015" Weight="1.0">
+<DivInfo>
+<DivStart Div="Alberg 30" Length="5.531" StartTime="18:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Cal 25" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Etchells" Length="5.531" StartTime="18:25:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Farr 30" Length="6.86" StartTime="18:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Harbor 20" Length="2.0" StartTime="18:35:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Herreshoff 12.5" Length="2.0" StartTime="18:35:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="J/105" Length="6.86" StartTime="18:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J/30" Length="5.531" StartTime="18:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/35" Length="6.86" StartTime="18:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/70" Length="6.86" StartTime="18:20:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/80" Length="6.86" StartTime="18:20:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 0" Length="6.86" StartTime="18:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 1" Length="6.86" StartTime="18:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 2" Length="5.531" StartTime="18:35:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 3" Length="5.531" StartTime="18:35:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 3A" Length="5.531" StartTime="18:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="&lt;none&gt;" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="247" Pos="1" Race="1">
+<Penalty Penalty="10%" Percent="10"/>
+</Fin>
+<Fin Ent="260" Pos="2" Race="1" Time="18:54:48.0"/>
+<Fin Ent="261" Pos="3" Race="1" Time="18:44:04.0"/>
+<Fin Ent="262" Pos="4" Race="1" Time="18:45:46.0"/>
+<Fin Ent="249" Pos="5" Race="1" Time="18:50:53.0"/>
+<Fin Ent="257" Pos="6" Race="1"/>
+<Fin Ent="253" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="248" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="250" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="254" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="255" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="251" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="448" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="252" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+</RaceList>
+<Scores SystemName="LowPoint - AYC Wed Penalties">
+<System CheckinPercent="0" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="4" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="4" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="Harbor 20" Ent="247" Pos="1" Pts="3.0" Race="1"/>
+<rp Div="Harbor 20" Ent="261" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="Harbor 20" Ent="262" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="Harbor 20" Ent="249" Pos="4" Pts="4.0" Race="1"/>
+<rp Div="Harbor 20" Ent="260" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="Harbor 20" Ent="257" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="Harbor 20" Ent="253" Pos="49152" Pts="7.0" Race="1"/>
+<rp Div="Harbor 20" Ent="248" Pos="49152" Pts="7.0" Race="1"/>
+<rp Div="Harbor 20" Ent="250" Pos="49152" Pts="7.0" Race="1"/>
+<rp Div="Harbor 20" Ent="254" Pos="49152" Pts="7.0" Race="1"/>
+<rp Div="Harbor 20" Ent="255" Pos="49152" Pts="7.0" Race="1"/>
+<rp Div="Harbor 20" Ent="251" Pos="49152" Pts="7.0" Race="1"/>
+<rp Div="Harbor 20" Ent="448" Pos="49152" Pts="7.0" Race="1"/>
+<rp Div="Harbor 20" Ent="252" Pos="49152" Pts="7.0" Race="1"/>
+<rp Div="Harbor 20" Ent="259" Pos="57344" Pts="7.0" Race="1"/>
+<rp Div="Harbor 20" Ent="258" Pos="57344" Pts="7.0" Race="1"/>
+<rp Div="Harbor 20" Ent="256" Pos="57344" Pts="7.0" Race="1"/>
+</RacePointsList>
+<SeriesPointsList>
+<sp Div="Harbor 20" Ent="261" Pos="1" Pts="2.0"/>
+<sp Div="Harbor 20" Ent="262" Pos="2" Pts="3.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="247" Pos="2" Pts="3.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="249" Pos="4" Pts="4.0"/>
+<sp Div="Harbor 20" Ent="260" Pos="5" Pts="5.0"/>
+<sp Div="Harbor 20" Ent="257" Pos="6" Pts="6.0"/>
+<sp Div="Harbor 20" Ent="259" Pos="7" Pts="7.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="258" Pos="7" Pts="7.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="253" Pos="7" Pts="7.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="248" Pos="7" Pts="7.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="250" Pos="7" Pts="7.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="254" Pos="7" Pts="7.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="255" Pos="7" Pts="7.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="256" Pos="7" Pts="7.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="251" Pos="7" Pts="7.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="448" Pos="7" Pts="7.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="252" Pos="7" Pts="7.0" Tied="true"/>
+</SeriesPointsList>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.2"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="4.1"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="2.2"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="3.2"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
+</Regatta>
