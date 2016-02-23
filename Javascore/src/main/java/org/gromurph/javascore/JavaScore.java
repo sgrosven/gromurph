@@ -133,6 +133,14 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 		// DONE Convert to Github and gradle
 		// DONE implement log file, with option to turn it on in javascore.ini?
 	
+
+	// release 7.3.1
+		// DONE fixed (again) crew dialogs
+		// DONE A+ NOT reading last year's miami regattas right - losing all after first stage, no series standings
+		// DONE A add ability to do series scores by day of race
+		// DONE Convert to Github and gradle
+		// DONE implement log file, with option to turn it on in javascore.ini?
+	
 	// TODO A+ export test:
 	//     series points and position do not export right
 	//     need race by race subdivision
