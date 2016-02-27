@@ -55,7 +55,7 @@ public class PanelRatingDouble extends BaseEditor<RatingDouble> implements Actio
 	//        fRating = (RatingDouble) obj;
 	//        if (fRating != null && fDivision != null && !fDivision.contains(fRating))
 	//        {
-	//            fRating.setValue( fDivision.getMinRating().getValue());
+	//            fRating.setValue( fDivision.getSlowestRating().getValue());
 	//        }
 	//        super.setObject(obj);
 	//    }
@@ -68,8 +68,8 @@ public class PanelRatingDouble extends BaseEditor<RatingDouble> implements Actio
 			minAllowed = Double.NaN;
 			maxAllowed = Double.NaN;
 		} else {
-			minAllowed = div.getMinRating().getPrimaryValue();
-			maxAllowed = (div.getMaxRating() != null) ? div.getMaxRating().getPrimaryValue() : minAllowed;
+			minAllowed = div.getSlowestRating().getPrimaryValue();
+			maxAllowed = (div.getFastestRating() != null) ? div.getFastestRating().getPrimaryValue() : minAllowed;
 		}
 		updateFields();
 	}
@@ -90,6 +90,13 @@ public class PanelRatingDouble extends BaseEditor<RatingDouble> implements Actio
 		fTextRating.setToolTipText(res.getString("RatingDoubleValueToolTip"));
 		HelpManager.getInstance().registerHelpTopic(fTextRating, "rating.fTextRating");
 		gridbagAdd(fTextRating, 0, row, 1, GridBagConstraints.WEST, GridBagConstraints.HORIZONTAL);
+	}
+
+	
+	@Override
+	public void setToolTipText(String text) {
+		super.setToolTipText(text);
+		if (fTextRating != null) fTextRating.setToolTipText(text);
 	}
 
 	@Override

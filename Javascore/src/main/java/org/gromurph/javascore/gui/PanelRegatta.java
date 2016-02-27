@@ -704,7 +704,7 @@ public class PanelRegatta extends BaseEditor<Regatta> implements ActionListener,
 				entry.setDivision(div);
 			} catch (RatingOutOfBoundsException roe) {
 				try {
-					Rating rtg = RatingManager.createRating(div, div.getMinRating().getPrimaryValue());
+					Rating rtg = RatingManager.createRating(div, div.getSlowestRating().getPrimaryValue());
 					entry.setRating(rtg);
 					entry.setDivision(div);
 				} catch (RatingOutOfBoundsException roe2) {

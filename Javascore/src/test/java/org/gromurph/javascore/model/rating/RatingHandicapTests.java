@@ -48,8 +48,8 @@ public class RatingHandicapTests extends org.gromurph.javascore.JavascoreTestCas
     {
     	Rating r = new RatingMultihull();
         Division div = new Division( "Multi",
-            r.createMinRating(),
-            r.createMaxRating());
+            r.createSlowestRating(),
+            r.createFastestRating());
         reg.addDivision( div);
         forceDivision( entry,div);
 
@@ -287,6 +287,67 @@ public class RatingHandicapTests extends org.gromurph.javascore.JavascoreTestCas
 
    }
 
+    /**
+     Are you telling me to reverse PHRF 2 and PHRF 3? Something seems to be flipped, particularly PHRF 1. The +9999,-9999 looks like a work around for a bug in the code. Here is what I get: 
+		PHRF 2 = 118 Min, 150 Max (works) 
+		PHRF 3 = 160 Min, 999 Max (works but why isn't the Min 151?) 
+		PHRF 1 = +9999 Min, -9999 Max (looks wrong but works in ToD) 
+		PHRF 1 = +9999 Min, -9999 Max (ejects the boats in ToT) 
+		PHRF 1 = -999 Min, 117 (matches P2 and P3 entry style, but does not work) 
+     */
+    public void testPhrfTimeOnTimeDivisions() throws Exception
+    {
+        Division div1 = new Division( "TOT 1",
+                new RatingPhrfTimeOnTime( -999),
+                new RatingPhrfTimeOnTime( 117));
+            reg.addDivision( div1);
+            Division div2 = new Division( "TOT 2",
+                    new RatingPhrfTimeOnTime( 118),
+                    new RatingPhrfTimeOnTime( 150));
+                reg.addDivision( div2);
+            Division div3 = new Division( "TOT 3",
+                    new RatingPhrfTimeOnTime( 160),
+                    new RatingPhrfTimeOnTime( 999));
+                reg.addDivision( div3);
+
+        Boat b1 = new Boat();
+        Entry e1 = new Entry();
+        e1.setBoat( b1);
+        e1.setRating( new RatingPhrfTimeOnTime( 0));
+        
+        Boat b2 = new Boat();
+        Entry e2 = new Entry();
+        e2.setBoat( b2);
+        e2.setRating( new RatingPhrfTimeOnTime( 120));
+        
+        Boat b3 = new Boat();
+        Entry e3 = new Entry();
+        e3.setBoat( b3);
+        e3.setRating( new RatingPhrfTimeOnTime( 170));
+
+        Boat b11 = new Boat();
+        Entry e11 = new Entry();
+        e11.setBoat( b11);
+        e11.setRating( new RatingPhrfTimeOnTime( 115));
+        
+        e1.setDivision(div1);
+        e11.setDivision(div1);
+        e2.setDivision(div2);
+        e3.setDivision(div3);
+
+        reg.addEntry(e1);
+        reg.addEntry(e11);
+        reg.addEntry(e2);
+        reg.addEntry(e3);
+
+        assertEquals( 2, reg.getAllEntries().findAll(div1).size());
+        assertEquals( 1, reg.getAllEntries().findAll(div2).size());
+        assertEquals( 1, reg.getAllEntries().findAll(div3).size());
+
+    }
+
+    
+    
     public void testPhrfTimeOnTime()
     {
         Division div = new Division( "PhrfTimeOnTime",
@@ -335,8 +396,8 @@ public class RatingHandicapTests extends org.gromurph.javascore.JavascoreTestCas
 	{
     	Rating r = new RatingIrc();
         Division div = new Division( "Irc",
-            r.createMinRating(),
-            r.createMaxRating());
+            r.createSlowestRating(),
+            r.createFastestRating());
 	    reg.addDivision( div);
 	    forceDivision( entry,div);
 	

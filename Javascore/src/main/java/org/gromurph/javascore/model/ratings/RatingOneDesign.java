@@ -76,7 +76,6 @@ public class RatingOneDesign extends Rating
     @Override public int compareTo(Object o) throws ClassCastException
     {
     	if (o == null) return -1;
-    	
         try
         {
 			RatingOneDesign that = (RatingOneDesign) o;
@@ -86,6 +85,18 @@ public class RatingOneDesign extends Rating
         {
             return this.getClass().getName().compareTo( o.getClass().getName());
         }
+    }
+
+    public boolean isSameOneDesign(Rating that) {
+    	if (that == null) return false;
+    	if (!that.isOneDesign()) return false;
+    	return !(this.getODClassName().equals( ((RatingOneDesign) that).getODClassName()));
+    }
+    @Override public boolean isSlower(Rating that) {
+    	return isSameOneDesign( that);
+    }
+    @Override public boolean isFaster(Rating that) {
+    	return isSameOneDesign( that);
     }
 
     @Override public long getCorrectedTime( Finish inFinish)
@@ -153,12 +164,12 @@ public class RatingOneDesign extends Rating
         return sKnownODClassNames;
     }
 
-    @Override public Rating createMaxRating()
+    @Override public Rating createFastestRating()
     {
         return new RatingOneDesign(getODClassName());
     }
 
-    @Override public Rating createMinRating()
+    @Override public Rating createSlowestRating()
     {
         return new RatingOneDesign(getODClassName());
     }

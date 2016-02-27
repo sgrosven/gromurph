@@ -119,7 +119,7 @@ public abstract class ScoringUtilities implements Constants {
 			for (AbstractDivision adiv : race.getStartingDivisions(true)) {
 				if (adiv instanceof Division) {
 					Division div = (Division) adiv;
-					div.getMinRating().validateRace(race, div, warnings);
+					div.getSlowestRating().validateRace(race, div, warnings);
 				}
 			}
 		}

@@ -230,13 +230,10 @@ public class DialogEntryTreeEditor extends JDialog implements BaseEditorContaine
 			fTreeModel.updateEntry(event.getOldLeadSelectionPath().getPath());
 		}
 
-		try {
-			Object o = event.getPath().getLastPathComponent();
+		Object o = event.getPath().getLastPathComponent();
+		if (o instanceof EntryTreeModel.EntryTreeNode) {
 			Entry n = ((EntryTreeModel.EntryTreeNode) o).getEntry();
 			setObject(n);
-		} catch (ClassCastException ex) {
-			// probably clicked on a division
-			setObject(null);
 		}
 		updateDefault(null);
 	}
@@ -264,7 +261,7 @@ public class DialogEntryTreeEditor extends JDialog implements BaseEditorContaine
 	 **/
 	protected void setObject(Entry obj) {
 		showCard(CARD_NOSELECT);
-		logger.debug("DialogEntryTreeEditor.setObject: {}", obj.toString());
+		logger.debug("DialogEntryTreeEditor.setObject: {}", (obj == null) ? "null" : obj.toString());
 		if (fCurrentEntry != null) {
 			fCurrentEntry.removePropertyChangeListener(this);
 			fCurrentEntry.deleteBlankCrew();

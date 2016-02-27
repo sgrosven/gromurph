@@ -18,7 +18,19 @@ import java.util.Iterator;
 
 import org.gromurph.javascore.exception.RatingOutOfBoundsException;
 import org.gromurph.javascore.model.Division;
-import org.gromurph.javascore.model.ratings.*;
+import org.gromurph.javascore.model.Entry;
+import org.gromurph.javascore.model.EntryList;
+import org.gromurph.javascore.model.ratings.Rating;
+import org.gromurph.javascore.model.ratings.RatingIrc;
+import org.gromurph.javascore.model.ratings.RatingList;
+import org.gromurph.javascore.model.ratings.RatingMorc;
+import org.gromurph.javascore.model.ratings.RatingMultihull;
+import org.gromurph.javascore.model.ratings.RatingOneDesign;
+import org.gromurph.javascore.model.ratings.RatingPhrf;
+import org.gromurph.javascore.model.ratings.RatingPhrfNonSpin;
+import org.gromurph.javascore.model.ratings.RatingPhrfTimeOnTime;
+import org.gromurph.javascore.model.ratings.RatingPortsmouth;
+import org.gromurph.javascore.model.ratings.RatingYardstick;
 import org.gromurph.util.BaseList;
 import org.gromurph.util.Util;
 import org.gromurph.xml.PersistentNode;
@@ -38,10 +50,11 @@ public class RatingManager {
 		if (sRatingElements == null) initializeElements();
 		return sRatingElements;
 	}
-	
+
 	public static void initializeElements() {
 		initializeElements(false);
 	}
+
 	public static void initializeElements(boolean readOnly) {
 		sRatingElements = new BaseList<RatingManagerElement>() {
 			@Override
@@ -87,7 +100,7 @@ public class RatingManager {
 
 		if (!readOnly) saveRatingElements();
 	}
-	
+
 	public static boolean saveRatingElements() {
 		try {
 			sRatingElements.xmlWriteToFile();
@@ -95,14 +108,13 @@ public class RatingManager {
 		} catch (IOException e3) {
 			Util.printlnException(sRatingElements, e3, true);
 			return false;
-		}		
+		}
 	}
 
 	private static String getRatingName(String sysName) {
 		for (Iterator i = getMasterList().iterator(); i.hasNext();) {
 			RatingManagerElement el = (RatingManagerElement) i.next();
-			if (el.getSystem().equals(sysName))
-				return el.getRatingClass();
+			if (el.getSystem().equals(sysName)) return el.getRatingClass();
 		}
 		return null;
 	}
@@ -110,8 +122,7 @@ public class RatingManager {
 	private static boolean hasSystem(String system) {
 		for (Iterator i = getMasterList().iterator(); i.hasNext();) {
 			RatingManagerElement el = (RatingManagerElement) i.next();
-			if (el.getSystem().equals(system))
-				return true;
+			if (el.getSystem().equals(system)) return true;
 		}
 		return false;
 	}
@@ -129,8 +140,7 @@ public class RatingManager {
 	public static String getSystemFromLongName(String longname) {
 		for (Iterator i = getMasterList().iterator(); i.hasNext();) {
 			RatingManagerElement el = (RatingManagerElement) i.next();
-			if (el.getLongName().equals(longname))
-				return el.getSystem();
+			if (el.getLongName().equals(longname)) return el.getSystem();
 		}
 		return null;
 	}
@@ -138,8 +148,7 @@ public class RatingManager {
 	public static String getLongNameFromSystem(String sys) {
 		for (Iterator i = getMasterList().iterator(); i.hasNext();) {
 			RatingManagerElement el = (RatingManagerElement) i.next();
-			if (el.getSystem().equals(sys))
-				return el.getLongName();
+			if (el.getSystem().equals(sys)) return el.getLongName();
 		}
 		return null;
 	}
@@ -147,14 +156,12 @@ public class RatingManager {
 	public static Rating createRating(Division div, double value) throws RatingOutOfBoundsException {
 		Rating r;
 		if (div.isOneDesign()) {
-			String cn = ((RatingOneDesign) div.getMinRating()).getODClassName();
-			if (cn == null || cn.length() > 0)
-				cn = div.getName();
+			String cn = ((RatingOneDesign) div.getSlowestRating()).getODClassName();
+			if (cn == null || cn.length() > 0) cn = div.getName();
 			r = new RatingOneDesign(cn);
 		} else {
 			r = createRating(div.getSystem(), value);
-			if (!div.contains(r))
-				throw new RatingOutOfBoundsException();
+			if (!div.contains(r)) throw new RatingOutOfBoundsException();
 		}
 		return r;
 	}
@@ -170,14 +177,13 @@ public class RatingManager {
 
 			if (ratingClass == null) {
 				rtg = new RatingOneDesign(system);
-			} else
+			} else try {
 				try {
-					try {
-						rtg = (Rating) (Class.forName(ratingClass)).newInstance();
-					} catch (IllegalAccessException ex) {} catch (InstantiationException ex) {}
+					rtg = (Rating) (Class.forName(ratingClass)).newInstance();
+				} catch (IllegalAccessException ex) {} catch (InstantiationException ex) {}
 
-					rtg.setPrimaryValue(val);
-				} catch (ClassCastException cce) {} // do nothing if bombs, dont care
+				rtg.setPrimaryValue(val);
+			} catch (ClassCastException cce) {} // do nothing if bombs, dont care
 		} catch (Exception e) {
 			rtg = null;
 		}
@@ -194,6 +200,95 @@ public class RatingManager {
 		} else {
 			return null;
 		}
+	}
+
+	/**
+	 * given a list of entries, returns a list of all entries who's rating is contained in this division
+	 * 
+	 * @param entries
+	 *            the initial list of entries
+	 * @return list of entries that are valid for the division
+	 */
+	public static EntryList getValidEntries(Division div, EntryList entries) {
+		EntryList elist = new EntryList();
+		for (Entry e : entries) {
+			Rating rtg = getCompatibleRating(div.getSystem(), e.getBoat().getAllRatings(), true);
+			if (rtg != null && div.contains(rtg)) elist.add(e);
+		}
+		return elist;
+	}
+
+	/**
+	 * given a list of entries, returns a list of all entries who's rating is NOT contained in this division
+	 * 
+	 * @param allEntries
+	 *            the initial list of entries
+	 * @return list of entries that are invalid for the division
+	 */
+	public static EntryList getInvalidEntries(Division div, EntryList entries) {
+		EntryList elist = new EntryList();
+		for (Entry e : entries) {
+			Rating alt = getCompatibleRating(div.getSystem(), e.getBoat().getAllRatings(), true);
+			if (alt != null && !div.contains(alt)) elist.add(e);
+		}
+
+		// now run through these invalid entries and see if they can convert to a valid entry
+
+		return elist;
+	}
+
+	public static Rating getCompatibleRating(String inSys, RatingList ratings) {
+		return getCompatibleRating(inSys, ratings, false);
+	}
+
+	public static Rating getCompatibleRating(String inSys, RatingList ratings, boolean replaceIt) {
+		// null system, null return
+		if (inSys == null) return null;
+
+		// has a rating by exact system, return it
+		int i = -1;
+
+		i = ratings.indexOfRatingSystem(inSys);
+		if (i >= 0) return ratings.get(i);
+
+		// loop through looking for a compatible rating
+		// eg RatingPHRF for a RatingPHRFTimeonTime system
+		for (i = 0; i < ratings.size(); i++) {
+			Rating rtg = ratings.get(i);
+			Rating newrating = convertRating(inSys, rtg);
+			if (newrating != null) {
+				if (replaceIt && newrating != rtg) ratings.set(i, newrating);
+				return newrating;
+			}
+		}
+
+		// nothing compatible found, if one design, create/return a one design rating
+		if (inSys.equals(RatingOneDesign.SYSTEM) || inSys.equals("One Design")) {
+			Rating rtg = new RatingOneDesign(inSys);
+			ratings.add(rtg); // add it no matter what
+			return rtg;
+		}
+
+		// nothing compatible found
+		return null;
+	}
+
+	public static Rating convertRating(String newSystem, Rating oldRtg) {
+		String oldSystem = oldRtg.getSystem();
+		if (newSystem.equals(oldSystem)) return oldRtg;
+
+		// A phrf, phrf time on time - are convertible - but not (at least not yet) phrf nonspin
+		if ((oldSystem.equals(RatingPhrf.SYSTEM) ||
+				//oldSystem.equals( RatingPhrfNonSpin.SYSTEM) ||
+				oldSystem.equals(RatingPhrfTimeOnTime.SYSTEM)) &&
+
+		(newSystem.equals(RatingPhrf.SYSTEM) ||
+				//newSystem.equals( RatingPhrfNonSpin.SYSTEM) ||
+				newSystem.equals(RatingPhrfTimeOnTime.SYSTEM))) {
+
+		return createRating(newSystem, oldRtg.getPrimaryValue()); }
+
+		return null;
 	}
 
 }

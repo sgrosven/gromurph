@@ -58,7 +58,7 @@ public class EntryTests extends org.gromurph.javascore.JavascoreTestCase {
 		Division phrfA = new Division("PHRF A", new RatingPhrf(0), new RatingPhrf(50));
 
 		Rating phrf168 = new RatingPhrf(168);
-		Rating OneDj24 = j24.getMinRating();
+		Rating OneDj24 = j24.getSlowestRating();
 
 		reg.addDivision(j24);
 		reg.addDivision(phrfC);

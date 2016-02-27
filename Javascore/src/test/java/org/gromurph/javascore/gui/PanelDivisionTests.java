@@ -186,16 +186,16 @@ public class PanelDivisionTests extends JavascoreTestCase {
 		assertNotNull("Cant find minPanel.double", p2);
 		JTextField fieldMin = (JTextField) findComponent(JTextField.class, "fTextRating", p2);
 		assertNotNull("Cant find fTextRating", fieldMin);
-		assertEquals("min rating should be 33", 33.0, div.getMinRating().getPrimaryValue(), 0.0001);
+		assertEquals("min rating should be 33", 33.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
 		
 		String newrating = "40";
 		sendStringAndEnter(fieldMin, newrating);
-		assertEquals("min rating should be 40", 40.0, div.getMinRating().getPrimaryValue(), 0.0001);
+		assertEquals("min rating should be 40", 40.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
 
 		// change phrf min rating	
 		newrating = "44";
 		sendStringAndEnter(fieldMin, newrating);
-		assertEquals("min rating should be 44", 44.0, div.getMinRating().getPrimaryValue(), 0.0001);
+		assertEquals("min rating should be 44", 44.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
 
 		// change division name, with and with focus change
 		JTextField fieldName = (JTextField) findComponent(JTextField.class, "fTextName", dialog);
@@ -231,12 +231,12 @@ public class PanelDivisionTests extends JavascoreTestCase {
 		// change phrf min rating	
 		String newrating = "44";
 		sendStringAndEnter(fieldMin, newrating);
-		assertEquals("min rating should be 44", 44.0, div.getMinRating().getPrimaryValue(), 0.0001);
+		assertEquals("min rating should be 44", 44.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
 
 		clickOKButton(dialog);
 
 
-		assertEquals("min rating should be 44", 44.0, div.getMinRating().getPrimaryValue(), 0.0001);
+		assertEquals("min rating should be 44", 44.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
 	}
 
 	/**
@@ -274,13 +274,13 @@ public class PanelDivisionTests extends JavascoreTestCase {
 		// change phrf min rating	
 		String newtext = "44";
 		sendStringAndEnter(fieldMin, newtext);
-		assertEquals("min rating should be 44", 44.0, div.getMinRating().getPrimaryValue(), 0.0001);
+		assertEquals("min rating should be 44", 44.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
 
 		assertTrue("Cancel should now be enabled", cancelButton.isEnabled());
 
 		newtext = "99";
 		sendStringAndEnter(fieldMax, newtext);
-		assertEquals("max rating should be 99", 99.0, div.getMaxRating().getPrimaryValue(), 0.0001);
+		assertEquals("max rating should be 99", 99.0, div.getFastestRating().getPrimaryValue(), 0.0001);
 
 		String origName = div.getName();
 		newtext = "phrf2";
@@ -292,8 +292,8 @@ public class PanelDivisionTests extends JavascoreTestCase {
 
 		clickOnButton("fButtonCancel");
 
-		assertEquals("min rating should be orig 33", 33.0, div.getMinRating().getPrimaryValue(), 0.0001);
-		assertEquals("max rating should be orig 66", 66.0, div.getMaxRating().getPrimaryValue(), 0.0001);
+		assertEquals("min rating should be orig 33", 33.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
+		assertEquals("max rating should be orig 66", 66.0, div.getFastestRating().getPrimaryValue(), 0.0001);
 		assertEquals("name should be orig name", origName, div.getName());
 	}
 

@@ -20,7 +20,7 @@ package org.gromurph.javascore.model.ratings;
 public class RatingYardstick extends RatingCoefficient
 {
     public static final String SYSTEM = "Yardstick";
-    protected static double MIN_RATING = 0.1;
+    protected static double SLOWEST_RATING = 0.1;
     protected static double MAX_RATING = 999.0;
     
 
@@ -51,7 +51,7 @@ public class RatingYardstick extends RatingCoefficient
      * Creates a new instance of the fastest overall rating allowed by the rating system
      * @return
      */
-    @Override public Rating createMaxRating()
+    @Override public Rating createFastestRating()
     {
         return new RatingYardstick( MAX_RATING);
     }
@@ -60,9 +60,9 @@ public class RatingYardstick extends RatingCoefficient
      * Creates a new instance of the slowest overall rating allowed by the rating system
      * @return
      */
-    @Override public Rating createMinRating()
+    @Override public Rating createSlowestRating()
     {
-        return new RatingYardstick( MIN_RATING);
+        return new RatingYardstick( SLOWEST_RATING);
     }
 
 }

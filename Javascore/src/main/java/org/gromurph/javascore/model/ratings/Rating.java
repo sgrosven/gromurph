@@ -41,7 +41,9 @@ public abstract class Rating extends BaseObject implements Comparable
 
     private String fSystem;
 
-    public abstract int compareTo(Object o) throws ClassCastException;
+    public abstract boolean isSlower(Rating that);
+    public abstract boolean isFaster(Rating that);
+    
     public abstract String toString( boolean full);
 
     /**
@@ -54,13 +56,13 @@ public abstract class Rating extends BaseObject implements Comparable
      * Creates a new instance of the minimum/slowest overall rating allowed by the rating system
      * @return
      */
-    public abstract Rating createMinRating();
+    public abstract Rating createSlowestRating();
 
     /**
      * Creates a new instance of the maximum/fastest overall rating allowed by the rating system
      * @return
      */
-    public abstract Rating createMaxRating();
+    public abstract Rating createFastestRating();
 
     /**
      * evaluates a Race to see if it contains all the information necessary
@@ -111,6 +113,17 @@ public abstract class Rating extends BaseObject implements Comparable
      * @return a single double value of the rating
      */
     public double getPrimaryValue() { return Double.NaN;}
+
+    public int compareTo(Object o) throws ClassCastException
+    {
+    	int classCompare = this.getClass().getName().compareTo( o.getClass().getName());
+    	if (classCompare != 0) return classCompare;
+
+        Rating that = (Rating) o;
+        if ( this.isSlower(that)) return -1;
+        else if ( this.isFaster(that)) return 1;
+        else return 0;
+    }
 
     @Override public boolean equals( Object obj)
     {

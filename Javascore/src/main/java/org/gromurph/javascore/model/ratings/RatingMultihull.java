@@ -29,7 +29,7 @@ public class RatingMultihull extends RatingCoefficient
 {
     public static final String SYSTEM = "Multihull";
     private static double MAX_RATING = 0.0;
-    private static double MIN_RATING = 999.0;
+    private static double SLOWEST_RATING = 999.0;
     
 
     public RatingMultihull()
@@ -48,7 +48,7 @@ public class RatingMultihull extends RatingCoefficient
      * Creates a new instance of the fastest overall rating allowed by the rating system
      * @return
      */
-    @Override public Rating createMaxRating()
+    @Override public Rating createFastestRating()
     {
         return new RatingMultihull( MAX_RATING);
     }
@@ -57,9 +57,9 @@ public class RatingMultihull extends RatingCoefficient
      * Creates a new instance of the slowest overall rating allowed by the rating system
      * @return
      */
-    @Override public Rating createMinRating()
+    @Override public Rating createSlowestRating()
     {
-        return new RatingMultihull( MIN_RATING);
+        return new RatingMultihull( SLOWEST_RATING);
     }
 
 }

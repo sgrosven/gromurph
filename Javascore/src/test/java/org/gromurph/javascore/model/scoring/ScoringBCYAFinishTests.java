@@ -47,8 +47,8 @@ public class ScoringBCYAFinishTests extends org.gromurph.javascore.JavascoreTest
 		multis = new Division();
 		reg.addDivision(multis);
 
-		multis.setMinRating(new RatingMultihull(0.001));
-		multis.setMaxRating(new RatingMultihull(2.000));
+		multis.setSlowestRating(new RatingMultihull(0.001));
+		multis.setFastestRating(new RatingMultihull(2.000));
 		reg.addDivision(multis);
 
 		Entry circus = addEntry("131", 1.035);

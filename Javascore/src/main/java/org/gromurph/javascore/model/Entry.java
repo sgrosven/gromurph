@@ -230,8 +230,8 @@ public class Entry extends BaseObject {
 		// division
 		if (legacyRating != null) {
 			try {
-				if (getDivision().getMinRating() instanceof RatingOneDesign) {
-					setRating(getDivision().getMinRating());
+				if (getDivision().getSlowestRating() instanceof RatingOneDesign) {
+					setRating(getDivision().getSlowestRating());
 				} else {
 					setRating(legacyRating);
 				}
@@ -597,12 +597,12 @@ public class Entry extends BaseObject {
 			Rating rtg = fBoat.getRating(inDiv.getSystem());
 
 			if (rtg == null) {
-				rtg = (Rating) inDiv.getMinRating().clone();
+				rtg = (Rating) inDiv.getSlowestRating().clone();
 				fBoat.putRating(rtg);
 			} else if (inDiv.isOneDesign()) {
 				// changing out a one-design rating is OK
 				fBoat.removeRating(rtg);
-				rtg = inDiv.getMinRating().createMinRating();
+				rtg = inDiv.getSlowestRating().createSlowestRating();
 				fBoat.putRating(rtg);
 			} else if (!inDiv.contains(rtg)) {
 				throw new RatingOutOfBoundsException(inDiv, rtg);

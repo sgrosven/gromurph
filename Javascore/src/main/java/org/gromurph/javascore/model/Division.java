@@ -30,13 +30,13 @@ public class Division extends AbstractDivision
     /**
      * temporary master division for regattas with all one class
      */
-    public static final String MINRATING_PROPERTY = "MinRating";
-    public static final String MAXRATING_PROPERTY = "MaxRating";
+    public static final String SLOWESTRATING_PROPERTY = "MinRating";
+    public static final String FASTESTRATING_PROPERTY = "MaxRating";
 
     private static final long serialVersionUID = 1L;
 
-    private Rating fMaxRating;
-    private Rating fMinRating;
+    private Rating fastestRating;
+    private Rating slowestRating;
 
     /**
      * checks to see if division is contained in this division. If 'div' is a 
@@ -98,18 +98,18 @@ public class Division extends AbstractDivision
      * <P>NOTE: there are no checks to make sure that the same rating system is
      * used for minRtg and maxRtg
     **/
-    public Division( String inName, Rating minrtg, Rating maxrtg)
+    public Division( String inName, Rating fastest, Rating slowest)
     {
         super(inName);
-        setMinRating( minrtg);
-        setMaxRating( maxrtg);
+        setSlowestRating( slowest);
+        setFastestRating( fastest);
     }
 
     @Override public void xmlWrite( PersistentNode e)
     {
     	super.xmlWrite( e);
-        if (fMinRating != null) fMinRating.xmlWrite( e.createChildElement( MINRATING_PROPERTY));
-        if (fMaxRating != null) fMaxRating.xmlWrite( e.createChildElement( MAXRATING_PROPERTY));
+        if (slowestRating != null) slowestRating.xmlWrite( e.createChildElement( SLOWESTRATING_PROPERTY));
+        if (fastestRating != null) fastestRating.xmlWrite( e.createChildElement( FASTESTRATING_PROPERTY));
         //return e;
     }
 
@@ -121,13 +121,13 @@ public class Division extends AbstractDivision
         Rating minR = null;
         Rating maxR = null;
         
-        PersistentNode n2 = n.getElement( MINRATING_PROPERTY);
+        PersistentNode n2 = n.getElement( SLOWESTRATING_PROPERTY);
         if (n2 != null)
         {
             minR = RatingManager.createRatingFromXml( n2, rootObject);
         }
 
-        n2 = n.getElement( MAXRATING_PROPERTY);
+        n2 = n.getElement( FASTESTRATING_PROPERTY);
         if (n2 != null)
         {
             maxR = RatingManager.createRatingFromXml( n2, rootObject);
@@ -142,8 +142,8 @@ public class Division extends AbstractDivision
         {
             maxR = (Rating) minR.clone();
         }
-        setMinRating( minR);
-        setMaxRating( maxR);
+        setSlowestRating( minR);
+        setFastestRating( maxR);
     }
 
 	/**
@@ -157,10 +157,10 @@ public class Division extends AbstractDivision
             if ( !super.equals( obj)) return false;
 
             Division that = (Division) obj;
-            if ( !Util.equalsWithNull( this.fMinRating, that.fMinRating)) return false;
+            if ( !Util.equalsWithNull( this.slowestRating, that.slowestRating)) return false;
             if ( this.isOneDesign()) return true;
 
-            if ( !Util.equalsWithNull( this.fMaxRating, that.fMaxRating)) return false;
+            if ( !Util.equalsWithNull( this.fastestRating, that.fastestRating)) return false;
             return true;
         }
         catch (Exception e)
@@ -202,8 +202,8 @@ public class Division extends AbstractDivision
 
     public String getSystem()
     {
-        if (fMinRating == null) return RatingOneDesign.SYSTEM;
-        else return fMinRating.getSystem();
+        if (slowestRating == null) return RatingOneDesign.SYSTEM;
+        else return slowestRating.getSystem();
     }
 
     public void setSystem( String sysName)
@@ -211,8 +211,8 @@ public class Division extends AbstractDivision
         if (!sysName.equals( getSystem()))
         {
             Rating r = RatingManager.createRating( sysName);
-            setMinRating( r.createMinRating());
-            setMaxRating( r.createMaxRating());
+            setSlowestRating( r.createSlowestRating());
+            setFastestRating( r.createFastestRating());
          }
     }
 
@@ -233,9 +233,9 @@ public class Division extends AbstractDivision
         {
             sb.append( getName());
             sb.append( "(");
-            if (fMinRating != null)
+            if (slowestRating != null)
             {
-                sb.append( fMinRating.getPrimaryValue());
+                sb.append( slowestRating.getPrimaryValue());
             }
             else
             {
@@ -243,9 +243,9 @@ public class Division extends AbstractDivision
             }
             sb.append( " thru ");
 
-            if (fMaxRating != null)
+            if (fastestRating != null)
             {
-                sb.append( fMaxRating.getPrimaryValue());
+                sb.append( fastestRating.getPrimaryValue());
                 sb.append( ")");
             }
             else
@@ -253,9 +253,9 @@ public class Division extends AbstractDivision
                 sb.append( "<none>");
             }
         }
-        else if (fMinRating != null)
+        else if (slowestRating != null)
         {
-        	sb.append( fMinRating.toString(false));
+        	sb.append( slowestRating.toString(false));
         }
         else
         {
@@ -268,20 +268,20 @@ public class Division extends AbstractDivision
 //	public Object clone()
 //	{
 //		Division newDiv = (Division) super.clone();
-//		if (fMaxRating != null) newDiv.fMaxRating = (Rating) this.fMaxRating.clone();
-//		if (fMinRating != null) newDiv.fMinRating = (Rating) this.fMinRating.clone();
+//		if (fFastestRating != null) newDiv.fFastestRating = (Rating) this.fFastestRating.clone();
+//		if (fSlowestRating != null) newDiv.fSlowestRating = (Rating) this.fSlowestRating.clone();
 //
 //		return newDiv;
 //	}
 
-    public boolean isMaxRatingValid( Rating inRat)
+    public boolean isFastestRatingValid( Rating inRat)
     {
-        if (fMinRating == null)
+        if (slowestRating == null)
         {
             //	"Unable to set maximum rating while minimum rating is null.",
             return false;
         }
-        else if (fMinRating.compareTo( inRat) < 0)
+        else if (slowestRating.compareTo( inRat) < 0)
         {
             //	"Maximum rating may not be less than minimum rating.",
             return false;
@@ -289,9 +289,9 @@ public class Division extends AbstractDivision
         return true;
     }
 
-    public boolean isMinRatingValid( Rating inRat)
+    public boolean isSlowestRatingValid( Rating inRat)
     {
-        if (fMaxRating.compareTo( inRat) > 0)
+        if (fastestRating.compareTo( inRat) > 0)
         {
             //	"Minimum rating may not be greater than minimum rating.",
             return false;
@@ -302,8 +302,8 @@ public class Division extends AbstractDivision
 
     @Override public boolean isOneDesign()
     {
-        if (fMinRating == null) return true;
-        else return fMinRating.isOneDesign();
+        if (slowestRating == null) return true;
+        else return slowestRating.isOneDesign();
     }
 
     
@@ -334,66 +334,21 @@ public class Division extends AbstractDivision
         if (inRat == null) return false;
 
         boolean b = false;
-        if (isOneDesign())
-        {
-
-            b = (inRat.compareTo( fMinRating) == 0);
+        if (isOneDesign()) {
+            b = (inRat.compareTo( slowestRating) == 0);
         }
-        else if (fMaxRating.compareTo( fMinRating) >= 0)
-        {
-            b = ( (inRat.compareTo( fMinRating) >= 0) &&
-                 (inRat.compareTo( fMaxRating) <= 0) );
-        }
-        else // (fMaxRating.compareTo( fMinRating) < 0)
-        {
-            b = ( (inRat.compareTo( fMinRating) <= 0) &&
-                 (inRat.compareTo( fMaxRating) >= 0) );
-        }
-        return b;
+        else if (fastestRating.isSlower( inRat)) return false;
+        else if (slowestRating.isFaster( inRat)) return false;
+        return true;
     }
 
-	/**
-	 * given a list of entries, returns a list of all entries who's rating
-	 * is contained in this division
-	 * 
-	 * @param allEntries the initial list of entries
-	 * @return list of entries that are valid for the division
-	 */
-	public EntryList getValidEntries( EntryList allEntries)
-	{
-		EntryList elist = new EntryList();
-		for (Entry e : allEntries)
-		{
-			Rating rtg = e.getBoat().getRating( getSystem());
-			if (rtg != null && contains( rtg)) elist.add( e);
-		}
-		return elist;
-	}
-
-	/**
-	 * given a list of entries, returns a list of all entries who's rating
-	 * is NOT contained in this division
-	 * 
-	 * @param allEntries the initial list of entries
-	 * @return list of entries that are invalid for the division
-	 */
-	public EntryList getInvalidEntries( EntryList allEntries)
-	{
-		EntryList elist = new EntryList();
-		for (Entry e : allEntries)
-		{
-			if ( !contains(e.getRating())) elist.add( e);
-		}
-		return elist;
-	}
-	
     /**
      * returns the max rating as a Rating
      * @returns maximum allowed rating for the division
     **/
-    public Rating getMaxRating()
+    public Rating getFastestRating()
     {
-        return fMaxRating;
+        return fastestRating;
     }
 
     /**
@@ -402,22 +357,22 @@ public class Division extends AbstractDivision
      *
      * is ignored if minRating is a onedesign
     **/
-    public void setMaxRating(Rating inRat)
+    public void setFastestRating(Rating inRat)
     {
-    	if (fMaxRating != null) fMaxRating.removePropertyChangeListener( this);
-        Rating oldRat = fMaxRating;
-        fMaxRating = inRat;
-    	if (fMaxRating != null) fMaxRating.addPropertyChangeListener( this);
-        firePropertyChange( MAXRATING_PROPERTY, oldRat, inRat);
+    	if (fastestRating != null) fastestRating.removePropertyChangeListener( this);
+        Rating oldRat = fastestRating;
+        fastestRating = inRat;
+    	if (fastestRating != null) fastestRating.addPropertyChangeListener( this);
+        firePropertyChange( FASTESTRATING_PROPERTY, oldRat, inRat);
     }
 
     /**
      * returns the min rating as a Rating
      * @returns minimum allowed rating for the division
     **/
-    public Rating getMinRating()
+    public Rating getSlowestRating()
     {
-        return fMinRating;
+        return slowestRating;
     }
 
     /**
@@ -427,24 +382,24 @@ public class Division extends AbstractDivision
      * if system is onedesign, it will ignore maxrating
      * otherwise will ensure minrating <= maxrating
     **/
-    public void setMinRating(Rating inRat)
+    public void setSlowestRating(Rating inRat)
     {
-    	if (fMinRating != null) fMinRating.removePropertyChangeListener( this);
-        Rating oldRat = fMinRating;
-        fMinRating = inRat;
-    	if (fMinRating != null) fMinRating.addPropertyChangeListener( this);
-        firePropertyChange( MINRATING_PROPERTY, oldRat, inRat);
+    	if (slowestRating != null) slowestRating.removePropertyChangeListener( this);
+        Rating oldRat = slowestRating;
+        slowestRating = inRat;
+    	if (slowestRating != null) slowestRating.addPropertyChangeListener( this);
+        firePropertyChange( SLOWESTRATING_PROPERTY, oldRat, inRat);
     }
 
     @Override public void propertyChange( PropertyChangeEvent event)
 	{
-		if ( event.getSource() == fMinRating)
+		if ( event.getSource() == slowestRating)
 		{
-        	firePropertyChange( MINRATING_PROPERTY, null, fMinRating);
+        	firePropertyChange( SLOWESTRATING_PROPERTY, null, slowestRating);
 		}
-		else if (event.getSource() == fMaxRating)
+		else if (event.getSource() == fastestRating)
 	    {
-        	firePropertyChange( MAXRATING_PROPERTY, null, fMaxRating);
+        	firePropertyChange( FASTESTRATING_PROPERTY, null, fastestRating);
 	    }
 	}
 }

@@ -40,7 +40,7 @@ public class RatingPortsmouth extends RatingYardstick
      * Creates a new instance of the maximum/fastest overall rating allowed by the rating system
      * @return
      */
-    @Override public Rating createMaxRating()
+    @Override public Rating createFastestRating()
     {
         return new RatingPortsmouth( 0.0);
     }
@@ -49,7 +49,7 @@ public class RatingPortsmouth extends RatingYardstick
      * Creates a new instance of the minimum/slowest overall rating allowed by the rating system
      * @return
      */
-    @Override public Rating createMinRating()
+    @Override public Rating createSlowestRating()
     {
         return new RatingPortsmouth( 9999.0);
     }

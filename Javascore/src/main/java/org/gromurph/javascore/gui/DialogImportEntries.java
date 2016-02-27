@@ -285,7 +285,7 @@ public class DialogImportEntries extends DialogImportTable {
 		}
 
 		try {
-			if (fRowDiv.isOneDesign()) e.getBoat().putRating(fRowDiv.getMinRating());
+			if (fRowDiv.isOneDesign()) e.getBoat().putRating(fRowDiv.getSlowestRating());
 			e.setDivision(fRowDiv);
 		}
 		catch (RatingOutOfBoundsException ex) {
@@ -315,10 +315,10 @@ public class DialogImportEntries extends DialogImportTable {
 		catch (RatingOutOfBoundsException roe) {
 			String msg = MessageFormat.format(res.getString("ImportEntriesMessageRatingOutOfBounds"), new Object[] {
 					e.getBoat().getSailId(), e.getBoat().getName(), new Double(rtg),
-					new Double(fRowDiv.getMinRating().getPrimaryValue()) });
+					new Double(fRowDiv.getSlowestRating().getPrimaryValue()) });
 			addWarning(msg);
 			try {
-				e.setRating(RatingManager.createRating(fRowDiv, e.getDivision().getMinRating().getPrimaryValue()));
+				e.setRating(RatingManager.createRating(fRowDiv, e.getDivision().getSlowestRating().getPrimaryValue()));
 			}
 			catch (RatingOutOfBoundsException roe2) {} // shouldnt happen so ignore
 		}
@@ -326,7 +326,7 @@ public class DialogImportEntries extends DialogImportTable {
 		catch (NumberFormatException e2) {
 			String msg = MessageFormat.format(res.getString("ImportEntriesMessageRatingNotNumber"), new Object[] {
 					e.getBoat().getSailId(), e.getBoat().getName(), fRowRating,
-					new Double(e.getDivision().getMinRating().getPrimaryValue()) });
+					new Double(e.getDivision().getSlowestRating().getPrimaryValue()) });
 			addWarning(msg);
 		}
 	}

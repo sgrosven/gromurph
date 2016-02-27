@@ -20,6 +20,7 @@ import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.beans.PropertyChangeEvent;
+import java.sql.Types;
 import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -184,8 +185,8 @@ public class PanelDivision extends BaseEditor<Division> implements ActionListene
 
 				if ( yesno == JOptionPane.YES_OPTION) {
 					fDivisionRegatta.setName( fDivision.getName());
-					fDivisionRegatta.setMinRating( (Rating) fDivision.getMinRating().clone());
-					fDivisionRegatta.setMaxRating( (Rating) fDivision.getMaxRating().clone());
+					fDivisionRegatta.setSlowestRating( (Rating) fDivision.getSlowestRating().clone());
+					fDivisionRegatta.setFastestRating( (Rating) fDivision.getFastestRating().clone());
 					processDivisionChanges( fDivisionRegatta);
 				}
 			}
@@ -242,12 +243,12 @@ public class PanelDivision extends BaseEditor<Division> implements ActionListene
 		Regatta reg = JavaScoreProperties.getRegatta();
 		if ( reg == null) return; // no regatta, go away
 
-		EntryList divEntries = div.getEntries();
-		EntryList entriesOut = div.getInvalidEntries( divEntries);
+		EntryList divEntries = reg.getAllEntries().findAll( div); 
+		EntryList entriesOut = RatingManager.getInvalidEntries( div, divEntries);
 
-		EntryList noneEntries = AbstractDivision.NONE.getEntries();
-		EntryList entriesIn = div.getValidEntries( noneEntries);
-
+		EntryList noneEntries = reg.getAllEntries().findAll( AbstractDivision.NONE);
+		EntryList entriesIn = RatingManager.getValidEntries( div, noneEntries);
+		
 		if ( entriesOut.size() == 0 && entriesIn.size() == 0) return;
 
 		JPanel panel = new JPanel( new BorderLayout());
@@ -329,8 +330,8 @@ public class PanelDivision extends BaseEditor<Division> implements ActionListene
 		Division backup = (Division) b;
 
 		active.setName( backup.getName());
-		active.setMinRating( (Rating) backup.getMinRating().clone());
-		active.setMaxRating( (Rating) backup.getMaxRating().clone());
+		active.setSlowestRating( (Rating) backup.getSlowestRating().clone());
+		active.setFastestRating( (Rating) backup.getFastestRating().clone());
 		super.restore( active, backup);
 	}
 
@@ -364,17 +365,21 @@ public class PanelDivision extends BaseEditor<Division> implements ActionListene
 			
     		if ( fDivision.isOneDesign()) {
     			fLabelMin.setText( res.getString( "DivisionLabelODClassName"));
-    			fPanelMinRating.setObject( fDivision.getMinRating());
+    			fPanelMinRating.setObject( fDivision.getSlowestRating());
     			
     			fLabelMax.setText( " ");	
     			fPanelMaxRating.setObject( null);
     		} else {
     			fLabelMin.setText( res.getString( "DivisionLabelMinRating"));
-    			fPanelMinRating.setObject( fDivision.getMinRating());
-    			
+    			fLabelMin.setToolTipText( res.getString( "DivisionMinRatingToolTip"));
+    			fPanelMinRating.setObject( fDivision.getSlowestRating());
+    			fPanelMinRating.setToolTipText( res.getString( "DivisionMinRatingToolTip"));
+   			
     			String x =  res.getString( "DivisionLabelMaxRating");
     			fLabelMax.setText( res.getString( "DivisionLabelMaxRating"));
-    			fPanelMaxRating.setObject( fDivision.getMaxRating());
+    			fLabelMax.setToolTipText( res.getString( "DivisionMaxRatingToolTip"));
+    			fPanelMaxRating.setObject( fDivision.getFastestRating());
+    			fPanelMaxRating.setToolTipText( res.getString( "DivisionMaxRatingToolTip"));
     			
     			this.revalidate();
     		}

@@ -20,13 +20,13 @@ package org.gromurph.javascore.model.ratings;
 public class RatingIrc extends RatingCoefficient
 {
     public static final String SYSTEM = "IRC";
-    private static double MAX_RATING = 0.0;
-    private static double MIN_RATING = 999.0;
+    private static double FASTEST_RATING = 0.0;
+    private static double SLOWEST_RATING = 999.0;
     
 
     public RatingIrc()
     {
-        super( SYSTEM, MAX_RATING);
+        super( SYSTEM, FASTEST_RATING);
     }
 
     public RatingIrc( double inV)
@@ -40,18 +40,18 @@ public class RatingIrc extends RatingCoefficient
      * Creates a new instance of the fastest overall rating allowed by the rating system
      * @return
      */
-    @Override public Rating createMaxRating()
+    @Override public Rating createFastestRating()
     {
-        return new RatingIrc( MAX_RATING);
+        return new RatingIrc( FASTEST_RATING);
     }
 
     /**
      * Creates a new instance of the slowest overall rating allowed by the rating system
      * @return
      */
-    @Override public Rating createMinRating()
+    @Override public Rating createSlowestRating()
     {
-        return new RatingIrc( MIN_RATING);
+        return new RatingIrc( SLOWEST_RATING);
     }
 
 }

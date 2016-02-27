@@ -42,6 +42,15 @@ public abstract class RatingCoefficient extends RatingDouble
     	return getPrimaryValue();
     }
 
+    @Override public boolean isSlower(Rating that) {
+    	if (!(that instanceof RatingIrc)) return false;
+    	return (getPrimaryValue() > ((RatingIrc) that).getPrimaryValue());
+    }
+    @Override public boolean isFaster(Rating that) {
+    	if (!(that instanceof RatingIrc)) return false;
+    	return (getPrimaryValue() > ((RatingIrc) that).getPrimaryValue());
+    }
+
     /**
      * Time on time formula
      * @param inFinish Finish object for which corrected time is to be calculated

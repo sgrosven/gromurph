@@ -461,7 +461,7 @@ public class PanelEntry extends BaseEditor<Entry> implements ActionListener {
 
 				if (changeRating == JOptionPane.YES_OPTION) {
 					try {
-						fEntry.setRating((Rating) div.getMinRating().clone());
+						fEntry.setRating((Rating) div.getSlowestRating().clone());
 						fEntry.setDivision(div);
 					} catch (RatingOutOfBoundsException canthappen) {}
 				} else {
