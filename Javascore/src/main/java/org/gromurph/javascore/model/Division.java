@@ -30,8 +30,8 @@ public class Division extends AbstractDivision
     /**
      * temporary master division for regattas with all one class
      */
-    public static final String SLOWESTRATING_PROPERTY = "MinRating";
-    public static final String FASTESTRATING_PROPERTY = "MaxRating";
+    public static final String SLOWESTRATING_PROPERTY = "MaxRating";
+    public static final String FASTESTRATING_PROPERTY = "MinRating";
 
     private static final long serialVersionUID = 1L;
 
@@ -210,9 +210,20 @@ public class Division extends AbstractDivision
     {
         if (!sysName.equals( getSystem()))
         {
-            Rating r = RatingManager.createRating( sysName);
-            setSlowestRating( r.createSlowestRating());
-            setFastestRating( r.createFastestRating());
+             
+            Rating r = RatingManager.convertRating(sysName, slowestRating);
+            if (r == null) {
+            	r = RatingManager.createRating( sysName);
+            	r = r.createSlowestRating();
+            }
+            setSlowestRating( r);
+            
+            r = RatingManager.convertRating(sysName, fastestRating);
+            if (r == null) {
+            	r = RatingManager.createRating( sysName);
+            	r = r.createFastestRating();
+            }
+            setFastestRating( r);
          }
     }
 

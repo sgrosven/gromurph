@@ -72,10 +72,10 @@ public class PanelDivision extends BaseEditor<Division> implements ActionListene
 	JComboBox fChoiceGender;
 	JTextFieldSelectAll fTextIfClassId;
 
-	PanelRating fPanelMinRating;
-	PanelRating fPanelMaxRating;
-	JLabel fLabelMin;
-	JLabel fLabelMax;
+	PanelRating fPanelFastestRating;
+	PanelRating fPanelSlowestRating;
+	JLabel fLabelSlowest;
+	JLabel fLabelFastest;
 
 	private String CARD_BLANK = "Blank";
 	private String CARD_DOUBLE = PanelRatingDouble.class.getName();
@@ -109,20 +109,20 @@ public class PanelDivision extends BaseEditor<Division> implements ActionListene
 		row++;
 		java.awt.Insets i0 = new java.awt.Insets( 0, 0, 0, 0);
 
-		fLabelMin = new JLabel();
-		gridbagAdd( this, fLabelMin, 0, row, 1, 1, GridBagConstraints.EAST, GridBagConstraints.NONE, i0);
+		fLabelSlowest = new JLabel();
+		gridbagAdd( this, fLabelSlowest, 0, row, 1, 1, GridBagConstraints.EAST, GridBagConstraints.NONE, i0);
 
-		fPanelMinRating = new PanelRating( this.getEditorParent());
-		fPanelMinRating.setName( "fPanelMinRating");
-		gridbagAdd( this, fPanelMinRating, 1, row, 1, 1, GridBagConstraints.WEST, GridBagConstraints.NONE, i0);
+		fPanelFastestRating = new PanelRating( this.getEditorParent());
+		fPanelFastestRating.setName( "fPanelFastestRating");
+		gridbagAdd( this, fPanelFastestRating, 1, row, 1, 1, GridBagConstraints.WEST, GridBagConstraints.NONE, i0);
 		
 		row++;
-		fLabelMax = new JLabel();
-		gridbagAdd( this, fLabelMax, 0, row, 1, 1, GridBagConstraints.EAST, GridBagConstraints.NONE, i0);
+		fLabelFastest = new JLabel();
+		gridbagAdd( this, fLabelFastest, 0, row, 1, 1, GridBagConstraints.EAST, GridBagConstraints.NONE, i0);
 
-		fPanelMaxRating = new PanelRating( this.getEditorParent());
-		fPanelMaxRating.setName( "fPanelMaxRating");
-		gridbagAdd( this, fPanelMaxRating, 1, row, 1, 1, GridBagConstraints.WEST, GridBagConstraints.NONE, i0);
+		fPanelSlowestRating = new PanelRating( this.getEditorParent());
+		fPanelSlowestRating.setName( "fPanelSlowestRating");
+		gridbagAdd( this, fPanelSlowestRating, 1, row, 1, 1, GridBagConstraints.WEST, GridBagConstraints.NONE, i0);
 
 		row++;
 		gridbagAdd( new JLabel( res.getString( "IfClassIdLabel")), 0, row, 1, GridBagConstraints.EAST, GridBagConstraints.NONE);
@@ -154,8 +154,8 @@ public class PanelDivision extends BaseEditor<Division> implements ActionListene
 		fTextIfClassId.addActionListener( this);
 		fChoiceGender.addActionListener( this);
 
-		fPanelMinRating.startUp();
-		fPanelMaxRating.startUp();
+		fPanelFastestRating.startUp();
+		fPanelSlowestRating.startUp();
 	}
 
 	@Override public void stop() {
@@ -163,8 +163,8 @@ public class PanelDivision extends BaseEditor<Division> implements ActionListene
 		fChoiceSystem.removeActionListener( this);
 		fTextIfClassId.removeActionListener( this);
 		fChoiceGender.removeActionListener( this);
-		fPanelMinRating.shutDown();
-		fPanelMaxRating.shutDown();
+		fPanelFastestRating.shutDown();
+		fPanelSlowestRating.shutDown();
 	}
 
 	@Override public void exitOK() {
@@ -339,15 +339,15 @@ public class PanelDivision extends BaseEditor<Division> implements ActionListene
 		if ( fDivision == null) {
 			fTextName.setText( "");
 			fChoiceSystem.setEnabled( false);
-			fLabelMax.setText( " ");
-			fLabelMin.setText( " ");
+			fLabelFastest.setText( " ");
+			fLabelSlowest.setText( " ");
 
 			fTextIfClassId.setText( "");
 			fChoiceGender.setSelectedItem( null);
 
 			// old division is null
-			fPanelMinRating.setObject(null);
-			fPanelMaxRating.setObject(null);
+			fPanelFastestRating.setObject(null);
+			fPanelSlowestRating.setObject(null);
 		} else {
 			String n = fDivision.getName();
 			fTextName.setText( n);
@@ -364,22 +364,22 @@ public class PanelDivision extends BaseEditor<Division> implements ActionListene
 			fChoiceSystem.setEnabled( true);
 			
     		if ( fDivision.isOneDesign()) {
-    			fLabelMin.setText( res.getString( "DivisionLabelODClassName"));
-    			fPanelMinRating.setObject( fDivision.getSlowestRating());
+    			fLabelSlowest.setText( res.getString( "DivisionLabelODClassName"));
+    			fPanelFastestRating.setObject( fDivision.getFastestRating());
     			
-    			fLabelMax.setText( " ");	
-    			fPanelMaxRating.setObject( null);
+    			fLabelFastest.setText( " ");	
+    			fPanelSlowestRating.setObject( null);
     		} else {
-    			fLabelMin.setText( res.getString( "DivisionLabelMinRating"));
-    			fLabelMin.setToolTipText( res.getString( "DivisionMinRatingToolTip"));
-    			fPanelMinRating.setObject( fDivision.getSlowestRating());
-    			fPanelMinRating.setToolTipText( res.getString( "DivisionMinRatingToolTip"));
+    			fLabelSlowest.setText( res.getString( "DivisionLabelFastestRating"));
+    			fLabelSlowest.setToolTipText( res.getString( "DivisionFastestRatingToolTip"));
+    			fPanelSlowestRating.setObject( fDivision.getSlowestRating());
+    			fPanelSlowestRating.setToolTipText( res.getString( "DivisionSlowestRatingToolTip"));
    			
-    			String x =  res.getString( "DivisionLabelMaxRating");
-    			fLabelMax.setText( res.getString( "DivisionLabelMaxRating"));
-    			fLabelMax.setToolTipText( res.getString( "DivisionMaxRatingToolTip"));
-    			fPanelMaxRating.setObject( fDivision.getFastestRating());
-    			fPanelMaxRating.setToolTipText( res.getString( "DivisionMaxRatingToolTip"));
+    			String x =  res.getString( "DivisionLabelSlowestRating");
+    			fLabelFastest.setText( res.getString( "DivisionLabelSlowestRating"));
+    			fLabelFastest.setToolTipText( res.getString( "DivisionSlowestRatingToolTip"));
+    			fPanelFastestRating.setObject( fDivision.getFastestRating());
+    			fPanelFastestRating.setToolTipText( res.getString( "DivisionFastestRatingToolTip"));
     			
     			this.revalidate();
     		}

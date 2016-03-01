@@ -28,18 +28,27 @@ package org.gromurph.javascore.model.ratings;
 public class RatingMultihull extends RatingCoefficient
 {
     public static final String SYSTEM = "Multihull";
-    private static double MAX_RATING = 0.0;
+    private static double FASTEST_RATING = 0.0;
     private static double SLOWEST_RATING = 999.0;
     
 
     public RatingMultihull()
     {
-        super( SYSTEM, MAX_RATING);
+        super( SYSTEM, FASTEST_RATING);
     }
 
     public RatingMultihull( double inV)
     {
         super( SYSTEM, inV);
+    }
+
+    @Override public boolean isSlower(Rating that) {
+    	if (!(that instanceof RatingMultihull)) return false;
+    	return (getPrimaryValue() < ((RatingMultihull) that).getPrimaryValue());
+    }
+    @Override public boolean isFaster(Rating that) {
+    	if (!(that instanceof RatingMultihull)) return false;
+    	return (getPrimaryValue() > ((RatingMultihull) that).getPrimaryValue());
     }
 
     @Override public int getDecs() {return 3;}
@@ -50,7 +59,7 @@ public class RatingMultihull extends RatingCoefficient
      */
     @Override public Rating createFastestRating()
     {
-        return new RatingMultihull( MAX_RATING);
+        return new RatingMultihull( FASTEST_RATING);
     }
 
     /**

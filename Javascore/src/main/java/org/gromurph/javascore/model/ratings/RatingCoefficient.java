@@ -25,7 +25,7 @@ import org.gromurph.util.WarningList;
 /**
  * Covering classes for ratings where the corrected time is a simple coefficient
  * of the elapsed time by the rating value.  Typical of time-on-time formulas
- * 
+ * a smaller rating value denotes a slower boat
  *
 **/
 public abstract class RatingCoefficient extends RatingDouble
@@ -43,12 +43,12 @@ public abstract class RatingCoefficient extends RatingDouble
     }
 
     @Override public boolean isSlower(Rating that) {
-    	if (!(that instanceof RatingIrc)) return false;
-    	return (getPrimaryValue() > ((RatingIrc) that).getPrimaryValue());
+    	if (!(that instanceof RatingCoefficient)) return false;
+    	return (getPrimaryValue() > ((RatingCoefficient) that).getPrimaryValue());
     }
     @Override public boolean isFaster(Rating that) {
-    	if (!(that instanceof RatingIrc)) return false;
-    	return (getPrimaryValue() > ((RatingIrc) that).getPrimaryValue());
+    	if (!(that instanceof RatingCoefficient)) return false;
+    	return (getPrimaryValue() < ((RatingCoefficient) that).getPrimaryValue());
     }
 
     /**

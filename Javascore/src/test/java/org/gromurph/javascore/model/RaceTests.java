@@ -111,7 +111,7 @@ public class RaceTests extends JavascoreTestCase implements Constants {
 
 		regatta.scoreRegatta();
 
-		assertEquals("r1, div1 finishers", 3, r1.getNumberFinishers(div1));
+		assertEquals("r1, div1 finishers", 4, r1.getNumberFinishers(div1));
 		assertEquals("r1, div2 finishers", 1, r1.getNumberFinishers(div2));
 	}
 

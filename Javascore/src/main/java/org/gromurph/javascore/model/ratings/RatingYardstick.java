@@ -21,12 +21,12 @@ public class RatingYardstick extends RatingCoefficient
 {
     public static final String SYSTEM = "Yardstick";
     protected static double SLOWEST_RATING = 0.1;
-    protected static double MAX_RATING = 999.0;
+    protected static double FASTEST_RATING = 999.0;
     
 
     public RatingYardstick()
     {
-        super( SYSTEM, MAX_RATING);
+        super( SYSTEM, FASTEST_RATING);
     }
 
     public RatingYardstick( double inV)
@@ -53,7 +53,7 @@ public class RatingYardstick extends RatingCoefficient
      */
     @Override public Rating createFastestRating()
     {
-        return new RatingYardstick( MAX_RATING);
+        return new RatingYardstick( FASTEST_RATING);
     }
 
     /**

@@ -26,7 +26,7 @@ public class RatingPortsmouth extends RatingYardstick
 
     public RatingPortsmouth()
     {
-        super( SYSTEM, RatingYardstick.MAX_RATING);
+        super( SYSTEM, RatingYardstick.FASTEST_RATING);
     }
 
     public RatingPortsmouth( double inV)
@@ -42,7 +42,7 @@ public class RatingPortsmouth extends RatingYardstick
      */
     @Override public Rating createFastestRating()
     {
-        return new RatingPortsmouth( 0.0);
+        return new RatingPortsmouth( RatingYardstick.FASTEST_RATING);
     }
 
     /**
@@ -51,7 +51,7 @@ public class RatingPortsmouth extends RatingYardstick
      */
     @Override public Rating createSlowestRating()
     {
-        return new RatingPortsmouth( 9999.0);
+        return new RatingPortsmouth( RatingYardstick.SLOWEST_RATING);
     }
 
 }

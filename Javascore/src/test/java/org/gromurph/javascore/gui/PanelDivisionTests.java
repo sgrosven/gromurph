@@ -41,19 +41,19 @@ public class PanelDivisionTests extends JavascoreTestCase {
 		
 		DialogBaseEditor dialog = showPanel(div);
 
-		JPanel p1 = (JPanel) findComponent(JPanel.class, "fPanelMinRating", dialog);
-		assertNotNull("Cant find minPanel", p1);
+		JPanel p1 = (JPanel) findComponent(JPanel.class, "fPanelFastestRating", dialog);
+		assertNotNull("Cant find fastestPanel", p1);
 		JPanel p2 = (JPanel) findComponent(JPanel.class, PanelRating.CARD_DOUBLE, p1);
-		assertNotNull("Cant find minPanel.double", p2);
+		assertNotNull("Cant find fastestPanel.double", p2);
 		JTextField fieldMin = (JTextField) findComponent(JTextField.class, "fTextRating", p2);
 		assertNotNull("Cant find fTextRating", fieldMin);
 
 		assertEquals("min rating wrong", "33", fieldMin.getText());
 
-		JPanel x1 = (JPanel) findComponent(JPanel.class, "fPanelMaxRating", dialog);
-		assertNotNull("Cant find maxPanel", x1);
+		JPanel x1 = (JPanel) findComponent(JPanel.class, "fPanelSlowestRating", dialog);
+		assertNotNull("Cant find slowestPanel", x1);
 		JPanel x2 = (JPanel) findComponent(JPanel.class, PanelRating.CARD_DOUBLE, x1);
-		assertNotNull("Cant find maxPanel.double", x2);
+		assertNotNull("Cant find slowestPanel.double", x2);
 		JTextField fieldMax = (JTextField) findComponent(JTextField.class, "fTextRating", x2);
 		assertNotNull("Cant find fTextRating", fieldMax);
 
@@ -86,19 +86,19 @@ public class PanelDivisionTests extends JavascoreTestCase {
 
 		JTextField fieldName = (JTextField) findComponent(JTextField.class, "fTextName", dialog);
 
-		JPanel p1 = (JPanel) findComponent(JPanel.class, "fPanelMinRating", dialog);
-		assertNotNull("Cant find minPanel", p1);
+		JPanel p1 = (JPanel) findComponent(JPanel.class, "fPanelFastestRating", dialog);
+		assertNotNull("Cant find fastestPanel", p1);
 		JPanel p2 = (JPanel) findComponent(JPanel.class, PanelRating.CARD_DOUBLE, p1);
-		assertNotNull("Cant find minPanel.double", p2);
+		assertNotNull("Cant find fastestPanel.double", p2);
 		JTextField fieldMin = (JTextField) findComponent(JTextField.class, "fTextRating", p2);
 		assertNotNull("Cant find fTextRating", fieldMin);
 
 		assertEquals("min rating wrong", "33", fieldMin.getText());
 
-		JPanel x1 = (JPanel) findComponent(JPanel.class, "fPanelMaxRating", dialog);
-		assertNotNull("Cant find maxPanel", x1);
+		JPanel x1 = (JPanel) findComponent(JPanel.class, "fPanelSlowestRating", dialog);
+		assertNotNull("Cant find slowestPanel", x1);
 		JPanel x2 = (JPanel) findComponent(JPanel.class, PanelRating.CARD_DOUBLE, x1);
-		assertNotNull("Cant find maxPanel.double", x2);
+		assertNotNull("Cant find slowestPanel.double", x2);
 		JTextField fieldMax = (JTextField) findComponent(JTextField.class, "fTextRating", x2);
 		assertNotNull("Cant find fTextRating", fieldMax);
 
@@ -136,20 +136,20 @@ public class PanelDivisionTests extends JavascoreTestCase {
 
 		JTextField fieldName = (JTextField) findComponent(JTextField.class, "fTextName", dialog);
 
-		JPanel p1 = (JPanel) findComponent(JPanel.class, "fPanelMinRating", dialog);
-		assertNotNull("Cant find minPanel", p1);
+		JPanel p1 = (JPanel) findComponent(JPanel.class, "fPanelFastestRating", dialog);
+		assertNotNull("Cant find fastestPanel", p1);
 		JPanel p2 = (JPanel) findComponent(JPanel.class, PanelRating.CARD_DOUBLE, p1);
-		assertNotNull("Cant find minPanel.double", p2);
+		assertNotNull("Cant find fastestPanel.double", p2);
 		JTextField fieldMin = (JTextField) findComponent(JTextField.class, "fTextRating", p2);
 		assertNotNull("Cant find fTextRating", fieldMin);
 
 		String sL1 = Util.formatDouble(RATING_L1, ircDecs);
 		assertEquals("min rating wrong", sL1, fieldMin.getText());
 
-		JPanel x1 = (JPanel) findComponent(JPanel.class, "fPanelMaxRating", dialog);
-		assertNotNull("Cant find maxPanel", x1);
+		JPanel x1 = (JPanel) findComponent(JPanel.class, "fPanelSlowestRating", dialog);
+		assertNotNull("Cant find slowestPanel", x1);
 		JPanel x2 = (JPanel) findComponent(JPanel.class, PanelRating.CARD_DOUBLE, x1);
-		assertNotNull("Cant find maxPanel.double", x2);
+		assertNotNull("Cant find slowestPanel.double", x2);
 		JTextField fieldMax = (JTextField) findComponent(JTextField.class, "fTextRating", x2);
 		assertNotNull("Cant find fTextRating", fieldMax);
 
@@ -174,28 +174,28 @@ public class PanelDivisionTests extends JavascoreTestCase {
 		clickOKButton(dialog);
 	}
 
-	public void testNameAndMinRating() {
+	public void testNameAndSlowestRating() {
 		Division div = new Division("phrf", new RatingPhrf(33), new RatingPhrf(66));
 		DialogBaseEditor dialog = showPanel(div);
 
 		//assertEquals("Number of windows is incorrect", 1, getOpenWindowCount());
 
-		JPanel p1 = (JPanel) findComponent(JPanel.class, "fPanelMinRating", dialog);
-		assertNotNull("Cant find minPanel", p1);
+		JPanel p1 = (JPanel) findComponent(JPanel.class, "fPanelSlowestRating", dialog);
+		assertNotNull("Cant find slowestPanel", p1);
 		JPanel p2 = (JPanel) findComponent(JPanel.class, PanelRating.CARD_DOUBLE, p1);
-		assertNotNull("Cant find minPanel.double", p2);
+		assertNotNull("Cant find slowestPanel.double", p2);
 		JTextField fieldMin = (JTextField) findComponent(JTextField.class, "fTextRating", p2);
 		assertNotNull("Cant find fTextRating", fieldMin);
-		assertEquals("min rating should be 33", 33.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
+		assertEquals("slowest rating should be 66", 66.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
 		
 		String newrating = "40";
 		sendStringAndEnter(fieldMin, newrating);
-		assertEquals("min rating should be 40", 40.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
+		assertEquals("slowest rating should be 40", 40.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
 
-		// change phrf min rating	
+		// change phrf slowest rating	
 		newrating = "44";
 		sendStringAndEnter(fieldMin, newrating);
-		assertEquals("min rating should be 44", 44.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
+		assertEquals("slowest rating should be 44", 44.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
 
 		// change division name, with and with focus change
 		JTextField fieldName = (JTextField) findComponent(JTextField.class, "fTextName", dialog);
@@ -218,25 +218,23 @@ public class PanelDivisionTests extends JavascoreTestCase {
 
 		//assertEquals("Number of windows is incorrect", 1, getOpenWindowCount());
 
-		JPanel p1 = (JPanel) findComponent(JPanel.class, "fPanelMinRating", dialog);
-		assertNotNull("Cant find minPanel", p1);
+		JPanel p1 = (JPanel) findComponent(JPanel.class, "fPanelFastestRating", dialog);
+		assertNotNull("Cant find fastestPanel", p1);
 		JPanel p2 = (JPanel) findComponent(JPanel.class, PanelRating.CARD_DOUBLE, p1);
-		assertNotNull("Cant find minPanel.double", p2);
-		JTextField fieldMin = (JTextField) findComponent(JTextField.class, "fTextRating", p2);
-		assertNotNull("Cant find fTextRating", fieldMin);
+		assertNotNull("Cant find fastestPanel.double", p2);
+		JTextField fieldFastest = (JTextField) findComponent(JTextField.class, "fTextRating", p2);
+		assertNotNull("Cant find fTextRating", fieldFastest);
 
 		Container south = (Container) findComponent(JPanel.class, "fPanelSouth", dialog);
 		assertNotNull("Cant find panel containing cancel button", south);
 
 		// change phrf min rating	
 		String newrating = "44";
-		sendStringAndEnter(fieldMin, newrating);
-		assertEquals("min rating should be 44", 44.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
+		sendStringAndEnter(fieldFastest, newrating);
+		assertEquals("fastest rating should be 44", 44.0, div.getFastestRating().getPrimaryValue(), 0.0001);
 
 		clickOKButton(dialog);
-
-
-		assertEquals("min rating should be 44", 44.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
+		assertEquals("fastest rating should be 44", 44.0, div.getFastestRating().getPrimaryValue(), 0.0001);
 	}
 
 	/**
@@ -249,19 +247,19 @@ public class PanelDivisionTests extends JavascoreTestCase {
 
 		//assertEquals("Number of windows is incorrect", 1, getOpenWindowCount());
 
-		JPanel p1 = (JPanel) findComponent(JPanel.class, "fPanelMinRating", dialog);
-		assertNotNull("Cant find minPanel", p1);
+		JPanel p1 = (JPanel) findComponent(JPanel.class, "fPanelFastestRating", dialog);
+		assertNotNull("Cant find fastestPanel", p1);
 		JPanel p2 = (JPanel) findComponent(JPanel.class, PanelRating.CARD_DOUBLE, p1);
-		assertNotNull("Cant find minPanel.double", p2);
-		JTextField fieldMin = (JTextField) findComponent(JTextField.class, "fTextRating", p2);
-		assertNotNull("Cant find fTextRating", fieldMin);
+		assertNotNull("Cant find fastestPanel.double", p2);
+		JTextField fieldFastest = (JTextField) findComponent(JTextField.class, "fTextRating", p2);
+		assertNotNull("Cant find fTextRating", fieldFastest);
 
-		JPanel x1 = (JPanel) findComponent(JPanel.class, "fPanelMaxRating", dialog);
-		assertNotNull("Cant find maxPanel", x1);
+		JPanel x1 = (JPanel) findComponent(JPanel.class, "fPanelSlowestRating", dialog);
+		assertNotNull("Cant find slowestPanel", x1);
 		JPanel x2 = (JPanel) findComponent(JPanel.class, PanelRating.CARD_DOUBLE, x1);
-		assertNotNull("Cant find maxPanel.double", x2);
-		JTextField fieldMax = (JTextField) findComponent(JTextField.class, "fTextRating", x2);
-		assertNotNull("Cant find fTextRating", fieldMax);
+		assertNotNull("Cant find slowestPanel.double", x2);
+		JTextField fieldSlowest = (JTextField) findComponent(JTextField.class, "fTextRating", x2);
+		assertNotNull("Cant find fTextRating", fieldSlowest);
 
 		Container south = (Container) findComponent(JPanel.class, "fPanelSouth", dialog);
 		assertNotNull("Cant find panel containing cancel button", south);
@@ -273,14 +271,14 @@ public class PanelDivisionTests extends JavascoreTestCase {
 
 		// change phrf min rating	
 		String newtext = "44";
-		sendStringAndEnter(fieldMin, newtext);
-		assertEquals("min rating should be 44", 44.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
+		sendStringAndEnter(fieldFastest, newtext);
+		assertEquals("min rating should be 44", 44.0, div.getFastestRating().getPrimaryValue(), 0.0001);
 
 		assertTrue("Cancel should now be enabled", cancelButton.isEnabled());
 
 		newtext = "99";
-		sendStringAndEnter(fieldMax, newtext);
-		assertEquals("max rating should be 99", 99.0, div.getFastestRating().getPrimaryValue(), 0.0001);
+		sendStringAndEnter(fieldSlowest, newtext);
+		assertEquals("max rating should be 99", 99.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
 
 		String origName = div.getName();
 		newtext = "phrf2";
@@ -292,8 +290,8 @@ public class PanelDivisionTests extends JavascoreTestCase {
 
 		clickOnButton("fButtonCancel");
 
-		assertEquals("min rating should be orig 33", 33.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
-		assertEquals("max rating should be orig 66", 66.0, div.getFastestRating().getPrimaryValue(), 0.0001);
+		assertEquals("min rating should be orig 33", 33.0, div.getFastestRating().getPrimaryValue(), 0.0001);
+		assertEquals("max rating should be orig 66", 66.0, div.getSlowestRating().getPrimaryValue(), 0.0001);
 		assertEquals("name should be orig name", origName, div.getName());
 	}
 
