@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta DailyScoring="false" Dates="" Final="false" HostClub="" IFEventID="" JSVersion="7.3.1" JuryChair="" Multistage="false" Name="Time on Time Test" Pro="" UseBowNumbers="false" Version="600" comment="">
+<Scores SystemName="ISAF Low Point 2013-2016">
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.2"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="4.1"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="2.2"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="3.2"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
+</Regatta>

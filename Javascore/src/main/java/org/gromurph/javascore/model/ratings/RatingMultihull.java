@@ -28,6 +28,7 @@ package org.gromurph.javascore.model.ratings;
 public class RatingMultihull extends RatingCoefficient
 {
     public static final String SYSTEM = "Multihull";
+    
     private static double FASTEST_RATING = 0.0;
     private static double SLOWEST_RATING = 999.0;
     

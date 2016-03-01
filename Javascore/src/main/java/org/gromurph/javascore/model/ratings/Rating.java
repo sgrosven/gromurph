@@ -53,13 +53,13 @@ public abstract class Rating extends BaseObject implements Comparable
     public abstract boolean isOneDesign();
 
     /**
-     * Creates a new instance of the minimum/slowest overall rating allowed by the rating system
+     * Creates a new instance of the slowest overall rating allowed by the rating system
      * @return
      */
     public abstract Rating createSlowestRating();
 
     /**
-     * Creates a new instance of the maximum/fastest overall rating allowed by the rating system
+     * Creates a new instance of the fastest overall rating allowed by the rating system
      * @return
      */
     public abstract Rating createFastestRating();

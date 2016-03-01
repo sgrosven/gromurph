@@ -20,8 +20,8 @@ package org.gromurph.javascore.model.ratings;
 public class RatingYardstick extends RatingCoefficient
 {
     public static final String SYSTEM = "Yardstick";
-    protected static double SLOWEST_RATING = 0.1;
-    protected static double FASTEST_RATING = 999.0;
+    public static double SLOWEST_RATING = 0.1;
+    public static double FASTEST_RATING = 999.0;
     
 
     public RatingYardstick()

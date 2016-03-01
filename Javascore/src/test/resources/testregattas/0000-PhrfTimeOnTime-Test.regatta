@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta DailyScoring="false" Dates="July 21-22, 2000" Final="false" HostClub="Eastport Yacht Club" IFEventID="" JSVersion="7.3.1" JuryChair="Mark Murphy" Multistage="false" Name="Time on Time Test" Pro="Sharon Hadsell" UseBowNumbers="false" Version="600" comment="">
+<DivisionList>
+<Division DivName="PHRF A1" Gender="Open">
+<SlowestRating System="PHRFTimeOnTime" Value="85.0"/>
+<FastestRating System="PHRFTimeOnTime" Value="50.0"/>
+</Division>
+<Division DivName="PHRF B">
+<SlowestRating System="PHRF" Value="154.0"/>
+<FastestRating System="PHRF" Value="119.0"/>
+</Division>
+<Division DivName="PHRF CD">
+<SlowestRating System="PHRF" Value="9999.0"/>
+<FastestRating System="PHRF" Value="155.0"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Club="EYC" Division="PHRF CD" EntryId="45">
+<Boat BoatName="MAGIC" SailId="7">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="168.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="Ewing/Todaro" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="BCYA" Division="PHRF A1" EntryId="17">
+<Boat BoatName="MULLIGAN" SailId="32">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="57.0"/>
+<Rating System="PHRFTimeOnTime" Value="50.0"/>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Gordon" LastName="Fronk" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="GSA" Division="PHRF B" EntryId="124">
+<Boat BoatName="SHANTY IRISH" SailId="61">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="126.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Rick" LastName="Palleschi" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="PYRC" Division="PHRF CD" EntryId="144">
+<Boat BoatName="MODERATION" SailId="509">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="270.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Bill" LastName="Davenport" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="PHRF CD" EntryId="41">
+<Boat BoatName="RESULTS" SailId="1190">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="174.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Art" LastName="Libby" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="TAYC" Division="PHRF CD" EntryId="29">
+<Boat BoatName="BIG TIME" SailId="1769">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="159.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Mike" LastName="Rajacich" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="PHRF CD" EntryId="50">
+<Boat BoatName="DIAMOND IN ROUG" SailId="1851">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="156.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jim" LastName="Mumper" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="PSA" Division="PHRF CD" EntryId="148">
+<Boat BoatName="CAPRICIOUS" SailId="3445">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="186.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ed" LastName="Poe" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="PCRC" Division="PHRF B" EntryId="141">
+<Boat BoatName="RELENTLESS" SailId="4525">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="150.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Francis" LastName="Albert" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SRYC" Division="PHRF CD" EntryId="30">
+<Boat BoatName="ODYSSEY" SailId="11677">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="183.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="David" LastName="Shiff" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SRYC" Division="PHRF B" EntryId="107">
+<Boat BoatName="LEEWIND" SailId="13169">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="144.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Harold" LastName="Wilson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="BCYA" Division="PHRF B" EntryId="114">
+<Boat BoatName="INTUITION" SailId="13637">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="144.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="H" LastName="Stroterhoff" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="MRYC" Division="PHRF B" EntryId="135">
+<Boat BoatName="RUMOUR" SailId="22838">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="144.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Harry" LastName="Seemans" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="RRBC" Division="PHRF B" EntryId="125">
+<Boat BoatName="SCARECROW" SailId="30078">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="126.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jude" LastName="Brown" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="PHRF A1" EntryId="8">
+<Boat BoatName="FITIKOKO" SailId="42341">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="63.0"/>
+<Rating System="PHRFTimeOnTime" Value="50.0"/>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Andy" LastName="Wilson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SMSA" Division="PHRF A1" EntryId="35">
+<Boat BoatName="CHARDONNAY" SailId="43313">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="84.0"/>
+<Rating System="PHRFTimeOnTime" Value="50.0"/>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="W&amp;M" LastName="McCarey" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SMSA" Division="PHRF A1" EntryId="18">
+<Boat BoatName="SMOKIN" SailId="50134">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="51.0"/>
+<Rating System="PHRFTimeOnTime" Value="50.0"/>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Chas" LastName="Jeffries" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="PHRF A1" EntryId="33">
+<Boat BoatName="AIR MAIL" SailId="53352">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="78.0"/>
+<Rating System="PHRFTimeOnTime" Value="50.0"/>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Tom" LastName="Carrico" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="MRSA" Division="PHRF A1" EntryId="44">
+<Boat BoatName="CHARLIE" SailId="53355">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="72.0"/>
+<Rating System="PHRFTimeOnTime" Value="50.0"/>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Bruce" LastName="Mitchell" SailorId=""/>
+<CrewList/>
+</Entry>
+</EntryList>
+<FleetList>
+<Fleet DifferentLengths="AsIs" DivName="PHRF Overall" SameStartSameClass="false">
+<FleetDivList>
+<Div Name="PHRF A1"/>
+<Div Name="PHRF B"/>
+<Div Name="PHRF CD"/>
+</FleetDivList>
+</Fleet>
+</FleetList>
+<RaceList>
+<Race AFactor="625" BFactor="625" Comment="" LongDistance="true" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="21-Jul-2000" Weight="1.0">
+<DivInfo>
+<DivStart Div="PHRF CD" Length="45.0" StartTime="0/19:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A1" Length="55.0" StartTime="0/19:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="55.0" StartTime="0/19:10:20.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF Overall" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="&lt;none&gt;" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF Overall" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="29" Pos="1" Race="1" Time="1/05:06:42.0"/>
+<Fin Ent="30" Pos="2" Race="1" Time="1/05:07:10.0"/>
+<Fin Ent="41" Pos="3" Race="1" Time="1/05:20:52.0"/>
+<Fin Ent="45" Pos="4" Race="1" Time="1/05:27:54.0"/>
+<Fin Ent="50" Pos="5" Race="1" Time="1/05:36:31.0"/>
+<Fin Ent="107" Pos="6" Race="1" Time="1/06:29:56.0"/>
+<Fin Ent="114" Pos="7" Race="1" Time="1/06:39:37.0"/>
+<Fin Ent="124" Pos="8" Race="1" Time="1/07:02:45.0"/>
+<Fin Ent="125" Pos="9" Race="1" Time="1/07:05:36.0"/>
+<Fin Ent="135" Pos="10" Race="1" Time="1/07:21:11.0"/>
+<Fin Ent="141" Pos="11" Race="1" Time="1/08:01:32.0"/>
+<Fin Ent="144" Pos="12" Race="1" Time="1/09:20:48.0"/>
+<Fin Ent="17" Pos="13" Race="1" Time="1/03:00:00.0"/>
+<Fin Ent="8" Pos="14" Race="1" Time="1/03:10:00.0"/>
+<Fin Ent="35" Pos="15" Race="1" Time="1/03:15:00.0"/>
+<Fin Ent="18" Pos="16" Race="1" Time="1/03:20:00.0"/>
+<Fin Ent="33" Pos="17" Race="1" Time="1/03:40:00.0"/>
+<Fin Ent="44" Pos="18" Race="1" Time="1/03:45:00.0"/>
+<Fin Ent="148" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+</RaceList>
+<Scores SystemName="ISAF Low Point 2013-2016">
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="PHRF A1" Ent="17" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="PHRF A1" Ent="8" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="PHRF A1" Ent="35" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="PHRF A1" Ent="18" Pos="4" Pts="4.0" Race="1"/>
+<rp Div="PHRF A1" Ent="33" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="PHRF A1" Ent="44" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="PHRF B" Ent="107" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="PHRF B" Ent="114" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="PHRF B" Ent="124" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="PHRF B" Ent="135" Pos="4" Pts="4.0" Race="1"/>
+<rp Div="PHRF B" Ent="125" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="PHRF B" Ent="141" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="PHRF CD" Ent="148" Pos="49152" Pts="8.0" Race="1"/>
+<rp Div="PHRF CD" Ent="30" Pos="2" Pts="1.0" Race="1"/>
+<rp Div="PHRF CD" Ent="29" Pos="3" Pts="2.0" Race="1"/>
+<rp Div="PHRF CD" Ent="41" Pos="4" Pts="3.0" Race="1"/>
+<rp Div="PHRF CD" Ent="45" Pos="5" Pts="4.0" Race="1"/>
+<rp Div="PHRF CD" Ent="50" Pos="6" Pts="5.0" Race="1"/>
+<rp Div="PHRF CD" Ent="144" Pos="7" Pts="6.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="148" Pos="49152" Pts="20.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="30" Pos="2" Pts="1.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="17" Pos="3" Pts="2.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="29" Pos="4" Pts="3.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="41" Pos="5" Pts="4.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="8" Pos="6" Pts="5.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="35" Pos="7" Pts="6.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="45" Pos="8" Pts="7.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="18" Pos="9" Pts="8.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="50" Pos="10" Pts="9.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="33" Pos="11" Pts="10.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="44" Pos="12" Pts="11.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="107" Pos="13" Pts="12.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="114" Pos="14" Pts="13.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="124" Pos="15" Pts="14.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="135" Pos="16" Pts="15.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="125" Pos="17" Pts="16.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="144" Pos="18" Pts="17.0" Race="1"/>
+<rp Div="PHRF Overall" Ent="141" Pos="19" Pts="18.0" Race="1"/>
+</RacePointsList>
+<SeriesPointsList>
+<sp Div="PHRF A1" Ent="17" Pos="1" Pts="1.0"/>
+<sp Div="PHRF A1" Ent="8" Pos="2" Pts="2.0"/>
+<sp Div="PHRF A1" Ent="35" Pos="3" Pts="3.0"/>
+<sp Div="PHRF A1" Ent="18" Pos="4" Pts="4.0"/>
+<sp Div="PHRF A1" Ent="33" Pos="5" Pts="5.0"/>
+<sp Div="PHRF A1" Ent="44" Pos="6" Pts="6.0"/>
+<sp Div="PHRF B" Ent="107" Pos="1" Pts="1.0"/>
+<sp Div="PHRF B" Ent="114" Pos="2" Pts="2.0"/>
+<sp Div="PHRF B" Ent="124" Pos="3" Pts="3.0"/>
+<sp Div="PHRF B" Ent="135" Pos="4" Pts="4.0"/>
+<sp Div="PHRF B" Ent="125" Pos="5" Pts="5.0"/>
+<sp Div="PHRF B" Ent="141" Pos="6" Pts="6.0"/>
+<sp Div="PHRF CD" Ent="30" Pos="1" Pts="1.0"/>
+<sp Div="PHRF CD" Ent="29" Pos="2" Pts="2.0"/>
+<sp Div="PHRF CD" Ent="41" Pos="3" Pts="3.0"/>
+<sp Div="PHRF CD" Ent="45" Pos="4" Pts="4.0"/>
+<sp Div="PHRF CD" Ent="50" Pos="5" Pts="5.0"/>
+<sp Div="PHRF CD" Ent="144" Pos="6" Pts="6.0"/>
+<sp Div="PHRF CD" Ent="148" Pos="7" Pts="8.0"/>
+<sp Div="PHRF Overall" Ent="30" Pos="1" Pts="1.0"/>
+<sp Div="PHRF Overall" Ent="17" Pos="2" Pts="2.0"/>
+<sp Div="PHRF Overall" Ent="29" Pos="3" Pts="3.0"/>
+<sp Div="PHRF Overall" Ent="41" Pos="4" Pts="4.0"/>
+<sp Div="PHRF Overall" Ent="8" Pos="5" Pts="5.0"/>
+<sp Div="PHRF Overall" Ent="35" Pos="6" Pts="6.0"/>
+<sp Div="PHRF Overall" Ent="45" Pos="7" Pts="7.0"/>
+<sp Div="PHRF Overall" Ent="18" Pos="8" Pts="8.0"/>
+<sp Div="PHRF Overall" Ent="50" Pos="9" Pts="9.0"/>
+<sp Div="PHRF Overall" Ent="33" Pos="10" Pts="10.0"/>
+<sp Div="PHRF Overall" Ent="44" Pos="11" Pts="11.0"/>
+<sp Div="PHRF Overall" Ent="107" Pos="12" Pts="12.0"/>
+<sp Div="PHRF Overall" Ent="114" Pos="13" Pts="13.0"/>
+<sp Div="PHRF Overall" Ent="124" Pos="14" Pts="14.0"/>
+<sp Div="PHRF Overall" Ent="135" Pos="15" Pts="15.0"/>
+<sp Div="PHRF Overall" Ent="125" Pos="16" Pts="16.0"/>
+<sp Div="PHRF Overall" Ent="144" Pos="17" Pts="17.0"/>
+<sp Div="PHRF Overall" Ent="141" Pos="18" Pts="18.0"/>
+<sp Div="PHRF Overall" Ent="148" Pos="19" Pts="20.0"/>
+</SeriesPointsList>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="false" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="1" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.2"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="4.1"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.2"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
+</Regatta>

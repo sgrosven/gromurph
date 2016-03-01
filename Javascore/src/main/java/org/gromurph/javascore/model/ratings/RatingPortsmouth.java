@@ -46,7 +46,7 @@ public class RatingPortsmouth extends RatingYardstick
     }
 
     /**
-     * Creates a new instance of the minimum/slowest overall rating allowed by the rating system
+     * Creates a new instance of the slowest overall rating allowed by the rating system
      * @return
      */
     @Override public Rating createSlowestRating()
