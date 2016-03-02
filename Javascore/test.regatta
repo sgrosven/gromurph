@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta DailyScoring="false" Dates="2001-02-04" Final="false" HostClub="sisf" IFEventID="" JSVersion="7.3.1" JuryChair="" Multistage="false" Name="Swedish test" Pro="" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="2001-02-04" Final="false" HostClub="sisf" IFEventID="" JSVersion="7.2016.1" JuryChair="" Multistage="false" Name="Swedish test" Pro="" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="DN">
-<MinRating ClassName="DN" System="OneDesign"/>
-<MaxRating ClassName="DN" System="OneDesign"/>
+<SlowestRating ClassName="DN" System="OneDesign"/>
+<FastestRating ClassName="DN" System="OneDesign"/>
 </Division>
 <Division DivName="J22">
-<MinRating ClassName="J22" System="OneDesign"/>
-<MaxRating ClassName="J22" System="OneDesign"/>
+<SlowestRating ClassName="J22" System="OneDesign"/>
+<FastestRating ClassName="J22" System="OneDesign"/>
 </Division>
 <Division DivName="J24">
-<MinRating ClassName="J24" System="OneDesign"/>
-<MaxRating ClassName="J24" System="OneDesign"/>
+<SlowestRating ClassName="J24" System="OneDesign"/>
+<FastestRating ClassName="J24" System="OneDesign"/>
 </Division>
 <Division DivName="Sloling">
-<MinRating ClassName="Sloling" System="OneDesign"/>
-<MaxRating ClassName="Sloling" System="OneDesign"/>
+<SlowestRating ClassName="Sloling" System="OneDesign"/>
+<FastestRating ClassName="Sloling" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>

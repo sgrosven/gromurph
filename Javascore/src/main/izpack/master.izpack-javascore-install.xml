@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
-
-<installation version="1.0">
+<izpack:installation version="5.0"
+                     xmlns:izpack="http://izpack.org/schema/installation"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="http://izpack.org/schema/installation http://izpack.org/schema/5.0/izpack-installation-5.0.xsd">
 
 	<!-- at-param-at are replace by release specific info by gradle at build time -->
-
-    <info>
+   <info>
         <appname>Javascore</appname>
         <appversion>@version@ (@releasedate@)</appversion>  
         <javaversion>1.7</javaversion>
@@ -12,44 +12,44 @@
             <author name="Sandy Grosvenor" email="sandy@gromurph.org"/>
         </authors>
         <url>http://www.gromurph.org/javascore</url>
-        
     </info>
-    
-    <guiprefs width="600" height="360" resizable="yes"/>
-    
-     
+  
     <locale>
         <langpack iso3="eng"/>
     </locale>  
     
     
+    <guiprefs width="800" height="600" resizable="yes" />
+     
+    <variables>
+  		<variable name="TargetPanel.dir.windows" value="c:/JavaScore_@version@"/>
+  		<variable name="TargetPanel.dir.unix" value="/usr/local/JavaScore_@version@"/>
+  		<variable name="TargetPanel.dir.mac" value="/Applications/JavaScore_@version@"/>
+	</variables>
+
     <resources>
-        <res id="HTMLHelloPanel.info" 	src="javascore.hellopanel.htm"/>
+        <res id="HTMLHelloPanel.info" 		src="javascore.hellopanel.htm"/>
         <res id="HTMLLicencePanel.licence" 	src="javascore.license.htm"/>
-        <res id="Installer.image" 		src="InstallGraphic.jpg" />
-        <res id="TargetPanel.dir.macosx"	src="targetDir.mac.txt" />
-        <res id="TargetPanel.dir.windows"	src="targetDir.win.txt" />
-        <res id="TargetPanel.dir.unix"		src="targetDir.linux.txt" />
-       	<res id="shortcutSpec.xml"		src="windows_shortcut_spec.xml" />
-		<res id="Unix_shortcutSpec.xml"	src="unix_shortcut_specification.xml" />
+        <res id="Installer.image" 			src="InstallGraphic.jpg" />
+       
+       	<res id="shortcutSpec.xml"			src="default_shortcut_spec.xml" />
     </resources>
     
-
     <panels>
         <panel classname="HTMLHelloPanel" />
         <panel classname="HTMLLicencePanel" />
         <panel classname="TargetPanel" /> 
-        <panel classname="ShortcutPanel" />
         <panel classname="InstallPanel" />
-        <panel classname="SimpleFinishPanel" />
+        <panel classname="ShortcutPanel" />
+        <panel classname="SimpleFinishPanel"/>
     </panels>
     
 
     <packs>
         <pack name="Base" required="yes">
             <description>The main javascore application</description>
-            <file src="JavaScore.jar" targetdir="$INSTALL_PATH"/>
-            <fileset dir="" targetdir="$INSTALL_PATH">
+            <file src="JavaScore.jar" targetdir="${INSTALL_PATH}"/>
+            <fileset dir="" targetdir="${INSTALL_PATH}">
 	            <include name="*.txt" />
 	            <include name="JavaScore.jar" />
 	            <include name="javascore_properties.jar" />
@@ -67,7 +67,10 @@
         </pack>
     </packs>
     
-    <native type="izpack" name="ShellLink.dll"/>
-    
-</installation>
+    <natives>
+    	<native type="izpack" name="ShellLink.dll"/>
+    	<native type="izpack" name="ShellLink_x64.dll"/>
+    </natives>
+
+</izpack:installation>
 

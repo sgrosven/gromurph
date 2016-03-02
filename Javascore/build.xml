@@ -4,35 +4,47 @@
 <!-- Run "ant -projecthelp" for usage info                                 -->
 <!--=======================================================================-->
 
-<project name="Javascore" basedir=".">
+<!--
+Usage update, March 2016
+  - use Gradle for basic compiling, testing, dependency management
+  - use Ant for Izpack release processing (AND therefore 'assemble')
+  - both Gradle and Ant use Gradle-like directory style
+-->
+<project name="Javascore" basedir="." default="antReleaseAll">
 	
-	<property name="izpack.dir" value="/Users/sandygrosvenor/Dropbox/dev/eclipseworkspace/izpack4" />
-	<taskdef name="izpack" classpath="${izpack.dir}/lib/compiler.jar"
-		classname="com.izforge.izpack.ant.IzPackTask"/>
+	<property name="izpack.dir" value="/Users/sandygrosvenor/Google Drive/private/dev/eclipseworkspace/izpack5" />
+	
+	<path id="izpack.classpath">
+        <fileset dir="${izpack.dir}">
+            <include name="lib/*.jar" />
+        </fileset>
+    </path>
+    <taskdef name="izpack" classpathref="izpack.classpath" classname="com.izforge.izpack.ant.IzPackTask" />
+	
 	<tstamp />
  	
-	<!-- begin - overwritten by gradle -->
-    <property name="app_version"	value="VERSN" /> 
-	<property name="app_builddate" 	value="RDATE" /> 
-	<!-- end - overwritten by gradle -->
+	<!-- UPDATE THESE FOR EACH NEW RELEASE!!! -->
+    <property name="app_version"	value="7.2016.1" /> 
+	<property name="app_builddate" 	value="31 March 2016" /> 
 	
     <property name="app.label"		value="JavaScore"/>
     <property name="app.name"		value="javascore"/>
     <property name="app.path"		value="/${app.name}"/>
 	
 	<!-- web site info -->
-	<property name="base.url"	value="http://gromurph.org/javascore" />
+	<property name="base.url"		value="http://gromurph.org/javascore" />
 
 	<!-- Path properties -->
-	<property name="build.dir" value="${basedir}/build" />
+    <property name="src.home"		value="${basedir}/src/main/java"/>
+    <property name="test.home"		value="${basedir}/src/test/java"/>
+	<property name="src.izpack" 	value="${basedir}/src/main/izpack" />
+	<property name="build.dir" 		value="${basedir}/build" />
+	
     <property name="classes.dir"	value="${build.dir}/classes"/>
-    <property name="docs.home"	value="${basedir}/target/api"/>
-    <property name="src.home"	value="${basedir}/src/main/java"/>
-    <property name="test.home"	value="${basedir}/src/test/java"/>
-	<property name="src.izpack" value = "${basedir}/src/main/izpack" />
-	<property name="dist.dir" value = "${build.dir}/distributions" />
+	<property name="dist.dir" 		value="${build.dir}/distributions" />
     <property name="assemble.dir"	value="${build.dir}/assemble"/>
-    <property name="libs.dir"	value="${build.dir}/libs"/>
+    <property name="libs.dir"		value="${build.dir}/libs"/>
+    <property name="docs.home"		value="${build.dir}/javadoc"/>
         
 	<!-- Classpath property -->
     <path id="compile.classpath">
@@ -41,24 +53,32 @@
         </fileset>
     </path>
 	
-<!-- =================================================================== -->
-<!-- Release - builds release files                                      -->
-<!-- =================================================================== -->
+	<!-- =================================================================== -->
+	<!-- antReleaseAll - builds release files                                      -->
+	<!-- =================================================================== -->
+	<target name="antReleaseAll"
+		description="does release building"
+		depends="antCleanAssembleDist, antBuildInstaller, antBuildSourceJar, antBuildJavadocJar" >
+	</target>
 	
+	
+	<!-- =================================================================== -->
+	<!-- antBuildInstaller - builds izpack installer file                    -->
+	<!-- =================================================================== -->
     <target 
     	name="antBuildInstaller" 
-    
         description="builds installer jar using izpack."
-    >
+    	depends="antBuildAssemble"
+    	>
+    	
     	<!-- echo out the release info -->
     	<echo>antBuildInstaller: VERSION=${app_version} BUILD Date=${app_builddate} RELEASEDIR=${dist.dir}</echo>
     	
-    	<mkdir dir="${dist.dir}" />
-    	<delete file="${dist.dir}/Javascore-install-${app_version}.jar"/>
+    	<delete file="${dist.dir}/javascore-install-${app_version}.jar"/>
     	
     	<!-- run izpack -->
     	<izpack input="${assemble.dir}/izpack-javascore-install.xml"
-    		output="${dist.dir}/Javascore-install-${app_version}.jar"
+    		output="${dist.dir}/javascore-install-${app_version}.jar"
     		installerType="standard" 
     		basedir="${assemble.dir}"
     		izPackDir="${izpack.dir}/"
@@ -67,50 +87,68 @@
 	</target>
 			
    
-<!-- =================================================================== -->
-<!-- Prepare Target                                                      -->
-<!-- =================================================================== -->
-	<target name="antClean.assemble.dir">
+	<!-- =================================================================== -->
+	<!-- antCleanAssemble - deletes and recreates empty assemble dir         -->
+	<!-- =================================================================== -->
+	<target name="antCleanAssembleDist">
 		<delete dir="${assemble.dir}"/>
 		<mkdir dir="${assemble.dir}"/>
+		<delete dir="${dist.dir}"/>
+		<mkdir dir="${dist.dir}"/>
 	</target>
 	
-	<target name="antBuildAssembler" >
+	<!-- =================================================================== -->
+	<!-- antBuildAssemble - builds the assemble directory                   -->
+	<!-- =================================================================== -->
+	<target name="antBuildAssemble">
 
     	<echo>antBuildAssembler: VERSION=${app_version} BUILD Date=${app_builddate} RELEASEDIR=${dist.dir}</echo>
 
     	<!-- copy files that need to be in install root directory -->    	
     	<copy todir="${assemble.dir}" >
-    		<fileset dir="${src.izpack}" includes="*.*" excludes="*.master" />  		
-    		<fileset dir="${libs.dir}" includes="*.*" />  		
+    		<fileset dir="${src.izpack}" >
+	            <include name="*.*"/>
+	        	<exclude name="master.*"/>
+    			<exclude name="reports"/>
+    			<exclude name="lib"/>
+	        </fileset>
+    		<fileset dir="${libs.dir}" includes="*.*" />  	
     	</copy>
     	
-		<copy	file="${src.izpack}/izpack-javascore-install.xml.master"
+		<!-- copy and adapt the izpack-javascore-install.xml -->
+		<copy	file="${src.izpack}/master.izpack-javascore-install.xml"
 				tofile="${assemble.dir}/izpack-javascore-install.xml"
 				overwrite="true" />
-			
         <replace file="${assemble.dir}/izpack-javascore-install.xml" token="@version@" value="${app_version}" summary="yes" />	
         <replace file="${assemble.dir}/izpack-javascore-install.xml" token="@releasedate@" value="${app_builddate}" summary="yes" />
         <replace file="${assemble.dir}/izpack-javascore-install.xml" token="@assemble.dir@" value="${assemble.dir}" summary="yes" />
 
-		
-		<copy	tofile="${assemble.dir}/windows_shortcut_spec.xml"
-				file="${src.izpack}/windows_shortcut_spec.xml.master"
+		<!-- copy and adapt the default_shortcut_spec.xml -->
+		<copy	tofile="${assemble.dir}/default_shortcut_spec.xml"
+				file="${src.izpack}/master.default_shortcut_spec.xml"
 				overwrite="true" />			
-		<replace file="${assemble.dir}/windows_shortcut_spec.xml" token="@version@" value="${app_version}" summary="yes" />	
-		
-		<copy	tofile="${assemble.dir}/unix_shortcut_specification.xml"
-				file="${src.izpack}/unix_shortcut_specification.xml.master"
+		<replace file="${assemble.dir}/default_shortcut_spec.xml" token="@version@" value="${app_version}" summary="yes" />	
+        <replace file="${assemble.dir}/default_shortcut_spec.xml" token="@releasedate@" value="${app_builddate}" summary="yes" />
+
+		<!-- copy and adapt the javascore.readme.htm -->
+		<copy	tofile="${assemble.dir}/javascore.readme.htm"
+				file="${src.izpack}/master.javascore.readme.htm"
 				overwrite="true" />			
-		<replace file="${assemble.dir}/unix_shortcut_specification.xml" token="@version@" value="${app_version}" summary="yes" />	
-		
-		
+		<replace file="${assemble.dir}/javascore.readme.htm" token="@version@" value="${app_version}" summary="yes" />	
+        <replace file="${assemble.dir}/javascore.readme.htm" token="@releasedate@" value="${app_builddate}" summary="yes" />
+
+		<!-- copy and adapt the javascore.hellopanel.htm -->
+		<copy	tofile="${assemble.dir}/javascore.hellopanel.htm"
+				file="${src.izpack}/master.javascore.hellopanel.htm"
+				overwrite="true" />			
+		<replace file="${assemble.dir}/javascore.hellopanel.htm" token="@version@" value="${app_version}" summary="yes" />	
+        <replace file="${assemble.dir}/javascore.hellopanel.htm" token="@releasedate@" value="${app_builddate}" summary="yes" />
+
 	</target>
   
-<!-- =================================================================== -->
-<!-- Generate the properties jar file for language info					 -->
-<!-- =================================================================== -->
-
+	<!-- =================================================================== -->
+	<!-- DEPRECATED Generate the properties jar file for language info					 -->
+	<!-- =================================================================== -->
 	<target 
 		name="antBuildPropertiesJar" 
    		description="Creates a jar file for resources used by the javascore code ">
@@ -129,10 +167,9 @@
 		</jar>
 	</target>
 		  	
-<!-- =================================================================== -->
-<!-- Generate the Src JAR file -->
-<!-- =================================================================== -->
-		
+	<!-- =================================================================== -->
+	<!-- Generate the Src JAR file -->
+	<!-- =================================================================== -->
 	<target 
 		name="antBuildSourceJar" 
 		description="Creates a jar file for javascore source code ">
@@ -144,26 +181,9 @@
 	</target>
 	 
 	  
-<!-- =================================================================== -->
-<!-- Generate the api documentation jar file 							 -->
-<!-- =================================================================== -->
-
-	<target 
-		name="antBuildApiJar" 
-		depends="antBuildJavadocJar"
-   		description="Creates a jar file for javadoc javascore code ">
-	    
-		<jar destfile="${dist.dir}/javascore_api.jar"
-    	     basedir="api"
-	    />
-
-	</target>
-	
-	
-<!-- =================================================================== -->
-<!-- Javadoc Target                                                      -->
-<!-- =================================================================== -->
-
+	<!-- =================================================================== -->
+	<!-- antBuildJavadocJar Target                   						-->
+	<!-- =================================================================== -->
 	<target 
 		name="antBuildJavadocJar" 
    		description="Create Javadoc API documentation">
@@ -182,6 +202,11 @@
 			doctitle=		"${app.label} API">
 			<classpath refid="compile.classpath"/>
 		</javadoc>
+		
+		<jar destfile="${dist.dir}/javascore-api-${app_version}.jar"
+    	     basedir="${docs.home}"
+	    />
+
 	</target>
       
 </project>
