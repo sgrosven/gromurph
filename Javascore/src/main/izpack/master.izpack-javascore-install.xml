@@ -32,7 +32,8 @@
         <res id="HTMLLicencePanel.licence" 	src="javascore.license.htm"/>
         <res id="Installer.image" 			src="InstallGraphic.jpg" />
        
-       	<res id="shortcutSpec.xml"			src="default_shortcut_spec.xml" />
+       	<res id="Win_shortcutSpec.xml"			src="windows_shortcut_spec.xml" />
+       	<res id="Unix_shortcutSpec.xml"			src="unix_shortcut_spec.xml" />
     </resources>
     
     <panels>

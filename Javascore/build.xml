@@ -124,11 +124,18 @@ Usage update, March 2016
         <replace file="${assemble.dir}/izpack-javascore-install.xml" token="@assemble.dir@" value="${assemble.dir}" summary="yes" />
 
 		<!-- copy and adapt the default_shortcut_spec.xml -->
-		<copy	tofile="${assemble.dir}/default_shortcut_spec.xml"
-				file="${src.izpack}/master.default_shortcut_spec.xml"
+		<copy	tofile="${assemble.dir}/windows_shortcut_spec.xml"
+				file="${src.izpack}/master.windows_shortcut_spec.xml"
 				overwrite="true" />			
-		<replace file="${assemble.dir}/default_shortcut_spec.xml" token="@version@" value="${app_version}" summary="yes" />	
-        <replace file="${assemble.dir}/default_shortcut_spec.xml" token="@releasedate@" value="${app_builddate}" summary="yes" />
+		<replace file="${assemble.dir}/windows_shortcut_spec.xml" token="@version@" value="${app_version}" summary="yes" />	
+        <replace file="${assemble.dir}/windows_shortcut_spec.xml" token="@releasedate@" value="${app_builddate}" summary="yes" />
+
+		<!-- copy and adapt the default_shortcut_spec.xml -->
+		<copy	tofile="${assemble.dir}/unix_shortcut_spec.xml"
+				file="${src.izpack}/master.unix_shortcut_spec.xml"
+				overwrite="true" />			
+		<replace file="${assemble.dir}/unix_shortcut_spec.xml" token="@version@" value="${app_version}" summary="yes" />	
+        <replace file="${assemble.dir}/unix_shortcut_spec.xml" token="@releasedate@" value="${app_builddate}" summary="yes" />
 
 		<!-- copy and adapt the javascore.readme.htm -->
 		<copy	tofile="${assemble.dir}/javascore.readme.htm"
