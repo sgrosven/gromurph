@@ -81,7 +81,7 @@ public class ActionReportSeriesStandingsSingleStage extends ActionReportSeriesSt
 		boolean posOnRight = true;
 		String divname = div.getName();
 
-		int startr = Math.max( 0, fRegatta.getNumRaces() - fOptions.getLastXRaces());
+		int startr = (fOptions.isShowLastXRaces()) ? Math.max(0,  fRegatta.getNumRaces() - fOptions.getLastXRaces()) : 0;
 		initializeNotes();
 
 		pw.println("<table class=" + SERIES_TABLECLASS + ">");

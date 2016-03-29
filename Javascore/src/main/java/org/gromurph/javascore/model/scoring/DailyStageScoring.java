@@ -55,10 +55,10 @@ public class DailyStageScoring extends MultiStageScoring {
 	}
 
 	@Override
-	public void scoreRegatta() throws ScoringException {
+	public boolean scoreRegatta() throws ScoringException {
 		
 		// turn multi-stage scoring lose on the whole chebang
-		super.scoreRegatta();
+		return super.scoreRegatta();
 	}
 
 

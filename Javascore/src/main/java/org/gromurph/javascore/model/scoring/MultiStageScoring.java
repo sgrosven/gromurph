@@ -185,7 +185,7 @@ public class MultiStageScoring extends BaseObject implements RegattaScoringModel
 	private SeriesPointsList seriesPoints = new SeriesPointsList();
 	
 
-	public void scoreRegatta() throws ScoringException {
+	public boolean scoreRegatta() throws ScoringException {
 		
 		Collections.sort(stages, new Stage.SortBottomToTop());
 		for (Stage st : stages) {
@@ -194,6 +194,7 @@ public class MultiStageScoring extends BaseObject implements RegattaScoringModel
 		}
 
 		calculateRegattaRankings();
+		return true;
 	}
 	
 	public void calculateRegattaRankings() {

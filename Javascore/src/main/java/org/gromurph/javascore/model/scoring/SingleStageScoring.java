@@ -174,8 +174,9 @@ public class SingleStageScoring extends BaseObject
 		fSeries.clear();
 	}
 
-	public void scoreRegatta() throws ScoringException {
+	public boolean scoreRegatta() throws ScoringException {
 		scoreRaces();
+		return true;
 	}
 	
 	public void scoreRaces() throws ScoringException {

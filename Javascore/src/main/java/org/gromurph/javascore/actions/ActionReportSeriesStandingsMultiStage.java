@@ -14,6 +14,7 @@
 package org.gromurph.javascore.actions;
 
 import java.io.PrintWriter;
+import java.text.MessageFormat;
 import java.util.Collections;
 import java.util.List;
 
@@ -97,7 +98,8 @@ public class ActionReportSeriesStandingsMultiStage extends ActionReportSeriesSta
 		rankingPoints.sortPosition();
 		// fRegatta.getScoringManager().getModel().sortSeries( seriesPoints);
 
-		int startr = Math.max(0,  fRegatta.getNumRaces() - fOptions.getLastXRaces());
+		int startr = (fOptions.isShowLastXRaces()) ? Math.max(0,  fRegatta.getNumRaces() - fOptions.getLastXRaces()) : 0;
+		
 		initializeNotes();
 
 		pw.println("<table class=" + SERIES_TABLECLASS + ">");

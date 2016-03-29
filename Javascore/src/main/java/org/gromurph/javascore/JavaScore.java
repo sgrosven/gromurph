@@ -104,7 +104,7 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 	private static final String SPLASH_GRAPHIC = "/images/SplashGraphic.jpg";
 	
 	// release 7.5 ?
-		// TODO A+ TOT fix (from Jim)
+		// DONE A+ TOT fix (from Jim) <branch: TotFixes -> dev 1 March ? 2016> 
 			// default hi/lo are backwards
 			// change labels from min/max to slowest, fastest
 				// improve handling of min/max for all handicaps
@@ -115,8 +115,10 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
                 //	PHRF 1 = +9999 Min, -9999 Max (ejects the boats in ToT) 
                 //	PHRF 1 = -999 Min, 117 (matches P2 and P3 entry style, but does not work) 
 	
-		// DONE A+ WNR fix (from Bobby) <branch: qualseriesscorebug -> dev on 22 Feb 2015>
-		// TODO A+ install glitches - especially default install directory by OS
+		// DONE A+ WNR fix (from Bobby) <branch: qualseriesscorebug -> dev on 22 Feb 2016>
+		// DONE A+ install glitches - especially default install directory by OS <branch izpack5 -> dev 3 march 2016>
+		// DONE A+ fix report on max # races to include
+		// DONE A+ fix popup on warnings for race scoring info
 	// TODO A update release website documentation
 	// TODO A copy help files over to website
 	// TODO A - (gebhardt 2/20/13) not saving/using last directory saved?

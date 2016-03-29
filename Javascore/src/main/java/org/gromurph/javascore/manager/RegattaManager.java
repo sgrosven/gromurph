@@ -31,6 +31,7 @@ import org.gromurph.javascore.model.scoring.MultiStageScoring;
 import org.gromurph.javascore.model.scoring.RegattaScoringModel;
 import org.gromurph.javascore.model.scoring.Stage;
 import org.gromurph.util.Util;
+import org.gromurph.util.WarningList;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -136,7 +137,11 @@ public class RegattaManager {
 					scorer.scoreRegatta();
 					logger.trace("ScoringManager: scoring completed.");
 				} else {
-					scorer.getWarnings().logMessages( LoggerFactory.getLogger( scorer.getClass()));
+					WarningList warnings = scorer.getWarnings();
+					warnings.logMessages( LoggerFactory.getLogger( scorer.getClass()));
+					if (!Util.isTesting()) {
+						warnings.showPopup(null);
+					}
 				}
 
 			}

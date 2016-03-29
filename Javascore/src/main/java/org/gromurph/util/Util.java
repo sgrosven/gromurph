@@ -281,6 +281,10 @@ public class Util {
 	}
 
 	private static boolean sTesting = false;
+	
+	public static boolean isTesting() {
+		return sTesting;
+	}
 
 	public static void setTesting(boolean b) {
 		sTesting = b;

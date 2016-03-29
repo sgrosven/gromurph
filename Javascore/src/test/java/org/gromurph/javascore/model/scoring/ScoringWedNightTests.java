@@ -26,6 +26,7 @@ import org.gromurph.javascore.model.RacePoints;
 import org.gromurph.javascore.model.RacePointsList;
 import org.gromurph.javascore.model.Regatta;
 import org.gromurph.javascore.model.SailId;
+import org.gromurph.javascore.model.SeriesPointsList;
 
 /**
  * Unit test scripts for Regatta class
@@ -37,12 +38,6 @@ public class ScoringWedNightTests extends JavascoreTestCase
     {
         super(s);
     }
-
-    Regatta reg;
-    Division div;
-    Entry e340;
-    Entry e2;
-    Entry e3;
 
 	private void forceDivision( Entry ent, Division d)
 	{
@@ -57,10 +52,9 @@ public class ScoringWedNightTests extends JavascoreTestCase
 	
 	@Override protected void setUp() throws Exception
     {
-		reg = loadTestRegatta( "2015WNR_test.regatta");
     }
 
-	public void testScoringPenalties()
+	public void testScoringPenalties() throws Exception
 	{
 		
 		/* with bug reported May 2015
@@ -72,6 +66,15 @@ public class ScoringWedNightTests extends JavascoreTestCase
 		 * Under WNR, should get 1 point (10% of 10 = 1)
 		 * Under low point, he should get 2 points (10% of 17 = 1.7 rounds up to 2
 		 */
+		
+	    Regatta reg;
+	    Division div;
+	    Entry e340;
+	    Entry e2;
+	    Entry e3;
+
+		reg = loadTestRegatta( "2015WNR_test.regatta");
+
 /*
 Pos, Sail, Boat, Finish, Adj, Pts
 1  , 339, H20, 1,  , 1.0
@@ -151,5 +154,41 @@ and 7 boats all DNC  , 132, 11 points
 
 	}
 
+	
+	public void testSeriesAndRaceScoring() throws Exception
+	{
+		
+		/* with bug reported May 2015
+		 * 	issue is with harbor20 #340 in race 2
+		 * finished 3rd, took a 10% scp, and gets 5 pts
+		 * 10 finishers, 17 entrants
+		 * 
+		 * WNR rules are 10% of finishers (10) (not entries) a minimum of 1 point
+		 * Under WNR, should get 1 point (10% of 10 = 1)
+		 * Under low point, he should get 2 points (10% of 17 = 1.7 rounds up to 2
+		 */
+		
+	    Regatta reg;
+	    Division div;
+	    Entry e340;
+	    Entry e2;
+	    Entry e3;
+
+		reg = loadTestRegatta( "20152016FrostbiteSeriesSecondHalf.regatta");
+		
+		reg.scoreRegatta();
+		SeriesPointsList splAll = reg.getScoringManager().getAllSeriesPoints();
+		assertTrue( splAll.size() > 0);
+		
+		div = reg.getDivision("Cal 25");
+		assertNotNull( div);
+		
+		EntryList cal25s = reg.getAllEntries().findAll(div);
+		assertEquals( 11, cal25s.size()); // should be 11
+		
+		SeriesPointsList spl = reg.getScoringManager().getAllSeriesPoints(div);
+		assertNotNull(spl);
+		assertEquals( cal25s.size(), spl.size());
+	}
 }
 

@@ -31,7 +31,7 @@ public interface RegattaScoringModel {
 	 * @throws ScoringException
 	 *             if a problem is encountered
 	 */
-	public void scoreRegatta() throws ScoringException;
+	public boolean scoreRegatta() throws ScoringException;
 
 	public void initializeScoring();
 
