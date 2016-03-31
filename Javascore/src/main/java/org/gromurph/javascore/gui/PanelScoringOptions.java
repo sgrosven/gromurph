@@ -189,7 +189,9 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 
 		Regatta reg = JavaScoreProperties.getRegatta();
 		if (fOptions != null) {
-			fComboScoringSystem.setSelectedItem(fOptions);
+			
+			String scoringName = fStageModel.getModel().getName();
+			fComboScoringSystem.setSelectedItem(scoringName);
 
 			fTextCheckin.setText(Integer.toString(fOptions.getCheckinPercent()));
 			fTextPointsForFirst.setText( Double.toString( fOptions.getFirstPlacePoints()));
