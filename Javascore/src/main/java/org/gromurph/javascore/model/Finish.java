@@ -318,7 +318,7 @@ public class Finish extends BaseObject implements Constants {
 		Division div = fEntry.getDivision();
 		if (fRace.getStartTimeRaw(div) == SailTime.NOTIME) return SailTime.NOTIME;
 
-		long startTime = fRace.getStartTimeAdjusted(div);
+		long startTime = fEntry.getRating().getStartTime(this); // fRace.getStartTimeAdjusted(div);
 		if (startTime == SailTime.NOTIME) return SailTime.NOTIME;
 
 		long finishTime = fFinishTime;
@@ -363,6 +363,10 @@ public class Finish extends BaseObject implements Constants {
 		return fEntry.getRating().getTimeAllowance(this);
 	}
 
+	public long getStartTime() {
+		return fEntry.getRating().getStartTime(this);
+	}
+	
 	public Race getRace() {
 		return fRace;
 	}

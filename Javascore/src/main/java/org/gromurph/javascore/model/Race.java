@@ -52,6 +52,7 @@ public class Race extends BaseObject implements Constants {
 	private boolean fNonDiscardable;
 	private double fWeight;
 	private boolean fMedalRace;
+	private boolean fPursuit;
 	
 	public boolean isCarryOverRace = false;
 
@@ -65,6 +66,7 @@ public class Race extends BaseObject implements Constants {
 	public final transient static String WEIGHT_PROPERTY = "Weight";
 	public final transient static String NONDISCARDABLE_PROPERTY = "NonDiscardable";
 	public final transient static String MEDALRACE_PROPERTY = "MedalRace";
+	public final transient static String PURSUIT_PROPERTY = "Pursuit";
 
 	public final transient static int MAX_ROUNDINGS = 10;
 
@@ -104,6 +106,7 @@ public class Race extends BaseObject implements Constants {
 		fStartDate = new Date(System.currentTimeMillis());
 		fLongDistance = false;
 		fMedalRace = false;
+		fPursuit = false;
 		if (JavaScoreProperties.haveCustomABFactors()) { 
     		fBFactor = JavaScoreProperties.getBFactor();
     		fAFactor = JavaScoreProperties.getAFactor();
@@ -135,6 +138,7 @@ public class Race extends BaseObject implements Constants {
 		e.setAttribute(WEIGHT_PROPERTY, Double.toString(fWeight));
 		e.setAttribute(NONDISCARDABLE_PROPERTY, new Boolean(fNonDiscardable).toString());
 		e.setAttribute(MEDALRACE_PROPERTY, new Boolean(fMedalRace).toString());
+		e.setAttribute(PURSUIT_PROPERTY, new Boolean(fPursuit).toString());
 
 		if (fStartDate != null) {
 			e.setAttribute(STARTDATE_PROPERTY, sXmlDateFormat.format(fStartDate));
@@ -221,6 +225,14 @@ public class Race extends BaseObject implements Constants {
 			boolean b = value.toString().equalsIgnoreCase("true");
 			try {
 				fMedalRace = b;
+			} catch (Exception e) {}
+		}
+
+		value = n.getAttribute(PURSUIT_PROPERTY);
+		if (value != null) {
+			boolean b = value.toString().equalsIgnoreCase("true");
+			try {
+				fPursuit = b;
 			} catch (Exception e) {}
 		}
 
@@ -732,6 +744,21 @@ public class Race extends BaseObject implements Constants {
 			fNonDiscardable = false;
 			fWeight = 1.00;
 		}
+	}
+
+	/**
+	 * @return Returns true if the race is a pursuit style race.
+	 */
+	public boolean isPursuit() {
+		return fPursuit;
+	}
+
+	/**
+	 * @param isPursuit
+	 *            set to true if race is a pursuit style race
+	 */
+	public void setPursuit(boolean isPursuit) {
+		fPursuit = isPursuit;
 	}
 
 	/**

@@ -137,6 +137,17 @@ public class RatingPhrf extends RatingDouble {
 		validateFinishTimesAfterStartTimes(race, div, warnings);
 	}
 
+	@Override
+	public long getStartTime(Finish inFinish) {
+		if (inFinish.getRace().isPursuit()) {
+			long raceStart = super.getStartTime(inFinish);
+			long allowance = getTimeAllowance(inFinish);
+			return raceStart - allowance;
+		} else {
+			return super.getStartTime(inFinish);
+		}
+	}
+
 }
 /**
  * $Log: RatingPhrf.java,v $ Revision 1.4 2006/01/15 21:10:39 sandyg resubmit at 5.1.02

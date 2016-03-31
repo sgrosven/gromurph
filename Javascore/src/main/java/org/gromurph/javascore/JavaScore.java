@@ -117,13 +117,22 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 	
 		// DONE A+ WNR fix (from Bobby) <branch: qualseriesscorebug -> dev on 22 Feb 2016>
 		// DONE A+ install glitches - especially default install directory by OS <branch izpack5 -> dev 3 march 2016>
-		// DONE A+ fix report on max # races to include
-		// DONE A+ fix popup on warnings for race scoring info
+		// DONE A review/revise java 7 esp mac install documentation
+
+		// TODO A  Pursuit start times
+			// DONE "pursuit check box" to advance race options
+			// if checked:
+				// CODED create pursuit start times report
+				// DONE add pursuit start times report to main regatta page
+				// if no finishers - have "results" show the pursuit start times?
+				// DONE on single race results - add start time column
+				//  edit scoring notes to reflect pursuit start?
+				// documentation
+	
 	// TODO A update release website documentation
 	// TODO A copy help files over to website
 	// TODO A - (gebhardt 2/20/13) not saving/using last directory saved?
 	// TODO A (dykman 2/26/13) not handling order of finish right
-	// TODO A review/revise java 7 esp mac install documentation
 	// TODO B Able to validate sailor ids
 	// TODO B improve on-the-fly lookup entering finishes?
 	// TODO B size of duplicate sail dialog, also flag boats already finished?
@@ -139,14 +148,6 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 	//      close dialog, and return does not give same results
 	
 	// release 7.3.1 (already checked in pre-git)
-		// DONE fixed (again) crew dialogs
-		// DONE A+ NOT reading last year's miami regattas right - losing all after first stage, no series standings
-		// DONE A add ability to do series scores by day of race
-		// DONE Convert to Github and gradle
-		// DONE implement log file, with option to turn it on in javascore.ini?
-	
-
-	// release 7.3.1
 		// DONE fixed (again) crew dialogs
 		// DONE A+ NOT reading last year's miami regattas right - losing all after first stage, no series standings
 		// DONE A add ability to do series scores by day of race

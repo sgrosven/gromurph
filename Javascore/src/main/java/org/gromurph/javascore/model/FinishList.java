@@ -243,9 +243,6 @@ public class FinishList extends BaseList<Finish> {
 	 */
 	public void sortPosition() {
 		Collections.sort(this, new ComparatorPosition());
-
-		// commented out - may not need?????
-		// fireTableDataChanged();
 	}
 
 	/**
@@ -270,6 +267,36 @@ public class FinishList extends BaseList<Finish> {
 				return 1;
 
 			return fleft.compareTo(fright);
+		}
+	}
+
+	/**
+	 * resorts the array by finishposition
+	 */
+	public void sortPursuitStartTime() {
+		Collections.sort(this, new ComparatorPursuitStartTime());
+	}
+
+	/**
+	 * resorts the array by finishposition
+	 */
+	private static class ComparatorPursuitStartTime implements Comparator<Finish> {
+		public int compare(Finish left, Finish right) {
+			if (left == null && right == null)
+				return 0;
+			if (left == null)
+				return -1;
+			if (right == null)
+				return 1;
+
+			Long sleft = left.getStartTime();
+			Long sright = right.getStartTime();
+			
+			if (sleft == sright) { 
+				return left.getEntry().getBoat().getSailId().compareTo( right.getEntry().getBoat().getSailId());
+			} else {
+				return sleft.compareTo(sright);
+			}
 		}
 	}
 

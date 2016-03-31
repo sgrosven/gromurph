@@ -97,6 +97,13 @@ public abstract class Rating extends BaseObject implements Comparable
     	else return SailTime.NOTIME;
     }
     
+    public long getStartTime( Finish inFinish)
+    {
+    	Division div = inFinish.getEntry().getDivision();
+    	long starttime = inFinish.getRace().getStartTimeAdjusted( div);
+    	return starttime;
+    }
+    
     public String getSystem()
     {
         return fSystem;

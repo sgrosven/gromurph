@@ -231,6 +231,18 @@ public abstract class ScoringUtilities implements Constants {
 		Division div = (Division) div1;
 		Race r = rp.getRace();
 
+		return getRaceScoringNotes( r, div);
+	}
+	
+	/**
+	     * generates list of notes for series scoring of 
+	     * specified group of race points (generally a single division, might be whole fleet)
+	     * @param rpList the list of race points on which to generate notes
+	     * @return list of strings containing notes, empty list if no notes
+	     */
+	public static List<String> getRaceScoringNotes( Race r, AbstractDivision div) {
+		List<String> notes = new ArrayList<String>(5);
+
 		long start = r.getStartTimeRaw(div);
 		double length = r.getLength(div);
 

@@ -390,7 +390,6 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 		}
 
 		if (is1D) {
-
 			if (isSubDiv) {
 				addTableCell(pw, res.getString("ColHeadSubDivFinishOrder"), "center");
 				addTableCell(pw, res.getString("ColHeadDivFinishOrder"), "center");
@@ -404,10 +403,15 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 
 		} else {
 			addTableCell(pw, res.getString("ColHeadFinishOrder"), "center");
-			addTableCell(pw, res.getString("ColHeadFinishTime"), "center");
-			addTableCell(pw, res.getString("ColHeadTimeAllowance"), "center");
-			addTableCell(pw, res.getString("ColHeadCorrectedTime"), "center");
-			addTableCell(pw, res.getString("ColHeadTimeBehind"), "center");
+			if (fRace.isPursuit()) {
+				addTableCell(pw, res.getString("ColHeadPursuitStartTime"), "center");
+				addTableCell(pw, res.getString("ColHeadFinishTime"), "center");
+			} else {
+    			addTableCell(pw, res.getString("ColHeadFinishTime"), "center");
+    			addTableCell(pw, res.getString("ColHeadTimeAllowance"), "center");
+    			addTableCell(pw, res.getString("ColHeadCorrectedTime"), "center");
+    			addTableCell(pw, res.getString("ColHeadTimeBehind"), "center");
+			}
 		}
 
 		StringBuffer sb = new StringBuffer(64);
@@ -484,16 +488,22 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 				}
 
 			} else {
-				addTableCell(pw, SailTime.toString(fin.getFinishTime()), "center");
-				addTableCell(pw, SailTime.toString(fin.getTimeAllowance()), "right");
-
-				if (fin.getPenalty().isFinishPenalty() || fin.getCorrectedTime() == SailTime.NOTIME) {
-					addTableCell(pw, SailTime.NOTIME_STRING, "right");
-					addTableCell(pw, SailTime.NOTIME_STRING, "right");
+				if (fRace.isPursuit()) {
+					addTableCell(pw, SailTime.toString(fin.getStartTime()), "center");
+					addTableCell(pw, SailTime.toString(fin.getFinishTime()), "center");
 				} else {
-					addTableCell(pw, SailTime.toString(fin.getCorrectedTime()), "right");
-					addTableCell(pw, SailTime.toString(fin.getCorrectedTime() - firstTime), "right");
+					addTableCell(pw, SailTime.toString(fin.getFinishTime()), "center");
+					addTableCell(pw, SailTime.toString(fin.getTimeAllowance()), "right");
+					// time behind
+					if (fin.getPenalty().isFinishPenalty() || fin.getCorrectedTime() == SailTime.NOTIME) {
+						addTableCell(pw, SailTime.NOTIME_STRING, "right");
+						addTableCell(pw, SailTime.NOTIME_STRING, "right");
+					} else {
+						addTableCell(pw, SailTime.toString(fin.getCorrectedTime()), "right");
+						addTableCell(pw, SailTime.toString(fin.getCorrectedTime() - firstTime), "right");
+					}					
 				}
+
 			}
 
 			// adjustments column, gets penalty and subdivision addon (if any)

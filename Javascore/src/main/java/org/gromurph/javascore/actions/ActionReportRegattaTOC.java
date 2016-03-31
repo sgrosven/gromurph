@@ -16,6 +16,7 @@ package org.gromurph.javascore.actions;
 import java.io.PrintWriter;
 import java.text.MessageFormat;
 
+import org.gromurph.javascore.model.Race;
 import org.gromurph.javascore.model.ReportOptions;
 
 /**
@@ -60,6 +61,8 @@ public class ActionReportRegattaTOC extends ActionReport {
 			pw.print( ".html\">");
 			pw.print( res.getString( "RegattaTOCLabelRegattaStandings"));
 			pw.print( "</a>");
+			
+			// title info row
 			if ( fRegatta.getNumRaces() == 1) {
 				pw.println( res.getString( "RegattaTOCLabel1RaceScored"));
 			} else {
@@ -67,25 +70,61 @@ public class ActionReportRegattaTOC extends ActionReport {
 						fRegatta.getNumRaces()) }));
 			}
 
-			pw.println( "<P><table class=" + TOC_TABLECLASS + "><tr><td align=\"center\">");
+			pw.println( "<P><table class=" + TOC_TABLECLASS + ">");
+			
+			// header row
+			pw.println( "<tr>");
+			
+			pw.println( "<td align=\"center\">");
 			pw.print( res.getString( "RegattaTOCLabelIndividualRaceResults"));
 			pw.println( "</td>");
+			
 			pw.print( "<td align=\"center\">");
 			pw.println( res.getString( "RegattaTOCLabelProofingResults"));
-			pw.println( "</td></tr>");
-
+			pw.println( "</td>");
+			
+			boolean hasPursuit = false;
+			for ( Race r : fRegatta.getRaces()) {
+				hasPursuit = hasPursuit || r.isPursuit();
+			}
+			
+			if (hasPursuit) {
+    			pw.print( "<td align=\"center\">");
+    			pw.println( res.getString( "RegattaTOCLabelPursuitStartTimes"));
+    			pw.println( "</td>");
+			}
+			pw.println( "</tr>");
+			
+			// body rows, one for each race
 			for ( int i = 0; i < fRegatta.getNumRaces(); i++) {
+				Race race = fRegatta.getRaceIndex(i);
 				String num = Integer.toString( i + 1);
-				pw.print( "<tr><td align=\"center\"><a href=\"");
+				
+				pw.print( "<tr>");
+				
+				pw.print( "<td align=\"center\"><a href=\"");
 				pw.print( regattaBaseFileName + "_race");
 				pw.print( num);
 				pw.print( ".html\">");
-				pw.print( fRegatta.getRaceIndex( i).toString());
-				pw.print( "</a></td><td align=\"center\"><a href=\"proof");
+				pw.print( race.toString());
+				pw.print( "</a></td>");
+				
+				pw.print( "<td align=\"center\"><a href=\"proof");
 				pw.print( num);
 				pw.print( ".html\">");
-				pw.print( fRegatta.getRaceIndex( i).toString());
-				pw.print( "</a></td></tr>");
+				pw.print( race.toString());
+				pw.print( "</a></td>");
+				
+				if (race.isPursuit()) {
+					pw.print( "<td align=\"center\"><a href=\"");
+					pw.print( regattaBaseFileName + "_pursuitStartTimes");
+					pw.print( num);
+					pw.print( ".html\">");
+					pw.print( race.toString());
+					pw.print( "</a></td>");
+				}
+				
+				pw.print( "</tr>");
 			}
 			pw.println( "</table><br>");
 		} else {

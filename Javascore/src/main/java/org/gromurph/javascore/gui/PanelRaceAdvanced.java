@@ -53,6 +53,7 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 	JCheckBox fCheckLongDistance;
 	JCheckBox fCheckNonDiscardable;
 	JCheckBox fCheckMedalRace;
+	JCheckBox fCheckPursuitRace;
 
 	JPanel fPanelBFactor;
 	JPanel fPanelComment = null;
@@ -77,6 +78,7 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		else if (object == fCheckNonDiscardable) fCheckNonDiscardable_actionPerformed();
 		else if (object == fCheckLongDistance) fCheckLongDistance_actionPerformed();
 		else if (object == fCheckMedalRace) fCheckMedalRace_actionPerformed();
+		else if (object == fCheckPursuitRace) fCheckPursuitRace_actionPerformed();
 		else if (object == fRadioHeavy) fRadioHeavy_actionPerformed();
 		else if (object == fRadioAverage) fRadioAverage_actionPerformed();
 		else if (object == fRadioLight) fRadioLight_actionPerformed();
@@ -108,6 +110,13 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		fCheckLongDistance.setName("fCheckLongDistance");
 		HelpManager.getInstance().registerHelpTopic(fCheckLongDistance, "race.fCheckLongDistance");
 		gridbagAdd(panelCenter, fCheckLongDistance, 0, row, 2, GridBagConstraints.NORTHWEST, GridBagConstraints.NONE);
+
+		row++;
+		fCheckPursuitRace = new JCheckBox(res.getString("PursuitRaceLabel"));
+		fCheckPursuitRace.setToolTipText(res.getString("PursuitRaceLabelToolTip"));
+		fCheckPursuitRace.setName("fCheckPursuitRace");
+		HelpManager.getInstance().registerHelpTopic(fCheckPursuitRace, "race.fCheckPursuitRace");
+		gridbagAdd(panelCenter, fCheckPursuitRace, 0, row, 2, GridBagConstraints.NORTHWEST, GridBagConstraints.NONE);
 
 		row++;
 		fCheckMedalRace = new JCheckBox(res.getString("RaceLabelMedalRace"));
@@ -206,6 +215,12 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		updateMedalFields();
 	}
 
+	void fCheckPursuitRace_actionPerformed() {
+		boolean isP = fCheckPursuitRace.isSelected();
+
+		fRace.setPursuit(isP);
+	}
+
 	void fCheckNonDiscardable_actionPerformed() {
 		fRace.setNonDiscardable(fCheckNonDiscardable.isSelected());
 	}
@@ -264,6 +279,7 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		active.setLongDistance(backup.isLongDistance());
 		active.setNonDiscardable(backup.isNonDiscardable());
 		active.setWeight(backup.getWeight());
+		active.setPursuit(backup.isPursuit());
 
 		super.restore(active, backup);
 	}
@@ -283,6 +299,8 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		fCheckLongDistance.addActionListener(this);
 		fCheckNonDiscardable.addActionListener(this);
 		fCheckMedalRace.addActionListener(this);
+		fCheckPursuitRace.addActionListener(this);
+
 		fRadioHeavy.addActionListener(this);
 		fRadioLight.addActionListener(this);
 		fRadioAverage.addActionListener(this);
@@ -301,6 +319,8 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		fCheckLongDistance.removeActionListener(this);
 		fCheckNonDiscardable.removeActionListener(this);
 		fCheckMedalRace.removeActionListener(this);
+		fCheckPursuitRace.removeActionListener(this);
+
 		fRadioHeavy.removeActionListener(this);
 		fRadioLight.removeActionListener(this);
 		fRadioAverage.removeActionListener(this);
@@ -353,6 +373,8 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 			fCheckLongDistance.setSelected(fRace.isLongDistance());
 			SailTime.setLongDistance(fRace.isLongDistance());
 
+			fCheckPursuitRace.setSelected( fRace.isPursuit());
+			
 			boolean canBeCustom = canBeCustomFactor();
 			
 			fRadioCustom.setVisible(canBeCustom);
@@ -380,6 +402,8 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 			fTextWeight.setText("1.00");
 			fCheckLongDistance.setSelected(false);
 			SailTime.setLongDistance(false);
+			fCheckPursuitRace.setSelected( false);
+
 		}
 
 		updateMedalFields();

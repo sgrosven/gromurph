@@ -120,6 +120,25 @@ public class PanelRaceAdvancedTests extends JavascoreTestCase {
 
 	}
 
+	public void testPursuitRaceOptions() {
+		Race race = new Race();
+		DialogBaseEditor advRacePanel = showPanel(race, new PanelRaceAdvanced(new DialogBaseEditor()));
+		assertNotNull(advRacePanel);
+
+		JCheckBox checkPursuit = (JCheckBox) findComponent(JCheckBox.class, "fCheckPursuitRace", advRacePanel);
+		assertNotNull("Cant find fCheckPursuitRace", checkPursuit);
+		assertTrue(!checkPursuit.isSelected());
+
+		JComponent alternateFocusField = checkPursuit;
+		assertNotNull("alternateFocusField is null", alternateFocusField);
+
+		clickOn(checkPursuit);
+		assertEquals(true, race.isPursuit());
+
+		clickOKButton();
+		assertEquals(true, race.isPursuit());
+	}
+
 	public void testBFactor() {
 		// initialize regatta and race
 		

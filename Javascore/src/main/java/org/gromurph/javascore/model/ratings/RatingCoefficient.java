@@ -74,6 +74,10 @@ public abstract class RatingCoefficient extends RatingDouble
                     new Object[] { race.toString(), div.toString() }
                 ));
         }
+		if (race.isPursuit()) {
+			warnings.add(MessageFormat.format(res.getString("PursuitNotSupportedYet"),
+					new Object[] { race.toString(), div.toString() }));
+		}
         validateFinishTimesAfterStartTimes( race, div, warnings);
         validateValidFinishTime( race, div, warnings);
     }

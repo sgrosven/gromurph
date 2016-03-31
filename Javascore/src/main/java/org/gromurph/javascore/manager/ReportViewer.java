@@ -30,6 +30,7 @@ import org.gromurph.javascore.actions.ActionReport;
 import org.gromurph.javascore.actions.ActionReportCheckin;
 import org.gromurph.javascore.actions.ActionReportFinish;
 import org.gromurph.javascore.actions.ActionReportOneRace;
+import org.gromurph.javascore.actions.ActionReportPursuitStartTimes;
 import org.gromurph.javascore.actions.ActionReportRawFinish;
 import org.gromurph.javascore.actions.ActionReportRegattaTOC;
 import org.gromurph.javascore.actions.ActionReportScratch;
@@ -38,6 +39,7 @@ import org.gromurph.javascore.actions.ActionReportSeriesStandingsDailyStage;
 import org.gromurph.javascore.actions.ActionReportSeriesStandingsMultiStage;
 import org.gromurph.javascore.actions.ActionReportSeriesStandingsSingleStage;
 import org.gromurph.javascore.model.Entry;
+import org.gromurph.javascore.model.Race;
 import org.gromurph.javascore.model.Regatta;
 import org.gromurph.util.Util;
 import org.slf4j.Logger;
@@ -126,6 +128,15 @@ public class ReportViewer {
 				proofReport.createReportFile(dir, "proof" + Integer.toString(i + 1) + ".html", fRegatta,
 						fRegatta.getRaceIndex(i));
 			}
+			
+			ActionReportPursuitStartTimes pursuitStartReport = new ActionReportPursuitStartTimes();
+			for (int i = 0; i < fRegatta.getNumRaces(); i++) {
+				if (fRegatta.getRaceIndex(i).isPursuit()) {
+					pursuitStartReport.createReportFile(dir, getRegattaName() + "_pursuitStartTimes" + Integer.toString(i + 1) + ".html",
+    						fRegatta, fRegatta.getRaceIndex(i));
+				}
+			}
+
 		} catch (Exception e) {
 			Util.showError(e, true);
 			try {
