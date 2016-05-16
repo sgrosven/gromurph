@@ -63,8 +63,11 @@ public class PanelRaceStartInfo extends PanelStartStop {
 
 	List<JTextFieldSelectAll> fListStartTimes = new ArrayList<JTextFieldSelectAll>(10);
 	List<JTextFieldSelectAll> fListLengths = new ArrayList<JTextFieldSelectAll>(10);
+	List<JTextFieldSelectAll> fListLengthsPursuit = new ArrayList<JTextFieldSelectAll>(10);
 	List<JCheckBox> fListIsRacing = new ArrayList<JCheckBox>(10);
 	List<JCheckBox> fListNextDay = new ArrayList<JCheckBox>(10);
+	
+	JLabel headerPursuitLength; 
 
 	JPanel fPanelDivInfo;
 	JScrollPane fScrollClasses;
@@ -107,6 +110,9 @@ public class PanelRaceStartInfo extends PanelStartStop {
 		gridbagAdd(fPanelDivInfo, new JLabel(res.getString("RaceLabelStartTime")), 1, 0);
 		gridbagAdd(fPanelDivInfo, new JLabel(res.getString("RaceLabelLength")), 2, 0);
 		gridbagAdd(fPanelDivInfo, new JLabel(res.getString("RaceLabelNextDay")), 3, 0);
+		
+		headerPursuitLength = new JLabel(res.getString("RaceLabelLengthPursuit"));
+		gridbagAdd(fPanelDivInfo, headerPursuitLength, 4, 0);
 
 		JPanel bottom = new JPanel( new FlowLayout( FlowLayout.CENTER));
 		
@@ -154,11 +160,13 @@ public class PanelRaceStartInfo extends PanelStartStop {
 			fPanelDivInfo.remove(fListNextDay.get(i));
 			fPanelDivInfo.remove(fListStartTimes.get(i));
 			fPanelDivInfo.remove(fListLengths.get(i));
+			fPanelDivInfo.remove(fListLengthsPursuit.get(i));
 		}
 		fListIsRacing.clear();
 		fListNextDay.clear();
 		fListStartTimes.clear();
 		fListLengths.clear();
+		fListLengthsPursuit.clear();
 
 		if (fRace == null) {
 			this.revalidate();
@@ -167,6 +175,8 @@ public class PanelRaceStartInfo extends PanelStartStop {
 
 		if (fDivisions == null || fDivisions.size() == 0) return;
 
+		headerPursuitLength.setVisible( fRace.isPursuit());
+		
 		int row = 1;
 		for (AbstractDivision div : fDivisions) {
 			addDivInfoRow(row++, div);
@@ -199,6 +209,12 @@ public class PanelRaceStartInfo extends PanelStartStop {
 		textTime.setEnabled(isRacing);
 		textLength.setEnabled(isRacing);
 		checkNextDay.setEnabled(isRacing);
+
+		JTextFieldSelectAll textLengthPursuit = fListLengthsPursuit.get(i);
+		textLengthPursuit.setText(Double.toString(fRace.getLengthPursuit(div)));
+		
+		textLengthPursuit.setEnabled(isRacing && fRace.isPursuit());
+		textLengthPursuit.setVisible(fRace.isPursuit());
 	}
 
 
@@ -221,12 +237,17 @@ public class PanelRaceStartInfo extends PanelStartStop {
 		textLength.setName("fTextLength" + i);
 		fListLengths.add(textLength);
 
+		JTextFieldSelectAll textLengthPursuit = new JTextFieldSelectAll(fLengthFormat);
+		textLengthPursuit.setColumns(6);
+		textLengthPursuit.setName("fTextLengthPursuit" + i);
+		fListLengthsPursuit.add(textLengthPursuit);
+
 		JCheckBox checkNextDay = new JCheckBox();
 		checkNextDay.setName("fCheckNextDay" + i);
 		checkNextDay.setText("");
 		fListNextDay.add(checkNextDay);
 
-		int row = i + 1; // first row is are the headers
+		int row = i + 1; // first row are the headers
 
 		gridbagAdd( fPanelDivInfo, checkIsRacing, 0, row, GridBagConstraints.WEST, 1);
 		checkIsRacing.setToolTipText(res.getString("RaceLabelIsRacingToolTip"));
@@ -244,6 +265,10 @@ public class PanelRaceStartInfo extends PanelStartStop {
 		checkNextDay.setToolTipText(res.getString("RaceLabelNextDayToolTip"));
 		HelpManager.getInstance().registerHelpTopic(checkNextDay, "race.fCheckNextDay");
 
+		gridbagAdd(fPanelDivInfo, textLengthPursuit, 4, row);
+		textLengthPursuit.setToolTipText(res.getString("RaceLabelLengthPursuitToolTip"));
+		HelpManager.getInstance().registerHelpTopic(textLengthPursuit, "race.fTextLengthPursuit");
+		
 	}
 
 	private static GridBagConstraints gbc = new GridBagConstraints();
@@ -273,6 +298,7 @@ public class PanelRaceStartInfo extends PanelStartStop {
 	private Insets inset0 = new Insets(0, 0, 0, 0);
 
 	RaceLengthListener raceLengthListener = new RaceLengthListener();
+	RaceLengthPursuitListener raceLengthPursuitListener = new RaceLengthPursuitListener();
 	StartTimeListener startTimeListener = new StartTimeListener();
 
 	@Override public void start() {
@@ -290,6 +316,9 @@ public class PanelRaceStartInfo extends PanelStartStop {
 		}
 		for (JTextFieldSelectAll field : fListLengths) {
 			field.addActionListener(raceLengthListener);
+		}
+		for (JTextFieldSelectAll field : fListLengthsPursuit) {
+			field.addActionListener(raceLengthPursuitListener);
 		}
 		
 		fButtonClearAll.addActionListener(clearAllListener);
@@ -309,6 +338,9 @@ public class PanelRaceStartInfo extends PanelStartStop {
 		}
 		for (JTextField field : fListLengths) {
 			field.removeActionListener(raceLengthListener);
+		}
+		for (JTextField field : fListLengthsPursuit) {
+			field.removeActionListener(raceLengthPursuitListener);
 		}
 	}
 
@@ -353,6 +385,7 @@ public class PanelRaceStartInfo extends PanelStartStop {
 			fListNextDay.get(i).setEnabled(isracing);
 			fListStartTimes.get(i).setEnabled(isracing);
 			fListLengths.get(i).setEnabled(isracing);
+			fListLengthsPursuit.get(i).setEnabled(isracing && fRace.isPursuit());
 		}
 	}
 	
@@ -383,6 +416,7 @@ public class PanelRaceStartInfo extends PanelStartStop {
 			fListNextDay.get(i).setEnabled(b);
 			fListStartTimes.get(i).setEnabled(b);
 			fListLengths.get(i).setEnabled(b);
+			fListLengthsPursuit.get(i).setEnabled(b && fRace.isPursuit());
     	}
 	}
 
@@ -465,6 +499,31 @@ public class PanelRaceStartInfo extends PanelStartStop {
 				double n = Double.parseDouble(t);
 				AbstractDivision div = fDivisions.get(i);
 				fRace.setLength(div, n);
+			}
+			catch (NumberFormatException e) {
+				// do nothing but don't allow the race value either
+			}
+
+		}
+
+	}
+
+	private class RaceLengthPursuitListener implements ActionListener { //, FocusListener {
+
+		public void actionPerformed(ActionEvent event) {
+			processChange(event.getSource());
+		}
+
+		public void processChange(Object source) {
+
+			int i = fListLengthsPursuit.indexOf(source);
+			JTextFieldSelectAll textLength = fListLengthsPursuit.get(i);
+
+			try {
+				String t = textLength.getText();
+				double n = Double.parseDouble(t);
+				AbstractDivision div = fDivisions.get(i);
+				fRace.setLengthPursuit(div, n);
 			}
 			catch (NumberFormatException e) {
 				// do nothing but don't allow the race value either

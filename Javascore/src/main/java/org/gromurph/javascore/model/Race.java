@@ -267,8 +267,28 @@ public class Race extends BaseObject implements Constants {
 		return fDivInfo.getStartTime(div);
 	}
 
+	private long findSlowestEntry( AbstractDivision div) {
+		long largestAllowance = Long.MIN_VALUE;
+		for ( Entry e : div.getEntries()) {
+			long allow = e.getRating().getTimeAllowance(e, this);
+			if (allow > largestAllowance) largestAllowance = allow;
+		}
+		return largestAllowance;
+	}
+	
 	public long getStartTimeAdjusted(AbstractDivision div) {
 		return fDivInfo.getStartTimeAdjusted(div);
+	}
+
+	public long getStartTimeAdjusted(AbstractDivision div, Entry e) {
+		long raceStart = fDivInfo.getStartTimeAdjusted(div);
+		if (isPursuit()) {
+			long allowance = e.getRating().getTimeAllowance(e, this);
+			long largestAllowance = findSlowestEntry( div);
+			return raceStart + (largestAllowance - allowance);
+		} else {
+			return raceStart;
+		}
 	}
 
 	public String formatStartDateTime(AbstractDivision div) {
@@ -796,6 +816,14 @@ public class Race extends BaseObject implements Constants {
 
 	public void setLength(AbstractDivision div, double len) {
 		fDivInfo.setLength(div, len);
+	}
+
+	public double getLengthPursuit(AbstractDivision div) {
+		return fDivInfo.getLengthPursuit(div);
+	}
+
+	public void setLengthPursuit(AbstractDivision div, double len) {
+		fDivInfo.setLengthPursuit(div, len);
 	}
 
 	public boolean isNextDay(AbstractDivision div) {

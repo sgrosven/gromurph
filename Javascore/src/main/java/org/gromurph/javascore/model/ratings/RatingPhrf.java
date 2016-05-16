@@ -13,12 +13,14 @@
 // === End File Prolog=======================================================
 package org.gromurph.javascore.model.ratings;
 
+import java.text.MessageFormat;
+
 import org.gromurph.javascore.SailTime;
 import org.gromurph.javascore.model.Division;
+import org.gromurph.javascore.model.Entry;
 import org.gromurph.javascore.model.Finish;
 import org.gromurph.javascore.model.Race;
 import org.gromurph.util.WarningList;
-import java.text.MessageFormat;
 
 /**
  * Standard Phrf handicaping - and the superclass for all one value ratings
@@ -88,9 +90,9 @@ public class RatingPhrf extends RatingDouble {
 	}
 
 	@Override
-	public long getTimeAllowance(Finish inFinish) {
-		Division div = inFinish.getEntry().getDivision();
-		double length = inFinish.getRace().getLength(div);
+	public long getTimeAllowance(Entry e, Race r) {
+		Division div = e.getDivision();
+		double length = r.getLength(div);
 
 		// want time, no longer (effective RRS 2005)
 		double secs = getPrimaryValue() * length;
@@ -114,7 +116,7 @@ public class RatingPhrf extends RatingDouble {
 
 		//        double secs = ( elapsed - (getPrimaryValue() * length * 1000)) / 1000;
 		//        return Math.round(secs) * 1000;
-		long ta = getTimeAllowance(inFinish);
+		long ta = getTimeAllowance(inFinish.getEntry(), inFinish.getRace());
 		long corrected = elapsedMillis - ta;
 		return corrected;
 	}
@@ -137,16 +139,6 @@ public class RatingPhrf extends RatingDouble {
 		validateFinishTimesAfterStartTimes(race, div, warnings);
 	}
 
-	@Override
-	public long getStartTime(Finish inFinish) {
-		if (inFinish.getRace().isPursuit()) {
-			long raceStart = super.getStartTime(inFinish);
-			long allowance = getTimeAllowance(inFinish);
-			return raceStart - allowance;
-		} else {
-			return super.getStartTime(inFinish);
-		}
-	}
 
 }
 /**

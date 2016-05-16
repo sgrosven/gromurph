@@ -15,6 +15,7 @@ package org.gromurph.javascore.model.ratings;
 
 import org.gromurph.javascore.SailTime;
 import org.gromurph.javascore.model.Division;
+import org.gromurph.javascore.model.Entry;
 import org.gromurph.javascore.model.Finish;
 import org.gromurph.javascore.model.Race;
 import org.gromurph.util.BaseObject;
@@ -91,19 +92,8 @@ public abstract class Rating extends BaseObject implements Comparable
         fSystem = name;
     }
 
-    public long getTimeAllowance( Finish inFinish)
-    {
-    	if (inFinish != null) return inFinish.getElapsedTime() - getCorrectedTime( inFinish);
-    	else return SailTime.NOTIME;
-    }
-    
-    public long getStartTime( Finish inFinish)
-    {
-    	Division div = inFinish.getEntry().getDivision();
-    	long starttime = inFinish.getRace().getStartTimeAdjusted( div);
-    	return starttime;
-    }
-    
+    abstract public long getTimeAllowance(Entry e, Race r);
+
     public String getSystem()
     {
         return fSystem;

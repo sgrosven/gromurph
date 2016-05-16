@@ -444,7 +444,7 @@ public class Entry extends BaseObject {
 					for (SubDivision sd : reg.getSubDivisions()) {
 						if (!sd.contains(this)) continue;  // skip if entry not in subdiv
 						if (race != null) {
-							if (!sd.isRacing(race) && !sd.isGroupScoring()) continue; 
+							if (!race.isPursuit() && !sd.isRacing(race) && !sd.isGroupScoring()) continue; 
 							// skip if subdiv not in race 
 						} else {
 							// without a race, if split regatta include only scoring groups

@@ -57,6 +57,7 @@
 <mapID target="race.fTextStartDate" url="PanelRace.html#startdate" />
 <mapID target="race.fTextStartTime" url="PanelRace.html#starttime" />
 <mapID target="race.fTextLength" url="PanelRace.html#length" />
+<mapID target="race.fTextLengthPursuit" url="PanelRace.html#lengthPursuit" />
 <mapID target="race.fCheckNextDay" url="PanelRace.html#nextday" />
 <mapID target="race.fButtonClearAll" url="PanelRace.html#clearalldivs" />
 <mapID target="race.fButtonSetAll" url="PanelRace.html#setalldivs" />

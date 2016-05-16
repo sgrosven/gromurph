@@ -17,6 +17,7 @@ import java.text.MessageFormat;
 
 import org.gromurph.javascore.SailTime;
 import org.gromurph.javascore.model.Division;
+import org.gromurph.javascore.model.Entry;
 import org.gromurph.javascore.model.Finish;
 import org.gromurph.javascore.model.Race;
 import org.gromurph.util.WarningList;
@@ -42,6 +43,7 @@ public abstract class RatingCoefficient extends RatingDouble
     	return getPrimaryValue();
     }
 
+    
     @Override public boolean isSlower(Rating that) {
     	if (!(that instanceof RatingCoefficient)) return false;
     	return (getPrimaryValue() > ((RatingCoefficient) that).getPrimaryValue());
@@ -61,6 +63,13 @@ public abstract class RatingCoefficient extends RatingDouble
         long elapMilli = inFinish.getElapsedTime(); 
         if (elapMilli != SailTime.NOTIME) return (long) (elapMilli * getCoefficient());
         else return SailTime.NOTIME;
+    }
+
+    @Override public long getTimeAllowance( Entry e, Race r)
+    {
+    	Finish inFinish = r.getFinish(e);
+      	if (inFinish != null) return inFinish.getElapsedTime() - getCorrectedTime( inFinish);
+      	else return SailTime.NOTIME;
     }
 
     @Override public void validateRace( Race race, Division div, WarningList warnings)

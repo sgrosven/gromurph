@@ -18,6 +18,7 @@ import java.util.List;
 
 import org.gromurph.javascore.SailTime;
 import org.gromurph.javascore.model.Division;
+import org.gromurph.javascore.model.Entry;
 import org.gromurph.javascore.model.Finish;
 import org.gromurph.javascore.model.Race;
 import org.gromurph.util.WarningList;
@@ -98,6 +99,10 @@ public class RatingOneDesign extends Rating
     @Override public boolean isFaster(Rating that) {
     	return isSameOneDesign( that);
     }
+
+    @Override public long getTimeAllowance(Entry e, Race r) {
+		return 0;
+	}
 
     @Override public long getCorrectedTime( Finish inFinish)
     {

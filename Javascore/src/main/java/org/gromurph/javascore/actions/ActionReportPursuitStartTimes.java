@@ -207,10 +207,13 @@ public class ActionReportPursuitStartTimes extends ActionReport implements Const
 
 		addTableCell(pw, res.getString("ColHeadPursuitStartTime"), "center");
 		
+		pw.println("</tr></thead>");
+
 		// loop thru entries add them in
 		int posNum = 1;
 		for (Finish fin : startOrder) {
-
+			Entry e = fin.getEntry();
+		
 			pw.print("  <tr>");
 
 			String posString = Integer.toString(posNum);
@@ -218,9 +221,10 @@ public class ActionReportPursuitStartTimes extends ActionReport implements Const
 			
 			addTableCell(pw, posString + "&nbsp;&nbsp;", "center");
 
-			generateDescriptiveCells(pw, fin.getEntry());
+			generateDescriptiveCells(pw, e);
 
-			addTableCell(pw, SailTime.toString(fin.getStartTime()), "center");
+			long startTime = fin.getRace().getStartTimeAdjusted( e.getDivision(), e);
+			addTableCell(pw, SailTime.toString( startTime), "center");
 
 			pw.println("</tr>");
 		}

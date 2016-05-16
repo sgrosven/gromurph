@@ -13,6 +13,7 @@ package org.gromurph.javascore.model.ratings;
 
 import org.gromurph.javascore.SailTime;
 import org.gromurph.javascore.model.Division;
+import org.gromurph.javascore.model.Entry;
 import org.gromurph.javascore.model.Finish;
 import org.gromurph.javascore.model.Race;
 import org.gromurph.util.WarningList;
@@ -67,7 +68,8 @@ public class RatingPhrfTimeOnTime extends RatingPhrf {
 	}
 
 	@Override
-	public long getTimeAllowance(Finish inFinish) {
+	public long getTimeAllowance(Entry e, Race r) {
+		Finish inFinish = r.getFinish(e);
 		return inFinish.getElapsedTime() - getCorrectedTime(inFinish);
 	}
 

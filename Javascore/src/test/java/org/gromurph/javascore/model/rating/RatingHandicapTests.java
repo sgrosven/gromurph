@@ -123,7 +123,7 @@ public class RatingHandicapTests extends org.gromurph.javascore.JavascoreTestCas
         forceRating( entry, rtg);
         race.setLength( div, 10.0);
         ct = rtg.getCorrectedTime( finish);
-        long ta = rtg.getTimeAllowance( finish);
+        long ta = rtg.getTimeAllowance( finish.getEntry(), finish.getRace());
         assertEquals( "Phrf/12 for 10 miles, time allow wrong",
             SailTime.forceToLong( "00:02:00"),
             ta);

@@ -455,6 +455,7 @@ public class PanelRace extends BaseEditor<Race> implements ActionListener,
 		}
 
 		Race race = new Race();
+		race.setPursuit(true);
 		reg.addRace(race);
 
 		fFrame.setObject(race);

@@ -25,6 +25,7 @@ import org.gromurph.xml.PersistentNode;
 public class RaceDivisionInfo extends BaseObject {
 	public class StartInfo {
 		double length;
+		double lengthPursuit;
 		long starttime;
 		boolean isRacing;
 		boolean nextDay;
@@ -126,6 +127,7 @@ public class RaceDivisionInfo extends BaseObject {
 	public static final String STARTTIME_PROPERTY = "StartTime";
 	public static final String NEXTDAY_PROPERTY = "nextDay";
 	public static final String LENGTH_PROPERTY = "Length";
+	public static final String LENGTHPURSUIT_PROPERTY = "Length";
 	public static final String ISRACING_PROPERTY = "isRacing";
 	public static final String DIVISION_PROPERTY = "Div";
 	public static final String NODE_PROPERTY = "DivStart";
@@ -167,6 +169,10 @@ public class RaceDivisionInfo extends BaseObject {
 			si.length = Double.parseDouble(value);
 		}
 
+		if ((value = n.getAttribute(LENGTHPURSUIT_PROPERTY)) != null) {
+			si.lengthPursuit = Double.parseDouble(value);
+		}
+
 		if ((value = n.getAttribute(ISRACING_PROPERTY)) != null) {
 			si.isRacing = value.toString().equalsIgnoreCase("true");
 		}
@@ -186,6 +192,7 @@ public class RaceDivisionInfo extends BaseObject {
 			child.setAttribute(DIVISION_PROPERTY, div.getName());
 			child.setAttribute(STARTTIME_PROPERTY, SailTime.toString(si.starttime));
 			child.setAttribute(LENGTH_PROPERTY, Double.toString(si.length));
+			child.setAttribute(LENGTHPURSUIT_PROPERTY, Double.toString(si.lengthPursuit));
 			child.setAttribute(ISRACING_PROPERTY, (si.isRacing ? "true" : "false"));
 			child.setAttribute(NEXTDAY_PROPERTY, (si.nextDay ? "true" : "false"));
 		}
@@ -231,6 +238,16 @@ public class RaceDivisionInfo extends BaseObject {
 	public void setLength(AbstractDivision div, double len) {
 		StartInfo si = getInfo(div);
 		si.length = len;
+	}
+
+	public double getLengthPursuit(AbstractDivision div) {
+		StartInfo si = getInfo(div);
+		return si.lengthPursuit;
+	}
+
+	public void setLengthPursuit(AbstractDivision div, double len) {
+		StartInfo si = getInfo(div);
+		si.lengthPursuit = len;
 	}
 
 	public boolean isNextDay(AbstractDivision div) {
