@@ -62,46 +62,76 @@ public class SailTime {
 	return sIsLongDistance;
     }
 
+    public static String toSeconds(long dt) {
+    	boolean isnegative = (dt < 0);
+    	if (isnegative)
+    	    dt = -dt;
+    
+    	StringBuffer sb = new StringBuffer(10);
+    
+    	if (dt == NOTIME) // || dt == 0)
+    	{
+    	    sb.append(NOTIME_STRING);
+    	} else {
+    	    if (isnegative)
+    		sb.append("-");
+    
+    	    if (sIsLongDistance || (dt > DAYINMILLIS)) {
+    		// more than 1 day
+    		int days = (int) (dt / DAYINMILLIS);
+    		dt = dt - (days * DAYINMILLIS);
+    		sb.append(days);
+    		sb.append("/");
+    	    }
+    
+    	    Date dd = new Date(dt + sTimeZero);
+    	    double ms = (Double.parseDouble(fmtMillis.format(dd))) / 1000;
+    		// millis do not roll up, tack the decimal millis onto end of string
+    		sb.append(fmt8.format(dd));
+     	}
+    	return sb.toString();
+    }
+    
      /**
      * converts the long date/time to a string NYI: following a globally set format
      **/
     public static String toString(long dt) {
-	boolean isnegative = (dt < 0);
-	if (isnegative)
-	    dt = -dt;
-
-	StringBuffer sb = new StringBuffer(10);
-
-	if (dt == NOTIME) // || dt == 0)
-	{
-	    sb.append(NOTIME_STRING);
-	} else {
-	    if (isnegative)
-		sb.append("-");
-
-	    if (sIsLongDistance || (dt > DAYINMILLIS)) {
-		// more than 1 day
-		int days = (int) (dt / DAYINMILLIS);
-		dt = dt - (days * DAYINMILLIS);
-		sb.append(days);
-		sb.append("/");
-	    }
-
-	    Date dd = new Date(dt + sTimeZero);
-	    double ms = (Double.parseDouble(fmtMillis.format(dd))) / 1000;
-	    String dot1 = fmtDot1.format(ms);
-
-	    if (dot1.equals("1.0")) {
-		// millis done at 1 dec round up to 1.0 seconds... eg "53.997" show "54.0"
-		sb.append(fmt8.format(new Date(dt + sTimeZero + 1000)));
-		sb.append(".0");
-	    } else {
-		// millis do not roll up, tack the decimal millis onto end of string
-		sb.append(fmt8.format(dd));
-		sb.append(dot1);
-	    }
-	}
-	return sb.toString();
+    	boolean isnegative = (dt < 0);
+    	if (isnegative)
+    	    dt = -dt;
+    
+    	StringBuffer sb = new StringBuffer(10);
+    
+    	if (dt == NOTIME) // || dt == 0)
+    	{
+    	    sb.append(NOTIME_STRING);
+    	} else {
+    	    if (isnegative)
+    		sb.append("-");
+    
+    	    if (sIsLongDistance || (dt > DAYINMILLIS)) {
+    		// more than 1 day
+    		int days = (int) (dt / DAYINMILLIS);
+    		dt = dt - (days * DAYINMILLIS);
+    		sb.append(days);
+    		sb.append("/");
+    	    }
+    
+    	    Date dd = new Date(dt + sTimeZero);
+    	    double ms = (Double.parseDouble(fmtMillis.format(dd))) / 1000;
+    	    String dot1 = fmtDot1.format(ms);
+    
+    	    if (dot1.equals("1.0")) {
+    		// millis done at 1 dec round up to 1.0 seconds... eg "53.997" show "54.0"
+    		sb.append(fmt8.format(new Date(dt + sTimeZero + 1000)));
+    		sb.append(".0");
+    	    } else {
+    		// millis do not roll up, tack the decimal millis onto end of string
+    		sb.append(fmt8.format(dd));
+    		sb.append(dot1);
+    	    }
+    	}
+    	return sb.toString();
     }
 
     /**

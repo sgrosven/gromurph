@@ -201,7 +201,7 @@ public class PanelRaceStartInfo extends PanelStartStop {
 		checkIsRacing.setSelected(isRacing);
 		checkNextDay.setSelected(fRace.isNextDay(div));
 
-		String time = SailTime.toString(fRace.getStartTimeRaw(div));
+		String time = SailTime.toSeconds(fRace.getStartTimeRaw(div));
 		textTime.setText(time);
 
 		textLength.setText(Double.toString(fRace.getLength(div)));
