@@ -194,7 +194,7 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 						if (n > 0) {
 							String comboName = sbDivs.toString();
 							generateDivisionHeader(writer, comboName, n, FLEET);
-							reportForDivision(writer, racePoints, comboName, fleet.isOneDesign(), true);
+							reportForDivision(writer, racePoints, fleet.isOneDesign(), true);
 							linkList.add(comboName);
 						}
 
@@ -270,7 +270,7 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 						if (n > 0) {
 							String comboName = sbDivs.toString();
 							generateDivisionHeader(writer, comboName, n, DIVISION);
-							reportForDivision(writer, racePoints, comboName, true, true);
+							reportForDivision(writer, racePoints, true, true);
 							linkList.add(comboName);
 						}
 
@@ -338,10 +338,15 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 		String divName = div.getName();
 		boolean oneD = div.isOneDesign();
 		boolean isSubDiv = div instanceof SubDivision;
-		reportForDivision(pw, racePoints, divName, oneD, isSubDiv);
+
+		// see if any divisions are time on time
+		if (div.isTimeOnTime()) fNotes.add( formatTimeOnTimeNote(fRace));
+
+		reportForDivision(pw, racePoints, oneD, isSubDiv);
+		
 	}
 
-	public void reportForDivision(PrintWriter pw, RacePointsList racePoints, String divName, boolean is1D,
+	private void reportForDivision(PrintWriter pw, RacePointsList racePoints, boolean is1D,
 			boolean isSubDiv) {
 		racePoints.sortPoints();
 
@@ -567,8 +572,12 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 
 		if (fRace.isNonDiscardable()) fNotes.add(formatNonDiscardableNote(fRace));
 		if (fRace.getWeight() != 1.00) fNotes.add(formatWeightedNote(fRace));
+		if (fRace.isPursuit()) fNotes.add(formatPursuitNote(fRace));
 
 		fNotes.addAll(ScoringUtilities.getRaceScoringNotes(racePoints));
+		
+		formatNotes(pw, fNotes);
+
 	}
 
 }

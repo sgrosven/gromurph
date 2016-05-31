@@ -660,6 +660,15 @@ public abstract class ActionReport extends AbstractAction implements ActionListe
 				race.getWeight() });
 	}
 
+	protected String formatPursuitNote(Race race) {
+		return java.text.MessageFormat.format(res.getString("ReportRaceNotePursuit"), new Object[] { race.getName() });
+	}
+
+	protected String formatTimeOnTimeNote(Race race) {
+		return java.text.MessageFormat.format(res.getString("ReportRaceNoteTimeOnTime"), new Object[] { race.getName(),
+				race.getAFactor(), race.getBFactor() });
+	}
+
 	public void generateFooter(PrintWriter pw) {
 		pw.println("\n<p class=" + INFOFOOTER_PCLASS + ">");
 		if (fRegatta.isFinal())

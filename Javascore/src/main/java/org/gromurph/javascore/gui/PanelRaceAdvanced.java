@@ -13,7 +13,12 @@
 // === End File Prolog=======================================================
 package org.gromurph.javascore.gui;
 
-import java.awt.*;
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.beans.PropertyChangeEvent;
@@ -21,12 +26,25 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.ResourceBundle;
 
-import javax.swing.*;
+import javax.swing.BorderFactory;
+import javax.swing.ButtonGroup;
+import javax.swing.JCheckBox;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JTextPane;
 
-import org.gromurph.javascore.*;
+import org.gromurph.javascore.JavaScore;
+import org.gromurph.javascore.JavaScoreProperties;
+import org.gromurph.javascore.SailTime;
 import org.gromurph.javascore.model.Race;
 import org.gromurph.javascore.model.ratings.RatingPhrfTimeOnTime;
-import org.gromurph.util.*;
+import org.gromurph.util.BaseEditor;
+import org.gromurph.util.BaseEditorContainer;
+import org.gromurph.util.DialogBaseEditor;
+import org.gromurph.util.HelpManager;
+import org.gromurph.util.JTextFieldSelectAll;
 
 /**
  * The Race class handles a single Race. It has covering information about the race and a list of Finishes for the race
@@ -54,8 +72,9 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 	JCheckBox fCheckNonDiscardable;
 	JCheckBox fCheckMedalRace;
 	JCheckBox fCheckPursuitRace;
+	JCheckBox fCheckPursuitShortened;
 
-	JPanel fPanelBFactor;
+	JPanel fPanelTimeOnTime;
 	JPanel fPanelComment = null;
 
 	JRadioButton fRadioAverage;
@@ -65,6 +84,8 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 
 	JTextPane fTextComment = null;
 	JTextFieldSelectAll fTextWeight;
+	JTextFieldSelectAll fTextBFactor;
+	JTextFieldSelectAll fTextAFactor;
 
 	public PanelRaceAdvanced(BaseEditorContainer parent) {
 		super(parent);
@@ -79,6 +100,9 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		else if (object == fCheckLongDistance) fCheckLongDistance_actionPerformed();
 		else if (object == fCheckMedalRace) fCheckMedalRace_actionPerformed();
 		else if (object == fCheckPursuitRace) fCheckPursuitRace_actionPerformed();
+		else if (object == fCheckPursuitShortened) fCheckPursuitShortened_actionPerformed();
+		else if (object == fTextAFactor) fTextAFactor_actionPerformed();
+		else if (object == fTextBFactor) fTextBFactor_actionPerformed();
 		else if (object == fRadioHeavy) fRadioHeavy_actionPerformed();
 		else if (object == fRadioAverage) fRadioAverage_actionPerformed();
 		else if (object == fRadioLight) fRadioLight_actionPerformed();
@@ -116,7 +140,13 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		fCheckPursuitRace.setToolTipText(res.getString("PursuitRaceLabelToolTip"));
 		fCheckPursuitRace.setName("fCheckPursuitRace");
 		HelpManager.getInstance().registerHelpTopic(fCheckPursuitRace, "race.fCheckPursuitRace");
-		gridbagAdd(panelCenter, fCheckPursuitRace, 0, row, 2, GridBagConstraints.NORTHWEST, GridBagConstraints.NONE);
+		gridbagAdd(panelCenter, fCheckPursuitRace, 0, row, 1, GridBagConstraints.NORTHWEST, GridBagConstraints.NONE);
+
+		fCheckPursuitShortened = new JCheckBox(res.getString("PursuitShortenedLabel"));
+		fCheckPursuitShortened.setToolTipText(res.getString("PursuitShortenedLabelToolTip"));
+		fCheckPursuitShortened.setName("fCheckPursuitShortened");
+		HelpManager.getInstance().registerHelpTopic(fCheckPursuitShortened, "race.fCheckPursuitShortened");
+		gridbagAdd(panelCenter, fCheckPursuitShortened, 1, row, 1, GridBagConstraints.NORTHWEST, GridBagConstraints.NONE);
 
 		row++;
 		fCheckMedalRace = new JCheckBox(res.getString("RaceLabelMedalRace"));
@@ -144,18 +174,47 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 
 		// Panel BFACTOR
 		row++;
-		fPanelBFactor = addFieldsBFactorPanel();
-		gridbagAdd(panelCenter, fPanelBFactor, 0, row, 2, 1, GridBagConstraints.CENTER, GridBagConstraints.NONE,
+		fPanelTimeOnTime = addFieldsTimeOnTimePanel();
+		gridbagAdd(panelCenter, fPanelTimeOnTime, 0, row, 2, 1, GridBagConstraints.CENTER, GridBagConstraints.NONE,
 				new java.awt.Insets(0, 0, 0, 0));
 
 		initializeListeners();
 	}
 
-	private JPanel addFieldsBFactorPanel() {
-		JPanel panel = new JPanel(new GridBagLayout());
-		panel.setToolTipText(res.getString("RaceLabelBFactorPanelToolTip"));
-		panel.setBorder(BorderFactory.createTitledBorder(res.getString("RaceLabelBFactorPanel")));
-		panel.setName("panel");
+	private JPanel addFieldsTimeOnTimePanel() {
+		
+		JPanel toTPanel = new JPanel(new GridBagLayout());
+		toTPanel.setBorder(BorderFactory.createTitledBorder(res.getString("RaceLabelTimeOnTimePanel")));
+		toTPanel.setName("ToTPanel");
+
+		int row = 0;
+		gridbagAdd( toTPanel, new JLabel(res.getString("RaceLabelAFactor")), 
+				0, row++, 1, 1, GridBagConstraints.NORTHWEST, GridBagConstraints.NONE,
+				new java.awt.Insets(0, 0, 0, 0));
+		fTextAFactor = new JTextFieldSelectAll(5);
+		fTextAFactor.setToolTipText(res.getString("RaceLabelAFactorToolTip"));
+		fTextAFactor.setName("fTextAFactor");
+		HelpManager.getInstance().registerHelpTopic(fTextAFactor, "race.fTextAFactor");
+		gridbagAdd( toTPanel, fTextAFactor, 0, row++, 1, 1, GridBagConstraints.NORTHWEST, GridBagConstraints.NONE,
+				new java.awt.Insets(0, 0, 0, 0));
+		
+		gridbagAdd( toTPanel, new JLabel(res.getString("RaceLabelBFactor")), 
+				0, row++, 1, 1, GridBagConstraints.NORTHWEST, GridBagConstraints.NONE,
+				new java.awt.Insets(0, 0, 0, 0));
+		fTextBFactor = new JTextFieldSelectAll(5);
+		fTextBFactor.setToolTipText(res.getString("RaceLabelBFactorToolTip"));
+		fTextBFactor.setName("fTextBFactor");
+		HelpManager.getInstance().registerHelpTopic(fTextBFactor, "race.fTextBFactor");
+		gridbagAdd( toTPanel, fTextBFactor, 0, row++, 1, 1, GridBagConstraints.NORTHWEST, GridBagConstraints.NONE,
+				new java.awt.Insets(0, 0, 0, 0));
+		
+		JPanel bPanel = new JPanel( new GridBagLayout());
+		bPanel.setToolTipText(res.getString("RaceLabelBFactorPanelToolTip"));
+		bPanel.setBorder(BorderFactory.createTitledBorder(res.getString("RaceLabelBFactorPanel")));
+		bPanel.setName("bPanel");
+		gridbagAdd( toTPanel, bPanel, 1, 0, 1, row, GridBagConstraints.WEST, GridBagConstraints.NONE,
+				new java.awt.Insets(0, 0, 0, 0));
+		HelpManager.getInstance().registerHelpTopic(fRadioLight, "race.groupBFactor");
 
 		ButtonGroup groupBFactor = new ButtonGroup();
 		fRadioLight = new JRadioButton(res.getString("RaceLabelBFactorLight"));
@@ -163,7 +222,7 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		fRadioLight.setToolTipText(res.getString("RaceLabelBFactorLightToolTip"));
 		fRadioLight.setName("fRadioLight");
 		groupBFactor.add(fRadioLight);
-		gridbagAdd(panel, fRadioLight, 0, 0, 1, 1, GridBagConstraints.WEST, GridBagConstraints.NONE,
+		gridbagAdd(bPanel, fRadioLight, 0, 0, 1, 1, GridBagConstraints.WEST, GridBagConstraints.NONE,
 				new java.awt.Insets(0, 0, 0, 0));
 		HelpManager.getInstance().registerHelpTopic(fRadioLight, "race.groupBFactor");
 
@@ -172,7 +231,7 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		fRadioAverage.setToolTipText(res.getString("RaceLabelBFactorAverageToolTip"));
 		fRadioAverage.setName("fRadioAverage");
 		groupBFactor.add(fRadioAverage);
-		gridbagAdd(panel, fRadioAverage, 0, 1, 1, 1, GridBagConstraints.WEST, GridBagConstraints.NONE,
+		gridbagAdd(bPanel, fRadioAverage, 0, 1, 1, 1, GridBagConstraints.WEST, GridBagConstraints.NONE,
 				new java.awt.Insets(0, 0, 0, 0));
 		HelpManager.getInstance().registerHelpTopic(fRadioAverage, "race.groupBFactor");
 
@@ -181,7 +240,7 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		fRadioHeavy.setToolTipText(res.getString("RaceLabelBFactorHeavyToolTip"));
 		fRadioHeavy.setName("fRadioHeavy");
 		groupBFactor.add(fRadioHeavy);
-		gridbagAdd(panel, fRadioHeavy, 0, 2, 1, 1, GridBagConstraints.WEST, GridBagConstraints.NONE,
+		gridbagAdd(bPanel, fRadioHeavy, 0, 2, 1, 1, GridBagConstraints.WEST, GridBagConstraints.NONE,
 				new java.awt.Insets(0, 0, 0, 0));
 		HelpManager.getInstance().registerHelpTopic(fRadioHeavy, "race.groupBFactor");
 
@@ -190,11 +249,11 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		fRadioCustom.setToolTipText(res.getString("RaceLabelBFactorCustomToolTip"));
 		fRadioCustom.setName("fRadioCustom");
 		groupBFactor.add(fRadioCustom);
-		gridbagAdd(panel, fRadioCustom, 0, 3, 1, 1, GridBagConstraints.WEST, GridBagConstraints.NONE,
+		gridbagAdd(bPanel, fRadioCustom, 0, 3, 1, 1, GridBagConstraints.WEST, GridBagConstraints.NONE,
 				new java.awt.Insets(0, 0, 0, 0));
 		HelpManager.getInstance().registerHelpTopic(fRadioCustom, "race.groupBFactor");
 
-		return panel;
+		return toTPanel;
 	}
 
 	@Override public void exitOK() {
@@ -219,30 +278,87 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		boolean isP = fCheckPursuitRace.isSelected();
 
 		fRace.setPursuit(isP);
+		
+		if (!isP) {
+			fCheckPursuitShortened.setSelected(false);
+			fRace.setPursuitShortened(false);
+		}
+		fCheckPursuitShortened.setEnabled( isP);	
+	}
+
+	void fCheckPursuitShortened_actionPerformed() {
+		boolean isP = fCheckPursuitShortened.isSelected();
+
+		fRace.setPursuitShortened(isP);
 	}
 
 	void fCheckNonDiscardable_actionPerformed() {
 		fRace.setNonDiscardable(fCheckNonDiscardable.isSelected());
 	}
 
+	private void setStandardBFactor( int b) {
+   		fRace.setBFactor(b);
+   		fTextBFactor.setText( Integer.toString(b));
+		fTextBFactor.setEnabled( false);
+	}
 	public void fRadioAverage_actionPerformed() {
-		fRace.setBFactor(RatingPhrfTimeOnTime.BFACTOR_AVERAGE);
-		fRace.setAFactor(getAFactor());
+		setStandardBFactor( RatingPhrfTimeOnTime.BFACTOR_AVERAGE);
 	}
 
 	public void fRadioHeavy_actionPerformed() {
-		fRace.setBFactor(RatingPhrfTimeOnTime.BFACTOR_HEAVY);
-		fRace.setAFactor(getAFactor());
+		setStandardBFactor( RatingPhrfTimeOnTime.BFACTOR_HEAVY);
 	}
 
 	public void fRadioLight_actionPerformed() {
-		fRace.setBFactor(RatingPhrfTimeOnTime.BFACTOR_LIGHT);
-		fRace.setAFactor(getAFactor());
+		setStandardBFactor( RatingPhrfTimeOnTime.BFACTOR_LIGHT);
 	}
 
 	public void fRadioCustom_actionPerformed() {
-		fRace.setBFactor( getBFactor());
-		fRace.setAFactor( getAFactor());
+		fTextBFactor.setEnabled(true);
+	}
+
+	void fTextAFactor_actionPerformed() {
+		String old = Integer.toString(fRace.getAFactor());
+		try {
+			String text = fTextAFactor.getText();
+			if (fTextAFactor.getText().length() > 0) {
+				int num = Integer.parseInt(text);
+				if (num < 0) throw new Exception(res.getString("RaceMessageInvalidAFactor"));
+				fRace.setAFactor(num);
+			}
+		}
+		catch (Exception e) {
+			StringBuffer sb = new StringBuffer();
+			sb.append(res.getString("RaceMessageInvalidAFactor"));
+			sb.append(NEWLINE);
+			sb.append(NEWLINE);
+			sb.append(e.toString());
+			JOptionPane.showMessageDialog(this, sb.toString());
+			fTextAFactor.setText(old);
+			//fTextWeight.requestFocusInWindow();
+		}
+	}
+
+	void fTextBFactor_actionPerformed() {
+		String old = Integer.toString(fRace.getBFactor());
+		try {
+			String text = fTextBFactor.getText();
+			if (fTextBFactor.getText().length() > 0) {
+				int num = Integer.parseInt(text);
+				if (num < 0) throw new Exception(res.getString("RaceMessageInvalidBFactor"));
+				fRace.setBFactor(num);
+			}
+		}
+		catch (Exception e) {
+			StringBuffer sb = new StringBuffer();
+			sb.append(res.getString("RaceMessageInvalidBFactor"));
+			sb.append(NEWLINE);
+			sb.append(NEWLINE);
+			sb.append(e.toString());
+			JOptionPane.showMessageDialog(this, sb.toString());
+			fTextBFactor.setText(old);
+			//fTextWeight.requestFocusInWindow();
+		}
 	}
 
 	void fTextWeight_actionPerformed() {
@@ -300,6 +416,7 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		fCheckNonDiscardable.addActionListener(this);
 		fCheckMedalRace.addActionListener(this);
 		fCheckPursuitRace.addActionListener(this);
+		fCheckPursuitShortened.addActionListener(this);
 
 		fRadioHeavy.addActionListener(this);
 		fRadioLight.addActionListener(this);
@@ -320,6 +437,7 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		fCheckNonDiscardable.removeActionListener(this);
 		fCheckMedalRace.removeActionListener(this);
 		fCheckPursuitRace.removeActionListener(this);
+		fCheckPursuitShortened.removeActionListener(this);
 
 		fRadioHeavy.removeActionListener(this);
 		fRadioLight.removeActionListener(this);
@@ -344,29 +462,6 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		}
 	}
 
-	private int fAFactor = -1;
-	private int fBFactor = RatingPhrfTimeOnTime.BFACTOR_AVERAGE;
-	
-	public int getAFactor() {
-		if (fAFactor < 0) {
-			fAFactor = RatingPhrfTimeOnTime.AFACTOR_DEFAULT;
-			String prefA = (String) JavaScoreProperties.getPropertyValue(JavaScoreProperties.AFACTOR_PROPERTY);
-			if (prefA != null) try {
-				fAFactor = Integer.parseInt(prefA);
-			} catch (Exception e) {}
-		}
-		return fAFactor;
-	}
-	
-	public int getBFactor() {
-		if (canBeCustomFactor()) return fBFactor;
-		else return -1;
-	}
-	
-	private boolean canBeCustomFactor() {
-		return JavaScoreProperties.haveCustomABFactors();
-	}
-	
 	@Override public void updateFields() {
 
 		if (fRace != null) {
@@ -374,15 +469,10 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 			SailTime.setLongDistance(fRace.isLongDistance());
 
 			fCheckPursuitRace.setSelected( fRace.isPursuit());
+			fCheckPursuitShortened.setSelected( fRace.isPursuitShortened());
 			
-			boolean canBeCustom = canBeCustomFactor();
-			
-			fRadioCustom.setVisible(canBeCustom);
-			if (canBeCustom) {
-				fRadioCustom.setText( res.getString("RaceLabelBFactorCustom") + " A=" + getAFactor() + ", B=" + getBFactor());
-			} 
-				
 			int bf = fRace.getBFactor();
+			fTextBFactor.setEnabled(false);
 			switch (bf) {
     			case RatingPhrfTimeOnTime.BFACTOR_AVERAGE:
     				fRadioAverage.setSelected(true);
@@ -394,15 +484,23 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
     				fRadioLight.setSelected(true);
     				break;
     			default:
-    				if (canBeCustom) fRadioCustom.setSelected(true);
-    				else fRadioAverage.setSelected(true);
+    				fRadioCustom.setSelected(true);
+    				fTextBFactor.setEnabled(true);
     				break;
 			}
+			fTextBFactor.setText( Integer.toString(bf));
+			fTextAFactor.setText( Integer.toString( fRace.getAFactor()));
+			
 		} else {
+			fTextBFactor.setText( Integer.toString(RatingPhrfTimeOnTime.BFACTOR_AVERAGE));
+			fTextBFactor.setEnabled(false);
+			fTextAFactor.setText( Integer.toString(RatingPhrfTimeOnTime.AFACTOR_DEFAULT));
 			fTextWeight.setText("1.00");
 			fCheckLongDistance.setSelected(false);
 			SailTime.setLongDistance(false);
 			fCheckPursuitRace.setSelected( false);
+			fCheckPursuitShortened.setSelected( false);
+			fCheckPursuitShortened.setEnabled(false);
 
 		}
 

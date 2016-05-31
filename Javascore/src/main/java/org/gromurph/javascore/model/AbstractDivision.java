@@ -228,6 +228,7 @@ public abstract class AbstractDivision extends BaseObject
 		fIfClassId = ifClassId;
 	}
 
+	public boolean isTimeOnTime() { return false; }
 }
 /**
  * $Log: AbstractDivision.java,v $

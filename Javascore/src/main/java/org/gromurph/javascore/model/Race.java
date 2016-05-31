@@ -53,6 +53,7 @@ public class Race extends BaseObject implements Constants {
 	private double fWeight;
 	private boolean fMedalRace;
 	private boolean fPursuit;
+	private boolean fPursuitShortened;
 	
 	public boolean isCarryOverRace = false;
 
@@ -67,6 +68,7 @@ public class Race extends BaseObject implements Constants {
 	public final transient static String NONDISCARDABLE_PROPERTY = "NonDiscardable";
 	public final transient static String MEDALRACE_PROPERTY = "MedalRace";
 	public final transient static String PURSUIT_PROPERTY = "Pursuit";
+	public final transient static String PURSUIT_SHORTENED_PROPERTY = "PursuitShortened";
 
 	public final transient static int MAX_ROUNDINGS = 10;
 
@@ -107,6 +109,7 @@ public class Race extends BaseObject implements Constants {
 		fLongDistance = false;
 		fMedalRace = false;
 		fPursuit = false;
+		fPursuitShortened = false;
 		if (JavaScoreProperties.haveCustomABFactors()) { 
     		fBFactor = JavaScoreProperties.getBFactor();
     		fAFactor = JavaScoreProperties.getAFactor();
@@ -139,6 +142,8 @@ public class Race extends BaseObject implements Constants {
 		e.setAttribute(NONDISCARDABLE_PROPERTY, new Boolean(fNonDiscardable).toString());
 		e.setAttribute(MEDALRACE_PROPERTY, new Boolean(fMedalRace).toString());
 		e.setAttribute(PURSUIT_PROPERTY, new Boolean(fPursuit).toString());
+		e.setAttribute(PURSUIT_SHORTENED_PROPERTY, new Boolean(fPursuitShortened).toString());
+
 
 		if (fStartDate != null) {
 			e.setAttribute(STARTDATE_PROPERTY, sXmlDateFormat.format(fStartDate));
@@ -202,7 +207,6 @@ public class Race extends BaseObject implements Constants {
 
 		value = n.getAttribute(AFACTOR_PROPERTY);
 		if (value != null) setAFactor(Integer.parseInt(value));
-		else setAFactor( fBFactor); // for pre-7.0.0 compatibility
 
 		value = n.getAttribute(LONGDISTANCE_PROPERTY);
 		if (value != null) {
@@ -233,6 +237,14 @@ public class Race extends BaseObject implements Constants {
 			boolean b = value.toString().equalsIgnoreCase("true");
 			try {
 				fPursuit = b;
+			} catch (Exception e) {}
+		}
+
+		value = n.getAttribute(PURSUIT_SHORTENED_PROPERTY);
+		if (value != null) {
+			boolean b = value.toString().equalsIgnoreCase("true");
+			try {
+				fPursuitShortened = b;
 			} catch (Exception e) {}
 		}
 
@@ -779,6 +791,22 @@ public class Race extends BaseObject implements Constants {
 	 */
 	public void setPursuit(boolean isPursuit) {
 		fPursuit = isPursuit;
+		if (!isPursuit) fPursuitShortened = false;
+	}
+
+	/**
+	 * @return Returns true if the race is a pursuit race that was shortened after starting
+	 */
+	public boolean isPursuitShortened() {
+		return fPursuitShortened;
+	}
+
+	/**
+	 * @param isPursuitShortened
+	 *            set to true if race is a pursuit race that was shortened after starting
+	 */
+	public void setPursuitShortened(boolean isPursuitShortened) {
+		fPursuitShortened = isPursuitShortened;
 	}
 
 	/**

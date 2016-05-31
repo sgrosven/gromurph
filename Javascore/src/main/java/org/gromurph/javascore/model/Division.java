@@ -19,6 +19,7 @@ import org.gromurph.javascore.JavaScoreProperties;
 import org.gromurph.javascore.manager.RatingManager;
 import org.gromurph.javascore.model.ratings.Rating;
 import org.gromurph.javascore.model.ratings.RatingOneDesign;
+import org.gromurph.javascore.model.ratings.RatingPhrfTimeOnTime;
 import org.gromurph.util.Util;
 import org.gromurph.xml.PersistentNode;
 
@@ -357,6 +358,11 @@ public class Division extends AbstractDivision {
 		} else if (event.getSource() == fastestRating) {
 			firePropertyChange(FASTESTRATING_PROPERTY, null, fastestRating);
 		}
+	}
+	
+	@Override
+	public boolean isTimeOnTime() { 
+		return (fastestRating instanceof RatingPhrfTimeOnTime); 
 	}
 }
 /**

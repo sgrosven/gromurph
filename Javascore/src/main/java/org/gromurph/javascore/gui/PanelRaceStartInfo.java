@@ -175,7 +175,7 @@ public class PanelRaceStartInfo extends PanelStartStop {
 
 		if (fDivisions == null || fDivisions.size() == 0) return;
 
-		headerPursuitLength.setVisible( fRace.isPursuit());
+		headerPursuitLength.setVisible( fRace.isPursuitShortened());
 		
 		int row = 1;
 		for (AbstractDivision div : fDivisions) {
@@ -213,8 +213,8 @@ public class PanelRaceStartInfo extends PanelStartStop {
 		JTextFieldSelectAll textLengthPursuit = fListLengthsPursuit.get(i);
 		textLengthPursuit.setText(Double.toString(fRace.getLengthPursuit(div)));
 		
-		textLengthPursuit.setEnabled(isRacing && fRace.isPursuit());
-		textLengthPursuit.setVisible(fRace.isPursuit());
+		textLengthPursuit.setEnabled(isRacing && fRace.isPursuitShortened());
+		textLengthPursuit.setVisible(fRace.isPursuitShortened());
 	}
 
 

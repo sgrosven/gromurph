@@ -122,11 +122,12 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 		// TODO A  Pursuit start times
 			// DONE "pursuit check box" to advance race options
 			// if checked:
-				// if no finishers - have "results" show the pursuit start times?
 				// DONE on single race results - add start time column
-				//  edit scoring notes to reflect pursuit start?
+				// DONE edit scoring notes to reflect pursuit start?
 				// documentation
 				// need to handle/test shortening course after start
+					 // gui set, but doesnt update dynamically - do I care?
+					 // calculations need to be checked and tested
 		// DONE A time entry on race div dialog won't accept decimal seconds...only want to display decimals seconds
 	
 					
