@@ -94,8 +94,12 @@ public class RatingPhrf extends RatingDouble {
 		Division div = e.getDivision();
 		double length = r.getLength(div);
 
-		// want time, no longer (effective RRS 2005)
-		double secs = getPrimaryValue() * length;
+		return getTimeAllowanceForDistance( length);
+	}
+
+	@Override
+	public long getTimeAllowanceForDistance(double distance) {
+		double secs = getPrimaryValue() * distance;
 		return (long) (secs * 1000);
 	}
 

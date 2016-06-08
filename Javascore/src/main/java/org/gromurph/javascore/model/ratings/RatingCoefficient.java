@@ -71,6 +71,11 @@ public abstract class RatingCoefficient extends RatingDouble
       	if (inFinish != null) return inFinish.getElapsedTime() - getCorrectedTime( inFinish);
       	else return SailTime.NOTIME;
     }
+    
+	@Override
+	public long getTimeAllowanceForDistance(double distance) {
+		return 0;
+	}
 
     @Override public void validateRace( Race race, Division div, WarningList warnings)
     {

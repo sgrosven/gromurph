@@ -48,6 +48,7 @@ import org.gromurph.javascore.model.RaceList;
 import org.gromurph.javascore.model.Regatta;
 import org.gromurph.javascore.model.StartingDivisionList;
 import org.gromurph.util.HelpManager;
+import org.gromurph.util.JLabelWrapped;
 import org.gromurph.util.JTextFieldSelectAll;
 import org.gromurph.util.PanelStartStop;
 import org.gromurph.util.Util;
@@ -67,7 +68,7 @@ public class PanelRaceStartInfo extends PanelStartStop {
 	List<JCheckBox> fListIsRacing = new ArrayList<JCheckBox>(10);
 	List<JCheckBox> fListNextDay = new ArrayList<JCheckBox>(10);
 	
-	JLabel headerPursuitLength; 
+	JLabelWrapped headerPursuitLength; 
 
 	JPanel fPanelDivInfo;
 	JScrollPane fScrollClasses;
@@ -106,12 +107,12 @@ public class PanelRaceStartInfo extends PanelStartStop {
 
 		// add the headers
 		
-		gridbagAdd(fPanelDivInfo, new JLabel(res.getString("RaceLabelIsRacing")), 0, 0);
-		gridbagAdd(fPanelDivInfo, new JLabel(res.getString("RaceLabelStartTime")), 1, 0);
-		gridbagAdd(fPanelDivInfo, new JLabel(res.getString("RaceLabelLength")), 2, 0);
-		gridbagAdd(fPanelDivInfo, new JLabel(res.getString("RaceLabelNextDay")), 3, 0);
+		gridbagAdd(fPanelDivInfo, new JLabelWrapped(res.getString("RaceLabelIsRacing")), 0, 0);
+		gridbagAdd(fPanelDivInfo, new JLabelWrapped(res.getString("RaceLabelStartTime")), 1, 0);
+		gridbagAdd(fPanelDivInfo, new JLabelWrapped(res.getString("RaceLabelLength")), 2, 0);
+		gridbagAdd(fPanelDivInfo, new JLabelWrapped(res.getString("RaceLabelNextDay")), 3, 0);
 		
-		headerPursuitLength = new JLabel(res.getString("RaceLabelLengthPursuit"));
+		headerPursuitLength = new JLabelWrapped(res.getString("RaceLabelLengthPursuit"));
 		gridbagAdd(fPanelDivInfo, headerPursuitLength, 4, 0);
 
 		JPanel bottom = new JPanel( new FlowLayout( FlowLayout.CENTER));

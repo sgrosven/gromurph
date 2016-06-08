@@ -127,10 +127,13 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 				// documentation
 				// need to handle/test shortening course after start
 					 // gui set, but doesnt update dynamically - do I care?
-					 // calculations need to be checked and tested
+					 // DONE calculations need to be checked and tested
 		// DONE A time entry on race div dialog won't accept decimal seconds...only want to display decimals seconds
 	
-					
+		// TODO Empty regatta, one class, "ADD" is disabled on entries page		
+		// TODO A+ 'NoFin' showing up in finish dialog left side
+		// TODO A+ delete finish, gets double entry (sometimes) on unfin list
+		// TODO A+ TLETest regatta, subdivision has no races shown
 					
 	// TODO A update release website documentation
 	// TODO A copy help files over to website

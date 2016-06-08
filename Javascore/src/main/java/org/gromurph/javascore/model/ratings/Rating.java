@@ -93,6 +93,8 @@ public abstract class Rating extends BaseObject implements Comparable
     }
 
     abstract public long getTimeAllowance(Entry e, Race r);
+    
+    abstract public long getTimeAllowanceForDistance(double distance);
 
     public String getSystem()
     {

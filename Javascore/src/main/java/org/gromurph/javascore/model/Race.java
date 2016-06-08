@@ -282,7 +282,7 @@ public class Race extends BaseObject implements Constants {
 	private long findSlowestEntry( AbstractDivision div) {
 		long largestAllowance = Long.MIN_VALUE;
 		for ( Entry e : div.getEntries()) {
-			long allow = e.getRating().getTimeAllowance(e, this);
+			long allow = e.getRating().getTimeAllowanceForDistance( this.getLengthPursuit(div));
 			if (allow > largestAllowance) largestAllowance = allow;
 		}
 		return largestAllowance;
@@ -295,7 +295,7 @@ public class Race extends BaseObject implements Constants {
 	public long getStartTimeAdjusted(AbstractDivision div, Entry e) {
 		long raceStart = fDivInfo.getStartTimeAdjusted(div);
 		if (isPursuit()) {
-			long allowance = e.getRating().getTimeAllowance(e, this);
+			long allowance = e.getRating().getTimeAllowanceForDistance( this.getLengthPursuit(div));
 			long largestAllowance = findSlowestEntry( div);
 			return raceStart + (largestAllowance - allowance);
 		} else {
@@ -844,6 +844,7 @@ public class Race extends BaseObject implements Constants {
 
 	public void setLength(AbstractDivision div, double len) {
 		fDivInfo.setLength(div, len);
+		if (!isPursuitShortened()) fDivInfo.setLengthPursuit(div,  len);
 	}
 
 	public double getLengthPursuit(AbstractDivision div) {

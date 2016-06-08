@@ -200,48 +200,10 @@ public class RatingOneDesign extends Rating
         // do nothing
     }
 
-}
+	@Override
+	public long getTimeAllowanceForDistance(double distance) {
+		return 0;
+	}
 
-/**
- * $Log: RatingOneDesign.java,v $
- * Revision 1.4  2006/01/15 21:10:38  sandyg
- * resubmit at 5.1.02
- *
- * Revision 1.2  2006/01/11 02:26:10  sandyg
- * updating copyright years
- *
- * Revision 1.1  2006/01/01 02:27:02  sandyg
- * preliminary submission to centralize code in a new module
- *
- * Revision 1.11.4.1  2005/11/01 02:36:01  sandyg
- * Java5 update - using generics
- *
- * Revision 1.11.2.1  2005/06/26 22:47:19  sandyg
- * Xml overhaul to remove xerces dependence
- *
- * Revision 1.11  2005/02/27 23:23:54  sandyg
- * Added IRC, changed corrected time scores to no longer round to a second
- *
- * Revision 1.10  2004/04/10 20:49:29  sandyg
- * Copyright year update
- *
- * Revision 1.9  2003/07/10 02:00:30  sandyg
- * Bug 766917, somehow had two variants of system name "OneDesign" and "One Design"
- * now always "OneDesign"
- *
- * Revision 1.8  2003/04/27 21:03:28  sandyg
- * lots of cleanup, unit testing for 4.1.1 almost complete
- *
- * Revision 1.7  2003/03/28 03:07:44  sandyg
- * changed toxml and fromxml to xmlRead and xmlWrite
- *
- * Revision 1.6  2003/01/06 00:32:37  sandyg
- * replaced forceDivision and forceRating statements
- *
- * Revision 1.5  2003/01/05 21:29:29  sandyg
- * fixed bad version/id string
- *
- * Revision 1.4  2003/01/04 17:29:10  sandyg
- * Prefix/suffix overhaul
- *
-*/
+    
+}
