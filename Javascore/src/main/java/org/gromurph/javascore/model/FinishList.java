@@ -91,19 +91,9 @@ public class FinishList extends BaseList<Finish> {
 
 	public int getNumberFinishers(AbstractDivision div) {
 		int n = 0;
-		for (Iterator<Finish> iter = iterator(); iter.hasNext();) {
-			Finish f = iter.next();
-
+		for (Finish f : this) {
 			if ((f.getEntry() != null) && (f.getFinishPosition().isValidFinish())) {
-// 12/26/2010 - added contains(r) to all divisions
-//				Division div2 = null;
-//				if (div instanceof Division)
-//					div2 = (Division) div;
-//				else
-//					// div is subdivision
-//					div2 = (Division) ((SubDivision) div).getParentDivision();
-//				if (div2.contains(f.getEntry().getRating()))
-				if (div.contains(f.getEntry().getRating()))
+				if (div.contains(f.getEntry())) //.getRating()))
 					n++;
 			}
 		}

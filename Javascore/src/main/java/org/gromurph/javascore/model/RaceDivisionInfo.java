@@ -127,7 +127,7 @@ public class RaceDivisionInfo extends BaseObject {
 	public static final String STARTTIME_PROPERTY = "StartTime";
 	public static final String NEXTDAY_PROPERTY = "nextDay";
 	public static final String LENGTH_PROPERTY = "Length";
-	public static final String LENGTHPURSUIT_PROPERTY = "Length";
+	public static final String LENGTHPURSUIT_PROPERTY = "LengthPursuit";
 	public static final String ISRACING_PROPERTY = "isRacing";
 	public static final String DIVISION_PROPERTY = "Div";
 	public static final String NODE_PROPERTY = "DivStart";

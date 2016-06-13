@@ -126,7 +126,7 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 				// DONE edit scoring notes to reflect pursuit start?
 				// documentation
 				// need to handle/test shortening course after start
-					 // gui set, but doesnt update dynamically - do I care?
+					 // DONE gui set, but doesnt update dynamically - do I care?
 					 // DONE calculations need to be checked and tested
 		// DONE A time entry on race div dialog won't accept decimal seconds...only want to display decimals seconds
 	

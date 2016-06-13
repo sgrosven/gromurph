@@ -61,6 +61,7 @@ public class RaceTests extends JavascoreTestCase implements Constants {
 		e13.setSailId(new SailId("13"));
 		e13.setBoatName("e13");
 		forceDivision(e13, div1);
+		
 		e21 = new Entry();
 		e21.setSailId(new SailId("11"));
 		e21.setBoatName("e21");
@@ -102,16 +103,18 @@ public class RaceTests extends JavascoreTestCase implements Constants {
 	}
 
 	public void testNumCompetitors() {
+		
 		r1.setFinish(new Finish(r1, e11, SailTime.forceToLong("12:10:00"), new FinishPosition(1), null));
 		r1.setFinish(new Finish(r1, e12, SailTime.forceToLong("12:10:05"), new FinishPosition(2), null));
-		r1.setFinish(new Finish(r1, e13, SailTime.forceToLong("12:10:10"), new FinishPosition(3), null));
+		r1.setFinish(new Finish(r1, e13, SailTime.NOTIME, new FinishPosition(5), new Penalty(TLE)));
+		
 		r1.setFinish(new Finish(r1, e21, SailTime.forceToLong("12:10:15"), new FinishPosition(4), null));
 		r1.setFinish(new Finish(r1, e22, SailTime.NOTIME, new FinishPosition(5), new Penalty(DNF)));
 		r1.setFinish(new Finish(r1, e23, SailTime.NOTIME, new FinishPosition(6), new Penalty(DNC)));
 
 		regatta.scoreRegatta();
 
-		assertEquals("r1, div1 finishers", 4, r1.getNumberFinishers(div1));
+		assertEquals("r1, div1 finishers", 2, r1.getNumberFinishers(div1));
 		assertEquals("r1, div2 finishers", 1, r1.getNumberFinishers(div2));
 	}
 

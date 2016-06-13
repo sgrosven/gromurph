@@ -20,6 +20,8 @@ import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
 import java.text.DateFormat;
 import java.text.DecimalFormat;
 import java.text.MessageFormat;
@@ -35,7 +37,6 @@ import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComponent;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
@@ -84,6 +85,7 @@ public class PanelRaceStartInfo extends PanelStartStop {
 	public void setRace(Race r) {
 
 		if (fRace == r) return;
+		
 		fRace = r;
 		
 		if (isStarted) stop();
@@ -325,6 +327,7 @@ public class PanelRaceStartInfo extends PanelStartStop {
 		fButtonClearAll.addActionListener(clearAllListener);
 		fButtonSetAll.addActionListener(setAllListener);
 		
+		if (fRace != null) fRace.addPropertyChangeListener( shortenedPursuitListener);
 		//addFocusListener(this);
 	}
 
@@ -343,6 +346,7 @@ public class PanelRaceStartInfo extends PanelStartStop {
 		for (JTextField field : fListLengthsPursuit) {
 			field.removeActionListener(raceLengthPursuitListener);
 		}
+		if (fRace != null) fRace.removePropertyChangeListener( shortenedPursuitListener);
 	}
 
 	private NextDayListener nextDayListener = new NextDayListener();
@@ -420,6 +424,17 @@ public class PanelRaceStartInfo extends PanelStartStop {
 			fListLengthsPursuit.get(i).setEnabled(b && fRace.isPursuit());
     	}
 	}
+
+	private ShortenedPursuitListener shortenedPursuitListener = new ShortenedPursuitListener();
+	
+	private class ShortenedPursuitListener implements PropertyChangeListener {
+		public void propertyChange(PropertyChangeEvent evt) {
+			if (evt.getSource() == fRace && evt.getPropertyName().equals( Race.PURSUIT_SHORTENED_PROPERTY)) {
+				updateFields();
+			}
+		}
+	}
+	
 
 	private String[] dtFormatStrings = new String[] { "HH:mm", "HH:mm:ss", "HHmmss", "HHmm" };
 

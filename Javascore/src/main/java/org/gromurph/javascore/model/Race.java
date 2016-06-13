@@ -13,6 +13,7 @@
 // === End File Prolog=======================================================
 package org.gromurph.javascore.model;
 
+import java.beans.PropertyChangeEvent;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -806,7 +807,9 @@ public class Race extends BaseObject implements Constants {
 	 *            set to true if race is a pursuit race that was shortened after starting
 	 */
 	public void setPursuitShortened(boolean isPursuitShortened) {
+		boolean oldvalue = fPursuitShortened;
 		fPursuitShortened = isPursuitShortened;
+		firePropertyChange( Race.PURSUIT_SHORTENED_PROPERTY, oldvalue, fPursuitShortened);
 	}
 
 	/**
