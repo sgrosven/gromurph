@@ -41,9 +41,9 @@ to be racing).&nbsp;</p>
 race.&nbsp; This field is optional, but if not included, then no handicap
 corrected times will be calculated.</p>
 <p><a name="length"></a><b>Length</b> the length of the race.&nbsp; This field
-is also optional, but may be needed to properly handicap boats in the race.</p>
+is also optional, but may be needed to properly handicap boats in the race.  </p>
 <p><b><a name="nextday"></a>Next Day?</b> Sometimes, you get some classes off for a race, then have to wait until the next day to get the rest of the classes started. Click this box when that happens.</p>
-<p><b><a name="lengthPursuit"></a>Pursuit Start Length</b> Only use this field for a pursuit race that is shortened. Put the original planned distance (on which the start times were calculated) in this field.  In the Length field to the left put the actual race distance.</p>
+<p><b><a name="lengthPursuit"></a>Original Length</b> Only use this field for a pursuit race that is shortened.  The original planned distance (on which the start times were calculated) in this field.  In the Length field to the left put the actual race distance.</p>
 
 <p><a name="clearalldivs"></a><b>Clear All &quot;Is Racing&quot;</b> button:&nbsp; Clears the &quot;Is racing&quot; check box for all divisions. Right after clicking this, there will be no divisions are participating in this race. Any actual finishes that were previously entered are unaffected until you leave the race dialog and the regatta is rescored.</p>
 <p><a name="setalldivs"></a><b>Set All &quot;Is Racing&quot;</b> button:&nbsp; Sets the &quot;Is racing&quot; check box for all divisions. Right after checking this button, all divisions will participate in this race.</p>
@@ -69,6 +69,8 @@ window for advanced options for scoring this race, including:</p>
 	have finishers after midnight of the first day of racing.&nbsp; It enables 
 	entry of extended finishing times in the format&nbsp; D/hh:mm:ss&nbsp;&nbsp; 
 	where &quot;D&quot; is the number of days after the start.</li>
+	<li><b><a name="pursuitrace" id="pursuitrace"></a>Pursuit Race.</b>&nbsp; Check this box is this race is a PHRF Pursuit race, where the start times for each boat are based on their rating in order to have a boat-for-boat finish. In the main race dialog, you will set the intended length of the race.</li>
+	<li><b><a name="pursuitraceshortened" id="pursuitraceshortened"></a>Shortened?.</b>&nbsp; Check this box ONLY if you started a Pursuit race and then shortened it after starting.  In the race info, you will be able to set the actual length of the race in addition to the original intended length.</li>
 	<li><b><a name="medalrace" id="medalrace"></a>ISAF Medal Race.</b>&nbsp; Check this box is this race is to be scored as an ISAF Medal Race. If selected, the non-discardable option and a race weight of 2 will automatically be assigned. (Note: this is 
 	non-standard and sailing instructions must change RRS Appendix A).</li>
 	<li><b><a name="nondiscardable"></a>Race is non-discardable.</b>&nbsp; Click 
@@ -80,10 +82,9 @@ window for advanced options for scoring this race, including:</p>
 	differently.&nbsp;&nbsp; Each boats score for the race will be multiplied by 
 	this value.&nbsp; So to have a race count double, enter &quot;2.0&quot; here.&nbsp; 
 	Applies to all scores, all boats, all divisions.</li>
-	<li><a name="bfactor"></a><b>Conditions:</b> This set of radio buttons is used
-for PHRF Time-on-Time scoring.&nbsp; Select the appropriate set of wind
-conditions.&nbsp; These fields are generally hidden from view unless the regatta
-has at least one division being scored in PHRF Time-on-Time. The Custom conditions will appear and be the default setting if a custom AFactor and/or BFactor has been set in Javascore | Preferences.</li>
+	<li><a name="timeontime"></a><b>Time on Time Factors:</b> These fields are used for PHRF Time-on-Time scoring.&nbsp; The default A- and B-factors can be set in Javascore | Preferences.  In Advance options, you can customize<br>the A- and B-factors for a specific race.  These fields are generally hidden from view unless the regatta
+has at least one division being scored in PHRF Time-on-Time. <br><a name="bfactor"></a>For &quot;B-factor, you can either select one of the standard values based on wind
+conditions.&nbsp; Or select &quot;Custom&quot; and specify a different B-factor in the &quot;B Factor&quot; field.<br><a name="afactor"></a>Use the A Factor text field to change the default A Factor for a specific race.<br></li>
 </ul>
 </body>
 

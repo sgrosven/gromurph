@@ -214,7 +214,6 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 		bPanel.setName("bPanel");
 		gridbagAdd( toTPanel, bPanel, 1, 0, 1, row, GridBagConstraints.WEST, GridBagConstraints.NONE,
 				new java.awt.Insets(0, 0, 0, 0));
-		HelpManager.getInstance().registerHelpTopic(fRadioLight, "race.groupBFactor");
 
 		ButtonGroup groupBFactor = new ButtonGroup();
 		fRadioLight = new JRadioButton(res.getString("RaceLabelBFactorLight"));
@@ -508,54 +507,3 @@ public class PanelRaceAdvanced extends BaseEditor<Race> implements ActionListene
 
 	}
 }
-/**
- * $Log: PanelRaceAdvanced.java,v $ Revision 1.6 2006/05/19 05:48:43 sandyg final release 5.1 modifications
- * 
- * Revision 1.5 2006/01/15 21:10:40 sandyg resubmit at 5.1.02
- * 
- * Revision 1.3 2006/01/11 02:20:26 sandyg updating copyright years
- * 
- * Revision 1.2 2006/01/11 02:17:16 sandyg Bug fixes relative to qualify/final race scoring
- * 
- * Revision 1.1 2006/01/01 02:27:02 sandyg preliminary submission to centralize code in a new module
- * 
- * Revision 1.1.2.2 2005/11/30 02:51:25 sandyg added auto focuslost to JTextFieldSelectAll. Removed focus lost checks on
- * text fields in panels.
- * 
- * Revision 1.1.2.1 2005/11/26 17:45:15 sandyg implement race weight & nondiscardable, did some gui test cleanups.
- * 
- * Revision 1.19.4.2 2005/11/19 20:34:55 sandyg last of java 5 conversion, created swingworker, removed threads
- * packages.
- * 
- * Revision 1.19.4.1 2005/11/01 02:36:02 sandyg Java5 update - using generics
- * 
- * Revision 1.19 2004/05/06 02:11:50 sandyg Beta support for revised Qualifying/Final series for 2004 J22 Worlds
- * 
- * Revision 1.18 2004/04/10 20:49:38 sandyg Copyright year update
- * 
- * Revision 1.17 2003/07/10 02:01:39 sandyg Added stack trace looking for penalty problems
- * 
- * Revision 1.16 2003/04/30 00:59:13 sandyg fixed error handling on bad race times, improved unit testing
- * 
- * Revision 1.15 2003/04/27 21:06:00 sandyg lots of cleanup, unit testing for 4.1.1 almost complete
- * 
- * Revision 1.14 2003/03/30 00:33:52 sandyg fixed focus problem, completes implementing #691236
- * 
- * Revision 1.13 2003/03/30 00:04:47 sandyg added comments field
- * 
- * Revision 1.12 2003/03/28 03:07:51 sandyg changed toxml and fromxml to xmlRead and xmlWrite
- * 
- * Revision 1.11 2003/03/28 02:22:06 sandyg Feature #691217 - in Race Dialog, divisions with 0 entries no longer
- * included in start time list
- * 
- * Revision 1.10 2003/03/19 02:38:24 sandyg made start() stop() abstract to BaseEditor, the isStarted check now done in
- * BaseEditor.startUp and BaseEditor.shutDown().
- * 
- * Revision 1.9 2003/03/16 21:47:19 sandyg 3.9.2 release: fix bug 658904, time on time condition buttons corrected
- * 
- * Revision 1.8 2003/03/16 20:38:31 sandyg 3.9.2 release: encapsulated changes to division list in Regatta, fixed a bad
- * bug in PanelDivsion/Rating
- * 
- * Revision 1.7 2003/01/04 17:39:32 sandyg Prefix/suffix overhaul
- * 
- */

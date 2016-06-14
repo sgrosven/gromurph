@@ -661,7 +661,17 @@ public abstract class ActionReport extends AbstractAction implements ActionListe
 	}
 
 	protected String formatPursuitNote(Race race) {
-		return java.text.MessageFormat.format(res.getString("ReportRaceNotePursuit"), new Object[] { race.getName() });
+		return formatPursuitNote( race, null);
+	}
+	protected String formatPursuitNote(Race race, AbstractDivision div) {
+		if (div == null) {
+			return java.text.MessageFormat.format(res.getString("ReportRaceNotePursuitNoLength"), new Object[] { race.getName() });
+		} else if (race.isPursuitShortened()) {
+			return java.text.MessageFormat.format(res.getString("ReportRaceNotePursuitShortened"), new Object[] { race.getName(), div.getName(), race.getLengthPursuit(div), race.getLength(div) });
+		} else {
+			return java.text.MessageFormat.format(res.getString("ReportRaceNotePursuit"), new Object[] { race.getName(), div.getName(), race.getLength(div) });
+		}
+		
 	}
 
 	protected String formatTimeOnTimeNote(Race race) {

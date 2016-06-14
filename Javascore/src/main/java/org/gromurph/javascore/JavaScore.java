@@ -124,7 +124,7 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 			// if checked:
 				// DONE on single race results - add start time column
 				// DONE edit scoring notes to reflect pursuit start?
-				// documentation
+				// DONE documentation
 				// need to handle/test shortening course after start
 					 // DONE gui set, but doesnt update dynamically - do I care?
 					 // DONE calculations need to be checked and tested

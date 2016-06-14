@@ -194,7 +194,7 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 						if (n > 0) {
 							String comboName = sbDivs.toString();
 							generateDivisionHeader(writer, comboName, n, FLEET);
-							reportForDivision(writer, racePoints, fleet.isOneDesign(), true);
+							reportForDivision(writer, racePoints, fleet.isOneDesign(), true, null);
 							linkList.add(comboName);
 						}
 
@@ -270,7 +270,7 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 						if (n > 0) {
 							String comboName = sbDivs.toString();
 							generateDivisionHeader(writer, comboName, n, DIVISION);
-							reportForDivision(writer, racePoints, true, true);
+							reportForDivision(writer, racePoints, true, true, null);
 							linkList.add(comboName);
 						}
 
@@ -342,12 +342,12 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 		// see if any divisions are time on time
 		if (div.isTimeOnTime()) fNotes.add( formatTimeOnTimeNote(fRace));
 
-		reportForDivision(pw, racePoints, oneD, isSubDiv);
+		reportForDivision(pw, racePoints, oneD, isSubDiv, div);
 		
 	}
 
 	private void reportForDivision(PrintWriter pw, RacePointsList racePoints, boolean is1D,
-			boolean isSubDiv) {
+			boolean isSubDiv, AbstractDivision div) {
 		racePoints.sortPoints();
 
 		// performance thing... go thru the map iterators once, make an array
@@ -408,7 +408,7 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 
 		} else {
 			addTableCell(pw, res.getString("ColHeadFinishOrder"), "center");
-			if (fRace.isPursuit()) {
+			if (fRace.isPursuit() && !fRace.isPursuitShortened()) {
 				addTableCell(pw, res.getString("ColHeadPursuitStartTime"), "center");
 				addTableCell(pw, res.getString("ColHeadFinishTime"), "center");
 			} else {
@@ -493,7 +493,7 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 				}
 
 			} else {
-				if (fRace.isPursuit()) {
+				if (fRace.isPursuit() && !fRace.isPursuitShortened()) {
 					addTableCell(pw, SailTime.toString(fin.getStartTime()), "center");
 					addTableCell(pw, SailTime.toString(fin.getFinishTime()), "center");
 				} else {
@@ -535,9 +535,8 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 					adjustment = adjustment + "<sup>(" + fNotes.size() + ")</sup>";
 				}
 			}
-
+			
 			// next the addon
-
 			// add in the subdivision addon if applicable
 			double addon = 0;
 			for (SubDivision sd : fRace.getRegatta().getSubDivisions()) {
@@ -572,7 +571,7 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 
 		if (fRace.isNonDiscardable()) fNotes.add(formatNonDiscardableNote(fRace));
 		if (fRace.getWeight() != 1.00) fNotes.add(formatWeightedNote(fRace));
-		if (fRace.isPursuit()) fNotes.add(formatPursuitNote(fRace));
+		if (fRace.isPursuit())  fNotes.add(formatPursuitNote(fRace, div));
 
 		fNotes.addAll(ScoringUtilities.getRaceScoringNotes(racePoints));
 		

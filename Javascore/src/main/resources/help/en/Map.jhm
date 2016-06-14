@@ -66,8 +66,13 @@
 <mapID target="race.fButtonEditComment" url="PanelRace.html#comments" />
 <mapID target="race.fCheckIsRacing" url="PanelRace.html" />
 <mapID target="race.fCheckLongDistance" url="PanelRace.html" />
+<mapID target="race.fCheckPursuitRace" url="PanelRace.html#pursuitrace" />
+<mapID target="race.fCheckPursuitShortened" url="PanelRace.html#pursuitraceshortened" />
 <mapID target="race.fCheckMedalRace" url="PanelRace.html#medalrace" />
-<mapID target="race.groupBFactor" url="PanelRace.html#bfactor" />
+<mapID target="race.fCheckNonDiscardable" url="PanelRace.html#nondiscardable" />
+<mapID target="race.fTextBFactor" url="PanelRace.html#bfactor" />
+<mapID target="race.fTextAFactor" url="PanelRace.html#afactor" />
+<mapID target="race.groupBFactor" url="PanelRace.html#timeontime" />
 
 <mapID target="race.fButtonAdvanced" url="PanelRace.html#advanced" />
 <mapID target="race.fCheckNonDiscardable" url="PanelRace.html#nondiscardable" />
@@ -172,7 +177,7 @@
 <mapID target="stage.fComboThrowoutCarryOver" url="PanelStage.html#throwoutcarryover" />
 <mapID target="stage.fComboTiebreakCarryOver" url="PanelStage.html#tiebreakcarryover" />
 <mapID target="stage.divisions" url="PanelStage.html#stagedivisions" />
-<mapID target="stage.divisions.fButtonClearAll" url="PanelStage.html#stagedivisions" />
+<mapID target="stage.divisions.fButtonSelectAll" url="PanelStage.html#stagedivisions" />
 <mapID target="stage.divisions.fButtonClearAll" url="PanelStage.html#stagedivisions" />
 
 

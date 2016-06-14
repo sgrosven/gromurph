@@ -119,7 +119,7 @@ public class HelpTests extends UtilTestCase {
 		fHelpSet = JavaScoreProperties.HELP_SET;
 		//        fHelpSet = "help/JavaScore.hs";
 
-		fBaseDir = Util.getWorkingDirectory() + "source/"; // "/javascore/source/";
+		fBaseDir = Util.getWorkingDirectory() + "src/main/java/";
 		String searchDir = "org/gromurph/javascore";
 
 		HelpManager.getInstance().setMainHelpSet(fHelpSet);
@@ -199,14 +199,13 @@ public class HelpTests extends UtilTestCase {
 	public void lookupTag(String comp, String tag) {
 		// looking for:  res.getString("<<Helpstring>>");
 		//   skipping tag of "fHelpKey" its a variable not a real tag
-
+		int baseLen = (fBaseDir.toString()).length();
 		if (!tag.equals("fHelpKey") && !HelpManager.getInstance().isTopicDefined(tag)) {
 			StringBuffer sb = new StringBuffer(32);
 			missingCount++;
-			sb.append("Missing Help: " + comp + "/" + tag + " in " + currentFile.toString());
-			sb.append(QUOTE);
-			sb.append(currentFile.toString());
-			sb.append(QUOTE);
+			String fn = currentFile.toString();
+			fn = fn.substring( baseLen);
+			sb.append("Missing Help: " + comp + "/" + tag + " in " + fn);
 			sb.append(COMMA);
 			sb.append(QUOTE);
 			sb.append(tag);
@@ -216,6 +215,19 @@ public class HelpTests extends UtilTestCase {
 			sb.append(comp);
 			sb.append(QUOTE);
 			logger.info( sb.toString());
+			if (writer != null) {
+				writer.print(QUOTE);
+				writer.print(fn);
+				writer.print(QUOTE);
+				writer.print(COMMA);
+				writer.print(QUOTE);
+				writer.print(tag);
+				writer.print(QUOTE);
+				writer.print(COMMA);
+				writer.print(QUOTE);
+				writer.print(comp);
+				writer.println(QUOTE);
+			}
 		}
 	}
 

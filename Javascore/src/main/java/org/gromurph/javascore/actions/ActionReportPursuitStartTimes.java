@@ -231,6 +231,7 @@ public class ActionReportPursuitStartTimes extends ActionReport implements Const
 		pw.println("</table>");
 
 		fNotes.addAll(ScoringUtilities.getRaceScoringNotes(fRace, div));
+		fNotes.add( formatPursuitNote(fRace, div));
 	}
 
 }
