@@ -119,7 +119,7 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 		// DONE A+ install glitches - especially default install directory by OS <branch izpack5 -> dev 3 march 2016>
 		// DONE A review/revise java 7 esp mac install documentation
 
-		// TODO A  Pursuit start times
+		// DONE A  Pursuit start times
 			// DONE "pursuit check box" to advance race options
 			// if checked:
 				// DONE on single race results - add start time column
@@ -130,10 +130,13 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 					 // DONE calculations need to be checked and tested
 		// DONE A time entry on race div dialog won't accept decimal seconds...only want to display decimals seconds
 	
-		// TODO Empty regatta, one class, "ADD" is disabled on entries page		
+		// DONE Empty regatta, one class, "ADD" is disabled on entries page		
 		// TODO A+ 'NoFin' showing up in finish dialog left side
 		// TODO A+ delete finish, gets double entry (sometimes) on unfin list
 		// TODO A+ TLETest regatta, subdivision has no races shown
+		// TODO A  No tiebreaker option
+		// TODO A  Windsurfer tiebreaker
+	
 					
 	// TODO A update release website documentation
 	// TODO A copy help files over to website

@@ -85,7 +85,7 @@ public class DialogEntryTreeEditor extends JDialog implements BaseEditorContaine
 	private static String CARD_NOSELECT = "NoSelect";
 	private static String CARD_OBJECT = "Object";
 
-	public DialogEntryTreeEditor(JFrame parent, String title, boolean modal) {
+	public DialogEntryTreeEditor(JFrame parent, String title) {
 		/*
 		 * BorderLayout at top: Center goes a splitpane left of splitpane is the list, right is the editing hierarchy
 		 * South gets the buttons, split into WEST (add, delete) and EAST (OK)
@@ -97,7 +97,7 @@ public class DialogEntryTreeEditor extends JDialog implements BaseEditorContaine
 		 * object SOUTH is the restore button
 		 */
 
-		super(parent, modal);
+		super(parent, false);
 		fParent = parent; // keep for yesnodialog
 		setTitle(title);
 
@@ -145,6 +145,7 @@ public class DialogEntryTreeEditor extends JDialog implements BaseEditorContaine
 		if (!Util.isMac()) fButtonAdd.setIcon(Util.getImageIcon(this, Util.ADD_ICON));
 		fButtonAdd.setMnemonic(resUtil.getString("AddMnemonic").charAt(0));
 		fButtonAdd.setPreferredSize(sizeSmallButton);
+		fButtonAdd.setName( "fButtonAdd");
 		fPanelSWest.add(fButtonAdd);
 
 		fButtonDelete = new JButton(resUtil.getString("DeleteButton"));
@@ -152,12 +153,14 @@ public class DialogEntryTreeEditor extends JDialog implements BaseEditorContaine
 		fButtonDelete.setMnemonic(resUtil.getString("DeleteMnemonic").charAt(0));
 		fButtonDelete.setDefaultCapable(false);
 		fButtonDelete.setPreferredSize(sizeSmallButton);
+		fButtonDelete.setName("fButtonDelete");
 		fPanelSWest.add(fButtonDelete);
 
 		fButtonHelp = new JButton(resUtil.getString("HelpButton"));
 		if (!Util.isMac()) fButtonHelp.setIcon(Util.getImageIcon(this, Util.HELP_ICON));
 		fButtonHelp.setMnemonic(resUtil.getString("HelpMnemonic").charAt(0));
 		fButtonHelp.setPreferredSize(sizeSmallButton);
+		fButtonHelp.setName("fButtonHelp");
 		fPanelSEast.add(fButtonHelp);
 
 		fButtonRestore = new JButton(resUtil.getString("RestoreButton"));
@@ -165,12 +168,14 @@ public class DialogEntryTreeEditor extends JDialog implements BaseEditorContaine
 		fButtonRestore.setDefaultCapable(false);
 		fButtonRestore.setPreferredSize(sizeLargeButton);
 		fButtonRestore.setEnabled(false);
+		fButtonRestore.setName("fButtonRestore");
 		//fPanelRSouth.add(fButtonRestore);
 		fPanelSEast.add(fButtonRestore);
 
 		fButtonExit = new JButton(resUtil.getString("ExitButton"));
 		fButtonExit.setMnemonic(resUtil.getString("ExitMnemonic").charAt(0));
 		fButtonExit.setPreferredSize(sizeSmallButton);
+		fButtonExit.setName("fButtonExit");
 		fPanelSEast.add(fButtonExit);
 
 		fPanelEntry = new PanelEntry( this);
@@ -213,16 +218,12 @@ public class DialogEntryTreeEditor extends JDialog implements BaseEditorContaine
 		fTree.removeTreeSelectionListener(this);
 	}
 
-	public DialogEntryTreeEditor(JFrame parent, boolean modal) {
-		this(parent, "", modal);
-	}
-
 	public DialogEntryTreeEditor(JFrame parent) {
-		this(parent, "", true);
+		this(parent, "");
 	}
 
 	public DialogEntryTreeEditor() {
-		this(null, "", true);
+		this(null, "");
 	}
 
 	public void valueChanged(TreeSelectionEvent event) {
@@ -235,6 +236,7 @@ public class DialogEntryTreeEditor extends JDialog implements BaseEditorContaine
 			Entry n = ((EntryTreeModel.EntryTreeNode) o).getEntry();
 			setObject(n);
 		}
+		updateEnabled();
 		updateDefault(null);
 	}
 
@@ -305,8 +307,12 @@ public class DialogEntryTreeEditor extends JDialog implements BaseEditorContaine
 		((CardLayout) fPanelRight.getLayout()).show(fPanelRight, card);
 	}
 
+	protected EntryTreeModel getTreeModel() {
+		return fTreeModel;
+	}
+	
 	private Regatta fRegatta;
-	private void setRegatta(Regatta reg) {
+	public void setRegatta(Regatta reg) {
 		
 		//if (fRegatta != null && fRegatta == reg) return;
 		fRegatta = reg;

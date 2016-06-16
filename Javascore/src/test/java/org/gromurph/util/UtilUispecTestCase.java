@@ -26,9 +26,6 @@ import javax.swing.JRadioButton;
 import javax.swing.JTabbedPane;
 import javax.swing.text.JTextComponent;
 
-import junit.framework.Test;
-import junit.framework.TestSuite;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.uispec4j.Button;
@@ -44,6 +41,9 @@ import org.uispec4j.UISpecTestCase;
 import org.uispec4j.Window;
 import org.uispec4j.interception.BasicHandler;
 import org.uispec4j.interception.WindowInterceptor;
+
+import junit.framework.Test;
+import junit.framework.TestSuite;
 
 /**
  * extends Junit testcase to supply some gromurph specific checks
@@ -215,6 +215,16 @@ public class UtilUispecTestCase extends UISpecTestCase {
 		assertFalse( "Panel did not close", uipanel.isVisible());
 	}
 
+	protected JButton getJButton( String buttonName) {
+		
+		Button bb = null;
+		try {bb = uiWindow.getButton( buttonName);} catch (org.uispec4j.ItemNotFoundException e) {}
+		if (bb == null) return null;
+		JButton jb = bb.getAwtComponent();
+		return jb;
+	}
+
+
 	protected Logger logger = LoggerFactory.getLogger(this.getClass());
 	
 	public void tracePanel(Component c, int indent) {
@@ -382,6 +392,9 @@ public class UtilUispecTestCase extends UISpecTestCase {
    	            .triggerButtonClick(buttonName))
    	   .run();
 	}
+
+
+
 	public void testDummy() {
 		// just to avoid a no test error
 	}

@@ -13,7 +13,13 @@
 // === End File Prolog=======================================================
 package org.gromurph.javascore.gui;
 
-import javax.swing.tree.*;
+import java.util.Enumeration;
+import java.util.Iterator;
+
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.DefaultTreeModel;
+import javax.swing.tree.TreeNode;
+import javax.swing.tree.TreePath;
 
 import org.gromurph.javascore.exception.RatingOutOfBoundsException;
 import org.gromurph.javascore.model.AbstractDivision;
@@ -21,9 +27,6 @@ import org.gromurph.javascore.model.Division;
 import org.gromurph.javascore.model.Entry;
 import org.gromurph.javascore.model.EntryList;
 import org.gromurph.javascore.model.Regatta;
-
-import java.util.Iterator;
-import java.util.Enumeration;
 
 /**
  * Adapter class that wraps a TreeModel around a Regatta that contains Regatta->Division->Entries
@@ -198,6 +201,7 @@ public class EntryTreeModel extends DefaultTreeModel {
 	}
 
 	public DivisionTreeNode getDivisionNode(int i) {
+		if (i < 0) return null;
 		return (DivisionTreeNode) fRoot.getChildAt(i);
 	}
 
@@ -207,6 +211,7 @@ public class EntryTreeModel extends DefaultTreeModel {
 	}
 
 	public int getDivisionNodeIndex(Division div) {
+		if (div == null) return -1;
 		java.util.Enumeration iter = fRoot.children();
 		int i = 0;
 		while (iter.hasMoreElements()) {
@@ -217,6 +222,15 @@ public class EntryTreeModel extends DefaultTreeModel {
 		return -1;
 	}
 
+	public void setDivisionNode( Division div) {
+		DivisionTreeNode node = getDivisionNode(div);
+		if (node != null) {
+			TreeNode[] tp = this.getPathToRoot( node);
+			this.updateEntry( tp);
+		}
+	}
+	
+	
 	/**
 	 * Inner class wrapping a MutableTreeNode model around a Division
 	 */

@@ -28,7 +28,7 @@ public class ActionEditEntries extends ActionShowEditor<Entry> {
 	}
 
 	@Override public JDialog initializeEditor(JFrame rootParent) {
-		DialogEntryTreeEditor dialog = new DialogEntryTreeEditor(rootParent, false);
+		DialogEntryTreeEditor dialog = new DialogEntryTreeEditor(rootParent);
 		dialog.setSize(1000, 480);
 		HelpManager.getInstance().registerHelpTopic(dialog, "entrylist");
 		return dialog;
