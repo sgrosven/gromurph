@@ -88,9 +88,7 @@ public class ActionReportRawFinish extends ActionReport implements Constants {
 		pw.println("</tr></thead>");
 
 		// loop thru entries add them in
-		for (Iterator f = fRace.finishers(); f.hasNext();) {
-			Finish fin = (Finish) f.next();
-
+		for (Finish fin : fRace.getAllFinishers()) {
 			pw.print("  <tr>");
 
 			addTableCell(pw, fin.getFinishPosition().toString(), "center");

@@ -24,6 +24,7 @@ import javax.swing.JMenu;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTabbedPane;
+import javax.swing.JTable;
 import javax.swing.text.JTextComponent;
 
 import org.slf4j.Logger;
@@ -393,7 +394,23 @@ public class UtilUispecTestCase extends UISpecTestCase {
    	   .run();
 	}
 
+	protected void selectTableRow( String tableName, int row) {
+		Table t = uiWindow.getTable( tableName);
+		assertNotNull( t);
+		t.selectRow(row); 
+	}
 
+	protected int getTableRowCount( String tableName) {
+		Table t = uiWindow.getTable( tableName);
+		assertNotNull( t);
+		return t.getRowCount();
+	}
+
+	protected Object getTableContent( String tableName, int row, int col) {
+		Table t = uiWindow.getTable( tableName);
+		assertNotNull( t);
+		return t.getContentAt(row, col);
+	}
 
 	public void testDummy() {
 		// just to avoid a no test error

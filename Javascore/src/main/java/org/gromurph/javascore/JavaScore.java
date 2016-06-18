@@ -130,10 +130,13 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 					 // DONE calculations need to be checked and tested
 		// DONE A time entry on race div dialog won't accept decimal seconds...only want to display decimals seconds
 	
-		// DONE Empty regatta, one class, "ADD" is disabled on entries page		
-		// TODO A+ 'NoFin' showing up in finish dialog left side
-		// TODO A+ delete finish, gets double entry (sometimes) on unfin list
+		// DONE Empty regatta, one class, "ADD" is disabled on entries page	
+	
+		// DONE A+ 'NoFin' showing up in finish dialog left side
+		// DONE A+ delete finish, gets double entry (sometimes) on unfin list
+	
 		// TODO A+ TLETest regatta, subdivision has no races shown
+	
 		// TODO A  No tiebreaker option
 		// TODO A  Windsurfer tiebreaker
 	

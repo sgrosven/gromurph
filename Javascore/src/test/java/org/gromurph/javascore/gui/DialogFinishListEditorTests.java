@@ -14,13 +14,13 @@
 package org.gromurph.javascore.gui;
 
 import javax.swing.JList;
+import javax.swing.JTable;
 import javax.swing.table.AbstractTableModel;
 
 import org.gromurph.javascore.Constants;
 import org.gromurph.javascore.JavascoreTestCase;
 import org.gromurph.javascore.SailTime;
 import org.gromurph.javascore.exception.RatingOutOfBoundsException;
-import org.gromurph.javascore.gui.DialogEntryTreeEditorTests.LocalDialogEntryTreeEditor;
 import org.gromurph.javascore.model.Boat;
 import org.gromurph.javascore.model.Division;
 import org.gromurph.javascore.model.Entry;
@@ -32,6 +32,7 @@ import org.gromurph.javascore.model.Penalty;
 import org.gromurph.javascore.model.Race;
 import org.gromurph.javascore.model.Regatta;
 import org.gromurph.javascore.model.ratings.RatingOneDesign;
+import org.uispec4j.Table;
 
 /**
  * Tests on the Division Panel
@@ -61,6 +62,10 @@ public class DialogFinishListEditorTests extends JavascoreTestCase
 	{
 		super.setUp();
 		
+	}
+	
+	private void initialize1() {
+		// creates 5 entries;  1,2,3 get finishes finished in race 1,  4 and 5 do not
 		regatta = new Regatta();
 		
 		div = new Division( "Laser", new RatingOneDesign("Laser"), new RatingOneDesign("Laser"));
@@ -107,9 +112,77 @@ public class DialogFinishListEditorTests extends JavascoreTestCase
 		race.setFinish( new Finish( race, e3, SailTime.NOTIME, new FinishPosition(3), new Penalty(Constants.NO_PENALTY)));
 	}
 	
-	public void testUnfinishChanges()
+	public void testDeleteFinish()
 	{
-		// have 5 entries, 1,2,3 are finished in race 1,  4 and 5 are not
+		initialize1();  // have 5 entries, 1,2,3 are finished in race 1,  4 and 5 are not
+
+		// give 4 and 5 finishes
+		race.setFinish( new Finish( race, e4, SailTime.NOTIME, new FinishPosition(4), new Penalty(Constants.NO_PENALTY)));
+		race.setFinish( new Finish( race, e5, SailTime.NOTIME, new FinishPosition(5), new Penalty(Constants.NO_PENALTY)));
+
+		LocalDialogFinishListEditor editor = new LocalDialogFinishListEditor();
+		editor.setRace( race);
+		displayDialog( editor);
+		
+ 		assertNotNull( "DialogFinishListEditor is null", editor);
+
+		// get handle to unfinished list
+		JList unfinishList = (JList) findComponent( JList.class, "fListUnFinished", editor);
+		assertNotNull( "unfinishList is null", unfinishList);
+								
+		// test size of unfinished list 
+		assertEquals( "unfinish jlist should have no elements", 0, unfinishList.getModel().getSize());
+		assertEquals( "unfinishlist should have no elements", 0, editor.getUnFinishedEntries().size());
+		
+		// get handle to finishtable
+		selectTableRow( "fTableFinished", 2);  // should be entry 3
+		assertEquals("fTableFinished should have 5 rows", 5, getTableRowCount("fTableFinished"));
+		Object cell = getTableContent( "fTableFinished", 2, 1);
+		assertNotNull( cell);
+		assertEquals( e3.getBoat().getSailId().toString(), cell.toString());
+
+		clickOnButton("fButtonDelete");
+		
+		// should now have 1 unfinished boat, table row count still 5, last row blank
+		assertEquals( "unfinish jlist should have 1 element", 1, unfinishList.getModel().getSize());
+		assertEquals( "unfinishlist should have 1 element", 1, editor.getUnFinishedEntries().size());
+		assertEquals("fTableFinished should have 5 rows", 5, getTableRowCount("fTableFinished"));
+		cell = getTableContent( "fTableFinished", 4, 1); // zero based for row 5, col 2
+		assertNotNull( cell);
+		assertEquals( "last row, 2nd col should be empty", "", cell.toString());
+
+		// now select 1st row, and check lists
+		selectTableRow( "fTableFinished", 0);  // should be entry 1
+		assertEquals( "row 0 not right", e1.getBoat().getSailId().toString(), getTableContent("fTableFinished", 0,1));
+		assertEquals( "row 1 not right", e2.getBoat().getSailId().toString(), getTableContent("fTableFinished", 1,1));
+		assertEquals( "row 2 not right", e4.getBoat().getSailId().toString(), getTableContent("fTableFinished", 2,1));
+		assertEquals( "row 3 not right", e5.getBoat().getSailId().toString(), getTableContent("fTableFinished", 3,1));
+		assertEquals( "row 4 not right", "", getTableContent("fTableFinished", 4,1));
+		assertEquals("should have 1 unfinished", 1, editor.getUnFinishedEntries().size());
+		
+		// click on Ok, should close window
+		clickOnButton( "fButtonOk", true);
+		
+		// re-open the window, should still have same status
+		editor.setRace( race);
+		displayDialog( editor);
+		assertEquals( "unfinish jlist should have 1 element", 1, unfinishList.getModel().getSize());
+		assertEquals( "unfinishlist should have 1 element", 1, editor.getUnFinishedEntries().size());
+		assertEquals("fTableFinished should have 5 rows", 5, getTableRowCount("fTableFinished"));
+		cell = getTableContent( "fTableFinished", 4, 1); // zero based for row 5, col 2
+		assertNotNull( cell);
+		assertEquals( "last row, 2nd col should be empty", "", cell.toString());
+		
+		// click on Ok, should close window
+		clickOnButton( "fButtonOk", true);
+		
+	
+	}
+
+	public void testFinishRemainingDNC()
+	{
+		initialize1();  // have 5 entries, 1,2,3 are finished in race 1,  4 and 5 are not
+
 		LocalDialogFinishListEditor editor = new LocalDialogFinishListEditor();
 		editor.setRace( race);
 		displayDialog( editor);
@@ -135,17 +208,4 @@ public class DialogFinishListEditorTests extends JavascoreTestCase
 		clickOnButton( "fButtonOk", true);
 	}
 			
-	public void testShowAndOk()
-	{
-		// have 5 entries, 1,2,3 are finished in race 1,  4 and 5 are not
-		LocalDialogFinishListEditor editor = new LocalDialogFinishListEditor();
-		editor.setRace( race);
-		displayDialog( editor);
-		
- 		assertNotNull( "LocalDialogFinishListEditor is null", editor);
-
-		//assertButtonEnabled( "fButtonAdd");
- 		clickOnButton( "fButtonOk", true);
-	}
-
  }

@@ -650,8 +650,8 @@ public class Race extends BaseObject implements Constants {
 		fFinishList.add(f);
 	}
 
-	public Iterator<Finish> finishers() {
-		return fFinishList.iterator();
+	public FinishList getAllFinishers() {
+		return fFinishList;
 	}
 
 	/**

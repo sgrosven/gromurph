@@ -193,7 +193,7 @@ public class PanelFinish extends PanelStartStop implements PropertyChangeListene
 	public void updateFields() {
 		Regatta reg = JavaScoreProperties.getRegatta();
 
-		if ((fFinish != null) && (fFinish.getEntry() != null)) {
+		if ((fFinish != null)) {
 			Entry e = fFinish.getEntry();
 			if (e != null) {
 				if (e.getBoat() != null) {
@@ -228,8 +228,8 @@ public class PanelFinish extends PanelStartStop implements PropertyChangeListene
 			fLabelFinishTime.setText(EMPTY);
 			fLabelOrder.setText(EMPTY);
 			fLabelBow.setText(EMPTY);
-			fLabelBoat.setText(EMPTY);
-			fLabelSkipper.setText(EMPTY);
+			fLabelBoat.setText(NONE);
+			fLabelSkipper.setText(NONE);
 			fLabelElapsedTime.setText(EMPTY);
 			fLabelCorrectedTime.setText(EMPTY);
 			fLabelPenalty.setText(EMPTY);

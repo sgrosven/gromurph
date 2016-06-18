@@ -199,6 +199,13 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 
 	public DialogFinishListEditor(JFrame parent) {
 		super(parent, false);
+		
+		fFinishers = new FinishList();
+		fFinishModel = new FinishTableModel(fFinishers);
+
+		fUnFinishedEntries = new EntryList();
+		fModelUnFinished = fUnFinishedEntries.getListModel();
+
 		setTitle(res.getString("FinishTitleFinishTable"));
 		Dimension screenDim = getToolkit().getScreenSize();
 		int width = Math.min(screenDim.width, 750);
@@ -211,8 +218,11 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 		getContentPane().setLayout(new BorderLayout(0, 0));
 
 		fTableFinished = new FinishJTable();
+		fTableFinished.setName("fTableFinished");
 		HelpManager.getInstance().registerHelpTopic(fTableFinished, "finish.fTableFinished");
 		fTableFinished.setToolTipText(res.getString("FinishTableToolTip"));
+		// set these two into the appropriate visual component
+		fTableFinished.setModel(fFinishModel);
 
 		fPanelFinish = new PanelFinish(  );
 		fPanelFinish.setToolTipText(res.getString("FinishPanelToolTip"));
@@ -223,6 +233,7 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 		fListUnFinished.setToolTipText(res.getString("FinishLabelUnfinishPanelToolTip"));
 		fListUnFinished.setCellRenderer( fUnfinishEntryRenderer);
 		HelpManager.getInstance().registerHelpTopic(fListUnFinished, "finish.fListUnFinished");
+		fListUnFinished.setModel(fModelUnFinished);
 
 		JPanel finishHolder = new JPanel(new FlowLayout(FlowLayout.LEFT));
 
@@ -252,6 +263,7 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 		HelpManager.getInstance().registerHelpTopic(fButtonInsert, "finish.fButtonInsert");
 
 		fButtonDelete = new JButton(resUtil.getString("DeleteButton"));
+		fButtonDelete.setName("fButtonDelete");
 		if (!Util.isMac()) fButtonDelete.setIcon(Util.getImageIcon(this, Util.ROWDELETE_ICON));
 		fButtonDelete.setMnemonic(resUtil.getString("DeleteMnemonic").charAt(0));
 		fButtonDelete.setToolTipText(res.getString("FinishLabelDeleteFinisherToolTip"));
@@ -376,15 +388,10 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 	}
 
 	public void windowActivated(WindowEvent event) {} // do nothing
-
 	public void windowDeactivated(WindowEvent event) {} // do nothing
-
 	public void windowDeiconified(WindowEvent event) {} // do nothing
-
 	public void windowIconified(WindowEvent event) {} // do nothing
-
 	public void windowOpened(WindowEvent event) {} // do nothing
-
 	public void windowClosed(WindowEvent event) {} // do nothing
 
 	public void actionPerformed(ActionEvent event) {
@@ -441,7 +448,7 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 				insertedFinish.setFinishTime(SailTime.NOTIME);
 				fFinishers.sortPosition();
 				setCurrentFinish(insertedFinish);
-				editCurrentFinish();
+				fTableFinished.emptyEditors();
 				fFinishModel.fireTableDataChanged();
 			}
 		} catch (Exception e) {
@@ -449,53 +456,24 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 		}
 	}
 
-	private void editCurrentFinish() {
-		fTableFinished.emptyEditors();
-		// if (fCurrentFinish == null)
-		// {
-		// fEditorPenalty.setPenalty( null);
-		// ( (JTextField) fEditorBoatOrTime.getComponent()).setText( EMPTY);
-		// }
-
-		// Component c = fTableFinished.getEditorComponent(); //arg delete still
-		// dont work/clear right
-		// if (c != null && c instanceof JTextField)
-		// {
-		// ( (JTextField) c).setText(EMPTY);
-		// c.requestFocusInWindow();
-		// }
-		// else
-		// {
-		// int whoanelly = 1;
-		// }
-	}
-
 	private void fButtonDelete_actionPerformed() {
 		try {
 			int row = fTableFinished.getSelectedRow();
 			if (row >= 0) {
-				saveEditedCell(row);
-
+				fTableFinished.editingStopped(null);
 				Finish f = fFinishers.get(row);
+				fTableFinished.emptyEditors();
+
 				if (f.getEntry() != null) {
 					fModelUnFinished.addElement(f.getEntry());
 				}
 				f.setEntry(null);
-				// f.setFinishPosition( new FinishPosition(
-				// fFinishers.size()+1));
 				f.setFinishPosition(new FinishPosition(fFinishers.size() + 2));
 				f.getPenalty().setPenalty(NO_PENALTY);
 				f.setFinishTime(SailTime.NOTIME);
-
-				fFinishers.sortPosition();
-				fFinishers.reNumber();
-				fFinishers.sortPosition();
-
-				editCurrentFinish();
-
-				f = fFinishers.get(row);
-				if (f != null) setCurrentFinish(f);
-				fFinishModel.fireTableDataChanged();
+				reorderFinishTable();
+				
+				setCurrentFinish(fFinishers.get(row));
 			}
 		} catch (Exception e) {
 			Util.showError(e, true);
@@ -607,23 +585,27 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 				fListUnFinished_doubleClicked();
 			}
 		} else if (event.getSource() == fTableFinished) {
-			int row = fTableFinished.rowAtPoint(event.getPoint());
-			int col = fTableFinished.columnAtPoint(event.getPoint());
-			if (col == 0) return; // don't try to edit the "label" col
+			fTableFinished_mouseClicked(event);
+		}
+		updateEnabled();
+	}
 
-			fTableFinished.editCellAt(row, col);
-			if (fTableFinished.getCellEditor() != null) {
-				JComponent c = (JComponent) fTableFinished.getCellEditor().getTableCellEditorComponent(fTableFinished,
-						fTableFinished.getValueAt(row, col), true, row, col);
-				if (c != null) {
-					//c.requestFocusInWindow();
-					if (col < PENALTY_COLUMN) {
-						((JTextField) c).selectAll();
-					}
+	protected void fTableFinished_mouseClicked(MouseEvent event) {
+		int row = fTableFinished.rowAtPoint(event.getPoint());
+		int col = fTableFinished.columnAtPoint(event.getPoint());
+		if (col == 0) return; // don't try to edit the "label" col
+
+		fTableFinished.editCellAt(row, col);
+		if (fTableFinished.getCellEditor() != null) {
+			JComponent c = (JComponent) fTableFinished.getCellEditor().getTableCellEditorComponent(fTableFinished,
+					fTableFinished.getValueAt(row, col), true, row, col);
+			if (c != null) {
+				//c.requestFocusInWindow();
+				if (col < PENALTY_COLUMN) {
+					((JTextField) c).selectAll();
 				}
 			}
 		}
-		updateEnabled();
 	}
 
 	/**
@@ -677,11 +659,8 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 			fIsRounding = false;
 
 			fRace.syncFinishesWithEntries();
-			FinishList allFinishers = new FinishList();
-			for (Iterator<Finish> f = fRace.finishers(); f.hasNext();)
-				allFinishers.add(f.next());
-
-			updateFinishList(allFinishers);
+		
+			updateFinishList( fRace.getAllFinishers());
 		}
 	}
 
@@ -710,34 +689,30 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 	 * Updates finish and unfinish lists when a Race or Rounding list is initialized The input finishlist (should come
 	 * from either setRace or setRounding) should contain all known valid finishers
 	 **/
-	private void updateFinishList(FinishList finishers) {
+	private void updateFinishList(FinishList finishes) {
 
-		// This is a list of finishes for all entrants, need to nullify
-		// the Entry of non-finishes set place holding finish order
-
+		// This is a list of finishes for all entrants, need to check for non-finish penalties in this list
 		fEntries = fRace.getEntries();
-		fFinishers = finishers;
-		fUnFinishedEntries = new EntryList();
+		fFinishers.clear();
+		fUnFinishedEntries.clear();
 
-		int nextFin = fFinishers.getNumberFinishers() + 1;
-		for (Finish f : fFinishers) {
+		int nextFin = finishes.getNumberFinishers() + 1;
+		for (Finish f : finishes) {
 			if (f.getFinishPosition().longValue() == NOFINISH) {
+				// if is a non-finish, put the entry in unfinishlist
+				// change the Finish object to blank entry and finishpos to end of list
 				fUnFinishedEntries.add(f.getEntry());
 				f.setEntry(null);
 				f.setFinishPosition(new FinishPosition(nextFin++));
 				f.getPenalty().setPenalty(NO_PENALTY);
 			}
+			// add the finish to the main finish list
+			fFinishers.add( f);
 		}
 
 		// set the list of non finished entries
 		fFinishers.sortPosition();
 		fUnFinishedEntries.sortSailId();
-
-		// set these two into the appropriate visual component
-		fFinishModel = new FinishTableModel(fFinishers);
-		fTableFinished.setModel(fFinishModel);
-		fModelUnFinished = fUnFinishedEntries.getListModel();
-		fListUnFinished.setModel(fModelUnFinished);
 
 		// set col heading to reflect use of bow numbers or not
 		TableColumn eCol = fTableFinished.getColumnModel().getColumn(SAILID_COLUMN);
@@ -837,7 +812,7 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 			int index = fFinishers.indexOf(f);
 			fModelUnFinished.removeElement(ent);
 			setCurrentFinish(f);
-			editCurrentFinish();
+			fTableFinished.emptyEditors();
 			saveEditedCell(index);
 			fFinishModel.fireTableDataChanged();
 		} else {
@@ -971,6 +946,7 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 	}
 
 	private void reorderFinishTable() {
+		fFinishers.sortPosition();
 		fFinishers.reNumber();
 		fFinishers.sortPosition();
 		fFinishModel.fireTableDataChanged();
@@ -983,44 +959,12 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 		if (thisFinish != null) thisFinish.setPenalty(p);
 		fFinishModel.fireTableRowsUpdated(fCurrentRow, fCurrentRow);
 
-		if (thisFinish.getFinishPosition().isValidFinish()) {
-			if (p.isFinishPenalty()) {
-				// have non-finish penalty inbound from thisPen, with a valid
-				// finish
-				// need to pass finish penalty to finish and renumber & resort
-				// other finishers
-				thisFinish.setFinishPosition(new FinishPosition(p.getPenalty()));
-				reorderFinishTable();
-			} else {
-				// nothing to do
-			}
-		} else // not currently valid finish
-		{
-			if (p.isFinishPenalty()) {
-				// have finish penalty pass it on and re-sort
-				thisFinish.setFinishPosition(new FinishPosition(p.getPenalty()));
-				reorderFinishTable();
-			} else {
-				/*
-				 * commented out and redone ..jule 22, 2005 // dont have valid finish, don't have finish penalty, //
-				 * remove from finish list // i is the last "valid" finish int i = fFinishers.findLastValidFinish(); if
-				 * (i > 0) {
-				 * 
-				 * // if finish after i is empty, use it Finish newFinish = (Finish) fFinishers.get( i+1); if
-				 * (newFinish.getEntry() == null) { newFinish.setEntry( thisFinish.getEntry()); newFinish.setPenalty(p);
-				 * 
-				 * // reset the original finish to "last place" thisFinish.setEntry( null);
-				 * thisFinish.setFinishPosition( new FinishPosition( fFinishers.getNumberFinishers()+1) );
-				 * thisFinish.setPenalty( new Penalty( NO_PENALTY)); } else { // last valid finish is not empty, so keep
-				 * current // finish object and reset its finish position to last place thisFinish.setFinishPosition(
-				 * new FinishPosition( fFinishers.getNumberFinishers()+1) ); thisFinish.setPenalty( p); } } else { //
-				 * get here if all boats entered on finish list, but none have real finish thisFinish.setFinishPosition(
-				 * new FinishPosition( fFinishers.getNumberFinishers()+1) ); thisFinish.setPenalty( p); }
-				 */
-				thisFinish.setFinishPosition(new FinishPosition(fFinishers.getNumberFinishers() + 1));
-				thisFinish.setPenalty(p);
-				reorderFinishTable();
-			}
+		if (p.isFinishPenalty()) {
+			// have non-finish penalty inbound from thisPen, with a valid finish
+			// need to pass finish penalty to finish and renumber & resort other finishers
+			thisFinish.setFinishPosition(new FinishPosition(p.getPenalty()));
+			thisFinish.setFinishTime( SailTime.NOTIME);
+			reorderFinishTable();
 		}
 	}
 
@@ -1030,17 +974,9 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 		JButton fpButton;
 		Penalty fpPenalty;
 
-		//		public Penalty getPenalty() {
-		//			return fpPenalty;
-		//		}
-
 		public void setPenalty(Penalty p) {
 			delegate.setValue(p);
 		}
-
-		//		public String getText() {
-		//			return fpText.getText();
-		//		}
 
 		public CellEditorPenalty() {
 			super(new JTextFieldSelectAll(6)); // this is a dummy field
@@ -1288,53 +1224,3 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 	}
 
 }
-/**
- * $Log: DialogFinishListEditor.java,v $ Revision 1.7 2006/05/19 05:48:42 sandyg final release 5.1 modifications
- * 
- * Revision 1.6 2006/01/19 01:50:15 sandyg fixed several bugs in split fleet scoring
- * 
- * Revision 1.5 2006/01/15 21:10:40 sandyg resubmit at 5.1.02
- * 
- * Revision 1.3 2006/01/15 03:25:51 sandyg to regatta add getRace(i), getNumRaces().. reducing use of getRaces()
- * 
- * Revision 1.2 2006/01/11 02:20:26 sandyg updating copyright years
- * 
- * Revision 1.1 2006/01/01 02:27:02 sandyg preliminary submission to centralize code in a new module
- * 
- * Revision 1.18.4.3 2005/11/30 02:51:25 sandyg added auto focuslost to JTextFieldSelectAll. Removed focus lost checks
- * on text fields in panels.
- * 
- * Revision 1.18.4.2 2005/11/26 17:45:15 sandyg implement race weight & nondiscardable, did some gui test cleanups.
- * 
- * Revision 1.18.4.1 2005/11/01 02:36:02 sandyg Java5 update - using generics
- * 
- * Revision 1.18.2.2 2005/08/13 21:57:06 sandyg Version 4.3.1.03 - bugs 1215121, 1226607, killed Java Web Start startup
- * code
- * 
- * Revision 1.18.2.1 2005/06/26 22:47:22 sandyg Xml overhaul to remove xerces dependence
- * 
- * Revision 1.18 2005/05/26 01:45:43 sandyg fixing resource access/lookup problems
- * 
- * Revision 1.17 2005/04/23 21:54:07 sandyg JWS mods for release 4.3.1
- * 
- * Revision 1.16 2005/03/07 03:35:12 sandyg Fixed bug 1157925 - core dump on no empty finish
- * 
- * Revision 1.15 2004/04/10 20:49:30 sandyg Copyright year update
- * 
- * Revision 1.14 2003/07/10 02:03:31 sandyg Trying to fix bug 691231, did some refactoring to try to trap/avoid penalty
- * problems
- * 
- * Revision 1.13 2003/05/07 01:17:05 sandyg removed unneeded method parameters
- * 
- * Revision 1.12 2003/04/27 21:05:58 sandyg lots of cleanup, unit testing for 4.1.1 almost complete
- * 
- * Revision 1.11 2003/04/20 15:43:59 sandyg added javascore.Constants to consolidate penalty defs, and added new
- * penaltys TIM (time value penalty) and TMP (time percentage penalty)
- * 
- * Revision 1.10 2003/04/09 02:00:22 sandyg bug 691813, unfinishlist not repainting after Finish Remaining
- * 
- * Revision 1.9 2003/03/30 00:05:48 sandyg moved to eclipse 2.1
- * 
- * Revision 1.8 2003/01/04 17:39:32 sandyg Prefix/suffix overhaul
- * 
- */
