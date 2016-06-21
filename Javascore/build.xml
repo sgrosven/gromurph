@@ -24,8 +24,8 @@ Usage update, March 2016
 	<tstamp />
  	
 	<!-- UPDATE THESE FOR EACH NEW RELEASE!!! -->
-    <property name="app_version"	value="7.5.b2" /> 
-	<property name="app_builddate" 	value="31 March 2016" /> 
+    <property name="app_version"	value="7.5.1" /> 
+	<property name="app_builddate" 	value="22 June 2016" /> 
 	
     <property name="app.label"		value="JavaScore"/>
     <property name="app.name"		value="javascore"/>
@@ -58,7 +58,7 @@ Usage update, March 2016
 	<!-- =================================================================== -->
 	<target name="antReleaseAll"
 		description="does release building"
-		depends="antCleanAssembleDist, antBuildInstaller, antBuildSourceJar, antBuildJavadocJar" >
+		depends="antCleanAssembleDist, antBuildInstaller, antBuildSourceJar" >
 	</target>
 	
 	
