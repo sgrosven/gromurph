@@ -17,18 +17,19 @@ public class TiebreakCalculatorB8 extends TiebreakCalculator {
 	 **/
 	/**
 	 * from RRS 2013-2016: 
-	 * 
+	 * <code>
 	 * A8.1 If there is a series-score tie between two or more boards, they shall be ranked in order
 	 * of their best excluded race score.
 	 * 
-	 * A8.2 If a tie remains between two or more boards, each board’s race scores, including excluded scores, shall be
+	 * A8.2 If a tie remains between two or more boards, each boards race scores, including excluded scores, shall be
 	 * listed in order of best to worst, and at the first point(s) where there is a difference the tie shall be broken
 	 * in favour of the board(s) with the best score(s). These scores shall be used even if some of them are excluded
 	 * scores.
 	 * 
 	 * A8.3 If a tie still remains between two or more boards, they shall be ranked in order of their scores in the last
-	 * race. Any remaining ties shall be broken by using the tied boards’ scores in the next-to-last race and so on
+	 * race. Any remaining ties shall be broken by using the tied boards scores in the next-to-last race and so on
 	 * until all ties are broken. These scores shall be used even if some of them are excluded scores.
+	 * </code>
 	 */
 
 	@Override 
