@@ -112,7 +112,8 @@
 <mapID target="lowpoint.fRadioThrowoutNone" url="PanelScoringLowPoint.html#throwouts" />
 <mapID target="lowpoint.fRadioTieRrsDefault" url="PanelScoringLowPoint.html#tieRrsDefault" />
 <mapID target="lowpoint.fRadioTieA82Only" url="PanelScoringLowPoint.html#tieA82Only" />
-<mapID target="lowpoint.fRadioTieA82Medal" url="PanelScoringLowPoint.html#tieA82medal" />
+<mapID target="lowpoint.fRadioTieB8" url="PanelScoringLowPoint.html#tieB8" />
+<mapID target="lowpoint.fRadioTieNobreaker" url="PanelScoringLowPoint.html#tienobreaker" />
 <mapID target="lowpoint.fCheckEntriesLargestDivision" url="PanelScoringLowPoint.html#largestDivision" />
 <mapID target="lowpoint.fCheckMaxOneThrowoutInFinals" url="PanelScoringLowPoint.html#max1inFinals" />
 

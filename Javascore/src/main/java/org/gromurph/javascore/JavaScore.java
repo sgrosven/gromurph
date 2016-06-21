@@ -144,7 +144,6 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 	// TODO A update release website documentation
 	// TODO A copy help files over to website
 	// TODO A - (gebhardt 2/20/13) not saving/using last directory saved?
-	// TODO A (dykman 2/26/13) not handling order of finish right
 	// TODO B Able to validate sailor ids
 	// TODO B improve on-the-fly lookup entering finishes?
 	// TODO B size of duplicate sail dialog, also flag boats already finished?

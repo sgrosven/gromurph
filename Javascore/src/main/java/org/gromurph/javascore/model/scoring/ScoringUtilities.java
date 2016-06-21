@@ -49,8 +49,6 @@ public abstract class ScoringUtilities implements Constants {
 		addSupportedModel(ScoringLowPoint.NAME, ScoringLowPoint.class.getName());
 		addSupportedModel(ScoringLowPointAYCWednesday.NAME, ScoringLowPointAYCWednesday.class.getName());
 		addSupportedModel(ScoringLowPointDnIceboat.NAME, ScoringLowPointDnIceboat.class.getName());
-		addSupportedModel(ScoringLowPointLightning.NAME, ScoringLowPointLightning.class.getName());
-		addSupportedModel(ScoringLowPointSnipe.NAME, ScoringLowPointSnipe.class.getName());
 	}
 
 	/**

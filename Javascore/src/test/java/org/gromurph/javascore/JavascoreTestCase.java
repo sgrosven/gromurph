@@ -51,11 +51,15 @@ public class JavascoreTestCase extends UtilUispecTestCase {
 	}
 	
 	public Regatta loadTestRegatta( String filename) throws Exception {
+		return loadTestRegatta( filename, true);
+	}
+	
+	public Regatta loadTestRegatta( String filename, boolean scoreAfterLoading) throws Exception {
 
 		Regatta reg = new Regatta();
 		if (filename != null) {
 			reg = RegattaManager.readTestRegatta( filename);
-			reg.scoreRegatta();
+			if (scoreAfterLoading) reg.scoreRegatta();
 		}
 		
 		fRegatta = reg;

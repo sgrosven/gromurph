@@ -325,10 +325,17 @@ public class PanelScoringOptionsTests extends JavascoreTestCase {
 
 		JRadioButton fRadioTieRrsDefault = (JRadioButton) findComponent(JRadioButton.class, "fRadioTieRrsDefault",
 				localPanel);
-		JRadioButton fRadioTieA82Only = (JRadioButton) findComponent(JRadioButton.class, "fRadioTieA82Only", localPanel);
 		assertNotNull("fRadioTieRrsDefault should not be null", fRadioTieRrsDefault);
+
+		JRadioButton fRadioTieA82Only = (JRadioButton) findComponent(JRadioButton.class, "fRadioTieA82Only", localPanel);
 		assertNotNull("fRadioTieA82Only should not be null", fRadioTieA82Only);
 
+		JRadioButton fRadioTieB8 = (JRadioButton) findComponent(JRadioButton.class, "fRadioTieB8", localPanel);
+		assertNotNull("fRadioTieB8 should not be null", fRadioTieB8);
+
+		JRadioButton fRadioTieNobreaker = (JRadioButton) findComponent(JRadioButton.class, "fRadioTieNobreaker", localPanel);
+		assertNotNull("fRadioTieNobreaker should not be null", fRadioTieNobreaker);
+		
 		ScoringOptions fOptions = (ScoringOptions) fModel.getModel().getOptions();
 		assertNotNull(fOptions);
 

@@ -247,11 +247,23 @@ public class ScoringLowPoint implements ScoringModel, Constants {
 		// subdivsions can create its seriespoints too
 	}
 
-	protected TiebreakCalculatorRrs initializeTiebreakCalculator() {
-		if (fOptions.getTiebreaker() == TIE_RRS_A82_ONLY) {
-			return new TieBreakCalculatorA82Only();			
-		} else { // fOptions.getTiebreaker() == TIE_RRS_DEFAULT) {
-			return new TiebreakCalculatorRrs(); 
+	protected TiebreakCalculator getTiebreakCalculator() {
+		int tb = fOptions.getTiebreaker();
+		switch (tb) {
+    		case TIE_RRS_A82_ONLY: { return new TiebreakCalculatorA82Only(); }		
+    		case TIE_RRS_B8: { return new TiebreakCalculatorB8();}
+    		case TIE_RRS_DEFAULT: { return new TiebreakCalculatorRrs();}
+    		case TIE_NOTIEBREAKER: { return null;}
+		}
+		return null;
+	}
+		
+	protected void resolveTies( RacePointsList divPointsList, SeriesPointsList divSeriesPoints) {
+		TiebreakCalculator tiebreaker = getTiebreakCalculator();
+		if (tiebreaker != null) {
+    		tiebreaker.racePointsList = divPointsList;
+    		tiebreaker.seriesPointsList = divSeriesPoints;
+    		tiebreaker.process();
 		}
 	}
 	
@@ -260,10 +272,7 @@ public class ScoringLowPoint implements ScoringModel, Constants {
 		// pass the clumps of tied boats on to scoringmodel for resolution
 		divSeriesPoints.sortPoints();
 
-		TiebreakCalculatorRrs tiebreaker = initializeTiebreakCalculator();
-		tiebreaker.racePointsList = divPointsList;
-		tiebreaker.seriesPointsList = divSeriesPoints;
-		tiebreaker.process();
+		resolveTies(divPointsList, divSeriesPoints);
 
 		// now set series position
 		divSeriesPoints.sortPoints();
@@ -532,6 +541,25 @@ public class ScoringLowPoint implements ScoringModel, Constants {
 			}
 			notes.add(tlPenalty);
 		}
+
+		String tieNote = null;
+		if (fOptions.getTiebreaker() != TIE_RRS_DEFAULT) {
+			switch (fOptions.getTiebreaker()) {
+			case TIE_NOTIEBREAKER:
+				tieNote = res.getString("TieNoteNobreaker");
+				break;
+			case TIE_RRS_A82_ONLY:
+				tieNote = res.getString("TieNoteA82Only");
+				break;
+			case TIE_RRS_B8:
+				tieNote = res.getString("TieNoteB8");
+				break;
+			default:
+				tieNote = null;
+			}
+			if (tieNote != null) notes.add(tieNote);
+		}
+
 
 		// add note about subdivs addins
 		if (fAddinNotes != null && fAddinNotes.size() > 0)

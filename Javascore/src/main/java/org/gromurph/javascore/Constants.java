@@ -143,7 +143,8 @@ public interface Constants {
 
 	public static final int TIE_RRS_DEFAULT = 1;
 	public static final int TIE_RRS_A82_ONLY = 2;
-//	public static final int TIE_RRS_A82_MEDAL = 3;  dropped in 6.0
+	public static final int TIE_RRS_B8 = 3;  
+	public static final int TIE_NOTIEBREAKER = 4;
 
 	public static String NOADVANCE = "NoAdvance";
     	

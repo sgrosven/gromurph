@@ -128,6 +128,8 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 		if (isVisible() && fOptions != null) {
 			fOptions.addPropertyChangeListener(this);
 			fRadioTieA82Only.setEnabled(fOptions.canUserChangeTiebreaker());
+			fRadioTieB8.setEnabled(fOptions.canUserChangeTiebreaker());
+			fRadioTieNobreaker.setEnabled(fOptions.canUserChangeTiebreaker());
 		}
 	}
 
@@ -227,6 +229,8 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 			fRadioLongSeriesYes.setSelected(fOptions.isLongSeries());
 			fRadioTieRrsDefault.setSelected(fOptions.getTiebreaker() == Constants.TIE_RRS_DEFAULT);
 			fRadioTieA82Only.setSelected(fOptions.getTiebreaker() == Constants.TIE_RRS_A82_ONLY);
+			fRadioTieB8.setSelected(fOptions.getTiebreaker() == Constants.TIE_RRS_B8);
+			fRadioTieNobreaker.setSelected(fOptions.getTiebreaker() == Constants.TIE_NOTIEBREAKER);
 
 			if (reg != null && reg.isMultistage()) {
 				fCheckEntriesLargestDivision.setEnabled(true);
@@ -237,6 +241,8 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 			}
 
 			fRadioTieA82Only.setEnabled(fOptions.canUserChangeTiebreaker());
+			fRadioTieB8.setEnabled(fOptions.canUserChangeTiebreaker());
+			fRadioTieNobreaker.setEnabled(fOptions.canUserChangeTiebreaker());
 			
 		} else {
 			fComboScoringSystem.setSelectedItem(0);
@@ -249,6 +255,8 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 			fRadioLongSeriesNo.setSelected(true);
 			fRadioTieRrsDefault.setSelected(true);
 			fRadioTieA82Only.setEnabled(false);
+			fRadioTieB8.setEnabled(false);
+			fRadioTieNobreaker.setEnabled(false);
 		}
 		updateEnabled();
 	}
@@ -536,6 +544,8 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 
 	JRadioButton fRadioTieRrsDefault;
 	JRadioButton fRadioTieA82Only;
+	JRadioButton fRadioTieB8;
+	JRadioButton fRadioTieNobreaker;
 
 	private JPanel createTiebreakerPanel() {
 		JPanel tiePanel = new JPanel(new GridBagLayout());
@@ -561,6 +571,24 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 		HelpManager.getInstance().registerHelpTopic(fRadioTieA82Only, "lowpoint.fRadioTieA82Only");
 		tieGroup.add(fRadioTieA82Only);
 		gridbagAdd(tiePanel, fRadioTieA82Only, 0, row, 2, GridBagConstraints.WEST, GridBagConstraints.NONE);
+
+		row++;
+		fRadioTieB8 = new JRadioButton(res.getString("LowPointLabelTieB8"));
+		fRadioTieB8.setMnemonic(res.getString("LowPointLabelTieB8Mnemonic").charAt(0));
+		fRadioTieB8.setName("fRadioTieB8");
+		fRadioTieB8.setToolTipText(res.getString("LowPointToolTipTieB8"));
+		HelpManager.getInstance().registerHelpTopic(fRadioTieB8, "lowpoint.fRadioTieB8");
+		tieGroup.add(fRadioTieB8);
+		gridbagAdd(tiePanel, fRadioTieB8, 0, row, 2, GridBagConstraints.WEST, GridBagConstraints.NONE);
+
+		row++;
+		fRadioTieNobreaker = new JRadioButton(res.getString("LowPointLabelTieNobreaker"));
+		fRadioTieNobreaker.setMnemonic(res.getString("LowPointLabelTieNobreakerMnemonic").charAt(0));
+		fRadioTieNobreaker.setName("fRadioTieNobreaker");
+		fRadioTieNobreaker.setToolTipText(res.getString("LowPointToolTipTieNobreaker"));
+		HelpManager.getInstance().registerHelpTopic(fRadioTieNobreaker, "lowpoint.fRadioTieNobreaker");
+		tieGroup.add(fRadioTieNobreaker);
+		gridbagAdd(tiePanel, fRadioTieNobreaker, 0, row, 2, GridBagConstraints.WEST, GridBagConstraints.NONE);
 
 		return tiePanel;
 	}
@@ -589,6 +617,8 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 		fRadioThrowoutBestXRaces.addActionListener(this);
 		fRadioThrowoutNone.addActionListener(this);
 		fRadioTieA82Only.addActionListener(this);
+		fRadioTieB8.addActionListener(this);
+		fRadioTieNobreaker.addActionListener(this);
 		fRadioTieRrsDefault.addActionListener(this);
 	}
 
@@ -617,6 +647,8 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 		fRadioThrowoutBestXRaces.removeActionListener(this);
 		fRadioThrowoutNone.removeActionListener(this);
 		fRadioTieA82Only.removeActionListener(this);
+		fRadioTieB8.removeActionListener(this);
+		fRadioTieNobreaker.removeActionListener(this);
 		fRadioTieRrsDefault.removeActionListener(this);
 	}
 
@@ -636,6 +668,8 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 		else if (object == fRadioThrowoutNone) fRadioThrowoutNone_actionPerformed();
 		else if (object == fRadioTieRrsDefault) fRadioTies_actionPerformed();
 		else if (object == fRadioTieA82Only) fRadioTies_actionPerformed();
+		else if (object == fRadioTieB8) fRadioTies_actionPerformed();
+		else if (object == fRadioTieNobreaker) fRadioTies_actionPerformed();
 		else if (object == fComboScoringSystem) fComboScoringSystem_actionPerformed();
 		else if (object == fCheckEntriesLargestDivision) fCheckEntriesLargestDivision_actionPerformed();
 
@@ -711,6 +745,8 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 	void fRadioTies_actionPerformed() {
 		if (fRadioTieRrsDefault.isSelected()) fOptions.setTiebreaker(Constants.TIE_RRS_DEFAULT);
 		else if (fRadioTieA82Only.isSelected()) fOptions.setTiebreaker(Constants.TIE_RRS_A82_ONLY);
+		else if (fRadioTieB8.isSelected()) fOptions.setTiebreaker(Constants.TIE_RRS_B8);
+		else if (fRadioTieNobreaker.isSelected()) fOptions.setTiebreaker(Constants.TIE_NOTIEBREAKER);
 	}
 
 	void fTextThrowoutBestX_actionPerformed(EventObject event) {

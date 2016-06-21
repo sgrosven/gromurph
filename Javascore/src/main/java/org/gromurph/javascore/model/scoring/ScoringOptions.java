@@ -134,7 +134,6 @@ public class ScoringOptions extends BaseObject implements Constants {
 			setThrowoutPerX(id);
 		}
 
-		setTiebreaker( TIE_RRS_DEFAULT);
 		value = n.getAttribute(TIEBREAKER_PROPERTY);
 		if (value != null) {
 			int id = Integer.parseInt(value);
