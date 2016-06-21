@@ -125,7 +125,7 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 				// DONE on single race results - add start time column
 				// DONE edit scoring notes to reflect pursuit start?
 				// DONE documentation
-				// need to handle/test shortening course after start
+				// DONE to handle/test shortening course after start
 					 // DONE gui set, but doesnt update dynamically - do I care?
 					 // DONE calculations need to be checked and tested
 		// DONE A time entry on race div dialog won't accept decimal seconds...only want to display decimals seconds
@@ -135,10 +135,10 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 		// DONE A+ 'NoFin' showing up in finish dialog left side
 		// DONE A+ delete finish, gets double entry (sometimes) on unfin list
 	
-		// TODO A+ TLETest regatta, subdivision has no races shown
+		// DONE A+ TLETest regatta, subdivision has no races shown
 	
-		// TODO A  No tiebreaker option
-		// TODO A  Windsurfer tiebreaker
+		// DONE A  No tiebreaker option
+		// DONE A  Windsurfer tiebreaker
 	
 					
 	// TODO A update release website documentation

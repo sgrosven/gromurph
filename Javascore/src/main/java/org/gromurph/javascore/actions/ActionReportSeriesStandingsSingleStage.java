@@ -26,6 +26,7 @@ import org.gromurph.javascore.model.RacePoints;
 import org.gromurph.javascore.model.RacePointsList;
 import org.gromurph.javascore.model.SeriesPoints;
 import org.gromurph.javascore.model.SeriesPointsList;
+import org.gromurph.javascore.model.SubDivision;
 import org.gromurph.javascore.model.scoring.SingleStageScoring;
 import org.gromurph.javascore.model.scoring.StageScoringModel;
 
@@ -123,7 +124,8 @@ public class ActionReportSeriesStandingsSingleStage extends ActionReportSeriesSt
     	RaceList racesToShow = new RaceList();
      	for (int i = startr; i < fRegatta.getNumRaces(); i++) {
     		Race r = fRegatta.getRaceIndex(i);
-    		if ( div.isRacing(r)) racesToShow.add(r);
+    		boolean orParent = ((div instanceof SubDivision && (div.getParentDivision().isRacing(r))));
+    		if ( div.isRacing(r, orParent)) racesToShow.add(r);
     	}
      	return racesToShow; 
 	}
