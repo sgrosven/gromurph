@@ -23,7 +23,7 @@ Usage update, March 2016
 	
 	<tstamp />
  	
-	<!-- UPDATE THESE FOR EACH NEW RELEASE!!! -->
+	<!-- UPDATE THESE FOR EACH NEW RELEASE and update JavaScoreProperties at least until i fix the automation there!!! -->
     <property name="app_version"	value="7.5.1" /> 
 	<property name="app_builddate" 	value="22 June 2016" /> 
 	
