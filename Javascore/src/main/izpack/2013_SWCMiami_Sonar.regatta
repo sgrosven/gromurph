@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.2.1" JuryChair="Bernard Bonneau" Multistage="false" Name="2013 Miami SWC - Sonar" Pro="Peter Van Muyden" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.5.1" JuryChair="Bernard Bonneau" Multistage="false" Name="2013 Miami SWC - Sonar" Pro="Peter Van Muyden" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="Sonar" Gender="Open" IFClassID="SONAR">
-<MinRating ClassName="SONAR" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="SONAR" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -112,9 +112,9 @@
 </Entry>
 </EntryList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="11" StartDate="28-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="11" StartDate="28-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Sonar" Length="0.0" StartTime="12:01:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Sonar" Length="0.0" LengthPursuit="0.0" StartTime="12:01:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="496" Pos="1" Race="11"/>
@@ -129,9 +129,9 @@
 <Fin Ent="502" Pos="8" Race="11"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="24" StartDate="28-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="24" StartDate="28-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Sonar" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Sonar" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="496" Pos="1" Race="24"/>
@@ -144,9 +144,9 @@
 <Fin Ent="502" Pos="8" Race="24"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="111" StartDate="29-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="111" StartDate="29-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Sonar" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Sonar" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="503" Pos="1" Race="111"/>
@@ -161,9 +161,9 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" RaceId="131" StartDate="29-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="131" StartDate="29-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Sonar" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Sonar" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="504" Pos="1" Race="131"/>
@@ -178,9 +178,9 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" RaceId="228" StartDate="30-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="228" StartDate="30-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Sonar" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Sonar" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="496" Pos="1" Race="228"/>
@@ -193,9 +193,9 @@
 <Fin Ent="502" Pos="8" Race="228"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" RaceId="297" StartDate="30-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="297" StartDate="30-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Sonar" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Sonar" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="499" Pos="1" Race="297"/>
@@ -208,9 +208,9 @@
 <Fin Ent="502" Pos="8" Race="297"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" RaceId="517" StartDate="31-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="517" StartDate="31-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Sonar" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Sonar" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="500" Pos="1" Race="517"/>
@@ -223,9 +223,9 @@
 <Fin Ent="502" Pos="8" Race="517"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" RaceId="557" StartDate="31-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="557" StartDate="31-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Sonar" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Sonar" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="504" Pos="1" Race="557"/>
@@ -238,9 +238,9 @@
 <Fin Ent="502" Pos="8" Race="557"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" RaceId="559" StartDate="01-Feb-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="559" StartDate="01-Feb-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Sonar" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Sonar" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="505" Pos="1" Race="559"/>
@@ -257,9 +257,9 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" RaceId="821" StartDate="01-Feb-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="821" StartDate="01-Feb-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Sonar" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Sonar" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="496" Pos="1" Race="821"/>

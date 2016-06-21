@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="April 1-3, 2007" Final="false" HostClub="My Yacht Club" IFEventID="" JSVersion="7.2.1" JuryChair="Dan I M Goode" Multistage="false" Name="Big Boat Sampler Series" Pro="Godfired O. Dangerfield" UseBowNumbers="false" Version="600" comment="Sample &quot;big boat&quot; regatta featuring PHRF classes both Time-on-Time and Time-on-Distance, as well as penalties, AND an overnight race">
+<Regatta DailyScoring="false" Dates="April 1-3, 2007" Final="false" HostClub="My Yacht Club" IFEventID="" JSVersion="7.5.1" JuryChair="Dan I M Goode" Multistage="false" Name="Big Boat Sampler Series" Pro="Godfired O. Dangerfield" UseBowNumbers="false" Version="600" comment="Sample &quot;big boat&quot; regatta featuring PHRF classes both Time-on-Time and Time-on-Distance, as well as penalties, AND an overnight race">
 <DivisionList>
 <Division DivName="J105">
-<MinRating ClassName="J105" System="OneDesign"/>
-<MaxRating ClassName="J105" System="OneDesign"/>
+<SlowestRating ClassName="J105" System="OneDesign"/>
+<FastestRating ClassName="J105" System="OneDesign"/>
 </Division>
 <Division DivName="PHRF A">
-<MinRating System="PHRF" Value="-999.0"/>
-<MaxRating System="PHRF" Value="0.0"/>
+<SlowestRating System="PHRF" Value="0.0"/>
+<FastestRating System="PHRF" Value="-999.0"/>
 </Division>
 <Division DivName="PHRF B">
-<MinRating System="PHRF" Value="0.0"/>
-<MaxRating System="PHRF" Value="9999.0"/>
+<SlowestRating System="PHRF" Value="9999.0"/>
+<FastestRating System="PHRF" Value="0.0"/>
 </Division>
 <Division DivName="PHRF ToT A">
-<MinRating System="PHRF" Value="-9999.0"/>
-<MaxRating System="PHRF" Value="-1.0"/>
+<SlowestRating System="PHRF" Value="-1.0"/>
+<FastestRating System="PHRF" Value="-9999.0"/>
 </Division>
 <Division DivName="PHRF ToT B">
-<MinRating System="PHRFTimeOnTime" Value="0.0"/>
-<MaxRating System="PHRFTimeOnTime" Value="9999.0"/>
+<SlowestRating System="PHRFTimeOnTime" Value="9999.0"/>
+<FastestRating System="PHRFTimeOnTime" Value="0.0"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -251,150 +251,6 @@
 </FleetList>
 <Scores SystemName="ISAF Low Point 2013-2016">
 <System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
-<RacePointsList>
-<rp Div="J105" Ent="10" Pos="1" Pts="1.0"/>
-<rp Div="J105" Ent="36" Pos="2" Pts="2.0"/>
-<rp Div="J105" Ent="37" Pos="3" Pts="4.5"/>
-<rp Div="J105" Ent="9" Pos="4" Pts="8.0" Toss="true"/>
-<rp Div="J105" Ent="8" Pos="5" Pts="4.0"/>
-<rp Div="J105" Ent="7" Pos="6" Pts="5.0"/>
-<rp Div="J105" Ent="6" Pos="7" Pts="6.0" Toss="true"/>
-<rp Div="J105" Ent="36" Pos="1" Pts="1.0"/>
-<rp Div="J105" Ent="7" Pos="2" Pts="8.0" Toss="true"/>
-<rp Div="J105" Ent="37" Pos="3" Pts="8.0" Toss="true"/>
-<rp Div="J105" Ent="9" Pos="4" Pts="5.0"/>
-<rp Div="J105" Ent="10" Pos="5" Pts="3.0"/>
-<rp Div="J105" Ent="6" Pos="6" Pts="4.0"/>
-<rp Div="J105" Ent="8" Pos="24576" Pts="6.0" Toss="true"/>
-<rp Div="J105" Ent="6" Pos="1" Pts="1.0"/>
-<rp Div="J105" Ent="9" Pos="2" Pts="2.0"/>
-<rp Div="J105" Ent="37" Pos="3" Pts="3.2"/>
-<rp Div="J105" Ent="10" Pos="4" Pts="4.0" Toss="true"/>
-<rp Div="J105" Ent="8" Pos="5" Pts="1.0"/>
-<rp Div="J105" Ent="7" Pos="6" Pts="6.0"/>
-<rp Div="J105" Ent="36" Pos="7" Pts="7.0" Toss="true"/>
-<rp Div="PHRF A" Ent="25" Pos="1" Pts="1.0"/>
-<rp Div="PHRF A" Ent="24" Pos="2" Pts="2.0"/>
-<rp Div="PHRF A" Ent="26" Pos="3" Pts="3.0" Toss="true"/>
-<rp Div="PHRF A" Ent="25" Pos="1" Pts="1.0"/>
-<rp Div="PHRF A" Ent="26" Pos="2" Pts="2.0"/>
-<rp Div="PHRF A" Ent="24" Pos="3" Pts="3.0" Toss="true"/>
-<rp Div="PHRF A" Ent="26" Pos="1" Pts="1.0"/>
-<rp Div="PHRF A" Ent="25" Pos="2" Pts="2.0" Toss="true"/>
-<rp Div="PHRF A" Ent="24" Pos="3" Pts="3.0"/>
-<rp Div="PHRF B" Ent="29" Pos="49152" Pts="3.0" Toss="true"/>
-<rp Div="PHRF B" Ent="27" Pos="2" Pts="1.0"/>
-<rp Div="PHRF B" Ent="27" Pos="1" Pts="1.0"/>
-<rp Div="PHRF B" Ent="29" Pos="2" Pts="2.0"/>
-<rp Div="PHRF B" Ent="29" Pos="1" Pts="1.0"/>
-<rp Div="PHRF B" Ent="27" Pos="2" Pts="2.0" Toss="true"/>
-<rp Div="PHRF ToT A" Ent="30" Pos="1" Pts="1.5"/>
-<rp Div="PHRF ToT A" Ent="31" Pos="2" Pts="1.5"/>
-<rp Div="PHRF ToT A" Ent="32" Pos="3" Pts="3.0" Toss="true"/>
-<rp Div="PHRF ToT A" Ent="32" Pos="1" Pts="1.0"/>
-<rp Div="PHRF ToT A" Ent="30" Pos="2" Pts="2.0"/>
-<rp Div="PHRF ToT A" Ent="31" Pos="3" Pts="3.0" Toss="true"/>
-<rp Div="PHRF ToT A" Ent="32" Pos="1" Pts="1.0"/>
-<rp Div="PHRF ToT A" Ent="31" Pos="2" Pts="2.0"/>
-<rp Div="PHRF ToT A" Ent="30" Pos="3" Pts="3.0" Toss="true"/>
-<rp Div="PHRF ToT B" Ent="34" Pos="1" Pts="1.0"/>
-<rp Div="PHRF ToT B" Ent="35" Pos="2" Pts="2.0"/>
-<rp Div="PHRF ToT B" Ent="33" Pos="3" Pts="3.0" Toss="true"/>
-<rp Div="PHRF ToT B" Ent="28" Pos="4" Pts="4.0" Toss="true"/>
-<rp Div="PHRF ToT B" Ent="50" Pos="57344" Pts="7.0" Toss="true"/>
-<rp Div="PHRF ToT B" Ent="53" Pos="57344" Pts="7.0" Toss="true"/>
-<rp Div="PHRF ToT B" Ent="33" Pos="1" Pts="1.0"/>
-<rp Div="PHRF ToT B" Ent="28" Pos="2" Pts="2.0"/>
-<rp Div="PHRF ToT B" Ent="35" Pos="3" Pts="3.0" Toss="true"/>
-<rp Div="PHRF ToT B" Ent="34" Pos="4" Pts="4.0" Toss="true"/>
-<rp Div="PHRF ToT B" Ent="50" Pos="57344" Pts="7.0"/>
-<rp Div="PHRF ToT B" Ent="53" Pos="57344" Pts="7.0"/>
-<rp Div="PHRF ToT B" Ent="35" Pos="1" Pts="1.0"/>
-<rp Div="PHRF ToT B" Ent="34" Pos="2" Pts="2.0"/>
-<rp Div="PHRF ToT B" Ent="33" Pos="3" Pts="3.0"/>
-<rp Div="PHRF ToT B" Ent="28" Pos="4" Pts="4.0"/>
-<rp Div="PHRF ToT B" Ent="50" Pos="57344" Pts="7.0"/>
-<rp Div="PHRF ToT B" Ent="53" Pos="57344" Pts="7.0"/>
-<rp Ent="29" Pos="49152" Pts="6.0" Toss="true"/>
-<rp Ent="25" Pos="2" Pts="1.0"/>
-<rp Ent="24" Pos="3" Pts="2.0"/>
-<rp Ent="26" Pos="4" Pts="3.0"/>
-<rp Ent="27" Pos="5" Pts="4.0" Toss="true"/>
-<rp Ent="27" Pos="1" Pts="1.0"/>
-<rp Ent="29" Pos="2" Pts="2.0"/>
-<rp Ent="25" Pos="3" Pts="3.0"/>
-<rp Ent="26" Pos="4" Pts="4.0" Toss="true"/>
-<rp Ent="24" Pos="5" Pts="5.0" Toss="true"/>
-<rp Ent="29" Pos="1" Pts="1.0"/>
-<rp Ent="27" Pos="2" Pts="2.0"/>
-<rp Ent="26" Pos="3" Pts="3.0"/>
-<rp Ent="25" Pos="4" Pts="4.0" Toss="true"/>
-<rp Ent="24" Pos="5" Pts="5.0"/>
-<rp Ent="34" Pos="1" Pts="1.0"/>
-<rp Ent="35" Pos="2" Pts="2.0"/>
-<rp Ent="33" Pos="3" Pts="3.0" Toss="true"/>
-<rp Ent="30" Pos="4" Pts="4.5"/>
-<rp Ent="31" Pos="5" Pts="4.5"/>
-<rp Ent="32" Pos="6" Pts="6.0" Toss="true"/>
-<rp Ent="28" Pos="7" Pts="7.0" Toss="true"/>
-<rp Ent="50" Pos="57344" Pts="10.0" Toss="true"/>
-<rp Ent="53" Pos="57344" Pts="10.0" Toss="true"/>
-<rp Ent="33" Pos="1" Pts="1.0"/>
-<rp Ent="28" Pos="2" Pts="2.0"/>
-<rp Ent="35" Pos="3" Pts="3.0" Toss="true"/>
-<rp Ent="34" Pos="4" Pts="4.0" Toss="true"/>
-<rp Ent="32" Pos="5" Pts="5.0"/>
-<rp Ent="30" Pos="6" Pts="6.0" Toss="true"/>
-<rp Ent="31" Pos="7" Pts="7.0" Toss="true"/>
-<rp Ent="50" Pos="57344" Pts="10.0"/>
-<rp Ent="53" Pos="57344" Pts="10.0"/>
-<rp Ent="35" Pos="1" Pts="1.0"/>
-<rp Ent="34" Pos="2" Pts="2.0"/>
-<rp Ent="33" Pos="3" Pts="3.0"/>
-<rp Ent="32" Pos="4" Pts="4.0"/>
-<rp Ent="31" Pos="5" Pts="5.0"/>
-<rp Ent="30" Pos="6" Pts="6.0"/>
-<rp Ent="28" Pos="7" Pts="7.0"/>
-<rp Ent="50" Pos="57344" Pts="10.0"/>
-<rp Ent="53" Pos="57344" Pts="10.0"/>
-</RacePointsList>
-<SeriesPointsList>
-<sp Div="J105" Ent="36" Pos="1" Pts="3.0"/>
-<sp Div="J105" Ent="10" Pos="2" Pts="4.0"/>
-<sp Div="J105" Ent="6" Pos="3" Pts="5.0"/>
-<sp Div="J105" Ent="8" Pos="4" Pts="5.0001"/>
-<sp Div="J105" Ent="9" Pos="5" Pts="7.0"/>
-<sp Div="J105" Ent="37" Pos="6" Pts="7.7"/>
-<sp Div="J105" Ent="7" Pos="7" Pts="11.0"/>
-<sp Div="PHRF A" Ent="25" Pos="1" Pts="2.0"/>
-<sp Div="PHRF A" Ent="26" Pos="2" Pts="3.0"/>
-<sp Div="PHRF A" Ent="24" Pos="3" Pts="5.0"/>
-<sp Div="PHRF B" Ent="27" Pos="1" Pts="2.0"/>
-<sp Div="PHRF B" Ent="29" Pos="2" Pts="3.0"/>
-<sp Div="PHRF ToT A" Ent="32" Pos="1" Pts="2.0"/>
-<sp Div="PHRF ToT A" Ent="31" Pos="2" Pts="3.5"/>
-<sp Div="PHRF ToT A" Ent="30" Pos="3" Pts="3.5001"/>
-<sp Div="PHRF ToT B" Ent="35" Pos="1" Pts="3.0"/>
-<sp Div="PHRF ToT B" Ent="34" Pos="2" Pts="3.0001"/>
-<sp Div="PHRF ToT B" Ent="33" Pos="3" Pts="4.0"/>
-<sp Div="PHRF ToT B" Ent="28" Pos="4" Pts="6.0"/>
-<sp Div="PHRF ToT B" Ent="50" Pos="5" Pts="14.0" Tied="true"/>
-<sp Div="PHRF ToT B" Ent="53" Pos="5" Pts="14.0" Tied="true"/>
-<sp Ent="29" Pos="1" Pts="3.0"/>
-<sp Ent="27" Pos="2" Pts="3.0001"/>
-<sp Ent="25" Pos="3" Pts="4.0"/>
-<sp Ent="26" Pos="4" Pts="6.0"/>
-<sp Ent="24" Pos="5" Pts="7.0"/>
-<sp Ent="35" Pos="1" Pts="3.0"/>
-<sp Ent="34" Pos="2" Pts="3.0001"/>
-<sp Ent="33" Pos="3" Pts="4.0"/>
-<sp Ent="28" Pos="4" Pts="9.0"/>
-<sp Ent="32" Pos="5" Pts="9.0001"/>
-<sp Ent="31" Pos="6" Pts="9.5"/>
-<sp Ent="30" Pos="7" Pts="10.5"/>
-<sp Ent="50" Pos="8" Pts="20.0" Tied="true"/>
-<sp Ent="53" Pos="8" Pts="20.0" Tied="true"/>
-</SeriesPointsList>
 </Scores>
 <ReportOptionList>
 <Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">

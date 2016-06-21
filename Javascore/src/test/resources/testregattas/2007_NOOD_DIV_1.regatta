@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta DailyScoring="true" Dates="28-30 April" Final="false" HostClub="Severn Sailing Association" IFEventID="" JSVersion="7.3.1" JuryChair="Chris Petracco" Multistage="false" Name="2007 SPERRY TOP-SIDER NOOD DIV 1" Pro="Sandy Grosvenor" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="true" Dates="28-30 April" Final="false" HostClub="Severn Sailing Association" IFEventID="" JSVersion="7.5.1" JuryChair="Chris Petracco" Multistage="false" Name="2007 SPERRY TOP-SIDER NOOD DIV 1" Pro="Sandy Grosvenor" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="Etchells">
-<MinRating ClassName="Etchells" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="Etchells" System="OneDesign"/>
 </Division>
 <Division DivName="J/22">
-<MinRating ClassName="J/22" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="J/22" System="OneDesign"/>
 </Division>
 <Division DivName="J/24">
-<MinRating ClassName="J/24" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="J/24" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -717,11 +717,11 @@
 </Entry>
 </EntryList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="27-Apr-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="27-Apr-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="J/22" Length="0.0" StartTime="12:13:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Etchells" Length="0.0" StartTime="12:06:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/24" Length="0.0" StartTime="12:19:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/22" Length="0.0" LengthPursuit="0.0" StartTime="12:13:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Etchells" Length="0.0" LengthPursuit="0.0" StartTime="12:06:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" LengthPursuit="0.0" StartTime="12:19:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="140" Pos="1" Race="1"/>
@@ -808,11 +808,11 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="3" StartDate="28-Apr-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="3" StartDate="28-Apr-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Etchells" Length="0.0" StartTime="13:34:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/22" Length="0.0" StartTime="13:40:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/24" Length="0.0" StartTime="13:55:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Etchells" Length="0.0" LengthPursuit="0.0" StartTime="13:34:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/22" Length="0.0" LengthPursuit="0.0" StartTime="13:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" LengthPursuit="0.0" StartTime="13:55:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="139" Pos="1" Race="3"/>
@@ -899,11 +899,11 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="4" StartDate="28-Apr-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="4" StartDate="28-Apr-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Etchells" Length="0.0" StartTime="14:25:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/22" Length="0.0" StartTime="14:36:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/24" Length="0.0" StartTime="14:53:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Etchells" Length="0.0" LengthPursuit="0.0" StartTime="14:25:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/22" Length="0.0" LengthPursuit="0.0" StartTime="14:36:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" LengthPursuit="0.0" StartTime="14:53:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="135" Pos="1" Race="4"/>
@@ -988,11 +988,11 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" RaceId="5" StartDate="29-Apr-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="5" StartDate="29-Apr-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Etchells" Length="0.0" StartTime="06:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/22" Length="0.0" StartTime="11:19:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/24" Length="0.0" StartTime="11:13:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Etchells" Length="0.0" LengthPursuit="0.0" StartTime="06:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/22" Length="0.0" LengthPursuit="0.0" StartTime="11:19:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" LengthPursuit="0.0" StartTime="11:13:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="132" Pos="1" Race="5"/>
@@ -1079,11 +1079,11 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" RaceId="7" StartDate="29-Apr-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="7" StartDate="29-Apr-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Etchells" Length="0.0" StartTime="11:06:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/22" Length="0.0" StartTime="12:08:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/24" Length="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Etchells" Length="0.0" LengthPursuit="0.0" StartTime="11:06:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/22" Length="0.0" LengthPursuit="0.0" StartTime="12:08:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" LengthPursuit="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="130" Pos="1" Race="7"/>
@@ -1168,11 +1168,11 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" RaceId="8" StartDate="29-Apr-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="8" StartDate="29-Apr-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Etchells" Length="0.0" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/22" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J/24" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Etchells" Length="0.0" LengthPursuit="0.0" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/22" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="140" Pos="1" Race="8"/>
@@ -1200,7 +1200,7 @@
 </Race>
 </RaceList>
 <Scores>
-<Stage CombinedQualifying="false" Name="AllDays" ScoreCarryOver="NONE" StageId="6" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
+<Stage CombinedQualifying="false" Name="AllDays" ScoreCarryOver="NONE" StageId="736" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
 <Divisions>
 <DivisionId>Etchells</DivisionId>
 <DivisionId>J/22</DivisionId>
@@ -1649,7 +1649,7 @@
 <sp Div="J/24" Ent="184" Pos="16" Pts="64.0"/>
 </SeriesPointsList>
 </Stage>
-<Stage CombinedQualifying="false" Name="Fri 27-Apr" ScoreCarryOver="NONE" StageId="7" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
+<Stage CombinedQualifying="false" Name="Fri 27-Apr" ScoreCarryOver="NONE" StageId="737" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
 <Divisions>
 <DivisionId>Etchells</DivisionId>
 <DivisionId>J/22</DivisionId>
@@ -1801,7 +1801,7 @@
 <sp Div="J/24" Ent="184" Pos="16" Pts="16.0"/>
 </SeriesPointsList>
 </Stage>
-<Stage CombinedQualifying="false" Name="Sat 28-Apr" ScoreCarryOver="NONE" StageId="8" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
+<Stage CombinedQualifying="false" Name="Sat 28-Apr" ScoreCarryOver="NONE" StageId="738" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
 <Divisions>
 <DivisionId>Etchells</DivisionId>
 <DivisionId>J/22</DivisionId>
@@ -2023,7 +2023,7 @@
 <sp Div="J/24" Ent="184" Pos="16" Pts="15.0001"/>
 </SeriesPointsList>
 </Stage>
-<Stage CombinedQualifying="false" Name="Sun 29-Apr" ScoreCarryOver="NONE" StageId="9" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
+<Stage CombinedQualifying="false" Name="Sun 29-Apr" ScoreCarryOver="NONE" StageId="739" StageRank="1" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
 <Divisions>
 <DivisionId>Etchells</DivisionId>
 <DivisionId>J/22</DivisionId>

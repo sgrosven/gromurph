@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="Jan. 22-27, 2007" Final="false" HostClub="USSC - Miami" IFEventID="IFRGT-15560" JSVersion="7.2.1" JuryChair="Bernard Bonneau" Multistage="true" Name="2007 Rolex Miami OCR" Pro="Terry Bischoff" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="Jan. 22-27, 2007" Final="false" HostClub="USSC - Miami" IFEventID="IFRGT-15560" JSVersion="7.5.1" JuryChair="Bernard Bonneau" Multistage="true" Name="2007 Rolex Miami OCR" Pro="Terry Bischoff" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="Men's Two Person Dinghy" Gender="Men" IFClassID="470">
-<MinRating ClassName="470 Men" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="470 Men" System="OneDesign"/>
 </Division>
 <Division DivName="Women's Two Person Dinghy" Gender="Women" IFClassID="470">
-<MinRating ClassName="470 Women" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="470 Women" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -668,14 +668,14 @@
 </SubDivision>
 </SubDivisionList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="21" StartDate="22-Jan-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="21" StartDate="22-Jan-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Women's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women's Two Person Dinghy" Length="0.0" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Two Person Dinghy" Length="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Men's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="818" Pos="1" Race="21"/>
@@ -731,14 +731,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="25" StartDate="22-Jan-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="25" StartDate="22-Jan-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Women's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women's Two Person Dinghy" Length="0.0" StartTime="15:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Two Person Dinghy" Length="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Men's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="15:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="845" Pos="1" Race="25"/>
@@ -798,14 +798,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="27" StartDate="22-Jan-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="27" StartDate="22-Jan-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Women's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women's Two Person Dinghy" Length="0.0" StartTime="16:24:41.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Two Person Dinghy" Length="0.0" StartTime="15:59:01.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Men's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="16:24:41.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="15:59:01.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="836" Pos="1" Race="27"/>
@@ -859,14 +859,14 @@
 <Fin Ent="773" Pos="49" Race="27"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" RaceId="46" StartDate="23-Jan-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="46" StartDate="23-Jan-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Women's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women's Two Person Dinghy" Length="0.0" StartTime="14:30:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Two Person Dinghy" Length="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Men's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="14:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="766" Pos="1" Race="46"/>
@@ -922,14 +922,14 @@
 <Fin Ent="822" Pos="49" Race="46"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" RaceId="69" StartDate="23-Jan-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="69" StartDate="23-Jan-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Women's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women's Two Person Dinghy" Length="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Two Person Dinghy" Length="0.0" StartTime="15:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Men's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="15:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="762" Pos="1" Race="69"/>
@@ -983,14 +983,14 @@
 <Fin Ent="822" Pos="49" Race="69"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" RaceId="135" StartDate="24-Jan-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="135" StartDate="24-Jan-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Women's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women's Two Person Dinghy" Length="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Two Person Dinghy" Length="0.0" StartTime="12:30:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Men's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="12:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="758" Pos="1" Race="135"/>
@@ -1046,14 +1046,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" RaceId="143" StartDate="24-Jan-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="143" StartDate="24-Jan-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Women's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women's Two Person Dinghy" Length="0.0" StartTime="12:30:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Two Person Dinghy" Length="0.0" StartTime="12:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Men's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="12:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="12:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="756" Pos="1" Race="143"/>
@@ -1117,14 +1117,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" RaceId="225" StartDate="25-Jan-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="225" StartDate="25-Jan-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Women's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women's Two Person Dinghy" Length="0.0" StartTime="00:12:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Two Person Dinghy" Length="0.0" StartTime="00:12:30.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Men's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="00:12:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="00:12:30.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="762" Pos="1" Race="225"/>
@@ -1186,14 +1186,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" RaceId="227" StartDate="25-Jan-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="227" StartDate="25-Jan-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Women's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women's Two Person Dinghy" Length="0.0" StartTime="16:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Two Person Dinghy" Length="0.0" StartTime="16:30:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Men's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="16:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="16:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="762" Pos="1" Race="227"/>
@@ -1257,14 +1257,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" RaceId="229" StartDate="26-Jan-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="229" StartDate="26-Jan-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Women's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women's Two Person Dinghy" Length="0.0" StartTime="11:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Two Person Dinghy" Length="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Men's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="11:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="756" Pos="1" Race="229"/>
@@ -1324,14 +1324,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="11" NonDiscardable="false" RaceId="334" StartDate="26-Jan-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="11" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="334" StartDate="26-Jan-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Women's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women's Two Person Dinghy" Length="0.0" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Two Person Dinghy" Length="0.0" StartTime="13:30:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Men's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="13:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="771" Pos="1" Race="334"/>
@@ -1391,14 +1391,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="12" NonDiscardable="false" RaceId="419" StartDate="26-Jan-2007" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="12" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="419" StartDate="26-Jan-2007" Weight="1.0">
 <DivInfo>
-<DivStart Div="Women's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women's Two Person Dinghy" Length="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women's Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Two Person Dinghy" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women's Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="767" Pos="1" Race="419"/>
@@ -1423,14 +1423,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="Tie  for 3rd and 4th overall breaks to USA1736 under SI 20.4(c).   Tie breaks to the boat who beat the other in the medal race." LongDistance="false" MedalRace="false" Name="13" NonDiscardable="true" RaceId="717" StartDate="27-Jan-2007" Weight="2.0">
+<Race AFactor="550" BFactor="550" Comment="Tie  for 3rd and 4th overall breaks to USA1736 under SI 20.4(c).   Tie breaks to the boat who beat the other in the medal race." LongDistance="false" MedalRace="false" Name="13" NonDiscardable="true" Pursuit="false" PursuitShortened="false" RaceId="717" StartDate="27-Jan-2007" Weight="2.0">
 <DivInfo>
-<DivStart Div="Women's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Medal" Length="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women's Two Person Dinghy" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women's Medal" Length="0.0" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Men's Two Person Dinghy" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Men's Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Medal" Length="0.0" LengthPursuit="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women's Medal" Length="0.0" LengthPursuit="0.0" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's Two Person Dinghy" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="837" Pos="1" Race="717"/>
@@ -1460,64 +1460,12 @@
 </RaceList>
 <Scores>
 <Stage CombinedQualifying="false" Name="Men's Medal" ScoreCarryOver="ALL" StageId="10" StageRank="21" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
-<Divisions>
-<DivisionId/>
-</Divisions>
+<Divisions/>
 <System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="5" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
-<RacePointsList>
-<rp Div="Men's Medal" Ent="837" Pos="1" Pts="2.0" Race="717"/>
-<rp Div="Men's Medal" Ent="845" Pos="2" Pts="4.0" Race="717"/>
-<rp Div="Men's Medal" Ent="819" Pos="3" Pts="6.0" Race="717"/>
-<rp Div="Men's Medal" Ent="839" Pos="4" Pts="8.0" Race="717"/>
-<rp Div="Men's Medal" Ent="825" Pos="5" Pts="10.0" Race="717"/>
-<rp Div="Men's Medal" Ent="829" Pos="6" Pts="12.0" Race="717"/>
-<rp Div="Men's Medal" Ent="823" Pos="7" Pts="14.0" Race="717"/>
-<rp Div="Men's Medal" Ent="832" Pos="8" Pts="16.0" Race="717"/>
-<rp Div="Men's Medal" Ent="836" Pos="9" Pts="18.0" Race="717"/>
-<rp Div="Men's Medal" Ent="818" Pos="10" Pts="20.0" Race="717"/>
-</RacePointsList>
-<SeriesPointsList>
-<sp Div="Men's Medal" Ent="837" Pos="1" Pts="2.0"/>
-<sp Div="Men's Medal" Ent="845" Pos="2" Pts="4.0"/>
-<sp Div="Men's Medal" Ent="819" Pos="3" Pts="6.0"/>
-<sp Div="Men's Medal" Ent="839" Pos="4" Pts="8.0"/>
-<sp Div="Men's Medal" Ent="825" Pos="5" Pts="10.0"/>
-<sp Div="Men's Medal" Ent="829" Pos="6" Pts="12.0"/>
-<sp Div="Men's Medal" Ent="823" Pos="7" Pts="14.0"/>
-<sp Div="Men's Medal" Ent="832" Pos="8" Pts="16.0"/>
-<sp Div="Men's Medal" Ent="836" Pos="9" Pts="18.0"/>
-<sp Div="Men's Medal" Ent="818" Pos="10" Pts="20.0"/>
-</SeriesPointsList>
 </Stage>
 <Stage CombinedQualifying="false" Name="Women's Medal" ScoreCarryOver="ALL" StageId="9" StageRank="20" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
-<Divisions>
-<DivisionId/>
-</Divisions>
+<Divisions/>
 <System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="5" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
-<RacePointsList>
-<rp Div="Women's Medal" Ent="772" Pos="1" Pts="2.0" Race="717"/>
-<rp Div="Women's Medal" Ent="771" Pos="2" Pts="4.0" Race="717"/>
-<rp Div="Women's Medal" Ent="767" Pos="3" Pts="6.0" Race="717"/>
-<rp Div="Women's Medal" Ent="766" Pos="4" Pts="8.0" Race="717"/>
-<rp Div="Women's Medal" Ent="760" Pos="5" Pts="10.0" Race="717"/>
-<rp Div="Women's Medal" Ent="762" Pos="6" Pts="12.0" Race="717"/>
-<rp Div="Women's Medal" Ent="764" Pos="7" Pts="14.0" Race="717"/>
-<rp Div="Women's Medal" Ent="768" Pos="8" Pts="16.0" Race="717"/>
-<rp Div="Women's Medal" Ent="758" Pos="9" Pts="18.0" Race="717"/>
-<rp Div="Women's Medal" Ent="756" Pos="10" Pts="20.02" Race="717"/>
-</RacePointsList>
-<SeriesPointsList>
-<sp Div="Women's Medal" Ent="772" Pos="1" Pts="2.0"/>
-<sp Div="Women's Medal" Ent="771" Pos="2" Pts="4.0"/>
-<sp Div="Women's Medal" Ent="767" Pos="3" Pts="6.0"/>
-<sp Div="Women's Medal" Ent="766" Pos="4" Pts="8.0"/>
-<sp Div="Women's Medal" Ent="760" Pos="5" Pts="10.0"/>
-<sp Div="Women's Medal" Ent="762" Pos="6" Pts="12.0"/>
-<sp Div="Women's Medal" Ent="764" Pos="7" Pts="14.0"/>
-<sp Div="Women's Medal" Ent="768" Pos="8" Pts="16.0"/>
-<sp Div="Women's Medal" Ent="758" Pos="9" Pts="18.0"/>
-<sp Div="Women's Medal" Ent="756" Pos="10" Pts="20.02"/>
-</SeriesPointsList>
 </Stage>
 </Scores>
 <ReportOptionList>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="" Final="false" HostClub="" IFEventID="" JSVersion="7.2.1" JuryChair="" Multistage="false" Name="OCSPositionTest" Pro="" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="" Final="false" HostClub="" IFEventID="" JSVersion="7.5.1" JuryChair="" Multistage="false" Name="OCSPositionTest" Pro="" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="Alberg30">
-<MinRating ClassName="Alberg30" System="OneDesign"/>
-<MaxRating ClassName="Alberg30" System="OneDesign"/>
+<SlowestRating ClassName="Alberg30" System="OneDesign"/>
+<FastestRating ClassName="Alberg30" System="OneDesign"/>
 </Division>
 <Division DivName="Cal25">
-<MinRating ClassName="Cal25" System="OneDesign"/>
-<MaxRating ClassName="Cal25" System="OneDesign"/>
+<SlowestRating ClassName="Cal25" System="OneDesign"/>
+<FastestRating ClassName="Cal25" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -73,10 +73,10 @@
 </Entry>
 </EntryList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="04-Jul-2005" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="04-Jul-2005" Weight="1.0">
 <DivInfo>
-<DivStart Div="Alberg30" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Cal25" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Alberg30" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Cal25" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="2" Pos="1" Race="1"/>

@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta DailyScoring="false" Dates="April 22 - May 27, 2015" Final="false" HostClub="Annapolis Yacht Club" IFEventID="" JSVersion="7.3.1" JuryChair="" Multistage="false" Name="2015 Wednesday Night Race Series 1" Pro="Bobby Frey" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="April 22 - May 27, 2015" Final="false" HostClub="Annapolis Yacht Club" IFEventID="" JSVersion="7.5.1" JuryChair="" Multistage="false" Name="2015 Wednesday Night Race Series 1" Pro="Bobby Frey" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="Alberg 30">
-<MinRating ClassName="Alberg 30" System="OneDesign"/>
-<MaxRating ClassName="Alberg 30" System="OneDesign"/>
+<SlowestRating ClassName="Alberg 30" System="OneDesign"/>
+<FastestRating ClassName="Alberg 30" System="OneDesign"/>
 </Division>
 <Division DivName="Cal 25" Gender="Open">
-<MinRating ClassName="Cal25" System="OneDesign"/>
-<MaxRating ClassName="Cal25" System="OneDesign"/>
+<SlowestRating ClassName="Cal25" System="OneDesign"/>
+<FastestRating ClassName="Cal25" System="OneDesign"/>
 </Division>
 <Division DivName="Etchells">
-<MinRating ClassName="Etchells" System="OneDesign"/>
-<MaxRating ClassName="Etchells" System="OneDesign"/>
+<SlowestRating ClassName="Etchells" System="OneDesign"/>
+<FastestRating ClassName="Etchells" System="OneDesign"/>
 </Division>
 <Division DivName="Farr 30">
-<MinRating ClassName="Farr 30" System="OneDesign"/>
-<MaxRating ClassName="Farr 30" System="OneDesign"/>
+<SlowestRating ClassName="Farr 30" System="OneDesign"/>
+<FastestRating ClassName="Farr 30" System="OneDesign"/>
 </Division>
 <Division DivName="Harbor 20" Gender="Open">
-<MinRating ClassName="&lt;none&gt;" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="&lt;none&gt;" System="OneDesign"/>
 </Division>
 <Division DivName="Herreshoff 12.5">
-<MinRating ClassName="Herreshoff 12.5" System="OneDesign"/>
-<MaxRating ClassName="Herreshoff 12.5" System="OneDesign"/>
+<SlowestRating ClassName="Herreshoff 12.5" System="OneDesign"/>
+<FastestRating ClassName="Herreshoff 12.5" System="OneDesign"/>
 </Division>
 <Division DivName="J/105" Gender="Open">
-<MinRating ClassName="&lt;none&gt;" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="&lt;none&gt;" System="OneDesign"/>
 </Division>
 <Division DivName="J/24" Gender="Open">
-<MinRating ClassName="&lt;none&gt;" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="&lt;none&gt;" System="OneDesign"/>
 </Division>
 <Division DivName="J/30" Gender="Open">
-<MinRating ClassName="&lt;none&gt;" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="&lt;none&gt;" System="OneDesign"/>
 </Division>
 <Division DivName="J/35" Gender="Open">
-<MinRating ClassName="&lt;none&gt;" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="&lt;none&gt;" System="OneDesign"/>
 </Division>
 <Division DivName="J/70" Gender="Open">
-<MinRating ClassName="&lt;none&gt;" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="&lt;none&gt;" System="OneDesign"/>
 </Division>
 <Division DivName="J/80" Gender="Open">
-<MinRating ClassName="&lt;none&gt;" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="&lt;none&gt;" System="OneDesign"/>
 </Division>
 <Division DivName="PHRF">
-<MinRating ClassName="PHRF" System="OneDesign"/>
-<MaxRating ClassName="PHRF" System="OneDesign"/>
+<SlowestRating ClassName="PHRF" System="OneDesign"/>
+<FastestRating ClassName="PHRF" System="OneDesign"/>
 </Division>
 <Division DivName="PHRF 0" Gender="Open">
-<MinRating System="PHRF" Value="-999.0"/>
-<MaxRating System="PHRF" Value="66.0"/>
+<SlowestRating System="PHRF" Value="66.0"/>
+<FastestRating System="PHRF" Value="-999.0"/>
 </Division>
 <Division DivName="PHRF 1" Gender="Open">
-<MinRating System="PHRF" Value="67.0"/>
-<MaxRating System="PHRF" Value="102.0"/>
+<SlowestRating System="PHRF" Value="102.0"/>
+<FastestRating System="PHRF" Value="67.0"/>
 </Division>
 <Division DivName="PHRF 2" Gender="Open">
-<MinRating System="PHRF" Value="103.0"/>
-<MaxRating System="PHRF" Value="138.0"/>
+<SlowestRating System="PHRF" Value="138.0"/>
+<FastestRating System="PHRF" Value="103.0"/>
 </Division>
 <Division DivName="PHRF 3" Gender="Open">
-<MinRating System="PHRF" Value="139.0"/>
-<MaxRating System="PHRF" Value="228.0"/>
+<SlowestRating System="PHRF" Value="228.0"/>
+<FastestRating System="PHRF" Value="139.0"/>
 </Division>
 <Division DivName="PHRF 3A" Gender="Open">
-<MinRating System="PHRF" Value="299.0"/>
-<MaxRating System="PHRF" Value="999.0"/>
+<SlowestRating System="PHRF" Value="999.0"/>
+<FastestRating System="PHRF" Value="299.0"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -1313,26 +1313,26 @@
 </Entry>
 </EntryList>
 <RaceList>
-<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="22-Apr-2015" Weight="1.0">
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="22-Apr-2015" Weight="1.0">
 <DivInfo>
-<DivStart Div="Alberg 30" Length="5.531" StartTime="18:40:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Cal 25" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Etchells" Length="5.531" StartTime="18:25:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Farr 30" Length="6.86" StartTime="18:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Harbor 20" Length="2.0" StartTime="18:35:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Herreshoff 12.5" Length="2.0" StartTime="18:35:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/105" Length="6.86" StartTime="18:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/24" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J/30" Length="5.531" StartTime="18:30:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/35" Length="6.86" StartTime="18:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/70" Length="6.86" StartTime="18:20:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J/80" Length="6.86" StartTime="18:20:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF 0" Length="6.86" StartTime="18:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF 1" Length="6.86" StartTime="18:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF 2" Length="5.531" StartTime="18:35:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF 3" Length="5.531" StartTime="18:35:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF 3A" Length="5.531" StartTime="18:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Alberg 30" Length="5.531" LengthPursuit="0.0" StartTime="18:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Cal 25" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Etchells" Length="5.531" LengthPursuit="0.0" StartTime="18:25:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Farr 30" Length="6.86" LengthPursuit="0.0" StartTime="18:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Harbor 20" Length="2.0" LengthPursuit="0.0" StartTime="18:35:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Herreshoff 12.5" Length="2.0" LengthPursuit="0.0" StartTime="18:35:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/105" Length="6.86" LengthPursuit="0.0" StartTime="18:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J/30" Length="5.531" LengthPursuit="0.0" StartTime="18:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/35" Length="6.86" LengthPursuit="0.0" StartTime="18:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/70" Length="6.86" LengthPursuit="0.0" StartTime="18:20:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/80" Length="6.86" LengthPursuit="0.0" StartTime="18:20:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 0" Length="6.86" LengthPursuit="0.0" StartTime="18:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 1" Length="6.86" LengthPursuit="0.0" StartTime="18:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 2" Length="5.531" LengthPursuit="0.0" StartTime="18:35:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 3" Length="5.531" LengthPursuit="0.0" StartTime="18:35:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 3A" Length="5.531" LengthPursuit="0.0" StartTime="18:40:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="335" Pos="1" Race="1">
@@ -1594,26 +1594,26 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="2" StartDate="22-Feb-2016" Weight="1.0">
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="2" StartDate="22-Feb-2016" Weight="1.0">
 <DivInfo>
-<DivStart Div="Alberg 30" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Cal 25" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Etchells" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Farr 30" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Harbor 20" Length="2.0" StartTime="18:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Herreshoff 12.5" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J/105" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J/24" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J/30" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J/35" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J/70" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J/80" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF 0" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF 1" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF 2" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF 3" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF 3A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Alberg 30" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Cal 25" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Etchells" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Farr 30" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Harbor 20" Length="2.0" LengthPursuit="0.0" StartTime="18:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Herreshoff 12.5" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J/105" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J/24" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J/30" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J/35" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J/70" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J/80" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 0" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF 1" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF 2" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF 3" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF 3A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="249" Pos="1" Race="2"/>
@@ -1674,7 +1674,7 @@
 <rp Div="Harbor 20" Ent="252" Pos="49152" Pts="1.0" Race="1"/>
 <rp Div="Harbor 20" Ent="249" Pos="1" Pts="1.0" Race="2"/>
 <rp Div="Harbor 20" Ent="253" Pos="2" Pts="2.0" Race="2"/>
-<rp Div="Harbor 20" Ent="247" Pos="3" Pts="5.0" Race="2"/>
+<rp Div="Harbor 20" Ent="247" Pos="3" Pts="4.0" Race="2"/>
 <rp Div="Harbor 20" Ent="262" Pos="4" Pts="4.0" Race="2"/>
 <rp Div="Harbor 20" Ent="250" Pos="5" Pts="5.0" Race="2"/>
 <rp Div="Harbor 20" Ent="255" Pos="6" Pts="6.0" Race="2"/>
@@ -1797,9 +1797,9 @@
 <sp Div="Farr 30" Ent="243" Pos="5" Pts="5.0" Tied="true"/>
 <sp Div="Harbor 20" Ent="249" Pos="1" Pts="2.0"/>
 <sp Div="Harbor 20" Ent="253" Pos="2" Pts="3.0"/>
-<sp Div="Harbor 20" Ent="262" Pos="3" Pts="5.0"/>
-<sp Div="Harbor 20" Ent="250" Pos="4" Pts="6.0" Tied="true"/>
-<sp Div="Harbor 20" Ent="247" Pos="4" Pts="6.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="262" Pos="3" Pts="5.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="247" Pos="3" Pts="5.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="250" Pos="5" Pts="6.0"/>
 <sp Div="Harbor 20" Ent="255" Pos="6" Pts="7.0"/>
 <sp Div="Harbor 20" Ent="259" Pos="7" Pts="8.0"/>
 <sp Div="Harbor 20" Ent="261" Pos="8" Pts="9.0"/>

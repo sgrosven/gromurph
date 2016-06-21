@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="4/21/2010 - 9/9/22/2010" Final="false" HostClub="MRSA/YCCSC/PSA/GIYS" IFEventID="" JSVersion="7.2.1" JuryChair="" Multistage="false" Name="Magothy River Wednesday Night" Pro="" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="4/21/2010 - 9/9/22/2010" Final="false" HostClub="MRSA/YCCSC/PSA/GIYS" IFEventID="" JSVersion="7.5.1" JuryChair="" Multistage="false" Name="Magothy River Wednesday Night" Pro="" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="Magothy A">
-<MinRating System="PHRF" Value="0.0"/>
-<MaxRating System="PHRF" Value="117.0"/>
+<SlowestRating System="PHRF" Value="117.0"/>
+<FastestRating System="PHRF" Value="0.0"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -39,9 +39,9 @@
 </Entry>
 </EntryList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="4/21/2010; CB -- Ultraviolet; Course A-B-G-A-B-G-A for A, A-B-G-A for everyone else. " LongDistance="false" MedalRace="false" Name="1, Series 1" NonDiscardable="false" RaceId="1" StartDate="21-Apr-2010" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="4/21/2010; CB -- Ultraviolet; Course A-B-G-A-B-G-A for A, A-B-G-A for everyone else. " LongDistance="false" MedalRace="false" Name="1, Series 1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="21-Apr-2010" Weight="1.0">
 <DivInfo>
-<DivStart Div="Magothy A" Length="7.46" StartTime="18:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Magothy A" Length="7.46" LengthPursuit="0.0" StartTime="18:15:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="1" Pos="1" Race="1" Time="19:45:02.0"/>

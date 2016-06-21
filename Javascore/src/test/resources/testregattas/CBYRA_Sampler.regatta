@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="Feb 7" Final="false" HostClub="CBYRA" IFEventID="" JSVersion="7.2.1" JuryChair="You" Multistage="false" Name="CBYRA Sampler" Pro="Me" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="Feb 7" Final="false" HostClub="CBYRA" IFEventID="" JSVersion="7.5.1" JuryChair="You" Multistage="false" Name="CBYRA Sampler" Pro="Me" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="J22">
-<MinRating ClassName="J22" System="OneDesign"/>
-<MaxRating ClassName="J22" System="OneDesign"/>
+<SlowestRating ClassName="J22" System="OneDesign"/>
+<FastestRating ClassName="J22" System="OneDesign"/>
 </Division>
 <Division DivName="PHRF A0">
-<MinRating System="PHRF" Value="-9999.0"/>
-<MaxRating System="PHRF" Value="40.0"/>
+<SlowestRating System="PHRF" Value="40.0"/>
+<FastestRating System="PHRF" Value="-9999.0"/>
 </Division>
 <Division DivName="PHRF A1">
-<MinRating System="PHRF" Value="41.0"/>
-<MaxRating System="PHRF" Value="85.0"/>
+<SlowestRating System="PHRF" Value="85.0"/>
+<FastestRating System="PHRF" Value="41.0"/>
 </Division>
 <Division DivName="PHRF B">
-<MinRating System="PHRF" Value="119.0"/>
-<MaxRating System="PHRF" Value="154.0"/>
+<SlowestRating System="PHRF" Value="154.0"/>
+<FastestRating System="PHRF" Value="119.0"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -155,14 +155,15 @@
 </SubDivision>
 </SubDivisionList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="06-Feb-2004" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="06-Feb-2004" Weight="1.0">
 <DivInfo>
-<DivStart Div="PHRF A0" Length="10.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="8.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A1" Length="10.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J22" Length="4.0" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J22 Masters" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A0" Length="10.0" LengthPursuit="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="8.0" LengthPursuit="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A1" Length="10.0" LengthPursuit="0.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J22" Length="4.0" LengthPursuit="0.0" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J22 Masters" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="2" Pos="1" Race="1" Time="15:22:23.0"/>

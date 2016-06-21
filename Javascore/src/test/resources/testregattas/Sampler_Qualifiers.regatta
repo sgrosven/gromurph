@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="April 13-14, 2002" Final="false" HostClub="My Yacht Club" IFEventID="" JSVersion="7.2.1" JuryChair="Dan I M Goode" Multistage="true" Name="Spring Qualifier Sampler" Pro="Godfired O. Dangerfield" UseBowNumbers="false" Version="600" comment="A sample showing how a 4-subfleet qualifying event would work.  This is common in US one-design classes like the J24 fleet.">
+<Regatta DailyScoring="false" Dates="April 13-14, 2002" Final="false" HostClub="My Yacht Club" IFEventID="" JSVersion="7.5.1" JuryChair="Dan I M Goode" Multistage="true" Name="Spring Qualifier Sampler" Pro="Godfired O. Dangerfield" UseBowNumbers="false" Version="600" comment="A sample showing how a 4-subfleet qualifying event would work.  This is common in US one-design classes like the J24 fleet.">
 <DivisionList>
 <Division DivName="J24">
-<MinRating ClassName="J24" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="J24" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -170,13 +170,13 @@
 </SubDivision>
 </SubDivisionList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="Blue" Length="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J24" Length="0.0" StartTime="12:00:00.0" isRacing="false" nextDay="false"/>
-<DivStart Div="Green" Length="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Pink" Length="0.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Orange" Length="0.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Blue" Length="0.0" LengthPursuit="0.0" StartTime="1/12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J24" Length="0.0" LengthPursuit="0.0" StartTime="1/12:00:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="Green" Length="0.0" LengthPursuit="0.0" StartTime="1/12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Pink" Length="0.0" LengthPursuit="0.0" StartTime="1/12:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Orange" Length="0.0" LengthPursuit="0.0" StartTime="1/12:05:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="11" Pos="1" Race="1"/>
@@ -194,13 +194,13 @@
 <Fin Ent="23" Pos="13" Race="1"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="12" StartDate="15-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="12" StartDate="15-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="Blue" Length="0.0" StartTime="13:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J24" Length="0.0" StartTime="13:05:00.0" isRacing="false" nextDay="false"/>
-<DivStart Div="Green" Length="0.0" StartTime="13:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Pink" Length="0.0" StartTime="13:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Orange" Length="0.0" StartTime="13:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Blue" Length="0.0" LengthPursuit="0.0" StartTime="1/13:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J24" Length="0.0" LengthPursuit="0.0" StartTime="1/13:05:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="Green" Length="0.0" LengthPursuit="0.0" StartTime="1/13:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Pink" Length="0.0" LengthPursuit="0.0" StartTime="1/13:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Orange" Length="0.0" LengthPursuit="0.0" StartTime="1/13:10:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="18" Pos="1" Race="12"/>
@@ -218,13 +218,13 @@
 <Fin Ent="20" Pos="13" Race="12"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="13" StartDate="15-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="13" StartDate="15-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="Blue" Length="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J24" Length="0.0" StartTime="14:05:00.0" isRacing="false" nextDay="false"/>
-<DivStart Div="Green" Length="0.0" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Pink" Length="0.0" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Orange" Length="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Blue" Length="0.0" LengthPursuit="0.0" StartTime="1/14:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J24" Length="0.0" LengthPursuit="0.0" StartTime="1/14:05:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="Green" Length="0.0" LengthPursuit="0.0" StartTime="1/14:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Pink" Length="0.0" LengthPursuit="0.0" StartTime="1/14:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Orange" Length="0.0" LengthPursuit="0.0" StartTime="1/14:00:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="16" Pos="1" Race="13"/>
@@ -249,69 +249,49 @@
 </RaceList>
 <Scores>
 <Stage CombinedQualifying="true" Name="Qualifying" ScoreCarryOver="ALL" StageId="7" StageRank="10" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
-<Divisions>
-<DivisionId/>
-<DivisionId/>
-<DivisionId/>
-<DivisionId/>
-</Divisions>
+<Divisions/>
 <System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
 <RacePointsList>
 <rp Div="Blue" Ent="11" Pos="1" Pts="1.0" Race="1"/>
 <rp Div="Green" Ent="15" Pos="2" Pts="2.0" Race="1"/>
-<rp Div="Blue" Ent="13" Pos="3" Pts="3.0" Race="1" Toss="true"/>
+<rp Div="Blue" Ent="13" Pos="3" Pts="3.0" Race="1"/>
 <rp Div="Blue" Ent="12" Pos="4" Pts="4.0" Race="1"/>
-<rp Div="Green" Ent="16" Pos="5" Pts="5.0" Race="1" Toss="true"/>
+<rp Div="Green" Ent="16" Pos="5" Pts="5.0" Race="1"/>
 <rp Div="Green" Ent="14" Pos="6" Pts="6.0" Race="1"/>
 <rp Div="Orange" Ent="19" Pos="1" Pts="1.0" Race="1"/>
-<rp Div="Pink" Ent="22" Pos="2" Pts="2.0" Race="1" Toss="true"/>
+<rp Div="Pink" Ent="22" Pos="2" Pts="2.0" Race="1"/>
 <rp Div="Pink" Ent="20" Pos="3" Pts="3.0" Race="1"/>
 <rp Div="Orange" Ent="17" Pos="4" Pts="4.0" Race="1"/>
-<rp Div="Pink" Ent="21" Pos="5" Pts="5.0" Race="1" Toss="true"/>
-<rp Div="Orange" Ent="18" Pos="6" Pts="6.0" Race="1" Toss="true"/>
-<rp Div="Pink" Ent="23" Pos="7" Pts="7.0" Race="1" Toss="true"/>
+<rp Div="Pink" Ent="21" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="Orange" Ent="18" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="Pink" Ent="23" Pos="7" Pts="7.0" Race="1"/>
 <rp Div="Pink" Ent="22" Pos="1" Pts="1.0" Race="12"/>
 <rp Div="Blue" Ent="13" Pos="2" Pts="2.0" Race="12"/>
 <rp Div="Blue" Ent="12" Pos="3" Pts="3.0" Race="12"/>
-<rp Div="Blue" Ent="11" Pos="4" Pts="4.0" Race="12" Toss="true"/>
+<rp Div="Blue" Ent="11" Pos="4" Pts="4.0" Race="12"/>
 <rp Div="Pink" Ent="21" Pos="5" Pts="5.0" Race="12"/>
 <rp Div="Pink" Ent="23" Pos="6" Pts="6.0" Race="12"/>
-<rp Div="Pink" Ent="20" Pos="7" Pts="7.0" Race="12" Toss="true"/>
+<rp Div="Pink" Ent="20" Pos="7" Pts="7.0" Race="12"/>
 <rp Div="Orange" Ent="18" Pos="1" Pts="1.0" Race="12"/>
 <rp Div="Green" Ent="15" Pos="2" Pts="2.0" Race="12"/>
-<rp Div="Orange" Ent="19" Pos="3" Pts="3.0" Race="12" Toss="true"/>
+<rp Div="Orange" Ent="19" Pos="3" Pts="3.0" Race="12"/>
 <rp Div="Green" Ent="16" Pos="4" Pts="4.0" Race="12"/>
 <rp Div="Green" Ent="14" Pos="5" Pts="5.0" Race="12"/>
-<rp Div="Orange" Ent="17" Pos="6" Pts="6.0" Race="12" Toss="true"/>
+<rp Div="Orange" Ent="17" Pos="6" Pts="6.0" Race="12"/>
 <rp Div="Blue" Ent="13" Pos="1" Pts="1.0" Race="13"/>
 <rp Div="Orange" Ent="19" Pos="2" Pts="2.0" Race="13"/>
-<rp Div="Blue" Ent="12" Pos="3" Pts="7.0" Race="13" Toss="true"/>
+<rp Div="Blue" Ent="12" Pos="3" Pts="7.0" Race="13"/>
 <rp Div="Blue" Ent="11" Pos="4" Pts="3.0" Race="13"/>
 <rp Div="Orange" Ent="18" Pos="5" Pts="4.0" Race="13"/>
 <rp Div="Orange" Ent="17" Pos="6" Pts="5.0" Race="13"/>
 <rp Div="Green" Ent="16" Pos="1" Pts="1.0" Race="13"/>
 <rp Div="Pink" Ent="22" Pos="2" Pts="2.0" Race="13"/>
-<rp Div="Green" Ent="15" Pos="3" Pts="3.0" Race="13" Toss="true"/>
+<rp Div="Green" Ent="15" Pos="3" Pts="3.0" Race="13"/>
 <rp Div="Pink" Ent="21" Pos="4" Pts="4.0" Race="13"/>
 <rp Div="Pink" Ent="23" Pos="5" Pts="5.0" Race="13"/>
-<rp Div="Green" Ent="14" Pos="6" Pts="8.0" Race="13" Toss="true"/>
+<rp Div="Green" Ent="14" Pos="6" Pts="8.0" Race="13"/>
 <rp Div="Pink" Ent="20" Pos="7" Pts="6.0" Race="13"/>
 </RacePointsList>
-<SeriesPointsList>
-<sp Div="J24" Ent="13" Pos="1" Pts="3.0"/>
-<sp Div="J24" Ent="22" Pos="2" Pts="3.0001"/>
-<sp Div="J24" Ent="19" Pos="3" Pts="3.0002000000000004"/>
-<sp Div="J24" Ent="11" Pos="4" Pts="4.0"/>
-<sp Div="J24" Ent="15" Pos="5" Pts="4.0001"/>
-<sp Div="J24" Ent="16" Pos="6" Pts="5.0"/>
-<sp Div="J24" Ent="18" Pos="7" Pts="5.0001"/>
-<sp Div="J24" Ent="12" Pos="8" Pts="7.0"/>
-<sp Div="J24" Ent="20" Pos="9" Pts="9.0"/>
-<sp Div="J24" Ent="21" Pos="10" Pts="9.0001"/>
-<sp Div="J24" Ent="17" Pos="11" Pts="9.0002"/>
-<sp Div="J24" Ent="23" Pos="12" Pts="11.0"/>
-<sp Div="J24" Ent="14" Pos="13" Pts="11.0001"/>
-</SeriesPointsList>
 </Stage>
 </Scores>
 <ReportOptionList>

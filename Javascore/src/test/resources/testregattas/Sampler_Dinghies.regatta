@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="April 13-14, 2002" Final="false" HostClub="My Yacht Club" IFEventID="" JSVersion="7.2.1" JuryChair="Dan I M Goode" Multistage="false" Name="Spring Sampler" Pro="Godfired O. Dangerfield" UseBowNumbers="false" Version="600" comment="Sample small boat style regatta, with a &quot;womens&quot; subdivision within the 470 class, and demonstrating a nightmare tiebreaker in the &quot;Tiedlings&quot; class">
+<Regatta DailyScoring="false" Dates="April 13-14, 2002" Final="false" HostClub="My Yacht Club" IFEventID="" JSVersion="7.5.1" JuryChair="Dan I M Goode" Multistage="false" Name="Spring Sampler" Pro="Godfired O. Dangerfield" UseBowNumbers="false" Version="600" comment="Sample small boat style regatta, with a &quot;womens&quot; subdivision within the 470 class, and demonstrating a nightmare tiebreaker in the &quot;Tiedlings&quot; class">
 <DivisionList>
 <Division DivName="470">
-<MinRating ClassName="470" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="470" System="OneDesign"/>
 </Division>
 <Division DivName="Tiedlings">
-<MinRating ClassName="Tiedlings" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="Tiedlings" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -155,15 +155,15 @@
 </SubDivision>
 </SubDivisionList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="3" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="3" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="470" Length="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Tiedlings" Length="0.0" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" LengthPursuit="0.0" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="7" Pos="1" Race="3"/>
@@ -180,15 +180,15 @@
 <Fin Ent="4" Pos="12" Race="3"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="5" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="5" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="470" Length="0.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Tiedlings" Length="0.0" StartTime="14:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" LengthPursuit="0.0" StartTime="14:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="4" Pos="1" Race="5"/>
@@ -205,15 +205,15 @@
 <Fin Ent="38" Pos="12" Race="5"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="6" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="6" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="470" Length="0.0" StartTime="14:40:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Tiedlings" Length="0.0" StartTime="14:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="14:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" LengthPursuit="0.0" StartTime="14:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="4" Pos="1" Race="6"/>
@@ -230,15 +230,15 @@
 <Fin Ent="36" Pos="12" Race="6"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" RaceId="7" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="7" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="470" Length="0.0" StartTime="15:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Tiedlings" Length="0.0" StartTime="15:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="15:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" LengthPursuit="0.0" StartTime="15:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="6" Pos="1" Race="7"/>
@@ -255,15 +255,15 @@
 <Fin Ent="4" Pos="12" Race="7"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" RaceId="8" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="8" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="470" Length="0.0" StartTime="16:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Tiedlings" Length="0.0" StartTime="16:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="16:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" LengthPursuit="0.0" StartTime="16:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="37" Pos="1" Race="8"/>
@@ -280,15 +280,15 @@
 <Fin Ent="1" Pos="12" Race="8"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" RaceId="9" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="9" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="470" Length="0.0" StartTime="17:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Tiedlings" Length="0.0" StartTime="17:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="17:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" LengthPursuit="0.0" StartTime="17:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="10" Pos="1" Race="9"/>
@@ -305,15 +305,15 @@
 <Fin Ent="5" Pos="12" Race="9"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" RaceId="10" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="10" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="470" Length="0.0" StartTime="17:40:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Tiedlings" Length="0.0" StartTime="17:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="17:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tiedlings" Length="0.0" LengthPursuit="0.0" StartTime="17:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="36" Pos="1" Race="10"/>

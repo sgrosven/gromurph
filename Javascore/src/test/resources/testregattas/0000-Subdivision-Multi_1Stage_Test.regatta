@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="July 21-22, 2000" Final="false" HostClub="Eastport Yacht Club" IFEventID="" JSVersion="7.2.1" JuryChair="Mark Murphy" Multistage="false" Name="2000 Solomon's Island Race" Pro="Sharon Hadsell" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="July 21-22, 2000" Final="false" HostClub="Eastport Yacht Club" IFEventID="" JSVersion="7.5.1" JuryChair="Mark Murphy" Multistage="false" Name="2000 Solomon's Island Race" Pro="Sharon Hadsell" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="CAT27">
-<MinRating ClassName="CAT27" System="OneDesign"/>
-<MaxRating ClassName="CAT27" System="OneDesign"/>
+<SlowestRating ClassName="CAT27" System="OneDesign"/>
+<FastestRating ClassName="CAT27" System="OneDesign"/>
 </Division>
 <Division DivName="J105">
-<MinRating ClassName="J105" System="OneDesign"/>
-<MaxRating ClassName="J105" System="OneDesign"/>
+<SlowestRating ClassName="J105" System="OneDesign"/>
+<FastestRating ClassName="J105" System="OneDesign"/>
 </Division>
 <Division DivName="J30">
-<MinRating ClassName="J30" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="J30" System="OneDesign"/>
 </Division>
 <Division DivName="J35">
-<MinRating ClassName="J35" System="OneDesign"/>
-<MaxRating ClassName="J35" System="OneDesign"/>
+<SlowestRating ClassName="J35" System="OneDesign"/>
+<FastestRating ClassName="J35" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -442,14 +442,15 @@
 </SubDivision>
 </SubDivisionList>
 <RaceList>
-<Race AFactor="625" BFactor="625" Comment="" LongDistance="true" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="21-Jul-2000" Weight="1.0">
+<Race AFactor="625" BFactor="625" Comment="" LongDistance="true" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="21-Jul-2000" Weight="1.0">
 <DivInfo>
-<DivStart Div="J35" Length="55.0" StartTime="0/19:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J105" Length="55.0" StartTime="0/19:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J30" Length="45.0" StartTime="0/19:25:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="CAT27" Length="45.0" StartTime="0/19:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Masters" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Famdamily" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J35" Length="55.0" LengthPursuit="0.0" StartTime="19:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J105" Length="55.0" LengthPursuit="0.0" StartTime="19:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J30" Length="45.0" LengthPursuit="0.0" StartTime="19:25:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="CAT27" Length="45.0" LengthPursuit="0.0" StartTime="19:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Masters" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Famdamily" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Famdamily" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="117" Pos="1" Race="1" Time="1/04:00:00.0"/>
@@ -494,14 +495,15 @@
 <Fin Ent="116" Pos="40" Race="1" Time="1/06:45:48.0"/>
 </FinishList>
 </Race>
-<Race AFactor="625" BFactor="625" Comment="" LongDistance="true" MedalRace="false" Name="2" NonDiscardable="false" RaceId="2" StartDate="22-Jul-2000" Weight="1.0">
+<Race AFactor="625" BFactor="625" Comment="" LongDistance="true" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="2" StartDate="22-Jul-2000" Weight="1.0">
 <DivInfo>
-<DivStart Div="J35" Length="70.0" StartTime="0/19:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J105" Length="70.0" StartTime="0/19:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J30" Length="70.0" StartTime="0/19:25:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="CAT27" Length="70.0" StartTime="0/19:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Masters" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Famdamily" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J35" Length="70.0" LengthPursuit="0.0" StartTime="19:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J105" Length="70.0" LengthPursuit="0.0" StartTime="19:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J30" Length="70.0" LengthPursuit="0.0" StartTime="19:25:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="CAT27" Length="70.0" LengthPursuit="0.0" StartTime="19:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Masters" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Famdamily" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Famdamily" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="117" Pos="1" Race="2" Time="1/03:00:00.0"/>

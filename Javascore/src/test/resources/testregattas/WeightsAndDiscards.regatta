@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="" Final="false" HostClub="" IFEventID="" JSVersion="7.2.1" JuryChair="" Multistage="false" Name="2008 Olympic Scoring Test" Pro="" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="" Final="false" HostClub="" IFEventID="" JSVersion="7.5.1" JuryChair="" Multistage="false" Name="2008 Olympic Scoring Test" Pro="" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="Laser Radial">
-<MinRating ClassName="Laser Radial" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="Laser Radial" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -59,9 +59,9 @@
 </Entry>
 </EntryList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="5" StartDate="25-Nov-2005" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="5" StartDate="25-Nov-2005" Weight="1.0">
 <DivInfo>
-<DivStart Div="Laser Radial" Length="0.0" StartTime="00:01:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Laser Radial" Length="0.0" LengthPursuit="0.0" StartTime="00:01:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="1" Pos="1" Race="5"/>
@@ -71,9 +71,9 @@
 <Fin Ent="6" Pos="5" Race="5"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="6" StartDate="25-Nov-2005" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="6" StartDate="25-Nov-2005" Weight="1.0">
 <DivInfo>
-<DivStart Div="Laser Radial" Length="0.0" StartTime="00:02:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Laser Radial" Length="0.0" LengthPursuit="0.0" StartTime="00:02:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="1" Pos="1" Race="6"/>
@@ -83,9 +83,9 @@
 <Fin Ent="6" Pos="5" Race="6"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="7" StartDate="25-Nov-2005" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="7" StartDate="25-Nov-2005" Weight="1.0">
 <DivInfo>
-<DivStart Div="Laser Radial" Length="0.0" StartTime="00:03:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Laser Radial" Length="0.0" LengthPursuit="0.0" StartTime="00:03:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="3" Pos="1" Race="7"/>
@@ -95,9 +95,9 @@
 <Fin Ent="6" Pos="5" Race="7"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="true" RaceId="8" StartDate="25-Nov-2005" Weight="2.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="true" Pursuit="false" PursuitShortened="false" RaceId="8" StartDate="25-Nov-2005" Weight="2.0">
 <DivInfo>
-<DivStart Div="Laser Radial" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Laser Radial" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="3" Pos="1" Race="8"/>

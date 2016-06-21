@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.2.1" JuryChair="Bernard Bonneau" Multistage="true" Name="2013 Miami SWC - Laser" Pro="Tom Duggan" UseBowNumbers="true" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.5.1" JuryChair="Bernard Bonneau" Multistage="true" Name="2013 Miami SWC - Laser" Pro="Tom Duggan" UseBowNumbers="true" Version="600" comment="">
 <DivisionList>
 <Division DivName="Laser" Gender="Men" IFClassID="LSR">
-<MinRating ClassName="Laser" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="Laser" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -1037,18 +1037,18 @@
 </SubDivision>
 </SubDivisionList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="36" StartDate="28-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="36" StartDate="28-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="108" Pos="1" Race="36"/>
@@ -1123,18 +1123,18 @@
 <Fin Ent="122" Pos="70" Race="36"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="39" StartDate="28-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="39" StartDate="28-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="13:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="13:40:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="13:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="13:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="81" Pos="1" Race="39"/>
@@ -1209,18 +1209,18 @@
 <Fin Ent="101" Pos="70" Race="39"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="131" StartDate="29-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="131" StartDate="29-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="12:13:00.0" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="12:01:00.0" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="12:01:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="12:13:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="12:13:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="12:01:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="12:01:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="12:13:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="114" Pos="1" Race="131"/>
@@ -1299,18 +1299,18 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" RaceId="133" StartDate="29-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="133" StartDate="29-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="13:34:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="13:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="13:34:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="13:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="114" Pos="1" Race="133"/>
@@ -1389,18 +1389,18 @@
 <Fin Ent="115" Pos="70" Race="133"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" RaceId="281" StartDate="30-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="281" StartDate="30-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="12:22:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="12:22:00.0" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="12:25:00.0" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="11:58:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="12:22:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="12:22:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="12:25:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="11:58:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="129" Pos="1" Race="281"/>
@@ -1481,18 +1481,18 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" RaceId="316" StartDate="30-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="316" StartDate="30-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="13:30:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="13:24:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="13:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="13:24:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="129" Pos="1" Race="316"/>
@@ -1575,18 +1575,18 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7/Carry Over" NonDiscardable="false" RaceId="398" StartDate="30-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7/Carry Over" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="398" StartDate="30-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="23:59:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="23:59:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="23:59:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="23:59:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="129" Pos="1" Race="398"/>
@@ -1661,18 +1661,18 @@
 <Fin Ent="122" Pos="70" Race="398"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" RaceId="481" StartDate="31-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="481" StartDate="31-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="11:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="11:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="11:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="11:10:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="93" Pos="1" Race="481"/>
@@ -1749,18 +1749,18 @@
 <Fin Ent="122" Pos="70" Race="481"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" RaceId="578" StartDate="31-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="578" StartDate="31-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="147" Pos="1" Race="578"/>
@@ -1839,18 +1839,18 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" RaceId="625" StartDate="31-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="625" StartDate="31-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="116" Pos="1" Race="625"/>
@@ -1937,18 +1937,18 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="11" NonDiscardable="false" RaceId="717" StartDate="01-Feb-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="11" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="717" StartDate="01-Feb-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="81" Pos="1" Race="717"/>
@@ -2035,18 +2035,18 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="12" NonDiscardable="false" RaceId="810" StartDate="01-Feb-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="12" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="810" StartDate="01-Feb-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="114" Pos="1" Race="810"/>
@@ -2141,18 +2141,18 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="true" Name="13" NonDiscardable="true" RaceId="922" StartDate="02-Feb-2013" Weight="2.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="true" Name="13" NonDiscardable="true" Pursuit="false" PursuitShortened="false" RaceId="922" StartDate="02-Feb-2013" Weight="2.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="93" Pos="1" Race="922"/>
@@ -2167,18 +2167,18 @@
 <Fin Ent="95" Pos="10" Race="922"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="true" Name="14" NonDiscardable="true" RaceId="1052" StartDate="02-Feb-2013" Weight="2.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="true" Name="14" NonDiscardable="true" Pursuit="false" PursuitShortened="false" RaceId="1052" StartDate="02-Feb-2013" Weight="2.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="95" Pos="1" Race="1052"/>
@@ -2193,18 +2193,18 @@
 <Fin Ent="81" Pos="10" Race="1052"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="true" Name="15" NonDiscardable="true" RaceId="1080" StartDate="02-Feb-2013" Weight="2.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="true" Name="15" NonDiscardable="true" Pursuit="false" PursuitShortened="false" RaceId="1080" StartDate="02-Feb-2013" Weight="2.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="93" Pos="1" Race="1080"/>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="August 2-4, 2002" Final="false" HostClub="BYC, NBYC, LTYC, MYC" IFEventID="" JSVersion="7.2.1" JuryChair="" Multistage="false" Name="2002 Buzzard's Bay Regatta - Green Circle" Pro="Tom Farquhar" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="August 2-4, 2002" Final="false" HostClub="BYC, NBYC, LTYC, MYC" IFEventID="" JSVersion="7.5.1" JuryChair="" Multistage="false" Name="2002 Buzzard's Bay Regatta - Green Circle" Pro="Tom Farquhar" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="420 blue">
-<MinRating ClassName="Club 420" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="Club 420" System="OneDesign"/>
 </Division>
 <Division DivName="420 green">
-<MinRating ClassName="Club 420" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="Club 420" System="OneDesign"/>
 </Division>
 <Division DivName="420 red">
-<MinRating ClassName="Club 420" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="Club 420" System="OneDesign"/>
 </Division>
 <Division DivName="420 yellow">
-<MinRating ClassName="Club 420" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="Club 420" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -111,13 +111,14 @@
 </Fleet>
 </FleetList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="02-Aug-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="02-Aug-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="420 green" Length="0.0" StartTime="10:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="420 yellow" Length="0.0" StartTime="10:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="420 red" Length="0.0" StartTime="10:40:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="420 blue" Length="0.0" StartTime="10:40:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Club 420 Fleet" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="420 green" Length="0.0" LengthPursuit="0.0" StartTime="10:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 yellow" Length="0.0" LengthPursuit="0.0" StartTime="10:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 red" Length="0.0" LengthPursuit="0.0" StartTime="10:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 blue" Length="0.0" LengthPursuit="0.0" StartTime="10:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Club 420 Fleet" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Club 420 Fleet" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="8" Pos="1" Race="1" Time="13:20:00.0"/>
@@ -130,13 +131,14 @@
 <Fin Ent="10" Pos="8" Race="1" Time="13:20:08.0"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="3" StartDate="02-Aug-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="3" StartDate="02-Aug-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="420 green" Length="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="420 yellow" Length="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="420 red" Length="0.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="420 blue" Length="0.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Club 420 Fleet" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="420 green" Length="0.0" LengthPursuit="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 yellow" Length="0.0" LengthPursuit="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 red" Length="0.0" LengthPursuit="0.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 blue" Length="0.0" LengthPursuit="0.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Club 420 Fleet" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Club 420 Fleet" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="9" Pos="1" Race="3"/>
@@ -149,13 +151,14 @@
 <Fin Ent="10" Pos="8" Race="3"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="4" StartDate="02-Aug-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="4" StartDate="02-Aug-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="420 green" Length="0.0" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="420 yellow" Length="0.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="420 red" Length="0.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="420 blue" Length="0.0" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Club 420 Fleet" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="420 green" Length="0.0" LengthPursuit="0.0" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 yellow" Length="0.0" LengthPursuit="0.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 red" Length="0.0" LengthPursuit="0.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="420 blue" Length="0.0" LengthPursuit="0.0" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Club 420 Fleet" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Club 420 Fleet" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="5" Pos="1" Race="4"/>

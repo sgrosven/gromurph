@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="April 13-14, 2002" Final="false" HostClub="My Yacht Club" IFEventID="" JSVersion="7.2.1" JuryChair="Dan I M Goode" Multistage="false" Name="Spring Sampler" Pro="Godfired O. Dangerfield" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="April 13-14, 2002" Final="false" HostClub="My Yacht Club" IFEventID="" JSVersion="7.5.1" JuryChair="Dan I M Goode" Multistage="false" Name="Spring Sampler" Pro="Godfired O. Dangerfield" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="470">
-<MinRating ClassName="470" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="470" System="OneDesign"/>
 </Division>
 <Division DivName="Flying Farq">
-<MinRating ClassName="Flying Farq" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="Flying Farq" System="OneDesign"/>
 </Division>
 <Division DivName="J24 green">
-<MinRating ClassName="J24" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="J24" System="OneDesign"/>
 </Division>
 <Division DivName="J24 orange">
-<MinRating ClassName="J24" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="J24" System="OneDesign"/>
 </Division>
 <Division DivName="J24 pink">
-<MinRating ClassName="J24" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="J24" System="OneDesign"/>
 </Division>
 <Division DivName="J24 yellow">
-<MinRating ClassName="J24" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="J24" System="OneDesign"/>
 </Division>
 <Division DivName="PHRF A">
-<MinRating System="PHRF" Value="-999.0"/>
-<MaxRating System="PHRF" Value="0.0"/>
+<SlowestRating System="PHRF" Value="0.0"/>
+<FastestRating System="PHRF" Value="-999.0"/>
 </Division>
 <Division DivName="PHRF B">
-<MinRating System="PHRF" Value="0.0"/>
-<MaxRating System="PHRF" Value="9999.0"/>
+<SlowestRating System="PHRF" Value="9999.0"/>
+<FastestRating System="PHRF" Value="0.0"/>
 </Division>
 <Division DivName="PHRF ToT A">
-<MinRating System="PHRF" Value="-9999.0"/>
-<MaxRating System="PHRF" Value="-1.0"/>
+<SlowestRating System="PHRF" Value="-1.0"/>
+<FastestRating System="PHRF" Value="-9999.0"/>
 </Division>
 <Division DivName="PHRF ToT B">
-<MinRating System="PHRFTimeOnTime" Value="0.0"/>
-<MaxRating System="PHRFTimeOnTime" Value="9999.0"/>
+<SlowestRating System="PHRFTimeOnTime" Value="9999.0"/>
+<FastestRating System="PHRFTimeOnTime" Value="0.0"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -445,20 +445,20 @@
 </SubDivision>
 </SubDivisionList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1 a" NonDiscardable="false" RaceId="1" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1 a" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="J24 green" Length="3.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 orange" Length="3.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 yellow" Length="3.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="470" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 pink" Length="3.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Flying Farq" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 " Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 green" Length="3.0" LengthPursuit="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 orange" Length="3.0" LengthPursuit="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 yellow" Length="3.0" LengthPursuit="0.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 pink" Length="3.0" LengthPursuit="0.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Flying Farq" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 " Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="12" Pos="1" Race="1"/>
@@ -478,20 +478,20 @@
 <Fin Ent="18" Pos="13" Race="1"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1 b" NonDiscardable="false" RaceId="3" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1 b" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="3" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="J24 green" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 orange" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="470" Length="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 pink" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Flying Farq" Length="0.0" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 " Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 green" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 orange" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 pink" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Flying Farq" Length="0.0" LengthPursuit="0.0" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 " Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="7" Pos="1" Race="3"/>
@@ -508,20 +508,20 @@
 <Fin Ent="4" Pos="12" Race="3"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2 b" NonDiscardable="false" RaceId="5" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2 b" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="5" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="J24 green" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 orange" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="470" Length="0.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 pink" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Flying Farq" Length="0.0" StartTime="14:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 " Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 green" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 orange" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 pink" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Flying Farq" Length="0.0" LengthPursuit="0.0" StartTime="14:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 " Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="4" Pos="1" Race="5"/>
@@ -538,20 +538,20 @@
 <Fin Ent="38" Pos="12" Race="5"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3 b" NonDiscardable="false" RaceId="6" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3 b" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="6" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="J24 green" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 orange" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="470" Length="0.0" StartTime="14:40:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 pink" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Flying Farq" Length="0.0" StartTime="14:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 " Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 green" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 orange" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="14:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 pink" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Flying Farq" Length="0.0" LengthPursuit="0.0" StartTime="14:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 " Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="4" Pos="1" Race="6"/>
@@ -568,20 +568,20 @@
 <Fin Ent="36" Pos="12" Race="6"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4 b" NonDiscardable="false" RaceId="7" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4 b" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="7" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="J24 green" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 orange" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="470" Length="0.0" StartTime="15:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 pink" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Flying Farq" Length="0.0" StartTime="15:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 " Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 green" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 orange" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="15:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 pink" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Flying Farq" Length="0.0" LengthPursuit="0.0" StartTime="15:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 " Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="6" Pos="1" Race="7"/>
@@ -598,20 +598,20 @@
 <Fin Ent="4" Pos="12" Race="7"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5 b" NonDiscardable="false" RaceId="8" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5 b" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="8" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="J24 green" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 orange" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="470" Length="0.0" StartTime="16:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 pink" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Flying Farq" Length="0.0" StartTime="16:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 " Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 green" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 orange" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="16:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 pink" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Flying Farq" Length="0.0" LengthPursuit="0.0" StartTime="16:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 " Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="37" Pos="1" Race="8"/>
@@ -628,20 +628,20 @@
 <Fin Ent="1" Pos="12" Race="8"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6 b" NonDiscardable="false" RaceId="9" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6 b" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="9" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="J24 green" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 orange" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="470" Length="0.0" StartTime="17:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 pink" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Flying Farq" Length="0.0" StartTime="17:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 " Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 green" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 orange" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="17:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 pink" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Flying Farq" Length="0.0" LengthPursuit="0.0" StartTime="17:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 " Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="10" Pos="1" Race="9"/>
@@ -658,20 +658,20 @@
 <Fin Ent="5" Pos="12" Race="9"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7 b" NonDiscardable="false" RaceId="10" StartDate="13-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7 b" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="10" StartDate="13-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="J24 green" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 orange" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="470" Length="0.0" StartTime="17:40:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 pink" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Flying Farq" Length="0.0" StartTime="17:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 " Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 green" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 orange" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="17:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 pink" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Flying Farq" Length="0.0" LengthPursuit="0.0" StartTime="17:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 " Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="36" Pos="1" Race="10"/>
@@ -688,20 +688,20 @@
 <Fin Ent="1" Pos="12" Race="10"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1 p" NonDiscardable="false" RaceId="14" StartDate="15-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1 p" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="14" StartDate="15-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="J24 green" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 orange" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="470" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 pink" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF A" Length="8.2" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="10.5" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="8.2" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Flying Farq" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="10.5" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 " Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 green" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 orange" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 pink" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF A" Length="8.2" LengthPursuit="0.0" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="10.5" LengthPursuit="0.0" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="8.2" LengthPursuit="0.0" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Flying Farq" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="10.5" LengthPursuit="0.0" StartTime="12:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 " Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="24" Pos="1" Race="14" Time="14:33:22.0"/>
@@ -718,20 +718,20 @@
 <Fin Ent="32" Pos="12" Race="14" Time="18:38:22.0"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2 a" NonDiscardable="false" RaceId="12" StartDate="15-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2 a" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="12" StartDate="15-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="J24 green" Length="4.0" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 orange" Length="4.0" StartTime="13:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 yellow" Length="4.0" StartTime="13:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="470" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 pink" Length="4.0" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Flying Farq" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 " Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 green" Length="4.0" LengthPursuit="0.0" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 orange" Length="4.0" LengthPursuit="0.0" StartTime="13:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 yellow" Length="4.0" LengthPursuit="0.0" StartTime="13:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 pink" Length="4.0" LengthPursuit="0.0" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Flying Farq" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 " Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="11" Pos="1" Race="12"/>
@@ -753,20 +753,20 @@
 <Fin Ent="23" Pos="13" Race="12"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3 a" NonDiscardable="false" RaceId="13" StartDate="15-Apr-2002" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3 a" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="13" StartDate="15-Apr-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="J24 green" Length="4.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 orange" Length="4.0" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 yellow" Length="4.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="470" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Women" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="J24 pink" Length="4.0" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT A" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Flying Farq" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF ToT B" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 " Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 green" Length="4.0" LengthPursuit="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 orange" Length="4.0" LengthPursuit="0.0" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 yellow" Length="4.0" LengthPursuit="0.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="470" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Women" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J24 pink" Length="4.0" LengthPursuit="0.0" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT A" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Flying Farq" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF ToT B" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 " Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="21" Pos="1" Race="13"/>
@@ -789,182 +789,6 @@
 </RaceList>
 <Scores SystemName="ISAF Low Point 2013-2016">
 <System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
-<RacePointsList>
-<rp Div="470" Ent="1" Pos="1" Pts="1.0" Race="3"/>
-<rp Div="470" Ent="3" Pos="2" Pts="2.0" Race="3"/>
-<rp Div="470" Ent="5" Pos="3" Pts="3.0" Race="3"/>
-<rp Div="470" Ent="4" Pos="4" Pts="4.0" Race="3" Toss="true"/>
-<rp Div="470" Ent="4" Pos="1" Pts="1.0" Race="5"/>
-<rp Div="470" Ent="3" Pos="2" Pts="2.0" Race="5"/>
-<rp Div="470" Ent="1" Pos="3" Pts="3.0" Race="5"/>
-<rp Div="470" Ent="5" Pos="4" Pts="4.0" Race="5" Toss="true"/>
-<rp Div="470" Ent="4" Pos="1" Pts="1.0" Race="6"/>
-<rp Div="470" Ent="5" Pos="2" Pts="2.0" Race="6"/>
-<rp Div="470" Ent="3" Pos="3" Pts="3.0" Race="6" Toss="true"/>
-<rp Div="470" Ent="1" Pos="4" Pts="4.0" Race="6" Toss="true"/>
-<rp Div="470" Ent="3" Pos="1" Pts="1.0" Race="7"/>
-<rp Div="470" Ent="1" Pos="2" Pts="2.0" Race="7"/>
-<rp Div="470" Ent="5" Pos="3" Pts="3.0" Race="7"/>
-<rp Div="470" Ent="4" Pos="4" Pts="4.0" Race="7"/>
-<rp Div="470" Ent="3" Pos="1" Pts="1.0" Race="8"/>
-<rp Div="470" Ent="5" Pos="2" Pts="2.0" Race="8"/>
-<rp Div="470" Ent="4" Pos="3" Pts="3.0" Race="8"/>
-<rp Div="470" Ent="1" Pos="4" Pts="4.0" Race="8"/>
-<rp Div="470" Ent="3" Pos="1" Pts="1.0" Race="9"/>
-<rp Div="470" Ent="4" Pos="2" Pts="2.0" Race="9"/>
-<rp Div="470" Ent="1" Pos="3" Pts="3.0" Race="9"/>
-<rp Div="470" Ent="5" Pos="4" Pts="4.0" Race="9"/>
-<rp Div="470" Ent="3" Pos="1" Pts="1.0" Race="10"/>
-<rp Div="470" Ent="5" Pos="2" Pts="2.0" Race="10"/>
-<rp Div="470" Ent="4" Pos="3" Pts="3.0" Race="10"/>
-<rp Div="470" Ent="1" Pos="4" Pts="4.0" Race="10"/>
-<rp Div="Flying Farq" Ent="7" Pos="1" Pts="1.0" Race="3"/>
-<rp Div="Flying Farq" Ent="8" Pos="2" Pts="2.0" Race="3"/>
-<rp Div="Flying Farq" Ent="9" Pos="3" Pts="3.0" Race="3"/>
-<rp Div="Flying Farq" Ent="36" Pos="4" Pts="4.0" Race="3"/>
-<rp Div="Flying Farq" Ent="6" Pos="5" Pts="5.0" Race="3"/>
-<rp Div="Flying Farq" Ent="37" Pos="6" Pts="6.0" Race="3"/>
-<rp Div="Flying Farq" Ent="10" Pos="7" Pts="7.0" Race="3" Toss="true"/>
-<rp Div="Flying Farq" Ent="38" Pos="8" Pts="8.0" Race="3" Toss="true"/>
-<rp Div="Flying Farq" Ent="8" Pos="1" Pts="1.0" Race="5"/>
-<rp Div="Flying Farq" Ent="6" Pos="2" Pts="2.0" Race="5"/>
-<rp Div="Flying Farq" Ent="7" Pos="3" Pts="3.0" Race="5"/>
-<rp Div="Flying Farq" Ent="10" Pos="4" Pts="4.0" Race="5"/>
-<rp Div="Flying Farq" Ent="9" Pos="5" Pts="5.0" Race="5"/>
-<rp Div="Flying Farq" Ent="37" Pos="6" Pts="6.0" Race="5"/>
-<rp Div="Flying Farq" Ent="36" Pos="7" Pts="7.0" Race="5"/>
-<rp Div="Flying Farq" Ent="38" Pos="8" Pts="8.0" Race="5"/>
-<rp Div="Flying Farq" Ent="9" Pos="1" Pts="1.0" Race="6"/>
-<rp Div="Flying Farq" Ent="10" Pos="2" Pts="2.0" Race="6"/>
-<rp Div="Flying Farq" Ent="6" Pos="3" Pts="3.0" Race="6"/>
-<rp Div="Flying Farq" Ent="7" Pos="4" Pts="4.0" Race="6"/>
-<rp Div="Flying Farq" Ent="37" Pos="5" Pts="5.0" Race="6"/>
-<rp Div="Flying Farq" Ent="8" Pos="6" Pts="6.0" Race="6"/>
-<rp Div="Flying Farq" Ent="38" Pos="7" Pts="7.0" Race="6"/>
-<rp Div="Flying Farq" Ent="36" Pos="8" Pts="8.0" Race="6" Toss="true"/>
-<rp Div="Flying Farq" Ent="6" Pos="1" Pts="1.0" Race="7"/>
-<rp Div="Flying Farq" Ent="9" Pos="2" Pts="2.0" Race="7"/>
-<rp Div="Flying Farq" Ent="8" Pos="3" Pts="3.0" Race="7"/>
-<rp Div="Flying Farq" Ent="10" Pos="4" Pts="4.0" Race="7"/>
-<rp Div="Flying Farq" Ent="7" Pos="5" Pts="5.0" Race="7"/>
-<rp Div="Flying Farq" Ent="38" Pos="6" Pts="6.0" Race="7"/>
-<rp Div="Flying Farq" Ent="37" Pos="7" Pts="7.0" Race="7" Toss="true"/>
-<rp Div="Flying Farq" Ent="36" Pos="8" Pts="8.0" Race="7"/>
-<rp Div="Flying Farq" Ent="37" Pos="1" Pts="1.0" Race="8"/>
-<rp Div="Flying Farq" Ent="36" Pos="2" Pts="2.0" Race="8"/>
-<rp Div="Flying Farq" Ent="10" Pos="3" Pts="3.0" Race="8"/>
-<rp Div="Flying Farq" Ent="6" Pos="4" Pts="4.0" Race="8"/>
-<rp Div="Flying Farq" Ent="38" Pos="5" Pts="5.0" Race="8"/>
-<rp Div="Flying Farq" Ent="9" Pos="6" Pts="6.0" Race="8" Toss="true"/>
-<rp Div="Flying Farq" Ent="8" Pos="7" Pts="7.0" Race="8" Toss="true"/>
-<rp Div="Flying Farq" Ent="7" Pos="8" Pts="8.0" Race="8" Toss="true"/>
-<rp Div="Flying Farq" Ent="10" Pos="1" Pts="1.0" Race="9"/>
-<rp Div="Flying Farq" Ent="36" Pos="2" Pts="2.0" Race="9"/>
-<rp Div="Flying Farq" Ent="37" Pos="3" Pts="3.0" Race="9"/>
-<rp Div="Flying Farq" Ent="9" Pos="4" Pts="4.0" Race="9"/>
-<rp Div="Flying Farq" Ent="8" Pos="5" Pts="5.0" Race="9"/>
-<rp Div="Flying Farq" Ent="7" Pos="6" Pts="6.0" Race="9"/>
-<rp Div="Flying Farq" Ent="6" Pos="7" Pts="7.0" Race="9"/>
-<rp Div="Flying Farq" Ent="38" Pos="8" Pts="8.0" Race="9"/>
-<rp Div="Flying Farq" Ent="36" Pos="1" Pts="1.0" Race="10"/>
-<rp Div="Flying Farq" Ent="7" Pos="2" Pts="2.0" Race="10"/>
-<rp Div="Flying Farq" Ent="37" Pos="3" Pts="3.0" Race="10"/>
-<rp Div="Flying Farq" Ent="8" Pos="4" Pts="4.0" Race="10"/>
-<rp Div="Flying Farq" Ent="38" Pos="5" Pts="5.0" Race="10"/>
-<rp Div="Flying Farq" Ent="9" Pos="6" Pts="6.0" Race="10"/>
-<rp Div="Flying Farq" Ent="10" Pos="7" Pts="7.0" Race="10"/>
-<rp Div="Flying Farq" Ent="6" Pos="8" Pts="8.0" Race="10" Toss="true"/>
-<rp Div="J24 green" Ent="12" Pos="1" Pts="1.0" Race="1"/>
-<rp Div="J24 green" Ent="13" Pos="2" Pts="2.0" Race="1" Toss="true"/>
-<rp Div="J24 green" Ent="11" Pos="3" Pts="3.0" Race="1" Toss="true"/>
-<rp Div="J24 green" Ent="11" Pos="1" Pts="1.0" Race="12"/>
-<rp Div="J24 green" Ent="13" Pos="2" Pts="2.0" Race="12"/>
-<rp Div="J24 green" Ent="12" Pos="3" Pts="3.0" Race="12" Toss="true"/>
-<rp Div="J24 green" Ent="13" Pos="1" Pts="1.0" Race="13"/>
-<rp Div="J24 green" Ent="11" Pos="2" Pts="2.0" Race="13"/>
-<rp Div="J24 green" Ent="12" Pos="3" Pts="2.0" Race="13"/>
-<rp Div="J24 orange" Ent="16" Pos="1" Pts="1.0" Race="1"/>
-<rp Div="J24 orange" Ent="14" Pos="2" Pts="2.0" Race="1"/>
-<rp Div="J24 orange" Ent="15" Pos="3" Pts="3.0" Race="1" Toss="true"/>
-<rp Div="J24 orange" Ent="15" Pos="1" Pts="1.0" Race="12"/>
-<rp Div="J24 orange" Ent="16" Pos="2" Pts="2.0" Race="12"/>
-<rp Div="J24 orange" Ent="14" Pos="3" Pts="3.0" Race="12" Toss="true"/>
-<rp Div="J24 orange" Ent="15" Pos="1" Pts="1.0" Race="13"/>
-<rp Div="J24 orange" Ent="14" Pos="2" Pts="2.0" Race="13"/>
-<rp Div="J24 orange" Ent="16" Pos="3" Pts="3.0" Race="13" Toss="true"/>
-<rp Div="J24 pink" Ent="19" Pos="1" Pts="1.0" Race="1"/>
-<rp Div="J24 pink" Ent="17" Pos="2" Pts="2.0" Race="1" Toss="true"/>
-<rp Div="J24 pink" Ent="18" Pos="3" Pts="3.0" Race="1" Toss="true"/>
-<rp Div="J24 pink" Ent="17" Pos="1" Pts="1.0" Race="12"/>
-<rp Div="J24 pink" Ent="18" Pos="2" Pts="2.0" Race="12"/>
-<rp Div="J24 pink" Ent="19" Pos="3" Pts="3.0" Race="12" Toss="true"/>
-<rp Div="J24 pink" Ent="19" Pos="1" Pts="1.0" Race="13"/>
-<rp Div="J24 pink" Ent="17" Pos="2" Pts="2.0" Race="13"/>
-<rp Div="J24 pink" Ent="18" Pos="3" Pts="3.0" Race="13"/>
-<rp Div="J24 yellow" Ent="20" Pos="1" Pts="1.0" Race="1"/>
-<rp Div="J24 yellow" Ent="21" Pos="2" Pts="5.0" Race="1" Toss="true"/>
-<rp Div="J24 yellow" Ent="23" Pos="3" Pts="2.0" Race="1"/>
-<rp Div="J24 yellow" Ent="22" Pos="4" Pts="3.0" Race="1"/>
-<rp Div="J24 yellow" Ent="20" Pos="1" Pts="5.0" Race="12" Toss="true"/>
-<rp Div="J24 yellow" Ent="21" Pos="2" Pts="1.0" Race="12"/>
-<rp Div="J24 yellow" Ent="22" Pos="3" Pts="5.0" Race="12" Toss="true"/>
-<rp Div="J24 yellow" Ent="23" Pos="4" Pts="2.0" Race="12"/>
-<rp Div="J24 yellow" Ent="21" Pos="1" Pts="1.0" Race="13"/>
-<rp Div="J24 yellow" Ent="20" Pos="2" Pts="2.0" Race="13"/>
-<rp Div="J24 yellow" Ent="23" Pos="3" Pts="3.0" Race="13" Toss="true"/>
-<rp Div="J24 yellow" Ent="22" Pos="4" Pts="4.0" Race="13"/>
-<rp Div="PHRF A" Ent="25" Pos="1" Pts="1.0" Race="14"/>
-<rp Div="PHRF A" Ent="24" Pos="2" Pts="2.0" Race="14"/>
-<rp Div="PHRF A" Ent="26" Pos="3" Pts="3.0" Race="14"/>
-<rp Div="PHRF B" Ent="28" Pos="1" Pts="1.0" Race="14"/>
-<rp Div="PHRF B" Ent="27" Pos="2" Pts="2.0" Race="14"/>
-<rp Div="PHRF B" Ent="29" Pos="3" Pts="3.0" Race="14"/>
-<rp Div="PHRF ToT A" Ent="31" Pos="1" Pts="1.0" Race="14"/>
-<rp Div="PHRF ToT A" Ent="32" Pos="2" Pts="2.0" Race="14"/>
-<rp Div="PHRF ToT A" Ent="30" Pos="3" Pts="3.0" Race="14"/>
-<rp Div="PHRF ToT B" Ent="35" Pos="1" Pts="1.0" Race="14"/>
-<rp Div="PHRF ToT B" Ent="34" Pos="2" Pts="2.0" Race="14"/>
-<rp Div="PHRF ToT B" Ent="33" Pos="3" Pts="3.0" Race="14"/>
-</RacePointsList>
-<SeriesPointsList>
-<sp Div="470" Ent="3" Pos="1" Pts="8.0"/>
-<sp Div="470" Ent="4" Pos="2" Pts="14.0"/>
-<sp Div="470" Ent="5" Pos="3" Pts="16.0"/>
-<sp Div="470" Ent="1" Pos="4" Pts="17.0"/>
-<sp Div="Flying Farq" Ent="10" Pos="1" Pts="21.0"/>
-<sp Div="Flying Farq" Ent="7" Pos="2" Pts="21.0001"/>
-<sp Div="Flying Farq" Ent="8" Pos="3" Pts="21.0002"/>
-<sp Div="Flying Farq" Ent="9" Pos="4" Pts="21.0003"/>
-<sp Div="Flying Farq" Ent="6" Pos="5" Pts="22.0"/>
-<sp Div="Flying Farq" Ent="36" Pos="6" Pts="24.0"/>
-<sp Div="Flying Farq" Ent="37" Pos="7" Pts="24.0001"/>
-<sp Div="Flying Farq" Ent="38" Pos="8" Pts="39.0"/>
-<sp Div="J24 green" Ent="13" Pos="1" Pts="3.0"/>
-<sp Div="J24 green" Ent="11" Pos="2" Pts="3.0001"/>
-<sp Div="J24 green" Ent="12" Pos="3" Pts="3.0002000000000004"/>
-<sp Div="J24 orange" Ent="15" Pos="1" Pts="2.0"/>
-<sp Div="J24 orange" Ent="16" Pos="2" Pts="3.0"/>
-<sp Div="J24 orange" Ent="14" Pos="3" Pts="4.0"/>
-<sp Div="J24 pink" Ent="19" Pos="1" Pts="2.0"/>
-<sp Div="J24 pink" Ent="17" Pos="2" Pts="3.0"/>
-<sp Div="J24 pink" Ent="18" Pos="3" Pts="5.0"/>
-<sp Div="J24 yellow" Ent="21" Pos="1" Pts="2.0"/>
-<sp Div="J24 yellow" Ent="20" Pos="2" Pts="3.0"/>
-<sp Div="J24 yellow" Ent="23" Pos="3" Pts="4.0"/>
-<sp Div="J24 yellow" Ent="22" Pos="4" Pts="7.0"/>
-<sp Div="PHRF A" Ent="25" Pos="1" Pts="1.0"/>
-<sp Div="PHRF A" Ent="24" Pos="2" Pts="2.0"/>
-<sp Div="PHRF A" Ent="26" Pos="3" Pts="3.0"/>
-<sp Div="PHRF B" Ent="28" Pos="1" Pts="1.0"/>
-<sp Div="PHRF B" Ent="27" Pos="2" Pts="2.0"/>
-<sp Div="PHRF B" Ent="29" Pos="3" Pts="3.0"/>
-<sp Div="PHRF ToT A" Ent="31" Pos="1" Pts="1.0"/>
-<sp Div="PHRF ToT A" Ent="32" Pos="2" Pts="2.0"/>
-<sp Div="PHRF ToT A" Ent="30" Pos="3" Pts="3.0"/>
-<sp Div="PHRF ToT B" Ent="35" Pos="1" Pts="1.0"/>
-<sp Div="PHRF ToT B" Ent="34" Pos="2" Pts="2.0"/>
-<sp Div="PHRF ToT B" Ent="33" Pos="3" Pts="3.0"/>
-</SeriesPointsList>
 </Scores>
 <ReportOptionList>
 <Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">

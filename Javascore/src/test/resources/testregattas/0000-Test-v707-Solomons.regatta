@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="July 21-22, 2000" Final="false" HostClub="Eastport Yacht Club" IFEventID="" JSVersion="7.2.1" JuryChair="Mark Murphy" Multistage="false" Name="2000 Solomon's Island Race" Pro="Sharon Hadsell" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="July 21-22, 2000" Final="false" HostClub="Eastport Yacht Club" IFEventID="" JSVersion="7.5.1" JuryChair="Mark Murphy" Multistage="false" Name="2000 Solomon's Island Race" Pro="Sharon Hadsell" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="CAT27">
-<MinRating ClassName="CAT27" System="OneDesign"/>
-<MaxRating ClassName="CAT27" System="OneDesign"/>
+<SlowestRating ClassName="CAT27" System="OneDesign"/>
+<FastestRating ClassName="CAT27" System="OneDesign"/>
 </Division>
 <Division DivName="J105">
-<MinRating ClassName="J105" System="OneDesign"/>
-<MaxRating ClassName="J105" System="OneDesign"/>
+<SlowestRating ClassName="J105" System="OneDesign"/>
+<FastestRating ClassName="J105" System="OneDesign"/>
 </Division>
 <Division DivName="J30">
-<MinRating ClassName="J30" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="J30" System="OneDesign"/>
 </Division>
 <Division DivName="J35">
-<MinRating ClassName="J35" System="OneDesign"/>
-<MaxRating ClassName="J35" System="OneDesign"/>
+<SlowestRating ClassName="J35" System="OneDesign"/>
+<FastestRating ClassName="J35" System="OneDesign"/>
 </Division>
 <Division DivName="MORC">
-<MinRating System="MORC" Value="-9999.0"/>
-<MaxRating System="MORC" Value="9999.0"/>
+<SlowestRating System="MORC" Value="9999.0"/>
+<FastestRating System="MORC" Value="-9999.0"/>
 </Division>
 <Division DivName="Multihull">
-<MinRating System="Multihull" Value="0.0"/>
-<MaxRating System="Multihull" Value="9999.0"/>
+<SlowestRating System="Multihull" Value="9999.0"/>
+<FastestRating System="Multihull" Value="0.0"/>
 </Division>
 <Division DivName="PHRF A0">
-<MinRating System="PHRF" Value="-999.0"/>
-<MaxRating System="PHRF" Value="49.0"/>
+<SlowestRating System="PHRF" Value="49.0"/>
+<FastestRating System="PHRF" Value="-999.0"/>
 </Division>
 <Division DivName="PHRF A1">
-<MinRating System="PHRF" Value="50.0"/>
-<MaxRating System="PHRF" Value="85.0"/>
+<SlowestRating System="PHRF" Value="85.0"/>
+<FastestRating System="PHRF" Value="50.0"/>
 </Division>
 <Division DivName="PHRF A2">
-<MinRating System="PHRF" Value="86.0"/>
-<MaxRating System="PHRF" Value="118.0"/>
+<SlowestRating System="PHRF" Value="118.0"/>
+<FastestRating System="PHRF" Value="86.0"/>
 </Division>
 <Division DivName="PHRF B">
-<MinRating System="PHRF" Value="119.0"/>
-<MaxRating System="PHRF" Value="154.0"/>
+<SlowestRating System="PHRF" Value="154.0"/>
+<FastestRating System="PHRF" Value="119.0"/>
 </Division>
 <Division DivName="PHRF CD">
-<MinRating System="PHRF" Value="155.0"/>
-<MaxRating System="PHRF" Value="9999.0"/>
+<SlowestRating System="PHRF" Value="9999.0"/>
+<FastestRating System="PHRF" Value="155.0"/>
 </Division>
 <Division DivName="PHRF NonSpin">
-<MinRating System="PHRF" Value="-9999.0"/>
-<MaxRating System="PHRF" Value="9999.0"/>
+<SlowestRating System="PHRF" Value="9999.0"/>
+<FastestRating System="PHRF" Value="-9999.0"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -1584,20 +1584,20 @@
 </Entry>
 </EntryList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="true" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="21-Jul-2000" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="true" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="21-Jul-2000" Weight="1.0">
 <DivInfo>
-<DivStart Div="PHRF A1" Length="55.0" StartTime="19:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A2" Length="55.0" StartTime="19:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="MORC" Length="45.0" StartTime="19:30:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="CAT27" Length="45.0" StartTime="19:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF CD" Length="45.0" StartTime="19:40:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J35" Length="55.0" StartTime="19:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A0" Length="55.0" StartTime="18:55:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J105" Length="55.0" StartTime="19:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF NonSpin" Length="45.0" StartTime="19:50:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Multihull" Length="45.0" StartTime="19:55:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="J30" Length="45.0" StartTime="19:25:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="55.0" StartTime="19:10:20.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A1" Length="55.0" LengthPursuit="0.0" StartTime="1/19:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A2" Length="55.0" LengthPursuit="0.0" StartTime="1/19:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="MORC" Length="45.0" LengthPursuit="0.0" StartTime="1/19:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="CAT27" Length="45.0" LengthPursuit="0.0" StartTime="1/19:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF CD" Length="45.0" LengthPursuit="0.0" StartTime="1/19:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J35" Length="55.0" LengthPursuit="0.0" StartTime="1/19:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A0" Length="55.0" LengthPursuit="0.0" StartTime="1/18:55:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J105" Length="55.0" LengthPursuit="0.0" StartTime="1/19:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF NonSpin" Length="45.0" LengthPursuit="0.0" StartTime="1/19:50:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Multihull" Length="45.0" LengthPursuit="0.0" StartTime="1/19:55:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J30" Length="45.0" LengthPursuit="0.0" StartTime="1/19:25:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="55.0" LengthPursuit="0.0" StartTime="1/19:10:20.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="3" Pos="1" Race="1" Time="1/03:54:50.0"/>
@@ -1753,316 +1753,6 @@
 </RaceList>
 <Scores SystemName="ISAF Low Point 2013-2016">
 <System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
-<RacePointsList>
-<rp Div="CAT27" Ent="60" Pos="1" Pts="1.0" Race="1"/>
-<rp Div="CAT27" Ent="65" Pos="2" Pts="2.0" Race="1"/>
-<rp Div="CAT27" Ent="78" Pos="3" Pts="3.0" Race="1"/>
-<rp Div="CAT27" Ent="80" Pos="4" Pts="4.0" Race="1"/>
-<rp Div="CAT27" Ent="83" Pos="5" Pts="5.0" Race="1"/>
-<rp Div="CAT27" Ent="87" Pos="6" Pts="6.0" Race="1"/>
-<rp Div="CAT27" Ent="97" Pos="7" Pts="7.0" Race="1"/>
-<rp Div="CAT27" Ent="129" Pos="8" Pts="8.0" Race="1"/>
-<rp Div="CAT27" Ent="132" Pos="9" Pts="9.0" Race="1"/>
-<rp Div="J105" Ent="56" Pos="1" Pts="1.0" Race="1"/>
-<rp Div="J105" Ent="57" Pos="2" Pts="2.0" Race="1"/>
-<rp Div="J105" Ent="58" Pos="3" Pts="3.0" Race="1"/>
-<rp Div="J105" Ent="62" Pos="4" Pts="4.0" Race="1"/>
-<rp Div="J105" Ent="71" Pos="5" Pts="5.0" Race="1"/>
-<rp Div="J105" Ent="72" Pos="6" Pts="6.0" Race="1"/>
-<rp Div="J105" Ent="73" Pos="7" Pts="7.0" Race="1"/>
-<rp Div="J105" Ent="75" Pos="8" Pts="8.0" Race="1"/>
-<rp Div="J105" Ent="79" Pos="9" Pts="9.0" Race="1"/>
-<rp Div="J105" Ent="82" Pos="10" Pts="10.0" Race="1"/>
-<rp Div="J105" Ent="84" Pos="11" Pts="11.0" Race="1"/>
-<rp Div="J105" Ent="85" Pos="12" Pts="12.0" Race="1"/>
-<rp Div="J105" Ent="86" Pos="13" Pts="13.0" Race="1"/>
-<rp Div="J105" Ent="88" Pos="14" Pts="14.0" Race="1"/>
-<rp Div="J105" Ent="89" Pos="15" Pts="15.0" Race="1"/>
-<rp Div="J105" Ent="92" Pos="16" Pts="16.0" Race="1"/>
-<rp Div="J105" Ent="94" Pos="17" Pts="17.0" Race="1"/>
-<rp Div="J105" Ent="95" Pos="18" Pts="18.0" Race="1"/>
-<rp Div="J105" Ent="99" Pos="19" Pts="19.0" Race="1"/>
-<rp Div="J105" Ent="100" Pos="20" Pts="20.0" Race="1"/>
-<rp Div="J105" Ent="106" Pos="21" Pts="21.0" Race="1"/>
-<rp Div="J105" Ent="108" Pos="22" Pts="22.0" Race="1"/>
-<rp Div="J105" Ent="112" Pos="23" Pts="23.0" Race="1"/>
-<rp Div="J105" Ent="115" Pos="24" Pts="24.0" Race="1"/>
-<rp Div="J105" Ent="116" Pos="25" Pts="25.0" Race="1"/>
-<rp Div="J105" Ent="117" Pos="26" Pts="26.0" Race="1"/>
-<rp Div="J30" Ent="5" Pos="1" Pts="1.0" Race="1"/>
-<rp Div="J30" Ent="6" Pos="2" Pts="2.0" Race="1"/>
-<rp Div="J30" Ent="12" Pos="3" Pts="3.0" Race="1"/>
-<rp Div="J30" Ent="14" Pos="4" Pts="4.0" Race="1"/>
-<rp Div="J30" Ent="15" Pos="5" Pts="5.0" Race="1"/>
-<rp Div="J30" Ent="19" Pos="6" Pts="6.0" Race="1"/>
-<rp Div="J30" Ent="20" Pos="7" Pts="7.0" Race="1"/>
-<rp Div="J30" Ent="21" Pos="8" Pts="8.0" Race="1"/>
-<rp Div="J30" Ent="22" Pos="9" Pts="9.0" Race="1"/>
-<rp Div="J30" Ent="31" Pos="10" Pts="10.0" Race="1"/>
-<rp Div="J30" Ent="37" Pos="11" Pts="11.0" Race="1"/>
-<rp Div="J35" Ent="25" Pos="1" Pts="1.0" Race="1"/>
-<rp Div="J35" Ent="48" Pos="2" Pts="2.0" Race="1"/>
-<rp Div="J35" Ent="52" Pos="3" Pts="3.0" Race="1"/>
-<rp Div="MORC" Ent="32" Pos="57344" Pts="11.0" Race="1"/>
-<rp Div="MORC" Ent="3" Pos="2" Pts="1.0" Race="1"/>
-<rp Div="MORC" Ent="4" Pos="3" Pts="2.0" Race="1"/>
-<rp Div="MORC" Ent="10" Pos="4" Pts="3.0" Race="1"/>
-<rp Div="MORC" Ent="13" Pos="5" Pts="4.0" Race="1"/>
-<rp Div="MORC" Ent="11" Pos="6" Pts="5.0" Race="1"/>
-<rp Div="MORC" Ent="23" Pos="7" Pts="6.0" Race="1"/>
-<rp Div="MORC" Ent="24" Pos="8" Pts="7.0" Race="1"/>
-<rp Div="MORC" Ent="28" Pos="9" Pts="8.0" Race="1"/>
-<rp Div="MORC" Ent="49" Pos="10" Pts="9.0" Race="1"/>
-<rp Div="Multihull" Ent="268" Pos="1" Pts="1.0" Race="1"/>
-<rp Div="Multihull" Ent="269" Pos="2" Pts="2.0" Race="1"/>
-<rp Div="Multihull" Ent="270" Pos="3" Pts="3.0" Race="1"/>
-<rp Div="Multihull" Ent="271" Pos="49152" Pts="6.0" Race="1"/>
-<rp Div="Multihull" Ent="272" Pos="49152" Pts="6.0" Race="1"/>
-<rp Div="PHRF A0" Ent="145" Pos="57344" Pts="4.0" Race="1"/>
-<rp Div="PHRF A0" Ent="2" Pos="57344" Pts="4.0" Race="1"/>
-<rp Div="PHRF A0" Ent="1" Pos="57344" Pts="4.0" Race="1"/>
-<rp Div="PHRF A1" Ent="35" Pos="57344" Pts="13.0" Race="1"/>
-<rp Div="PHRF A1" Ent="111" Pos="57344" Pts="13.0" Race="1"/>
-<rp Div="PHRF A1" Ent="126" Pos="57344" Pts="13.0" Race="1"/>
-<rp Div="PHRF A1" Ent="101" Pos="57344" Pts="13.0" Race="1"/>
-<rp Div="PHRF A1" Ent="44" Pos="57344" Pts="13.0" Race="1"/>
-<rp Div="PHRF A1" Ent="26" Pos="57344" Pts="13.0" Race="1"/>
-<rp Div="PHRF A1" Ent="8" Pos="57344" Pts="13.0" Race="1"/>
-<rp Div="PHRF A1" Ent="47" Pos="57344" Pts="13.0" Race="1"/>
-<rp Div="PHRF A1" Ent="17" Pos="57344" Pts="13.0" Race="1"/>
-<rp Div="PHRF A1" Ent="7" Pos="57344" Pts="13.0" Race="1"/>
-<rp Div="PHRF A1" Ent="18" Pos="57344" Pts="13.0" Race="1"/>
-<rp Div="PHRF A1" Ent="33" Pos="12" Pts="1.0" Race="1"/>
-<rp Div="PHRF A2" Ent="54" Pos="1" Pts="1.0" Race="1"/>
-<rp Div="PHRF A2" Ent="42" Pos="2" Pts="2.0" Race="1"/>
-<rp Div="PHRF A2" Ent="51" Pos="3" Pts="3.0" Race="1"/>
-<rp Div="PHRF A2" Ent="70" Pos="4" Pts="4.0" Race="1"/>
-<rp Div="PHRF A2" Ent="76" Pos="5" Pts="5.0" Race="1"/>
-<rp Div="PHRF A2" Ent="63" Pos="6" Pts="6.0" Race="1"/>
-<rp Div="PHRF A2" Ent="81" Pos="7" Pts="7.0" Race="1"/>
-<rp Div="PHRF A2" Ent="90" Pos="8" Pts="8.0" Race="1"/>
-<rp Div="PHRF A2" Ent="68" Pos="9" Pts="9.0" Race="1"/>
-<rp Div="PHRF A2" Ent="102" Pos="10" Pts="10.0" Race="1"/>
-<rp Div="PHRF A2" Ent="110" Pos="11" Pts="11.0" Race="1"/>
-<rp Div="PHRF A2" Ent="109" Pos="12" Pts="12.0" Race="1"/>
-<rp Div="PHRF A2" Ent="118" Pos="13" Pts="13.0" Race="1"/>
-<rp Div="PHRF A2" Ent="119" Pos="14" Pts="14.0" Race="1"/>
-<rp Div="PHRF A2" Ent="113" Pos="15" Pts="15.0" Race="1"/>
-<rp Div="PHRF A2" Ent="122" Pos="16" Pts="16.0" Race="1"/>
-<rp Div="PHRF A2" Ent="123" Pos="17" Pts="17.0" Race="1"/>
-<rp Div="PHRF A2" Ent="121" Pos="18" Pts="18.0" Race="1"/>
-<rp Div="PHRF A2" Ent="136" Pos="19" Pts="19.0" Race="1"/>
-<rp Div="PHRF A2" Ent="140" Pos="20" Pts="20.0" Race="1"/>
-<rp Div="PHRF B" Ent="146" Pos="49152" Pts="25.0" Race="1"/>
-<rp Div="PHRF B" Ent="147" Pos="49152" Pts="25.0" Race="1"/>
-<rp Div="PHRF B" Ent="96" Pos="3" Pts="1.0" Race="1"/>
-<rp Div="PHRF B" Ent="93" Pos="4" Pts="2.0" Race="1"/>
-<rp Div="PHRF B" Ent="91" Pos="5" Pts="3.0" Race="1"/>
-<rp Div="PHRF B" Ent="107" Pos="6" Pts="4.0" Race="1"/>
-<rp Div="PHRF B" Ent="114" Pos="7" Pts="5.0" Race="1"/>
-<rp Div="PHRF B" Ent="105" Pos="8" Pts="6.0" Race="1"/>
-<rp Div="PHRF B" Ent="104" Pos="9" Pts="7.0" Race="1"/>
-<rp Div="PHRF B" Ent="120" Pos="10" Pts="8.0" Race="1"/>
-<rp Div="PHRF B" Ent="130" Pos="11" Pts="9.0" Race="1"/>
-<rp Div="PHRF B" Ent="127" Pos="12" Pts="10.0" Race="1"/>
-<rp Div="PHRF B" Ent="124" Pos="13" Pts="11.0" Race="1"/>
-<rp Div="PHRF B" Ent="131" Pos="14" Pts="12.0" Race="1"/>
-<rp Div="PHRF B" Ent="135" Pos="15" Pts="13.0" Race="1"/>
-<rp Div="PHRF B" Ent="128" Pos="16" Pts="14.0" Race="1"/>
-<rp Div="PHRF B" Ent="125" Pos="17" Pts="15.0" Race="1"/>
-<rp Div="PHRF B" Ent="137" Pos="18" Pts="16.0" Race="1"/>
-<rp Div="PHRF B" Ent="139" Pos="19" Pts="17.0" Race="1"/>
-<rp Div="PHRF B" Ent="134" Pos="20" Pts="18.0" Race="1"/>
-<rp Div="PHRF B" Ent="138" Pos="21" Pts="19.0" Race="1"/>
-<rp Div="PHRF B" Ent="141" Pos="22" Pts="20.0" Race="1"/>
-<rp Div="PHRF B" Ent="142" Pos="23" Pts="21.0" Race="1"/>
-<rp Div="PHRF B" Ent="143" Pos="24" Pts="22.0" Race="1"/>
-<rp Div="PHRF CD" Ent="148" Pos="49152" Pts="18.0" Race="1"/>
-<rp Div="PHRF CD" Ent="30" Pos="2" Pts="1.0" Race="1"/>
-<rp Div="PHRF CD" Ent="36" Pos="3" Pts="2.0" Race="1"/>
-<rp Div="PHRF CD" Ent="29" Pos="4" Pts="3.0" Race="1"/>
-<rp Div="PHRF CD" Ent="41" Pos="5" Pts="4.0" Race="1"/>
-<rp Div="PHRF CD" Ent="38" Pos="6" Pts="5.0" Race="1"/>
-<rp Div="PHRF CD" Ent="46" Pos="7" Pts="6.0" Race="1"/>
-<rp Div="PHRF CD" Ent="45" Pos="8" Pts="7.0" Race="1"/>
-<rp Div="PHRF CD" Ent="69" Pos="9" Pts="8.0" Race="1"/>
-<rp Div="PHRF CD" Ent="55" Pos="10" Pts="9.0" Race="1"/>
-<rp Div="PHRF CD" Ent="61" Pos="11" Pts="10.0" Race="1"/>
-<rp Div="PHRF CD" Ent="67" Pos="12" Pts="11.0" Race="1"/>
-<rp Div="PHRF CD" Ent="74" Pos="13" Pts="12.0" Race="1"/>
-<rp Div="PHRF CD" Ent="53" Pos="14" Pts="13.0" Race="1"/>
-<rp Div="PHRF CD" Ent="59" Pos="15" Pts="14.0" Race="1"/>
-<rp Div="PHRF CD" Ent="50" Pos="16" Pts="15.0" Race="1"/>
-<rp Div="PHRF CD" Ent="144" Pos="17" Pts="16.0" Race="1"/>
-<rp Div="PHRF NonSpin" Ent="43" Pos="1" Pts="1.0" Race="1"/>
-<rp Div="PHRF NonSpin" Ent="34" Pos="2" Pts="2.0" Race="1"/>
-<rp Div="PHRF NonSpin" Ent="9" Pos="3" Pts="3.0" Race="1"/>
-<rp Div="PHRF NonSpin" Ent="66" Pos="4" Pts="4.0" Race="1"/>
-<rp Div="PHRF NonSpin" Ent="77" Pos="5" Pts="5.0" Race="1"/>
-<rp Div="PHRF NonSpin" Ent="16" Pos="6" Pts="6.0" Race="1"/>
-<rp Div="PHRF NonSpin" Ent="27" Pos="7" Pts="7.0" Race="1"/>
-<rp Div="PHRF NonSpin" Ent="40" Pos="8" Pts="8.0" Race="1"/>
-<rp Div="PHRF NonSpin" Ent="39" Pos="9" Pts="9.0" Race="1"/>
-<rp Div="PHRF NonSpin" Ent="98" Pos="10" Pts="10.0" Race="1"/>
-<rp Div="PHRF NonSpin" Ent="64" Pos="11" Pts="11.0" Race="1"/>
-<rp Div="PHRF NonSpin" Ent="103" Pos="12" Pts="12.0" Race="1"/>
-<rp Div="PHRF NonSpin" Ent="133" Pos="13" Pts="13.0" Race="1"/>
-</RacePointsList>
-<SeriesPointsList>
-<sp Div="CAT27" Ent="60" Pos="1" Pts="1.0"/>
-<sp Div="CAT27" Ent="65" Pos="2" Pts="2.0"/>
-<sp Div="CAT27" Ent="78" Pos="3" Pts="3.0"/>
-<sp Div="CAT27" Ent="80" Pos="4" Pts="4.0"/>
-<sp Div="CAT27" Ent="83" Pos="5" Pts="5.0"/>
-<sp Div="CAT27" Ent="87" Pos="6" Pts="6.0"/>
-<sp Div="CAT27" Ent="97" Pos="7" Pts="7.0"/>
-<sp Div="CAT27" Ent="129" Pos="8" Pts="8.0"/>
-<sp Div="CAT27" Ent="132" Pos="9" Pts="9.0"/>
-<sp Div="J105" Ent="56" Pos="1" Pts="1.0"/>
-<sp Div="J105" Ent="57" Pos="2" Pts="2.0"/>
-<sp Div="J105" Ent="58" Pos="3" Pts="3.0"/>
-<sp Div="J105" Ent="62" Pos="4" Pts="4.0"/>
-<sp Div="J105" Ent="71" Pos="5" Pts="5.0"/>
-<sp Div="J105" Ent="72" Pos="6" Pts="6.0"/>
-<sp Div="J105" Ent="73" Pos="7" Pts="7.0"/>
-<sp Div="J105" Ent="75" Pos="8" Pts="8.0"/>
-<sp Div="J105" Ent="79" Pos="9" Pts="9.0"/>
-<sp Div="J105" Ent="82" Pos="10" Pts="10.0"/>
-<sp Div="J105" Ent="84" Pos="11" Pts="11.0"/>
-<sp Div="J105" Ent="85" Pos="12" Pts="12.0"/>
-<sp Div="J105" Ent="86" Pos="13" Pts="13.0"/>
-<sp Div="J105" Ent="88" Pos="14" Pts="14.0"/>
-<sp Div="J105" Ent="89" Pos="15" Pts="15.0"/>
-<sp Div="J105" Ent="92" Pos="16" Pts="16.0"/>
-<sp Div="J105" Ent="94" Pos="17" Pts="17.0"/>
-<sp Div="J105" Ent="95" Pos="18" Pts="18.0"/>
-<sp Div="J105" Ent="99" Pos="19" Pts="19.0"/>
-<sp Div="J105" Ent="100" Pos="20" Pts="20.0"/>
-<sp Div="J105" Ent="106" Pos="21" Pts="21.0"/>
-<sp Div="J105" Ent="108" Pos="22" Pts="22.0"/>
-<sp Div="J105" Ent="112" Pos="23" Pts="23.0"/>
-<sp Div="J105" Ent="115" Pos="24" Pts="24.0"/>
-<sp Div="J105" Ent="116" Pos="25" Pts="25.0"/>
-<sp Div="J105" Ent="117" Pos="26" Pts="26.0"/>
-<sp Div="J30" Ent="5" Pos="1" Pts="1.0"/>
-<sp Div="J30" Ent="6" Pos="2" Pts="2.0"/>
-<sp Div="J30" Ent="12" Pos="3" Pts="3.0"/>
-<sp Div="J30" Ent="14" Pos="4" Pts="4.0"/>
-<sp Div="J30" Ent="15" Pos="5" Pts="5.0"/>
-<sp Div="J30" Ent="19" Pos="6" Pts="6.0"/>
-<sp Div="J30" Ent="20" Pos="7" Pts="7.0"/>
-<sp Div="J30" Ent="21" Pos="8" Pts="8.0"/>
-<sp Div="J30" Ent="22" Pos="9" Pts="9.0"/>
-<sp Div="J30" Ent="31" Pos="10" Pts="10.0"/>
-<sp Div="J30" Ent="37" Pos="11" Pts="11.0"/>
-<sp Div="J35" Ent="25" Pos="1" Pts="1.0"/>
-<sp Div="J35" Ent="48" Pos="2" Pts="2.0"/>
-<sp Div="J35" Ent="52" Pos="3" Pts="3.0"/>
-<sp Div="MORC" Ent="3" Pos="1" Pts="1.0"/>
-<sp Div="MORC" Ent="4" Pos="2" Pts="2.0"/>
-<sp Div="MORC" Ent="10" Pos="3" Pts="3.0"/>
-<sp Div="MORC" Ent="13" Pos="4" Pts="4.0"/>
-<sp Div="MORC" Ent="11" Pos="5" Pts="5.0"/>
-<sp Div="MORC" Ent="23" Pos="6" Pts="6.0"/>
-<sp Div="MORC" Ent="24" Pos="7" Pts="7.0"/>
-<sp Div="MORC" Ent="28" Pos="8" Pts="8.0"/>
-<sp Div="MORC" Ent="49" Pos="9" Pts="9.0"/>
-<sp Div="MORC" Ent="32" Pos="10" Pts="11.0"/>
-<sp Div="Multihull" Ent="268" Pos="1" Pts="1.0"/>
-<sp Div="Multihull" Ent="269" Pos="2" Pts="2.0"/>
-<sp Div="Multihull" Ent="270" Pos="3" Pts="3.0"/>
-<sp Div="Multihull" Ent="271" Pos="4" Pts="6.0" Tied="true"/>
-<sp Div="Multihull" Ent="272" Pos="4" Pts="6.0" Tied="true"/>
-<sp Div="PHRF A0" Ent="1" Pos="1" Pts="4.0" Tied="true"/>
-<sp Div="PHRF A0" Ent="145" Pos="1" Pts="4.0" Tied="true"/>
-<sp Div="PHRF A0" Ent="2" Pos="1" Pts="4.0" Tied="true"/>
-<sp Div="PHRF A1" Ent="33" Pos="1" Pts="1.0"/>
-<sp Div="PHRF A1" Ent="17" Pos="2" Pts="13.0" Tied="true"/>
-<sp Div="PHRF A1" Ent="8" Pos="2" Pts="13.0" Tied="true"/>
-<sp Div="PHRF A1" Ent="35" Pos="2" Pts="13.0" Tied="true"/>
-<sp Div="PHRF A1" Ent="18" Pos="2" Pts="13.0" Tied="true"/>
-<sp Div="PHRF A1" Ent="44" Pos="2" Pts="13.0" Tied="true"/>
-<sp Div="PHRF A1" Ent="26" Pos="2" Pts="13.0" Tied="true"/>
-<sp Div="PHRF A1" Ent="111" Pos="2" Pts="13.0" Tied="true"/>
-<sp Div="PHRF A1" Ent="126" Pos="2" Pts="13.0" Tied="true"/>
-<sp Div="PHRF A1" Ent="47" Pos="2" Pts="13.0" Tied="true"/>
-<sp Div="PHRF A1" Ent="101" Pos="2" Pts="13.0" Tied="true"/>
-<sp Div="PHRF A1" Ent="7" Pos="2" Pts="13.0" Tied="true"/>
-<sp Div="PHRF A2" Ent="54" Pos="1" Pts="1.0"/>
-<sp Div="PHRF A2" Ent="42" Pos="2" Pts="2.0"/>
-<sp Div="PHRF A2" Ent="51" Pos="3" Pts="3.0"/>
-<sp Div="PHRF A2" Ent="70" Pos="4" Pts="4.0"/>
-<sp Div="PHRF A2" Ent="76" Pos="5" Pts="5.0"/>
-<sp Div="PHRF A2" Ent="63" Pos="6" Pts="6.0"/>
-<sp Div="PHRF A2" Ent="81" Pos="7" Pts="7.0"/>
-<sp Div="PHRF A2" Ent="90" Pos="8" Pts="8.0"/>
-<sp Div="PHRF A2" Ent="68" Pos="9" Pts="9.0"/>
-<sp Div="PHRF A2" Ent="102" Pos="10" Pts="10.0"/>
-<sp Div="PHRF A2" Ent="110" Pos="11" Pts="11.0"/>
-<sp Div="PHRF A2" Ent="109" Pos="12" Pts="12.0"/>
-<sp Div="PHRF A2" Ent="118" Pos="13" Pts="13.0"/>
-<sp Div="PHRF A2" Ent="119" Pos="14" Pts="14.0"/>
-<sp Div="PHRF A2" Ent="113" Pos="15" Pts="15.0"/>
-<sp Div="PHRF A2" Ent="122" Pos="16" Pts="16.0"/>
-<sp Div="PHRF A2" Ent="123" Pos="17" Pts="17.0"/>
-<sp Div="PHRF A2" Ent="121" Pos="18" Pts="18.0"/>
-<sp Div="PHRF A2" Ent="136" Pos="19" Pts="19.0"/>
-<sp Div="PHRF A2" Ent="140" Pos="20" Pts="20.0"/>
-<sp Div="PHRF B" Ent="96" Pos="1" Pts="1.0"/>
-<sp Div="PHRF B" Ent="93" Pos="2" Pts="2.0"/>
-<sp Div="PHRF B" Ent="91" Pos="3" Pts="3.0"/>
-<sp Div="PHRF B" Ent="107" Pos="4" Pts="4.0"/>
-<sp Div="PHRF B" Ent="114" Pos="5" Pts="5.0"/>
-<sp Div="PHRF B" Ent="105" Pos="6" Pts="6.0"/>
-<sp Div="PHRF B" Ent="104" Pos="7" Pts="7.0"/>
-<sp Div="PHRF B" Ent="120" Pos="8" Pts="8.0"/>
-<sp Div="PHRF B" Ent="130" Pos="9" Pts="9.0"/>
-<sp Div="PHRF B" Ent="127" Pos="10" Pts="10.0"/>
-<sp Div="PHRF B" Ent="124" Pos="11" Pts="11.0"/>
-<sp Div="PHRF B" Ent="131" Pos="12" Pts="12.0"/>
-<sp Div="PHRF B" Ent="135" Pos="13" Pts="13.0"/>
-<sp Div="PHRF B" Ent="128" Pos="14" Pts="14.0"/>
-<sp Div="PHRF B" Ent="125" Pos="15" Pts="15.0"/>
-<sp Div="PHRF B" Ent="137" Pos="16" Pts="16.0"/>
-<sp Div="PHRF B" Ent="139" Pos="17" Pts="17.0"/>
-<sp Div="PHRF B" Ent="134" Pos="18" Pts="18.0"/>
-<sp Div="PHRF B" Ent="138" Pos="19" Pts="19.0"/>
-<sp Div="PHRF B" Ent="141" Pos="20" Pts="20.0"/>
-<sp Div="PHRF B" Ent="142" Pos="21" Pts="21.0"/>
-<sp Div="PHRF B" Ent="143" Pos="22" Pts="22.0"/>
-<sp Div="PHRF B" Ent="146" Pos="23" Pts="25.0" Tied="true"/>
-<sp Div="PHRF B" Ent="147" Pos="23" Pts="25.0" Tied="true"/>
-<sp Div="PHRF CD" Ent="30" Pos="1" Pts="1.0"/>
-<sp Div="PHRF CD" Ent="36" Pos="2" Pts="2.0"/>
-<sp Div="PHRF CD" Ent="29" Pos="3" Pts="3.0"/>
-<sp Div="PHRF CD" Ent="41" Pos="4" Pts="4.0"/>
-<sp Div="PHRF CD" Ent="38" Pos="5" Pts="5.0"/>
-<sp Div="PHRF CD" Ent="46" Pos="6" Pts="6.0"/>
-<sp Div="PHRF CD" Ent="45" Pos="7" Pts="7.0"/>
-<sp Div="PHRF CD" Ent="69" Pos="8" Pts="8.0"/>
-<sp Div="PHRF CD" Ent="55" Pos="9" Pts="9.0"/>
-<sp Div="PHRF CD" Ent="61" Pos="10" Pts="10.0"/>
-<sp Div="PHRF CD" Ent="67" Pos="11" Pts="11.0"/>
-<sp Div="PHRF CD" Ent="74" Pos="12" Pts="12.0"/>
-<sp Div="PHRF CD" Ent="53" Pos="13" Pts="13.0"/>
-<sp Div="PHRF CD" Ent="59" Pos="14" Pts="14.0"/>
-<sp Div="PHRF CD" Ent="50" Pos="15" Pts="15.0"/>
-<sp Div="PHRF CD" Ent="144" Pos="16" Pts="16.0"/>
-<sp Div="PHRF CD" Ent="148" Pos="17" Pts="18.0"/>
-<sp Div="PHRF NonSpin" Ent="43" Pos="1" Pts="1.0"/>
-<sp Div="PHRF NonSpin" Ent="34" Pos="2" Pts="2.0"/>
-<sp Div="PHRF NonSpin" Ent="9" Pos="3" Pts="3.0"/>
-<sp Div="PHRF NonSpin" Ent="66" Pos="4" Pts="4.0"/>
-<sp Div="PHRF NonSpin" Ent="77" Pos="5" Pts="5.0"/>
-<sp Div="PHRF NonSpin" Ent="16" Pos="6" Pts="6.0"/>
-<sp Div="PHRF NonSpin" Ent="27" Pos="7" Pts="7.0"/>
-<sp Div="PHRF NonSpin" Ent="40" Pos="8" Pts="8.0"/>
-<sp Div="PHRF NonSpin" Ent="39" Pos="9" Pts="9.0"/>
-<sp Div="PHRF NonSpin" Ent="98" Pos="10" Pts="10.0"/>
-<sp Div="PHRF NonSpin" Ent="64" Pos="11" Pts="11.0"/>
-<sp Div="PHRF NonSpin" Ent="103" Pos="12" Pts="12.0"/>
-<sp Div="PHRF NonSpin" Ent="133" Pos="13" Pts="13.0"/>
-</SeriesPointsList>
 </Scores>
 <ReportOptionList>
 <Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">

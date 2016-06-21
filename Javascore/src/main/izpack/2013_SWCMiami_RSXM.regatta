@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.2.1" JuryChair="Bernard Bonneau" Multistage="true" Name="2013 Miami SWC - Men's RSX" Pro="John Craig / Ron Rostorfer" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.5.1" JuryChair="Bernard Bonneau" Multistage="true" Name="2013 Miami SWC - Men's RSX" Pro="John Craig / Ron Rostorfer" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="Men's RSX" Gender="Men" IFClassID="RSX">
-<MinRating ClassName="RSX" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="RSX" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -271,14 +271,14 @@
 </SubDivision>
 </SubDivisionList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="4" StartDate="28-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="4" StartDate="28-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="505" Pos="1" Race="4"/>
@@ -305,14 +305,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="28" StartDate="28-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="28" StartDate="28-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="511" Pos="1" Race="28"/>
@@ -337,14 +337,14 @@
 <Fin Ent="506" Pos="20" Race="28"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="137" StartDate="29-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="137" StartDate="29-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="520" Pos="1" Race="137"/>
@@ -369,14 +369,14 @@
 <Fin Ent="507" Pos="20" Race="137"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" RaceId="139" StartDate="29-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="139" StartDate="29-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="520" Pos="1" Race="139"/>
@@ -401,14 +401,14 @@
 <Fin Ent="504" Pos="20" Race="139"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" RaceId="263" StartDate="30-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="263" StartDate="30-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="520" Pos="1" Race="263"/>
@@ -437,14 +437,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" RaceId="301" StartDate="30-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="301" StartDate="30-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="520" Pos="1" Race="301"/>
@@ -471,14 +471,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" RaceId="320" StartDate="31-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="320" StartDate="31-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="520" Pos="1" Race="320"/>
@@ -495,14 +495,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" RaceId="448" StartDate="31-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="448" StartDate="31-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="514" Pos="1" Race="448"/>
@@ -517,14 +517,14 @@
 <Fin Ent="512" Pos="10" Race="448"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" RaceId="469" StartDate="31-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="469" StartDate="31-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="510" Pos="1" Race="469"/>
@@ -539,14 +539,14 @@
 <Fin Ent="505" Pos="10" Race="469"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" RaceId="471" StartDate="31-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="471" StartDate="31-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="515" Pos="1" Race="471"/>
@@ -559,14 +559,14 @@
 <Fin Ent="504" Pos="8" Race="471"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="11" NonDiscardable="false" RaceId="508" StartDate="31-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="11" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="508" StartDate="31-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="508" Pos="1" Race="508"/>
@@ -579,14 +579,14 @@
 <Fin Ent="504" Pos="8" Race="508"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="12" NonDiscardable="false" RaceId="520" StartDate="01-Feb-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="12" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="520" StartDate="01-Feb-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="511" Pos="1" Race="520"/>
@@ -601,14 +601,14 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="13" NonDiscardable="false" RaceId="521" StartDate="01-Feb-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="13" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="521" StartDate="01-Feb-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="509" Pos="1" Race="521"/>
@@ -619,14 +619,14 @@
 <Fin Ent="510" Pos="6" Race="521"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="14" NonDiscardable="false" RaceId="526" StartDate="01-Feb-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="14" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="526" StartDate="01-Feb-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Men's RSX" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Consolation" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Semi" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Repechage" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Quarter Final Top 10" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Men's RSX" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Consolation" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Semi" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Repechage" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Quarter Final Top 10" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="506" Pos="1" Race="526"/>

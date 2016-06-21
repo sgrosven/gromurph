@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="August 12-13, 2000" Final="false" HostClub="EFYC" IFEventID="" JSVersion="7.2.1" JuryChair="Mullen" Multistage="false" Name="Leukemia Cup 2000" Pro="JFS" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="August 12-13, 2000" Final="false" HostClub="EFYC" IFEventID="" JSVersion="7.5.1" JuryChair="Mullen" Multistage="false" Name="Leukemia Cup 2000" Pro="JFS" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="PHRF A">
-<MinRating System="PHRF" Value="-9999.0"/>
-<MaxRating System="PHRF" Value="9999.0"/>
+<SlowestRating System="PHRF" Value="9999.0"/>
+<FastestRating System="PHRF" Value="-9999.0"/>
 </Division>
 <Division DivName="PHRF B">
-<MinRating System="PHRF" Value="-9999.0"/>
-<MaxRating System="PHRF" Value="9999.0"/>
+<SlowestRating System="PHRF" Value="9999.0"/>
+<FastestRating System="PHRF" Value="-9999.0"/>
 </Division>
 <Division DivName="PHRF C">
-<MinRating System="PHRF" Value="-9999.0"/>
-<MaxRating System="PHRF" Value="9999.0"/>
+<SlowestRating System="PHRF" Value="9999.0"/>
+<FastestRating System="PHRF" Value="-9999.0"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -246,66 +246,68 @@
 </Fleet>
 </FleetList>
 <RaceList>
-<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="12-Aug-2000" Weight="1.0">
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="12-Aug-2000" Weight="1.0">
 <DivInfo>
-<DivStart Div="PHRF A" Length="2.8" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="2.8" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF C" Length="2.8" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF overall" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="2.8" LengthPursuit="0.0" StartTime="1/12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="2.8" LengthPursuit="0.0" StartTime="1/12:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF C" Length="2.8" LengthPursuit="0.0" StartTime="1/12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF overall" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF overall" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
-<Fin Ent="1" Pos="1" Race="1" Time="13:00:00.0"/>
-<Fin Ent="3" Pos="2" Race="1" Time="13:01:11.0"/>
-<Fin Ent="4" Pos="3" Race="1" Time="13:05:29.0"/>
-<Fin Ent="5" Pos="4" Race="1" Time="13:08:16.0"/>
-<Fin Ent="6" Pos="5" Race="1" Time="13:06:41.0"/>
-<Fin Ent="7" Pos="6" Race="1" Time="13:09:53.0"/>
-<Fin Ent="8" Pos="7" Race="1" Time="13:11:11.0"/>
-<Fin Ent="9" Pos="8" Race="1" Time="13:07:14.0"/>
-<Fin Ent="10" Pos="9" Race="1" Time="13:09:46.0"/>
-<Fin Ent="11" Pos="10" Race="1" Time="13:13:21.0"/>
-<Fin Ent="12" Pos="11" Race="1" Time="13:17:37.0"/>
-<Fin Ent="13" Pos="12" Race="1" Time="13:19:26.0"/>
-<Fin Ent="23" Pos="13" Race="1" Time="13:25:41.0"/>
-<Fin Ent="14" Pos="14" Race="1" Time="13:39:59.0"/>
-<Fin Ent="15" Pos="15" Race="1" Time="13:30:16.0"/>
-<Fin Ent="16" Pos="16" Race="1" Time="13:29:45.0"/>
-<Fin Ent="17" Pos="17" Race="1" Time="13:39:09.0"/>
-<Fin Ent="18" Pos="18" Race="1" Time="13:39:57.0"/>
-<Fin Ent="19" Pos="19" Race="1" Time="13:38:50.0"/>
-<Fin Ent="20" Pos="20" Race="1" Time="13:39:13.0"/>
-<Fin Ent="21" Pos="21" Race="1" Time="13:52:41.0"/>
-<Fin Ent="22" Pos="22" Race="1" Time="13:56:55.0"/>
+<Fin Ent="1" Pos="1" Race="1" Time="1/13:00:00.0"/>
+<Fin Ent="3" Pos="2" Race="1" Time="1/13:01:11.0"/>
+<Fin Ent="4" Pos="3" Race="1" Time="1/13:05:29.0"/>
+<Fin Ent="5" Pos="4" Race="1" Time="1/13:08:16.0"/>
+<Fin Ent="6" Pos="5" Race="1" Time="1/13:06:41.0"/>
+<Fin Ent="7" Pos="6" Race="1" Time="1/13:09:53.0"/>
+<Fin Ent="8" Pos="7" Race="1" Time="1/13:11:11.0"/>
+<Fin Ent="9" Pos="8" Race="1" Time="1/13:07:14.0"/>
+<Fin Ent="10" Pos="9" Race="1" Time="1/13:09:46.0"/>
+<Fin Ent="11" Pos="10" Race="1" Time="1/13:13:21.0"/>
+<Fin Ent="12" Pos="11" Race="1" Time="1/13:17:37.0"/>
+<Fin Ent="13" Pos="12" Race="1" Time="1/13:19:26.0"/>
+<Fin Ent="23" Pos="13" Race="1" Time="1/13:25:41.0"/>
+<Fin Ent="14" Pos="14" Race="1" Time="1/13:39:59.0"/>
+<Fin Ent="15" Pos="15" Race="1" Time="1/13:30:16.0"/>
+<Fin Ent="16" Pos="16" Race="1" Time="1/13:29:45.0"/>
+<Fin Ent="17" Pos="17" Race="1" Time="1/13:39:09.0"/>
+<Fin Ent="18" Pos="18" Race="1" Time="1/13:39:57.0"/>
+<Fin Ent="19" Pos="19" Race="1" Time="1/13:38:50.0"/>
+<Fin Ent="20" Pos="20" Race="1" Time="1/13:39:13.0"/>
+<Fin Ent="21" Pos="21" Race="1" Time="1/13:52:41.0"/>
+<Fin Ent="22" Pos="22" Race="1" Time="1/13:56:55.0"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="5" StartDate="12-Aug-2000" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="5" StartDate="12-Aug-2000" Weight="1.0">
 <DivInfo>
-<DivStart Div="PHRF A" Length="6.2" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="6.2" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF C" Length="6.2" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF overall" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="6.2" LengthPursuit="0.0" StartTime="1/12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="6.2" LengthPursuit="0.0" StartTime="1/12:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF C" Length="6.2" LengthPursuit="0.0" StartTime="1/12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF overall" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF overall" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
-<Fin Ent="1" Pos="1" Race="5" Time="13:09:12.0"/>
-<Fin Ent="4" Pos="2" Race="5" Time="13:11:14.0"/>
-<Fin Ent="5" Pos="3" Race="5" Time="13:16:48.0"/>
-<Fin Ent="3" Pos="4" Race="5" Time="13:12:29.0"/>
-<Fin Ent="8" Pos="5" Race="5" Time="13:14:50.0"/>
-<Fin Ent="6" Pos="6" Race="5" Time="13:15:33.0"/>
-<Fin Ent="7" Pos="7" Race="5" Time="13:18:09.0"/>
-<Fin Ent="10" Pos="8" Race="5" Time="13:21:10.0"/>
-<Fin Ent="9" Pos="9" Race="5" Time="13:23:23.0"/>
-<Fin Ent="12" Pos="10" Race="5" Time="13:23:20.0"/>
-<Fin Ent="11" Pos="11" Race="5" Time="13:23:40.0"/>
-<Fin Ent="13" Pos="12" Race="5" Time="13:25:52.0"/>
-<Fin Ent="14" Pos="13" Race="5" Time="13:46:00.0"/>
-<Fin Ent="16" Pos="14" Race="5" Time="13:35:56.0"/>
-<Fin Ent="19" Pos="15" Race="5" Time="13:35:04.0"/>
-<Fin Ent="17" Pos="16" Race="5" Time="13:46:10.0"/>
-<Fin Ent="18" Pos="17" Race="5" Time="13:46:29.0"/>
-<Fin Ent="15" Pos="18" Race="5" Time="13:46:43.0"/>
-<Fin Ent="20" Pos="19" Race="5" Time="13:36:44.0"/>
-<Fin Ent="22" Pos="20" Race="5" Time="13:43:02.0"/>
+<Fin Ent="1" Pos="1" Race="5" Time="1/13:09:12.0"/>
+<Fin Ent="4" Pos="2" Race="5" Time="1/13:11:14.0"/>
+<Fin Ent="5" Pos="3" Race="5" Time="1/13:16:48.0"/>
+<Fin Ent="3" Pos="4" Race="5" Time="1/13:12:29.0"/>
+<Fin Ent="8" Pos="5" Race="5" Time="1/13:14:50.0"/>
+<Fin Ent="6" Pos="6" Race="5" Time="1/13:15:33.0"/>
+<Fin Ent="7" Pos="7" Race="5" Time="1/13:18:09.0"/>
+<Fin Ent="10" Pos="8" Race="5" Time="1/13:21:10.0"/>
+<Fin Ent="9" Pos="9" Race="5" Time="1/13:23:23.0"/>
+<Fin Ent="12" Pos="10" Race="5" Time="1/13:23:20.0"/>
+<Fin Ent="11" Pos="11" Race="5" Time="1/13:23:40.0"/>
+<Fin Ent="13" Pos="12" Race="5" Time="1/13:25:52.0"/>
+<Fin Ent="14" Pos="13" Race="5" Time="1/13:46:00.0"/>
+<Fin Ent="16" Pos="14" Race="5" Time="1/13:35:56.0"/>
+<Fin Ent="19" Pos="15" Race="5" Time="1/13:35:04.0"/>
+<Fin Ent="17" Pos="16" Race="5" Time="1/13:46:10.0"/>
+<Fin Ent="18" Pos="17" Race="5" Time="1/13:46:29.0"/>
+<Fin Ent="15" Pos="18" Race="5" Time="1/13:46:43.0"/>
+<Fin Ent="20" Pos="19" Race="5" Time="1/13:36:44.0"/>
+<Fin Ent="22" Pos="20" Race="5" Time="1/13:43:02.0"/>
 <Fin Ent="21" Pos="DNF" Race="5">
 <Penalty Penalty="DNF"/>
 </Fin>
@@ -314,37 +316,38 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="6" StartDate="13-Aug-2000" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="6" StartDate="13-Aug-2000" Weight="1.0">
 <DivInfo>
-<DivStart Div="PHRF A" Length="6.2" StartTime="12:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="6.2" StartTime="12:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF C" Length="6.2" StartTime="12:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF overall" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A" Length="6.2" LengthPursuit="0.0" StartTime="1/12:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="6.2" LengthPursuit="0.0" StartTime="1/12:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF C" Length="6.2" LengthPursuit="0.0" StartTime="1/12:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF overall" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF overall" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
-<Fin Ent="1" Pos="1" Race="6" Time="13:09:12.0"/>
-<Fin Ent="4" Pos="2" Race="6" Time="13:11:41.0"/>
-<Fin Ent="5" Pos="3" Race="6" Time="13:16:48.0"/>
-<Fin Ent="3" Pos="4" Race="6" Time="13:12:29.0"/>
-<Fin Ent="8" Pos="5" Race="6" Time="13:14:50.0"/>
-<Fin Ent="6" Pos="6" Race="6" Time="13:15:33.0"/>
-<Fin Ent="7" Pos="7" Race="6" Time="13:18:09.0"/>
-<Fin Ent="10" Pos="8" Race="6" Time="13:21:10.0"/>
-<Fin Ent="11" Pos="9" Race="6" Time="13:23:20.0"/>
-<Fin Ent="9" Pos="10" Race="6" Time="13:23:40.0"/>
-<Fin Ent="12" Pos="11" Race="6" Time="13:23:23.0"/>
-<Fin Ent="13" Pos="12" Race="6" Time="13:25:52.0"/>
-<Fin Ent="14" Pos="13" Race="6" Time="13:46:00.0">
+<Fin Ent="1" Pos="1" Race="6" Time="1/13:09:12.0"/>
+<Fin Ent="4" Pos="2" Race="6" Time="1/13:11:41.0"/>
+<Fin Ent="5" Pos="3" Race="6" Time="1/13:16:48.0"/>
+<Fin Ent="3" Pos="4" Race="6" Time="1/13:12:29.0"/>
+<Fin Ent="8" Pos="5" Race="6" Time="1/13:14:50.0"/>
+<Fin Ent="6" Pos="6" Race="6" Time="1/13:15:33.0"/>
+<Fin Ent="7" Pos="7" Race="6" Time="1/13:18:09.0"/>
+<Fin Ent="10" Pos="8" Race="6" Time="1/13:21:10.0"/>
+<Fin Ent="11" Pos="9" Race="6" Time="1/13:23:20.0"/>
+<Fin Ent="9" Pos="10" Race="6" Time="1/13:23:40.0"/>
+<Fin Ent="12" Pos="11" Race="6" Time="1/13:23:23.0"/>
+<Fin Ent="13" Pos="12" Race="6" Time="1/13:25:52.0"/>
+<Fin Ent="14" Pos="13" Race="6" Time="1/13:46:00.0">
 <Penalty Penalty="DSQ"/>
 </Fin>
-<Fin Ent="19" Pos="14" Race="6" Time="13:30:04.0"/>
-<Fin Ent="16" Pos="15" Race="6" Time="13:30:56.0"/>
-<Fin Ent="17" Pos="16" Race="6" Time="13:41:10.0"/>
-<Fin Ent="18" Pos="17" Race="6" Time="13:41:29.0"/>
-<Fin Ent="15" Pos="18" Race="6" Time="13:41:43.0"/>
-<Fin Ent="20" Pos="19" Race="6" Time="13:31:44.0"/>
-<Fin Ent="22" Pos="20" Race="6" Time="13:38:02.0"/>
-<Fin Ent="21" Pos="21" Race="6" Time="13:33:20.0"/>
+<Fin Ent="19" Pos="14" Race="6" Time="1/13:30:04.0"/>
+<Fin Ent="16" Pos="15" Race="6" Time="1/13:30:56.0"/>
+<Fin Ent="17" Pos="16" Race="6" Time="1/13:41:10.0"/>
+<Fin Ent="18" Pos="17" Race="6" Time="1/13:41:29.0"/>
+<Fin Ent="15" Pos="18" Race="6" Time="1/13:41:43.0"/>
+<Fin Ent="20" Pos="19" Race="6" Time="1/13:31:44.0"/>
+<Fin Ent="22" Pos="20" Race="6" Time="1/13:38:02.0"/>
+<Fin Ent="21" Pos="21" Race="6" Time="1/13:33:20.0"/>
 <Fin Ent="23" Pos="DNS" Race="6">
 <Penalty Penalty="DNS"/>
 </Fin>

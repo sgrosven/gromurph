@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta DailyScoring="false" Dates="July 21-22, 2000" Final="false" HostClub="Eastport Yacht Club" IFEventID="" JSVersion="7.3.1" JuryChair="Mark Murphy" Multistage="false" Name="Time on Time Test" Pro="Sharon Hadsell" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="July 21-22, 2000" Final="false" HostClub="Eastport Yacht Club" IFEventID="" JSVersion="7.5.1" JuryChair="Mark Murphy" Multistage="false" Name="Time on Time Test" Pro="Sharon Hadsell" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="PHRF A1" Gender="Open">
 <SlowestRating System="PHRFTimeOnTime" Value="85.0"/>
@@ -228,14 +228,14 @@
 </Fleet>
 </FleetList>
 <RaceList>
-<Race AFactor="625" BFactor="625" Comment="" LongDistance="true" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="21-Jul-2000" Weight="1.0">
+<Race AFactor="625" BFactor="625" Comment="" LongDistance="true" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="21-Jul-2000" Weight="1.0">
 <DivInfo>
-<DivStart Div="PHRF CD" Length="45.0" StartTime="0/19:40:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF A1" Length="55.0" StartTime="0/19:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF B" Length="55.0" StartTime="0/19:10:20.0" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF Overall" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="&lt;none&gt;" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="PHRF Overall" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF CD" Length="45.0" LengthPursuit="0.0" StartTime="19:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF A1" Length="55.0" LengthPursuit="0.0" StartTime="19:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF B" Length="55.0" LengthPursuit="0.0" StartTime="19:10:20.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF Overall" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="&lt;none&gt;" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="PHRF Overall" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="29" Pos="1" Race="1" Time="1/05:06:42.0"/>

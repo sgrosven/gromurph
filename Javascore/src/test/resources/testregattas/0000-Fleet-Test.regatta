@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="" Final="false" HostClub="QAYC" IFEventID="" JSVersion="7.2.1" JuryChair="" Multistage="true" Name="Tester" Pro="" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="" Final="false" HostClub="QAYC" IFEventID="" JSVersion="7.5.1" JuryChair="" Multistage="true" Name="Tester" Pro="" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="J24" Gender="Open">
-<MinRating ClassName="J24" System="OneDesign"/>
-<MaxRating ClassName="J24" System="OneDesign"/>
+<SlowestRating ClassName="J24" System="OneDesign"/>
+<FastestRating ClassName="J24" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -170,19 +170,19 @@
 </SubDivision>
 </SubDivisionList>
 <RaceList>
-<Race AFactor="625" BFactor="625" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="07-Feb-2002" Weight="1.0">
+<Race AFactor="625" BFactor="625" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="07-Feb-2002" Weight="1.0">
 <DivInfo>
-<DivStart Div="Green" Length="0.0" StartTime="1/01:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Yellow" Length="0.0" StartTime="1/01:00:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Orange" Length="0.0" StartTime="1/01:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Pink" Length="0.0" StartTime="1/01:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="&lt;no name&gt;" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 Fleet" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 green" Length="2.0" StartTime="1/01:00:00.0" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 orange" Length="2.0" StartTime="1/01:10:00.0" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 pink" Length="2.0" StartTime="1/01:10:00.0" isRacing="false" nextDay="false"/>
-<DivStart Div="J24 yellow" Length="2.0" StartTime="1/01:00:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="Green" Length="0.0" LengthPursuit="0.0" StartTime="1/01:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Yellow" Length="0.0" LengthPursuit="0.0" StartTime="1/01:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Orange" Length="0.0" LengthPursuit="0.0" StartTime="1/01:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Pink" Length="0.0" LengthPursuit="0.0" StartTime="1/01:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="&lt;no name&gt;" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 Fleet" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 green" Length="2.0" LengthPursuit="0.0" StartTime="1/01:00:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 orange" Length="2.0" LengthPursuit="0.0" StartTime="1/01:10:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 pink" Length="2.0" LengthPursuit="0.0" StartTime="1/01:10:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="J24 yellow" Length="2.0" LengthPursuit="0.0" StartTime="1/01:00:00.0" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="21" Pos="1" Race="1"/>

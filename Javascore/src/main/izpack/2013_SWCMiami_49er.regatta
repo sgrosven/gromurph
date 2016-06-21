@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.2.2" JuryChair="Bernard Bonneau" Multistage="true" Name="2013 Miami SWC - 49er" Pro="Bruce Green" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="January 26 - February 2, 2013" Final="false" HostClub="US Sailing" IFEventID="IFRGT-15560" JSVersion="7.5.1" JuryChair="Bernard Bonneau" Multistage="true" Name="2013 Miami SWC - 49er" Pro="Bruce Green" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="49er" Gender="Men" IFClassID="49ER">
-<MinRating ClassName="49er" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="49er" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -213,10 +213,10 @@
 </SubDivision>
 </SubDivisionList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="41" StartDate="28-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="41" StartDate="28-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="431" Pos="1" Race="41"/>
@@ -241,10 +241,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="45" StartDate="28-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="45" StartDate="28-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="441" Pos="1" Race="45"/>
@@ -269,10 +269,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="50" StartDate="28-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="50" StartDate="28-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="444" Pos="1" Race="50"/>
@@ -293,10 +293,10 @@
 <Fin Ent="429" Pos="16" Race="50"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" RaceId="156" StartDate="29-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="156" StartDate="29-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="433" Pos="1" Race="156"/>
@@ -325,10 +325,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" RaceId="158" StartDate="29-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="158" StartDate="29-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="436" Pos="1" Race="158"/>
@@ -363,10 +363,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" RaceId="223" StartDate="29-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="223" StartDate="29-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="436" Pos="1" Race="223"/>
@@ -393,10 +393,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" RaceId="283" StartDate="30-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="283" StartDate="30-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="436" Pos="1" Race="283"/>
@@ -427,10 +427,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" RaceId="284" StartDate="30-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="284" StartDate="30-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="436" Pos="1" Race="284"/>
@@ -459,10 +459,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" RaceId="330" StartDate="30-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="330" StartDate="30-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="440" Pos="1" Race="330"/>
@@ -495,10 +495,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" RaceId="408" StartDate="31-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="408" StartDate="31-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="431" Pos="1" Race="408"/>
@@ -525,10 +525,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="11" NonDiscardable="false" RaceId="410" StartDate="31-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="11" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="410" StartDate="31-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="444" Pos="1" Race="410"/>
@@ -555,10 +555,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="12" NonDiscardable="false" RaceId="493" StartDate="31-Jan-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="12" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="493" StartDate="31-Jan-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="440" Pos="1" Race="493"/>
@@ -585,10 +585,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="13" NonDiscardable="false" RaceId="701" StartDate="01-Feb-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="13" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="701" StartDate="01-Feb-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="444" Pos="1" Race="701"/>
@@ -619,10 +619,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="14" NonDiscardable="false" RaceId="703" StartDate="01-Feb-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="14" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="703" StartDate="01-Feb-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="433" Pos="1" Race="703"/>
@@ -653,10 +653,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="15" NonDiscardable="false" RaceId="704" StartDate="01-Feb-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="15" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="704" StartDate="01-Feb-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="444" Pos="1" Race="704"/>
@@ -689,10 +689,10 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="16/ Carry Over" NonDiscardable="false" RaceId="776" StartDate="02-Feb-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="16/ Carry Over" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="776" StartDate="02-Feb-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="23:59:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="23:59:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="436" Pos="1" Race="776"/>
@@ -703,10 +703,10 @@
 <Fin Ent="442" Pos="6" Race="776"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="17" NonDiscardable="true" RaceId="894" StartDate="02-Feb-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="17" NonDiscardable="true" Pursuit="false" PursuitShortened="false" RaceId="894" StartDate="02-Feb-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="433" Pos="1" Race="894"/>
@@ -717,10 +717,10 @@
 <Fin Ent="437" Pos="6" Race="894"/>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="18" NonDiscardable="true" RaceId="956" StartDate="02-Feb-2013" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="18" NonDiscardable="true" Pursuit="false" PursuitShortened="false" RaceId="956" StartDate="02-Feb-2013" Weight="1.0">
 <DivInfo>
-<DivStart Div="Medal" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="49er" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Medal" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="49er" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="436" Pos="1" Race="956"/>

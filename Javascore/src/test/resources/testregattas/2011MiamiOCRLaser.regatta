@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="January 23-29, 2011" Final="false" HostClub="USSC" IFEventID="9756" JSVersion="7.2.1" JuryChair="Bernard Bonneau" Multistage="true" Name="Laser" Pro="Tom Duggan" UseBowNumbers="true" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="January 23-29, 2011" Final="false" HostClub="USSC" IFEventID="9756" JSVersion="7.5.1" JuryChair="Bernard Bonneau" Multistage="true" Name="Laser" Pro="Tom Duggan" UseBowNumbers="true" Version="600" comment="">
 <DivisionList>
 <Division DivName="Laser" Gender="Men" IFClassID="15989">
-<MinRating ClassName="Laser" System="OneDesign"/>
-<MaxRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="Laser" System="OneDesign"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -1559,19 +1559,19 @@
 </SubDivision>
 </SubDivisionList>
 <RaceList>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" RaceId="1" StartDate="24-Jan-2011" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="24-Jan-2011" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="15:21:00.0" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="11:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Laser Gold Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="MEDAL" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="15:09:00.0" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="15:21:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="11:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Laser Gold Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="MEDAL" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="15:09:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="113" Pos="1" Race="1"/>
@@ -1690,19 +1690,19 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" RaceId="12" StartDate="24-Jan-2011" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="12" StartDate="24-Jan-2011" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="13:32:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="13:22:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Laser Gold Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="MEDAL" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="13:32:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="13:22:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Laser Gold Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="MEDAL" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="111" Pos="1" Race="12"/>
@@ -1822,19 +1822,19 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" RaceId="25" StartDate="25-Jan-2011" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="25" StartDate="25-Jan-2011" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser Gold Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="MEDAL" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="12:04:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="12:19:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser Gold Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="MEDAL" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="12:04:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="12:19:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="110" Pos="1" Race="25"/>
@@ -1953,19 +1953,19 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" RaceId="540" StartDate="25-Jan-2011" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="540" StartDate="25-Jan-2011" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="13:52:00.0" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser Gold Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="MEDAL" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="13:40:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="13:52:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="13:52:00.0" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser Gold Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="MEDAL" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="13:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="13:52:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="164" Pos="1" Race="540"/>
@@ -2088,19 +2088,19 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" RaceId="567" StartDate="26-Jan-2011" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="567" StartDate="26-Jan-2011" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="13:30:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser Gold Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="MEDAL" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="13:40:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="13:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser Gold Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="MEDAL" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="13:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="171" Pos="1" Race="567"/>
@@ -2223,19 +2223,19 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" RaceId="602" StartDate="26-Jan-2011" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="6" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="602" StartDate="26-Jan-2011" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="15:21:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Laser Gold Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="MEDAL" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="15:09:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="15:21:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Laser Gold Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="MEDAL" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="15:09:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="115" Pos="1" Race="602"/>
@@ -2360,19 +2360,19 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" RaceId="604" StartDate="27-Jan-2011" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="7" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="604" StartDate="27-Jan-2011" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser Gold Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="MEDAL" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="12:47:00.0" isRacing="true" nextDay="true"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser Gold Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="MEDAL" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="12:47:00.0" isRacing="true" nextDay="true"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="200" Pos="1" Race="604"/>
@@ -2511,19 +2511,19 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" RaceId="734" StartDate="28-Jan-2011" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="8" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="734" StartDate="28-Jan-2011" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser Gold Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="MEDAL" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="15:17:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="11:21:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser Gold Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="MEDAL" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="15:17:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="11:21:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="123" Pos="1" Race="734"/>
@@ -2644,19 +2644,19 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" RaceId="840" StartDate="28-Jan-2011" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="9" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="840" StartDate="28-Jan-2011" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser Gold Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="MEDAL" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="16:35:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="12:58:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser Gold Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="MEDAL" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="16:35:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="12:58:00.0" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="212" Pos="1" Race="840"/>
@@ -2789,19 +2789,19 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" RaceId="921" StartDate="28-Jan-2011" Weight="1.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="10" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="921" StartDate="28-Jan-2011" Weight="1.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser Gold Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="MEDAL" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="15:34:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser Gold Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="MEDAL" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="15:34:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="159" Pos="1" Race="921"/>
@@ -2880,19 +2880,19 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="Medal" NonDiscardable="true" RaceId="1010" StartDate="29-Jan-2011" Weight="2.0">
+<Race AFactor="550" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="Medal" NonDiscardable="true" Pursuit="false" PursuitShortened="false" RaceId="1010" StartDate="29-Jan-2011" Weight="2.0">
 <DivInfo>
-<DivStart Div="Monday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Monday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser Gold Final" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Laser" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="MEDAL" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Gold" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Tuesday Yellow" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Wednesday Blue" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Silver" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Monday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser Gold Final" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Laser" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="MEDAL" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Gold" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Tuesday Yellow" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Wednesday Blue" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Silver" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="166" Pos="1" Race="1010"/>
@@ -2910,532 +2910,19 @@
 </RaceList>
 <Scores>
 <Stage CombinedQualifying="false" Name="Medal" PreviousStage="15" ScoreCarryOver="ALL" StageId="13" StageRank="90" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="NONE" TiebreakCarryOver="NONE">
-<Divisions>
-<DivisionId/>
-</Divisions>
+<Divisions/>
 <System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="5" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="2"/>
-<RacePointsList>
-<rp Div="MEDAL" Ent="166" Pos="1" Pts="2.0" Race="1010"/>
-<rp Div="MEDAL" Ent="165" Pos="2" Pts="4.0" Race="1010"/>
-<rp Div="MEDAL" Ent="171" Pos="3" Pts="6.0" Race="1010"/>
-<rp Div="MEDAL" Ent="111" Pos="4" Pts="8.0" Race="1010"/>
-<rp Div="MEDAL" Ent="116" Pos="5" Pts="10.0" Race="1010"/>
-<rp Div="MEDAL" Ent="164" Pos="6" Pts="12.0" Race="1010"/>
-<rp Div="MEDAL" Ent="110" Pos="7" Pts="14.0" Race="1010"/>
-<rp Div="MEDAL" Ent="174" Pos="8" Pts="16.0" Race="1010"/>
-<rp Div="MEDAL" Ent="168" Pos="9" Pts="18.0" Race="1010"/>
-<rp Div="MEDAL" Ent="120" Pos="10" Pts="20.0" Race="1010"/>
-</RacePointsList>
-<SeriesPointsList>
-<sp Div="MEDAL" Ent="111" Pos="1" Pts="58.0"/>
-<sp Div="MEDAL" Ent="164" Pos="2" Pts="61.0"/>
-<sp Div="MEDAL" Ent="171" Pos="3" Pts="75.0"/>
-<sp Div="MEDAL" Ent="166" Pos="4" Pts="97.0"/>
-<sp Div="MEDAL" Ent="110" Pos="5" Pts="109.0"/>
-<sp Div="MEDAL" Ent="165" Pos="6" Pts="110.0"/>
-<sp Div="MEDAL" Ent="174" Pos="7" Pts="113.0"/>
-<sp Div="MEDAL" Ent="116" Pos="8" Pts="131.0"/>
-<sp Div="MEDAL" Ent="168" Pos="9" Pts="187.0"/>
-<sp Div="MEDAL" Ent="120" Pos="10" Pts="188.0"/>
-</SeriesPointsList>
 </Stage>
 <Stage CombinedQualifying="false" Name="Gold" PreviousStage="12" ScoreCarryOver="ALL" StageId="15" StageRank="21" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
-<Divisions>
-<DivisionId/>
-</Divisions>
+<Divisions/>
 <System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="5" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
-<RacePointsList>
-<rp Div="Gold" Ent="111" Pos="1" Pts="1.0" Race="604"/>
-<rp Div="Gold" Ent="164" Pos="2" Pts="2.0" Race="604"/>
-<rp Div="Gold" Ent="165" Pos="3" Pts="3.0" Race="604"/>
-<rp Div="Gold" Ent="171" Pos="4" Pts="4.0" Race="604"/>
-<rp Div="Gold" Ent="167" Pos="5" Pts="5.0" Race="604"/>
-<rp Div="Gold" Ent="110" Pos="6" Pts="6.0" Race="604"/>
-<rp Div="Gold" Ent="176" Pos="7" Pts="7.0" Race="604"/>
-<rp Div="Gold" Ent="177" Pos="8" Pts="8.0" Race="604"/>
-<rp Div="Gold" Ent="182" Pos="9" Pts="9.0" Race="604"/>
-<rp Div="Gold" Ent="179" Pos="10" Pts="10.0" Race="604"/>
-<rp Div="Gold" Ent="170" Pos="11" Pts="11.0" Race="604"/>
-<rp Div="Gold" Ent="174" Pos="12" Pts="12.0" Race="604"/>
-<rp Div="Gold" Ent="213" Pos="13" Pts="13.0" Race="604"/>
-<rp Div="Gold" Ent="130" Pos="14" Pts="14.0" Race="604"/>
-<rp Div="Gold" Ent="166" Pos="15" Pts="15.0" Race="604"/>
-<rp Div="Gold" Ent="185" Pos="16" Pts="16.0" Race="604"/>
-<rp Div="Gold" Ent="186" Pos="17" Pts="17.0" Race="604"/>
-<rp Div="Gold" Ent="178" Pos="18" Pts="18.0" Race="604" Toss="true"/>
-<rp Div="Gold" Ent="180" Pos="19" Pts="19.0" Race="604"/>
-<rp Div="Gold" Ent="124" Pos="20" Pts="20.0" Race="604"/>
-<rp Div="Gold" Ent="203" Pos="21" Pts="21.0" Race="604"/>
-<rp Div="Gold" Ent="172" Pos="22" Pts="22.0" Race="604"/>
-<rp Div="Gold" Ent="149" Pos="23" Pts="23.0" Race="604"/>
-<rp Div="Gold" Ent="122" Pos="24" Pts="24.0" Race="604"/>
-<rp Div="Gold" Ent="173" Pos="25" Pts="25.0" Race="604"/>
-<rp Div="Gold" Ent="115" Pos="26" Pts="26.0" Race="604"/>
-<rp Div="Gold" Ent="139" Pos="27" Pts="27.0" Race="604"/>
-<rp Div="Gold" Ent="181" Pos="28" Pts="28.0" Race="604"/>
-<rp Div="Gold" Ent="133" Pos="29" Pts="29.0" Race="604"/>
-<rp Div="Gold" Ent="183" Pos="30" Pts="30.0" Race="604"/>
-<rp Div="Gold" Ent="209" Pos="31" Pts="31.0" Race="604"/>
-<rp Div="Gold" Ent="112" Pos="32" Pts="32.0" Race="604"/>
-<rp Div="Gold" Ent="116" Pos="33" Pts="33.0" Race="604"/>
-<rp Div="Gold" Ent="119" Pos="34" Pts="34.0" Race="604"/>
-<rp Div="Gold" Ent="126" Pos="35" Pts="35.0" Race="604"/>
-<rp Div="Gold" Ent="168" Pos="36" Pts="36.0" Race="604"/>
-<rp Div="Gold" Ent="175" Pos="37" Pts="37.0" Race="604" Toss="true"/>
-<rp Div="Gold" Ent="135" Pos="38" Pts="38.0" Race="604"/>
-<rp Div="Gold" Ent="187" Pos="39" Pts="39.0" Race="604"/>
-<rp Div="Gold" Ent="196" Pos="40" Pts="40.0" Race="604"/>
-<rp Div="Gold" Ent="198" Pos="41" Pts="41.0" Race="604" Toss="true"/>
-<rp Div="Gold" Ent="136" Pos="42" Pts="42.0" Race="604" Toss="true"/>
-<rp Div="Gold" Ent="197" Pos="43" Pts="43.0" Race="604" Toss="true"/>
-<rp Div="Gold" Ent="125" Pos="44" Pts="44.0" Race="604"/>
-<rp Div="Gold" Ent="127" Pos="45" Pts="45.0" Race="604" Toss="true"/>
-<rp Div="Gold" Ent="189" Pos="46" Pts="46.0" Race="604"/>
-<rp Div="Gold" Ent="113" Pos="47" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Gold" Ent="114" Pos="48" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Gold" Ent="169" Pos="49" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Gold" Ent="118" Pos="50" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Gold" Ent="117" Pos="40960" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Gold" Ent="120" Pos="40960" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Gold" Ent="164" Pos="1" Pts="1.0" Race="734"/>
-<rp Div="Gold" Ent="174" Pos="2" Pts="2.0" Race="734"/>
-<rp Div="Gold" Ent="166" Pos="3" Pts="3.0" Race="734"/>
-<rp Div="Gold" Ent="176" Pos="4" Pts="4.0" Race="734"/>
-<rp Div="Gold" Ent="111" Pos="5" Pts="5.0" Race="734"/>
-<rp Div="Gold" Ent="112" Pos="6" Pts="6.0" Race="734"/>
-<rp Div="Gold" Ent="116" Pos="7" Pts="7.0" Race="734"/>
-<rp Div="Gold" Ent="179" Pos="8" Pts="8.0" Race="734"/>
-<rp Div="Gold" Ent="110" Pos="9" Pts="9.0" Race="734"/>
-<rp Div="Gold" Ent="167" Pos="10" Pts="10.0" Race="734"/>
-<rp Div="Gold" Ent="119" Pos="11" Pts="11.0" Race="734"/>
-<rp Div="Gold" Ent="171" Pos="12" Pts="12.0" Race="734"/>
-<rp Div="Gold" Ent="169" Pos="13" Pts="13.0" Race="734"/>
-<rp Div="Gold" Ent="114" Pos="14" Pts="14.0" Race="734"/>
-<rp Div="Gold" Ent="178" Pos="15" Pts="15.0" Race="734"/>
-<rp Div="Gold" Ent="170" Pos="16" Pts="16.0" Race="734"/>
-<rp Div="Gold" Ent="120" Pos="17" Pts="17.0" Race="734"/>
-<rp Div="Gold" Ent="181" Pos="18" Pts="18.0" Race="734"/>
-<rp Div="Gold" Ent="183" Pos="19" Pts="19.0" Race="734"/>
-<rp Div="Gold" Ent="165" Pos="20" Pts="20.0" Race="734"/>
-<rp Div="Gold" Ent="182" Pos="21" Pts="21.0" Race="734"/>
-<rp Div="Gold" Ent="113" Pos="22" Pts="22.0" Race="734"/>
-<rp Div="Gold" Ent="177" Pos="23" Pts="23.0" Race="734"/>
-<rp Div="Gold" Ent="213" Pos="24" Pts="24.0" Race="734"/>
-<rp Div="Gold" Ent="185" Pos="25" Pts="25.0" Race="734"/>
-<rp Div="Gold" Ent="173" Pos="26" Pts="26.0" Race="734"/>
-<rp Div="Gold" Ent="118" Pos="27" Pts="27.0" Race="734"/>
-<rp Div="Gold" Ent="124" Pos="28" Pts="28.0" Race="734"/>
-<rp Div="Gold" Ent="172" Pos="29" Pts="29.0" Race="734"/>
-<rp Div="Gold" Ent="187" Pos="30" Pts="30.0" Race="734"/>
-<rp Div="Gold" Ent="175" Pos="31" Pts="31.0" Race="734"/>
-<rp Div="Gold" Ent="180" Pos="32" Pts="32.0" Race="734" Toss="true"/>
-<rp Div="Gold" Ent="136" Pos="33" Pts="33.0" Race="734"/>
-<rp Div="Gold" Ent="130" Pos="34" Pts="34.0" Race="734" Toss="true"/>
-<rp Div="Gold" Ent="203" Pos="35" Pts="35.0" Race="734" Toss="true"/>
-<rp Div="Gold" Ent="115" Pos="36" Pts="36.0" Race="734"/>
-<rp Div="Gold" Ent="127" Pos="37" Pts="37.0" Race="734"/>
-<rp Div="Gold" Ent="168" Pos="38" Pts="38.0" Race="734" Toss="true"/>
-<rp Div="Gold" Ent="126" Pos="39" Pts="39.0" Race="734" Toss="true"/>
-<rp Div="Gold" Ent="196" Pos="40" Pts="40.0" Race="734"/>
-<rp Div="Gold" Ent="198" Pos="41" Pts="41.0" Race="734"/>
-<rp Div="Gold" Ent="197" Pos="42" Pts="42.0" Race="734"/>
-<rp Div="Gold" Ent="133" Pos="43" Pts="43.0" Race="734" Toss="true"/>
-<rp Div="Gold" Ent="122" Pos="44" Pts="44.0" Race="734" Toss="true"/>
-<rp Div="Gold" Ent="209" Pos="45" Pts="45.0" Race="734" Toss="true"/>
-<rp Div="Gold" Ent="186" Pos="46" Pts="46.0" Race="734"/>
-<rp Div="Gold" Ent="125" Pos="47" Pts="47.0" Race="734"/>
-<rp Div="Gold" Ent="149" Pos="48" Pts="48.0" Race="734" Toss="true"/>
-<rp Div="Gold" Ent="189" Pos="49" Pts="49.0" Race="734"/>
-<rp Div="Gold" Ent="135" Pos="50" Pts="50.0" Race="734" Toss="true"/>
-<rp Div="Gold" Ent="139" Pos="51" Pts="51.0" Race="734" Toss="true"/>
-<rp Div="Gold" Ent="117" Pos="40960" Pts="53.0" Race="734"/>
-<rp Div="Gold" Ent="119" Pos="1" Pts="1.0" Race="840"/>
-<rp Div="Gold" Ent="177" Pos="2" Pts="2.0" Race="840"/>
-<rp Div="Gold" Ent="115" Pos="3" Pts="3.0" Race="840"/>
-<rp Div="Gold" Ent="116" Pos="4" Pts="4.0" Race="840"/>
-<rp Div="Gold" Ent="136" Pos="5" Pts="5.0" Race="840"/>
-<rp Div="Gold" Ent="182" Pos="6" Pts="6.0" Race="840"/>
-<rp Div="Gold" Ent="126" Pos="7" Pts="7.0" Race="840"/>
-<rp Div="Gold" Ent="181" Pos="8" Pts="8.0" Race="840"/>
-<rp Div="Gold" Ent="149" Pos="9" Pts="9.0" Race="840"/>
-<rp Div="Gold" Ent="135" Pos="10" Pts="10.0" Race="840"/>
-<rp Div="Gold" Ent="111" Pos="11" Pts="11.0" Race="840"/>
-<rp Div="Gold" Ent="178" Pos="12" Pts="12.0" Race="840"/>
-<rp Div="Gold" Ent="198" Pos="13" Pts="13.0" Race="840"/>
-<rp Div="Gold" Ent="166" Pos="14" Pts="14.0" Race="840"/>
-<rp Div="Gold" Ent="164" Pos="15" Pts="15.0" Race="840"/>
-<rp Div="Gold" Ent="168" Pos="16" Pts="16.0" Race="840"/>
-<rp Div="Gold" Ent="174" Pos="17" Pts="17.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="120" Pos="18" Pts="18.0" Race="840"/>
-<rp Div="Gold" Ent="130" Pos="19" Pts="19.0" Race="840"/>
-<rp Div="Gold" Ent="170" Pos="20" Pts="20.0" Race="840"/>
-<rp Div="Gold" Ent="171" Pos="21" Pts="21.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="169" Pos="22" Pts="22.0" Race="840"/>
-<rp Div="Gold" Ent="133" Pos="23" Pts="23.0" Race="840"/>
-<rp Div="Gold" Ent="127" Pos="24" Pts="24.0" Race="840"/>
-<rp Div="Gold" Ent="139" Pos="25" Pts="25.0" Race="840"/>
-<rp Div="Gold" Ent="118" Pos="26" Pts="26.0" Race="840"/>
-<rp Div="Gold" Ent="175" Pos="27" Pts="27.0" Race="840"/>
-<rp Div="Gold" Ent="165" Pos="28" Pts="28.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="180" Pos="29" Pts="29.0" Race="840"/>
-<rp Div="Gold" Ent="187" Pos="30" Pts="30.0" Race="840"/>
-<rp Div="Gold" Ent="173" Pos="31" Pts="31.0" Race="840"/>
-<rp Div="Gold" Ent="113" Pos="32" Pts="32.0" Race="840"/>
-<rp Div="Gold" Ent="213" Pos="33" Pts="33.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="112" Pos="34" Pts="34.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="203" Pos="35" Pts="35.0" Race="840"/>
-<rp Div="Gold" Ent="124" Pos="36" Pts="36.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="209" Pos="37" Pts="37.0" Race="840"/>
-<rp Div="Gold" Ent="197" Pos="38" Pts="38.0" Race="840"/>
-<rp Div="Gold" Ent="186" Pos="39" Pts="39.0" Race="840"/>
-<rp Div="Gold" Ent="183" Pos="40" Pts="40.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="179" Pos="41" Pts="41.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="185" Pos="42" Pts="42.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="122" Pos="43" Pts="43.0" Race="840"/>
-<rp Div="Gold" Ent="196" Pos="44" Pts="44.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="110" Pos="45" Pts="45.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="114" Pos="46" Pts="46.0" Race="840"/>
-<rp Div="Gold" Ent="172" Pos="47" Pts="47.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="176" Pos="48" Pts="48.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="125" Pos="49" Pts="49.0" Race="840"/>
-<rp Div="Gold" Ent="189" Pos="40960" Pts="53.0" Race="840" Toss="true"/>
-<rp Div="Gold" Ent="117" Pos="40960" Pts="53.0" Race="840"/>
-<rp Div="Gold" Ent="167" Pos="40960" Pts="53.0" Race="840" Toss="true"/>
-</RacePointsList>
-<SeriesPointsList>
-<sp Div="Gold" Ent="164" Pos="1" Pts="49.0"/>
-<sp Div="Gold" Ent="111" Pos="2" Pts="50.0"/>
-<sp Div="Gold" Ent="171" Pos="3" Pts="69.0"/>
-<sp Div="Gold" Ent="110" Pos="4" Pts="95.0"/>
-<sp Div="Gold" Ent="166" Pos="5" Pts="95.0001"/>
-<sp Div="Gold" Ent="174" Pos="6" Pts="97.0"/>
-<sp Div="Gold" Ent="165" Pos="7" Pts="106.0"/>
-<sp Div="Gold" Ent="177" Pos="8" Pts="118.0"/>
-<sp Div="Gold" Ent="116" Pos="9" Pts="121.0"/>
-<sp Div="Gold" Ent="179" Pos="10" Pts="139.0"/>
-<sp Div="Gold" Ent="176" Pos="11" Pts="145.0"/>
-<sp Div="Gold" Ent="178" Pos="12" Pts="147.0"/>
-<sp Div="Gold" Ent="115" Pos="13" Pts="152.0"/>
-<sp Div="Gold" Ent="182" Pos="14" Pts="159.0"/>
-<sp Div="Gold" Ent="119" Pos="15" Pts="162.0"/>
-<sp Div="Gold" Ent="170" Pos="16" Pts="163.0"/>
-<sp Div="Gold" Ent="120" Pos="17" Pts="168.0"/>
-<sp Div="Gold" Ent="168" Pos="18" Pts="169.0"/>
-<sp Div="Gold" Ent="167" Pos="19" Pts="176.0"/>
-<sp Div="Gold" Ent="130" Pos="20" Pts="176.0001"/>
-<sp Div="Gold" Ent="169" Pos="21" Pts="180.0"/>
-<sp Div="Gold" Ent="112" Pos="22" Pts="188.0"/>
-<sp Div="Gold" Ent="213" Pos="23" Pts="189.0"/>
-<sp Div="Gold" Ent="183" Pos="24" Pts="203.0"/>
-<sp Div="Gold" Ent="173" Pos="25" Pts="207.0"/>
-<sp Div="Gold" Ent="126" Pos="26" Pts="207.0001"/>
-<sp Div="Gold" Ent="181" Pos="27" Pts="216.0"/>
-<sp Div="Gold" Ent="114" Pos="28" Pts="217.0"/>
-<sp Div="Gold" Ent="172" Pos="29" Pts="225.0"/>
-<sp Div="Gold" Ent="135" Pos="30" Pts="227.0"/>
-<sp Div="Gold" Ent="185" Pos="31" Pts="228.0"/>
-<sp Div="Gold" Ent="136" Pos="32" Pts="239.0"/>
-<sp Div="Gold" Ent="180" Pos="33" Pts="240.0"/>
-<sp Div="Gold" Ent="118" Pos="34" Pts="241.0"/>
-<sp Div="Gold" Ent="149" Pos="35" Pts="248.0"/>
-<sp Div="Gold" Ent="175" Pos="36" Pts="250.0"/>
-<sp Div="Gold" Ent="113" Pos="37" Pts="251.0"/>
-<sp Div="Gold" Ent="203" Pos="38" Pts="269.0"/>
-<sp Div="Gold" Ent="124" Pos="39" Pts="270.0"/>
-<sp Div="Gold" Ent="133" Pos="40" Pts="270.0001"/>
-<sp Div="Gold" Ent="198" Pos="41" Pts="279.0"/>
-<sp Div="Gold" Ent="187" Pos="42" Pts="290.0"/>
-<sp Div="Gold" Ent="122" Pos="43" Pts="298.0"/>
-<sp Div="Gold" Ent="197" Pos="44" Pts="304.0"/>
-<sp Div="Gold" Ent="186" Pos="45" Pts="306.0"/>
-<sp Div="Gold" Ent="139" Pos="46" Pts="309.0"/>
-<sp Div="Gold" Ent="209" Pos="47" Pts="317.0"/>
-<sp Div="Gold" Ent="127" Pos="48" Pts="321.0"/>
-<sp Div="Gold" Ent="196" Pos="49" Pts="356.0"/>
-<sp Div="Gold" Ent="125" Pos="50" Pts="384.0"/>
-<sp Div="Gold" Ent="117" Pos="51" Pts="395.0"/>
-<sp Div="Gold" Ent="189" Pos="52" Pts="399.0"/>
-</SeriesPointsList>
 </Stage>
 <Stage CombinedQualifying="false" Name="Silver" PreviousStage="12" ScoreCarryOver="ALL" StageId="14" StageRank="20" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
-<Divisions>
-<DivisionId/>
-</Divisions>
+<Divisions/>
 <System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="5" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
-<RacePointsList>
-<rp Div="Silver" Ent="200" Pos="1" Pts="1.0" Race="604"/>
-<rp Div="Silver" Ent="129" Pos="2" Pts="2.0" Race="604"/>
-<rp Div="Silver" Ent="123" Pos="3" Pts="3.0" Race="604"/>
-<rp Div="Silver" Ent="155" Pos="4" Pts="4.0" Race="604"/>
-<rp Div="Silver" Ent="138" Pos="5" Pts="5.0" Race="604"/>
-<rp Div="Silver" Ent="161" Pos="6" Pts="6.0" Race="604"/>
-<rp Div="Silver" Ent="215" Pos="7" Pts="7.0" Race="604"/>
-<rp Div="Silver" Ent="163" Pos="8" Pts="8.0" Race="604"/>
-<rp Div="Silver" Ent="199" Pos="9" Pts="9.0" Race="604"/>
-<rp Div="Silver" Ent="212" Pos="10" Pts="10.0" Race="604"/>
-<rp Div="Silver" Ent="159" Pos="11" Pts="11.0" Race="604"/>
-<rp Div="Silver" Ent="148" Pos="12" Pts="12.0" Race="604"/>
-<rp Div="Silver" Ent="214" Pos="13" Pts="13.0" Race="604"/>
-<rp Div="Silver" Ent="202" Pos="14" Pts="14.0" Race="604"/>
-<rp Div="Silver" Ent="132" Pos="15" Pts="15.0" Race="604"/>
-<rp Div="Silver" Ent="207" Pos="16" Pts="16.0" Race="604"/>
-<rp Div="Silver" Ent="162" Pos="17" Pts="17.0" Race="604"/>
-<rp Div="Silver" Ent="141" Pos="18" Pts="18.0" Race="604"/>
-<rp Div="Silver" Ent="128" Pos="19" Pts="19.0" Race="604"/>
-<rp Div="Silver" Ent="190" Pos="20" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Silver" Ent="184" Pos="21" Pts="20.0" Race="604"/>
-<rp Div="Silver" Ent="144" Pos="22" Pts="21.0" Race="604"/>
-<rp Div="Silver" Ent="192" Pos="23" Pts="22.0" Race="604"/>
-<rp Div="Silver" Ent="146" Pos="24" Pts="23.0" Race="604"/>
-<rp Div="Silver" Ent="142" Pos="25" Pts="24.0" Race="604"/>
-<rp Div="Silver" Ent="156" Pos="26" Pts="25.0" Race="604"/>
-<rp Div="Silver" Ent="157" Pos="27" Pts="26.0" Race="604"/>
-<rp Div="Silver" Ent="158" Pos="28" Pts="27.0" Race="604"/>
-<rp Div="Silver" Ent="140" Pos="29" Pts="28.0" Race="604"/>
-<rp Div="Silver" Ent="211" Pos="30" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Silver" Ent="191" Pos="31" Pts="29.0" Race="604"/>
-<rp Div="Silver" Ent="188" Pos="32" Pts="30.0" Race="604"/>
-<rp Div="Silver" Ent="204" Pos="33" Pts="31.0" Race="604"/>
-<rp Div="Silver" Ent="152" Pos="34" Pts="32.0" Race="604"/>
-<rp Div="Silver" Ent="193" Pos="35" Pts="33.0" Race="604"/>
-<rp Div="Silver" Ent="145" Pos="36" Pts="34.0" Race="604"/>
-<rp Div="Silver" Ent="143" Pos="37" Pts="35.0" Race="604"/>
-<rp Div="Silver" Ent="205" Pos="38" Pts="36.0" Race="604"/>
-<rp Div="Silver" Ent="160" Pos="39" Pts="37.0" Race="604"/>
-<rp Div="Silver" Ent="150" Pos="40" Pts="38.0" Race="604"/>
-<rp Div="Silver" Ent="201" Pos="41" Pts="39.0" Race="604"/>
-<rp Div="Silver" Ent="194" Pos="42" Pts="40.0" Race="604"/>
-<rp Div="Silver" Ent="134" Pos="43" Pts="41.0" Race="604"/>
-<rp Div="Silver" Ent="208" Pos="44" Pts="42.0" Race="604"/>
-<rp Div="Silver" Ent="210" Pos="45" Pts="43.0" Race="604"/>
-<rp Div="Silver" Ent="195" Pos="46" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Silver" Ent="216" Pos="40960" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Silver" Ent="151" Pos="40960" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Silver" Ent="153" Pos="40960" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Silver" Ent="121" Pos="40960" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Silver" Ent="154" Pos="40960" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Silver" Ent="316" Pos="40960" Pts="53.0" Race="604" Toss="true"/>
-<rp Div="Silver" Ent="123" Pos="1" Pts="1.0" Race="734"/>
-<rp Div="Silver" Ent="200" Pos="2" Pts="2.0" Race="734"/>
-<rp Div="Silver" Ent="193" Pos="3" Pts="3.0" Race="734"/>
-<rp Div="Silver" Ent="154" Pos="4" Pts="4.0" Race="734"/>
-<rp Div="Silver" Ent="138" Pos="5" Pts="5.0" Race="734"/>
-<rp Div="Silver" Ent="191" Pos="6" Pts="6.0" Race="734"/>
-<rp Div="Silver" Ent="212" Pos="7" Pts="7.0" Race="734"/>
-<rp Div="Silver" Ent="142" Pos="8" Pts="8.0" Race="734"/>
-<rp Div="Silver" Ent="146" Pos="9" Pts="9.0" Race="734"/>
-<rp Div="Silver" Ent="141" Pos="10" Pts="10.0" Race="734"/>
-<rp Div="Silver" Ent="163" Pos="11" Pts="11.0" Race="734"/>
-<rp Div="Silver" Ent="192" Pos="12" Pts="12.0" Race="734"/>
-<rp Div="Silver" Ent="159" Pos="13" Pts="13.0" Race="734"/>
-<rp Div="Silver" Ent="128" Pos="14" Pts="14.0" Race="734"/>
-<rp Div="Silver" Ent="215" Pos="15" Pts="15.0" Race="734"/>
-<rp Div="Silver" Ent="143" Pos="16" Pts="16.0" Race="734"/>
-<rp Div="Silver" Ent="216" Pos="17" Pts="17.0" Race="734"/>
-<rp Div="Silver" Ent="129" Pos="18" Pts="18.0" Race="734"/>
-<rp Div="Silver" Ent="152" Pos="19" Pts="19.0" Race="734"/>
-<rp Div="Silver" Ent="207" Pos="20" Pts="20.0" Race="734"/>
-<rp Div="Silver" Ent="155" Pos="21" Pts="21.0" Race="734"/>
-<rp Div="Silver" Ent="140" Pos="22" Pts="22.0" Race="734"/>
-<rp Div="Silver" Ent="188" Pos="23" Pts="23.0" Race="734"/>
-<rp Div="Silver" Ent="195" Pos="24" Pts="24.0" Race="734"/>
-<rp Div="Silver" Ent="132" Pos="25" Pts="25.0" Race="734"/>
-<rp Div="Silver" Ent="150" Pos="26" Pts="26.0" Race="734"/>
-<rp Div="Silver" Ent="199" Pos="27" Pts="27.0" Race="734"/>
-<rp Div="Silver" Ent="184" Pos="28" Pts="28.0" Race="734"/>
-<rp Div="Silver" Ent="201" Pos="29" Pts="29.0" Race="734"/>
-<rp Div="Silver" Ent="162" Pos="30" Pts="30.0" Race="734"/>
-<rp Div="Silver" Ent="214" Pos="31" Pts="31.0" Race="734"/>
-<rp Div="Silver" Ent="156" Pos="32" Pts="32.0" Race="734"/>
-<rp Div="Silver" Ent="161" Pos="33" Pts="33.0" Race="734"/>
-<rp Div="Silver" Ent="148" Pos="34" Pts="34.0" Race="734"/>
-<rp Div="Silver" Ent="134" Pos="35" Pts="35.0" Race="734"/>
-<rp Div="Silver" Ent="190" Pos="36" Pts="36.0" Race="734"/>
-<rp Div="Silver" Ent="194" Pos="37" Pts="37.0" Race="734"/>
-<rp Div="Silver" Ent="204" Pos="38" Pts="38.0" Race="734"/>
-<rp Div="Silver" Ent="211" Pos="39" Pts="39.0" Race="734"/>
-<rp Div="Silver" Ent="157" Pos="40" Pts="40.0" Race="734"/>
-<rp Div="Silver" Ent="158" Pos="41" Pts="41.0" Race="734"/>
-<rp Div="Silver" Ent="205" Pos="42" Pts="42.0" Race="734"/>
-<rp Div="Silver" Ent="151" Pos="43" Pts="43.0" Race="734"/>
-<rp Div="Silver" Ent="144" Pos="44" Pts="44.0" Race="734"/>
-<rp Div="Silver" Ent="208" Pos="45" Pts="45.0" Race="734"/>
-<rp Div="Silver" Ent="160" Pos="46" Pts="46.0" Race="734"/>
-<rp Div="Silver" Ent="210" Pos="47" Pts="47.0" Race="734"/>
-<rp Div="Silver" Ent="202" Pos="32768" Pts="53.0" Race="734" Toss="true"/>
-<rp Div="Silver" Ent="153" Pos="40960" Pts="53.0" Race="734"/>
-<rp Div="Silver" Ent="145" Pos="40960" Pts="53.0" Race="734" Toss="true"/>
-<rp Div="Silver" Ent="121" Pos="40960" Pts="53.0" Race="734"/>
-<rp Div="Silver" Ent="316" Pos="40960" Pts="53.0" Race="734"/>
-<rp Div="Silver" Ent="212" Pos="1" Pts="1.0" Race="840"/>
-<rp Div="Silver" Ent="163" Pos="2" Pts="2.0" Race="840"/>
-<rp Div="Silver" Ent="138" Pos="3" Pts="3.0" Race="840"/>
-<rp Div="Silver" Ent="142" Pos="4" Pts="4.0" Race="840"/>
-<rp Div="Silver" Ent="141" Pos="5" Pts="5.0" Race="840"/>
-<rp Div="Silver" Ent="128" Pos="6" Pts="6.0" Race="840"/>
-<rp Div="Silver" Ent="200" Pos="7" Pts="7.0" Race="840"/>
-<rp Div="Silver" Ent="159" Pos="8" Pts="8.0" Race="840"/>
-<rp Div="Silver" Ent="146" Pos="9" Pts="9.0" Race="840"/>
-<rp Div="Silver" Ent="123" Pos="10" Pts="10.0" Race="840"/>
-<rp Div="Silver" Ent="192" Pos="11" Pts="53.0" Race="840" Toss="true"/>
-<rp Div="Silver" Ent="129" Pos="12" Pts="11.0" Race="840"/>
-<rp Div="Silver" Ent="162" Pos="13" Pts="12.0" Race="840"/>
-<rp Div="Silver" Ent="143" Pos="14" Pts="53.0" Race="840" Toss="true"/>
-<rp Div="Silver" Ent="191" Pos="15" Pts="13.0" Race="840"/>
-<rp Div="Silver" Ent="132" Pos="16" Pts="14.0" Race="840"/>
-<rp Div="Silver" Ent="154" Pos="17" Pts="15.0" Race="840"/>
-<rp Div="Silver" Ent="215" Pos="18" Pts="16.0" Race="840"/>
-<rp Div="Silver" Ent="195" Pos="19" Pts="17.0" Race="840"/>
-<rp Div="Silver" Ent="199" Pos="20" Pts="18.0" Race="840"/>
-<rp Div="Silver" Ent="193" Pos="21" Pts="19.0" Race="840"/>
-<rp Div="Silver" Ent="155" Pos="22" Pts="20.0" Race="840"/>
-<rp Div="Silver" Ent="207" Pos="23" Pts="21.0" Race="840"/>
-<rp Div="Silver" Ent="140" Pos="24" Pts="22.0" Race="840"/>
-<rp Div="Silver" Ent="216" Pos="25" Pts="23.0" Race="840"/>
-<rp Div="Silver" Ent="152" Pos="26" Pts="24.0" Race="840"/>
-<rp Div="Silver" Ent="204" Pos="27" Pts="25.0" Race="840"/>
-<rp Div="Silver" Ent="150" Pos="28" Pts="26.0" Race="840"/>
-<rp Div="Silver" Ent="148" Pos="29" Pts="27.0" Race="840"/>
-<rp Div="Silver" Ent="184" Pos="30" Pts="28.0" Race="840"/>
-<rp Div="Silver" Ent="214" Pos="31" Pts="29.0" Race="840"/>
-<rp Div="Silver" Ent="134" Pos="32" Pts="30.0" Race="840"/>
-<rp Div="Silver" Ent="188" Pos="33" Pts="31.0" Race="840"/>
-<rp Div="Silver" Ent="161" Pos="34" Pts="32.0" Race="840"/>
-<rp Div="Silver" Ent="201" Pos="35" Pts="33.0" Race="840"/>
-<rp Div="Silver" Ent="144" Pos="36" Pts="34.0" Race="840"/>
-<rp Div="Silver" Ent="156" Pos="37" Pts="35.0" Race="840"/>
-<rp Div="Silver" Ent="211" Pos="38" Pts="36.0" Race="840"/>
-<rp Div="Silver" Ent="158" Pos="39" Pts="37.0" Race="840"/>
-<rp Div="Silver" Ent="157" Pos="40" Pts="38.0" Race="840"/>
-<rp Div="Silver" Ent="151" Pos="41" Pts="39.0" Race="840"/>
-<rp Div="Silver" Ent="208" Pos="42" Pts="40.0" Race="840"/>
-<rp Div="Silver" Ent="205" Pos="43" Pts="41.0" Race="840"/>
-<rp Div="Silver" Ent="160" Pos="44" Pts="42.0" Race="840"/>
-<rp Div="Silver" Ent="210" Pos="45" Pts="43.0" Race="840"/>
-<rp Div="Silver" Ent="194" Pos="32768" Pts="53.0" Race="840" Toss="true"/>
-<rp Div="Silver" Ent="153" Pos="40960" Pts="53.0" Race="840"/>
-<rp Div="Silver" Ent="190" Pos="40960" Pts="53.0" Race="840"/>
-<rp Div="Silver" Ent="145" Pos="40960" Pts="53.0" Race="840"/>
-<rp Div="Silver" Ent="121" Pos="40960" Pts="53.0" Race="840"/>
-<rp Div="Silver" Ent="202" Pos="40960" Pts="53.0" Race="840"/>
-<rp Div="Silver" Ent="316" Pos="40960" Pts="53.0" Race="840"/>
-<rp Div="Silver" Ent="159" Pos="1" Pts="1.0" Race="921"/>
-<rp Div="Silver" Ent="148" Pos="2" Pts="2.0" Race="921"/>
-<rp Div="Silver" Ent="138" Pos="3" Pts="3.0" Race="921"/>
-<rp Div="Silver" Ent="193" Pos="4" Pts="4.0" Race="921"/>
-<rp Div="Silver" Ent="192" Pos="5" Pts="5.0" Race="921"/>
-<rp Div="Silver" Ent="142" Pos="6" Pts="6.0" Race="921"/>
-<rp Div="Silver" Ent="128" Pos="7" Pts="7.0" Race="921"/>
-<rp Div="Silver" Ent="141" Pos="8" Pts="8.0" Race="921"/>
-<rp Div="Silver" Ent="200" Pos="9" Pts="9.0" Race="921"/>
-<rp Div="Silver" Ent="152" Pos="10" Pts="10.0" Race="921"/>
-<rp Div="Silver" Ent="212" Pos="11" Pts="11.0" Race="921"/>
-<rp Div="Silver" Ent="188" Pos="12" Pts="12.0" Race="921"/>
-<rp Div="Silver" Ent="132" Pos="13" Pts="13.0" Race="921"/>
-<rp Div="Silver" Ent="123" Pos="14" Pts="14.0" Race="921"/>
-<rp Div="Silver" Ent="211" Pos="15" Pts="15.0" Race="921"/>
-<rp Div="Silver" Ent="154" Pos="16" Pts="16.0" Race="921"/>
-<rp Div="Silver" Ent="184" Pos="17" Pts="17.0" Race="921"/>
-<rp Div="Silver" Ent="140" Pos="18" Pts="18.0" Race="921"/>
-<rp Div="Silver" Ent="199" Pos="19" Pts="19.0" Race="921"/>
-<rp Div="Silver" Ent="163" Pos="20" Pts="20.0" Race="921"/>
-<rp Div="Silver" Ent="134" Pos="21" Pts="21.0" Race="921"/>
-<rp Div="Silver" Ent="161" Pos="22" Pts="22.0" Race="921"/>
-<rp Div="Silver" Ent="129" Pos="23" Pts="23.0" Race="921"/>
-<rp Div="Silver" Ent="204" Pos="24" Pts="24.0" Race="921"/>
-<rp Div="Silver" Ent="214" Pos="25" Pts="25.0" Race="921"/>
-<rp Div="Silver" Ent="156" Pos="26" Pts="26.0" Race="921"/>
-<rp Div="Silver" Ent="216" Pos="27" Pts="27.0" Race="921"/>
-<rp Div="Silver" Ent="191" Pos="28" Pts="28.0" Race="921"/>
-<rp Div="Silver" Ent="162" Pos="29" Pts="29.0" Race="921"/>
-<rp Div="Silver" Ent="215" Pos="30" Pts="30.0" Race="921"/>
-<rp Div="Silver" Ent="157" Pos="31" Pts="31.0" Race="921"/>
-<rp Div="Silver" Ent="158" Pos="32" Pts="32.0" Race="921"/>
-<rp Div="Silver" Ent="205" Pos="33" Pts="33.0" Race="921"/>
-<rp Div="Silver" Ent="201" Pos="34" Pts="34.0" Race="921"/>
-<rp Div="Silver" Ent="155" Pos="35" Pts="35.0" Race="921"/>
-<rp Div="Silver" Ent="151" Pos="36" Pts="36.0" Race="921"/>
-<rp Div="Silver" Ent="143" Pos="37" Pts="37.0" Race="921"/>
-<rp Div="Silver" Ent="144" Pos="38" Pts="38.0" Race="921"/>
-<rp Div="Silver" Ent="208" Pos="39" Pts="39.0" Race="921"/>
-<rp Div="Silver" Ent="160" Pos="40" Pts="40.0" Race="921"/>
-<rp Div="Silver" Ent="210" Pos="41" Pts="41.0" Race="921"/>
-<rp Div="Silver" Ent="146" Pos="40960" Pts="53.0" Race="921" Toss="true"/>
-<rp Div="Silver" Ent="150" Pos="40960" Pts="53.0" Race="921" Toss="true"/>
-<rp Div="Silver" Ent="153" Pos="40960" Pts="53.0" Race="921"/>
-<rp Div="Silver" Ent="190" Pos="40960" Pts="53.0" Race="921"/>
-<rp Div="Silver" Ent="207" Pos="40960" Pts="53.0" Race="921" Toss="true"/>
-<rp Div="Silver" Ent="145" Pos="40960" Pts="53.0" Race="921"/>
-<rp Div="Silver" Ent="121" Pos="40960" Pts="53.0" Race="921"/>
-<rp Div="Silver" Ent="194" Pos="40960" Pts="53.0" Race="921"/>
-<rp Div="Silver" Ent="202" Pos="40960" Pts="53.0" Race="921"/>
-<rp Div="Silver" Ent="195" Pos="40960" Pts="53.0" Race="921"/>
-<rp Div="Silver" Ent="316" Pos="40960" Pts="53.0" Race="921"/>
-</RacePointsList>
-<SeriesPointsList>
-<sp Div="Silver" Ent="138" Pos="1" Pts="137.0"/>
-<sp Div="Silver" Ent="212" Pos="2" Pts="147.0"/>
-<sp Div="Silver" Ent="123" Pos="3" Pts="152.0"/>
-<sp Div="Silver" Ent="142" Pos="4" Pts="166.0"/>
-<sp Div="Silver" Ent="200" Pos="5" Pts="170.0"/>
-<sp Div="Silver" Ent="159" Pos="6" Pts="173.0"/>
-<sp Div="Silver" Ent="128" Pos="7" Pts="189.0"/>
-<sp Div="Silver" Ent="191" Pos="8" Pts="196.0"/>
-<sp Div="Silver" Ent="141" Pos="9" Pts="202.0"/>
-<sp Div="Silver" Ent="193" Pos="10" Pts="204.0"/>
-<sp Div="Silver" Ent="192" Pos="11" Pts="205.0"/>
-<sp Div="Silver" Ent="163" Pos="12" Pts="207.0"/>
-<sp Div="Silver" Ent="129" Pos="13" Pts="214.0"/>
-<sp Div="Silver" Ent="199" Pos="14" Pts="216.0"/>
-<sp Div="Silver" Ent="154" Pos="15" Pts="220.0"/>
-<sp Div="Silver" Ent="132" Pos="16" Pts="220.0001"/>
-<sp Div="Silver" Ent="207" Pos="17" Pts="237.0"/>
-<sp Div="Silver" Ent="215" Pos="18" Pts="249.0"/>
-<sp Div="Silver" Ent="146" Pos="19" Pts="250.0"/>
-<sp Div="Silver" Ent="148" Pos="20" Pts="251.0"/>
-<sp Div="Silver" Ent="152" Pos="21" Pts="255.0"/>
-<sp Div="Silver" Ent="184" Pos="22" Pts="261.0"/>
-<sp Div="Silver" Ent="140" Pos="23" Pts="261.0001"/>
-<sp Div="Silver" Ent="161" Pos="24" Pts="272.0"/>
-<sp Div="Silver" Ent="155" Pos="25" Pts="280.0"/>
-<sp Div="Silver" Ent="188" Pos="26" Pts="285.0"/>
-<sp Div="Silver" Ent="162" Pos="27" Pts="287.0"/>
-<sp Div="Silver" Ent="214" Pos="28" Pts="287.0001"/>
-<sp Div="Silver" Ent="143" Pos="29" Pts="289.0"/>
-<sp Div="Silver" Ent="195" Pos="30" Pts="289.0001"/>
-<sp Div="Silver" Ent="150" Pos="31" Pts="293.0"/>
-<sp Div="Silver" Ent="216" Pos="32" Pts="295.0"/>
-<sp Div="Silver" Ent="211" Pos="33" Pts="307.0"/>
-<sp Div="Silver" Ent="201" Pos="34" Pts="313.0"/>
-<sp Div="Silver" Ent="204" Pos="35" Pts="321.0"/>
-<sp Div="Silver" Ent="156" Pos="36" Pts="333.0"/>
-<sp Div="Silver" Ent="121" Pos="37" Pts="338.0"/>
-<sp Div="Silver" Ent="134" Pos="38" Pts="340.0"/>
-<sp Div="Silver" Ent="157" Pos="39" Pts="349.0"/>
-<sp Div="Silver" Ent="151" Pos="40" Pts="354.0"/>
-<sp Div="Silver" Ent="144" Pos="41" Pts="368.0"/>
-<sp Div="Silver" Ent="158" Pos="42" Pts="368.0001"/>
-<sp Div="Silver" Ent="205" Pos="43" Pts="372.0"/>
-<sp Div="Silver" Ent="194" Pos="44" Pts="391.0"/>
-<sp Div="Silver" Ent="208" Pos="45" Pts="391.0001"/>
-<sp Div="Silver" Ent="210" Pos="46" Pts="394.0"/>
-<sp Div="Silver" Ent="190" Pos="47" Pts="398.0"/>
-<sp Div="Silver" Ent="160" Pos="48" Pts="400.0"/>
-<sp Div="Silver" Ent="202" Pos="49" Pts="404.0"/>
-<sp Div="Silver" Ent="145" Pos="50" Pts="432.0"/>
-<sp Div="Silver" Ent="153" Pos="51" Pts="474.0"/>
-<sp Div="Silver" Ent="316" Pos="52" Pts="477.0"/>
-</SeriesPointsList>
 </Stage>
 <Stage CombinedQualifying="true" Name="Qualifying" ScoreCarryOver="ALL" StageId="12" StageRank="10" SystemName="ISAF Low Point 2013-2016" ThrowoutCarryOver="ALL" TiebreakCarryOver="ALL">
-<Divisions>
-<DivisionId/>
-<DivisionId/>
-<DivisionId/>
-<DivisionId/>
-<DivisionId/>
-<DivisionId/>
-</Divisions>
+<Divisions/>
 <System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="5" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
 <RacePointsList>
 <rp Div="Monday Yellow" Ent="189" Pos="1" Pts="53.0" Race="1"/>
@@ -3477,12 +2964,12 @@
 <rp Div="Monday Yellow" Ent="188" Pos="37" Pts="35.0" Race="1"/>
 <rp Div="Monday Yellow" Ent="216" Pos="38" Pts="36.0" Race="1"/>
 <rp Div="Monday Yellow" Ent="193" Pos="39" Pts="37.0" Race="1"/>
-<rp Div="Monday Yellow" Ent="184" Pos="40" Pts="38.0" Race="1" Toss="true"/>
+<rp Div="Monday Yellow" Ent="184" Pos="40" Pts="38.0" Race="1"/>
 <rp Div="Monday Yellow" Ent="211" Pos="41" Pts="39.0" Race="1"/>
 <rp Div="Monday Yellow" Ent="215" Pos="42" Pts="40.0" Race="1"/>
 <rp Div="Monday Yellow" Ent="194" Pos="43" Pts="41.0" Race="1"/>
 <rp Div="Monday Yellow" Ent="214" Pos="44" Pts="42.0" Race="1"/>
-<rp Div="Monday Yellow" Ent="201" Pos="45" Pts="43.0" Race="1" Toss="true"/>
+<rp Div="Monday Yellow" Ent="201" Pos="45" Pts="43.0" Race="1"/>
 <rp Div="Monday Yellow" Ent="204" Pos="46" Pts="44.0" Race="1"/>
 <rp Div="Monday Yellow" Ent="190" Pos="47" Pts="45.0" Race="1"/>
 <rp Div="Monday Yellow" Ent="205" Pos="48" Pts="46.0" Race="1"/>
@@ -3527,21 +3014,21 @@
 <rp Div="Monday Blue" Ent="161" Pos="35" Pts="35.0" Race="1"/>
 <rp Div="Monday Blue" Ent="148" Pos="36" Pts="36.0" Race="1"/>
 <rp Div="Monday Blue" Ent="151" Pos="37" Pts="37.0" Race="1"/>
-<rp Div="Monday Blue" Ent="138" Pos="38" Pts="38.0" Race="1" Toss="true"/>
+<rp Div="Monday Blue" Ent="138" Pos="38" Pts="38.0" Race="1"/>
 <rp Div="Monday Blue" Ent="150" Pos="39" Pts="39.0" Race="1"/>
 <rp Div="Monday Blue" Ent="143" Pos="40" Pts="40.0" Race="1"/>
 <rp Div="Monday Blue" Ent="134" Pos="41" Pts="41.0" Race="1"/>
 <rp Div="Monday Blue" Ent="146" Pos="42" Pts="42.0" Race="1"/>
 <rp Div="Monday Blue" Ent="156" Pos="43" Pts="43.0" Race="1"/>
-<rp Div="Monday Blue" Ent="155" Pos="44" Pts="44.0" Race="1" Toss="true"/>
+<rp Div="Monday Blue" Ent="155" Pos="44" Pts="44.0" Race="1"/>
 <rp Div="Monday Blue" Ent="157" Pos="45" Pts="45.0" Race="1"/>
-<rp Div="Monday Blue" Ent="162" Pos="46" Pts="46.0" Race="1" Toss="true"/>
+<rp Div="Monday Blue" Ent="162" Pos="46" Pts="46.0" Race="1"/>
 <rp Div="Monday Blue" Ent="144" Pos="47" Pts="47.0" Race="1"/>
-<rp Div="Monday Blue" Ent="158" Pos="48" Pts="48.0" Race="1" Toss="true"/>
+<rp Div="Monday Blue" Ent="158" Pos="48" Pts="48.0" Race="1"/>
 <rp Div="Monday Blue" Ent="145" Pos="49" Pts="49.0" Race="1"/>
-<rp Div="Monday Blue" Ent="160" Pos="50" Pts="50.0" Race="1" Toss="true"/>
+<rp Div="Monday Blue" Ent="160" Pos="50" Pts="50.0" Race="1"/>
 <rp Div="Monday Blue" Ent="153" Pos="40960" Pts="53.0" Race="1"/>
-<rp Div="Monday Blue" Ent="163" Pos="40960" Pts="53.0" Race="1" Toss="true"/>
+<rp Div="Monday Blue" Ent="163" Pos="40960" Pts="53.0" Race="1"/>
 <rp Div="Monday Yellow" Ent="168" Pos="1" Pts="1.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="164" Pos="2" Pts="2.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="171" Pos="3" Pts="3.0" Race="12"/>
@@ -3551,10 +3038,10 @@
 <rp Div="Monday Yellow" Ent="169" Pos="7" Pts="7.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="173" Pos="8" Pts="8.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="167" Pos="9" Pts="9.0" Race="12"/>
-<rp Div="Monday Yellow" Ent="170" Pos="10" Pts="53.0" Race="12" Toss="true"/>
+<rp Div="Monday Yellow" Ent="170" Pos="10" Pts="53.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="183" Pos="11" Pts="10.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="177" Pos="12" Pts="11.0" Race="12"/>
-<rp Div="Monday Yellow" Ent="181" Pos="13" Pts="53.0" Race="12" Toss="true"/>
+<rp Div="Monday Yellow" Ent="181" Pos="13" Pts="53.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="203" Pos="14" Pts="12.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="182" Pos="15" Pts="13.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="174" Pos="16" Pts="14.0" Race="12"/>
@@ -3563,8 +3050,8 @@
 <rp Div="Monday Yellow" Ent="213" Pos="19" Pts="17.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="186" Pos="20" Pts="18.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="180" Pos="21" Pts="19.0" Race="12"/>
-<rp Div="Monday Yellow" Ent="200" Pos="22" Pts="53.0" Race="12" Toss="true"/>
-<rp Div="Monday Yellow" Ent="187" Pos="23" Pts="53.0" Race="12" Toss="true"/>
+<rp Div="Monday Yellow" Ent="200" Pos="22" Pts="53.0" Race="12"/>
+<rp Div="Monday Yellow" Ent="187" Pos="23" Pts="53.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="198" Pos="24" Pts="20.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="185" Pos="25" Pts="21.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="189" Pos="26" Pts="22.0" Race="12"/>
@@ -3583,7 +3070,7 @@
 <rp Div="Monday Yellow" Ent="199" Pos="39" Pts="35.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="216" Pos="40" Pts="36.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="215" Pos="41" Pts="37.0" Race="12"/>
-<rp Div="Monday Yellow" Ent="193" Pos="42" Pts="53.0" Race="12" Toss="true"/>
+<rp Div="Monday Yellow" Ent="193" Pos="42" Pts="53.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="204" Pos="43" Pts="38.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="214" Pos="44" Pts="39.0" Race="12"/>
 <rp Div="Monday Yellow" Ent="190" Pos="45" Pts="40.0" Race="12"/>
@@ -3610,7 +3097,7 @@
 <rp Div="Monday Blue" Ent="126" Pos="14" Pts="14.0" Race="12"/>
 <rp Div="Monday Blue" Ent="112" Pos="15" Pts="15.0" Race="12"/>
 <rp Div="Monday Blue" Ent="121" Pos="16" Pts="16.0" Race="12"/>
-<rp Div="Monday Blue" Ent="166" Pos="17" Pts="17.0" Race="12" Toss="true"/>
+<rp Div="Monday Blue" Ent="166" Pos="17" Pts="17.0" Race="12"/>
 <rp Div="Monday Blue" Ent="127" Pos="18" Pts="18.0" Race="12"/>
 <rp Div="Monday Blue" Ent="135" Pos="19" Pts="19.0" Race="12"/>
 <rp Div="Monday Blue" Ent="149" Pos="20" Pts="20.0" Race="12"/>
@@ -3631,12 +3118,12 @@
 <rp Div="Monday Blue" Ent="132" Pos="35" Pts="35.0" Race="12"/>
 <rp Div="Monday Blue" Ent="152" Pos="36" Pts="36.0" Race="12"/>
 <rp Div="Monday Blue" Ent="161" Pos="37" Pts="37.0" Race="12"/>
-<rp Div="Monday Blue" Ent="159" Pos="38" Pts="38.0" Race="12" Toss="true"/>
+<rp Div="Monday Blue" Ent="159" Pos="38" Pts="38.0" Race="12"/>
 <rp Div="Monday Blue" Ent="140" Pos="39" Pts="39.0" Race="12"/>
 <rp Div="Monday Blue" Ent="162" Pos="40" Pts="40.0" Race="12"/>
 <rp Div="Monday Blue" Ent="155" Pos="41" Pts="41.0" Race="12"/>
 <rp Div="Monday Blue" Ent="143" Pos="42" Pts="42.0" Race="12"/>
-<rp Div="Monday Blue" Ent="148" Pos="43" Pts="43.0" Race="12" Toss="true"/>
+<rp Div="Monday Blue" Ent="148" Pos="43" Pts="43.0" Race="12"/>
 <rp Div="Monday Blue" Ent="151" Pos="44" Pts="44.0" Race="12"/>
 <rp Div="Monday Blue" Ent="157" Pos="45" Pts="45.0" Race="12"/>
 <rp Div="Monday Blue" Ent="156" Pos="46" Pts="46.0" Race="12"/>
@@ -3644,15 +3131,15 @@
 <rp Div="Monday Blue" Ent="158" Pos="48" Pts="48.0" Race="12"/>
 <rp Div="Monday Blue" Ent="160" Pos="49" Pts="49.0" Race="12"/>
 <rp Div="Monday Blue" Ent="145" Pos="50" Pts="50.0" Race="12"/>
-<rp Div="Monday Blue" Ent="144" Pos="51" Pts="51.0" Race="12" Toss="true"/>
+<rp Div="Monday Blue" Ent="144" Pos="51" Pts="51.0" Race="12"/>
 <rp Div="Monday Blue" Ent="153" Pos="40960" Pts="53.0" Race="12"/>
 <rp Div="Tuesday Blue" Ent="110" Pos="1" Pts="1.0" Race="25"/>
 <rp Div="Tuesday Blue" Ent="114" Pos="2" Pts="2.0" Race="25"/>
 <rp Div="Tuesday Blue" Ent="111" Pos="3" Pts="3.0" Race="25"/>
-<rp Div="Tuesday Blue" Ent="115" Pos="4" Pts="53.0" Race="25" Toss="true"/>
+<rp Div="Tuesday Blue" Ent="115" Pos="4" Pts="53.0" Race="25"/>
 <rp Div="Tuesday Blue" Ent="112" Pos="5" Pts="4.0" Race="25"/>
 <rp Div="Tuesday Blue" Ent="177" Pos="6" Pts="5.0" Race="25"/>
-<rp Div="Tuesday Blue" Ent="173" Pos="7" Pts="53.0" Race="25" Toss="true"/>
+<rp Div="Tuesday Blue" Ent="173" Pos="7" Pts="53.0" Race="25"/>
 <rp Div="Tuesday Blue" Ent="167" Pos="8" Pts="6.0" Race="25"/>
 <rp Div="Tuesday Blue" Ent="117" Pos="9" Pts="7.0" Race="25"/>
 <rp Div="Tuesday Blue" Ent="164" Pos="10" Pts="8.0" Race="25"/>
@@ -3731,20 +3218,20 @@
 <rp Div="Tuesday Yellow" Ent="129" Pos="31" Pts="31.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="128" Pos="32" Pts="32.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="163" Pos="33" Pts="33.0" Race="25"/>
-<rp Div="Tuesday Yellow" Ent="191" Pos="34" Pts="34.0" Race="25" Toss="true"/>
+<rp Div="Tuesday Yellow" Ent="191" Pos="34" Pts="34.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="188" Pos="35" Pts="35.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="143" Pos="36" Pts="36.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="150" Pos="37" Pts="37.0" Race="25"/>
-<rp Div="Tuesday Yellow" Ent="142" Pos="38" Pts="38.0" Race="25" Toss="true"/>
-<rp Div="Tuesday Yellow" Ent="152" Pos="39" Pts="39.0" Race="25" Toss="true"/>
+<rp Div="Tuesday Yellow" Ent="142" Pos="38" Pts="38.0" Race="25"/>
+<rp Div="Tuesday Yellow" Ent="152" Pos="39" Pts="39.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="140" Pos="40" Pts="40.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="201" Pos="41" Pts="41.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="162" Pos="42" Pts="42.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="216" Pos="43" Pts="43.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="155" Pos="44" Pts="44.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="205" Pos="45" Pts="45.0" Race="25"/>
-<rp Div="Tuesday Yellow" Ent="157" Pos="46" Pts="46.0" Race="25" Toss="true"/>
-<rp Div="Tuesday Yellow" Ent="156" Pos="47" Pts="47.0" Race="25" Toss="true"/>
+<rp Div="Tuesday Yellow" Ent="157" Pos="46" Pts="46.0" Race="25"/>
+<rp Div="Tuesday Yellow" Ent="156" Pos="47" Pts="47.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="160" Pos="48" Pts="48.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="144" Pos="49" Pts="49.0" Race="25"/>
 <rp Div="Tuesday Yellow" Ent="204" Pos="50" Pts="50.0" Race="25"/>
@@ -3779,7 +3266,7 @@
 <rp Div="Tuesday Blue" Ent="127" Pos="27" Pts="27.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="159" Pos="28" Pts="28.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="132" Pos="29" Pts="29.0" Race="540"/>
-<rp Div="Tuesday Blue" Ent="125" Pos="30" Pts="53.0" Race="540" Toss="true"/>
+<rp Div="Tuesday Blue" Ent="125" Pos="30" Pts="53.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="154" Pos="31" Pts="30.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="141" Pos="32" Pts="31.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="207" Pos="33" Pts="32.0" Race="540"/>
@@ -3790,16 +3277,16 @@
 <rp Div="Tuesday Blue" Ent="148" Pos="38" Pts="37.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="161" Pos="39" Pts="38.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="215" Pos="40" Pts="39.0" Race="540"/>
-<rp Div="Tuesday Blue" Ent="199" Pos="41" Pts="40.0" Race="540" Toss="true"/>
+<rp Div="Tuesday Blue" Ent="199" Pos="41" Pts="40.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="151" Pos="42" Pts="41.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="134" Pos="43" Pts="42.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="146" Pos="44" Pts="43.0" Race="540"/>
-<rp Div="Tuesday Blue" Ent="214" Pos="45" Pts="44.0" Race="540" Toss="true"/>
+<rp Div="Tuesday Blue" Ent="214" Pos="45" Pts="44.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="190" Pos="46" Pts="45.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="158" Pos="47" Pts="46.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="194" Pos="48" Pts="47.0" Race="540"/>
-<rp Div="Tuesday Blue" Ent="210" Pos="49" Pts="48.0" Race="540" Toss="true"/>
-<rp Div="Tuesday Blue" Ent="208" Pos="50" Pts="49.0" Race="540" Toss="true"/>
+<rp Div="Tuesday Blue" Ent="210" Pos="49" Pts="48.0" Race="540"/>
+<rp Div="Tuesday Blue" Ent="208" Pos="50" Pts="49.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="145" Pos="51" Pts="50.0" Race="540"/>
 <rp Div="Tuesday Blue" Ent="153" Pos="40960" Pts="53.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="171" Pos="1" Pts="1.0" Race="540"/>
@@ -3835,15 +3322,15 @@
 <rp Div="Tuesday Yellow" Ent="143" Pos="31" Pts="30.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="150" Pos="32" Pts="31.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="188" Pos="33" Pts="32.0" Race="540"/>
-<rp Div="Tuesday Yellow" Ent="140" Pos="34" Pts="53.0" Race="540" Toss="true"/>
+<rp Div="Tuesday Yellow" Ent="140" Pos="34" Pts="53.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="191" Pos="35" Pts="33.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="155" Pos="36" Pts="34.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="152" Pos="37" Pts="35.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="156" Pos="38" Pts="36.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="204" Pos="39" Pts="37.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="195" Pos="40" Pts="38.0" Race="540"/>
-<rp Div="Tuesday Yellow" Ent="129" Pos="41" Pts="39.0" Race="540" Toss="true"/>
-<rp Div="Tuesday Yellow" Ent="128" Pos="42" Pts="40.0" Race="540" Toss="true"/>
+<rp Div="Tuesday Yellow" Ent="129" Pos="41" Pts="39.0" Race="540"/>
+<rp Div="Tuesday Yellow" Ent="128" Pos="42" Pts="40.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="201" Pos="43" Pts="41.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="162" Pos="44" Pts="42.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="205" Pos="45" Pts="43.0" Race="540"/>
@@ -3854,11 +3341,11 @@
 <rp Div="Tuesday Yellow" Ent="113" Pos="32768" Pts="53.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="121" Pos="40960" Pts="53.0" Race="540"/>
 <rp Div="Tuesday Yellow" Ent="316" Pos="40960" Pts="53.0" Race="540"/>
-<rp Div="Wednesday Yellow" Ent="188" Pos="1" Pts="53.0" Race="567" Toss="true"/>
+<rp Div="Wednesday Yellow" Ent="188" Pos="1" Pts="53.0" Race="567"/>
 <rp Div="Wednesday Yellow" Ent="110" Pos="2" Pts="1.0" Race="567"/>
 <rp Div="Wednesday Yellow" Ent="111" Pos="3" Pts="2.0" Race="567"/>
 <rp Div="Wednesday Yellow" Ent="169" Pos="4" Pts="3.0" Race="567"/>
-<rp Div="Wednesday Yellow" Ent="119" Pos="5" Pts="53.0" Race="567" Toss="true"/>
+<rp Div="Wednesday Yellow" Ent="119" Pos="5" Pts="53.0" Race="567"/>
 <rp Div="Wednesday Yellow" Ent="168" Pos="6" Pts="4.0" Race="567"/>
 <rp Div="Wednesday Yellow" Ent="115" Pos="7" Pts="5.0" Race="567"/>
 <rp Div="Wednesday Yellow" Ent="173" Pos="8" Pts="6.0" Race="567"/>
@@ -3876,7 +3363,7 @@
 <rp Div="Wednesday Yellow" Ent="128" Pos="20" Pts="18.0" Race="567"/>
 <rp Div="Wednesday Yellow" Ent="199" Pos="21" Pts="19.0" Race="567"/>
 <rp Div="Wednesday Yellow" Ent="185" Pos="22" Pts="20.0" Race="567"/>
-<rp Div="Wednesday Yellow" Ent="186" Pos="23" Pts="53.0" Race="567" Toss="true"/>
+<rp Div="Wednesday Yellow" Ent="186" Pos="23" Pts="53.0" Race="567"/>
 <rp Div="Wednesday Yellow" Ent="207" Pos="24" Pts="21.0" Race="567"/>
 <rp Div="Wednesday Yellow" Ent="209" Pos="25" Pts="22.0" Race="567"/>
 <rp Div="Wednesday Yellow" Ent="203" Pos="26" Pts="23.0" Race="567"/>
@@ -3907,7 +3394,7 @@
 <rp Div="Wednesday Yellow" Ent="117" Pos="40960" Pts="53.0" Race="567"/>
 <rp Div="Wednesday Yellow" Ent="316" Pos="40960" Pts="53.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="171" Pos="1" Pts="1.0" Race="567"/>
-<rp Div="Wednesday Blue" Ent="164" Pos="2" Pts="53.0" Race="567" Toss="true"/>
+<rp Div="Wednesday Blue" Ent="164" Pos="2" Pts="53.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="181" Pos="3" Pts="2.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="116" Pos="4" Pts="3.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="166" Pos="5" Pts="4.0" Race="567"/>
@@ -3937,12 +3424,12 @@
 <rp Div="Wednesday Blue" Ent="142" Pos="29" Pts="28.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="124" Pos="30" Pts="29.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="161" Pos="31" Pts="30.0" Race="567"/>
-<rp Div="Wednesday Blue" Ent="212" Pos="32" Pts="31.0" Race="567" Toss="true"/>
+<rp Div="Wednesday Blue" Ent="212" Pos="32" Pts="31.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="214" Pos="33" Pts="32.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="150" Pos="34" Pts="33.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="148" Pos="35" Pts="34.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="129" Pos="36" Pts="35.0" Race="567"/>
-<rp Div="Wednesday Blue" Ent="132" Pos="37" Pts="36.0" Race="567" Toss="true"/>
+<rp Div="Wednesday Blue" Ent="132" Pos="37" Pts="36.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="154" Pos="38" Pts="37.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="184" Pos="39" Pts="38.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="146" Pos="40" Pts="39.0" Race="567"/>
@@ -3954,8 +3441,8 @@
 <rp Div="Wednesday Blue" Ent="157" Pos="46" Pts="45.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="208" Pos="47" Pts="46.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="145" Pos="48" Pts="47.0" Race="567"/>
-<rp Div="Wednesday Blue" Ent="134" Pos="49" Pts="48.0" Race="567" Toss="true"/>
-<rp Div="Wednesday Blue" Ent="141" Pos="50" Pts="49.0" Race="567" Toss="true"/>
+<rp Div="Wednesday Blue" Ent="134" Pos="49" Pts="48.0" Race="567"/>
+<rp Div="Wednesday Blue" Ent="141" Pos="50" Pts="49.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="153" Pos="51" Pts="50.0" Race="567"/>
 <rp Div="Wednesday Blue" Ent="202" Pos="52" Pts="51.0" Race="567"/>
 <rp Div="Wednesday Yellow" Ent="115" Pos="1" Pts="1.0" Race="602"/>
@@ -3969,7 +3456,7 @@
 <rp Div="Wednesday Yellow" Ent="179" Pos="9" Pts="9.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="173" Pos="10" Pts="10.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="191" Pos="11" Pts="11.0" Race="602"/>
-<rp Div="Wednesday Yellow" Ent="111" Pos="12" Pts="12.0" Race="602" Toss="true"/>
+<rp Div="Wednesday Yellow" Ent="111" Pos="12" Pts="12.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="183" Pos="13" Pts="13.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="168" Pos="14" Pts="14.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="197" Pos="15" Pts="15.0" Race="602"/>
@@ -3989,8 +3476,8 @@
 <rp Div="Wednesday Yellow" Ent="152" Pos="29" Pts="29.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="138" Pos="30" Pts="30.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="185" Pos="31" Pts="31.0" Race="602"/>
-<rp Div="Wednesday Yellow" Ent="182" Pos="32" Pts="32.0" Race="602" Toss="true"/>
-<rp Div="Wednesday Yellow" Ent="123" Pos="33" Pts="33.0" Race="602" Toss="true"/>
+<rp Div="Wednesday Yellow" Ent="182" Pos="32" Pts="32.0" Race="602"/>
+<rp Div="Wednesday Yellow" Ent="123" Pos="33" Pts="33.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="162" Pos="34" Pts="34.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="201" Pos="35" Pts="35.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="139" Pos="36" Pts="36.0" Race="602"/>
@@ -3998,16 +3485,16 @@
 <rp Div="Wednesday Yellow" Ent="151" Pos="38" Pts="38.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="128" Pos="39" Pts="39.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="127" Pos="40" Pts="40.0" Race="602"/>
-<rp Div="Wednesday Yellow" Ent="215" Pos="41" Pts="41.0" Race="602" Toss="true"/>
+<rp Div="Wednesday Yellow" Ent="215" Pos="41" Pts="41.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="190" Pos="42" Pts="42.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="144" Pos="43" Pts="43.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="211" Pos="44" Pts="44.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="210" Pos="45" Pts="45.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="160" Pos="46" Pts="46.0" Race="602"/>
-<rp Div="Wednesday Yellow" Ent="205" Pos="47" Pts="47.0" Race="602" Toss="true"/>
+<rp Div="Wednesday Yellow" Ent="205" Pos="47" Pts="47.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="158" Pos="48" Pts="48.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="188" Pos="49" Pts="53.0" Race="602"/>
-<rp Div="Wednesday Yellow" Ent="204" Pos="32768" Pts="53.0" Race="602" Toss="true"/>
+<rp Div="Wednesday Yellow" Ent="204" Pos="32768" Pts="53.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="117" Pos="40960" Pts="53.0" Race="602"/>
 <rp Div="Wednesday Yellow" Ent="316" Pos="40960" Pts="53.0" Race="602"/>
 <rp Div="Wednesday Blue" Ent="164" Pos="1" Pts="1.0" Race="602"/>
@@ -4027,7 +3514,7 @@
 <rp Div="Wednesday Blue" Ent="126" Pos="15" Pts="15.0" Race="602"/>
 <rp Div="Wednesday Blue" Ent="125" Pos="16" Pts="16.0" Race="602"/>
 <rp Div="Wednesday Blue" Ent="172" Pos="17" Pts="17.0" Race="602"/>
-<rp Div="Wednesday Blue" Ent="177" Pos="18" Pts="53.0" Race="602" Toss="true"/>
+<rp Div="Wednesday Blue" Ent="177" Pos="18" Pts="53.0" Race="602"/>
 <rp Div="Wednesday Blue" Ent="189" Pos="19" Pts="18.0" Race="602"/>
 <rp Div="Wednesday Blue" Ent="196" Pos="20" Pts="19.0" Race="602"/>
 <rp Div="Wednesday Blue" Ent="200" Pos="21" Pts="20.0" Race="602"/>
@@ -4057,10 +3544,10 @@
 <rp Div="Wednesday Blue" Ent="202" Pos="45" Pts="44.0" Race="602"/>
 <rp Div="Wednesday Blue" Ent="163" Pos="46" Pts="45.0" Race="602"/>
 <rp Div="Wednesday Blue" Ent="156" Pos="47" Pts="46.0" Race="602"/>
-<rp Div="Wednesday Blue" Ent="161" Pos="48" Pts="47.0" Race="602" Toss="true"/>
+<rp Div="Wednesday Blue" Ent="161" Pos="48" Pts="47.0" Race="602"/>
 <rp Div="Wednesday Blue" Ent="145" Pos="49" Pts="48.0" Race="602"/>
 <rp Div="Wednesday Blue" Ent="121" Pos="32768" Pts="53.0" Race="602"/>
-<rp Div="Wednesday Blue" Ent="116" Pos="40960" Pts="53.0" Race="602" Toss="true"/>
+<rp Div="Wednesday Blue" Ent="116" Pos="40960" Pts="53.0" Race="602"/>
 <rp Div="Wednesday Blue" Ent="153" Pos="40960" Pts="53.0" Race="602"/>
 <rp Div="Gold" Ent="111" Pos="1" Pts="1.0" Race="604"/>
 <rp Div="Gold" Ent="164" Pos="2" Pts="2.0" Race="604"/>
@@ -4219,112 +3706,6 @@
 <rp Div="Gold" Ent="117" Pos="40960" Pts="53.0" Race="840"/>
 <rp Div="Gold" Ent="167" Pos="40960" Pts="53.0" Race="840"/>
 </RacePointsList>
-<SeriesPointsList>
-<sp Div="Laser" Ent="164" Pos="1" Pts="31.0"/>
-<sp Div="Laser" Ent="171" Pos="2" Pts="32.0"/>
-<sp Div="Laser" Ent="111" Pos="3" Pts="33.0"/>
-<sp Div="Laser" Ent="110" Pos="4" Pts="35.0"/>
-<sp Div="Laser" Ent="165" Pos="5" Pts="55.0"/>
-<sp Div="Laser" Ent="166" Pos="6" Pts="63.0"/>
-<sp Div="Laser" Ent="174" Pos="7" Pts="66.0"/>
-<sp Div="Laser" Ent="116" Pos="8" Pts="77.0"/>
-<sp Div="Laser" Ent="168" Pos="9" Pts="79.0"/>
-<sp Div="Laser" Ent="120" Pos="10" Pts="80.0"/>
-<sp Div="Laser" Ent="179" Pos="11" Pts="80.0001"/>
-<sp Div="Laser" Ent="177" Pos="12" Pts="85.0"/>
-<sp Div="Laser" Ent="176" Pos="13" Pts="86.0"/>
-<sp Div="Laser" Ent="115" Pos="14" Pts="87.0"/>
-<sp Div="Laser" Ent="169" Pos="15" Pts="92.0"/>
-<sp Div="Laser" Ent="178" Pos="16" Pts="102.0"/>
-<sp Div="Laser" Ent="114" Pos="17" Pts="104.0"/>
-<sp Div="Laser" Ent="167" Pos="18" Pts="108.0"/>
-<sp Div="Laser" Ent="130" Pos="19" Pts="109.0"/>
-<sp Div="Laser" Ent="183" Pos="20" Pts="114.0"/>
-<sp Div="Laser" Ent="119" Pos="21" Pts="116.0"/>
-<sp Div="Laser" Ent="112" Pos="22" Pts="116.0001"/>
-<sp Div="Laser" Ent="170" Pos="23" Pts="116.0002"/>
-<sp Div="Laser" Ent="212" Pos="24" Pts="118.0"/>
-<sp Div="Laser" Ent="213" Pos="25" Pts="119.0"/>
-<sp Div="Laser" Ent="191" Pos="26" Pts="120.0"/>
-<sp Div="Laser" Ent="138" Pos="27" Pts="121.0"/>
-<sp Div="Laser" Ent="182" Pos="28" Pts="123.0"/>
-<sp Div="Laser" Ent="142" Pos="29" Pts="124.0"/>
-<sp Div="Laser" Ent="123" Pos="30" Pts="124.0001"/>
-<sp Div="Laser" Ent="173" Pos="31" Pts="125.0"/>
-<sp Div="Laser" Ent="126" Pos="32" Pts="126.0"/>
-<sp Div="Laser" Ent="121" Pos="33" Pts="126.0001"/>
-<sp Div="Laser" Ent="172" Pos="34" Pts="127.0"/>
-<sp Div="Laser" Ent="135" Pos="35" Pts="129.0"/>
-<sp Div="Laser" Ent="192" Pos="36" Pts="133.0"/>
-<sp Div="Laser" Ent="118" Pos="37" Pts="135.0"/>
-<sp Div="Laser" Ent="159" Pos="38" Pts="140.0"/>
-<sp Div="Laser" Ent="195" Pos="39" Pts="142.0"/>
-<sp Div="Laser" Ent="128" Pos="40" Pts="143.0"/>
-<sp Div="Laser" Ent="199" Pos="41" Pts="143.0001"/>
-<sp Div="Laser" Ent="207" Pos="42" Pts="143.0002"/>
-<sp Div="Laser" Ent="154" Pos="43" Pts="143.0003"/>
-<sp Div="Laser" Ent="113" Pos="44" Pts="144.0"/>
-<sp Div="Laser" Ent="185" Pos="45" Pts="145.0"/>
-<sp Div="Laser" Ent="193" Pos="46" Pts="145.0001"/>
-<sp Div="Laser" Ent="200" Pos="47" Pts="151.0"/>
-<sp Div="Laser" Ent="132" Pos="48" Pts="153.0"/>
-<sp Div="Laser" Ent="175" Pos="49" Pts="155.0"/>
-<sp Div="Laser" Ent="136" Pos="50" Pts="159.0"/>
-<sp Div="Laser" Ent="143" Pos="51" Pts="159.0001"/>
-<sp Div="Laser" Ent="180" Pos="52" Pts="160.0"/>
-<sp Div="Laser" Ent="129" Pos="53" Pts="160.0001"/>
-<sp Div="Laser" Ent="141" Pos="54" Pts="161.0"/>
-<sp Div="Laser" Ent="181" Pos="55" Pts="162.0"/>
-<sp Div="Laser" Ent="150" Pos="56" Pts="164.0"/>
-<sp Div="Laser" Ent="146" Pos="57" Pts="166.0"/>
-<sp Div="Laser" Ent="163" Pos="58" Pts="166.0001"/>
-<sp Div="Laser" Ent="149" Pos="59" Pts="168.0"/>
-<sp Div="Laser" Ent="184" Pos="60" Pts="168.0001"/>
-<sp Div="Laser" Ent="152" Pos="61" Pts="170.0"/>
-<sp Div="Laser" Ent="140" Pos="62" Pts="171.0"/>
-<sp Div="Laser" Ent="211" Pos="63" Pts="173.0"/>
-<sp Div="Laser" Ent="133" Pos="64" Pts="175.0"/>
-<sp Div="Laser" Ent="148" Pos="65" Pts="176.0"/>
-<sp Div="Laser" Ent="203" Pos="66" Pts="178.0"/>
-<sp Div="Laser" Ent="201" Pos="67" Pts="178.0001"/>
-<sp Div="Laser" Ent="161" Pos="68" Pts="179.0"/>
-<sp Div="Laser" Ent="197" Pos="69" Pts="181.0"/>
-<sp Div="Laser" Ent="215" Pos="70" Pts="181.0001"/>
-<sp Div="Laser" Ent="198" Pos="71" Pts="184.0"/>
-<sp Div="Laser" Ent="216" Pos="72" Pts="185.0"/>
-<sp Div="Laser" Ent="124" Pos="73" Pts="186.0"/>
-<sp Div="Laser" Ent="122" Pos="74" Pts="187.0"/>
-<sp Div="Laser" Ent="188" Pos="75" Pts="189.0"/>
-<sp Div="Laser" Ent="214" Pos="76" Pts="189.0001"/>
-<sp Div="Laser" Ent="187" Pos="77" Pts="191.0"/>
-<sp Div="Laser" Ent="151" Pos="78" Pts="192.0"/>
-<sp Div="Laser" Ent="162" Pos="79" Pts="199.0"/>
-<sp Div="Laser" Ent="155" Pos="80" Pts="200.0"/>
-<sp Div="Laser" Ent="204" Pos="81" Pts="203.0"/>
-<sp Div="Laser" Ent="209" Pos="82" Pts="204.0"/>
-<sp Div="Laser" Ent="186" Pos="83" Pts="204.0001"/>
-<sp Div="Laser" Ent="139" Pos="84" Pts="206.0"/>
-<sp Div="Laser" Ent="190" Pos="85" Pts="211.0"/>
-<sp Div="Laser" Ent="134" Pos="86" Pts="213.0"/>
-<sp Div="Laser" Ent="157" Pos="87" Pts="214.0"/>
-<sp Div="Laser" Ent="194" Pos="88" Pts="214.0001"/>
-<sp Div="Laser" Ent="127" Pos="89" Pts="215.0"/>
-<sp Div="Laser" Ent="156" Pos="90" Pts="215.0001"/>
-<sp Div="Laser" Ent="210" Pos="91" Pts="220.0"/>
-<sp Div="Laser" Ent="205" Pos="92" Pts="220.0001"/>
-<sp Div="Laser" Ent="208" Pos="93" Pts="225.0"/>
-<sp Div="Laser" Ent="144" Pos="94" Pts="231.0"/>
-<sp Div="Laser" Ent="158" Pos="95" Pts="231.0001"/>
-<sp Div="Laser" Ent="196" Pos="96" Pts="232.0"/>
-<sp Div="Laser" Ent="202" Pos="97" Pts="233.0"/>
-<sp Div="Laser" Ent="160" Pos="98" Pts="235.0"/>
-<sp Div="Laser" Ent="117" Pos="99" Pts="236.0"/>
-<sp Div="Laser" Ent="145" Pos="100" Pts="242.0"/>
-<sp Div="Laser" Ent="125" Pos="101" Pts="244.0"/>
-<sp Div="Laser" Ent="189" Pos="102" Pts="251.0"/>
-<sp Div="Laser" Ent="153" Pos="103" Pts="262.0"/>
-<sp Div="Laser" Ent="316" Pos="104" Pts="265.0"/>
-</SeriesPointsList>
 </Stage>
 </Scores>
 <ReportOptionList>
