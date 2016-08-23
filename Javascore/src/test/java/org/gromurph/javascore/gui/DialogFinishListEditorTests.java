@@ -48,7 +48,7 @@ public class DialogFinishListEditorTests extends JavascoreTestCase
 	public class LocalDialogFinishListEditor extends DialogFinishListEditor
 	{
 		public LocalDialogFinishListEditor()       { super( null); }		
-		public EntryList getUnFinishedEntries()    { return fUnFinishedEntries;}
+		public int getNumberUnFinished()    	   { return fModelUnFinished.size();}
 		public FinishList getFinishers()           { return fFinishers;}	
 		public AbstractTableModel getFinishModel() { return fFinishModel;}
 	}
@@ -132,7 +132,7 @@ public class DialogFinishListEditorTests extends JavascoreTestCase
 								
 		// test size of unfinished list 
 		assertEquals( "unfinish jlist should have no elements", 0, unfinishList.getModel().getSize());
-		assertEquals( "unfinishlist should have no elements", 0, editor.getUnFinishedEntries().size());
+		assertEquals( "unfinishlist should have no elements", 0, editor.getNumberUnFinished());
 		
 		// get handle to finishtable
 		selectTableRow( "fTableFinished", 2);  // should be entry 3
@@ -145,7 +145,7 @@ public class DialogFinishListEditorTests extends JavascoreTestCase
 		
 		// should now have 1 unfinished boat, table row count still 5, last row blank
 		assertEquals( "unfinish jlist should have 1 element", 1, unfinishList.getModel().getSize());
-		assertEquals( "unfinishlist should have 1 element", 1, editor.getUnFinishedEntries().size());
+		assertEquals( "unfinishlist should have 1 element", 1, editor.getNumberUnFinished());
 		assertEquals("fTableFinished should have 5 rows", 5, getTableRowCount("fTableFinished"));
 		cell = getTableContent( "fTableFinished", 4, 1); // zero based for row 5, col 2
 		assertNotNull( cell);
@@ -158,7 +158,7 @@ public class DialogFinishListEditorTests extends JavascoreTestCase
 		assertEquals( "row 2 not right", e4.getBoat().getSailId().toString(), getTableContent("fTableFinished", 2,1));
 		assertEquals( "row 3 not right", e5.getBoat().getSailId().toString(), getTableContent("fTableFinished", 3,1));
 		assertEquals( "row 4 not right", "", getTableContent("fTableFinished", 4,1));
-		assertEquals("should have 1 unfinished", 1, editor.getUnFinishedEntries().size());
+		assertEquals("should have 1 unfinished", 1, editor.getNumberUnFinished());
 		
 		// click on Ok, should close window
 		clickOnButton( "fButtonOk", true);
@@ -167,7 +167,7 @@ public class DialogFinishListEditorTests extends JavascoreTestCase
 		editor.setRace( race);
 		displayDialog( editor);
 		assertEquals( "unfinish jlist should have 1 element", 1, unfinishList.getModel().getSize());
-		assertEquals( "unfinishlist should have 1 element", 1, editor.getUnFinishedEntries().size());
+		assertEquals( "unfinishlist should have 1 element", 1, editor.getNumberUnFinished());
 		assertEquals("fTableFinished should have 5 rows", 5, getTableRowCount("fTableFinished"));
 		cell = getTableContent( "fTableFinished", 4, 1); // zero based for row 5, col 2
 		assertNotNull( cell);
@@ -195,14 +195,14 @@ public class DialogFinishListEditorTests extends JavascoreTestCase
 								
 		// test current size of unfinishlist
 		assertEquals( "unfinish jlist should have 2 elements", 2, unfinishList.getModel().getSize());
-		assertEquals( "unfinishlist should have 2 elements", 2, editor.getUnFinishedEntries().size());
+		assertEquals( "unfinishlist should have 2 elements", 2, editor.getNumberUnFinished());
 
 		// show FinishRemainingButton, click DNC
 		clickButtonInModalPopup( "fButtonFinishRemaining", "DNC");
 		
 		// test size of unfinished list 
 		assertEquals( "unfinish jlist should have no elements", 0, unfinishList.getModel().getSize());
-		assertEquals( "unfinishlist should have no elements", 0, editor.getUnFinishedEntries().size());
+		assertEquals( "unfinishlist should have no elements", 0, editor.getNumberUnFinished());
 		
 		// click on Ok, should close window
 		clickOnButton( "fButtonOk", true);

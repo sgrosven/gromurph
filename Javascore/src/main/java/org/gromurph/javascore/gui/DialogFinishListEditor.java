@@ -30,7 +30,6 @@ import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import java.text.MessageFormat;
 import java.util.EventObject;
-import java.util.Iterator;
 import java.util.ResourceBundle;
 
 import javax.swing.BorderFactory;
@@ -51,6 +50,7 @@ import javax.swing.JTextField;
 import javax.swing.JViewport;
 import javax.swing.KeyStroke;
 import javax.swing.ListSelectionModel;
+import javax.swing.DefaultListModel;
 import javax.swing.border.TitledBorder;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
@@ -134,12 +134,7 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 	 **/
 	JList fListUnFinished;
 
-	/**
-	 * list if unfinished entries (makes the listmodel for fListUnFinished
-	 **/
-	EntryList fUnFinishedEntries;
-
-	org.gromurph.javascore.gui.DefaultListModel fModelUnFinished;
+	DefaultListModel<Entry> fModelUnFinished;
 
 	/**
 	 * list if finished boats (makes the tablemodel for fTableFinished
@@ -203,9 +198,6 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 		fFinishers = new FinishList();
 		fFinishModel = new FinishTableModel(fFinishers);
 
-		fUnFinishedEntries = new EntryList();
-		fModelUnFinished = fUnFinishedEntries.getListModel();
-
 		setTitle(res.getString("FinishTitleFinishTable"));
 		Dimension screenDim = getToolkit().getScreenSize();
 		int width = Math.min(screenDim.width, 750);
@@ -228,12 +220,14 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 		fPanelFinish.setToolTipText(res.getString("FinishPanelToolTip"));
 		HelpManager.getInstance().registerHelpTopic(fPanelFinish, "finish.fPanelFinish");
 
+		fModelUnFinished = new javax.swing.DefaultListModel<Entry>();// fUnFinishedEntries.getListModel();
+
 		fListUnFinished = new JList();
 		fListUnFinished.setName("fListUnFinished");
 		fListUnFinished.setToolTipText(res.getString("FinishLabelUnfinishPanelToolTip"));
 		fListUnFinished.setCellRenderer( fUnfinishEntryRenderer);
 		HelpManager.getInstance().registerHelpTopic(fListUnFinished, "finish.fListUnFinished");
-		fListUnFinished.setModel(fModelUnFinished);
+		fListUnFinished.setModel( fModelUnFinished);
 
 		JPanel finishHolder = new JPanel(new FlowLayout(FlowLayout.LEFT));
 
@@ -308,6 +302,7 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 		fPanelUnFinishedButtons.add(fButtonOk);
 
 		initPenaltyDialog();
+		start();
 	}
 
 	private void initPenaltyDialog() {
@@ -316,19 +311,8 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 		fDialogPenalty.setObject(new Penalty());
 	}
 
-	private boolean started = false;
-	public void startUp() {
-		if (!started) {
-			start();
-			started = true;
-		}
-	}
-	public void shutDown() {
-		if (started) {
-			started = false;
-			stop();
-		}
-	}
+	// August 2016 NOTE:  this dialog is intentionally designed to stay active when not visible!
+	
 	private void start() {
 		fTableFinished.getSelectionModel().addListSelectionListener(this);
 		fTableFinished.addMouseListener(this);
@@ -429,7 +413,7 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 
 	private void fButtonInsert_actionPerformed() {
 		try {
-			if (fUnFinishedEntries.size() == 0) {
+			if ( fModelUnFinished.size() == 0) {
 				beep();
 				JOptionPane.showMessageDialog(this, res.getString("FinishMessageInsertError"),
 						res.getString("FinishTitleInsertError"), JOptionPane.WARNING_MESSAGE);
@@ -537,15 +521,16 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 
 		if (pen != null) {
 			long intPen = pen.getPenalty();
-			for (Iterator<Entry> iter = fUnFinishedEntries.iterator(); iter.hasNext();) {
-				Entry e = iter.next();
+			for ( int i = 0; i < fModelUnFinished.size(); i++) {
+			//for (Iterator<Entry> iter = fUnFinishedEntries.iterator(); iter.hasNext();) {
+				Entry e = fModelUnFinished.get(i);
 				Finish f = findFirstEmptyFinish();
 				f.setEntry(e);
 				f.setFinishPosition(new FinishPosition(intPen));
 				f.setPenalty(new Penalty(intPen));
 				fRace.setFinish(f);
-				iter.remove();
 			}
+			fModelUnFinished.removeAllElements();
 		}
 		// reset the finish numbers
 		fFinishers.reNumber();
@@ -554,13 +539,15 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 	}
 
 	public void valueChanged(ListSelectionEvent event) {
-		if (event.getSource() == fTableFinished || event.getSource() == fTableFinished.getSelectionModel()) fTableFinished_valueChanged(event);
-		else if (event.getSource() == fListUnFinished) fListUnFinished_valueChanged();
+		if (event.getSource() == fTableFinished || event.getSource() == fTableFinished.getSelectionModel()) 
+			fTableFinished_valueChanged(event);
+		else if (event.getSource() == fListUnFinished) 
+			fListUnFinished_valueChanged();
 		updateEnabled();
 	}
 
 	public void updateEnabled() {
-		if (fUnFinishedEntries.size() == 0) {
+		if (fModelUnFinished.size() == 0) {
 			// no unfinished entries
 			fButtonInsert.setEnabled(false);
 			fButtonDelete.setEnabled(true);
@@ -651,38 +638,45 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 	 * makes the item specified the current object
 	 **/
 	protected void setRace(Race race) {
-		fRace = race;
-		fUnfinishEntryRenderer.setRace( fRace);
-		
-		if (fRace != null) {
-			setTitle(MessageFormat.format(res.getString("FinishTitle"), new Object[] { fRace.getName() }));
-			fIsRounding = false;
-
-			fRace.syncFinishesWithEntries();
-		
-			updateFinishList( fRace.getAllFinishers());
-		}
+		setRounding( race, null);
 	}
 
 	/**
 	 * sets the specified race and mark roundings into the dialog
 	 **/
 	public void setRounding(Race race, String markName) {
-		setRace( race);
+		stop();
+		
+		fRace = race;
+		fUnfinishEntryRenderer.setRace( fRace);
 		fMarkName = markName;
-
-		if (fRace != null && markName != null) {
-			StringBuffer sb = new StringBuffer(res.getString("FinishRoundingDialogTitleStart"));
-			sb.append(" ");
-			sb.append(fRace.getName());
-			sb.append(", ");
-			sb.append(markName);
-			setTitle(sb.toString());
-			fIsRounding = true;
-			FinishList rounders = fRace.getRoundings(markName);
-			rounders.syncWithEntries(fRace);
-			updateFinishList(rounders);
+		
+		if (fRace != null) {
+			
+			if (markName == null) {
+    			setTitle(MessageFormat.format(res.getString("FinishTitle"), new Object[] { fRace.getName() }));
+    			fIsRounding = false;
+    			fRace.syncFinishesWithEntries();
+    			updateFinishList( fRace.getAllFinishers());
+			} else {
+    			StringBuffer sb = new StringBuffer(res.getString("FinishRoundingDialogTitleStart"));
+    			sb.append(" ");
+    			sb.append(fRace.getName());
+    			sb.append(", ");
+    			sb.append(markName);
+    			setTitle(sb.toString());
+    			fIsRounding = true;
+    			FinishList rounders = fRace.getRoundings(markName);
+    			rounders.syncWithEntries(fRace);
+    			updateFinishList( rounders);
+			}
+		} else {
+			setTitle(MessageFormat.format(res.getString("FinishTitle"), new Object[] { "No race" }));
+			fIsRounding = false;
+			updateFinishList( null);			
 		}
+		
+		start();
 	}
 
 	/**
@@ -691,65 +685,74 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 	 **/
 	private void updateFinishList(FinishList finishes) {
 
-		// This is a list of finishes for all entrants, need to check for non-finish penalties in this list
-		fEntries = fRace.getEntries();
 		fFinishers.clear();
-		fUnFinishedEntries.clear();
+		fModelUnFinished.removeAllElements();
+		EntryList unfinished = new EntryList();
 
-		int nextFin = finishes.getNumberFinishers() + 1;
-		for (Finish f : finishes) {
-			if (f.getFinishPosition().longValue() == NOFINISH) {
-				// if is a non-finish, put the entry in unfinishlist
-				// change the Finish object to blank entry and finishpos to end of list
-				fUnFinishedEntries.add(f.getEntry());
-				f.setEntry(null);
-				f.setFinishPosition(new FinishPosition(nextFin++));
-				f.getPenalty().setPenalty(NO_PENALTY);
+		if (fRace == null) {
+			fEntries = new EntryList();
+		} else {
+			// This is a list of finishes for all entrants, need to check for non-finish penalties in this list
+			fEntries = fRace.getEntries();
+
+			if (finishes != null) {
+	    		int nextFin = finishes.getNumberFinishers() + 1;
+	    		for (Finish f : finishes) {
+	    			if (f.getFinishPosition().longValue() == NOFINISH) {
+	    				// if is a non-finish, put the entry in unfinishlist
+	    				// change the Finish object to blank entry and finishpos to end of list
+	    				unfinished.add(f.getEntry());
+	    				f.setEntry(null);
+	    				f.setFinishPosition(new FinishPosition(nextFin++));
+	    				f.getPenalty().setPenalty(NO_PENALTY);
+	    			}
+	    			// add the finish to the main finish list
+	    			fFinishers.add( f);
+	    		}
 			}
-			// add the finish to the main finish list
-			fFinishers.add( f);
+
+			// set the list of non finished entries
+			fFinishers.sortPosition();
+			unfinished.sortSailId();
+			for (Entry e : unfinished) fModelUnFinished.addElement(e);
+
+			// set col heading to reflect use of bow numbers or not
+			TableColumn eCol = fTableFinished.getColumnModel().getColumn(SAILID_COLUMN);
+			if (fRace.getRegatta().isUseBowNumbers()) {
+				eCol.setHeaderValue(res.getString("GenBowSail"));
+			} else {
+				eCol.setHeaderValue(res.getString("FinishColumnSailOnly"));
+			}
+
+			eCol = fTableFinished.getColumnModel().getColumn(TIME_COLUMN);
+			if (fIsRounding) {
+				try {
+					fTableFinished.removeColumn(fTableFinished.getColumnModel().getColumn(PENALTY_COLUMN));
+				} catch (Exception e) {} // if bombs then, we already killed it
+
+				eCol.setHeaderValue(res.getString("FinishColumnRoundingTime"));
+				((TitledBorder) fPanelUnFinished.getBorder()).setTitle(res.getString("FinishTitleNotYetRounded"));
+				((TitledBorder) fPanelFinishers.getBorder()).setTitle(res.getString("FinishTitleRoundings"));
+				fButtonFinishRemaining.setVisible(false);
+			} else {
+				eCol.setHeaderValue(res.getString("GenFinishTime"));
+				((TitledBorder) fPanelUnFinished.getBorder()).setTitle(res.getString("FinishTitleNotYetFinished"));
+				((TitledBorder) fPanelFinishers.getBorder()).setTitle(res.getString("GenFinishes"));
+				fButtonFinishRemaining.setVisible(true);
+
+				// TableColumn pCol = fTableFinished.getColumnModel().getColumn(
+				// PENALTY_COLUMN);
+				// pCol.setCellEditor( fEditorPenalty);
+				//			
+				// pCol = fTableFinished.getColumnModel().getColumn( SAILID_COLUMN);
+				// pCol.setCellEditor( fEditorSailId);
+
+			}
+
+			fPanelFinish.setFinish(null);
+			if (fFinishers.size() > 0) setCurrentFinish(fFinishers.get(0));
 		}
-
-		// set the list of non finished entries
-		fFinishers.sortPosition();
-		fUnFinishedEntries.sortSailId();
-
-		// set col heading to reflect use of bow numbers or not
-		TableColumn eCol = fTableFinished.getColumnModel().getColumn(SAILID_COLUMN);
-		if (fRace.getRegatta().isUseBowNumbers()) {
-			eCol.setHeaderValue(res.getString("GenBowSail"));
-		} else {
-			eCol.setHeaderValue(res.getString("FinishColumnSailOnly"));
-		}
-
-		eCol = fTableFinished.getColumnModel().getColumn(TIME_COLUMN);
-		if (fIsRounding) {
-			try {
-				fTableFinished.removeColumn(fTableFinished.getColumnModel().getColumn(PENALTY_COLUMN));
-			} catch (Exception e) {} // if bombs then, we already killed it
-
-			eCol.setHeaderValue(res.getString("FinishColumnRoundingTime"));
-			((TitledBorder) fPanelUnFinished.getBorder()).setTitle(res.getString("FinishTitleNotYetRounded"));
-			((TitledBorder) fPanelFinishers.getBorder()).setTitle(res.getString("FinishTitleRoundings"));
-			fButtonFinishRemaining.setVisible(false);
-		} else {
-			eCol.setHeaderValue(res.getString("GenFinishTime"));
-			((TitledBorder) fPanelUnFinished.getBorder()).setTitle(res.getString("FinishTitleNotYetFinished"));
-			((TitledBorder) fPanelFinishers.getBorder()).setTitle(res.getString("GenFinishes"));
-			fButtonFinishRemaining.setVisible(true);
-
-			// TableColumn pCol = fTableFinished.getColumnModel().getColumn(
-			// PENALTY_COLUMN);
-			// pCol.setCellEditor( fEditorPenalty);
-			//			
-			// pCol = fTableFinished.getColumnModel().getColumn( SAILID_COLUMN);
-			// pCol.setCellEditor( fEditorSailId);
-
-		}
-
-		fPanelFinish.setFinish(null);
-		if (fFinishers.size() > 0) setCurrentFinish(fFinishers.get(0));
-		updateEnabled();
+		updateEnabled();			
 	}
 
 	private void setCurrentFinish(Finish f) {
@@ -1167,14 +1170,14 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 
 	DialogBaseEditor fDialogPenalty = null;
 
-	@Override public void setVisible(boolean vis) {
-		if (vis) {
-			if (!isVisible()) start();
-		} else {
-			if (isVisible()) stop();
-		}
-		super.setVisible(vis);
-	}
+//	@Override public void setVisible(boolean vis) {
+//		if (vis) {
+//			if (!isVisible()) start();
+//		} else {
+//			if (isVisible()) stop();
+//		}
+//		super.setVisible(vis);
+//	}
 
 	private class SelectionModelSkipCol0 extends DefaultListSelectionModel {
 		public SelectionModelSkipCol0() {
