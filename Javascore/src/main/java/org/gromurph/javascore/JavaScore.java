@@ -103,6 +103,13 @@ import org.slf4j.LoggerFactory;
 public class JavaScore extends JFrame implements ActionListener, WindowListener {
 	private static final String SPLASH_GRAPHIC = "/images/SplashGraphic.jpg";
 	
+	// 7.5.2  bug fixes
+		// bug1 DONE finish dialog unfinished list
+		// bug2 DONE (chip) fleet and subdiv series scoring
+			// individual races look ok, series totals in report wrong - Sp in file look ok
+		// handicap divisions becoming one design
+	
+	
 	// release 7.5 ?
 		// DONE A+ TOT fix (from Jim) <branch: TotFixes -> dev 1 March ? 2016> 
 			// default hi/lo are backwards

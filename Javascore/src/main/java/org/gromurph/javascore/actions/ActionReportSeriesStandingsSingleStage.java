@@ -64,15 +64,15 @@ public class ActionReportSeriesStandingsSingleStage extends ActionReportSeriesSt
 
 	protected void generateBodyForFleets(List<String> linkList, PrintWriter pw2) {
 		// next report the fleets
-		for (Fleet div : fRegatta.getFleets()) {
-			int n = div.getNumEntries();
+		for (Fleet fleet : fRegatta.getFleets()) {
+			int n = fleet.getNumEntries();
 			if (n > 0) {
-				EntryList entries = div.getEntries();
+				EntryList entries = fleet.getEntries();
 				if (entries.size() > 0) {
-					linkList.add(div.getName());
-					generateDivisionHeader(pw2, div.getName(), n, FLEET);
-					reportForDivision(pw2, div, entries, div.isOneDesign());
-					reportSubDivisions(pw2, div, linkList);
+					linkList.add(fleet.getName());
+					generateDivisionHeader(pw2, fleet.getName(), n, FLEET);
+					reportForDivision(pw2, fleet, entries, fleet.isOneDesign());
+					reportSubDivisions(pw2, fleet, linkList);
 				}
 			}
 		}

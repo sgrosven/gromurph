@@ -191,10 +191,10 @@ public abstract class ActionReportSeriesStandingsAbstract extends ActionReport {
 		// loop thru races display points for each race
 		for (Race race : racesToShow) {
 			
-			RacePointsList rpl = getRacePointsForRace(race);
+			RacePointsList rpl = getRacePointsForRace(race, sp.getDivision());
 			allPoints.addAll(rpl);
 
-			RacePoints racepts = getRacePointsForRow(sp, rpl, null, null);
+			RacePoints racepts = getRacePointsForRow(sp, rpl, sp.getDivision(), null);
 
 			if (racepts == null) {
 				addTableCell(pw, "&nbsp;", "center", SERIES_CELLCLASS);
@@ -220,6 +220,11 @@ public abstract class ActionReportSeriesStandingsAbstract extends ActionReport {
 
 	protected RacePointsList getRacePointsForRace(Race race) {
 		RacePointsList rpl = fRegatta.getScoringManager().getRacePointsList().findAll(race);
+		return rpl;
+	}
+
+	protected RacePointsList getRacePointsForRace(Race race, AbstractDivision div) {
+		RacePointsList rpl = fRegatta.getScoringManager().getRacePointsList().findAll(race, div);
 		return rpl;
 	}
 

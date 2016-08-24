@@ -176,6 +176,18 @@ public class RacePointsList extends BaseList<RacePoints> implements Constants {
 		return list;
 	}
 
+	public RacePointsList findAll(Race race, AbstractDivision div) {
+		RacePointsList list = new RacePointsList();
+		for (Iterator iter = iterator(); iter.hasNext();) {
+			RacePoints p = (RacePoints) iter.next();
+			if ((p.getRace() != null) && (p.getRace().equals(race)) &&
+					(p.getDivision() != null) && (p.getDivision().equals(div)) ) {
+				list.add(p);
+			}
+		}
+		return list;
+	}
+
 	/**
 	 * finds all the members that are scored for the specified abstract division
 	 * 

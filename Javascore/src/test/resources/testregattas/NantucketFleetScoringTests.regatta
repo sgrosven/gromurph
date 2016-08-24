@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta DailyScoring="false" Dates="August 19-20, 2016" Final="false" HostClub="Nantucket Yacht Club " IFEventID="" JSVersion="7.5.1" JuryChair="Timothea Larr" Multistage="false" Name="2016 Sail Nantucket " Pro="Charlie Cooper" UseBowNumbers="false" Version="600" comment="">
+<DivisionList>
+<Division DivName="1 CRF-A SPIN" Gender="Open">
+<SlowestRating System="PHRF" Value="9999.0"/>
+<FastestRating System="PHRF" Value="-9999.0"/>
+</Division>
+<Division DivName="2 PHRF-A SPIN" Gender="Open">
+<SlowestRating System="PHRF" Value="9999.0"/>
+<FastestRating System="PHRF" Value="-9999.0"/>
+</Division>
+<Division DivName="3 CRF-B NON-SPIN" Gender="Open">
+<SlowestRating System="PHRF" Value="9999.0"/>
+<FastestRating System="PHRF" Value="-9999.0"/>
+</Division>
+<Division DivName="4 CRF-C NON-SPIN" Gender="Open">
+<SlowestRating System="PHRF" Value="9999.0"/>
+<FastestRating System="PHRF" Value="-9999.0"/>
+</Division>
+<Division DivName="4 PHRF-B NON-SPIN" Gender="Open">
+<SlowestRating System="PHRF" Value="9999.0"/>
+<FastestRating System="PHRF" Value="-9999.0"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Division="3 CRF-B NON-SPIN" EntryId="50" RsaNumber="39.3">
+<Boat BoatName="TREE OF LIFE" SailId="none ">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="104.55"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="BUZZ GOODALL" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="4 CRF-C NON-SPIN" EntryId="69" RsaNumber="20.6">
+<Boat BoatName="ADAMANT" SailId="2">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="22.7"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="MARK PINCUS" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="1 CRF-A SPIN" EntryId="58" RsaNumber="40.0">
+<Boat BoatName="MUSTANG" SailId="3">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="101.53"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="HARVEY JONES" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="2 PHRF-A SPIN" EntryId="65">
+<Boat BoatName="EMOTION" SailId="5">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="102.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="BENJAMIN WEBER" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="2 PHRF-A SPIN" EntryId="67">
+<Boat BoatName="SCHEGGIA" SailId="9">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="9.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="TIM GOLLIN" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="1 CRF-A SPIN" EntryId="60" RsaNumber="42.9">
+<Boat BoatName="SANTANA" SailId="X 9">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="89.78"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="WENDY SCHMIDT" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="3 CRF-B NON-SPIN" EntryId="48" RsaNumber="31.4">
+<Boat BoatName="ROWDY" SailId="12">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="145.47"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="SCHUYLER BOYLAN" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="3 CRF-B NON-SPIN" EntryId="45" RsaNumber="40.2">
+<Boat BoatName="DORADE" SailId="16">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="100.68"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="MATT BROOKS" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="3 CRF-B NON-SPIN" EntryId="44" RsaNumber="55.8">
+<Boat BoatName="COLUMBIA" SailId="US 16">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="49.16"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="KEVIN HEGARTY/BILL DRIGGS" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="1 CRF-A SPIN" EntryId="61" RsaNumber="53.1">
+<Boat BoatName="THE BLUE PETER" SailId="17">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="56.42"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="TED GILETTI" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="3 CRF-B NON-SPIN" EntryId="53" RsaNumber="32.3">
+<Boat BoatName="ZINGARA" SailId="17">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="140.06"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="CHRIS MAGEE" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="3 CRF-B NON-SPIN" EntryId="51" RsaNumber="55.8">
+<Boat BoatName="WEATHERLY" SailId="US 17">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="49.16"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="ALAN WORDEN" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="1 CRF-A SPIN" EntryId="54" RsaNumber="37.0">
+<Boat BoatName="ANGELITA" SailId="18">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="115.1"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="SAMUEL CROLL" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="3 CRF-B NON-SPIN" EntryId="49" RsaNumber="34.1">
+<Boat BoatName="SIREN" SailId="20">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="129.89"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="PETER CASSIDY" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="3 CRF-B NON-SPIN" EntryId="41" RsaNumber="55.8">
+<Boat BoatName="AMERICAN EAGLE" SailId="21">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="49.16"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="SUSAN WAYNE" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="3 CRF-B NON-SPIN" EntryId="43" RsaNumber="43.1">
+<Boat BoatName="BRILLIANT" SailId="22">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="89.01"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="NICHOLAS ALLEY" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="4 CRF-C NON-SPIN" EntryId="72" RsaNumber="39.4">
+<Boat BoatName="TILLY XV" SailId="32">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="153.05"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="JOERG MOESSNANG" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="4 CRF-C NON-SPIN" EntryId="70" RsaNumber="30.2">
+<Boat BoatName="CLYTIE II" SailId="33">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="153.05"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="KEN WELCH" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="2 PHRF-A SPIN" EntryId="63">
+<Boat BoatName="BEAU FLEUVE" SailId="36">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="96.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="SUE MCCOLLUM" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="1 CRF-A SPIN" EntryId="59" RsaNumber="46.7">
+<Boat BoatName="RACE HORSE" SailId="37">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="76.08"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="NATHANIEL WILSON" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="3 CRF-B NON-SPIN" EntryId="47" RsaNumber="29.8">
+<Boat BoatName="GALAVANT" SailId="42">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="155.68"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="JOHN TAGIURI" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="1 CRF-A SPIN" EntryId="57" RsaNumber="48.6">
+<Boat BoatName="MARILEE" SailId="50">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="69.84"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="ALEX NIEDZWIECKI" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="3 CRF-B NON-SPIN" EntryId="42" RsaNumber="47.3">
+<Boat BoatName="ARRLUUK" SailId="58">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="74.07"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="STEVE FRARY" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="1 CRF-A SPIN" EntryId="55" RsaNumber="52.9">
+<Boat BoatName="BLACK WATCH" SailId="71">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="52.9"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="AUSTIN &amp; GWEN FRAGOMEN" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="3 CRF-B NON-SPIN" EntryId="52" RsaNumber="55.6">
+<Boat BoatName="WILD HORSES" SailId="76">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="49.68"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="DONALD TOFIAS" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="4 CRF-C NON-SPIN" EntryId="71" RsaNumber="29.2">
+<Boat BoatName="SILENT MAID" SailId="T 82">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="159.73"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="PETER KELLOGG" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="1 CRF-A SPIN" EntryId="62" RsaNumber="33.0">
+<Boat BoatName="VAGABANDO II" SailId="89">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="136.01"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="ROBBIE FABRE" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="4 PHRF-B NON-SPIN" EntryId="77">
+<Boat BoatName="ROXANNE" SailId="155">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="165.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="KEITH BUCKLEN" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="4 PHRF-B NON-SPIN" EntryId="73">
+<Boat BoatName="CASSIOPEIA" SailId="352">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="189.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="HANK GUTMAN" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="2 PHRF-A SPIN" EntryId="66">
+<Boat BoatName="PRIMA" SailId="457">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="96.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="CHRIS RAYMOND" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="2 PHRF-A SPIN" EntryId="64">
+<Boat BoatName="CLIO" SailId="493">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="90.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="ERIC SCHWARM" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="4 PHRF-B NON-SPIN" EntryId="79">
+<Boat BoatName="SEAROBIN" SailId="1604">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="189.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="RUSSELL B. MACPHERSON" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="1 CRF-A SPIN" EntryId="56" RsaNumber="28.8">
+<Boat BoatName="DOLPHIN" SailId="4717">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="162.49"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="BRIAN SIMMONS" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="4 PHRF-B NON-SPIN" EntryId="74">
+<Boat BoatName="CYGNE" SailId="33813">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="84.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="NORMAN LEWIS" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="3 CRF-B NON-SPIN" EntryId="46" RsaNumber="33.5">
+<Boat BoatName="FANCY" SailId="40049">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="133.19"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="GEOFFREY VERNEY" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="4 PHRF-B NON-SPIN" EntryId="78">
+<Boat BoatName="RUSE" SailId="52044">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="84.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="WILLIAM MARSH" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="4 PHRF-B NON-SPIN" EntryId="75">
+<Boat BoatName="GRACE" SailId="52927">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="120.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="BILL LIDDLE" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="4 PHRF-B NON-SPIN" EntryId="76">
+<Boat BoatName="PHEBE" SailId="60233">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="189.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="NATHANIEL PHILBRICK" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="2 PHRF-A SPIN" EntryId="68">
+<Boat BoatName="WAMPUM" SailId="83333">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating System="PHRF" Value="87.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="TOM LANAGAN" SailorId=""/>
+<CrewList/>
+</Entry>
+</EntryList>
+<FleetList>
+<Fleet DifferentLengths="AsIs" DivName="CRF" SameStartSameClass="false">
+<FleetDivList>
+<Div Name="1 CRF-A SPIN"/>
+<Div Name="3 CRF-B NON-SPIN"/>
+<Div Name="4 CRF-C NON-SPIN"/>
+</FleetDivList>
+</Fleet>
+<Fleet DifferentLengths="AsIs" DivName="PHRF" SameStartSameClass="false">
+<FleetDivList>
+<Div Name="2 PHRF-A SPIN"/>
+<Div Name="4 PHRF-B NON-SPIN"/>
+</FleetDivList>
+</Fleet>
+</FleetList>
+<SubDivisionList>
+<SubDivision DivName="12 Metre" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" ScoreSeparately="true" addOn="0.0">
+<EntryList/>
+</SubDivision>
+<SubDivision DivName="Alerions" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" ScoreSeparately="true" addOn="0.0">
+<EntryList/>
+</SubDivision>
+<SubDivision DivName="Grand Prix Day Racers" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" Parent="CRF" ParentType="Fleet" ScoreSeparately="true" addOn="0.0">
+<EntryList/>
+</SubDivision>
+<SubDivision DivName="Grand Prix Day Racers - Spin" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" Parent="CRF" ParentType="Fleet" ScoreSeparately="true" addOn="0.0">
+<EntryList>
+<Entry Id="59"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Grand Prix Yachts" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" Parent="CRF" ParentType="Fleet" ScoreSeparately="true" addOn="0.0">
+<EntryList>
+<Entry Id="50"/>
+<Entry Id="44"/>
+<Entry Id="53"/>
+<Entry Id="51"/>
+<Entry Id="41"/>
+<Entry Id="47"/>
+<Entry Id="42"/>
+<Entry Id="52"/>
+<Entry Id="46"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Grand Prix Yachts - Spin" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" Parent="CRF" ParentType="Fleet" ScoreSeparately="true" addOn="0.0">
+<EntryList>
+<Entry Id="58"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Vintage Corinthian" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" Parent="CRF" ParentType="Fleet" ScoreSeparately="true" addOn="0.0">
+<EntryList>
+<Entry Id="48"/>
+<Entry Id="45"/>
+<Entry Id="49"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Vintage Corinthian - Spin" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" Parent="CRF" ParentType="Fleet" ScoreSeparately="true" addOn="0.0">
+<EntryList>
+<Entry Id="60"/>
+<Entry Id="54"/>
+<Entry Id="62"/>
+<Entry Id="56"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Vintage Day Racer" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" Parent="CRF" ParentType="Fleet" ScoreSeparately="true" addOn="0.0">
+<EntryList>
+<Entry Id="69"/>
+<Entry Id="72"/>
+<Entry Id="70"/>
+<Entry Id="71"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Vintage Day Racer - Spin" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" Parent="CRF" ParentType="Fleet" ScoreSeparately="true" addOn="0.0">
+<EntryList/>
+</SubDivision>
+<SubDivision DivName="Vintage Grand Classic - Spin" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" Parent="CRF" ParentType="Fleet" ScoreSeparately="true" addOn="0.0">
+<EntryList>
+<Entry Id="61"/>
+<Entry Id="57"/>
+<Entry Id="55"/>
+</EntryList>
+</SubDivision>
+<SubDivision DivName="Vintage Grand Classics" Group="Final" GroupRank="" LastSplit="true" Monopoly="false" Parent="CRF" ParentType="Fleet" ScoreSeparately="true" addOn="0.0">
+<EntryList>
+<Entry Id="43"/>
+</EntryList>
+</SubDivision>
+</SubDivisionList>
+<RaceList>
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="7" StartDate="19-Aug-2016" Weight="1.0">
+<DivInfo>
+<DivStart Div="1 CRF-A SPIN" Length="8.0" LengthPursuit="8.0" StartTime="11:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="2 PHRF-A SPIN" Length="8.0" LengthPursuit="8.0" StartTime="11:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="3 CRF-B NON-SPIN" Length="8.0" LengthPursuit="8.0" StartTime="11:20:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="4 CRF-C NON-SPIN" Length="8.0" LengthPursuit="8.0" StartTime="11:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="4 PHRF-B NON-SPIN" Length="8.0" LengthPursuit="8.0" StartTime="11:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Day Racers - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="CRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Yachts" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Yachts - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF NON-SPINNAKER" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF SPINNAKER" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Corinthian" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Corinthian - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Day Racer" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Grand Classic - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Grand Classics" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="SAIL NANTUCKET" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="CRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="50" Pos="1" Race="7" Time="13:10:00.0"/>
+<Fin Ent="69" Pos="2" Race="7" Time="13:10:05.0"/>
+<Fin Ent="58" Pos="3" Race="7" Time="13:10:15.0"/>
+<Fin Ent="65" Pos="4" Race="7" Time="13:10:25.0"/>
+<Fin Ent="67" Pos="5" Race="7" Time="13:10:30.0"/>
+<Fin Ent="49" Pos="6" Race="7" Time="13:35:00.0"/>
+<Fin Ent="61" Pos="7" Race="7" Time="13:35:45.0"/>
+<Fin Ent="41" Pos="8" Race="7" Time="13:35:55.0"/>
+<Fin Ent="44" Pos="9" Race="7" Time="13:36:00.0"/>
+<Fin Ent="70" Pos="10" Race="7" Time="13:36:10.0"/>
+<Fin Ent="63" Pos="11" Race="7" Time="13:36:25.0"/>
+<Fin Ent="51" Pos="12" Race="7" Time="13:36:35.0"/>
+<Fin Ent="55" Pos="13" Race="7" Time="13:36:45.0"/>
+<Fin Ent="43" Pos="14" Race="7" Time="13:36:55.0"/>
+<Fin Ent="54" Pos="15" Race="7" Time="13:37:00.0"/>
+<Fin Ent="45" Pos="16" Race="7" Time="13:37:10.0"/>
+<Fin Ent="72" Pos="17" Race="7" Time="13:37:15.0"/>
+<Fin Ent="57" Pos="18" Race="7" Time="13:37:25.0"/>
+<Fin Ent="47" Pos="19" Race="7" Time="13:37:35.0"/>
+<Fin Ent="71" Pos="20" Race="7" Time="13:37:45.0"/>
+<Fin Ent="77" Pos="21" Race="7" Time="13:37:55.0"/>
+<Fin Ent="59" Pos="22" Race="7" Time="13:38:00.0"/>
+<Fin Ent="56" Pos="23" Race="7" Time="13:38:10.0"/>
+<Fin Ent="79" Pos="24" Race="7" Time="13:38:15.0"/>
+<Fin Ent="78" Pos="25" Race="7" Time="13:38:20.0"/>
+<Fin Ent="75" Pos="26" Race="7" Time="13:38:25.0"/>
+<Fin Ent="68" Pos="27" Race="7" Time="13:38:35.0"/>
+<Fin Ent="76" Pos="28" Race="7" Time="13:38:40.0"/>
+<Fin Ent="74" Pos="29" Race="7" Time="13:38:45.0"/>
+<Fin Ent="64" Pos="30" Race="7" Time="13:38:55.0"/>
+<Fin Ent="73" Pos="31" Race="7" Time="13:39:00.0"/>
+<Fin Ent="52" Pos="32" Race="7" Time="13:39:10.0"/>
+<Fin Ent="66" Pos="33" Race="7" Time="13:39:15.0"/>
+<Fin Ent="46" Pos="34" Race="7" Time="13:39:20.0"/>
+<Fin Ent="53" Pos="35" Race="7" Time="13:39:25.0"/>
+<Fin Ent="62" Pos="36" Race="7" Time="13:39:30.0"/>
+<Fin Ent="42" Pos="37" Race="7" Time="13:39:35.0"/>
+<Fin Ent="60" Pos="38" Race="7" Time="13:39:40.0"/>
+<Fin Ent="48" Pos="39" Race="7" Time="13:39:50.0"/>
+</FinishList>
+</Race>
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="8" StartDate="19-Aug-2016" Weight="1.0">
+<DivInfo>
+<DivStart Div="1 CRF-A SPIN" Length="6.0" LengthPursuit="6.0" StartTime="14:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="2 PHRF-A SPIN" Length="6.0" LengthPursuit="6.0" StartTime="14:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="3 CRF-B NON-SPIN" Length="6.0" LengthPursuit="6.0" StartTime="14:20:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="4 CRF-C NON-SPIN" Length="6.0" LengthPursuit="6.0" StartTime="14:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="4 PHRF-B NON-SPIN" Length="6.0" LengthPursuit="6.0" StartTime="14:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Yachts" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Day Racers - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Yachts - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Corinthian" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Corinthian - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Day Racer" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Grand Classic - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Grand Classics" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="CRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="CRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="67" Pos="1" Race="8" Time="16:10:00.0"/>
+<Fin Ent="48" Pos="2" Race="8" Time="16:10:10.0"/>
+<Fin Ent="53" Pos="3" Race="8" Time="16:10:15.0"/>
+<Fin Ent="58" Pos="4" Race="8" Time="16:10:20.0"/>
+<Fin Ent="45" Pos="5" Race="8" Time="16:10:25.0"/>
+<Fin Ent="41" Pos="6" Race="8" Time="16:10:30.0"/>
+<Fin Ent="72" Pos="7" Race="8" Time="16:10:35.0"/>
+<Fin Ent="51" Pos="8" Race="8" Time="16:10:40.0"/>
+<Fin Ent="61" Pos="9" Race="8" Time="16:10:45.0"/>
+<Fin Ent="43" Pos="10" Race="8" Time="16:10:50.0"/>
+<Fin Ent="60" Pos="11" Race="8" Time="16:10:55.0"/>
+<Fin Ent="44" Pos="12" Race="8" Time="16:11:00.0"/>
+<Fin Ent="54" Pos="13" Race="8" Time="16:11:10.0"/>
+<Fin Ent="49" Pos="14" Race="8" Time="16:11:15.0"/>
+<Fin Ent="70" Pos="15" Race="8" Time="16:11:20.0"/>
+<Fin Ent="47" Pos="16" Race="8" Time="16:11:25.0"/>
+<Fin Ent="57" Pos="17" Race="8" Time="16:11:30.0"/>
+<Fin Ent="63" Pos="18" Race="8" Time="16:11:35.0"/>
+<Fin Ent="42" Pos="19" Race="8" Time="16:11:40.0"/>
+<Fin Ent="77" Pos="20" Race="8" Time="16:11:45.0"/>
+<Fin Ent="73" Pos="21" Race="8" Time="16:11:50.0"/>
+<Fin Ent="62" Pos="22" Race="8" Time="16:11:55.0"/>
+<Fin Ent="64" Pos="23" Race="8" Time="16:12:00.0"/>
+<Fin Ent="66" Pos="24" Race="8" Time="16:12:11.0"/>
+<Fin Ent="71" Pos="25" Race="8" Time="16:12:15.0"/>
+<Fin Ent="52" Pos="26" Race="8" Time="16:12:21.0"/>
+<Fin Ent="55" Pos="27" Race="8" Time="16:12:25.0"/>
+<Fin Ent="59" Pos="28" Race="8" Time="16:12:30.0"/>
+<Fin Ent="65" Pos="29" Race="8" Time="16:12:35.0"/>
+<Fin Ent="75" Pos="30" Race="8" Time="16:12:42.0"/>
+<Fin Ent="76" Pos="31" Race="8" Time="16:12:45.0"/>
+<Fin Ent="46" Pos="32" Race="8" Time="16:12:51.0"/>
+<Fin Ent="56" Pos="33" Race="8" Time="16:12:55.0"/>
+<Fin Ent="50" Pos="34" Race="8" Time="16:13:00.0"/>
+<Fin Ent="69" Pos="35" Race="8" Time="16:13:12.0"/>
+<Fin Ent="79" Pos="36" Race="8" Time="16:13:15.0"/>
+<Fin Ent="74" Pos="37" Race="8" Time="16:13:30.0"/>
+<Fin Ent="68" Pos="38" Race="8" Time="16:13:36.0"/>
+<Fin Ent="78" Pos="39" Race="8" Time="16:13:45.0"/>
+</FinishList>
+</Race>
+</RaceList>
+<Scores SystemName="ISAF Low Point 2013-2016">
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="4" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="1 CRF-A SPIN" Ent="58" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="1 CRF-A SPIN" Ent="56" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="1 CRF-A SPIN" Ent="62" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="1 CRF-A SPIN" Ent="54" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="1 CRF-A SPIN" Ent="60" Pos="5" Pts="5.0" Race="7"/>
+<rp Div="1 CRF-A SPIN" Ent="59" Pos="6" Pts="6.0" Race="7"/>
+<rp Div="1 CRF-A SPIN" Ent="57" Pos="7" Pts="7.0" Race="7"/>
+<rp Div="1 CRF-A SPIN" Ent="61" Pos="8" Pts="8.0" Race="7"/>
+<rp Div="1 CRF-A SPIN" Ent="55" Pos="9" Pts="9.0" Race="7"/>
+<rp Div="1 CRF-A SPIN" Ent="56" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="1 CRF-A SPIN" Ent="62" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="1 CRF-A SPIN" Ent="54" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="1 CRF-A SPIN" Ent="58" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="1 CRF-A SPIN" Ent="60" Pos="5" Pts="5.0" Race="8"/>
+<rp Div="1 CRF-A SPIN" Ent="57" Pos="6" Pts="6.0" Race="8"/>
+<rp Div="1 CRF-A SPIN" Ent="59" Pos="7" Pts="7.0" Race="8"/>
+<rp Div="1 CRF-A SPIN" Ent="61" Pos="8" Pts="8.0" Race="8"/>
+<rp Div="1 CRF-A SPIN" Ent="55" Pos="9" Pts="9.0" Race="8"/>
+<rp Div="2 PHRF-A SPIN" Ent="65" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="2 PHRF-A SPIN" Ent="67" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="2 PHRF-A SPIN" Ent="63" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="2 PHRF-A SPIN" Ent="66" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="2 PHRF-A SPIN" Ent="64" Pos="5" Pts="5.0" Race="7"/>
+<rp Div="2 PHRF-A SPIN" Ent="68" Pos="6" Pts="6.0" Race="7"/>
+<rp Div="2 PHRF-A SPIN" Ent="63" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="2 PHRF-A SPIN" Ent="65" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="2 PHRF-A SPIN" Ent="66" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="2 PHRF-A SPIN" Ent="64" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="2 PHRF-A SPIN" Ent="68" Pos="5" Pts="5.0" Race="8"/>
+<rp Div="2 PHRF-A SPIN" Ent="67" Pos="6" Pts="6.0" Race="8"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="50" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="47" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="49" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="48" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="53" Pos="5" Pts="5.0" Race="7"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="46" Pos="6" Pts="6.0" Race="7"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="45" Pos="7" Pts="7.0" Race="7"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="43" Pos="8" Pts="8.0" Race="7"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="41" Pos="9" Pts="9.0" Race="7"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="44" Pos="10" Pts="10.0" Race="7"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="42" Pos="11" Pts="11.0" Race="7"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="51" Pos="12" Pts="12.0" Race="7"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="52" Pos="13" Pts="13.0" Race="7"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="48" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="47" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="53" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="49" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="46" Pos="5" Pts="5.0" Race="8"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="45" Pos="6" Pts="6.0" Race="8"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="43" Pos="7" Pts="7.0" Race="8"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="50" Pos="8" Pts="8.0" Race="8"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="42" Pos="9" Pts="9.0" Race="8"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="41" Pos="10" Pts="10.0" Race="8"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="51" Pos="11" Pts="11.0" Race="8"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="44" Pos="12" Pts="12.0" Race="8"/>
+<rp Div="3 CRF-B NON-SPIN" Ent="52" Pos="13" Pts="13.0" Race="8"/>
+<rp Div="4 CRF-C NON-SPIN" Ent="69" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="4 CRF-C NON-SPIN" Ent="70" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="4 CRF-C NON-SPIN" Ent="71" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="4 CRF-C NON-SPIN" Ent="72" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="4 CRF-C NON-SPIN" Ent="72" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="4 CRF-C NON-SPIN" Ent="70" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="4 CRF-C NON-SPIN" Ent="71" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="4 CRF-C NON-SPIN" Ent="69" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="79" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="76" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="73" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="77" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="75" Pos="5" Pts="5.0" Race="7"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="78" Pos="6" Pts="6.0" Race="7"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="74" Pos="7" Pts="7.0" Race="7"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="73" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="76" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="79" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="77" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="75" Pos="5" Pts="5.0" Race="8"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="74" Pos="6" Pts="6.0" Race="8"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="78" Pos="7" Pts="7.0" Race="8"/>
+<rp Div="CRF" Ent="50" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="CRF" Ent="69" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="CRF" Ent="70" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="CRF" Ent="71" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="CRF" Ent="72" Pos="5" Pts="5.0" Race="7"/>
+<rp Div="CRF" Ent="58" Pos="6" Pts="6.0" Race="7"/>
+<rp Div="CRF" Ent="47" Pos="7" Pts="7.0" Race="7"/>
+<rp Div="CRF" Ent="49" Pos="8" Pts="8.0" Race="7"/>
+<rp Div="CRF" Ent="48" Pos="9" Pts="9.0" Race="7"/>
+<rp Div="CRF" Ent="53" Pos="10" Pts="10.0" Race="7"/>
+<rp Div="CRF" Ent="46" Pos="11" Pts="11.0" Race="7"/>
+<rp Div="CRF" Ent="45" Pos="12" Pts="12.0" Race="7"/>
+<rp Div="CRF" Ent="43" Pos="13" Pts="13.0" Race="7"/>
+<rp Div="CRF" Ent="41" Pos="14" Pts="14.0" Race="7"/>
+<rp Div="CRF" Ent="44" Pos="15" Pts="15.0" Race="7"/>
+<rp Div="CRF" Ent="42" Pos="16" Pts="16.0" Race="7"/>
+<rp Div="CRF" Ent="51" Pos="17" Pts="17.0" Race="7"/>
+<rp Div="CRF" Ent="52" Pos="18" Pts="18.0" Race="7"/>
+<rp Div="CRF" Ent="56" Pos="19" Pts="19.0" Race="7"/>
+<rp Div="CRF" Ent="62" Pos="20" Pts="20.0" Race="7"/>
+<rp Div="CRF" Ent="54" Pos="21" Pts="21.0" Race="7"/>
+<rp Div="CRF" Ent="60" Pos="22" Pts="22.0" Race="7"/>
+<rp Div="CRF" Ent="59" Pos="23" Pts="23.0" Race="7"/>
+<rp Div="CRF" Ent="57" Pos="24" Pts="24.0" Race="7"/>
+<rp Div="CRF" Ent="61" Pos="25" Pts="25.0" Race="7"/>
+<rp Div="CRF" Ent="55" Pos="26" Pts="26.0" Race="7"/>
+<rp Div="CRF" Ent="72" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="CRF" Ent="70" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="CRF" Ent="71" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="CRF" Ent="48" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="CRF" Ent="47" Pos="5" Pts="5.0" Race="8"/>
+<rp Div="CRF" Ent="53" Pos="6" Pts="6.0" Race="8"/>
+<rp Div="CRF" Ent="49" Pos="7" Pts="7.0" Race="8"/>
+<rp Div="CRF" Ent="46" Pos="8" Pts="8.0" Race="8"/>
+<rp Div="CRF" Ent="45" Pos="9" Pts="9.0" Race="8"/>
+<rp Div="CRF" Ent="69" Pos="10" Pts="10.0" Race="8"/>
+<rp Div="CRF" Ent="43" Pos="11" Pts="11.0" Race="8"/>
+<rp Div="CRF" Ent="50" Pos="12" Pts="12.0" Race="8"/>
+<rp Div="CRF" Ent="42" Pos="13" Pts="13.0" Race="8"/>
+<rp Div="CRF" Ent="41" Pos="14" Pts="14.0" Race="8"/>
+<rp Div="CRF" Ent="51" Pos="15" Pts="15.0" Race="8"/>
+<rp Div="CRF" Ent="44" Pos="16" Pts="16.0" Race="8"/>
+<rp Div="CRF" Ent="52" Pos="17" Pts="17.0" Race="8"/>
+<rp Div="CRF" Ent="56" Pos="18" Pts="18.0" Race="8"/>
+<rp Div="CRF" Ent="62" Pos="19" Pts="19.0" Race="8"/>
+<rp Div="CRF" Ent="54" Pos="20" Pts="20.0" Race="8"/>
+<rp Div="CRF" Ent="58" Pos="21" Pts="21.0" Race="8"/>
+<rp Div="CRF" Ent="60" Pos="22" Pts="22.0" Race="8"/>
+<rp Div="CRF" Ent="57" Pos="23" Pts="23.0" Race="8"/>
+<rp Div="CRF" Ent="59" Pos="24" Pts="24.0" Race="8"/>
+<rp Div="CRF" Ent="61" Pos="25" Pts="25.0" Race="8"/>
+<rp Div="CRF" Ent="55" Pos="26" Pts="26.0" Race="8"/>
+<rp Div="PHRF" Ent="79" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="PHRF" Ent="76" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="PHRF" Ent="73" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="PHRF" Ent="77" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="PHRF" Ent="75" Pos="5" Pts="5.0" Race="7"/>
+<rp Div="PHRF" Ent="65" Pos="6" Pts="6.0" Race="7"/>
+<rp Div="PHRF" Ent="78" Pos="7" Pts="7.0" Race="7"/>
+<rp Div="PHRF" Ent="74" Pos="8" Pts="8.0" Race="7"/>
+<rp Div="PHRF" Ent="67" Pos="9" Pts="9.0" Race="7"/>
+<rp Div="PHRF" Ent="63" Pos="10" Pts="10.0" Race="7"/>
+<rp Div="PHRF" Ent="66" Pos="11" Pts="11.0" Race="7"/>
+<rp Div="PHRF" Ent="64" Pos="12" Pts="12.0" Race="7"/>
+<rp Div="PHRF" Ent="68" Pos="13" Pts="13.0" Race="7"/>
+<rp Div="PHRF" Ent="73" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="PHRF" Ent="76" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="PHRF" Ent="79" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="PHRF" Ent="77" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="PHRF" Ent="75" Pos="5" Pts="5.0" Race="8"/>
+<rp Div="PHRF" Ent="74" Pos="6" Pts="6.0" Race="8"/>
+<rp Div="PHRF" Ent="78" Pos="7" Pts="7.0" Race="8"/>
+<rp Div="PHRF" Ent="63" Pos="8" Pts="8.0" Race="8"/>
+<rp Div="PHRF" Ent="65" Pos="9" Pts="9.0" Race="8"/>
+<rp Div="PHRF" Ent="66" Pos="10" Pts="10.0" Race="8"/>
+<rp Div="PHRF" Ent="64" Pos="11" Pts="11.0" Race="8"/>
+<rp Div="PHRF" Ent="68" Pos="12" Pts="12.0" Race="8"/>
+<rp Div="PHRF" Ent="67" Pos="13" Pts="13.0" Race="8"/>
+<rp Div="Grand Prix Day Racers - Spin" Ent="59" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="Grand Prix Day Racers - Spin" Ent="59" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="Grand Prix Yachts" Ent="50" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="Grand Prix Yachts" Ent="47" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="Grand Prix Yachts" Ent="53" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="Grand Prix Yachts" Ent="46" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="Grand Prix Yachts" Ent="41" Pos="5" Pts="5.0" Race="7"/>
+<rp Div="Grand Prix Yachts" Ent="44" Pos="6" Pts="6.0" Race="7"/>
+<rp Div="Grand Prix Yachts" Ent="42" Pos="7" Pts="7.0" Race="7"/>
+<rp Div="Grand Prix Yachts" Ent="51" Pos="8" Pts="8.0" Race="7"/>
+<rp Div="Grand Prix Yachts" Ent="52" Pos="9" Pts="9.0" Race="7"/>
+<rp Div="Grand Prix Yachts" Ent="47" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="Grand Prix Yachts" Ent="53" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="Grand Prix Yachts" Ent="46" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="Grand Prix Yachts" Ent="50" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="Grand Prix Yachts" Ent="42" Pos="5" Pts="5.0" Race="8"/>
+<rp Div="Grand Prix Yachts" Ent="41" Pos="6" Pts="6.0" Race="8"/>
+<rp Div="Grand Prix Yachts" Ent="51" Pos="7" Pts="7.0" Race="8"/>
+<rp Div="Grand Prix Yachts" Ent="44" Pos="8" Pts="8.0" Race="8"/>
+<rp Div="Grand Prix Yachts" Ent="52" Pos="9" Pts="9.0" Race="8"/>
+<rp Div="Grand Prix Yachts - Spin" Ent="58" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="Grand Prix Yachts - Spin" Ent="58" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="Vintage Corinthian" Ent="49" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="Vintage Corinthian" Ent="48" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="Vintage Corinthian" Ent="45" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="Vintage Corinthian" Ent="48" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="Vintage Corinthian" Ent="49" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="Vintage Corinthian" Ent="45" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="Vintage Corinthian - Spin" Ent="56" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="Vintage Corinthian - Spin" Ent="62" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="Vintage Corinthian - Spin" Ent="54" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="Vintage Corinthian - Spin" Ent="60" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="Vintage Corinthian - Spin" Ent="56" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="Vintage Corinthian - Spin" Ent="62" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="Vintage Corinthian - Spin" Ent="54" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="Vintage Corinthian - Spin" Ent="60" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="Vintage Day Racer" Ent="69" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="Vintage Day Racer" Ent="70" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="Vintage Day Racer" Ent="71" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="Vintage Day Racer" Ent="72" Pos="4" Pts="4.0" Race="7"/>
+<rp Div="Vintage Day Racer" Ent="72" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="Vintage Day Racer" Ent="70" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="Vintage Day Racer" Ent="71" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="Vintage Day Racer" Ent="69" Pos="4" Pts="4.0" Race="8"/>
+<rp Div="Vintage Grand Classic - Spin" Ent="57" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="Vintage Grand Classic - Spin" Ent="61" Pos="2" Pts="2.0" Race="7"/>
+<rp Div="Vintage Grand Classic - Spin" Ent="55" Pos="3" Pts="3.0" Race="7"/>
+<rp Div="Vintage Grand Classic - Spin" Ent="57" Pos="1" Pts="1.0" Race="8"/>
+<rp Div="Vintage Grand Classic - Spin" Ent="61" Pos="2" Pts="2.0" Race="8"/>
+<rp Div="Vintage Grand Classic - Spin" Ent="55" Pos="3" Pts="3.0" Race="8"/>
+<rp Div="Vintage Grand Classics" Ent="43" Pos="1" Pts="1.0" Race="7"/>
+<rp Div="Vintage Grand Classics" Ent="43" Pos="1" Pts="1.0" Race="8"/>
+</RacePointsList>
+<SeriesPointsList>
+<sp Div="1 CRF-A SPIN" Ent="56" Pos="1" Pts="3.0"/>
+<sp Div="1 CRF-A SPIN" Ent="58" Pos="2" Pts="5.0"/>
+<sp Div="1 CRF-A SPIN" Ent="62" Pos="3" Pts="5.0001"/>
+<sp Div="1 CRF-A SPIN" Ent="54" Pos="4" Pts="7.0"/>
+<sp Div="1 CRF-A SPIN" Ent="60" Pos="5" Pts="10.0"/>
+<sp Div="1 CRF-A SPIN" Ent="57" Pos="6" Pts="13.0"/>
+<sp Div="1 CRF-A SPIN" Ent="59" Pos="7" Pts="13.0001"/>
+<sp Div="1 CRF-A SPIN" Ent="61" Pos="8" Pts="16.0"/>
+<sp Div="1 CRF-A SPIN" Ent="55" Pos="9" Pts="18.0"/>
+<sp Div="2 PHRF-A SPIN" Ent="65" Pos="1" Pts="3.0"/>
+<sp Div="2 PHRF-A SPIN" Ent="63" Pos="2" Pts="4.0"/>
+<sp Div="2 PHRF-A SPIN" Ent="66" Pos="3" Pts="7.0"/>
+<sp Div="2 PHRF-A SPIN" Ent="67" Pos="4" Pts="8.0"/>
+<sp Div="2 PHRF-A SPIN" Ent="64" Pos="5" Pts="9.0"/>
+<sp Div="2 PHRF-A SPIN" Ent="68" Pos="6" Pts="11.0"/>
+<sp Div="3 CRF-B NON-SPIN" Ent="47" Pos="1" Pts="4.0"/>
+<sp Div="3 CRF-B NON-SPIN" Ent="48" Pos="2" Pts="5.0"/>
+<sp Div="3 CRF-B NON-SPIN" Ent="49" Pos="3" Pts="7.0"/>
+<sp Div="3 CRF-B NON-SPIN" Ent="53" Pos="4" Pts="8.0"/>
+<sp Div="3 CRF-B NON-SPIN" Ent="50" Pos="5" Pts="9.0"/>
+<sp Div="3 CRF-B NON-SPIN" Ent="46" Pos="6" Pts="11.0"/>
+<sp Div="3 CRF-B NON-SPIN" Ent="45" Pos="7" Pts="13.0"/>
+<sp Div="3 CRF-B NON-SPIN" Ent="43" Pos="8" Pts="15.0"/>
+<sp Div="3 CRF-B NON-SPIN" Ent="41" Pos="9" Pts="19.0"/>
+<sp Div="3 CRF-B NON-SPIN" Ent="42" Pos="10" Pts="20.0"/>
+<sp Div="3 CRF-B NON-SPIN" Ent="44" Pos="11" Pts="22.0"/>
+<sp Div="3 CRF-B NON-SPIN" Ent="51" Pos="12" Pts="23.0"/>
+<sp Div="3 CRF-B NON-SPIN" Ent="52" Pos="13" Pts="26.0"/>
+<sp Div="4 CRF-C NON-SPIN" Ent="70" Pos="1" Pts="4.0"/>
+<sp Div="4 CRF-C NON-SPIN" Ent="72" Pos="2" Pts="5.0"/>
+<sp Div="4 CRF-C NON-SPIN" Ent="69" Pos="3" Pts="5.0001"/>
+<sp Div="4 CRF-C NON-SPIN" Ent="71" Pos="4" Pts="6.0"/>
+<sp Div="4 PHRF-B NON-SPIN" Ent="73" Pos="1" Pts="4.0"/>
+<sp Div="4 PHRF-B NON-SPIN" Ent="79" Pos="2" Pts="4.0001"/>
+<sp Div="4 PHRF-B NON-SPIN" Ent="76" Pos="3" Pts="4.0002"/>
+<sp Div="4 PHRF-B NON-SPIN" Ent="77" Pos="4" Pts="8.0"/>
+<sp Div="4 PHRF-B NON-SPIN" Ent="75" Pos="5" Pts="10.0"/>
+<sp Div="4 PHRF-B NON-SPIN" Ent="74" Pos="6" Pts="13.0"/>
+<sp Div="4 PHRF-B NON-SPIN" Ent="78" Pos="7" Pts="13.0001"/>
+<sp Div="CRF" Ent="70" Pos="1" Pts="5.0"/>
+<sp Div="CRF" Ent="72" Pos="2" Pts="6.0"/>
+<sp Div="CRF" Ent="71" Pos="3" Pts="7.0"/>
+<sp Div="CRF" Ent="69" Pos="4" Pts="12.0"/>
+<sp Div="CRF" Ent="47" Pos="5" Pts="12.0001"/>
+<sp Div="CRF" Ent="50" Pos="6" Pts="13.0"/>
+<sp Div="CRF" Ent="48" Pos="7" Pts="13.0001"/>
+<sp Div="CRF" Ent="49" Pos="8" Pts="15.0"/>
+<sp Div="CRF" Ent="53" Pos="9" Pts="16.0"/>
+<sp Div="CRF" Ent="46" Pos="10" Pts="19.0"/>
+<sp Div="CRF" Ent="45" Pos="11" Pts="21.0"/>
+<sp Div="CRF" Ent="43" Pos="12" Pts="24.0"/>
+<sp Div="CRF" Ent="58" Pos="13" Pts="27.0"/>
+<sp Div="CRF" Ent="41" Pos="14" Pts="28.0"/>
+<sp Div="CRF" Ent="42" Pos="15" Pts="29.0"/>
+<sp Div="CRF" Ent="44" Pos="16" Pts="31.0"/>
+<sp Div="CRF" Ent="51" Pos="17" Pts="32.0"/>
+<sp Div="CRF" Ent="52" Pos="18" Pts="35.0"/>
+<sp Div="CRF" Ent="56" Pos="19" Pts="37.0"/>
+<sp Div="CRF" Ent="62" Pos="20" Pts="39.0"/>
+<sp Div="CRF" Ent="54" Pos="21" Pts="41.0"/>
+<sp Div="CRF" Ent="60" Pos="22" Pts="44.0"/>
+<sp Div="CRF" Ent="57" Pos="23" Pts="47.0"/>
+<sp Div="CRF" Ent="59" Pos="24" Pts="47.0001"/>
+<sp Div="CRF" Ent="61" Pos="25" Pts="50.0"/>
+<sp Div="CRF" Ent="55" Pos="26" Pts="52.0"/>
+<sp Div="PHRF" Ent="73" Pos="1" Pts="4.0"/>
+<sp Div="PHRF" Ent="79" Pos="2" Pts="4.0001"/>
+<sp Div="PHRF" Ent="76" Pos="3" Pts="4.0002"/>
+<sp Div="PHRF" Ent="77" Pos="4" Pts="8.0"/>
+<sp Div="PHRF" Ent="75" Pos="5" Pts="10.0"/>
+<sp Div="PHRF" Ent="74" Pos="6" Pts="14.0"/>
+<sp Div="PHRF" Ent="78" Pos="7" Pts="14.0001"/>
+<sp Div="PHRF" Ent="65" Pos="8" Pts="15.0"/>
+<sp Div="PHRF" Ent="63" Pos="9" Pts="18.0"/>
+<sp Div="PHRF" Ent="66" Pos="10" Pts="21.0"/>
+<sp Div="PHRF" Ent="67" Pos="11" Pts="22.0"/>
+<sp Div="PHRF" Ent="64" Pos="12" Pts="23.0"/>
+<sp Div="PHRF" Ent="68" Pos="13" Pts="25.0"/>
+<sp Div="Grand Prix Day Racers - Spin" Ent="59" Pos="1" Pts="2.0"/>
+<sp Div="Grand Prix Yachts" Ent="47" Pos="1" Pts="3.0"/>
+<sp Div="Grand Prix Yachts" Ent="50" Pos="2" Pts="5.0"/>
+<sp Div="Grand Prix Yachts" Ent="53" Pos="3" Pts="5.0001"/>
+<sp Div="Grand Prix Yachts" Ent="46" Pos="4" Pts="7.0"/>
+<sp Div="Grand Prix Yachts" Ent="41" Pos="5" Pts="11.0"/>
+<sp Div="Grand Prix Yachts" Ent="42" Pos="6" Pts="12.0"/>
+<sp Div="Grand Prix Yachts" Ent="44" Pos="7" Pts="14.0"/>
+<sp Div="Grand Prix Yachts" Ent="51" Pos="8" Pts="15.0"/>
+<sp Div="Grand Prix Yachts" Ent="52" Pos="9" Pts="18.0"/>
+<sp Div="Grand Prix Yachts - Spin" Ent="58" Pos="1" Pts="2.0"/>
+<sp Div="Vintage Corinthian" Ent="48" Pos="1" Pts="3.0"/>
+<sp Div="Vintage Corinthian" Ent="49" Pos="2" Pts="3.0001"/>
+<sp Div="Vintage Corinthian" Ent="45" Pos="3" Pts="6.0"/>
+<sp Div="Vintage Corinthian - Spin" Ent="56" Pos="1" Pts="2.0"/>
+<sp Div="Vintage Corinthian - Spin" Ent="62" Pos="2" Pts="4.0"/>
+<sp Div="Vintage Corinthian - Spin" Ent="54" Pos="3" Pts="6.0"/>
+<sp Div="Vintage Corinthian - Spin" Ent="60" Pos="4" Pts="8.0"/>
+<sp Div="Vintage Day Racer" Ent="70" Pos="1" Pts="4.0"/>
+<sp Div="Vintage Day Racer" Ent="72" Pos="2" Pts="5.0"/>
+<sp Div="Vintage Day Racer" Ent="69" Pos="3" Pts="5.0001"/>
+<sp Div="Vintage Day Racer" Ent="71" Pos="4" Pts="6.0"/>
+<sp Div="Vintage Grand Classic - Spin" Ent="57" Pos="1" Pts="2.0"/>
+<sp Div="Vintage Grand Classic - Spin" Ent="61" Pos="2" Pts="4.0"/>
+<sp Div="Vintage Grand Classic - Spin" Ent="55" Pos="3" Pts="6.0"/>
+<sp Div="Vintage Grand Classics" Ent="43" Pos="1" Pts="2.0"/>
+</SeriesPointsList>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="true" LastXRaces="5" NameOption="1" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="Div/Subdivision">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.2"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="4.1"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="C:\Users\By Design Interiors\Documents\02 Nantucket\2015 Nantucket OHC Java Score\reports\2015_OPERA_HOUSE_CUP.html">
+<OptionLocations>
+<item value="2.2"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="3.2"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
+</Regatta>
