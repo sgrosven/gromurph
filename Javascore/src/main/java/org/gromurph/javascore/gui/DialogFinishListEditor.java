@@ -929,6 +929,10 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 		} else try {
 			long l = SailTime.toLong(s);
 			thisFinish.setFinishTime(l);
+			if (thisFinish.getPenalty().isFinishPenalty()) {
+				thisFinish.getPenalty().clear();
+				thisFinish.setFinishPosition( new FinishPosition( fFinishers.getNumberFinishers()+1));
+			}
 			if (l < lastTime) {
 				beep();
 				// popup up time earlier than last warning

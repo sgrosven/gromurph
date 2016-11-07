@@ -107,8 +107,21 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 		// bug1 DONE finish dialog unfinished list
 		// bug2 DONE (chip) fleet and subdiv series scoring
 			// individual races look ok, series totals in report wrong - Sp in file look ok
-		// handicap divisions becoming one design
+		// bug3 DONE set finish time of DNC boat does not remove DNC (fix 7 nov 2016)
 	
+		// bug4 handicap divisions becoming one design - cant figure out how to replicate
+		// bug5 should subdivs of starting divs even appear in race dialog?
+	
+		// apr 2016 // james gray // 12 boats, long series scoring, 3 boats DNC, 1 of those gets RC average boats, 
+		//		1 boat of remaining 9 is DNF, 8 finishers.  So LSS - DNF should get 9 pts, but apparently gets 11?
+	
+		// more language issues: july 20 2016, The program is working perfect but in the report the german 
+			// Umlaute (ÜÄÖ usw.) are not displayed properly.
+	 		// 	In the program the language iss et to DE_DE.
+	
+		// check proper posting of source code and links from JS Website
+	
+		// check locations of 'standard' logo file - especially for upload to web
 	
 	// release 7.5 ?
 		// DONE A+ TOT fix (from Jim) <branch: TotFixes -> dev 1 March ? 2016> 
