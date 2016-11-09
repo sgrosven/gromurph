@@ -48,6 +48,7 @@ import org.gromurph.javascore.model.Race;
 import org.gromurph.javascore.model.RaceList;
 import org.gromurph.javascore.model.Regatta;
 import org.gromurph.javascore.model.StartingDivisionList;
+import org.gromurph.javascore.model.SubDivision;
 import org.gromurph.util.HelpManager;
 import org.gromurph.util.JLabelWrapped;
 import org.gromurph.util.JTextFieldSelectAll;
@@ -137,8 +138,8 @@ public class PanelRaceStartInfo extends PanelStartStop {
 	}
 
 	private void initializeDivisions() {
-		fDivisions = fRace.getDivisionsByStartOrder(false);
-		if ( fDivisions.size() > 0 && fRace.getStartTimeAdjusted(fDivisions.get(0)) == SailTime.NOTIME) {
+		StartingDivisionList starters = fRace.getDivisionsByStartOrder(false);
+		if ( starters.size() > 0 && fRace.getStartTimeAdjusted(starters.get(0)) == SailTime.NOTIME) {
 			// have no time for "first" start, try order on the last race of regatta
 			Regatta regatta = JavaScoreProperties.getRegatta();
 			if (regatta != null) {
@@ -151,10 +152,17 @@ public class PanelRaceStartInfo extends PanelStartStop {
 					sortRace = r;
 				}
 				if (sortRace != null && sortRace != fRace) {
-					fDivisions = sortRace.getDivisionsByStartOrder(false);
+					starters = sortRace.getDivisionsByStartOrder(false);
 				}
 			}
 		} 
+		fDivisions = new StartingDivisionList();
+		for ( AbstractDivision sd : starters) {
+			// throw out subdivisions that have starting divisions for parents
+			if (!( sd instanceof SubDivision && sd.getParentDivision() != null && starters.contains(sd.getParentDivision()))) {
+				fDivisions.add( sd);
+			}
+		}
 	}
 
 	@Override public void updateFields() {

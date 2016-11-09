@@ -112,7 +112,7 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 		// bug4 handicap divisions becoming one design - cant figure out how to replicate
 		// bug5 should subdivs of starting divs even appear in race dialog?
 	
-		// apr 2016 // james gray // 12 boats, long series scoring, 3 boats DNC, 1 of those gets RC average boats, 
+		// bug6 DONE // james gray // 12 boats, long series scoring, 3 boats DNC, 1 of those gets RC average boats, 
 		//		1 boat of remaining 9 is DNF, 8 finishers.  So LSS - DNF should get 9 pts, but apparently gets 11?
 	
 		// more language issues: july 20 2016, The program is working perfect but in the report the german 
@@ -123,44 +123,6 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 	
 		// check locations of 'standard' logo file - especially for upload to web
 	
-	// release 7.5 ?
-		// DONE A+ TOT fix (from Jim) <branch: TotFixes -> dev 1 March ? 2016> 
-			// default hi/lo are backwards
-			// change labels from min/max to slowest, fastest
-				// improve handling of min/max for all handicaps
-			// repro, test, fix jims other comments:
-                //	PHRF 2 = 118 Min, 150 Max (works) 
-                //	PHRF 3 = 160 Min, 999 Max (works but why isn't the Min 151?) 
-                //	PHRF 1 = +9999 Min, -9999 Max (looks wrong but works in ToD) 
-                //	PHRF 1 = +9999 Min, -9999 Max (ejects the boats in ToT) 
-                //	PHRF 1 = -999 Min, 117 (matches P2 and P3 entry style, but does not work) 
-	
-		// DONE A+ WNR fix (from Bobby) <branch: qualseriesscorebug -> dev on 22 Feb 2016>
-		// DONE A+ install glitches - especially default install directory by OS <branch izpack5 -> dev 3 march 2016>
-		// DONE A review/revise java 7 esp mac install documentation
-
-		// DONE A  Pursuit start times
-			// DONE "pursuit check box" to advance race options
-			// if checked:
-				// DONE on single race results - add start time column
-				// DONE edit scoring notes to reflect pursuit start?
-				// DONE documentation
-				// DONE to handle/test shortening course after start
-					 // DONE gui set, but doesnt update dynamically - do I care?
-					 // DONE calculations need to be checked and tested
-		// DONE A time entry on race div dialog won't accept decimal seconds...only want to display decimals seconds
-	
-		// DONE Empty regatta, one class, "ADD" is disabled on entries page	
-	
-		// DONE A+ 'NoFin' showing up in finish dialog left side
-		// DONE A+ delete finish, gets double entry (sometimes) on unfin list
-	
-		// DONE A+ TLETest regatta, subdivision has no races shown
-	
-		// DONE A  No tiebreaker option
-		// DONE A  Windsurfer tiebreaker
-	
-					
 	// TODO A update release website documentation
 	// TODO A copy help files over to website
 	// TODO A - (gebhardt 2/20/13) not saving/using last directory saved?

@@ -680,6 +680,7 @@ public class Race extends BaseObject implements Constants {
     		// add all subdivs for a split event
     		StartingDivisionList divs = new StartingDivisionList();
     		for (SubDivision d : reg.getSubDivisions()) {
+    			SubDivision d2 = d;
     			if (!d.isGroupScoring() && reg.getAllEntries().findAll(d).size() > 0) {
     				divs.add(d);
     			}

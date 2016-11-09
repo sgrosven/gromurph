@@ -144,7 +144,9 @@ public class RacePoints extends Points {
 			base.append( ptemp.toString( false));
 		} else if ( penalty.hasPenalty( Constants.AVG)) {
 			if ( didPts) base.append( "/");
-			base.append( "RDG");
+			String rl = penalty.getRedressLabel();
+			if (rl == null || rl.length() == 0) rl = "RDG";
+			base.append( rl);
 		} else if ( finish.hasPenalty()) {
 			if ( didPts) base.append( "/");
 			base.append( penalty.toString( false));

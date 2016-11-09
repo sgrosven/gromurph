@@ -513,9 +513,9 @@ public class Penalty extends BaseObject implements Constants {
 			sb.append("%,");
 		}
 		if ((pen & RDG) != 0) {
-			String label = inP.getRedressLabel();
-			if (label == null || label.length() == 0)
-				label = "RDG";
+			String label = "RDG";
+			String rlab = inP.getRedressLabel();
+			if (rlab != null && rlab.length() > 0) label += ":" + rlab;
 			sb.append(label);
 			if (showPts) {
 				sb.append("/");
@@ -524,14 +524,10 @@ public class Penalty extends BaseObject implements Constants {
 			sb.append(",");
 		}
 		if ((pen & AVG) != 0) {
-			String label = inP.getRedressLabel();
-			if (label == null || label.length() == 0)
-				label = "AVG";
-			sb.append("AVG");
-			if (showPts) {
-				sb.append("/");
-				sb.append(Double.toString(inP.getPoints()));
-			}
+			String label = "AVG";
+			String rlab = inP.getRedressLabel();
+			if (rlab != null && rlab.length() > 0) label += ":" + rlab;
+			sb.append(label);
 			sb.append(",");
 		}
 
@@ -672,8 +668,10 @@ public class Penalty extends BaseObject implements Constants {
 		if (pen.equals("ARP"))
 			return new Penalty(SCP);
 
-		if (pen.equals("AVG")) {
-			return new Penalty(AVG);
+		if (pen.startsWith("AVG")) {
+			Penalty p = new Penalty(AVG);
+			parseRedressLabel( p, pen);
+			return p;
 		}
 
 		if (pen.equals("DNC"))
@@ -717,7 +715,7 @@ public class Penalty extends BaseObject implements Constants {
 		if (pen.equals("RDG") || pen.equals("RDR") || pen.equals("MAN") ||
 				pen.equals("DPI")) {
 			Penalty penalty = new Penalty(RDG);
-			penalty.setRedressLabel(pen);
+			parseRedressLabel( penalty, pen);
 
 			// assume is form "MAN/<pts>"
 			try {
@@ -751,7 +749,7 @@ public class Penalty extends BaseObject implements Constants {
 
 		// assume some discretionary manual score
 		Penalty penalty = new Penalty(RDG);
-		penalty.setRedressLabel(pen);
+		parseRedressLabel( penalty, pen);
 		// assume is form "xxxx/<pts>"
 		try {
 			double pts = Double.parseDouble(val);
@@ -760,50 +758,12 @@ public class Penalty extends BaseObject implements Constants {
 		}
 		return penalty;
 	}
+	
+	private static void parseRedressLabel( Penalty base, String penString) {
+		int colon = penString.indexOf( ":");
+		if (colon >= 0) {
+    		String label = penString.substring( colon);
+    		base.setRedressLabel(label);
+		}
+	}
 }
-/**
- * $Log: Penalty.java,v $ Revision 1.5 2006/05/19 05:48:42 sandyg final release
- * 5.1 modifications
- * 
- * Revision 1.4 2006/01/15 21:10:38 sandyg resubmit at 5.1.02
- * 
- * Revision 1.2 2006/01/11 02:26:10 sandyg updating copyright years
- * 
- * Revision 1.1 2006/01/01 02:27:01 sandyg preliminary submission to centralize
- * code in a new module
- * 
- * Revision 1.13.4.1 2005/11/01 02:36:01 sandyg Java5 update - using generics
- * 
- * Revision 1.13.2.2 2005/08/13 21:57:06 sandyg Version 4.3.1.03 - bugs 1215121,
- * 1226607, killed Java Web Start startup code
- * 
- * Revision 1.13.2.1 2005/06/26 22:47:18 sandyg Xml overhaul to remove xerces
- * dependence
- * 
- * Revision 1.13 2004/04/10 20:49:28 sandyg Copyright year update
- * 
- * Revision 1.12 2003/07/10 01:59:34 sandyg Bug 766917, was using some 1.4
- * specific code in parsePenalty. Caused file open problems and penalty dialog
- * problems
- * 
- * Revision 1.11 2003/04/30 01:02:21 sandyg fixed several parsing bugs, notably
- * no support for mixed case
- * 
- * Revision 1.10 2003/04/27 21:03:27 sandyg lots of cleanup, unit testing for
- * 4.1.1 almost complete
- * 
- * Revision 1.9 2003/04/23 00:30:20 sandyg added Time-based penalties
- * 
- * Revision 1.8 2003/04/20 15:43:59 sandyg added javascore.Constants to
- * consolidate penalty defs, and added new penaltys TIM (time value penalty) and
- * TMP (time percentage penalty)
- * 
- * Revision 1.7 2003/03/28 03:07:44 sandyg changed toxml and fromxml to xmlRead
- * and xmlWrite
- * 
- * Revision 1.6 2003/01/05 21:29:29 sandyg fixed bad version/id string
- * 
- * Revision 1.5 2003/01/04 17:29:09 sandyg Prefix/suffix overhaul
- * 
- */
-

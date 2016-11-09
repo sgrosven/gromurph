@@ -1035,8 +1035,10 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 
 		private void fText_actionPerformed() {
 			if (fpPenalty == null) return; // no penalty dont do nothin'
+			if (fpPenalty.toString().equals(fpText.getText())) return;
+			// something's changed
 			try {
-				Penalty.parsePenalty(fpPenalty, fpText.getText());
+				Penalty.parsePenalty(fpPenalty, fpText.getText());				
 			} catch (IllegalArgumentException e) {
 				showPenaltyDialog();
 				fpText.setText(fpPenalty.toString());
@@ -1045,9 +1047,9 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 
 		private void fButton_actionPerformed() {
 			if (fpPenalty == null) return; // no penalty dont do nothin'
-			try {
-				Penalty.parsePenalty(fpPenalty, fpText.getText());
-			} catch (IllegalArgumentException e) {}
+//			try {
+//				Penalty.parsePenalty(fpPenalty, fpText.getText());
+//			} catch (IllegalArgumentException e) {}
 			showPenaltyDialog();
 			fpText.setText(fpPenalty.toString());
 		}

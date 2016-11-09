@@ -741,6 +741,9 @@ public class PanelPenalty extends BaseEditor<Penalty> implements ActionListener,
 		active.setPoints(backup.getPoints());
 		active.setPercent(backup.getPercent());
 		active.setNote(backup.getNote());
+		active.setRedressLabel(backup.getRedressLabel());
+		active.setTimePenaltyCorrected( backup.getTimePenaltyCorrected());
+		active.setTimePenaltyElapsed(backup.getTimePenaltyElapsed());
 		super.restore(active, backup);
 	}
 

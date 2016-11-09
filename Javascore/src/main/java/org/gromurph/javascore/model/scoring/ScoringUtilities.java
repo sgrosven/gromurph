@@ -207,7 +207,7 @@ public abstract class ScoringUtilities implements Constants {
 	}
 
     /**
-     * generates list of notes for series scoring of 
+     * generates list of notes for the race scoring of 
      * specified group of race points (generally a single division, might be whole fleet)
      * @param rpList the list of race points on which to generate notes
      * @return list of strings containing notes, empty list if no notes

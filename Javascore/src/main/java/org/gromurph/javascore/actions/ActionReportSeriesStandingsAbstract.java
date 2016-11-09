@@ -200,11 +200,14 @@ public abstract class ActionReportSeriesStandingsAbstract extends ActionReport {
 				addTableCell(pw, "&nbsp;", "center", SERIES_CELLCLASS);
 			} else {
 				String fin = RacePoints.format(racepts, !fOptions.isHidePenaltyPoints());
+				
 				String note = racepts.getFinish().getPenalty().getNote();
-				if ((note == null || note.length() == 0)
-						&& racepts.getFinish().getPenalty().hasPenalty(Constants.AVG)) {
-					note = res.getString("PenaltyAVGLongName");
+				if (racepts.getFinish().getPenalty().hasPenalty(Constants.AVG)) {
+					if (note == null || note.length() == 0) note = res.getString("PenaltyAVGLongName");
+					note = racepts.getFinish().getPenalty().toString(true) + ", " + note;
+					
 				}
+				
 				if (note != null && note.length() > 0) {
 					fNotes.add(note);
 					fin = fin + "<sup>(" + fNotes.size() + ")</sup>";

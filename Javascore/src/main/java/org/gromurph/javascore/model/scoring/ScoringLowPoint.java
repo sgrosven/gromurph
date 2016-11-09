@@ -510,6 +510,9 @@ public class ScoringLowPoint implements ScoringModel, Constants {
 		List<String> notes = new ArrayList<String>(5);
 
 		notes.add(MessageFormat.format(res.getString("ScoringNotesSystem"), new Object[] { this.toString() }));
+		if (fOptions.isLongSeries()) {
+			notes.add( res.getString("ScoringNotesLongSeries"));
+		}
 
 		// PenaltyDneAverage=Average Non-Finishers
 		// PenaltyDneDidNotFinish=Did not Finish

@@ -29,6 +29,7 @@ import org.gromurph.javascore.model.Finish;
 import org.gromurph.javascore.model.FinishList;
 import org.gromurph.javascore.model.FinishPosition;
 import org.gromurph.javascore.model.Fleet;
+import org.gromurph.javascore.model.Penalty;
 import org.gromurph.javascore.model.Race;
 import org.gromurph.javascore.model.RacePoints;
 import org.gromurph.javascore.model.RacePointsList;
@@ -452,7 +453,8 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 			pw.print("  <tr>");
 
 			String posString = "";
-			if (rp.getPosition() > Constants.HIGHEST_FINISH) {
+			Penalty fp = rp.getFinish().getPenalty();
+			if (fp != null && (fp.isDsqPenalty() || fp.isFinishPenalty())) {
 				posString = rp.getFinish().getPenalty().toString();
 			} else if ((rplast != null && rp.isTiedPoints(rplast)) || (rpnext != null && rp.isTiedPoints(rpnext))) {
 				posString = Integer.toString(posNum) + "T";
@@ -515,23 +517,17 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 
 			// first penalty
 			String adjustment = null;
-			if (fin.getPenalty().getPenalty() != NOFINISH) {
+			if (fin.getPenalty().hasPenalty(AVG)) {
+				adjustment = fin.getPenalty().getRedressLabel();
+				String note = fin.getPenalty().getNote();
+				if (note == null || note.length() == 0) note = res.getString("PenaltyAVGLongName");
+				fNotes.add( fin.getPenalty().toString(true) + ", " + note);
+				adjustment = adjustment + "<sup>(" + fNotes.size() + ")</sup>";
+			} else if (fin.getPenalty().getPenalty() != NOFINISH) {
 				adjustment = fin.getPenalty().toString();
 				String note = fin.getPenalty().getNote();
 				if (note != null && note.length() > 0) {
 					fNotes.add(note);
-					adjustment = adjustment + "<sup>(" + fNotes.size() + ")</sup>";
-				}
-			}
-			if (fin.getPenalty().hasPenalty(AVG)) {
-				adjustment = "RDG";
-				fin.getPenalty().toString();
-				String note = fin.getPenalty().getNote();
-				if (note != null && note.length() > 0) {
-					fNotes.add(note);
-					adjustment = adjustment + "<sup>(" + fNotes.size() + ")</sup>";
-				} else {
-					fNotes.add(res.getString("PenaltyAVGLongName"));
 					adjustment = adjustment + "<sup>(" + fNotes.size() + ")</sup>";
 				}
 			}
@@ -573,7 +569,8 @@ public class ActionReportOneRace extends ActionReport implements Constants {
 		if (fRace.getWeight() != 1.00) fNotes.add(formatWeightedNote(fRace));
 		if (fRace.isPursuit())  fNotes.add(formatPursuitNote(fRace, div));
 
-		fNotes.addAll(ScoringUtilities.getRaceScoringNotes(racePoints));
+		fNotes.addAll(ScoringUtilities.getRaceScoringNotes(racePoints));		
+		fNotes.addAll( fRace.getRegatta().getScoringManager().getSeriesScoringNotes(racePoints));
 		
 		formatNotes(pw, fNotes);
 
