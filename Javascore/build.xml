@@ -24,8 +24,8 @@ Usage update, March 2016
 	<tstamp />
  	
 	<!-- UPDATE THESE FOR EACH NEW RELEASE and update JavaScoreProperties at least until i fix the automation there!!! -->
-    <property name="app_version"	value="7.5.1" /> 
-	<property name="app_builddate" 	value="22 June 2016" /> 
+    <property name="app_version"	value="7.5.2" /> 
+	<property name="app_builddate" 	value="9 Nov 2016" /> 
 	
     <property name="app.label"		value="JavaScore"/>
     <property name="app.name"		value="javascore"/>
