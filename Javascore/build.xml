@@ -181,8 +181,7 @@ Usage update, March 2016
 		name="antBuildSourceJar" 
 		description="Creates a jar file for javascore source code ">
 		<jar destfile="${dist.dir}/javascore-src-${app_version}.jar" >
-			<fileset dir="${basedir}" 
-				includes="source/**/*.* test/**/*.* testregattas/**/*.*" />
+			<fileset dir="${basedir}" includes="src/**/*.* " />
 	    </jar>
 
 	</target>
