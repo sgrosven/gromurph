@@ -108,8 +108,9 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 			// 2017-2020 labeling - DONE 
 			// ayc pct penalty minimums - DONE
 			// missing footnotes in race report - DONE (or working right to begin with)
-			// report generated times not updating
+			// report generated times not updating - DONE - cant replicate - think not uploading old reports
 			// 'last x races' stubborn - DONE - can't replicate seems to be working fine
+			// delete reports before regenerating them DONE
 			
 	// 7.5.2  bug fixes
 		// bug1 DONE finish dialog unfinished list
