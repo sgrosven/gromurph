@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta DailyScoring="false" Dates="" Final="false" HostClub="" IFEventID="" JSVersion="7.5.1" JuryChair="" Multistage="false" Name="TLETest" Pro="" UseBowNumbers="false" Version="600" comment="">
+<DivisionList>
+<Division DivName="J22">
+<SlowestRating ClassName="J22" System="OneDesign"/>
+<FastestRating ClassName="J22" System="OneDesign"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Division="J22" EntryId="2">
+<Boat BoatName="a one" SailId="1">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="J22" EntryId="3">
+<Boat BoatName="a two" SailId="2">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="J22" EntryId="4">
+<Boat BoatName="a three" SailId="3">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="J22" EntryId="5">
+<Boat BoatName="a four" SailId="4">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="J22" EntryId="6">
+<Boat BoatName="jr one" SailId="11">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Division="J22" EntryId="7">
+<Boat BoatName="jr two" SailId="12">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="" LastName="" SailorId=""/>
+<CrewList/>
+</Entry>
+</EntryList>
+<RaceList>
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="9" StartDate="08-Jul-2016" Weight="1.0">
+<DivInfo>
+<DivStart Div="J22" Length="2.0" LengthPursuit="2.0" StartTime="10:00:00.0" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="2" Pos="1" Race="9"/>
+<Fin Ent="4" Pos="2" Race="9"/>
+<Fin Ent="6" Pos="3" Race="9"/>
+<Fin Ent="7" Pos="4" Race="9"/>
+<Fin Ent="3" Pos="5" Race="9"/>
+<Fin Ent="5" Pos="6" Race="9"/>
+</FinishList>
+</Race>
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="11" StartDate="08-Jul-2016" Weight="1.0">
+<DivInfo>
+<DivStart Div="J22" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="7" Pos="1" Race="11"/>
+<Fin Ent="5" Pos="2" Race="11"/>
+<Fin Ent="2" Pos="3" Race="11"/>
+<Fin Ent="6" Pos="4" Race="11"/>
+<Fin Ent="3" Pos="5" Race="11"/>
+</FinishList>
+<RoundingList>
+<M1/>
+</RoundingList>
+</Race>
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="14" StartDate="10-Jul-2016" Weight="1.0">
+<DivInfo>
+<DivStart Div="J22" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="6" Pos="1" Race="14"/>
+<Fin Ent="4" Pos="2" Race="14"/>
+<Fin Ent="2" Pos="3" Race="14"/>
+<Fin Ent="5" Pos="4" Race="14"/>
+<Fin Ent="7" Pos="5" Race="14"/>
+<Fin Ent="3" Pos="6" Race="14"/>
+</FinishList>
+</Race>
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="4" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="19" StartDate="12-Aug-2016" Weight="1.0">
+<DivInfo>
+<DivStart Div="J22" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="3" Pos="1" Race="19"/>
+<Fin Ent="2" Pos="2" Race="19"/>
+<Fin Ent="4" Pos="3" Race="19"/>
+<Fin Ent="5" Pos="4" Race="19"/>
+<Fin Ent="7" Pos="5" Race="19"/>
+<Fin Ent="6" Pos="6" Race="19"/>
+</FinishList>
+</Race>
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="5" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="22" StartDate="23-Aug-2016" Weight="1.0">
+<DivInfo>
+<DivStart Div="J22" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList/>
+</Race>
+</RaceList>
+<Scores SystemName="ISAF Low Point 2013-2016">
+<System CheckinPercent="20" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="2" Throwout2="0" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="4" TimeLimitPenalty="2" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="J22" Ent="2" Pos="1" Pts="1.0" Race="9"/>
+<rp Div="J22" Ent="4" Pos="2" Pts="2.0" Race="9"/>
+<rp Div="J22" Ent="6" Pos="3" Pts="3.0" Race="9"/>
+<rp Div="J22" Ent="7" Pos="4" Pts="4.0" Race="9"/>
+<rp Div="J22" Ent="3" Pos="5" Pts="5.0" Race="9"/>
+<rp Div="J22" Ent="5" Pos="6" Pts="6.0" Race="9"/>
+<rp Div="J22" Ent="7" Pos="1" Pts="1.0" Race="11"/>
+<rp Div="J22" Ent="5" Pos="2" Pts="2.0" Race="11"/>
+<rp Div="J22" Ent="2" Pos="3" Pts="3.0" Race="11"/>
+<rp Div="J22" Ent="6" Pos="4" Pts="4.0" Race="11"/>
+<rp Div="J22" Ent="3" Pos="5" Pts="5.0" Race="11"/>
+<rp Div="J22" Ent="4" Pos="57344" Pts="7.0" Race="11"/>
+<rp Div="J22" Ent="6" Pos="1" Pts="1.0" Race="14"/>
+<rp Div="J22" Ent="4" Pos="2" Pts="2.0" Race="14"/>
+<rp Div="J22" Ent="2" Pos="3" Pts="3.0" Race="14"/>
+<rp Div="J22" Ent="5" Pos="4" Pts="4.0" Race="14"/>
+<rp Div="J22" Ent="7" Pos="5" Pts="5.0" Race="14"/>
+<rp Div="J22" Ent="3" Pos="6" Pts="6.0" Race="14"/>
+<rp Div="J22" Ent="3" Pos="1" Pts="1.0" Race="19"/>
+<rp Div="J22" Ent="2" Pos="2" Pts="2.0" Race="19"/>
+<rp Div="J22" Ent="4" Pos="3" Pts="3.0" Race="19"/>
+<rp Div="J22" Ent="5" Pos="4" Pts="4.0" Race="19"/>
+<rp Div="J22" Ent="7" Pos="5" Pts="5.0" Race="19"/>
+<rp Div="J22" Ent="6" Pos="6" Pts="6.0" Race="19"/>
+<rp Div="J22" Ent="2" Pos="57344" Pts="7.0" Race="22"/>
+<rp Div="J22" Ent="3" Pos="57344" Pts="7.0" Race="22"/>
+<rp Div="J22" Ent="4" Pos="57344" Pts="7.0" Race="22"/>
+<rp Div="J22" Ent="5" Pos="57344" Pts="7.0" Race="22"/>
+<rp Div="J22" Ent="6" Pos="57344" Pts="7.0" Race="22"/>
+<rp Div="J22" Ent="7" Pos="57344" Pts="7.0" Race="22"/>
+</RacePointsList>
+<SeriesPointsList>
+<sp Div="J22" Ent="2" Pos="1" Pts="16.0"/>
+<sp Div="J22" Ent="6" Pos="2" Pts="21.0"/>
+<sp Div="J22" Ent="4" Pos="3" Pts="21.0001"/>
+<sp Div="J22" Ent="7" Pos="4" Pts="22.0"/>
+<sp Div="J22" Ent="5" Pos="5" Pts="23.0"/>
+<sp Div="J22" Ent="3" Pos="6" Pts="24.0"/>
+</SeriesPointsList>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.2"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="4.1"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="2.2"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="3.2"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
+</Regatta>

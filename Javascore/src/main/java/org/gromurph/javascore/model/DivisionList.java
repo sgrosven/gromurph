@@ -86,9 +86,9 @@ public class DivisionList extends BaseList<Division> {
 		sMasterList.add(new Division("Cat27"));
 		sMasterList.add(new Division("Etchells"));
 
-		// updated 12/31/2011 for 2012, based on http://www.phrfchesbay.com/splits99.htm
-		sMasterList.add(new Division("PHRF A0", new RatingPhrf(-9999), new RatingPhrf(25)));
-		sMasterList.add(new Division("PHRF A1", new RatingPhrf(26), new RatingPhrf(70)));
+		// updated 09 March 2017 based on http://www.phrfchesbay.org/docs/2016_AnnualMeetingMinutes.pdf
+		sMasterList.add(new Division("PHRF A0", new RatingPhrf(-9999), new RatingPhrf(47)));
+		sMasterList.add(new Division("PHRF A1", new RatingPhrf(48), new RatingPhrf(70)));
 		sMasterList.add(new Division("PHRF A2", new RatingPhrf(71), new RatingPhrf(109)));
 		sMasterList.add(new Division("PHRF A", new RatingPhrf(-9999), new RatingPhrf(109)));
 		sMasterList.add(new Division("PHRF B", new RatingPhrf(110), new RatingPhrf(145)));

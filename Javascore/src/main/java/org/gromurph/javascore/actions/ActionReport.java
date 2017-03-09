@@ -619,8 +619,9 @@ public abstract class ActionReport extends AbstractAction implements ActionListe
 		pw.print(res.getString("ReportMessageResultSaved"));
 		if (fRegatta.getSaveDate() != null) {
 			pw.print(": ");
-			pw.print(DateFormat.getDateTimeInstance(DateFormat.FULL, DateFormat.FULL, Locale.getDefault()).format(
-					fRegatta.getSaveDate()));
+			String datetime = DateFormat.getDateTimeInstance(DateFormat.FULL, DateFormat.FULL, Locale.getDefault()).format(
+					fRegatta.getSaveDate());
+			pw.print(datetime);
 		}
 		pw.println("</p><br>");
 	}

@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Regatta DailyScoring="false" Dates="Nov 6 - Dec 11, 2016" Final="false" HostClub="Annapolis Yacht Club" IFEventID="" JSVersion="7.5.1" JuryChair="Jim Capron" Multistage="false" Name="2016-2017 Frostbite First Half" Pro="Bobby Frey" UseBowNumbers="false" Version="600" comment="">
+<DivisionList>
+<Division DivName="Cal 25">
+<SlowestRating ClassName="Cal 25" System="OneDesign"/>
+<FastestRating ClassName="Cal 25" System="OneDesign"/>
+</Division>
+<Division DivName="Cal25">
+<SlowestRating ClassName="Cal25" System="OneDesign"/>
+<FastestRating ClassName="Cal25" System="OneDesign"/>
+</Division>
+<Division DivName="Harbor 20" Gender="Open">
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+<Division DivName="J/105">
+<SlowestRating ClassName="J/105" System="OneDesign"/>
+<FastestRating ClassName="J/105" System="OneDesign"/>
+</Division>
+<Division DivName="J/22">
+<SlowestRating ClassName="J/22" System="OneDesign"/>
+<FastestRating ClassName="J/22" System="OneDesign"/>
+</Division>
+<Division DivName="J/70">
+<SlowestRating ClassName="J/70" System="OneDesign"/>
+<FastestRating ClassName="J/70" System="OneDesign"/>
+</Division>
+<Division DivName="J/80">
+<SlowestRating ClassName="J/80" System="OneDesign"/>
+<FastestRating ClassName="J/80" System="OneDesign"/>
+</Division>
+<Division DivName="J105">
+<SlowestRating ClassName="J105" System="OneDesign"/>
+<FastestRating ClassName="J105" System="OneDesign"/>
+</Division>
+<Division DivName="J22">
+<SlowestRating ClassName="J22" System="OneDesign"/>
+<FastestRating ClassName="J22" System="OneDesign"/>
+</Division>
+<Division DivName="J70" Gender="Open">
+<SlowestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+<FastestRating ClassName="&lt;none&gt;" System="OneDesign"/>
+</Division>
+<Division DivName="J80">
+<SlowestRating ClassName="J80" System="OneDesign"/>
+<FastestRating ClassName="J80" System="OneDesign"/>
+</Division>
+<Division DivName="PHRF 1" Gender="Open">
+<SlowestRating System="PHRF" Value="117.0"/>
+<FastestRating System="PHRF" Value="-999.0"/>
+</Division>
+<Division DivName="PHRF 2" Gender="Open">
+<SlowestRating System="PHRF" Value="162.0"/>
+<FastestRating System="PHRF" Value="118.0"/>
+</Division>
+<Division DivName="PHRF 3" Gender="Open">
+<SlowestRating System="PHRF" Value="300.0"/>
+<FastestRating System="PHRF" Value="163.0"/>
+</Division>
+<Division DivName="PHRF3">
+<SlowestRating ClassName="PHRF3" System="OneDesign"/>
+<FastestRating ClassName="PHRF3" System="OneDesign"/>
+</Division>
+</DivisionList>
+<EntryList>
+<Entry Bow="" Club="AYC" Division="PHRF 2" EntryId="32">
+<Boat BoatName="Cura" SailId="None ">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+<Rating System="PHRF" Value="162.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Josh" LastName="Mazer" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/22" EntryId="87">
+<Boat SailId="AYC 1">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ed" LastName="Hartman" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="J World Annapolis" Division="J/80" EntryId="17">
+<Boat BoatName="Emotional Rescue" SailId="JWA 1">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Mike" LastName="Hobson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="J/22" EntryId="83">
+<Boat BoatName="Rosebud" SailId="2">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Will" LastName="Edwards" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/22" EntryId="78">
+<Boat BoatName="Gaynelle" SailId="AYC 3">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jamie" LastName="Hutchinson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/22" EntryId="48">
+<Boat BoatName="Babe" SailId="AYC 4">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jim" LastName="Connelly" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="J World Annapolis" Division="J/80" EntryId="16">
+<Boat BoatName="Courageous" SailId="JWA 4">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ian" LastName="Moriarty" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/22" EntryId="44">
+<Boat BoatName="Stormy Weather" SailId="AYC 5">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Brad" LastName="Kauffman" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="J World Annapolis" Division="J/80" EntryId="15">
+<Boat BoatName="Wild Horses" SailId="JWA 5">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Dave" LastName="Manheimer" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/22" EntryId="76">
+<Boat BoatName="Uh Oh" SailId="AYC 6">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Chris" LastName="Conway" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/22" EntryId="2">
+<Boat BoatName="Caper" SailId="AYC 7">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="denis" LastName="seynhaeve" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="PHRF 1" EntryId="40">
+<Boat BoatName="Blockade Runner" SailId="USA 34">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+<Rating System="PHRF" Value="63.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Bruce" LastName="Bingman" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="J/70" EntryId="66">
+<Boat BoatName="Wicked" SailId="56">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/70" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Arthur" LastName="Edwards Jr" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="J/80" EntryId="62">
+<Boat BoatName="Church Key" SailId="59">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Chris and Riley" LastName="Chadwick" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="St Francis Yacht Club" Division="PHRF 1" EntryId="63">
+<Boat BoatName="Norman Olson" SailId="USA 65">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+<Rating System="PHRF" Value="96.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Norman" LastName="Olson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/22" EntryId="67">
+<Boat BoatName="EmmaJ" SailId="109">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ian" LastName="Jones" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYS" Division="PHRF 1" EntryId="30">
+<Boat BoatName="Alice" SailId="112">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+<Rating System="PHRF" Value="72.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Grady" LastName="Byus" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="J/80" EntryId="31">
+<Boat BoatName="Blind Squirrel" SailId="131">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Bill" LastName="Blank" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="N/A" Division="PHRF 2" EntryId="50">
+<Boat BoatName="Five O'Clock" SailId="156">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+<Rating System="PHRF" Value="123.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Michael" LastName="Jewell" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="J105-Fleet3" Division="J/105" EntryId="38">
+<Boat BoatName="Crescendo" SailId="USA 159">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/105" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Angelo" LastName="Guarino" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="75">
+<Boat BoatName="Mofongo" SailId="162">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Rick" LastName="Hill" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/80" EntryId="54">
+<Boat BoatName="Spar-to-Cuss" SailId="177">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jeffrey" LastName="White" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="11">
+<Boat BoatName="Pearl" SailId="185">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Mark" LastName="Kiefaber" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="J/105" EntryId="42">
+<Boat BoatName="Dog House" SailId="202">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/105" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Arthur Libby" LastName="Tom Carter" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/105" EntryId="77">
+<Boat BoatName="More Cowbell" SailId="210">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/105" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Pendleton" LastName="Alexander" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="46">
+<Boat BoatName="Endurance" SailId="213">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="John" LastName="Heintz" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="J/105" EntryId="60">
+<Boat BoatName="Bat IV" SailId="220">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/105" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Andrew" LastName="Kennedy" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="J/70" EntryId="61">
+<Boat BoatName="Phoenix" SailId="220">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/70" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Peter" LastName="Firey" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="CBYRA" Division="PHRF3" EntryId="64">
+<Boat BoatName="SENSATION" SailId="225">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="PHRF3" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Rod" LastName="Rowan" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/105" EntryId="18">
+<Boat BoatName="Breakaway" SailId="251">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/105" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Richard" LastName="Hinds" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/22" EntryId="52">
+<Boat BoatName="Godspeed" SailId="252">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="James" LastName="McKenna" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Storm Trysail" Division="J/80" EntryId="88">
+<Boat BoatName="Gromit" SailId="265">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Nicole" LastName="Weaver" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="PHRF3" EntryId="28">
+<Boat BoatName="Wicked" SailId="267">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="PHRF3" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ross" LastName="Arnett" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/22" EntryId="26">
+<Boat BoatName="Slow Show" SailId="270">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Trevor" LastName="Perkins" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Eastport YC" Division="J/80" EntryId="53">
+<Boat BoatName="Mango" SailId="286">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ken" LastName="Mangano" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="eyc" Division="J/105" EntryId="58">
+<Boat BoatName="Helios" SailId="303">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/105" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Steve &amp; Gregg" LastName="Sunshine" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="5">
+<Boat BoatName="SKIMMER" SailId="311">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Peter" LastName="Trogdon" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Marshall Steele" Division="Harbor 20" EntryId="4">
+<Boat BoatName="Misty" SailId="312">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Marshall - Ron - Bonnie - Susan" LastName="Steele Syndicate" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="45">
+<Boat BoatName="Fuzzy Logic" SailId="319">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Robert/William" LastName="Dunsky/Sutton" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="37">
+<Boat BoatName="MEADEOR" SailId="321">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="JIM &amp; RACHEL" LastName="MEAD" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="36">
+<Boat BoatName="Puffin" SailId="325">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="david" LastName="shaeffer" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="J105 Fleet 3" Division="J/105" EntryId="29">
+<Boat BoatName="At-Tack" SailId="USA 330">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/105" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Dennis" LastName="McCloud" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="8">
+<Boat BoatName="Velella" SailId="340">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="marino" LastName="dimarzo" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="79">
+<Boat BoatName="TRU BLU" SailId="342">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Cooper" LastName="Rees" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Harbor 20" EntryId="7">
+<Boat BoatName="MERLYN" SailId="344">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="David" LastName="Leach" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Eastport Yacht Club" Division="J/80" EntryId="84">
+<Boat BoatName="Dragonfly" SailId="357">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Chris" LastName="Johnson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/70" EntryId="85">
+<Boat BoatName="Vitesse" SailId="362">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/70" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Tim" LastName="Mowry" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/80" EntryId="74">
+<Boat BoatName="Born2Run" SailId="364">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Dan" LastName="Shanahan" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="J/70" EntryId="39">
+<Boat BoatName="Zombie" SailId="382">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/70" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Brian" LastName="Robinson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/22" EntryId="73">
+<Boat BoatName="Rasta Rockett" SailId="403">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Lorenzo" LastName="Carrera" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="PRSA" Division="J/105" EntryId="23">
+<Boat BoatName="Chessie" SailId="407">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/105" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="John" LastName="Kircher" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC, NYYC" Division="Harbor 20" EntryId="12">
+<Boat BoatName="Brilliant" SailId="427">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="&lt;none&gt;" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Kenneth" LastName="Appleton" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="J/80" EntryId="20">
+<Boat SailId="443">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Kevin" LastName="McKee" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Cal 25" Division="Cal 25" EntryId="55">
+<Boat BoatName="EMESIS" SailId="453">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal 25" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Carl" LastName="Sink" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="Cal 25" EntryId="47">
+<Boat BoatName="Love Shack" SailId="478">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal 25" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Barton" LastName="Goldenberg" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="J/105" EntryId="33">
+<Boat BoatName="Santas Reign, Desr" SailId="USA- 523">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/105" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Donald" LastName="Santa" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Eastport YC / Raritan YC" Division="PHRF 2" EntryId="21">
+<Boat BoatName="TOTALed MAYHEM" SailId="526">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+<Rating System="PHRF" Value="141.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Doug" LastName="Stryker" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/105" EntryId="14">
+<Boat BoatName="Firebrand" SailId="527">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/105" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jon" LastName="Slabaugh" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/22" EntryId="68">
+<Boat SailId="609">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Cheryl" LastName="Lecourt" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="J/105" EntryId="80">
+<Boat BoatName="Froya" SailId="619">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/105" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Chuck" LastName="Lawrence" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Eastport YC" Division="Cal 25" EntryId="10">
+<Boat BoatName="RONIN" SailId="681">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal 25" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Peter/John/Chris" LastName="Sheils/Wooldridge/Rogers" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="J/80" EntryId="13">
+<Boat BoatName="VAYU" SailId="739">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="David" LastName="Andril" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="CBYRA" Division="PHRF3" EntryId="72">
+<Boat BoatName="Daisy" SailId="832">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="PHRF3" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jose" LastName="Turcios" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Shearwater Sailing Club" Division="Cal 25" EntryId="24">
+<Boat BoatName="ZEPHYR" SailId="896">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal 25" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="David" LastName="Hoyt" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="PHRF 1" EntryId="71">
+<Boat BoatName="Lucky 8s" SailId="GBR 941 R">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+<Rating System="PHRF" Value="54.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Keith" LastName="Cole" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC/NSIBYC" Division="J/22" EntryId="81">
+<Boat BoatName="Villain" SailId="959">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Aaron" LastName="Freeman" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Sailing club of the Chesapeake" Division="J/22" EntryId="25">
+<Boat BoatName="Just Wing It!" SailId="1002">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Michael-Anne" LastName="Ashford" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="J/22" EntryId="35">
+<Boat BoatName="No Problem" SailId="1051">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Tim" LastName="Libby" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="SSA" Division="J/22" EntryId="51">
+<Boat BoatName="Ratchet Yachet" SailId="1077">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Alex" LastName="Pline" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/22" EntryId="41">
+<Boat BoatName="1093" SailId="1093">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Robert" LastName="Martensson" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Cal 25" EntryId="19">
+<Boat BoatName="White Cap" SailId="1226">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal 25" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Steve" LastName="Bardelman" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="NASS" Division="Cal 25" EntryId="86">
+<Boat BoatName="One Eyed Jack" SailId="1242">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal 25" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Lee &amp; Kyle" LastName="Bollhorst" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC, RBSA" Division="Cal 25" EntryId="56">
+<Boat BoatName="Quintet" SailId="1297">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal 25" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Mike" LastName="Miller" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="NYYC" Division="J/80" EntryId="6">
+<Boat BoatName="Guldfaxe" SailId="1312">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Thomas" LastName="Klok" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="J/80" EntryId="49">
+<Boat BoatName="Stacked Deck" SailId="1314">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Ramzi" LastName="Bannura" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/80" EntryId="9">
+<Boat BoatName="Snowstorm" SailId="1317">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/80" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Anthony" LastName="Flake" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="J/22" EntryId="27">
+<Boat BoatName="Ekas" SailId="1461">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jason" LastName="Ipe" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="Annapolis Yacht Club" Division="J/22" EntryId="3">
+<Boat BoatName="Ventus" SailId="USA 1558">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="J/22" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Scott" LastName="Gelo" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="Cal 25" EntryId="69">
+<Boat BoatName="Krigare" SailId="1606">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal 25" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Erik &amp; Marty" LastName="Lostrom" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="Cal 25" EntryId="43">
+<Boat BoatName="Chicken Little" SailId="1657">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal 25" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Charles" LastName="Husar" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="PHRF 2" EntryId="22">
+<Boat BoatName="Swiss Miss" SailId="2163">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+<Rating System="PHRF" Value="129.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Gisela" LastName="Shaughnessy" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="Cal 25" EntryId="65">
+<Boat BoatName="Makani" SailId="5854">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal 25" System="OneDesign"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Jim" LastName="Burdick" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="AYC" Division="PHRF 2" EntryId="70">
+<Boat BoatName="Starbird" SailId="33396">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+<Rating System="PHRF" Value="147.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Frank" LastName="Martien" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="PHRF 2" EntryId="59">
+<Boat BoatName="Shamrock" SailId="33504">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+<Rating System="PHRF" Value="141.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Bruce" LastName="Irvin" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="PHRF 2" EntryId="34">
+<Boat BoatName="JAZZ" SailId="34570">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+<Rating System="PHRF" Value="141.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Brett" LastName="Cureton" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="PHRF 1" EntryId="57">
+<Boat BoatName="Flashpoint" SailId="60161">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+<Rating System="PHRF" Value="84.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Dan" LastName="Leonard" SailorId=""/>
+<CrewList/>
+</Entry>
+<Entry Bow="" Club="EYC" Division="PHRF 2" EntryId="82">
+<Boat BoatName="InfectiousSmile" SailId="83060">
+<Owner FirstName="" LastName="" SailorId=""/>
+<RatingList>
+<Rating ClassName="Cal25" System="OneDesign"/>
+<Rating System="PHRF" Value="141.0"/>
+</RatingList>
+</Boat>
+<Skipper FirstName="Tristan" LastName="Keen" SailorId=""/>
+<CrewList/>
+</Entry>
+</EntryList>
+<RaceList>
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="1" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="1" StartDate="06-Nov-2016" Weight="1.0">
+<DivInfo>
+<DivStart Div="Cal25" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Harbor 20" Length="2.94" LengthPursuit="2.94" StartTime="13:20:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J105" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J22" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J70" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J80" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 1" Length="3.74" LengthPursuit="3.74" StartTime="12:50:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 2" Length="3.32" LengthPursuit="3.32" StartTime="13:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 3" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J/22" Length="3.32" LengthPursuit="3.32" StartTime="13:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/80" Length="3.74" LengthPursuit="3.74" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Cal 25" Length="3.32" LengthPursuit="3.32" StartTime="13:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/105" Length="3.74" LengthPursuit="3.74" StartTime="12:55:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF3" Length="3.32" LengthPursuit="3.32" StartTime="13:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/70" Length="3.74" LengthPursuit="3.74" StartTime="13:00:00.0" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="60" Pos="1" Race="1" Time="13:33:07.0"/>
+<Fin Ent="42" Pos="2" Race="1" Time="13:33:25.0"/>
+<Fin Ent="23" Pos="3" Race="1" Time="13:33:55.0"/>
+<Fin Ent="80" Pos="4" Race="1" Time="13:34:32.0"/>
+<Fin Ent="18" Pos="5" Race="1" Time="13:34:42.0"/>
+<Fin Ent="14" Pos="6" Race="1" Time="13:34:58.0"/>
+<Fin Ent="71" Pos="7" Race="1" Time="13:40:24.0"/>
+<Fin Ent="6" Pos="8" Race="1" Time="13:40:57.0"/>
+<Fin Ent="35" Pos="9" Race="1" Time="13:41:10.0"/>
+<Fin Ent="57" Pos="10" Race="1" Time="13:41:29.0"/>
+<Fin Ent="26" Pos="11" Race="1" Time="13:42:02.0"/>
+<Fin Ent="53" Pos="12" Race="1" Time="13:42:10.0"/>
+<Fin Ent="16" Pos="13" Race="1" Time="13:42:19.0"/>
+<Fin Ent="20" Pos="14" Race="1" Time="13:42:20.0"/>
+<Fin Ent="78" Pos="15" Race="1" Time="13:42:30.0"/>
+<Fin Ent="51" Pos="16" Race="1" Time="13:42:33.0"/>
+<Fin Ent="84" Pos="17" Race="1" Time="13:42:36.0"/>
+<Fin Ent="2" Pos="18" Race="1" Time="13:42:40.0"/>
+<Fin Ent="13" Pos="19" Race="1" Time="13:42:45.0"/>
+<Fin Ent="49" Pos="20" Race="1" Time="13:43:03.0"/>
+<Fin Ent="44" Pos="21" Race="1" Time="13:43:05.0"/>
+<Fin Ent="62" Pos="22" Race="1" Time="13:43:08.0"/>
+<Fin Ent="61" Pos="23" Race="1" Time="13:43:10.0"/>
+<Fin Ent="3" Pos="24" Race="1" Time="13:43:11.0"/>
+<Fin Ent="68" Pos="25" Race="1" Time="13:43:12.0"/>
+<Fin Ent="81" Pos="26" Race="1" Time="13:43:13.0"/>
+<Fin Ent="15" Pos="27" Race="1" Time="13:43:55.0"/>
+<Fin Ent="39" Pos="28" Race="1" Time="13:44:19.0"/>
+<Fin Ent="48" Pos="29" Race="1" Time="13:44:27.0"/>
+<Fin Ent="66" Pos="30" Race="1" Time="13:44:33.0"/>
+<Fin Ent="87" Pos="31" Race="1" Time="13:45:27.0"/>
+<Fin Ent="76" Pos="32" Race="1" Time="13:45:52.0"/>
+<Fin Ent="17" Pos="33" Race="1" Time="13:45:56.0"/>
+<Fin Ent="83" Pos="34" Race="1" Time="13:46:10.0"/>
+<Fin Ent="82" Pos="35" Race="1" Time="13:46:34.0"/>
+<Fin Ent="73" Pos="36" Race="1" Time="13:47:29.0"/>
+<Fin Ent="22" Pos="37" Race="1" Time="13:47:31.0"/>
+<Fin Ent="64" Pos="38" Race="1" Time="13:48:06.0"/>
+<Fin Ent="34" Pos="39" Race="1" Time="13:50:22.0"/>
+<Fin Ent="21" Pos="40" Race="1" Time="13:50:39.0"/>
+<Fin Ent="70" Pos="41" Race="1" Time="13:52:18.0"/>
+<Fin Ent="28" Pos="42" Race="1" Time="13:54:05.0"/>
+<Fin Ent="4" Pos="43" Race="1" Time="13:54:31.0"/>
+<Fin Ent="50" Pos="44" Race="1" Time="13:54:44.0"/>
+<Fin Ent="86" Pos="45" Race="1" Time="13:54:53.0"/>
+<Fin Ent="65" Pos="46" Race="1" Time="13:55:11.0"/>
+<Fin Ent="12" Pos="47" Race="1" Time="13:55:12.0"/>
+<Fin Ent="37" Pos="48" Race="1" Time="13:55:25.0"/>
+<Fin Ent="19" Pos="49" Race="1" Time="13:55:49.0"/>
+<Fin Ent="72" Pos="50" Race="1" Time="13:56:00.0"/>
+<Fin Ent="56" Pos="51" Race="1" Time="13:56:26.0"/>
+<Fin Ent="69" Pos="52" Race="1" Time="13:56:31.0"/>
+<Fin Ent="11" Pos="53" Race="1" Time="13:56:35.0"/>
+<Fin Ent="7" Pos="54" Race="1" Time="13:56:40.0"/>
+<Fin Ent="75" Pos="55" Race="1" Time="13:56:44.0"/>
+<Fin Ent="46" Pos="56" Race="1" Time="13:56:46.0"/>
+<Fin Ent="45" Pos="57" Race="1" Time="13:56:47.0"/>
+<Fin Ent="43" Pos="58" Race="1" Time="13:56:52.0"/>
+<Fin Ent="10" Pos="59" Race="1" Time="13:58:57.0"/>
+<Fin Ent="24" Pos="60" Race="1" Time="13:59:00.0"/>
+<Fin Ent="47" Pos="61" Race="1" Time="14:00:25.0"/>
+<Fin Ent="8" Pos="62" Race="1" Time="13:56:30.0"/>
+<Fin Ent="40" Pos="DNF" Race="1" Time="13:56:33.0">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="38" Pos="DNF" Race="1">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="58" Pos="DNF" Race="1">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="85" Pos="DNF" Race="1">
+<Penalty Penalty="DNF"/>
+</Fin>
+<Fin Ent="32" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="63" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="67" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="30" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="31" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="54" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="77" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="52" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="88" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="5" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="36" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="29" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="79" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="74" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="55" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="33" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="25" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="41" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="9" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="27" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="59" Pos="DNC" Race="1">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="12" StartDate="06-Nov-2016" Weight="1.0">
+<DivInfo>
+<DivStart Div="Cal 25" Length="3.32" LengthPursuit="3.32" StartTime="15:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Cal25" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Harbor 20" Length="2.94" LengthPursuit="2.94" StartTime="15:35:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/105" Length="3.74" LengthPursuit="3.74" StartTime="15:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/22" Length="3.32" LengthPursuit="3.32" StartTime="15:20:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/70" Length="3.74" LengthPursuit="3.74" StartTime="15:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J/80" Length="3.74" LengthPursuit="3.74" StartTime="15:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="J105" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J22" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J70" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="J80" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 1" Length="3.74" LengthPursuit="3.74" StartTime="15:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 2" Length="3.32" LengthPursuit="3.32" StartTime="15:25:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF 3" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF3" Length="3.32" LengthPursuit="3.32" StartTime="15:25:00.0" isRacing="true" nextDay="false"/>
+</DivInfo>
+<FinishList>
+<Fin Ent="40" Pos="1" Race="12" Time="15:44:20.0"/>
+<Fin Ent="42" Pos="2" Race="12" Time="15:49:10.0"/>
+<Fin Ent="60" Pos="3" Race="12" Time="15:49:17.0"/>
+<Fin Ent="38" Pos="4" Race="12" Time="15:49:27.0"/>
+<Fin Ent="23" Pos="5" Race="12" Time="15:51:05.0"/>
+<Fin Ent="18" Pos="6" Race="12" Time="15:52:55.0"/>
+<Fin Ent="80" Pos="7" Race="12" Time="15:54:13.0">
+<Penalty Penalty="10%" Percent="10"/>
+</Fin>
+<Fin Ent="14" Pos="8" Race="12" Time="15:54:16.0"/>
+<Fin Ent="57" Pos="9" Race="12" Time="15:54:26.0"/>
+<Fin Ent="71" Pos="10" Race="12" Time="15:55:01.0">
+<Penalty Penalty="OCS"/>
+</Fin>
+<Fin Ent="20" Pos="11" Race="12" Time="15:59:12.0"/>
+<Fin Ent="13" Pos="12" Race="12" Time="15:59:58.0"/>
+<Fin Ent="53" Pos="13" Race="12" Time="16:00:56.0"/>
+<Fin Ent="84" Pos="14" Race="12" Time="16:01:24.0"/>
+<Fin Ent="49" Pos="15" Race="12" Time="16:01:39.0"/>
+<Fin Ent="78" Pos="16" Race="12" Time="16:02:00.0"/>
+<Fin Ent="61" Pos="17" Race="12" Time="16:02:12.0"/>
+<Fin Ent="2" Pos="18" Race="12" Time="16:02:22.0"/>
+<Fin Ent="39" Pos="19" Race="12" Time="16:02:31.0"/>
+<Fin Ent="51" Pos="20" Race="12" Time="16:03:00.0"/>
+<Fin Ent="6" Pos="21" Race="12" Time="16:03:10.0"/>
+<Fin Ent="62" Pos="22" Race="12" Time="16:03:19.0"/>
+<Fin Ent="3" Pos="23" Race="12" Time="16:03:28.0"/>
+<Fin Ent="35" Pos="24" Race="12" Time="16:03:47.0"/>
+<Fin Ent="68" Pos="25" Race="12" Time="16:04:02.0"/>
+<Fin Ent="26" Pos="26" Race="12" Time="16:04:25.0"/>
+<Fin Ent="52" Pos="27" Race="12" Time="16:04:57.0"/>
+<Fin Ent="16" Pos="28" Race="12" Time="16:05:05.0"/>
+<Fin Ent="66" Pos="29" Race="12" Time="16:05:13.0"/>
+<Fin Ent="15" Pos="30" Race="12" Time="16:05:25.0"/>
+<Fin Ent="44" Pos="31" Race="12" Time="16:05:40.0"/>
+<Fin Ent="22" Pos="32" Race="12" Time="16:05:46.0"/>
+<Fin Ent="17" Pos="33" Race="12" Time="16:06:10.0"/>
+<Fin Ent="81" Pos="34" Race="12" Time="16:06:41.0"/>
+<Fin Ent="82" Pos="35" Race="12" Time="16:07:35.0"/>
+<Fin Ent="48" Pos="36" Race="12" Time="16:07:43.0"/>
+<Fin Ent="21" Pos="37" Race="12" Time="16:07:48.0"/>
+<Fin Ent="87" Pos="38" Race="12" Time="16:07:52.0"/>
+<Fin Ent="83" Pos="39" Race="12" Time="16:08:32.0"/>
+<Fin Ent="59" Pos="40" Race="12" Time="16:10:01.0"/>
+<Fin Ent="28" Pos="41" Race="12" Time="16:13:51.0"/>
+<Fin Ent="12" Pos="42" Race="12" Time="16:15:30.0"/>
+<Fin Ent="34" Pos="43" Race="12" Time="16:15:35.0"/>
+<Fin Ent="50" Pos="44" Race="12" Time="16:15:37.0"/>
+<Fin Ent="4" Pos="45" Race="12" Time="16:16:22.0"/>
+<Fin Ent="64" Pos="46" Race="12" Time="16:16:39.0"/>
+<Fin Ent="37" Pos="47" Race="12" Time="16:16:53.0"/>
+<Fin Ent="46" Pos="48" Race="12" Time="16:18:04.0"/>
+<Fin Ent="7" Pos="49" Race="12" Time="16:18:06.0"/>
+<Fin Ent="86" Pos="50" Race="12" Time="16:18:24.0"/>
+<Fin Ent="11" Pos="51" Race="12" Time="16:18:38.0"/>
+<Fin Ent="72" Pos="52" Race="12" Time="16:18:52.0"/>
+<Fin Ent="19" Pos="53" Race="12" Time="16:18:56.0"/>
+<Fin Ent="75" Pos="54" Race="12" Time="16:19:16.0"/>
+<Fin Ent="45" Pos="55" Race="12" Time="16:19:25.0"/>
+<Fin Ent="65" Pos="56" Race="12" Time="16:19:30.0"/>
+<Fin Ent="8" Pos="57" Race="12" Time="16:19:34.0"/>
+<Fin Ent="43" Pos="58" Race="12" Time="16:19:54.0"/>
+<Fin Ent="56" Pos="59" Race="12" Time="16:23:05.0"/>
+<Fin Ent="69" Pos="60" Race="12" Time="16:23:11.0"/>
+<Fin Ent="24" Pos="61" Race="12" Time="16:23:36.0"/>
+<Fin Ent="10" Pos="62" Race="12" Time="16:26:06.0"/>
+<Fin Ent="47" Pos="63" Race="12" Time="16:26:15.0"/>
+<Fin Ent="32" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="76" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="63" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="67" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="30" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="31" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="54" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="77" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="88" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="58" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="5" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="36" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="29" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="79" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="85" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="74" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="73" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="55" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="33" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="25" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="41" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="9" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="27" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+<Fin Ent="70" Pos="DNC" Race="12">
+<Penalty Penalty="DNC"/>
+</Fin>
+</FinishList>
+</Race>
+</RaceList>
+<Scores SystemName="LowPoint - AYC Wed Penalties">
+<System CheckinPercent="0" EntriesLargestDivision="false" FirstPlacePoints="1.0" LongSeries="false" Throwout1="9" Throwout2="12" Throwout3="0" ThrowoutBestX="0" ThrowoutPerX="0" ThrowoutScheme="1" TimeLimitPenalty="0" tiebreaker="1"/>
+<RacePointsList>
+<rp Div="Cal 25" Ent="86" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="Cal 25" Ent="65" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="Cal 25" Ent="19" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="Cal 25" Ent="56" Pos="4" Pts="4.0" Race="1"/>
+<rp Div="Cal 25" Ent="69" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="Cal 25" Ent="43" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="Cal 25" Ent="10" Pos="7" Pts="7.0" Race="1"/>
+<rp Div="Cal 25" Ent="24" Pos="8" Pts="8.0" Race="1"/>
+<rp Div="Cal 25" Ent="47" Pos="9" Pts="9.0" Race="1"/>
+<rp Div="Cal 25" Ent="55" Pos="49152" Pts="10.0" Race="1"/>
+<rp Div="Cal 25" Ent="86" Pos="1" Pts="1.0" Race="12"/>
+<rp Div="Cal 25" Ent="19" Pos="2" Pts="2.0" Race="12"/>
+<rp Div="Cal 25" Ent="65" Pos="3" Pts="3.0" Race="12"/>
+<rp Div="Cal 25" Ent="43" Pos="4" Pts="4.0" Race="12"/>
+<rp Div="Cal 25" Ent="56" Pos="5" Pts="5.0" Race="12"/>
+<rp Div="Cal 25" Ent="69" Pos="6" Pts="6.0" Race="12"/>
+<rp Div="Cal 25" Ent="24" Pos="7" Pts="7.0" Race="12"/>
+<rp Div="Cal 25" Ent="10" Pos="8" Pts="8.0" Race="12"/>
+<rp Div="Cal 25" Ent="47" Pos="9" Pts="9.0" Race="12"/>
+<rp Div="Cal 25" Ent="55" Pos="49152" Pts="10.0" Race="12"/>
+<rp Div="Harbor 20" Ent="4" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="Harbor 20" Ent="12" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="Harbor 20" Ent="37" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="Harbor 20" Ent="8" Pos="4" Pts="4.0" Race="1"/>
+<rp Div="Harbor 20" Ent="11" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="Harbor 20" Ent="7" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="Harbor 20" Ent="75" Pos="7" Pts="7.0" Race="1"/>
+<rp Div="Harbor 20" Ent="46" Pos="8" Pts="8.0" Race="1"/>
+<rp Div="Harbor 20" Ent="45" Pos="9" Pts="9.0" Race="1"/>
+<rp Div="Harbor 20" Ent="5" Pos="49152" Pts="10.0" Race="1"/>
+<rp Div="Harbor 20" Ent="36" Pos="49152" Pts="10.0" Race="1"/>
+<rp Div="Harbor 20" Ent="79" Pos="49152" Pts="10.0" Race="1"/>
+<rp Div="Harbor 20" Ent="12" Pos="1" Pts="1.0" Race="12"/>
+<rp Div="Harbor 20" Ent="4" Pos="2" Pts="2.0" Race="12"/>
+<rp Div="Harbor 20" Ent="37" Pos="3" Pts="3.0" Race="12"/>
+<rp Div="Harbor 20" Ent="46" Pos="4" Pts="4.0" Race="12"/>
+<rp Div="Harbor 20" Ent="7" Pos="5" Pts="5.0" Race="12"/>
+<rp Div="Harbor 20" Ent="11" Pos="6" Pts="6.0" Race="12"/>
+<rp Div="Harbor 20" Ent="75" Pos="7" Pts="7.0" Race="12"/>
+<rp Div="Harbor 20" Ent="45" Pos="8" Pts="8.0" Race="12"/>
+<rp Div="Harbor 20" Ent="8" Pos="9" Pts="9.0" Race="12"/>
+<rp Div="Harbor 20" Ent="5" Pos="49152" Pts="10.0" Race="12"/>
+<rp Div="Harbor 20" Ent="36" Pos="49152" Pts="10.0" Race="12"/>
+<rp Div="Harbor 20" Ent="79" Pos="49152" Pts="10.0" Race="12"/>
+<rp Div="J/105" Ent="60" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="J/105" Ent="42" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="J/105" Ent="23" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="J/105" Ent="80" Pos="4" Pts="4.0" Race="1"/>
+<rp Div="J/105" Ent="18" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="J/105" Ent="14" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="J/105" Ent="38" Pos="32768" Pts="7.0" Race="1"/>
+<rp Div="J/105" Ent="58" Pos="32768" Pts="7.0" Race="1"/>
+<rp Div="J/105" Ent="77" Pos="49152" Pts="7.0" Race="1"/>
+<rp Div="J/105" Ent="29" Pos="49152" Pts="7.0" Race="1"/>
+<rp Div="J/105" Ent="33" Pos="49152" Pts="7.0" Race="1"/>
+<rp Div="J/105" Ent="42" Pos="1" Pts="1.0" Race="12"/>
+<rp Div="J/105" Ent="60" Pos="2" Pts="2.0" Race="12"/>
+<rp Div="J/105" Ent="38" Pos="3" Pts="3.0" Race="12"/>
+<rp Div="J/105" Ent="23" Pos="4" Pts="4.0" Race="12"/>
+<rp Div="J/105" Ent="18" Pos="5" Pts="5.0" Race="12"/>
+<rp Div="J/105" Ent="80" Pos="6" Pts="7.0" Race="12"/>
+<rp Div="J/105" Ent="14" Pos="7" Pts="7.0" Race="12"/>
+<rp Div="J/105" Ent="77" Pos="49152" Pts="8.0" Race="12"/>
+<rp Div="J/105" Ent="58" Pos="49152" Pts="8.0" Race="12"/>
+<rp Div="J/105" Ent="29" Pos="49152" Pts="8.0" Race="12"/>
+<rp Div="J/105" Ent="33" Pos="49152" Pts="8.0" Race="12"/>
+<rp Div="J/22" Ent="35" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="J/22" Ent="26" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="J/22" Ent="78" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="J/22" Ent="51" Pos="4" Pts="4.0" Race="1"/>
+<rp Div="J/22" Ent="2" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="J/22" Ent="44" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="J/22" Ent="3" Pos="7" Pts="7.0" Race="1"/>
+<rp Div="J/22" Ent="68" Pos="8" Pts="8.0" Race="1"/>
+<rp Div="J/22" Ent="81" Pos="9" Pts="9.0" Race="1"/>
+<rp Div="J/22" Ent="48" Pos="10" Pts="10.0" Race="1"/>
+<rp Div="J/22" Ent="87" Pos="11" Pts="11.0" Race="1"/>
+<rp Div="J/22" Ent="76" Pos="12" Pts="12.0" Race="1"/>
+<rp Div="J/22" Ent="83" Pos="13" Pts="13.0" Race="1"/>
+<rp Div="J/22" Ent="73" Pos="14" Pts="14.0" Race="1"/>
+<rp Div="J/22" Ent="67" Pos="49152" Pts="15.0" Race="1"/>
+<rp Div="J/22" Ent="52" Pos="49152" Pts="15.0" Race="1"/>
+<rp Div="J/22" Ent="25" Pos="49152" Pts="15.0" Race="1"/>
+<rp Div="J/22" Ent="41" Pos="49152" Pts="15.0" Race="1"/>
+<rp Div="J/22" Ent="27" Pos="49152" Pts="15.0" Race="1"/>
+<rp Div="J/22" Ent="78" Pos="1" Pts="1.0" Race="12"/>
+<rp Div="J/22" Ent="2" Pos="2" Pts="2.0" Race="12"/>
+<rp Div="J/22" Ent="51" Pos="3" Pts="3.0" Race="12"/>
+<rp Div="J/22" Ent="3" Pos="4" Pts="4.0" Race="12"/>
+<rp Div="J/22" Ent="35" Pos="5" Pts="5.0" Race="12"/>
+<rp Div="J/22" Ent="68" Pos="6" Pts="6.0" Race="12"/>
+<rp Div="J/22" Ent="26" Pos="7" Pts="7.0" Race="12"/>
+<rp Div="J/22" Ent="52" Pos="8" Pts="8.0" Race="12"/>
+<rp Div="J/22" Ent="44" Pos="9" Pts="9.0" Race="12"/>
+<rp Div="J/22" Ent="81" Pos="10" Pts="10.0" Race="12"/>
+<rp Div="J/22" Ent="48" Pos="11" Pts="11.0" Race="12"/>
+<rp Div="J/22" Ent="87" Pos="12" Pts="12.0" Race="12"/>
+<rp Div="J/22" Ent="83" Pos="13" Pts="13.0" Race="12"/>
+<rp Div="J/22" Ent="76" Pos="49152" Pts="14.0" Race="12"/>
+<rp Div="J/22" Ent="67" Pos="49152" Pts="14.0" Race="12"/>
+<rp Div="J/22" Ent="73" Pos="49152" Pts="14.0" Race="12"/>
+<rp Div="J/22" Ent="25" Pos="49152" Pts="14.0" Race="12"/>
+<rp Div="J/22" Ent="41" Pos="49152" Pts="14.0" Race="12"/>
+<rp Div="J/22" Ent="27" Pos="49152" Pts="14.0" Race="12"/>
+<rp Div="J/70" Ent="61" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="J/70" Ent="39" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="J/70" Ent="66" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="J/70" Ent="85" Pos="32768" Pts="4.0" Race="1"/>
+<rp Div="J/70" Ent="61" Pos="1" Pts="1.0" Race="12"/>
+<rp Div="J/70" Ent="39" Pos="2" Pts="2.0" Race="12"/>
+<rp Div="J/70" Ent="66" Pos="3" Pts="3.0" Race="12"/>
+<rp Div="J/70" Ent="85" Pos="49152" Pts="4.0" Race="12"/>
+<rp Div="J/80" Ent="6" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="J/80" Ent="53" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="J/80" Ent="16" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="J/80" Ent="20" Pos="4" Pts="4.0" Race="1"/>
+<rp Div="J/80" Ent="84" Pos="5" Pts="5.0" Race="1"/>
+<rp Div="J/80" Ent="13" Pos="6" Pts="6.0" Race="1"/>
+<rp Div="J/80" Ent="49" Pos="7" Pts="7.0" Race="1"/>
+<rp Div="J/80" Ent="62" Pos="8" Pts="8.0" Race="1"/>
+<rp Div="J/80" Ent="15" Pos="9" Pts="9.0" Race="1"/>
+<rp Div="J/80" Ent="17" Pos="10" Pts="10.0" Race="1"/>
+<rp Div="J/80" Ent="31" Pos="49152" Pts="11.0" Race="1"/>
+<rp Div="J/80" Ent="54" Pos="49152" Pts="11.0" Race="1"/>
+<rp Div="J/80" Ent="88" Pos="49152" Pts="11.0" Race="1"/>
+<rp Div="J/80" Ent="74" Pos="49152" Pts="11.0" Race="1"/>
+<rp Div="J/80" Ent="9" Pos="49152" Pts="11.0" Race="1"/>
+<rp Div="J/80" Ent="20" Pos="1" Pts="1.0" Race="12"/>
+<rp Div="J/80" Ent="13" Pos="2" Pts="2.0" Race="12"/>
+<rp Div="J/80" Ent="53" Pos="3" Pts="3.0" Race="12"/>
+<rp Div="J/80" Ent="84" Pos="4" Pts="4.0" Race="12"/>
+<rp Div="J/80" Ent="49" Pos="5" Pts="5.0" Race="12"/>
+<rp Div="J/80" Ent="6" Pos="6" Pts="6.0" Race="12"/>
+<rp Div="J/80" Ent="62" Pos="7" Pts="7.0" Race="12"/>
+<rp Div="J/80" Ent="16" Pos="8" Pts="8.0" Race="12"/>
+<rp Div="J/80" Ent="15" Pos="9" Pts="9.0" Race="12"/>
+<rp Div="J/80" Ent="17" Pos="10" Pts="10.0" Race="12"/>
+<rp Div="J/80" Ent="31" Pos="49152" Pts="11.0" Race="12"/>
+<rp Div="J/80" Ent="54" Pos="49152" Pts="11.0" Race="12"/>
+<rp Div="J/80" Ent="88" Pos="49152" Pts="11.0" Race="12"/>
+<rp Div="J/80" Ent="74" Pos="49152" Pts="11.0" Race="12"/>
+<rp Div="J/80" Ent="9" Pos="49152" Pts="11.0" Race="12"/>
+<rp Div="PHRF 1" Ent="63" Pos="49152" Pts="3.0" Race="1"/>
+<rp Div="PHRF 1" Ent="30" Pos="49152" Pts="3.0" Race="1"/>
+<rp Div="PHRF 1" Ent="57" Pos="3" Pts="1.0" Race="1"/>
+<rp Div="PHRF 1" Ent="71" Pos="4" Pts="2.0" Race="1"/>
+<rp Div="PHRF 1" Ent="40" Pos="32768" Pts="3.0" Race="1"/>
+<rp Div="PHRF 1" Ent="63" Pos="49152" Pts="4.0" Race="12"/>
+<rp Div="PHRF 1" Ent="30" Pos="49152" Pts="4.0" Race="12"/>
+<rp Div="PHRF 1" Ent="40" Pos="3" Pts="1.0" Race="12"/>
+<rp Div="PHRF 1" Ent="57" Pos="4" Pts="2.0" Race="12"/>
+<rp Div="PHRF 1" Ent="71" Pos="5" Pts="4.0" Race="12"/>
+<rp Div="PHRF 2" Ent="32" Pos="49152" Pts="7.0" Race="1"/>
+<rp Div="PHRF 2" Ent="59" Pos="49152" Pts="7.0" Race="1"/>
+<rp Div="PHRF 2" Ent="82" Pos="3" Pts="1.0" Race="1"/>
+<rp Div="PHRF 2" Ent="22" Pos="4" Pts="2.0" Race="1"/>
+<rp Div="PHRF 2" Ent="34" Pos="5" Pts="3.0" Race="1"/>
+<rp Div="PHRF 2" Ent="21" Pos="6" Pts="4.0" Race="1"/>
+<rp Div="PHRF 2" Ent="70" Pos="7" Pts="5.0" Race="1"/>
+<rp Div="PHRF 2" Ent="50" Pos="8" Pts="6.0" Race="1"/>
+<rp Div="PHRF 2" Ent="32" Pos="49152" Pts="7.0" Race="12"/>
+<rp Div="PHRF 2" Ent="70" Pos="49152" Pts="7.0" Race="12"/>
+<rp Div="PHRF 2" Ent="22" Pos="3" Pts="1.0" Race="12"/>
+<rp Div="PHRF 2" Ent="82" Pos="4" Pts="2.0" Race="12"/>
+<rp Div="PHRF 2" Ent="21" Pos="5" Pts="3.0" Race="12"/>
+<rp Div="PHRF 2" Ent="59" Pos="6" Pts="4.0" Race="12"/>
+<rp Div="PHRF 2" Ent="34" Pos="7" Pts="5.0" Race="12"/>
+<rp Div="PHRF 2" Ent="50" Pos="8" Pts="6.0" Race="12"/>
+<rp Div="PHRF3" Ent="64" Pos="1" Pts="1.0" Race="1"/>
+<rp Div="PHRF3" Ent="28" Pos="2" Pts="2.0" Race="1"/>
+<rp Div="PHRF3" Ent="72" Pos="3" Pts="3.0" Race="1"/>
+<rp Div="PHRF3" Ent="28" Pos="1" Pts="1.0" Race="12"/>
+<rp Div="PHRF3" Ent="64" Pos="2" Pts="2.0" Race="12"/>
+<rp Div="PHRF3" Ent="72" Pos="3" Pts="3.0" Race="12"/>
+</RacePointsList>
+<SeriesPointsList>
+<sp Div="Cal 25" Ent="86" Pos="1" Pts="2.0"/>
+<sp Div="Cal 25" Ent="19" Pos="2" Pts="5.0"/>
+<sp Div="Cal 25" Ent="65" Pos="3" Pts="5.0001"/>
+<sp Div="Cal 25" Ent="56" Pos="4" Pts="9.0"/>
+<sp Div="Cal 25" Ent="43" Pos="5" Pts="10.0"/>
+<sp Div="Cal 25" Ent="69" Pos="6" Pts="11.0"/>
+<sp Div="Cal 25" Ent="24" Pos="7" Pts="15.0"/>
+<sp Div="Cal 25" Ent="10" Pos="8" Pts="15.0001"/>
+<sp Div="Cal 25" Ent="47" Pos="9" Pts="18.0"/>
+<sp Div="Cal 25" Ent="55" Pos="10" Pts="20.0"/>
+<sp Div="Harbor 20" Ent="12" Pos="1" Pts="3.0"/>
+<sp Div="Harbor 20" Ent="4" Pos="2" Pts="3.0001"/>
+<sp Div="Harbor 20" Ent="37" Pos="3" Pts="6.0"/>
+<sp Div="Harbor 20" Ent="7" Pos="4" Pts="11.0"/>
+<sp Div="Harbor 20" Ent="11" Pos="5" Pts="11.0001"/>
+<sp Div="Harbor 20" Ent="46" Pos="6" Pts="12.0"/>
+<sp Div="Harbor 20" Ent="8" Pos="7" Pts="13.0"/>
+<sp Div="Harbor 20" Ent="75" Pos="8" Pts="14.0"/>
+<sp Div="Harbor 20" Ent="45" Pos="9" Pts="17.0"/>
+<sp Div="Harbor 20" Ent="5" Pos="10" Pts="20.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="36" Pos="10" Pts="20.0" Tied="true"/>
+<sp Div="Harbor 20" Ent="79" Pos="10" Pts="20.0" Tied="true"/>
+<sp Div="J/105" Ent="42" Pos="1" Pts="3.0"/>
+<sp Div="J/105" Ent="60" Pos="2" Pts="3.0001"/>
+<sp Div="J/105" Ent="23" Pos="3" Pts="7.0"/>
+<sp Div="J/105" Ent="38" Pos="4" Pts="10.0"/>
+<sp Div="J/105" Ent="18" Pos="5" Pts="10.0001"/>
+<sp Div="J/105" Ent="80" Pos="6" Pts="11.0"/>
+<sp Div="J/105" Ent="14" Pos="7" Pts="13.0"/>
+<sp Div="J/105" Ent="77" Pos="8" Pts="15.0" Tied="true"/>
+<sp Div="J/105" Ent="58" Pos="8" Pts="15.0" Tied="true"/>
+<sp Div="J/105" Ent="29" Pos="8" Pts="15.0" Tied="true"/>
+<sp Div="J/105" Ent="33" Pos="8" Pts="15.0" Tied="true"/>
+<sp Div="J/22" Ent="78" Pos="1" Pts="4.0"/>
+<sp Div="J/22" Ent="35" Pos="2" Pts="6.0"/>
+<sp Div="J/22" Ent="2" Pos="3" Pts="7.0"/>
+<sp Div="J/22" Ent="51" Pos="4" Pts="7.0001"/>
+<sp Div="J/22" Ent="26" Pos="5" Pts="9.0"/>
+<sp Div="J/22" Ent="3" Pos="6" Pts="11.0"/>
+<sp Div="J/22" Ent="68" Pos="7" Pts="14.0"/>
+<sp Div="J/22" Ent="44" Pos="8" Pts="15.0"/>
+<sp Div="J/22" Ent="81" Pos="9" Pts="19.0"/>
+<sp Div="J/22" Ent="48" Pos="10" Pts="21.0"/>
+<sp Div="J/22" Ent="52" Pos="11" Pts="23.0"/>
+<sp Div="J/22" Ent="87" Pos="12" Pts="23.0001"/>
+<sp Div="J/22" Ent="76" Pos="13" Pts="26.0"/>
+<sp Div="J/22" Ent="83" Pos="14" Pts="26.0001"/>
+<sp Div="J/22" Ent="73" Pos="15" Pts="28.0"/>
+<sp Div="J/22" Ent="67" Pos="16" Pts="29.0" Tied="true"/>
+<sp Div="J/22" Ent="25" Pos="16" Pts="29.0" Tied="true"/>
+<sp Div="J/22" Ent="41" Pos="16" Pts="29.0" Tied="true"/>
+<sp Div="J/22" Ent="27" Pos="16" Pts="29.0" Tied="true"/>
+<sp Div="J/70" Ent="61" Pos="1" Pts="2.0"/>
+<sp Div="J/70" Ent="39" Pos="2" Pts="4.0"/>
+<sp Div="J/70" Ent="66" Pos="3" Pts="6.0"/>
+<sp Div="J/70" Ent="85" Pos="4" Pts="8.0"/>
+<sp Div="J/80" Ent="20" Pos="1" Pts="5.0"/>
+<sp Div="J/80" Ent="53" Pos="2" Pts="5.0001"/>
+<sp Div="J/80" Ent="6" Pos="3" Pts="7.0"/>
+<sp Div="J/80" Ent="13" Pos="4" Pts="8.0"/>
+<sp Div="J/80" Ent="84" Pos="5" Pts="9.0"/>
+<sp Div="J/80" Ent="16" Pos="6" Pts="11.0"/>
+<sp Div="J/80" Ent="49" Pos="7" Pts="12.0"/>
+<sp Div="J/80" Ent="62" Pos="8" Pts="15.0"/>
+<sp Div="J/80" Ent="15" Pos="9" Pts="18.0"/>
+<sp Div="J/80" Ent="17" Pos="10" Pts="20.0"/>
+<sp Div="J/80" Ent="31" Pos="11" Pts="22.0" Tied="true"/>
+<sp Div="J/80" Ent="54" Pos="11" Pts="22.0" Tied="true"/>
+<sp Div="J/80" Ent="88" Pos="11" Pts="22.0" Tied="true"/>
+<sp Div="J/80" Ent="74" Pos="11" Pts="22.0" Tied="true"/>
+<sp Div="J/80" Ent="9" Pos="11" Pts="22.0" Tied="true"/>
+<sp Div="PHRF 1" Ent="57" Pos="1" Pts="3.0"/>
+<sp Div="PHRF 1" Ent="40" Pos="2" Pts="4.0"/>
+<sp Div="PHRF 1" Ent="71" Pos="3" Pts="6.0"/>
+<sp Div="PHRF 1" Ent="63" Pos="4" Pts="7.0" Tied="true"/>
+<sp Div="PHRF 1" Ent="30" Pos="4" Pts="7.0" Tied="true"/>
+<sp Div="PHRF 2" Ent="22" Pos="1" Pts="3.0"/>
+<sp Div="PHRF 2" Ent="82" Pos="2" Pts="3.0001"/>
+<sp Div="PHRF 2" Ent="21" Pos="3" Pts="7.0"/>
+<sp Div="PHRF 2" Ent="34" Pos="4" Pts="8.0"/>
+<sp Div="PHRF 2" Ent="59" Pos="5" Pts="11.0"/>
+<sp Div="PHRF 2" Ent="70" Pos="6" Pts="12.0"/>
+<sp Div="PHRF 2" Ent="50" Pos="7" Pts="12.0001"/>
+<sp Div="PHRF 2" Ent="32" Pos="8" Pts="14.0"/>
+<sp Div="PHRF3" Ent="28" Pos="1" Pts="3.0"/>
+<sp Div="PHRF3" Ent="64" Pos="2" Pts="3.0001"/>
+<sp Div="PHRF3" Ent="72" Pos="3" Pts="6.0"/>
+</SeriesPointsList>
+</Scores>
+<ReportOptionList>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Series" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Race" Template="">
+<OptionLocations>
+<item value="2.1"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Entries" Template="">
+<OptionLocations>
+<item value="1.2"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="none"/>
+<item value="4.1"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="2" Show1DTimes="true" ShowLastXRaces="false" TabName="CheckIn" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="FinishSheet" Template="">
+<OptionLocations>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+</OptionLocations>
+</Options>
+<Options CombineRaceAndSeries="false" FontName="Verdana" FontSize="2" HidePenaltyPoints="false" LastXRaces="5" NameOption="0" Show1DTimes="true" ShowLastXRaces="false" TabName="Proofing" Template="">
+<OptionLocations>
+<item value="2.2"/>
+<item value="none"/>
+<item value="2.1"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="none"/>
+<item value="1.1"/>
+<item value="3.1"/>
+<item value="3.2"/>
+</OptionLocations>
+</Options>
+</ReportOptionList>
+</Regatta>

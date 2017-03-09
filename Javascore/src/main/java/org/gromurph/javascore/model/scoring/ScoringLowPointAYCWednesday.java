@@ -40,18 +40,21 @@ public class ScoringLowPointAYCWednesday extends ScoringLowPoint
     }
 
     /**
-     * Overrides the standard ISAF penalties as per Annapolis Yacht Club's
+     * Overrides the standard WS penalties as per Annapolis Yacht Club's
      * Wednesday Night penalties:
-     * <p>SCORING: Each boat
-     * <i>starting </i>and <i>finishing </i>and not thereafter retiring, being
-     *   penalized or given redress shall be scored points per Appendix A Rule
-     *   4.1 of the Racing Rules using the low point system.</p>
-     * <p>Appendix
-     *   A Rule 9 is replaced by: "A starting boat not finishing, a
-     *   boat that did not start, a boat that retired after finishing, or a boat
-     *   disqualified shall be scored points for the finishing place one more than
-     *   the number of boats that <i>finished</i>."</p>
+     * 1.2	RRS 44.3(c) and RRS/US Appendix T2 are changed such that all percentage penalties will be 
+     * 			based on the number of boats that finished in the boat's class.
+     * 1.3	At the time of the incident, the penalties will be:
+     * a)	For breaking a rule of Part 2 or RRS 30.2 at the time of the incident, 
+     * 			the percentage will be 20%, but not less than 2 places.
+     * b)	For breaking RRS 31 (Touching a Mark) at the time of the incident, 
+     * 			the percentage will be 10%, but not less than 1 place. 
+     * c)	For penalties after racing, RRS/US Appendix T2 will apply, changed such that 
+     * 			the percentage will be 30%, but not less than 3 places.
+     * d)	For a boat that complies with some, but not all of the requirements of 44.3(a) and 44.3(b) 
+     * 			the percentage will be 30%, but not less than 3 places. 
      **/
+    
     @Override public double getPenaltyPoints( Penalty p, RacePointsList rpList, double basePts)
     {
         double standardPoints = super.getPenaltyPoints( p, rpList, basePts);
@@ -70,7 +73,15 @@ public class ScoringLowPointAYCWednesday extends ScoringLowPoint
     @Override protected double getPenaltyPointsWithoutManual(Penalty p, RacePointsList entryPointList, double basePts) {
     	int nFinishers = 0;
     	if (entryPointList != null) nFinishers = entryPointList.getNumberFinishers();
-		return getPenaltyPointsForEntryBase(p, entryPointList, basePts, nFinishers);
+		double newPoints = getPenaltyPointsForEntryBase(p, entryPointList, basePts, nFinishers);
+		if ( p.getPenalty() == Penalty.SCP) {
+			double p1 = newPoints - basePts;
+			if (p.getPercent() == 10 && p1 < 1) p1 = 1;
+			if (p.getPercent() == 20 && p1 < 2) p1 = 2;
+			if (p.getPercent() == 30 && p1 < 3) p1 = 3;
+			newPoints = basePts + p1;
+		}
+		return newPoints;
 	}
 
 }

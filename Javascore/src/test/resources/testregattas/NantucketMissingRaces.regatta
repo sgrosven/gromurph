@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Regatta Dates="August 19-20, 2016" Final="false" HostClub="Nantucket Yacht Club " IFEventID="" JSVersion="7.2.2" JuryChair="Timothea Larr" Multistage="false" Name="2016 Sail Nantucket " Pro="Charlie Cooper" UseBowNumbers="false" Version="600" comment="">
+<Regatta DailyScoring="false" Dates="August 19-20, 2016" Final="false" HostClub="Nantucket Yacht Club " IFEventID="" JSVersion="7.5.1" JuryChair="Timothea Larr" Multistage="false" Name="2016 Sail Nantucket " Pro="Charlie Cooper" UseBowNumbers="false" Version="600" comment="">
 <DivisionList>
 <Division DivName="1 CRF-A SPIN" Gender="Open">
-<MinRating System="PHRF" Value="9999.0"/>
-<MaxRating System="PHRF" Value="-9999.0"/>
+<SlowestRating System="PHRF" Value="-9999.0"/>
+<FastestRating System="PHRF" Value="9999.0"/>
 </Division>
 <Division DivName="2 PHRF-A SPIN" Gender="Open">
-<MinRating System="PHRF" Value="9999.0"/>
-<MaxRating System="PHRF" Value="-9999.0"/>
+<SlowestRating System="PHRF" Value="-9999.0"/>
+<FastestRating System="PHRF" Value="9999.0"/>
 </Division>
 <Division DivName="3 CRF-B NON-SPIN" Gender="Open">
-<MinRating System="PHRF" Value="9999.0"/>
-<MaxRating System="PHRF" Value="-9999.0"/>
+<SlowestRating System="PHRF" Value="-9999.0"/>
+<FastestRating System="PHRF" Value="9999.0"/>
 </Division>
 <Division DivName="4 CRF-C NON-SPIN" Gender="Open">
-<MinRating System="PHRF" Value="9999.0"/>
-<MaxRating System="PHRF" Value="-9999.0"/>
+<SlowestRating System="PHRF" Value="-9999.0"/>
+<FastestRating System="PHRF" Value="9999.0"/>
 </Division>
 <Division DivName="4 PHRF-B NON-SPIN" Gender="Open">
-<MinRating System="PHRF" Value="9999.0"/>
-<MaxRating System="PHRF" Value="-9999.0"/>
+<SlowestRating System="PHRF" Value="-9999.0"/>
+<FastestRating System="PHRF" Value="9999.0"/>
 </Division>
 </DivisionList>
 <EntryList>
@@ -541,30 +541,30 @@
 </SubDivision>
 </SubDivisionList>
 <RaceList>
-<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="Race 1 " NonDiscardable="false" RaceId="25" StartDate="19-Aug-2016" Weight="1.0">
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="Race 1 " NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="25" StartDate="19-Aug-2016" Weight="1.0">
 <DivInfo>
-<DivStart Div="1 CRF-A SPIN" Length="6.647" StartTime="11:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="2 PHRF-A SPIN" Length="5.577" StartTime="11:10:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="3 CRF-B NON-SPIN" Length="6.647" StartTime="11:25:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="4 CRF-C NON-SPIN" Length="5.9" StartTime="11:35:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="4 PHRF-B NON-SPIN" Length="5.9" StartTime="11:35:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Grand Prix Day Racers" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="CRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Grand Prix Yachts" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="NON-SPINNAKER" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="SPINNAKER" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Corinthian" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Day Racer" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Grand Classics" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="SAIL NANTUCKET" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Grand Prix Day Racers - Spin" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Grand Prix Yachts - Spin" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="&lt;no name&gt;" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Vintage Corinthian - Spin" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Grand Classics - Spin" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="CRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="1 CRF-A SPIN" Length="6.647" LengthPursuit="0.0" StartTime="11:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="2 PHRF-A SPIN" Length="5.577" LengthPursuit="0.0" StartTime="11:10:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="3 CRF-B NON-SPIN" Length="6.647" LengthPursuit="0.0" StartTime="11:25:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="4 CRF-C NON-SPIN" Length="5.9" LengthPursuit="0.0" StartTime="11:35:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="4 PHRF-B NON-SPIN" Length="5.9" LengthPursuit="0.0" StartTime="11:35:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Day Racers" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="CRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Yachts" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="NON-SPINNAKER" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="SPINNAKER" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Corinthian" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Day Racer" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Grand Classics" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="SAIL NANTUCKET" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Day Racers - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Yachts - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="&lt;no name&gt;" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Vintage Corinthian - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Grand Classics - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="CRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="55" Pos="1" Race="25" Time="12:14:36.0"/>
@@ -626,30 +626,30 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="Race 2" NonDiscardable="false" RaceId="32" StartDate="19-Aug-2016" Weight="1.0">
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="Race 2" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="32" StartDate="19-Aug-2016" Weight="1.0">
 <DivInfo>
-<DivStart Div="1 CRF-A SPIN" Length="8.58" StartTime="11:30:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="2 PHRF-A SPIN" Length="7.77" StartTime="11:42:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="3 CRF-B NON-SPIN" Length="8.58" StartTime="13:52:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="4 CRF-C NON-SPIN" Length="7.88" StartTime="14:03:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="4 PHRF-B NON-SPIN" Length="7.88" StartTime="14:03:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="Grand Prix Day Racers" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="CRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Grand Prix Yachts" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="NON-SPINNAKER" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="SPINNAKER" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Corinthian" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Day Racer" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Grand Classics" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="SAIL NANTUCKET" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Grand Prix Day Racers - Spin" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Grand Prix Yachts - Spin" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="&lt;no name&gt;" Length="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
-<DivStart Div="Vintage Corinthian - Spin" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Grand Classics - Spin" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="CRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="1 CRF-A SPIN" Length="8.58" LengthPursuit="0.0" StartTime="11:30:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="2 PHRF-A SPIN" Length="7.77" LengthPursuit="0.0" StartTime="11:42:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="3 CRF-B NON-SPIN" Length="8.58" LengthPursuit="0.0" StartTime="13:52:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="4 CRF-C NON-SPIN" Length="7.88" LengthPursuit="0.0" StartTime="14:03:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="4 PHRF-B NON-SPIN" Length="7.88" LengthPursuit="0.0" StartTime="14:03:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Day Racers" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="CRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Yachts" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="NON-SPINNAKER" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="SPINNAKER" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Corinthian" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Day Racer" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Grand Classics" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="SAIL NANTUCKET" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Day Racers - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Yachts - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="&lt;no name&gt;" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="false" nextDay="false"/>
+<DivStart Div="Vintage Corinthian - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Grand Classics - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="CRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="55" Pos="1" Race="32" Time="15:03:46.0"/>
@@ -715,25 +715,25 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="Race 3" NonDiscardable="false" RaceId="35" StartDate="20-Aug-2016" Weight="1.0">
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="Race 3" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="35" StartDate="20-Aug-2016" Weight="1.0">
 <DivInfo>
-<DivStart Div="1 CRF-A SPIN" Length="8.693" StartTime="11:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="2 PHRF-A SPIN" Length="7.777" StartTime="11:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="3 CRF-B NON-SPIN" Length="8.693" StartTime="11:25:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="4 CRF-C NON-SPIN" Length="7.639" StartTime="11:35:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="4 PHRF-B NON-SPIN" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Grand Prix Yachts" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Grand Prix Day Racers - Spin" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Grand Prix Yachts - Spin" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Corinthian" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Corinthian - Spin" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Day Racer" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Grand Classics" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Grand Classics - Spin" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="CRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="CRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="1 CRF-A SPIN" Length="8.693" LengthPursuit="0.0" StartTime="11:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="2 PHRF-A SPIN" Length="7.777" LengthPursuit="0.0" StartTime="11:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="3 CRF-B NON-SPIN" Length="8.693" LengthPursuit="0.0" StartTime="11:25:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="4 CRF-C NON-SPIN" Length="7.639" LengthPursuit="0.0" StartTime="11:35:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="4 PHRF-B NON-SPIN" Length="7.5" LengthPursuit="7.5" StartTime="11:40:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Yachts" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Day Racers - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Yachts - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Corinthian" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Corinthian - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Day Racer" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Grand Classics" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Grand Classics - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="CRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="CRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="58" Pos="1" Race="35" Time="12:32:43.0"/>
@@ -789,25 +789,25 @@
 </Fin>
 </FinishList>
 </Race>
-<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="Race 4" NonDiscardable="false" RaceId="39" StartDate="20-Aug-2016" Weight="1.0">
+<Race AFactor="650" BFactor="550" Comment="" LongDistance="false" MedalRace="false" Name="Race 4" NonDiscardable="false" Pursuit="false" PursuitShortened="false" RaceId="39" StartDate="20-Aug-2016" Weight="1.0">
 <DivInfo>
-<DivStart Div="1 CRF-A SPIN" Length="7.56" StartTime="13:45:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="2 PHRF-A SPIN" Length="6.8" StartTime="13:55:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="3 CRF-B NON-SPIN" Length="7.56" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="4 CRF-C NON-SPIN" Length="6.53" StartTime="14:15:00.0" isRacing="true" nextDay="false"/>
-<DivStart Div="4 PHRF-B NON-SPIN" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Grand Prix Yachts" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Grand Prix Day Racers - Spin" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Grand Prix Yachts - Spin" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Corinthian" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Corinthian - Spin" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Day Racer" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Grand Classics" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="Vintage Grand Classics - Spin" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="CRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="CRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
-<DivStart Div="PHRF" Length="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="1 CRF-A SPIN" Length="7.56" LengthPursuit="0.0" StartTime="13:45:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="2 PHRF-A SPIN" Length="6.8" LengthPursuit="0.0" StartTime="13:55:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="3 CRF-B NON-SPIN" Length="7.56" LengthPursuit="0.0" StartTime="14:05:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="4 CRF-C NON-SPIN" Length="6.53" LengthPursuit="0.0" StartTime="14:15:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="4 PHRF-B NON-SPIN" Length="6.0" LengthPursuit="6.0" StartTime="14:20:00.0" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Yachts" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Day Racers - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Grand Prix Yachts - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Corinthian" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Corinthian - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Day Racer" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Grand Classics" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="Vintage Grand Classics - Spin" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="CRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="CRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
+<DivStart Div="PHRF" Length="0.0" LengthPursuit="0.0" StartTime="No Time" isRacing="true" nextDay="false"/>
 </DivInfo>
 <FinishList>
 <Fin Ent="58" Pos="1" Race="39" Time="15:06:13.0"/>
@@ -1003,7 +1003,7 @@
 <rp Div="4 PHRF-B NON-SPIN" Ent="74" Pos="40960" Pts="8.0" Race="25" Toss="true"/>
 <rp Div="4 PHRF-B NON-SPIN" Ent="78" Pos="3" Pts="1.0" Race="25"/>
 <rp Div="4 PHRF-B NON-SPIN" Ent="75" Pos="4" Pts="2.0" Race="25"/>
-<rp Div="4 PHRF-B NON-SPIN" Ent="79" Pos="5" Pts="3.0" Race="25"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="79" Pos="5" Pts="3.0" Race="25" Toss="true"/>
 <rp Div="4 PHRF-B NON-SPIN" Ent="73" Pos="6" Pts="4.0" Race="25"/>
 <rp Div="4 PHRF-B NON-SPIN" Ent="77" Pos="7" Pts="5.0" Race="25"/>
 <rp Div="4 PHRF-B NON-SPIN" Ent="73" Pos="1" Pts="8.0" Race="32" Toss="true"/>
@@ -1013,20 +1013,20 @@
 <rp Div="4 PHRF-B NON-SPIN" Ent="79" Pos="5" Pts="2.0" Race="32"/>
 <rp Div="4 PHRF-B NON-SPIN" Ent="75" Pos="6" Pts="3.0" Race="32"/>
 <rp Div="4 PHRF-B NON-SPIN" Ent="77" Pos="7" Pts="4.0" Race="32"/>
-<rp Div="4 PHRF-B NON-SPIN" Ent="76" Pos="1" Pts="3.5714285714285716" Race="35"/>
-<rp Div="4 PHRF-B NON-SPIN" Ent="78" Pos="2" Pts="3.5714285714285716" Race="35" Toss="true"/>
-<rp Div="4 PHRF-B NON-SPIN" Ent="79" Pos="3" Pts="3.5714285714285716" Race="35" Toss="true"/>
-<rp Div="4 PHRF-B NON-SPIN" Ent="75" Pos="4" Pts="3.5714285714285716" Race="35" Toss="true"/>
-<rp Div="4 PHRF-B NON-SPIN" Ent="73" Pos="5" Pts="8.0" Race="35"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="73" Pos="1" Pts="8.0" Race="35"/>
 <rp Div="4 PHRF-B NON-SPIN" Ent="77" Pos="40960" Pts="8.0" Race="35" Toss="true"/>
 <rp Div="4 PHRF-B NON-SPIN" Ent="74" Pos="40960" Pts="8.0" Race="35"/>
-<rp Div="4 PHRF-B NON-SPIN" Ent="76" Pos="1" Pts="3.5714285714285716" Race="39"/>
-<rp Div="4 PHRF-B NON-SPIN" Ent="78" Pos="2" Pts="3.5714285714285716" Race="39"/>
-<rp Div="4 PHRF-B NON-SPIN" Ent="79" Pos="3" Pts="3.5714285714285716" Race="39"/>
-<rp Div="4 PHRF-B NON-SPIN" Ent="75" Pos="4" Pts="3.5714285714285716" Race="39"/>
-<rp Div="4 PHRF-B NON-SPIN" Ent="77" Pos="40960" Pts="8.0" Race="39"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="76" Pos="4" Pts="1.0" Race="35"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="78" Pos="5" Pts="2.0" Race="35" Toss="true"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="79" Pos="6" Pts="3.0" Race="35"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="75" Pos="7" Pts="4.0" Race="35" Toss="true"/>
 <rp Div="4 PHRF-B NON-SPIN" Ent="73" Pos="40960" Pts="8.0" Race="39"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="77" Pos="40960" Pts="8.0" Race="39"/>
 <rp Div="4 PHRF-B NON-SPIN" Ent="74" Pos="40960" Pts="8.0" Race="39"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="76" Pos="4" Pts="1.0" Race="39"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="78" Pos="5" Pts="2.0" Race="39"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="79" Pos="6" Pts="3.0" Race="39"/>
+<rp Div="4 PHRF-B NON-SPIN" Ent="75" Pos="7" Pts="4.0" Race="39"/>
 <rp Div="CRF" Ent="48" Pos="1" Pts="27.0" Race="25" Toss="true"/>
 <rp Div="CRF" Ent="71" Pos="40960" Pts="27.0" Race="25" Toss="true"/>
 <rp Div="CRF" Ent="53" Pos="40960" Pts="27.0" Race="25" Toss="true"/>
@@ -1157,26 +1157,26 @@
 <rp Div="PHRF" Ent="64" Pos="11" Pts="7.0" Race="32" Toss="true"/>
 <rp Div="PHRF" Ent="65" Pos="12" Pts="8.0" Race="32"/>
 <rp Div="PHRF" Ent="63" Pos="13" Pts="9.0" Race="32"/>
-<rp Div="PHRF" Ent="76" Pos="1" Pts="3.5714285714285716" Race="35"/>
-<rp Div="PHRF" Ent="78" Pos="2" Pts="3.5714285714285716" Race="35"/>
-<rp Div="PHRF" Ent="79" Pos="3" Pts="3.5714285714285716" Race="35"/>
-<rp Div="PHRF" Ent="75" Pos="4" Pts="3.5714285714285716" Race="35"/>
-<rp Div="PHRF" Ent="73" Pos="5" Pts="14.0" Race="35"/>
-<rp Div="PHRF" Ent="74" Pos="40960" Pts="14.0" Race="35"/>
+<rp Div="PHRF" Ent="73" Pos="1" Pts="14.0" Race="35"/>
 <rp Div="PHRF" Ent="77" Pos="40960" Pts="14.0" Race="35" Toss="true"/>
+<rp Div="PHRF" Ent="74" Pos="40960" Pts="14.0" Race="35"/>
+<rp Div="PHRF" Ent="76" Pos="4" Pts="1.0" Race="35"/>
+<rp Div="PHRF" Ent="78" Pos="5" Pts="2.0" Race="35"/>
+<rp Div="PHRF" Ent="79" Pos="6" Pts="3.0" Race="35"/>
+<rp Div="PHRF" Ent="75" Pos="7" Pts="4.0" Race="35"/>
 <rp Div="PHRF" Ent="64" Pos="8" Pts="5.0" Race="35"/>
 <rp Div="PHRF" Ent="68" Pos="9" Pts="6.0" Race="35" Toss="true"/>
 <rp Div="PHRF" Ent="66" Pos="10" Pts="7.0" Race="35" Toss="true"/>
 <rp Div="PHRF" Ent="67" Pos="11" Pts="8.0" Race="35"/>
 <rp Div="PHRF" Ent="63" Pos="12" Pts="9.0" Race="35"/>
 <rp Div="PHRF" Ent="65" Pos="13" Pts="10.0" Race="35" Toss="true"/>
-<rp Div="PHRF" Ent="76" Pos="1" Pts="3.5714285714285716" Race="39"/>
-<rp Div="PHRF" Ent="78" Pos="2" Pts="3.5714285714285716" Race="39"/>
-<rp Div="PHRF" Ent="79" Pos="3" Pts="3.5714285714285716" Race="39"/>
-<rp Div="PHRF" Ent="75" Pos="4" Pts="3.5714285714285716" Race="39"/>
 <rp Div="PHRF" Ent="73" Pos="40960" Pts="14.0" Race="39"/>
-<rp Div="PHRF" Ent="74" Pos="40960" Pts="14.0" Race="39"/>
 <rp Div="PHRF" Ent="77" Pos="40960" Pts="14.0" Race="39"/>
+<rp Div="PHRF" Ent="74" Pos="40960" Pts="14.0" Race="39"/>
+<rp Div="PHRF" Ent="76" Pos="4" Pts="1.0" Race="39"/>
+<rp Div="PHRF" Ent="78" Pos="5" Pts="2.0" Race="39"/>
+<rp Div="PHRF" Ent="79" Pos="6" Pts="3.0" Race="39"/>
+<rp Div="PHRF" Ent="75" Pos="7" Pts="4.0" Race="39"/>
 <rp Div="PHRF" Ent="68" Pos="8" Pts="5.0" Race="39"/>
 <rp Div="PHRF" Ent="66" Pos="9" Pts="6.0" Race="39"/>
 <rp Div="PHRF" Ent="64" Pos="10" Pts="7.0" Race="39"/>
@@ -1321,10 +1321,10 @@
 <sp Div="4 CRF-C NON-SPIN" Ent="69" Pos="2" Pts="7.0"/>
 <sp Div="4 CRF-C NON-SPIN" Ent="71" Pos="3" Pts="9.0"/>
 <sp Div="4 CRF-C NON-SPIN" Ent="70" Pos="4" Pts="15.0"/>
-<sp Div="4 PHRF-B NON-SPIN" Ent="78" Pos="1" Pts="5.571428571428571"/>
-<sp Div="4 PHRF-B NON-SPIN" Ent="79" Pos="2" Pts="8.571428571428571"/>
-<sp Div="4 PHRF-B NON-SPIN" Ent="75" Pos="3" Pts="8.571528571428571"/>
-<sp Div="4 PHRF-B NON-SPIN" Ent="76" Pos="4" Pts="15.142857142857142"/>
+<sp Div="4 PHRF-B NON-SPIN" Ent="78" Pos="1" Pts="4.0"/>
+<sp Div="4 PHRF-B NON-SPIN" Ent="79" Pos="2" Pts="8.0"/>
+<sp Div="4 PHRF-B NON-SPIN" Ent="75" Pos="3" Pts="9.0"/>
+<sp Div="4 PHRF-B NON-SPIN" Ent="76" Pos="4" Pts="10.0"/>
 <sp Div="4 PHRF-B NON-SPIN" Ent="77" Pos="5" Pts="17.0"/>
 <sp Div="4 PHRF-B NON-SPIN" Ent="73" Pos="6" Pts="20.0"/>
 <sp Div="4 PHRF-B NON-SPIN" Ent="74" Pos="7" Pts="24.0"/>
@@ -1354,14 +1354,14 @@
 <sp Div="CRF" Ent="50" Pos="24" Pts="74.0001"/>
 <sp Div="CRF" Ent="43" Pos="25" Pts="77.0"/>
 <sp Div="CRF" Ent="70" Pos="26" Pts="81.0"/>
-<sp Div="PHRF" Ent="78" Pos="1" Pts="8.142857142857142"/>
-<sp Div="PHRF" Ent="79" Pos="2" Pts="9.142857142857142"/>
-<sp Div="PHRF" Ent="75" Pos="3" Pts="10.142857142857142"/>
-<sp Div="PHRF" Ent="68" Pos="4" Pts="11.0"/>
+<sp Div="PHRF" Ent="78" Pos="1" Pts="5.0"/>
+<sp Div="PHRF" Ent="79" Pos="2" Pts="8.0"/>
+<sp Div="PHRF" Ent="68" Pos="3" Pts="11.0"/>
+<sp Div="PHRF" Ent="75" Pos="4" Pts="11.0001"/>
 <sp Div="PHRF" Ent="66" Pos="5" Pts="14.0"/>
-<sp Div="PHRF" Ent="64" Pos="6" Pts="16.0"/>
-<sp Div="PHRF" Ent="65" Pos="7" Pts="19.0"/>
-<sp Div="PHRF" Ent="76" Pos="8" Pts="21.142857142857146"/>
+<sp Div="PHRF" Ent="76" Pos="6" Pts="16.0"/>
+<sp Div="PHRF" Ent="64" Pos="7" Pts="16.0001"/>
+<sp Div="PHRF" Ent="65" Pos="8" Pts="19.0"/>
 <sp Div="PHRF" Ent="77" Pos="9" Pts="27.0"/>
 <sp Div="PHRF" Ent="63" Pos="10" Pts="27.0001"/>
 <sp Div="PHRF" Ent="67" Pos="11" Pts="32.0"/>

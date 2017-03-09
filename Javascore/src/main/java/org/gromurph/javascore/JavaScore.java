@@ -103,6 +103,14 @@ import org.slf4j.LoggerFactory;
 public class JavaScore extends JFrame implements ActionListener, WindowListener {
 	private static final String SPLASH_GRAPHIC = "/images/SplashGraphic.jpg";
 	
+	// 7.5.3  bug fixes
+		// branch = 7.5.2bug1
+			// 2017-2020 labeling - DONE 
+			// ayc pct penalty minimums - DONE
+			// missing footnotes in race report - DONE (or working right to begin with)
+			// report generated times not updating
+			// 'last x races' stubborn - DONE - can't replicate seems to be working fine
+			
 	// 7.5.2  bug fixes
 		// bug1 DONE finish dialog unfinished list
 		// bug2 DONE (chip) fleet and subdiv series scoring

@@ -70,6 +70,7 @@ public class ReportViewer {
 		long starttime = System.currentTimeMillis();
 		logger.trace("Writing reports to directory: {}");
 
+		
 		try {
 			if (doRescore) {
 				fRegatta.scoreRegatta();
@@ -77,6 +78,8 @@ public class ReportViewer {
 
 			JavaScoreProperties.acquireScoringLock();
 			ActionReport.clearReportErrors();
+
+			deleteExistingReports();
 
 			createRootFile("report.hs");
 			createTocFile("toc.xml");
@@ -157,6 +160,39 @@ public class ReportViewer {
 			Util.printlnException(this, e, true);
 		}
 		logger.trace("  reports done, time elapsed {}", (System.currentTimeMillis() - starttime));
+	}
+
+	private void deleteFile( String reportName) {
+		String fullName = getDirectory() + reportName;
+		File fullFile = new File( fullName);
+		if (fullFile.exists()) fullFile.delete();
+	}
+	
+	private void deleteExistingReports() {
+		deleteFile("report.hs");
+		deleteFile("toc.xml");
+		deleteFile("map.jhm");
+
+		deleteFile( "regatta.html");
+
+		deleteFile( "checkinbyfleet.html");
+		deleteFile( "checkinbydivision.html");
+		deleteFile( "checkinbydivisionbow.html");
+		deleteFile( "scratchbysail.html");
+		deleteFile( "scratchbyskipper.html");
+		deleteFile( "scratchbyboatname.html");
+		deleteFile( "scratchbyrating.html");
+		deleteFile( "scratchbybow.html");
+		deleteFile( "finish.html");
+		deleteFile( getRegattaName() + ".html");
+
+		for (int i = 0; i < 30; i++) {
+			deleteFile( getRegattaName() + "_race" + Integer.toString(i + 1) + ".html");
+			deleteFile( "proof" + Integer.toString(i + 1) + ".html");
+			if (fRegatta.getNumRaces() > i && fRegatta.getRaceIndex(i).isPursuit()) {
+				deleteFile( getRegattaName() + "_pursuitStartTimes" + Integer.toString(i + 1) + ".html");
+			}
+		}
 	}
 
 	protected Logger logger = LoggerFactory.getLogger( this.getClass());
