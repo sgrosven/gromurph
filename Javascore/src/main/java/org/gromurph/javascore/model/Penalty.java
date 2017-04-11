@@ -515,7 +515,7 @@ public class Penalty extends BaseObject implements Constants {
 		if ((pen & RDG) != 0) {
 			String label = "RDG";
 			String rlab = inP.getRedressLabel();
-			if (rlab != null && rlab.length() > 0) label += ":" + rlab;
+			if (rlab != null && rlab.length() > 0) label = rlab; // += ":" + rlab;
 			sb.append(label);
 			if (showPts) {
 				sb.append("/");
@@ -526,7 +526,7 @@ public class Penalty extends BaseObject implements Constants {
 		if ((pen & AVG) != 0) {
 			String label = "AVG";
 			String rlab = inP.getRedressLabel();
-			if (rlab != null && rlab.length() > 0) label += ":" + rlab;
+			if (rlab != null && rlab.length() > 0) label = rlab; // += ":" + rlab;
 			sb.append(label);
 			sb.append(",");
 		}
@@ -760,10 +760,18 @@ public class Penalty extends BaseObject implements Constants {
 	}
 	
 	private static void parseRedressLabel( Penalty base, String penString) {
-		int colon = penString.indexOf( ":");
-		if (colon >= 0) {
-    		String label = penString.substring( colon);
+		int br = penString.indexOf( ":");
+		if (br >= 0) {
+    		String label = penString.substring( br);
     		base.setRedressLabel(label);
+		} else {
+    		br = penString.indexOf( "/");
+    		if (br >= 0) {
+        		String label = penString.substring( br);
+        		base.setRedressLabel(label);
+    		} else {
+    			base.setRedressLabel(penString);
+    		}
 		}
 	}
 }

@@ -249,7 +249,7 @@ public class ScoringLowPointTests extends JavascoreTestCase
 		int NN = 8;
 		Entry[] entries = new Entry[NN];
 		Finish[] finishes = new Finish[NN];
-		for( int i = 0; i < NN; i++) {
+		for( int i = 0; i < NN-1; i++) {
 			Entry e = new Entry();
 			e.setSailId( new SailId( Integer.toString(i)));
 			forceDivision( e, div);
@@ -260,6 +260,12 @@ public class ScoringLowPointTests extends JavascoreTestCase
 			race1.setFinish( f);
 			entries[i]=e;
 		}
+
+		// 8th boat is a DNF
+		Finish dnf = new Finish( race1, entries[7], SailTime.NOTIME, new FinishPosition( Penalty.DNF), new Penalty(Penalty.DNF));
+		race1.setFinish( dnf);
+		finishes[NN-1] = dnf;
+		
 		finishes[1].getPenalty().addOtherPenalty( Constants.ZFP);
 		
 		finishes[2].getPenalty().addOtherPenalty( Constants.ZFP);

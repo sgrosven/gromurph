@@ -103,6 +103,10 @@ import org.slf4j.LoggerFactory;
 public class JavaScore extends JFrame implements ActionListener, WindowListener {
 	private static final String SPLASH_GRAPHIC = "/images/SplashGraphic.jpg";
 	
+	// 7.5.4
+		// branch 7.5.3PctPenalty 
+			// change 44.3(c) penalties to be based on DNF not number of entries (2017 RRS rule change)
+			// find/fix ghost DNC issue
 	// 7.5.3  bug fixes
 		// branch = 7.5.2bug1
 			// 2017-2020 labeling - DONE 

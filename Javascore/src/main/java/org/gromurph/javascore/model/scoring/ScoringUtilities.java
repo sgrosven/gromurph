@@ -80,7 +80,8 @@ public abstract class ScoringUtilities implements Constants {
 	public static ScoringModel createScoringModel(String modelName) {
 		if (modelName.equals(ScoringLowPoint.ALTNAME) || 
 				modelName.equals(ScoringLowPoint.ALTNAME2) ||
-				modelName.equals(ScoringLowPoint.ALTNAME3)) 
+				modelName.equals(ScoringLowPoint.ALTNAME3) ||
+				modelName.equals(ScoringLowPoint.ALTNAME4)) 
 			modelName = ScoringLowPoint.NAME;
 
 		String modelClass = sSupportedSystems.get(modelName);

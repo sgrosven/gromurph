@@ -79,9 +79,9 @@ public class ScoringWedNightTests extends JavascoreTestCase
 Pos, Sail, Boat, Finish, Adj, Pts
 1  , 339, H20, 1,  , 1.0
 2  , 311, SKIMMER, 2,  , 2.0
-3  , 325, Puffin, 4,  , 4.0
-4T  , 340, Velella, 3, 10%, 5.0T
-4T  , 321, MEADEOR, 5,  , 5.0T
+3  , 325, Puffin, 4,  , 4.0T
+4T  , 340, Velella, 3, 10%, 4.0T
+4T  , 321, MEADEOR, 5,  , 5.0
 6  , 332, Queen Ann(e), 6,  , 6.0
 7  , 162, Mofongo, 7,  , 7.0
 8  , 319, Fuzzy Logic, 8,   , 8.0
@@ -137,10 +137,10 @@ and 7 boats all DNC  , 132, 11 points
 		assertEquals( Penalty.SCP, pen1.getPenalty());
 		assertEquals( 10, pen1.getPercent());
 		
-		// 340 should have 5 points
+		// 340 should have 5 points - 10% of 10 finishers is 1 point, 
 		RacePoints pts1 = rpl.find( race,  e340, div);
 		assertNotNull( pts1);
-		assertEquals( 5.0, pts1.getPoints(), 0.00001);
+		assertEquals( 4.0, pts1.getPoints(), 0.00001);
 
 		
 		((SingleStageScoring) reg.getScoringManager()).setModel( ScoringLowPointAYCWednesday.NAME);

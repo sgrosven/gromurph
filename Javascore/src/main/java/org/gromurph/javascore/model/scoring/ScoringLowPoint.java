@@ -43,7 +43,8 @@ import org.gromurph.javascore.model.SubDivisionList;
 public class ScoringLowPoint implements ScoringModel, Constants {
 	protected static ResourceBundle res = JavaScoreProperties.getResources();
 
-	public static final String NAME = "ISAF Low Point 2013-2016";
+	public static final String NAME = "ISAF Low Point 2017-2020";
+	public static final String ALTNAME4 = "ISAF Low Point 2013-2016";
 	public static final String ALTNAME3 = "ISAF Low Point 2009-2012";
 	public static final String ALTNAME2 = "ISAF Low Point 2005-2008";
 	public static final String ALTNAME = "ISAF Low Point 2001-2004";
@@ -436,17 +437,17 @@ public class ScoringLowPoint implements ScoringModel, Constants {
 		}
 
 		// ADD in other non-finish penalties
-		double dsqPoints = getPenaltyPoints(new Penalty(DSQ), entryPointList, basePts);
+		double dnfPoints = getPenaltyPoints(new Penalty(DNF), entryPointList, basePts);
 		if (p.hasPenalty(CNF))
-			basePts = calculatePercent(fOptions.getCheckinPercent(), basePts, nEntries, dsqPoints);
+			basePts = calculatePercent(fOptions.getCheckinPercent(), basePts, dnfPoints);
 		if (p.hasPenalty(ZFP))
-			basePts = calculatePercent(20, basePts, nEntries, dsqPoints);
+			basePts = calculatePercent(20, basePts, dnfPoints);
 		if (p.hasPenalty(ZFP2))
-			basePts = calculatePercent(20, basePts, nEntries, dsqPoints);
+			basePts = calculatePercent(20, basePts, dnfPoints);
 		if (p.hasPenalty(ZFP3))
-			basePts = calculatePercent(20, basePts, nEntries, dsqPoints);
+			basePts = calculatePercent(20, basePts, dnfPoints);
 		if (p.hasPenalty(SCP))
-			basePts = calculatePercent(p.getPercent(), basePts, nEntries, dsqPoints);
+			basePts = calculatePercent(p.getPercent(), basePts, dnfPoints);
 
 		return basePts;
 	}
@@ -484,15 +485,18 @@ public class ScoringLowPoint implements ScoringModel, Constants {
 	 *            the percent to be assigned
 	 * @param basePts
 	 *            initial number of points
-	 * @param nEntries
-	 *            number of entries in race
+	 * @param nPointsBase
+	 *            base number (2017 RRS = DNF points) on which percentage is calculated
 	 * @param maxPoints
 	 *            max points to be awarded
 	 * @return new points value
 	 */
-	public double calculatePercent(int pct, double basePts, double nEntries, double maxPoints) {
+	public double calculatePercent(int pct, double basePts, double nPointsBase) {
+		return calculatePercent(pct, basePts, nPointsBase, nPointsBase);
+	}
+	public double calculatePercent(int pct, double basePts, double nPointsBase, double maxPoints) {
 		// this gives points * 10
-		double points = Math.round(nEntries * (pct / 10.0));
+		double points = Math.round(nPointsBase * (pct / 10.0));
 		points = points / 10.0;
 		double newPoints = basePts + Math.round(points);
 		if (newPoints > maxPoints)

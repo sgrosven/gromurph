@@ -42,9 +42,7 @@ public class ScoringLowPointAYCWednesday extends ScoringLowPoint
     /**
      * Overrides the standard WS penalties as per Annapolis Yacht Club's
      * Wednesday Night penalties:
-     * 1.2	RRS 44.3(c) and RRS/US Appendix T2 are changed such that all percentage penalties will be 
-     * 			based on the number of boats that finished in the boat's class.
-     * 1.3	At the time of the incident, the penalties will be:
+     * At the time of the incident, the penalties will be:
      * a)	For breaking a rule of Part 2 or RRS 30.2 at the time of the incident, 
      * 			the percentage will be 20%, but not less than 2 places.
      * b)	For breaking RRS 31 (Touching a Mark) at the time of the incident, 
@@ -73,7 +71,9 @@ public class ScoringLowPointAYCWednesday extends ScoringLowPoint
     @Override protected double getPenaltyPointsWithoutManual(Penalty p, RacePointsList entryPointList, double basePts) {
     	int nFinishers = 0;
     	if (entryPointList != null) nFinishers = entryPointList.getNumberFinishers();
+    	// calculates penalties based on number of finishers
 		double newPoints = getPenaltyPointsForEntryBase(p, entryPointList, basePts, nFinishers);
+		// for scoring penalty only, set the minimum # of points
 		if ( p.getPenalty() == Penalty.SCP) {
 			double p1 = newPoints - basePts;
 			if (p.getPercent() == 10 && p1 < 1) p1 = 1;

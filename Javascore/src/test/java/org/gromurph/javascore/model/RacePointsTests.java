@@ -56,7 +56,6 @@ public class RacePointsTests extends JavascoreTestCase implements Constants {
 		RacePoints x9001 = regatta.getScoringManager().getRacePointsList()
 				.find(r1, x900, null);
 		assertEquals(-1, c.compare(x9001, e1));
-
 	}
 
 	public void testEquals() {
@@ -164,8 +163,10 @@ public class RacePointsTests extends JavascoreTestCase implements Constants {
 		rp.getFinish().getPenalty().setRedressLabel( "MAN");
 		
 		rp.setPoints(3.3);
-		assertEquals("3.3/OCS,MAN", RacePoints.format(rp, true));
-		assertEquals("3.3/OCS,MAN", RacePoints.format(rp, false));
+		String c = RacePoints.format(rp, true);
+		assertEquals("3.3/OCS,MAN", c);
+		c = RacePoints.format(rp, false);
+		assertEquals("3.3/OCS,MAN", c);
 		rp.setThrowout(true);
 		assertEquals("[3.3/OCS,MAN]", RacePoints.format(rp, true));
 		assertEquals("[3.3/OCS,MAN]", RacePoints.format(rp, false));
@@ -206,43 +207,3 @@ public class RacePointsTests extends JavascoreTestCase implements Constants {
 	}
 
 }
-/**
- * $Log: RacePointsTests.java,v $ Revision 1.7 2006/05/19 05:48:43 sandyg final
- * release 5.1 modifications
- * 
- * Revision 1.6 2006/01/19 02:27:41 sandyg fixed several bugs in split fleet
- * scoring
- * 
- * Revision 1.5 2006/01/15 21:08:39 sandyg resubmit at 5.1.02
- * 
- * Revision 1.3 2006/01/15 03:25:51 sandyg to regatta add getRace(i),
- * getNumRaces().. reducing use of getRaces()
- * 
- * Revision 1.2 2006/01/11 02:20:26 sandyg updating copyright years
- * 
- * Revision 1.1 2006/01/01 02:27:02 sandyg preliminary submission to centralize
- * code in a new module
- * 
- * Revision 1.11.2.1 2005/11/01 02:36:58 sandyg java5 using generics
- * 
- * Revision 1.11 2005/08/19 01:52:34 sandyg 4.3.1.03 tests
- * 
- * Revision 1.10 2005/05/26 01:46:51 sandyg fixing resource access/lookup
- * problems
- * 
- * Revision 1.9 2005/04/23 21:55:31 sandyg JWS mods for release 4.3.1
- * 
- * Revision 1.8 2004/04/10 22:19:38 sandyg Copyright update
- * 
- * Revision 1.7 2003/05/18 17:21:21 sandyg no message
- * 
- * Revision 1.6 2003/04/27 21:00:47 sandyg lots of cleanup, unit testing for
- * 4.1.1 almost complete
- * 
- * Revision 1.5 2003/04/20 15:44:30 sandyg added javascore.Constants to
- * consolidate penalty defs, and added new penaltys TIM (time value penalty) and
- * TMP (time percentage penalty)
- * 
- * Revision 1.4 2003/01/04 17:09:27 sandyg Prefix/suffix overhaul
- * 
- */
