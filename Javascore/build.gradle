@@ -10,8 +10,8 @@ Usage update, March 2016
 import org.apache.tools.ant.filters.ReplaceTokens
 
 /* UPDATED THESE FOR EACH RELEASE!!! */
-version = '7.5.3'
-ext.releaseDate = '09 March 2017'
+version = '7.5.4'
+ext.releaseDate = '18 Apr 2017'
 sourceCompatibility = 1.7
 
 ext.buildDir = "build"

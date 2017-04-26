@@ -105,7 +105,7 @@ public class JavaScore extends JFrame implements ActionListener, WindowListener 
 	
 	// 7.5.4
 		// branch 7.5.3PctPenalty 
-			// change 44.3(c) penalties to be based on DNF not number of entries (2017 RRS rule change)
+			// DONE change 44.3(c) penalties to be based on DNF not number of entries (2017 RRS rule change)
 			// find/fix ghost DNC issue
 	// 7.5.3  bug fixes
 		// branch = 7.5.2bug1
