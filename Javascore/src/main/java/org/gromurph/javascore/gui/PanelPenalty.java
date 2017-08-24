@@ -85,6 +85,7 @@ public class PanelPenalty extends BaseEditor<Penalty> implements ActionListener,
 	JRadioButton fRadioDNE;
 	JRadioButton fRadioOCS;
 	JRadioButton fRadioBFD;
+	JRadioButton fRadioUFD;
 	JRadioButton fRadioRET;
 	JRadioButton fRadioDGM;
 	JRadioButton fRadioNoDsq;
@@ -145,6 +146,8 @@ public class PanelPenalty extends BaseEditor<Penalty> implements ActionListener,
 					dsqButton_actionPerformed(DNE);
 				else if (object == fRadioOCS)
 					dsqButton_actionPerformed(OCS);
+				else if (object == fRadioUFD)
+					dsqButton_actionPerformed(UFD);
 				else if (object == fRadioBFD)
 					dsqButton_actionPerformed(BFD);
 				else if (object == fRadioRET)
@@ -285,6 +288,11 @@ public class PanelPenalty extends BaseEditor<Penalty> implements ActionListener,
 		fRadioOCS.setToolTipText(res.getString("PenaltyOCSLongName"));
 		fGroupDisqualified.add(fRadioOCS);
 		panelDisqualified.add(fRadioOCS);
+
+		fRadioUFD = new JRadioButton(Penalty.toString(UFD));
+		fRadioUFD.setToolTipText(res.getString("PenaltyUFDLongName"));
+		fGroupDisqualified.add(fRadioUFD);
+		panelDisqualified.add(fRadioUFD);
 
 		fRadioBFD = new JRadioButton(Penalty.toString(BFD));
 		fRadioBFD.setToolTipText(res.getString("PenaltyBFDLongName"));
@@ -819,6 +827,7 @@ public class PanelPenalty extends BaseEditor<Penalty> implements ActionListener,
 			fRadioDNE.setSelected(p.hasPenalty(DNE));
 			fRadioOCS.setSelected(p.hasPenalty(OCS));
 			fRadioBFD.setSelected(p.hasPenalty(BFD));
+			fRadioUFD.setSelected(p.hasPenalty(UFD));
 			fRadioRET.setSelected(p.hasPenalty(RET));
 			fRadioDGM.setSelected(p.hasPenalty(DGM));
 		} else {
@@ -867,48 +876,4 @@ public class PanelPenalty extends BaseEditor<Penalty> implements ActionListener,
 		updateEnabled();
 	}
 }
-/**
- * $Log: PanelPenalty.java,v $ Revision 1.6 2006/05/19 05:48:42 sandyg final
- * release 5.1 modifications
- * 
- * Revision 1.5 2006/01/15 21:10:40 sandyg resubmit at 5.1.02
- * 
- * Revision 1.3 2006/01/14 14:40:35 sandyg added some @suppresswarnings on
- * warnings that I could not code around
- * 
- * Revision 1.2 2006/01/11 02:20:26 sandyg updating copyright years
- * 
- * Revision 1.1 2006/01/01 02:27:02 sandyg preliminary submission to centralize
- * code in a new module
- * 
- * Revision 1.13.4.2 2005/11/30 02:51:25 sandyg added auto focuslost to
- * JTextFieldSelectAll. Removed focus lost checks on text fields in panels.
- * 
- * Revision 1.13.4.1 2005/11/01 02:36:02 sandyg Java5 update - using generics
- * 
- * Revision 1.13.2.1 2005/08/13 21:57:06 sandyg Version 4.3.1.03 - bugs 1215121,
- * 1226607, killed Java Web Start startup code
- * 
- * Revision 1.13 2004/04/10 20:49:38 sandyg Copyright year update
- * 
- * Revision 1.12 2003/05/07 01:17:06 sandyg removed unneeded method parameters
- * 
- * Revision 1.11 2003/04/27 21:35:35 sandyg more cleanup of unused variables...
- * ALL unit tests now working
- * 
- * Revision 1.10 2003/04/27 21:06:00 sandyg lots of cleanup, unit testing for
- * 4.1.1 almost complete
- * 
- * Revision 1.9 2003/04/23 00:30:21 sandyg added Time-based penalties
- * 
- * Revision 1.8 2003/04/20 15:43:59 sandyg added javascore.Constants to
- * consolidate penalty defs, and added new penaltys TIM (time value penalty) and
- * TMP (time percentage penalty)
- * 
- * Revision 1.7 2003/03/19 02:38:23 sandyg made start() stop() abstract to
- * BaseEditor, the isStarted check now done in BaseEditor.startUp and
- * BaseEditor.shutDown().
- * 
- * Revision 1.6 2003/01/04 17:39:32 sandyg Prefix/suffix overhaul
- * 
- */
+

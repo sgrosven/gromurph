@@ -385,6 +385,8 @@ public class ScoringLowPoint implements ScoringModel, Constants {
 			int nEntries) {
 		int nEntriesPlus1 = nEntries + 1;
 		
+		double dnfPoints = getPenaltyPoints(new Penalty(DNF), entryPointList, nEntries);
+		
 		if (p.hasPenalty(DNC) || p.hasPenalty(NOFINISH))
 			return nEntriesPlus1;
 
@@ -426,6 +428,11 @@ public class ScoringLowPoint implements ScoringModel, Constants {
 				break;
 			case TLE_FINISHERSPLUS2:
 				basePts = nFinishers + 2;
+				if (basePts > dnfPoints) basePts = dnfPoints;
+				break;
+			case TLE_FINISHERSPLUS2_MAXENTRIES:
+				basePts = nFinishers + 2;
+				if (basePts > nEntries) basePts = nEntries;
 				break;
 			case TLE_AVERAGE:
 				basePts = nFinishers + ((((double) nEntries) - nFinishers) / 2.0);
@@ -437,7 +444,7 @@ public class ScoringLowPoint implements ScoringModel, Constants {
 		}
 
 		// ADD in other non-finish penalties
-		double dnfPoints = getPenaltyPoints(new Penalty(DNF), entryPointList, basePts);
+		dnfPoints = getPenaltyPoints(new Penalty(DNF), entryPointList, basePts);
 		if (p.hasPenalty(CNF))
 			basePts = calculatePercent(fOptions.getCheckinPercent(), basePts, dnfPoints);
 		if (p.hasPenalty(ZFP))

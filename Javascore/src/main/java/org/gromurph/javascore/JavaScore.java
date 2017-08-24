@@ -103,10 +103,19 @@ import org.slf4j.LoggerFactory;
 public class JavaScore extends JFrame implements ActionListener, WindowListener {
 	private static final String SPLASH_GRAPHIC = "/images/SplashGraphic.jpg";
 	
+	// 7.5.5
+		// [DONE not checked in] add TLE+2 max a #entries
+		// [DONE] add UFD penalty
+		// "NoFin" should not be showing up in Finishdialog
+		//    - [sigh, cant replicate again, fixed?](wnr series 2 example)
+		//    - [FIXED] add new entry after scoring a race with a DNC - Finish dialog does not include enough rows 
+		//		initially (after that its ok)
+		// new regatta, one class, first entry - NO CREW Table
+		//		[cant replicate, sigh, could this be something fixed in latest java?]
 	// 7.5.4
 		// branch 7.5.3PctPenalty 
 			// DONE change 44.3(c) penalties to be based on DNF not number of entries (2017 RRS rule change)
-			// find/fix ghost DNC issue
+			
 	// 7.5.3  bug fixes
 		// branch = 7.5.2bug1
 			// 2017-2020 labeling - DONE 

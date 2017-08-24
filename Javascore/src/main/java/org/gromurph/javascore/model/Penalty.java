@@ -495,6 +495,8 @@ public class Penalty extends BaseObject implements Constants {
 			sb.append("OCS,");
 		if (pen == BFD)
 			sb.append("BFD,");
+		if (pen == UFD)
+			sb.append("UFD,");
 
 		pen = (inP.getPenalty() & Constants.OTHER_MASK);
 		if ((pen & CNF) != 0)
@@ -652,6 +654,8 @@ public class Penalty extends BaseObject implements Constants {
 		if (pen.equals("PMS"))
 			return new Penalty(OCS);
 
+		if (pen.equals("UFD"))
+			return new Penalty(UFD);
 		if (pen.equals("BFD"))
 			return new Penalty(BFD);
 		if (pen.equals("CNF"))

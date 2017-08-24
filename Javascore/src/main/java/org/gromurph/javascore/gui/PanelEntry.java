@@ -52,6 +52,7 @@ import org.gromurph.util.DialogBaseEditor;
 import org.gromurph.util.HelpManager;
 import org.gromurph.util.JTextFieldSelectAll;
 import org.gromurph.util.Person;
+import org.gromurph.util.Util;
 
 /**
  * The Entry class handles information related to a entry in a race, the combination of a boat, its crew, skipper
@@ -130,7 +131,9 @@ public class PanelEntry extends BaseEditor<Entry> implements ActionListener {
 		active.setSailId(backup.getBoat().getSailId());
 		try {
 			active.setDivision(backup.getDivision());
-		} catch (Exception ignore) {}
+		} catch (Exception ignored) {
+			Util.showError(ignored, true);
+		}
 
 		active.getSkipper().setFirst(backup.getSkipper().getFirst());
 		active.getSkipper().setLast(backup.getSkipper().getLast());
@@ -555,7 +558,9 @@ public class PanelEntry extends BaseEditor<Entry> implements ActionListener {
 		Entry e = new Entry();
 		try {
 			e.setDivision(div);
-		} catch (RatingOutOfBoundsException ex) {}
+		} catch (RatingOutOfBoundsException ex) {
+			Util.showError(ex, true);
+		}
 		e.getBoat().setName("blue baby");
 		e.setSailId(new SailId("1234"));
 

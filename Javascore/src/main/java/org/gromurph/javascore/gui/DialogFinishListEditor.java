@@ -647,6 +647,23 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 	public void setRounding(Race race, String markName) {
 		stop();
 		
+		if (fRace != race || fMarkName != markName) {
+			// clear out old race completely
+			updateFinishList( null);
+			setTitle(MessageFormat.format(res.getString("FinishTitle"), new Object[] { "No race" }));
+			fIsRounding = false;
+			
+			fUnfinishEntryRenderer.setRace( null);
+			fMarkName = null;
+
+			fFinishers = new FinishList();
+			fFinishModel = new FinishTableModel(fFinishers);
+			fTableFinished.setModel(fFinishModel);
+			
+			fModelUnFinished = new javax.swing.DefaultListModel<Entry>();// fUnFinishedEntries.getListModel();
+			fListUnFinished.setModel( fModelUnFinished);
+		}
+		
 		fRace = race;
 		fUnfinishEntryRenderer.setRace( fRace);
 		fMarkName = markName;
@@ -670,10 +687,6 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
     			rounders.syncWithEntries(fRace);
     			updateFinishList( rounders);
 			}
-		} else {
-			setTitle(MessageFormat.format(res.getString("FinishTitle"), new Object[] { "No race" }));
-			fIsRounding = false;
-			updateFinishList( null);			
 		}
 		
 		start();
@@ -713,6 +726,7 @@ public class DialogFinishListEditor extends JDialog implements ListSelectionList
 
 			// set the list of non finished entries
 			fFinishers.sortPosition();
+			int rc = fTableFinished.getRowCount();
 			unfinished.sortSailId();
 			for (Entry e : unfinished) fModelUnFinished.addElement(e);
 

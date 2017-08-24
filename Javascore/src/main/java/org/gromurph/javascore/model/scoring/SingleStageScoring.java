@@ -54,8 +54,13 @@ import org.gromurph.xml.PersistentNode;
 public class SingleStageScoring extends BaseObject 
 		implements RegattaScoringModel, StageScoringModel, Constants {
 	
+	public SingleStageScoring() {
+		this(null);
+	}
+
 	public SingleStageScoring( Regatta reg) {
 		super();
+		if (reg == null) reg = JavaScoreProperties.getRegatta();
 		setRegatta(reg);
 	}
 	

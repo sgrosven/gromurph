@@ -83,7 +83,9 @@ public abstract class BaseEditor<T extends BaseObjectModel> extends PanelStartSt
 			BaseObject backup = (BaseObject) backupM;
 			active.setLastModified(backup.getLastModified());
 			active.setCreateDate(backup.getCreateDate());
-		} catch (ClassCastException e) {} // do nothing
+		} catch (ClassCastException e) {
+			Util.showError(e, true);
+		} // do nothing
 	}
 
 	/**
@@ -128,7 +130,9 @@ public abstract class BaseEditor<T extends BaseObjectModel> extends PanelStartSt
 			if (fObjectBackup == null) {
 				try {
 					fObjectBackup = (T) obj.getClass().newInstance();
-				} catch (Exception e) {}
+				} catch (Exception e) {
+					logger.warn( "unable to make newinstance of object", e);
+				}
 			}
 
 			if (fObjectBackup != null) {

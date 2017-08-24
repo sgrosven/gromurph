@@ -82,18 +82,20 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 		sTimeLimitPenalties.add(res.getString("PenaltyDnePlus1"));
 		sTimeLimitPenalties.add(res.getString("PenaltyDnePlus2"));
 		sTimeLimitPenalties.add(res.getString("PenaltyDneAverage"));
+		sTimeLimitPenalties.add(res.getString("PenaltyTlePlus2MaxEntries"));
 
 		sTimeLimitMnemonics = new ArrayList<String>(5);
 		sTimeLimitMnemonics.add(res.getString("PenaltyDneDidNotFinishMnemonic"));
 		sTimeLimitMnemonics.add(res.getString("PenaltyDnePlus1Mnemonic"));
 		sTimeLimitMnemonics.add(res.getString("PenaltyDnePlus2Mnemonic"));
 		sTimeLimitMnemonics.add(res.getString("PenaltyDneAverageMnemonic"));
+		sTimeLimitMnemonics.add(res.getString("PenaltyTlePlus2MaxEntriesMnemonic"));
 	}
 
 	public PanelScoringOptions(BaseEditorContainer parent) {
 		super(parent);
 		addFields();
-		setPreferredSize(new Dimension(400, 260));
+		setPreferredSize(new Dimension(400, 300));
 	}
 
 	@Override public void setObject(StageScoringModel inObj) {
@@ -382,12 +384,13 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 
 		ButtonGroup groupTimeLimits = new ButtonGroup();
 		fRadioTimeLimits = new ArrayList<JRadioButton>(); // list of checkboxes
-		// for time limit
-		// selection
+		// for time limit selection
 		for (int i = 0; i < sTimeLimitPenalties.size(); i++) {
-			JRadioButton check = new JRadioButton(sTimeLimitPenalties.get(i));
-			check.setMnemonic(sTimeLimitMnemonics.get(i).charAt(0));
-			check.setName(sTimeLimitPenalties.get(i));
+			String tleName = sTimeLimitPenalties.get(i);
+			JRadioButton check = new JRadioButton(tleName);
+			char tleMne = sTimeLimitMnemonics.get(i).charAt(0);
+			check.setMnemonic(tleMne);
+			check.setName( tleName);
 			HelpManager.getInstance().registerHelpTopic(check, "lowpoint.fCheckTimeLimits");
 			groupTimeLimits.add(check);
 			fRadioTimeLimits.add(check);
@@ -827,6 +830,7 @@ public class PanelScoringOptions extends BaseEditor<StageScoringModel> implement
 	}
 
 	public static void main(String[] args) {
+		//Util.setTesting(true);
 		JavaScore.initializeEditors();
 
 		Regatta r = new Regatta();

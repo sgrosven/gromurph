@@ -17,6 +17,7 @@ import org.gromurph.javascore.JavaScoreProperties;
 import org.gromurph.javascore.model.Entry;
 import org.gromurph.util.JTextFieldSelectAll;
 import org.gromurph.util.Person;
+import org.gromurph.util.Util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -205,7 +206,8 @@ public class EntryCrewTable extends JTable implements FocusListener {
 					getModel().setValueAt( newText, row, col);
 				}
 			} catch (ClassCastException e) {
-				// hit unexpected exit from penalty field, lands here					
+				// hit unexpected exit from penalty field, lands here
+				Util.showError(e, true);
 			}
 			//editingStopped(null);
 			removeEditor();

@@ -65,6 +65,7 @@ public interface Constants {
     public final static long OCS = 0x00000004;
     public final static long BFD = 0x00000005; // added for 2001 rules
     public final static long DGM = 0x00000006; // disqualified, gross
+    public final static long UFD = 0x00000007; // U-flag DSQ RRS 30.2
 					       // misconduct, 2005 addition
 
     // Scoring penalties, these ARE BITWISE
@@ -140,6 +141,7 @@ public interface Constants {
 	public static final int TLE_FINISHERSPLUS1 = 1;
 	public static final int TLE_FINISHERSPLUS2 = 2;
 	public static final int TLE_AVERAGE = 3;
+	public static final int TLE_FINISHERSPLUS2_MAXENTRIES = 4;
 
 	public static final int TIE_RRS_DEFAULT = 1;
 	public static final int TIE_RRS_A82_ONLY = 2;
