@@ -11,7 +11,7 @@ import org.apache.tools.ant.filters.ReplaceTokens
 
 /* UPDATED THESE FOR EACH RELEASE!!! */
 version = '7.5.5'
-ext.releaseDate = '1 Sept 2017'
+ext.releaseDate = '17 Jul 2017'
 sourceCompatibility = 1.7
 
 ext.buildDir = "build"
